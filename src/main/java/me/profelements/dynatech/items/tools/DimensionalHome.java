@@ -8,7 +8,6 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
-import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
 import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.registries.Items;
@@ -50,12 +49,12 @@ public class DimensionalHome extends SlimefunItem {
                     if (chunkKey > 0) {
                         if (p.getLocation().getWorld() != DIM_HOME_WORLD) {
                             Location dimHomeLocation = new Location(DIM_HOME_WORLD, 16 * chunkKey + 8d, 65, 8);
-                            PaperLib.teleportAsync(p, dimHomeLocation);
+                            p.teleportAsync(dimHomeLocation);
                         } else {
                             if (p.getRespawnLocation() != null) {
-                                PaperLib.teleportAsync(p, p.getRespawnLocation());
+                                p.teleportAsync(p.getRespawnLocation());
                             } else {
-                                PaperLib.teleportAsync(p, Bukkit.getServer().getWorlds().get(0).getSpawnLocation());
+                                p.teleportAsync(Bukkit.getServer().getWorlds().get(0).getSpawnLocation());
                             }
                         }
                     } else {

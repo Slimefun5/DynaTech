@@ -16,7 +16,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
 import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
@@ -52,7 +51,7 @@ public class MineralizedApiary extends AbstractElectricMachine {
     
     @Override
     public void tick(BlockMenu menu, Block b) {
-        BlockState state = PaperLib.getBlockState(menu.getBlock(), false).getState(); 
+        BlockState state = menu.getBlock().getState(); 
         if (state instanceof Beehive hive) {
 
             int count = hive.getEntityCount();
@@ -78,7 +77,7 @@ public class MineralizedApiary extends AbstractElectricMachine {
 
         MachineRecipe recipe = recipes.get(0);
     
-        BlockState state = PaperLib.getBlockState(menu.getBlock(), false).getState(); 
+        BlockState state = menu.getBlock().getState(); 
         if (state instanceof Beehive hive) {
 
             int count = hive.getEntityCount();

@@ -6,7 +6,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 
-import io.github.bakedlibs.dough.collections.Pair;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
 import io.github.schntgaispock.gastronomicon.api.items.FoodItemStack;
 import io.github.schntgaispock.gastronomicon.core.slimefun.recipes.GastroRecipeType;
 import io.github.schntgaispock.gastronomicon.util.item.HeadTextures;

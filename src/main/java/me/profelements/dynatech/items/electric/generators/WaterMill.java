@@ -12,14 +12,13 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.bakedlibs.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetProvider;
 import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
 import io.github.thebusybiscuit.slimefun4.core.handlers.BlockPlaceHandler;
-import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.profelements.dynatech.DynaTech;
@@ -101,7 +100,7 @@ public class WaterMill extends SlimefunItem implements EnergyNetProvider {
         if (DynaTech.getInstance().getTickInterval() % 600 == 0 || (durability == 2500 && hasWater == false)) {
             if (durability > 0 && block.getType() == Material.COBBLESTONE_WALL
                     || block.getType() == Material.PRISMARINE_WALL) {
-                final BlockData data = PaperLib.getBlockState(block, false).getState().getBlockData();
+                final BlockData data = block.getState().getBlockData();
                 if (data instanceof Waterlogged wl && wl.isWaterlogged()) {
                     hasWaterMap.put(pos, true);
                     energyAmount = this.energyOutAmount;

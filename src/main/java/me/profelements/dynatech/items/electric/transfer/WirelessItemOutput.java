@@ -16,7 +16,6 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.Persis
 import io.github.thebusybiscuit.slimefun4.libraries.dough.inventory.InvUtils;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
 import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
@@ -190,7 +189,7 @@ public class WirelessItemOutput extends SlimefunItem implements EnergyNetCompone
         // twice.
         if (!wirelessItemInput.getWorld().isChunkLoaded(wirelessItemInput.getBlockX() >> 4,
                 wirelessItemInput.getBlockZ() >> 4)) {
-            CompletableFuture<Chunk> chunkLoad = PaperLib.getChunkAtAsync(wirelessItemInput);
+            CompletableFuture<Chunk> chunkLoad = wirelessItemInput.getWorld().getChunkAtAsync(wirelessItemInput);
             if (!chunkLoad.isDone()) {
                 return;
             }

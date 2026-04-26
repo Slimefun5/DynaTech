@@ -1,6 +1,6 @@
 package me.profelements.dynatech.items.backpacks;
 
-import io.github.bakedlibs.dough.collections.Pair;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemSetting;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;

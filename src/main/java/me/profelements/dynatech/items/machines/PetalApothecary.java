@@ -13,7 +13,7 @@ import org.bukkit.block.data.Levelled;
 import org.bukkit.entity.Item;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.bakedlibs.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
 import io.github.thebusybiscuit.slimefun4.api.events.PlayerRightClickEvent;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;

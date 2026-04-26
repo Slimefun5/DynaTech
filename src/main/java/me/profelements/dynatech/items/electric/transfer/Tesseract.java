@@ -1,6 +1,6 @@
 package me.profelements.dynatech.items.electric.transfer;
 
-import io.github.bakedlibs.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemHandler;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
@@ -11,7 +11,6 @@ import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
 import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
@@ -138,7 +137,7 @@ public class Tesseract extends SlimefunItem implements EnergyNetProvider {
         // you don't really want to possibly trigger the chunk to load in another thread
         // twice.
         if (!tesseractPair.getWorld().isChunkLoaded(tesseractPair.getBlockX() >> 4, tesseractPair.getBlockZ() >> 4)) {
-            CompletableFuture<Chunk> chunkLoad = PaperLib.getChunkAtAsync(tesseractPair);
+            CompletableFuture<Chunk> chunkLoad = tesseractPair.getWorld().getChunkAtAsync(tesseractPair);
             if (!chunkLoad.isDone()) {
                 return;
             }
@@ -175,7 +174,7 @@ public class Tesseract extends SlimefunItem implements EnergyNetProvider {
             // twice.
             if (!tesseractPair.getWorld().isChunkLoaded(tesseractPair.getBlockX() >> 4,
                     tesseractPair.getBlockZ() >> 4)) {
-                CompletableFuture<Chunk> chunkLoad = PaperLib.getChunkAtAsync(tesseractPair);
+                CompletableFuture<Chunk> chunkLoad = tesseractPair.getWorld().getChunkAtAsync(tesseractPair);
                 if (!chunkLoad.isDone()) {
                     return 0;
                 }

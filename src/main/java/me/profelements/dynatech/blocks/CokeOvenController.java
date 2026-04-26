@@ -18,16 +18,15 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.Vector;
 
-import io.github.bakedlibs.dough.blocks.BlockPosition;
-import io.github.bakedlibs.dough.collections.Pair;
-import io.github.bakedlibs.dough.items.ItemUtils;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
 import io.github.thebusybiscuit.slimefun4.api.events.PlayerRightClickEvent;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
 import io.github.thebusybiscuit.slimefun4.core.handlers.BlockUseHandler;
-import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
 import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
@@ -133,12 +132,12 @@ public class CokeOvenController extends SlimefunItem {
         Optional<Container> inputBarrelContainer = Optional.empty();
         Optional<Container> outputBarrelContainer = Optional.empty();
 
-        if (PaperLib.getBlockState(inputBarrel, false).getState() instanceof Container container) {
+        if (inputBarrel.getState() instanceof Container container) {
             inputBarrelContainer = Optional.of(container);
 
         }
 
-        if (PaperLib.getBlockState(outputBarrel, false).getState() instanceof Container oContainer) {
+        if (outputBarrel.getState() instanceof Container oContainer) {
             outputBarrelContainer = Optional.of(oContainer);
         }
 

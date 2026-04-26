@@ -7,7 +7,7 @@ import javax.annotation.Nullable;
 
 import com.google.common.base.Preconditions;
 
-import io.github.bakedlibs.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
 import io.github.thebusybiscuit.slimefun4.core.attributes.ItemAttribute;
 import io.github.thebusybiscuit.slimefun4.utils.NumberUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
