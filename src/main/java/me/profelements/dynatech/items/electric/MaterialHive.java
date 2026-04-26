@@ -211,7 +211,7 @@ public class MaterialHive extends AbstractElectricMachine implements Radioactive
             preset.addItem(slot, ChestMenuUtils.getOutputSlotTexture(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        preset.addItem(getProgressSlot(), new CustomItemStack(Material.BLACK_STAINED_GLASS_PANE, " "),
+        preset.addItem(getProgressSlot(), CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " "),
                 ChestMenuUtils.getEmptyClickHandler());
 
         for (int slot : getOutputSlots()) {

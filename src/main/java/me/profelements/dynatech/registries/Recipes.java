@@ -30,7 +30,7 @@ public class Recipes {
     private static final ItemStack DIAMOND = new ItemStack(Material.DIAMOND);
     private static final ItemStack DIAMOND_BLOCK = new ItemStack(Material.DIAMOND_BLOCK);
     private static final ItemStack CRYING_OBSIDIAN = new ItemStack(Material.CRYING_OBSIDIAN);
-    private static final ItemStack UNBREAKING_3_ENCHANTED_BOOK = new CustomItemStack(Material.ENCHANTED_BOOK, meta -> {
+    private static final ItemStack UNBREAKING_3_ENCHANTED_BOOK = CustomItemStack.create(Material.ENCHANTED_BOOK, meta -> {
         meta.addEnchant(Enchantment.UNBREAKING, 3, false);
     });
 
@@ -127,9 +127,9 @@ public class Recipes {
             .setKey(Keys.ANCIENT_MACHINE_CORE.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
-                    SlimefunItems.LEAD_INGOT, SlimefunItems.MAGIC_LUMP_1, SlimefunItems.LEAD_INGOT,
-                    SlimefunItems.MAGIC_LUMP_1, new ItemStack(Material.REDSTONE_BLOCK), SlimefunItems.MAGIC_LUMP_1,
-                    SlimefunItems.LEAD_INGOT, SlimefunItems.MAGIC_LUMP_1, SlimefunItems.LEAD_INGOT
+                    SlimefunItems.LEAD_INGOT.item(), SlimefunItems.MAGIC_LUMP_1.item(), SlimefunItems.LEAD_INGOT.item(),
+                    SlimefunItems.MAGIC_LUMP_1.item(), new ItemStack(Material.REDSTONE_BLOCK), SlimefunItems.MAGIC_LUMP_1.item(),
+                    SlimefunItems.LEAD_INGOT.item(), SlimefunItems.MAGIC_LUMP_1.item(), SlimefunItems.LEAD_INGOT.item()
             })
             .setOutput(Items.ANCIENT_MACHINE_CORE.stack())
             .register();
@@ -138,8 +138,8 @@ public class Recipes {
     public static final Recipe ENERGY_STORAGE_COMPONENT = Recipe.init()
             .setKey(Keys.ENERGY_STORAGE_COMPONENT.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
-            .setInput(new ItemStack[] { SlimefunItems.REDSTONE_ALLOY, GLASS, SlimefunItems.REDSTONE_ALLOY, GLASS,
-                    SlimefunItems.BATTERY, GLASS, Items.STAINLESS_STEEL_INGOT.stack(),
+            .setInput(new ItemStack[] { SlimefunItems.REDSTONE_ALLOY.item(), GLASS, SlimefunItems.REDSTONE_ALLOY.item(), GLASS,
+                    SlimefunItems.BATTERY.item(), GLASS, Items.STAINLESS_STEEL_INGOT.stack(),
                     Items.IRON_MACHINE_CORE.stack(),
                     Items.STAINLESS_STEEL_INGOT.stack() })
             .setOutput(Items.ENERGY_STORAGE_COMPONENT.stack())
@@ -149,9 +149,9 @@ public class Recipes {
     public static final Recipe ENERGY_INPUT_COMPONENT = Recipe.init()
             .setKey(Keys.ENERGY_INPUT_COMPONENT.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE).setInput(new ItemStack[] {
-                    SlimefunItems.REDSTONE_ALLOY, PINK_CONCRETE, SlimefunItems.REDSTONE_ALLOY,
-                    SlimefunItems.COPPER_WIRE, Items.IRON_MACHINE_CORE.stack(), SlimefunItems.COPPER_WIRE,
-                    SlimefunItems.REDSTONE_ALLOY, PINK_CONCRETE, SlimefunItems.REDSTONE_ALLOY,
+                    SlimefunItems.REDSTONE_ALLOY.item(), PINK_CONCRETE, SlimefunItems.REDSTONE_ALLOY.item(),
+                    SlimefunItems.COPPER_WIRE.item(), Items.IRON_MACHINE_CORE.stack(), SlimefunItems.COPPER_WIRE.item(),
+                    SlimefunItems.REDSTONE_ALLOY.item(), PINK_CONCRETE, SlimefunItems.REDSTONE_ALLOY.item(),
             }).setOutput(Items.ENERGY_INPUT_COMPONENT.stack())
             .register();
 
@@ -160,9 +160,9 @@ public class Recipes {
             .setKey(Keys.ENERGY_OUTPUT_COMPONENT.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.REDSTONE_ALLOY, CYAN_CONCRETE, SlimefunItems.REDSTONE_ALLOY,
-                    SlimefunItems.COPPER_WIRE, Items.IRON_MACHINE_CORE.stack(), SlimefunItems.COPPER_WIRE,
-                    SlimefunItems.REDSTONE_ALLOY, CYAN_CONCRETE, SlimefunItems.REDSTONE_ALLOY
+                    SlimefunItems.REDSTONE_ALLOY.item(), CYAN_CONCRETE, SlimefunItems.REDSTONE_ALLOY.item(),
+                    SlimefunItems.COPPER_WIRE.item(), Items.IRON_MACHINE_CORE.stack(), SlimefunItems.COPPER_WIRE.item(),
+                    SlimefunItems.REDSTONE_ALLOY.item(), CYAN_CONCRETE, SlimefunItems.REDSTONE_ALLOY.item()
             })
             .setOutput(Items.ENERGY_OUTPUT_COMPONENT.stack())
             .register();
@@ -331,7 +331,7 @@ public class Recipes {
             .setKey(Keys.EGG_MILL.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
-                    SlimefunItems.MAGIC_LUMP_3, END_STONE, SlimefunItems.MAGIC_LUMP_3,
+                    SlimefunItems.MAGIC_LUMP_3.item(), END_STONE, SlimefunItems.MAGIC_LUMP_3.item(),
                     CHORUS_FRUIT, Items.WOOD_MACHINE_CORE.stack(), CHORUS_FRUIT,
                     Items.ENERGY_OUTPUT_COMPONENT.stack(), END_STONE, Items.ENERGY_STORAGE_COMPONENT.stack(),
             })
@@ -343,9 +343,9 @@ public class Recipes {
             .setKey(Keys.EGG_MILL_REPAIR.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
-                    SlimefunItems.MAGIC_LUMP_1, END_STONE, SlimefunItems.MAGIC_LUMP_1,
+                    SlimefunItems.MAGIC_LUMP_1.item(), END_STONE, SlimefunItems.MAGIC_LUMP_1.item(),
                     CHORUS_FRUIT, Items.DEGRADED_EGG_MILL.stack(), CHORUS_FRUIT,
-                    SlimefunItems.MAGIC_LUMP_1, END_STONE, SlimefunItems.MAGIC_LUMP_1,
+                    SlimefunItems.MAGIC_LUMP_1.item(), END_STONE, SlimefunItems.MAGIC_LUMP_1.item(),
             })
             .setOutput(Items.EGG_MILL.stack())
             .register();
@@ -355,7 +355,7 @@ public class Recipes {
             .setKey(Keys.EGG_MILL_2.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
-                    SlimefunItems.MAGIC_LUMP_3, END_STONE, SlimefunItems.MAGIC_LUMP_3,
+                    SlimefunItems.MAGIC_LUMP_3.item(), END_STONE, SlimefunItems.MAGIC_LUMP_3.item(),
                     CHORUS_FRUIT, Items.WOOD_MACHINE_CORE.stack(), CHORUS_FRUIT,
                     Items.EGG_MILL.stack(), END_STONE, Items.EGG_MILL.stack(),
             })
@@ -367,9 +367,9 @@ public class Recipes {
             .setKey(Keys.EGG_MILL_2_REPAIR.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
-                    SlimefunItems.MAGIC_LUMP_1, END_STONE, SlimefunItems.MAGIC_LUMP_1,
+                    SlimefunItems.MAGIC_LUMP_1.item(), END_STONE, SlimefunItems.MAGIC_LUMP_1.item(),
                     CHORUS_FRUIT, Items.DEGRADED_EGG_MILL_2.stack(), CHORUS_FRUIT,
-                    SlimefunItems.MAGIC_LUMP_1, END_STONE, SlimefunItems.MAGIC_LUMP_1,
+                    SlimefunItems.MAGIC_LUMP_1.item(), END_STONE, SlimefunItems.MAGIC_LUMP_1.item(),
             })
             .setOutput(Items.EGG_MILL_2.stack())
             .register();
@@ -383,8 +383,8 @@ public class Recipes {
             .setKey(Keys.STAINLESS_STEEL_INGOT.key())
             .setRecipeType(RecipeType.SMELTERY)
             .setInput(new ItemStack[] {
-                    SlimefunItems.STEEL_INGOT, SlimefunItems.IRON_DUST, SlimefunItems.ZINC_DUST,
-                    SlimefunItems.CARBON,
+                    SlimefunItems.STEEL_INGOT.item(), SlimefunItems.IRON_DUST.item(), SlimefunItems.ZINC_DUST.item(),
+                    SlimefunItems.CARBON.item(),
             })
             .setOutput(Items.STAINLESS_STEEL_INGOT.stack())
             .register();
@@ -431,7 +431,7 @@ public class Recipes {
     public static final Recipe BEE = Recipe.init()
             .setKey(Keys.BEE.key())
             .setRecipeType(RecipeTypes.SCOOPING)
-            .setInput(new CustomItemStack(
+            .setInput(CustomItemStack.create(
                     PlayerHead.getItemStack(PlayerSkin.fromHashCode(
                             "12724a9a4cdd68ba49415560e5be40b4a1c47cb5be1d66aedb52a30e62ef2d47")),
                     "&aAny Bee"))
@@ -442,11 +442,11 @@ public class Recipes {
             .setKey(Keys.ROBOTIC_BEE.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.REINFORCED_ALLOY_INGOT, SlimefunItems.REINFORCED_ALLOY_INGOT,
-                    SlimefunItems.REINFORCED_ALLOY_INGOT,
-                    SlimefunItems.SYNTHETIC_SAPPHIRE, Items.MACHINE_SCRAP.stack(), SlimefunItems.SYNTHETIC_SAPPHIRE,
-                    SlimefunItems.REINFORCED_ALLOY_INGOT, Items.ANCIENT_MACHINE_CORE.stack(),
-                    SlimefunItems.REINFORCED_ALLOY_INGOT
+                    SlimefunItems.REINFORCED_ALLOY_INGOT.item(), SlimefunItems.REINFORCED_ALLOY_INGOT.item(),
+                    SlimefunItems.REINFORCED_ALLOY_INGOT.item(),
+                    SlimefunItems.SYNTHETIC_SAPPHIRE.item(), Items.MACHINE_SCRAP.stack(), SlimefunItems.SYNTHETIC_SAPPHIRE.item(),
+                    SlimefunItems.REINFORCED_ALLOY_INGOT.item(), Items.ANCIENT_MACHINE_CORE.stack(),
+                    SlimefunItems.REINFORCED_ALLOY_INGOT.item()
             })
             .setOutput(Items.ROBOTIC_BEE.stack())
             .register();
@@ -455,9 +455,9 @@ public class Recipes {
             .setKey(Keys.ADVANCED_ROBOTIC_BEE.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.REINFORCED_PLATE, SlimefunItems.REINFORCED_PLATE, SlimefunItems.REINFORCED_PLATE,
+                    SlimefunItems.REINFORCED_PLATE.item(), SlimefunItems.REINFORCED_PLATE.item(), SlimefunItems.REINFORCED_PLATE.item(),
                     Items.VEX_GEM.stack(), Items.ADVANCED_MACHINE_SCRAP.stack(), Items.VEX_GEM.stack(),
-                    SlimefunItems.GOLD_24K_BLOCK, Items.ANCIENT_MACHINE_CORE.stack(), SlimefunItems.GOLD_24K_BLOCK
+                    SlimefunItems.GOLD_24K_BLOCK.item(), Items.ANCIENT_MACHINE_CORE.stack(), SlimefunItems.GOLD_24K_BLOCK.item()
             })
             .setOutput(Items.ADVANCED_ROBOTIC_BEE.stack())
             .register();
@@ -465,7 +465,7 @@ public class Recipes {
     public static final Recipe MACHINE_SCRAP = Recipe.init()
             .setKey(Keys.MACHINE_SCRAP.key())
             .setRecipeType(RecipeType.GRIND_STONE)
-            .setInput(SlimefunItems.PROGRAMMABLE_ANDROID)
+            .setInput(SlimefunItems.PROGRAMMABLE_ANDROID.item())
             .setOutput(Items.MACHINE_SCRAP.stack(), 8)
             .register();
 
@@ -473,22 +473,22 @@ public class Recipes {
 
             .setKey(Keys.ADVANCED_MACHINE_SCRAP.key())
             .setRecipeType(RecipeType.GRIND_STONE)
-            .setInput(SlimefunItems.PROGRAMMABLE_ANDROID_2)
+            .setInput(SlimefunItems.PROGRAMMABLE_ANDROID_2.item())
             .setOutput(Items.ADVANCED_MACHINE_SCRAP.stack(), 8)
             .register();
 
     public static final Recipe VEX_GEM = Recipe.init()
             .setKey(Keys.VEX_GEM.key())
             .setRecipeType(RecipeType.MOB_DROP)
-            .setInput(new ItemStack[] { null, null, null, null, new CustomItemStack(PlayerHead.getItemStack(PlayerSkin
+            .setInput(new ItemStack[] { null, null, null, null, CustomItemStack.create(PlayerHead.getItemStack(PlayerSkin
                     .fromHashCode("c2ec5a516617ff1573cd2f9d5f3969f56d5575c4ff4efefabd2a18dc7ab98cd")),
                     "&aVex") })
             .setOutput(Items.VEX_GEM.stack()).register();
 
     public static final Recipe VEX_GEM_ALT = Recipe.init().setKey(Keys.VEX_GEM_ALT.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
-            .setInput(new ItemStack[] { null, SlimefunItems.SYNTHETIC_SAPPHIRE, null,
-                    new ItemStack(Material.PHANTOM_MEMBRANE), SlimefunItems.MAGIC_LUMP_3,
+            .setInput(new ItemStack[] { null, SlimefunItems.SYNTHETIC_SAPPHIRE.item(), null,
+                    new ItemStack(Material.PHANTOM_MEMBRANE), SlimefunItems.MAGIC_LUMP_3.item(),
                     new ItemStack(Material.PHANTOM_MEMBRANE),
                     Items.STAR_DUST.stack(), Items.STAR_DUST.stack(), Items.STAR_DUST.stack() })
             .setOutput(Items.VEX_GEM.stack())
@@ -497,7 +497,7 @@ public class Recipes {
     public static final Recipe GHOSTLY_ESSENCE = Recipe.init()
             .setKey(Keys.GHOSTLY_ESSENCE.key())
             .setRecipeType(RecipeType.MOB_DROP)
-            .setInput(new ItemStack[] { null, null, null, null, new CustomItemStack(PlayerHead.getItemStack(PlayerSkin
+            .setInput(new ItemStack[] { null, null, null, null, CustomItemStack.create(PlayerHead.getItemStack(PlayerSkin
                     .fromHashCode("c2ec5a516617ff1573cd2f9d5f3969f56d5575c4ff4efefabd2a18dc7ab98cd")),
                     "&aVex") })
             .setOutput(Items.GHOSTLY_ESSENCE.stack()).register();
@@ -506,9 +506,9 @@ public class Recipes {
             .setKey(Keys.TESSERACTING_OBJ.key())
             .setRecipeType(RecipeType.ANCIENT_ALTAR)
             .setInput(new ItemStack[] {
-                    Items.GHOSTLY_ESSENCE.stack(), SlimefunItems.ENDER_RUNE, Items.VEX_GEM.stack(),
-                    SlimefunItems.ENDER_RUNE, new ItemStack(Material.WITHER_ROSE), SlimefunItems.ENDER_RUNE,
-                    Items.VEX_GEM.stack(), SlimefunItems.ENDER_RUNE, Items.GHOSTLY_ESSENCE.stack()
+                    Items.GHOSTLY_ESSENCE.stack(), SlimefunItems.ENDER_RUNE.item(), Items.VEX_GEM.stack(),
+                    SlimefunItems.ENDER_RUNE.item(), new ItemStack(Material.WITHER_ROSE), SlimefunItems.ENDER_RUNE.item(),
+                    Items.VEX_GEM.stack(), SlimefunItems.ENDER_RUNE.item(), Items.GHOSTLY_ESSENCE.stack()
             })
             .setOutput(Items.TESSERACTING_OBJ.stack())
             .register();
@@ -537,9 +537,9 @@ public class Recipes {
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
                     Items.STAINLESS_STEEL_INGOT.stack(), null, Items.STAINLESS_STEEL_INGOT.stack(),
-                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.FOOD_FABRICATOR,
+                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.FOOD_FABRICATOR.item(),
                     Items.STAINLESS_STEEL_INGOT.stack(),
-                    SlimefunItems.PLASTIC_SHEET, SlimefunItems.PLASTIC_SHEET, SlimefunItems.PLASTIC_SHEET
+                    SlimefunItems.PLASTIC_SHEET.item(), SlimefunItems.PLASTIC_SHEET.item(), SlimefunItems.PLASTIC_SHEET.item()
 
             })
             .setOutput(Items.ELECTRICAL_STIMULATOR.stack())
@@ -559,10 +559,10 @@ public class Recipes {
             .setKey(Keys.AUTO_OUTPUT_UPGRADE.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.CARGO_MOTOR,
+                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.CARGO_MOTOR.item(),
                     Items.STAINLESS_STEEL_INGOT.stack(),
                     GLASS, GLASS, GLASS,
-                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.CARGO_MOTOR,
+                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.CARGO_MOTOR.item(),
                     Items.STAINLESS_STEEL_INGOT.stack(),
             })
             .setOutput(Items.AUTO_OUTPUT_UPGRADE.stack())
@@ -572,10 +572,10 @@ public class Recipes {
             .setKey(Keys.AUTO_INPUT_UPGRADE.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.CARGO_MOTOR,
+                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.CARGO_MOTOR.item(),
                     Items.STAINLESS_STEEL_INGOT.stack(),
                     new ItemStack(Material.HOPPER), new ItemStack(Material.HOPPER), new ItemStack(Material.HOPPER),
-                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.CARGO_MOTOR,
+                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.CARGO_MOTOR.item(),
                     Items.STAINLESS_STEEL_INGOT.stack(),
             })
             .setOutput(Items.AUTO_INPUT_UPGRADE.stack())
@@ -585,9 +585,9 @@ public class Recipes {
             .setKey(Keys.PICNIC_BASKET.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.CLOTH, SlimefunItems.CLOTH, SlimefunItems.CLOTH,
-                    new ItemStack(Material.BAMBOO), SlimefunItems.COOLER, new ItemStack(Material.BAMBOO),
-                    SlimefunItems.HEATING_COIL, new ItemStack(Material.BAMBOO), SlimefunItems.COOLING_UNIT })
+                    SlimefunItems.CLOTH.item(), SlimefunItems.CLOTH.item(), SlimefunItems.CLOTH.item(),
+                    new ItemStack(Material.BAMBOO), SlimefunItems.COOLER.item(), new ItemStack(Material.BAMBOO),
+                    SlimefunItems.HEATING_COIL.item(), new ItemStack(Material.BAMBOO), SlimefunItems.COOLING_UNIT.item() })
             .setOutput(Items.PICNIC_BASKET.stack())
             .register();
 
@@ -595,10 +595,10 @@ public class Recipes {
             .setKey(Keys.SOUL_BOUND_PICNIC_BASKET.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
-                    new ItemStack(Material.CRYING_OBSIDIAN), SlimefunItems.ENDER_RUNE,
+                    new ItemStack(Material.CRYING_OBSIDIAN), SlimefunItems.ENDER_RUNE.item(),
                     new ItemStack(Material.CRYING_OBSIDIAN),
-                    SlimefunItems.ENDER_RUNE, Items.PICNIC_BASKET.stack(), SlimefunItems.ENDER_RUNE,
-                    new ItemStack(Material.CRYING_OBSIDIAN), SlimefunItems.ENDER_RUNE,
+                    SlimefunItems.ENDER_RUNE.item(), Items.PICNIC_BASKET.stack(), SlimefunItems.ENDER_RUNE.item(),
+                    new ItemStack(Material.CRYING_OBSIDIAN), SlimefunItems.ENDER_RUNE.item(),
                     new ItemStack(Material.CRYING_OBSIDIAN)
             })
             .setOutput(Items.SOUL_BOUND_PICNIC_BASKET.stack())
@@ -607,11 +607,11 @@ public class Recipes {
     public static final Recipe ANGEL_GEM = Recipe.init()
             .setKey(Keys.ANGEL_GEM.key())
             .setRecipeType(RecipeType.ANCIENT_ALTAR)
-            .setInput(new ItemStack[] { new ItemStack(Material.NETHERITE_INGOT), SlimefunItems.NUCLEAR_REACTOR,
+            .setInput(new ItemStack[] { new ItemStack(Material.NETHERITE_INGOT), SlimefunItems.NUCLEAR_REACTOR.item(),
                     new ItemStack(Material.NETHERITE_INGOT),
-                    SlimefunItems.GOLD_24K_BLOCK, Items.VEX_GEM.stack(), SlimefunItems.GOLD_24K_BLOCK,
-                    SlimefunItems.BLISTERING_INGOT_3, Items.STAINLESS_STEEL_ROTOR.stack(),
-                    SlimefunItems.BLISTERING_INGOT_3
+                    SlimefunItems.GOLD_24K_BLOCK.item(), Items.VEX_GEM.stack(), SlimefunItems.GOLD_24K_BLOCK.item(),
+                    SlimefunItems.BLISTERING_INGOT_3.item(), Items.STAINLESS_STEEL_ROTOR.stack(),
+                    SlimefunItems.BLISTERING_INGOT_3.item()
             })
             .setOutput(Items.ANGEL_GEM.stack())
             .register();
@@ -621,7 +621,7 @@ public class Recipes {
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] { new ItemStack(Material.WHITE_WOOL), new ItemStack(Material.WHITE_WOOL),
                     new ItemStack(Material.WHITE_WOOL),
-                    new ItemStack(Material.WHITE_WOOL), SlimefunItems.BATTERY, new ItemStack(Material.WHITE_WOOL),
+                    new ItemStack(Material.WHITE_WOOL), SlimefunItems.BATTERY.item(), new ItemStack(Material.WHITE_WOOL),
                     null, new ItemStack(Material.STICK), null
             })
             .setOutput(Items.SCOOP.stack())
@@ -631,9 +631,9 @@ public class Recipes {
             .setKey(Keys.DIMENSIONAL_HOME.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
-                    null, null, SlimefunItems.GOLD_24K_BLOCK,
-                    SlimefunItems.BRONZE_INGOT, new ItemStack(Material.BLAZE_ROD), null,
-                    SlimefunItems.SYNTHETIC_SAPPHIRE, SlimefunItems.BRONZE_INGOT, null
+                    null, null, SlimefunItems.GOLD_24K_BLOCK.item(),
+                    SlimefunItems.BRONZE_INGOT.item(), new ItemStack(Material.BLAZE_ROD), null,
+                    SlimefunItems.SYNTHETIC_SAPPHIRE.item(), SlimefunItems.BRONZE_INGOT.item(), null
 
             })
             .setOutput(Items.DIMENSIONAL_HOME.stack())
@@ -643,9 +643,9 @@ public class Recipes {
             .setKey(Keys.ITEM_BAND_HASTE.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
-                    SlimefunItems.COBALT_PICKAXE, new ItemStack(Material.NETHER_STAR), SlimefunItems.COBALT_PICKAXE,
+                    SlimefunItems.COBALT_PICKAXE.item(), new ItemStack(Material.NETHER_STAR), SlimefunItems.COBALT_PICKAXE.item(),
                     new ItemStack(Material.NETHER_STAR), Items.VEX_GEM.stack(), new ItemStack(Material.NETHER_STAR),
-                    SlimefunItems.COBALT_PICKAXE, new ItemStack(Material.NETHER_STAR), SlimefunItems.COBALT_PICKAXE
+                    SlimefunItems.COBALT_PICKAXE.item(), new ItemStack(Material.NETHER_STAR), SlimefunItems.COBALT_PICKAXE.item()
 
             })
             .setOutput(Items.ITEM_BAND_HASTE.stack())
@@ -679,9 +679,9 @@ public class Recipes {
             .setKey(Keys.KITCHEN_AUTO_CRAFTER.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    new ItemStack(Material.BRICK), SlimefunItems.ELECTRIC_FURNACE,
+                    new ItemStack(Material.BRICK), SlimefunItems.ELECTRIC_FURNACE.item(),
                     new ItemStack(Material.BRICK),
-                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.GOLD_24K_BLOCK,
+                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.GOLD_24K_BLOCK.item(),
                     Items.STAINLESS_STEEL_INGOT.stack(),
                     new ItemStack(Material.TERRACOTTA), new ItemStack(Material.TERRACOTTA),
                     new ItemStack(Material.TERRACOTTA),
@@ -695,11 +695,11 @@ public class Recipes {
 
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.HARDENED_GLASS, SlimefunItems.TREE_GROWTH_ACCELERATOR,
-                    SlimefunItems.HARDENED_GLASS,
+                    SlimefunItems.HARDENED_GLASS.item(), SlimefunItems.TREE_GROWTH_ACCELERATOR.item(),
+                    SlimefunItems.HARDENED_GLASS.item(),
                     new ItemStack(Material.BONE_BLOCK), new ItemStack(Material.GRASS_BLOCK),
                     new ItemStack(Material.BONE_BLOCK),
-                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.CROP_GROWTH_ACCELERATOR_2,
+                    Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.CROP_GROWTH_ACCELERATOR_2.item(),
                     Items.STAINLESS_STEEL_INGOT.stack()
 
             })
@@ -710,10 +710,10 @@ public class Recipes {
             .setKey(Keys.GROWTH_CHAMBER_MK2.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.STEEL_PLATE, Items.GROWTH_CHAMBER.stack(), SlimefunItems.STEEL_PLATE,
+                    SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER.stack(), SlimefunItems.STEEL_PLATE.item(),
                     new ItemStack(Material.GRASS_BLOCK), new ItemStack(Material.LIME_STAINED_GLASS),
                     new ItemStack(Material.SAND),
-                    SlimefunItems.STEEL_PLATE, Items.GROWTH_CHAMBER.stack(), SlimefunItems.STEEL_PLATE
+                    SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER.stack(), SlimefunItems.STEEL_PLATE.item()
 
             })
             .setOutput(Items.GROWTH_CHAMBER_MK2.stack())
@@ -723,10 +723,10 @@ public class Recipes {
             .setKey(Keys.GROWTH_CHAMBER_END.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.STEEL_PLATE, Items.GROWTH_CHAMBER_END.stack(), SlimefunItems.STEEL_PLATE,
+                    SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_END.stack(), SlimefunItems.STEEL_PLATE.item(),
                     new ItemStack(Material.PURPUR_PILLAR), new ItemStack(Material.PURPLE_STAINED_GLASS),
                     new ItemStack(Material.END_STONE_BRICKS),
-                    SlimefunItems.STEEL_PLATE, Items.GROWTH_CHAMBER_END.stack(), SlimefunItems.STEEL_PLATE
+                    SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_END.stack(), SlimefunItems.STEEL_PLATE.item()
 
             })
             .setOutput(Items.GROWTH_CHAMBER_END.stack())
@@ -736,10 +736,10 @@ public class Recipes {
             .setKey(Keys.GROWTH_CHAMBER_MK2_END.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.STEEL_PLATE, Items.GROWTH_CHAMBER_END.stack(), SlimefunItems.STEEL_PLATE,
+                    SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_END.stack(), SlimefunItems.STEEL_PLATE.item(),
                     new ItemStack(Material.PURPUR_PILLAR), new ItemStack(Material.PURPLE_STAINED_GLASS),
                     new ItemStack(Material.END_STONE_BRICKS),
-                    SlimefunItems.STEEL_PLATE, Items.GROWTH_CHAMBER_END.stack(), SlimefunItems.STEEL_PLATE
+                    SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_END.stack(), SlimefunItems.STEEL_PLATE.item()
 
             })
             .setOutput(Items.GROWTH_CHAMBER_MK2_END.stack())
@@ -749,8 +749,8 @@ public class Recipes {
             .setKey(Keys.GROWTH_CHAMBER_NETHER.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.HARDENED_GLASS, new ItemStack(Material.RED_STAINED_GLASS),
-                    SlimefunItems.HARDENED_GLASS,
+                    SlimefunItems.HARDENED_GLASS.item(), new ItemStack(Material.RED_STAINED_GLASS),
+                    SlimefunItems.HARDENED_GLASS.item(),
                     new ItemStack(Material.CRIMSON_NYLIUM), new ItemStack(Material.SOUL_SAND),
                     new ItemStack(Material.WARPED_NYLIUM),
                     Items.STAINLESS_STEEL_INGOT.stack(), Items.GROWTH_CHAMBER.stack(),
@@ -763,10 +763,10 @@ public class Recipes {
             .setKey(Keys.GROWTH_CHAMBER_MK2_NETHER.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.STEEL_PLATE, Items.GROWTH_CHAMBER_NETHER.stack(), SlimefunItems.STEEL_PLATE,
+                    SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_NETHER.stack(), SlimefunItems.STEEL_PLATE.item(),
                     new ItemStack(Material.CRIMSON_NYLIUM), new ItemStack(Material.SOUL_SAND),
                     new ItemStack(Material.WARPED_NYLIUM),
-                    SlimefunItems.STEEL_PLATE, Items.GROWTH_CHAMBER_NETHER.stack(), SlimefunItems.STEEL_PLATE
+                    SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_NETHER.stack(), SlimefunItems.STEEL_PLATE.item()
 
             })
             .setOutput(Items.GROWTH_CHAMBER_MK2_NETHER.stack())
@@ -776,8 +776,8 @@ public class Recipes {
             .setKey(Keys.GROWTH_CHAMBER_OCEAN.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.HARDENED_GLASS, new ItemStack(Material.CYAN_STAINED_GLASS),
-                    SlimefunItems.HARDENED_GLASS,
+                    SlimefunItems.HARDENED_GLASS.item(), new ItemStack(Material.CYAN_STAINED_GLASS),
+                    SlimefunItems.HARDENED_GLASS.item(),
                     new ItemStack(Material.WATER_BUCKET), new ItemStack(Material.SAND),
                     new ItemStack(Material.WATER_BUCKET),
                     Items.STAINLESS_STEEL_INGOT.stack(), Items.GROWTH_CHAMBER.stack(),
@@ -790,10 +790,10 @@ public class Recipes {
 
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.STEEL_PLATE, Items.GROWTH_CHAMBER_OCEAN.stack(), SlimefunItems.STEEL_PLATE,
+                    SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_OCEAN.stack(), SlimefunItems.STEEL_PLATE.item(),
                     new ItemStack(Material.GRAVEL), new ItemStack(Material.LIGHT_BLUE_STAINED_GLASS),
                     new ItemStack(Material.DIRT),
-                    SlimefunItems.STEEL_PLATE, Items.GROWTH_CHAMBER_OCEAN.stack(), SlimefunItems.STEEL_PLATE
+                    SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_OCEAN.stack(), SlimefunItems.STEEL_PLATE.item()
 
             })
             .setOutput(Items.GROWTH_CHAMBER_MK2_OCEAN.stack())
@@ -803,12 +803,12 @@ public class Recipes {
             .setKey(Keys.ANTIGRAVITY_BUBBLE.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.BLISTERING_INGOT_3, new ItemStack(Material.DIAMOND_BLOCK),
-                    SlimefunItems.BLISTERING_INGOT_3,
-                    SlimefunItems.REINFORCED_ALLOY_INGOT, SlimefunItems.BIG_CAPACITOR,
-                    SlimefunItems.REINFORCED_ALLOY_INGOT,
-                    SlimefunItems.REINFORCED_ALLOY_INGOT, Items.STAINLESS_STEEL_INGOT.stack(),
-                    SlimefunItems.REINFORCED_ALLOY_INGOT,
+                    SlimefunItems.BLISTERING_INGOT_3.item(), new ItemStack(Material.DIAMOND_BLOCK),
+                    SlimefunItems.BLISTERING_INGOT_3.item(),
+                    SlimefunItems.REINFORCED_ALLOY_INGOT.item(), SlimefunItems.BIG_CAPACITOR.item(),
+                    SlimefunItems.REINFORCED_ALLOY_INGOT.item(),
+                    SlimefunItems.REINFORCED_ALLOY_INGOT.item(), Items.STAINLESS_STEEL_INGOT.stack(),
+                    SlimefunItems.REINFORCED_ALLOY_INGOT.item(),
             })
             .setOutput(Items.ANTIGRAVITY_BUBBLE.stack())
             .register();
@@ -817,7 +817,7 @@ public class Recipes {
             .setKey(Keys.WEATHER_CONTROLLER.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    null, SlimefunItems.HARDENED_METAL_INGOT, null,
+                    null, SlimefunItems.HARDENED_METAL_INGOT.item(), null,
                     new ItemStack(Material.WATER_BUCKET), Items.ANCIENT_MACHINE_CORE.stack(),
                     new ItemStack(Material.LAVA_BUCKET),
                     Items.STAINLESS_STEEL_INGOT.stack(), new ItemStack(Material.CRYING_OBSIDIAN),
@@ -834,7 +834,7 @@ public class Recipes {
                     new ItemStack(Material.BREWING_STAND), null, new ItemStack(Material.BREWING_STAND),
                     new ItemStack(Material.IRON_BARS), Items.ANCIENT_MACHINE_CORE.stack(),
                     new ItemStack(Material.IRON_BARS),
-                    SlimefunItems.FERROSILICON, SlimefunItems.FERROSILICON, SlimefunItems.FERROSILICON
+                    SlimefunItems.FERROSILICON.item(), SlimefunItems.FERROSILICON.item(), SlimefunItems.FERROSILICON.item()
             })
             .setOutput(Items.POTION_SPRINKLER.stack())
             .register();
@@ -847,7 +847,7 @@ public class Recipes {
                     new ItemStack(Material.IRON_SWORD),
                     Items.STAINLESS_STEEL_INGOT.stack(), new ItemStack(Material.OAK_LOG),
                     Items.STAINLESS_STEEL_INGOT.stack(),
-                    SlimefunItems.ZINC_INGOT, SlimefunItems.ZINC_INGOT, SlimefunItems.ZINC_INGOT
+                    SlimefunItems.ZINC_INGOT.item(), SlimefunItems.ZINC_INGOT.item(), SlimefunItems.ZINC_INGOT.item()
 
             })
             .setOutput(Items.BARBED_WIRE.stack())
@@ -857,10 +857,10 @@ public class Recipes {
             .setKey(Keys.MATERIAL_HIVE.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.HARDENED_METAL_INGOT, SlimefunItems.SYNTHETIC_DIAMOND,
-                    SlimefunItems.HARDENED_METAL_INGOT,
-                    SlimefunItems.HARDENED_METAL_INGOT, new ItemStack(Material.BEEHIVE),
-                    SlimefunItems.HARDENED_METAL_INGOT,
+                    SlimefunItems.HARDENED_METAL_INGOT.item(), SlimefunItems.SYNTHETIC_DIAMOND.item(),
+                    SlimefunItems.HARDENED_METAL_INGOT.item(),
+                    SlimefunItems.HARDENED_METAL_INGOT.item(), new ItemStack(Material.BEEHIVE),
+                    SlimefunItems.HARDENED_METAL_INGOT.item(),
                     Items.ADVANCED_MACHINE_SCRAP.stack(), Items.MACHINE_SCRAP.stack(),
                     Items.ADVANCED_MACHINE_SCRAP.stack()
 
@@ -872,9 +872,9 @@ public class Recipes {
             .setKey(Keys.WIRELESS_CHARGER.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    null, SlimefunItems.GPS_TRANSMITTER, null,
-                    SlimefunItems.GOLD_24K, SlimefunItems.CHARGING_BENCH, SlimefunItems.GOLD_24K,
-                    null, SlimefunItems.SMALL_CAPACITOR, null
+                    null, SlimefunItems.GPS_TRANSMITTER.item(), null,
+                    SlimefunItems.GOLD_24K.item(), SlimefunItems.CHARGING_BENCH.item(), SlimefunItems.GOLD_24K.item(),
+                    null, SlimefunItems.SMALL_CAPACITOR.item(), null
             })
             .setOutput(Items.WIRELESS_CHARGER.stack())
             .register();
@@ -883,7 +883,7 @@ public class Recipes {
             .setKey(Keys.SEED_PLUCKER.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.HARDENED_GLASS, Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.HARDENED_GLASS,
+                    SlimefunItems.HARDENED_GLASS.item(), Items.STAINLESS_STEEL_INGOT.stack(), SlimefunItems.HARDENED_GLASS.item(),
                     new ItemStack(Material.BONE_BLOCK), null, new ItemStack(Material.BONE_BLOCK),
                     Items.STAINLESS_STEEL_INGOT.stack(), new ItemStack(Material.SHEARS),
                     Items.STAINLESS_STEEL_INGOT.stack()

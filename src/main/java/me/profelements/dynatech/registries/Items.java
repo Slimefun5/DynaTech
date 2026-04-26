@@ -276,7 +276,7 @@ public class Items {
     // START Tools
     public static final ItemWrapper ELECTRICAL_STIMULATOR = ItemWrapper.create(Keys.ELECTRICAL_STIMULATOR,
             new SlimefunItemStack(Keys.ELECTRICAL_STIMULATOR.asSlimefunId(),
-                    new CustomItemStack(PlayerHead.getItemStack(
+                    CustomItemStack.create(PlayerHead.getItemStack(
                             PlayerSkin
                                     .fromHashCode("82a319cf66a4de12e3330e8bc4c82c985ccc3cb2230868c336a88fc4a22082a"))),
                     "&6Electrical Stimulator",
@@ -342,7 +342,7 @@ public class Items {
 
     public static final ItemWrapper PICNIC_BASKET = ItemWrapper.create(Keys.PICNIC_BASKET,
             new SlimefunItemStack(Keys.PICNIC_BASKET.asSlimefunId(),
-                    new CustomItemStack(PlayerHead.getItemStack(
+                    CustomItemStack.create(PlayerHead.getItemStack(
                             PlayerSkin.fromHashCode("7a6bf916e28ccb80b4ebfacf98686ad6af7c4fb257e57a8cb78c71d19dccb2"))),
                     "&6Picnic Basket",
                     "",
@@ -358,7 +358,7 @@ public class Items {
 
     public static final ItemWrapper SOUL_BOUND_PICNIC_BASKET = ItemWrapper.create(Keys.SOUL_BOUND_PICNIC_BASKET,
             new SlimefunItemStack(Keys.SOUL_BOUND_PICNIC_BASKET.asSlimefunId(),
-                    new CustomItemStack(PlayerHead.getItemStack(
+                    CustomItemStack.create(PlayerHead.getItemStack(
                             PlayerSkin.fromHashCode("7a6bf916e28ccb80b4ebfacf98686ad6af7c4fb257e57a8cb78c71d19dccb2"))),
                     "&6Soulbound Picnic Basket",
                     "",
@@ -387,7 +387,7 @@ public class Items {
 
     public static final ItemWrapper DIMENSIONAL_HOME = ItemWrapper.create(Keys.DIMENSIONAL_HOME, new SlimefunItemStack(
             Keys.DIMENSIONAL_HOME.asSlimefunId(),
-            new CustomItemStack(PlayerHead.getItemStack(
+            CustomItemStack.create(PlayerHead.getItemStack(
                     PlayerSkin.fromHashCode("eb18cf9e1bf7ec57304ae92f2b00d91643cf0b65067dead34fb48baf18e3c385"))),
             "&6Dimensional Home",
             "",
@@ -400,7 +400,7 @@ public class Items {
 
     public static final ItemWrapper ITEM_BAND_HASTE = ItemWrapper.create(Keys.ITEM_BAND_HASTE, new SlimefunItemStack(
             Keys.ITEM_BAND_HASTE.asSlimefunId(),
-            new CustomItemStack(PlayerHead.getItemStack(
+            CustomItemStack.create(PlayerHead.getItemStack(
                     PlayerSkin.fromHashCode("4f01ec6331a3bc30a8204ec56398d08ca38788556bca9b81d776f6238d567367"))),
             "&6Hasty Item Band",
             "",
@@ -411,7 +411,7 @@ public class Items {
 
     public static final ItemWrapper ITEM_BAND_HEALTH = ItemWrapper.create(Keys.ITEM_BAND_HEALTH, new SlimefunItemStack(
             Keys.ITEM_BAND_HEALTH.asSlimefunId(),
-            new CustomItemStack(PlayerHead.getItemStack(
+            CustomItemStack.create(PlayerHead.getItemStack(
                     PlayerSkin.fromHashCode("f1e2428cb359988f4c4ff0e61de21385c62269de19a69762d773223b75dd1666"))),
             "&6Healthy Item Band",
             "",
@@ -460,7 +460,7 @@ public class Items {
 
     public static final ItemWrapper KITCHEN_AUTO_CRAFTER = ItemWrapper.create(Keys.KITCHEN_AUTO_CRAFTER,
             new SlimefunItemStack(Keys.KITCHEN_AUTO_CRAFTER.asSlimefunId(),
-                    new CustomItemStack(PlayerHead.getItemStack(
+                    CustomItemStack.create(PlayerHead.getItemStack(
                             PlayerSkin
                                     .fromHashCode("c5c5b24cd5efa07d31beea655d7ff972e6f47cdb898be4404363deeba43ba5d"))),
                     "&6Kitchen Auto Crafter",
@@ -495,7 +495,7 @@ public class Items {
 
     public static final ItemWrapper POTION_SPRINKLER = ItemWrapper.create(Keys.POTION_SPRINKLER, new SlimefunItemStack(
             Keys.POTION_SPRINKLER.asSlimefunId(),
-            new CustomItemStack(PlayerHead.getItemStack(
+            CustomItemStack.create(PlayerHead.getItemStack(
                     PlayerSkin.fromHashCode("8d302104180cb79d5f4cf423649ddfa8ffb31a1875fa02a983cd248c72dfb0ea"))),
             "&6Potion Sprinkler",
             "",
@@ -506,7 +506,7 @@ public class Items {
 
     public static final ItemWrapper BARBED_WIRE = ItemWrapper.create(Keys.BARBED_WIRE, new SlimefunItemStack(
             Keys.BARBED_WIRE.asSlimefunId(),
-            new CustomItemStack(PlayerHead.getItemStack(
+            CustomItemStack.create(PlayerHead.getItemStack(
                     PlayerSkin.fromHashCode("b2ac6c219004d82dfa627ffab664f29c53ecc112d91c9d7a9c915c426832412"))),
             "&6Barbed Wire",
             "",
@@ -567,7 +567,7 @@ public class Items {
                     LoreBuilderDynamic.power(1024, " per block converted.")));
 
     public static final ItemWrapper WIRELESS_ENERGY_POINT = ItemWrapper.create(Keys.WIRELESS_ENERGY_POINT,
-            new SlimefunItemStack(Keys.WIRELESS_ENERGY_POINT.asSlimefunId(), new CustomItemStack(
+            new SlimefunItemStack(Keys.WIRELESS_ENERGY_POINT.asSlimefunId(), CustomItemStack.create(
                     PlayerHead.getItemStack(
                             PlayerSkin.fromHashCode("335a21d95e8597759fb259c951ea68e1ad3374ca41e56ef126ffabfe03c1e0"))),
                     "&6Wireless Energy Point",
@@ -609,7 +609,7 @@ public class Items {
 
     public static final ItemWrapper WIRELESS_ITEM_INPUT = ItemWrapper.create(Keys.WIRELESS_ITEM_INPUT,
             new SlimefunItemStack(Keys.WIRELESS_ITEM_INPUT.asSlimefunId(),
-                    new CustomItemStack(PlayerHead.getItemStack(
+                    CustomItemStack.create(PlayerHead.getItemStack(
                             PlayerSkin
                                     .fromHashCode("abb55560c695d976b346e188d3df2bcd8c5aa32b933141a9715c42f64cb6cee"))),
                     "&6Wireless Item Input",
@@ -624,7 +624,7 @@ public class Items {
 
     public static final ItemWrapper WIRELESS_ITEM_OUTPUT = ItemWrapper.create(Keys.WIRELESS_ITEM_OUTPUT,
             new SlimefunItemStack(Keys.WIRELESS_ITEM_OUTPUT.asSlimefunId(),
-                    new CustomItemStack(PlayerHead.getItemStack(
+                    CustomItemStack.create(PlayerHead.getItemStack(
                             PlayerSkin
                                     .fromHashCode("c510d9b61ca333d2946c61a26cb17e374d4adb573b46afdebaf89f65ba5d4ae2"))),
                     "&6Wireless Item Output",

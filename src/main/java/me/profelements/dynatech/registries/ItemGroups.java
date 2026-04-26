@@ -21,26 +21,26 @@ public class ItemGroups {
 
     public static final NestedItemGroup GENERAL = new NestedItemGroup(
             Keys.GENERAL.key(),
-            new CustomItemStack(Material.CONDUIT, "&bDynaTech"));
+            CustomItemStack.create(Material.CONDUIT, "&bDynaTech"));
 
     public static final SubItemGroup RESOURCES = new SubItemGroup(
             Keys.RESOURCES.key(), GENERAL,
-            new CustomItemStack(Material.PUFFERFISH, "&bDynaTech Resources"));
+            CustomItemStack.create(Material.PUFFERFISH, "&bDynaTech Resources"));
 
     public static final SubItemGroup TOOLS = new SubItemGroup(Keys.TOOLS.key(),
-            GENERAL, new CustomItemStack(Material.DIAMOND_AXE, "&bDynaTech Tools"));
+            GENERAL, CustomItemStack.create(Material.DIAMOND_AXE, "&bDynaTech Tools"));
 
     public static final SubItemGroup MACHINES = new SubItemGroup(Keys.MACHINES.key(), GENERAL,
-            new CustomItemStack(Material.SEA_LANTERN, "&bDynaTech Machines"));
+            CustomItemStack.create(Material.SEA_LANTERN, "&bDynaTech Machines"));
 
     public static final SubItemGroup GENERATORS = new SubItemGroup(Keys.GENERATORS.key(), GENERAL,
-            new CustomItemStack(Material.PRISMARINE_BRICKS, "&bDynaTech Generators"));
+            CustomItemStack.create(Material.PRISMARINE_BRICKS, "&bDynaTech Generators"));
 
     public static final SubItemGroup EXPERIMENTAL = new SubItemGroup(Keys.EXPERIMENTAL.key(), GENERAL,
-            new CustomItemStack(Material.REDSTONE_LAMP, "&fDynaTech Experimental"));
+            CustomItemStack.create(Material.REDSTONE_LAMP, "&fDynaTech Experimental"));
 
     public static final SubItemGroup HIVES = new SubItemGroup(Keys.APIARIES.key(),
-            GENERAL, new CustomItemStack(Material.BEEHIVE, "&bDynaTech Apiaries"));
+            GENERAL, CustomItemStack.create(Material.BEEHIVE, "&bDynaTech Apiaries"));
 
     public static final class Keys {
         public static final TypedKey<ItemGroup> GENERAL = TypedKey.create("dynatech", "general");

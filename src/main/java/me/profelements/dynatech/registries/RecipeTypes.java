@@ -24,16 +24,16 @@ public class RecipeTypes {
     }
 
     public static final RecipeType SCOOPING = new RecipeType(Keys.SCOOPING.key(),
-            new CustomItemStack(Material.IRON_SHOVEL, "Use the Scoop to get this item."));
+            CustomItemStack.create(Material.IRON_SHOVEL, "Use the Scoop to get this item."));
 
     public static final RecipeType OVENING = new RecipeType(Keys.OVENING.key(),
-            new CustomItemStack(Material.SMOKER, "Throw into the Coal Coke Oven multiblock"));
+            CustomItemStack.create(Material.SMOKER, "Throw into the Coal Coke Oven multiblock"));
 
     public static final RecipeType BLOCK_DROP = new RecipeType(Keys.BLOCK_DROP.key(),
-            new CustomItemStack(Material.COBWEB, "Drops from a block"));
+            CustomItemStack.create(Material.COBWEB, "Drops from a block"));
 
     public static final RecipeType TREE_GROWTH_CHAMBER = new RecipeType(Keys.TREE_GROWTH_CHAMBER.key(),
-            new CustomItemStack(Material.LIME_CONCRETE, "Throw into the Tree Growth Chamber machine"));
+            CustomItemStack.create(Material.LIME_CONCRETE, "Throw into the Tree Growth Chamber machine"));
 
     public static final RecipeType MATERIAL_HIVE = new RecipeType(Keys.MATERIAL_HIVE.key(),
             Items.MATERIAL_HIVE.stack(),
