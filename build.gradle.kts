@@ -22,6 +22,7 @@ java {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
     maven("https://repo.papermc.io/repository/maven-public/")
@@ -35,18 +36,18 @@ dependencies {
     "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
 
     compileOnly("com.github.thebusybiscuit:exoticgarden:7f9a5f6") {
-        isTransitive = false
+        exclude(group = "com.github.Slimefun", module = "Slimefun4")
     }
     compileOnly("com.github.Mooy1:InfinityExpansion:d995144") {
-        isTransitive = false
+        exclude(group = "com.github.Slimefun", module = "Slimefun4")
     }
     compileOnly("com.github.SchnTgaiSpock:Gastronomicon:33e89f01e6") {
-        isTransitive = false
+        exclude(group = "com.github.Slimefun", module = "Slimefun4")
     }
 
     implementation("org.bstats:bstats-bukkit:3.0.2")
     implementation("com.github.Slimefun-Addon-Community:extrautils:73e76ac06c") {
-        isTransitive = false
+        exclude(group = "com.github.Slimefun", module = "Slimefun4")
     }
 
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
