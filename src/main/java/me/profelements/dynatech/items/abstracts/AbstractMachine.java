@@ -9,14 +9,14 @@ import org.bukkit.block.Block;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.MachineProcessHolder;
-import io.github.thebusybiscuit.slimefun4.core.attributes.RecipeDisplayItem;
-import io.github.thebusybiscuit.slimefun4.core.machines.MachineProcessor;
-import io.github.thebusybiscuit.slimefun4.implementation.operations.CraftingOperation;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.MachineProcessHolder;
+import io.github.thebusybiscuit.slimefun5.core.attributes.RecipeDisplayItem;
+import io.github.thebusybiscuit.slimefun5.core.machines.MachineProcessor;
+import io.github.thebusybiscuit.slimefun5.implementation.operations.CraftingOperation;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 
@@ -105,3 +105,4 @@ public abstract class AbstractMachine extends AbstractTickingContainer implement
         return 22; 
     }
 }
+

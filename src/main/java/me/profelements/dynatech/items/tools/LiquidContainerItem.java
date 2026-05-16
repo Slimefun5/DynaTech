@@ -2,12 +2,12 @@ package me.profelements.dynatech.items.tools;
 
 import org.bukkit.inventory.ItemStack;
 
-import io.github.thebusybiscuit.slimefun4.api.events.PlayerRightClickEvent;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.api.events.PlayerRightClickEvent;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import me.profelements.dynatech.interfaces.LiquidContainer;
 import me.profelements.dynatech.utils.Liquid;
 
@@ -46,3 +46,4 @@ public class LiquidContainerItem extends SlimefunItem implements LiquidContainer
         return this.liquidCapacity;
     }
 }
+

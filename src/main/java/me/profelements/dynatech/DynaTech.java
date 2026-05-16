@@ -1,7 +1,7 @@
 package me.profelements.dynatech;
 
-import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.api.SlimefunAddon;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import me.profelements.dynatech.items.backpacks.PicnicBasket;
 import me.profelements.dynatech.items.misc.DimensionalHomeDimension;
 import me.profelements.dynatech.items.tools.ElectricalStimulator;
@@ -175,3 +175,4 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
     }
 
 }
+

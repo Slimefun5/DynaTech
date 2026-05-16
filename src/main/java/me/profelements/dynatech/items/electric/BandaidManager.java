@@ -1,12 +1,12 @@
 package me.profelements.dynatech.items.electric;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ClickAction;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
@@ -137,12 +137,13 @@ public class BandaidManager extends AbstractElectricMachine {
     public List<ItemStack> getDisplayRecipes() {
         List<ItemStack> display = new ArrayList<>();
 
-        display.add(Items.ITEM_BAND_HASTE.stack());
+        display.add(Items.ITEM_BAND_HASTE.stack().item());
         display.add(CustomItemStack.create(Material.IRON_PICKAXE, "Any Tool"));
-        display.add(Items.ITEM_BAND_HEALTH.stack());
+        display.add(Items.ITEM_BAND_HEALTH.stack().item());
         display.add(CustomItemStack.create(Material.IRON_PICKAXE, "Any Tool"));
 
         return display;
     }
 
 }
+

@@ -5,7 +5,7 @@ import me.profelements.dynatech.registries.Registries;
 
 import com.google.common.base.Preconditions;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 
 public record ItemWrapper(TypedKey<ItemWrapper> key, SlimefunItemStack stack) {
 
@@ -19,3 +19,4 @@ public record ItemWrapper(TypedKey<ItemWrapper> key, SlimefunItemStack stack) {
         return item;
     }
 }
+

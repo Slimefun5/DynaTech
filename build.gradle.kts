@@ -1,11 +1,11 @@
 plugins {
     java
-    id("com.gradleup.shadow") version "9.3.2"
-    id("io.github.intisy.github-gradle") version "1.8.2.1"
+    id("com.gradleup.shadow")
+    id("io.github.intisy.github-gradle")
 }
 
 group = "me.profelements"
-version = "1.0.0"
+version = "1.0.0-UNOFFICIAL"
 description = "DynaTech is a Slimefun addon that adds various machines, generators, tools and more."
 
 github {
@@ -17,7 +17,7 @@ github {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(21))
+        languageVersion.set(JavaLanguageVersion.of(25))
     }
 }
 
@@ -30,11 +30,10 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:${property("paperApiVersion")}")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
     "githubCompileOnly"("Slimefun5:Slimefun5:v5.0.3")
 
-    // Soft dependencies — compileOnly via JitPack
     compileOnly("com.github.thebusybiscuit:exoticgarden:7f9a5f6") {
         isTransitive = false
     }
@@ -45,7 +44,6 @@ dependencies {
         isTransitive = false
     }
 
-    // Shaded
     implementation("org.bstats:bstats-bukkit:3.0.2")
     implementation("com.github.Slimefun-Addon-Community:extrautils:73e76ac06c") {
         isTransitive = false
@@ -78,7 +76,7 @@ tasks {
         enabled = false
     }
     shadowJar {
-        archiveFileName.set("DynaTech v${project.version}.jar")
+        archiveFileName.set("DynaTech v${project.version}-MC26.1.2.jar")
         relocate("org.bstats", "me.profelements.dynatech.bstats")
         relocate("dev.j3fftw.extrautils", "me.profelements.dynatech.extrautils")
         exclude("META-INF/**")

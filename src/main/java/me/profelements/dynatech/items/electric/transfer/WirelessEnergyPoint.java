@@ -1,19 +1,19 @@
 package me.profelements.dynatech.items.electric.transfer;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
-import io.github.thebusybiscuit.slimefun4.api.events.PlayerRightClickEvent;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemHandler;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetProvider;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockPlaceHandler;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun5.api.events.PlayerRightClickEvent;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemHandler;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetProvider;
+import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
+import io.github.thebusybiscuit.slimefun5.core.handlers.BlockPlaceHandler;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.profelements.dynatech.DynaTech;
@@ -131,7 +131,7 @@ public class WirelessEnergyPoint extends SlimefunItem implements EnergyNetProvid
                 ItemStack item = event.getItemInHand();
                 String locationString = PersistentDataAPI.getString(item.getItemMeta(), WIRELESS_LOCATION_KEY);
 
-                if (item.getType() == Items.WIRELESS_ENERGY_POINT.stack().getType() && item.hasItemMeta()
+                if (item.getType() == Items.WIRELESS_ENERGY_POINT.stack().item().getType() && item.hasItemMeta()
                         && locationString != null) {
                     BlockStorage.addBlockInfo(blockLoc, "wireless-location", locationString);
 
@@ -190,3 +190,4 @@ public class WirelessEnergyPoint extends SlimefunItem implements EnergyNetProvid
     }
 
 }
+

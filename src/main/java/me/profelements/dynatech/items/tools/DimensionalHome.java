@@ -1,14 +1,14 @@
 package me.profelements.dynatech.items.tools;
 
-import io.github.thebusybiscuit.slimefun4.api.events.PlayerRightClickEvent;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.api.events.PlayerRightClickEvent;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.config.Config;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.registries.Items;
 
@@ -45,7 +45,7 @@ public class DimensionalHome extends SlimefunItem {
                 ItemStack item = e.getItem();
                 int chunkKey = PersistentDataAPI.getInt(item.getItemMeta(), CHUNK_KEY);
 
-                if (SlimefunUtils.isItemSimilar(item, Items.DIMENSIONAL_HOME.stack(), true)) {
+                if (SlimefunUtils.isItemSimilar(item, Items.DIMENSIONAL_HOME.stack().item(), true)) {
                     if (chunkKey > 0) {
                         if (p.getLocation().getWorld() != DIM_HOME_WORLD) {
                             Location dimHomeLocation = new Location(DIM_HOME_WORLD, 16 * chunkKey + 8d, 65, 8);
@@ -88,3 +88,4 @@ public class DimensionalHome extends SlimefunItem {
     }
 
 }
+

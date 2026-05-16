@@ -1,13 +1,13 @@
 package me.profelements.dynatech.items.backpacks;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemSetting;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.implementation.items.backpacks.SlimefunBackpack;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.Pair;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemSetting;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.implementation.items.backpacks.SlimefunBackpack;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -125,3 +125,4 @@ public class PicnicBasket extends SlimefunBackpack {
 
 	
 }
+

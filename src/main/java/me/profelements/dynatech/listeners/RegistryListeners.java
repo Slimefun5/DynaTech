@@ -3,7 +3,7 @@ package me.profelements.dynatech.listeners;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.registries.Items;
 import me.profelements.dynatech.registries.Registries;
@@ -41,3 +41,4 @@ public class RegistryListeners implements Listener {
         DynaTech.getInstance().getLogger().info(event.getRegistryKey().key().toString() + " is getting frozen");
     }
 }
+

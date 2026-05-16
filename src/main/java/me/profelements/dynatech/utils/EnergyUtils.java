@@ -10,7 +10,7 @@ import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.blocks.BlockPosition;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 
@@ -100,3 +100,4 @@ public class EnergyUtils {
         toMenu.markDirty();
     }
 }
+

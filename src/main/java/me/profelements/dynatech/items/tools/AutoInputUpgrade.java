@@ -5,10 +5,10 @@ import java.util.Optional;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.profelements.dynatech.utils.Recipe;
 
@@ -56,3 +56,4 @@ public class AutoInputUpgrade extends SlimefunItem {
     }
 
 }
+

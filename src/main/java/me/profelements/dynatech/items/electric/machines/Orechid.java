@@ -1,11 +1,11 @@
 package me.profelements.dynatech.items.electric.machines;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.RecipeDisplayItem;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.RandomizedSet;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.RecipeDisplayItem;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.RandomizedSet;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.items.abstracts.AbstractElectricTicker;
@@ -103,7 +103,7 @@ public class Orechid extends AbstractElectricTicker implements RecipeDisplayItem
      * For Slimefun items
      */
     public static void registerOre(@Nonnull Material from, @Nonnull SlimefunItemStack result, float weight) {
-        oreMap.computeIfAbsent(from, k -> new RandomizedSet<>()).add(result, weight);
+        oreMap.computeIfAbsent(from, k -> new RandomizedSet<>()).add(result.item(), weight);
     }
 
     private static void registerDefaultOres() {
@@ -149,3 +149,4 @@ public class Orechid extends AbstractElectricTicker implements RecipeDisplayItem
     }
 
 }
+

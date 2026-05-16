@@ -13,12 +13,12 @@ import org.bukkit.block.data.Levelled;
 import org.bukkit.entity.Item;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
-import io.github.thebusybiscuit.slimefun4.api.events.PlayerRightClickEvent;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockUseHandler;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun5.api.events.PlayerRightClickEvent;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.core.handlers.BlockUseHandler;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 import me.profelements.dynatech.registries.RecipeTypes;
@@ -144,3 +144,4 @@ public class PetalApothecary extends SlimefunItem {
         return itemList;
     }
 }
+

@@ -6,13 +6,13 @@ import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.Pair;
 import io.github.schntgaispock.gastronomicon.api.items.FoodItemStack;
 import io.github.schntgaispock.gastronomicon.core.slimefun.recipes.GastroRecipeType;
 import io.github.schntgaispock.gastronomicon.util.item.HeadTextures;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.events.SlimefunItemRegistryFinalizedEvent;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.events.SlimefunItemRegistryFinalizedEvent;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
 import me.profelements.dynatech.items.backpacks.PicnicBasket;
 import me.profelements.dynatech.items.electric.SeedPlucker;
@@ -28,15 +28,15 @@ public class GastronomiconIntegrationListener implements Listener {
     @EventHandler
     public void onSlimefunRegistyFinalized(SlimefunItemRegistryFinalizedEvent e) {
         boolean gastronomiconInstalled = Bukkit.getServer().getPluginManager().isPluginEnabled("Gastronomicon");
-        SlimefunItem item1 = SlimefunItem.getByItem(Items.FOOD_GENERATOR.stack());
-        SlimefunItem item2 = SlimefunItem.getByItem(Items.SEED_PLUCKER.stack());
+        SlimefunItem item1 = SlimefunItem.getByItem(Items.FOOD_GENERATOR.stack().item());
+        SlimefunItem item2 = SlimefunItem.getByItem(Items.SEED_PLUCKER.stack().item());
 
         if (item1 instanceof CulinaryGenerator cg && item2 instanceof SeedPlucker sp && gastronomiconInstalled) {
             for (SlimefunItem item : Slimefun.getRegistry().getEnabledSlimefunItems()) {
-                if (item.getItem() instanceof FoodItemStack food && !food.getTexture().equals(HeadTextures.NONE)
+                if (((Object) item.getItem()) instanceof FoodItemStack food && !food.getTexture().equals(HeadTextures.NONE)
                         && !item.getId().contains("GN_PERFECT")) {
-                    cg.registerFuel(food, food.getHunger() * 4);
-                    PicnicBasket.registerFood(food, new Pair<>(food.getHunger(), (float) food.getSaturation()));
+                    cg.registerFuel(food.item(), food.getHunger() * 4);
+                    PicnicBasket.registerFood(food.item(), new Pair<>(food.getHunger(), (float) food.getSaturation()));
                 }
 
                 if (item.getRecipeType() == GastroRecipeType.HARVEST) {
@@ -83,3 +83,4 @@ public class GastronomiconIntegrationListener implements Listener {
          */
     }
 }
+

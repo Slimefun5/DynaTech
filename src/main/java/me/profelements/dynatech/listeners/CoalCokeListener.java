@@ -5,7 +5,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.FurnaceBurnEvent;
 import org.bukkit.plugin.Plugin;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.registries.Items;
 
@@ -27,3 +27,4 @@ public class CoalCokeListener implements Listener {
         }
     }
 }
+

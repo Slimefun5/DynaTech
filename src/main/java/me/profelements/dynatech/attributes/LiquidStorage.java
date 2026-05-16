@@ -7,9 +7,9 @@ import javax.annotation.Nullable;
 
 import com.google.common.base.Preconditions;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
-import io.github.thebusybiscuit.slimefun4.core.attributes.ItemAttribute;
-import io.github.thebusybiscuit.slimefun4.utils.NumberUtils;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun5.core.attributes.ItemAttribute;
+import io.github.thebusybiscuit.slimefun5.utils.NumberUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.profelements.dynatech.DynaTech;
@@ -149,3 +149,4 @@ public interface LiquidStorage extends ItemAttribute {
         }
     }
 }
+

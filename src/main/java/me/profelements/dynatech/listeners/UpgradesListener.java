@@ -14,10 +14,10 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.inventory.InvUtils;
-import io.github.thebusybiscuit.slimefun4.api.events.AsyncMachineOperationFinishEvent;
-import io.github.thebusybiscuit.slimefun4.implementation.operations.CraftingOperation;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.inventory.InvUtils;
+import io.github.thebusybiscuit.slimefun5.api.events.AsyncMachineOperationFinishEvent;
+import io.github.thebusybiscuit.slimefun5.implementation.operations.CraftingOperation;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.AContainer;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
@@ -104,11 +104,11 @@ public class UpgradesListener implements Listener {
         String upgrades = BlockStorage.getLocationInfo(l, "upgrades");
 
         if (upgrades != null && upgrades.contains("auto_output")) {
-            l.getWorld().dropItemNaturally(l, Items.AUTO_OUTPUT_UPGRADE.stack());
+            l.getWorld().dropItemNaturally(l, Items.AUTO_OUTPUT_UPGRADE.stack().item());
         }
 
         if (upgrades != null && upgrades.contains("auto_input")) {
-            l.getWorld().dropItemNaturally(l, Items.AUTO_INPUT_UPGRADE.stack());
+            l.getWorld().dropItemNaturally(l, Items.AUTO_INPUT_UPGRADE.stack().item());
         }
     }
 
@@ -185,3 +185,4 @@ public class UpgradesListener implements Listener {
         }
     }
 }
+

@@ -1,14 +1,14 @@
 package me.profelements.dynatech.items.tools;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemSetting;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemDropHandler;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemSetting;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemDropHandler;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.registries.Items;
 
@@ -49,8 +49,8 @@ public class AngelGem extends SlimefunItem implements NotPlaceable, Listener {
     private ItemDropHandler onItemDrop() {
         return (e, p, itemEntity) -> {
             ItemStack item = itemEntity.getItemStack();
-            if (e.getPlayer().getGameMode() != GameMode.CREATIVE && item.getType() == Items.ANGEL_GEM.stack().getType()
-                    && SlimefunUtils.isItemSimilar(item, Items.ANGEL_GEM.stack(), false, false)) {
+            if (e.getPlayer().getGameMode() != GameMode.CREATIVE && item.getType() == Items.ANGEL_GEM.stack().item().getType()
+                    && SlimefunUtils.isItemSimilar(item, Items.ANGEL_GEM.stack().item(), false, false)) {
                 e.getPlayer().setFlying(false);
                 e.getPlayer().setAllowFlight(false);
                 e.getPlayer().setFlySpeed(0.1f);
@@ -147,3 +147,4 @@ public class AngelGem extends SlimefunItem implements NotPlaceable, Listener {
     }
 
 }
+

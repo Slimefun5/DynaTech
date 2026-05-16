@@ -1,13 +1,13 @@
 package me.profelements.dynatech.items.tools;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.profelements.dynatech.items.electric.transfer.Tesseract;
 import me.profelements.dynatech.registries.Items;
@@ -65,3 +65,4 @@ public class TesseractBinder extends SlimefunItem {
         };
     }
 }
+

@@ -1,9 +1,9 @@
 package me.profelements.dynatech.listeners;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.player.PlayerBackpack;
-import io.github.thebusybiscuit.slimefun4.api.player.PlayerProfile;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.player.PlayerBackpack;
+import io.github.thebusybiscuit.slimefun5.api.player.PlayerProfile;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.events.PicnicBasketFeedPlayerEvent;
 import me.profelements.dynatech.items.backpacks.PicnicBasket;
@@ -112,3 +112,4 @@ public class PicnicBasketListener implements Listener {
         return false;
     }
 }
+

@@ -16,18 +16,18 @@ import org.bukkit.inventory.ItemStack;
 
 import com.google.common.base.Preconditions;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetProvider;
-import io.github.thebusybiscuit.slimefun4.core.attributes.MachineProcessHolder;
-import io.github.thebusybiscuit.slimefun4.core.attributes.RecipeDisplayItem;
-import io.github.thebusybiscuit.slimefun4.core.machines.MachineProcessor;
-import io.github.thebusybiscuit.slimefun4.implementation.operations.FuelOperation;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.inventory.InvUtils;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
-import io.github.thebusybiscuit.slimefun4.utils.itemstack.ItemStackWrapper;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetProvider;
+import io.github.thebusybiscuit.slimefun5.core.attributes.MachineProcessHolder;
+import io.github.thebusybiscuit.slimefun5.core.attributes.RecipeDisplayItem;
+import io.github.thebusybiscuit.slimefun5.core.machines.MachineProcessor;
+import io.github.thebusybiscuit.slimefun5.implementation.operations.FuelOperation;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.inventory.InvUtils;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.utils.itemstack.ItemStackWrapper;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineFuel;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
@@ -200,3 +200,4 @@ public abstract class AbstractGenerator extends AbstractContainer implements Mac
         return 0;
     }
 }
+

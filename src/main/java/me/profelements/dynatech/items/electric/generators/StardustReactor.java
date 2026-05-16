@@ -1,12 +1,12 @@
 package me.profelements.dynatech.items.electric.generators;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
-import io.github.thebusybiscuit.slimefun4.utils.NumberUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.utils.NumberUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ClickAction;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineFuel;
@@ -48,7 +48,7 @@ public class StardustReactor extends AbstractGenerator {
     }
 
     protected void registerDefaultFuelTypes() {
-        fuels.add(new MachineFuel(32, Items.STAR_DUST.stack()));
+        fuels.add(new MachineFuel(32, Items.STAR_DUST.stack().item()));
     }
 
     @Nonnull
@@ -120,3 +120,4 @@ public class StardustReactor extends AbstractGenerator {
     }
 
 }
+

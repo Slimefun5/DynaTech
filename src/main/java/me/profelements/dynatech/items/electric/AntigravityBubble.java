@@ -1,9 +1,9 @@
 package me.profelements.dynatech.items.electric;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.items.abstracts.AbstractElectricTicker;
 
@@ -121,3 +121,4 @@ public class AntigravityBubble extends AbstractElectricTicker implements Listene
         return true;
     }
 }
+

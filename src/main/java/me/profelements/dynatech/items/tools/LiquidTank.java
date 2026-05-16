@@ -1,17 +1,17 @@
 package me.profelements.dynatech.items.tools;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
-import io.github.thebusybiscuit.slimefun4.core.handlers.EntityInteractHandler;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
+import io.github.thebusybiscuit.slimefun5.core.handlers.EntityInteractHandler;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.Pair;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.registries.Items;
 import net.md_5.bungee.api.ChatColor;
@@ -54,7 +54,7 @@ public class LiquidTank extends SlimefunItem implements NotPlaceable, Listener {
         return (e, item, something) -> {
             if ((e.getRightClicked().getType() == EntityType.COW
                     || e.getRightClicked().getType() == EntityType.MOOSHROOM)
-                    && SlimefunUtils.isItemSimilar(item, Items.LIQUID_TANK.stack(), true)) {
+                    && SlimefunUtils.isItemSimilar(item, Items.LIQUID_TANK.stack().item(), true)) {
                 e.setCancelled(true);
             }
         };
@@ -237,3 +237,4 @@ public class LiquidTank extends SlimefunItem implements NotPlaceable, Listener {
     }
 
 }
+

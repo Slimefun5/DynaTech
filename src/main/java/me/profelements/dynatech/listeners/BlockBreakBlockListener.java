@@ -7,7 +7,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.papermc.paper.event.block.BlockBreakBlockEvent;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
@@ -33,3 +33,4 @@ public class BlockBreakBlockListener implements Listener {
     }
 
 }
+

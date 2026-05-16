@@ -1,5 +1,6 @@
 package me.profelements.dynatech.registries;
 
+import me.profelements.dynatech.utils.HeadUtils;
 import me.profelements.dynatech.utils.ItemWrapper;
 
 import org.bukkit.Color;
@@ -7,14 +8,12 @@ import org.bukkit.Material;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerHead;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
-import io.github.thebusybiscuit.slimefun4.core.attributes.MachineTier;
-import io.github.thebusybiscuit.slimefun4.core.attributes.MachineType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.Radioactivity;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.utils.LoreBuilder;
+import io.github.thebusybiscuit.slimefun5.core.attributes.MachineTier;
+import io.github.thebusybiscuit.slimefun5.core.attributes.MachineType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.Radioactivity;
 import dev.j3fftw.extrautils.utils.LoreBuilderDynamic;
 
 public class Items {
@@ -220,38 +219,32 @@ public class Items {
             new SlimefunItemStack(Keys.COAL_COKE.asSlimefunId(), Material.COAL, "&fCoal Coke"));
 
     public static final ItemWrapper BEE = ItemWrapper.create(Keys.BEE, new SlimefunItemStack(Keys.BEE.asSlimefunId(),
-            PlayerHead.getItemStack(
-                    PlayerSkin.fromHashCode("12724a9a4cdd68ba49415560e5be40b4a1c47cb5be1d66aedb52a30e62ef2d47")),
+            HeadUtils.fromHashCode("12724a9a4cdd68ba49415560e5be40b4a1c47cb5be1d66aedb52a30e62ef2d47"),
             "&6Bee"));
 
     public static final ItemWrapper ROBOTIC_BEE = ItemWrapper.create(Keys.ROBOTIC_BEE, new SlimefunItemStack(
             Keys.ROBOTIC_BEE.asSlimefunId(),
-            PlayerHead.getItemStack(
-                    PlayerSkin.fromHashCode("16f728c89904b2cb57f853d31d0e2061f52917981fedccb1e949528e08eb4140")),
+            HeadUtils.fromHashCode("16f728c89904b2cb57f853d31d0e2061f52917981fedccb1e949528e08eb4140"),
             "&6Robotic Bee"));
 
     public static final ItemWrapper ADVANCED_ROBOTIC_BEE = ItemWrapper.create(Keys.ADVANCED_ROBOTIC_BEE,
             new SlimefunItemStack(Keys.ADVANCED_ROBOTIC_BEE.asSlimefunId(),
-                    PlayerHead.getItemStack(
-                            PlayerSkin.fromHashCode("c1c96e8cf83cbade55ffa667197ea6990290e5c7dc679104332caead97eef09")),
+                    HeadUtils.fromHashCode("c1c96e8cf83cbade55ffa667197ea6990290e5c7dc679104332caead97eef09"),
                     "&6Advanced Robotic Bee"));
 
     public static final ItemWrapper VEX_GEM = ItemWrapper.create(Keys.VEX_GEM, new SlimefunItemStack(
             Keys.VEX_GEM.asSlimefunId(),
-            PlayerHead.getItemStack(
-                    PlayerSkin.fromHashCode("b91aeca7c17e66d867231b36d96e83c1ede75eaf67ccf3a88dca15d4114ae167")),
+            HeadUtils.fromHashCode("b91aeca7c17e66d867231b36d96e83c1ede75eaf67ccf3a88dca15d4114ae167"),
             "&6Vex Gem"));
 
     public static final ItemWrapper MACHINE_SCRAP = ItemWrapper.create(Keys.MACHINE_SCRAP, new SlimefunItemStack(
             Keys.MACHINE_SCRAP.asSlimefunId(),
-            PlayerHead.getItemStack(
-                    PlayerSkin.fromHashCode("13ea401c7e02d13cea1de6835ee9f5c47757d399dae5c2b9c3efde6ae63ea4a2")),
+            HeadUtils.fromHashCode("13ea401c7e02d13cea1de6835ee9f5c47757d399dae5c2b9c3efde6ae63ea4a2"),
             "&6Machine Scrap"));
 
     public static final ItemWrapper ADVANCED_MACHINE_SCRAP = ItemWrapper.create(Keys.ADVANCED_MACHINE_SCRAP,
             new SlimefunItemStack(Keys.ADVANCED_MACHINE_SCRAP.asSlimefunId(),
-                    PlayerHead.getItemStack(
-                            PlayerSkin.fromHashCode("4b57a4c68d1d2c5de978ea6de4db91ef387ca6c37966bb8e7c8826f937e6c3")),
+                    HeadUtils.fromHashCode("4b57a4c68d1d2c5de978ea6de4db91ef387ca6c37966bb8e7c8826f937e6c3"),
                     "&6Advanced Machine Scrap"));
 
     public static final ItemWrapper STAR_DUST = ItemWrapper.create(Keys.STAR_DUST,
@@ -276,9 +269,7 @@ public class Items {
     // START Tools
     public static final ItemWrapper ELECTRICAL_STIMULATOR = ItemWrapper.create(Keys.ELECTRICAL_STIMULATOR,
             new SlimefunItemStack(Keys.ELECTRICAL_STIMULATOR.asSlimefunId(),
-                    CustomItemStack.create(PlayerHead.getItemStack(
-                            PlayerSkin
-                                    .fromHashCode("82a319cf66a4de12e3330e8bc4c82c985ccc3cb2230868c336a88fc4a22082a"))),
+                    HeadUtils.fromHashCode("82a319cf66a4de12e3330e8bc4c82c985ccc3cb2230868c336a88fc4a22082a"),
                     "&6Electrical Stimulator",
                     "",
                     "&fAutomatically feed you for energy",
@@ -342,8 +333,7 @@ public class Items {
 
     public static final ItemWrapper PICNIC_BASKET = ItemWrapper.create(Keys.PICNIC_BASKET,
             new SlimefunItemStack(Keys.PICNIC_BASKET.asSlimefunId(),
-                    CustomItemStack.create(PlayerHead.getItemStack(
-                            PlayerSkin.fromHashCode("7a6bf916e28ccb80b4ebfacf98686ad6af7c4fb257e57a8cb78c71d19dccb2"))),
+                    HeadUtils.fromHashCode("7a6bf916e28ccb80b4ebfacf98686ad6af7c4fb257e57a8cb78c71d19dccb2"),
                     "&6Picnic Basket",
                     "",
                     "&fAllows you to store food",
@@ -358,8 +348,7 @@ public class Items {
 
     public static final ItemWrapper SOUL_BOUND_PICNIC_BASKET = ItemWrapper.create(Keys.SOUL_BOUND_PICNIC_BASKET,
             new SlimefunItemStack(Keys.SOUL_BOUND_PICNIC_BASKET.asSlimefunId(),
-                    CustomItemStack.create(PlayerHead.getItemStack(
-                            PlayerSkin.fromHashCode("7a6bf916e28ccb80b4ebfacf98686ad6af7c4fb257e57a8cb78c71d19dccb2"))),
+                    HeadUtils.fromHashCode("7a6bf916e28ccb80b4ebfacf98686ad6af7c4fb257e57a8cb78c71d19dccb2"),
                     "&6Soulbound Picnic Basket",
                     "",
                     "&fAllows you to store food",
@@ -387,8 +376,7 @@ public class Items {
 
     public static final ItemWrapper DIMENSIONAL_HOME = ItemWrapper.create(Keys.DIMENSIONAL_HOME, new SlimefunItemStack(
             Keys.DIMENSIONAL_HOME.asSlimefunId(),
-            CustomItemStack.create(PlayerHead.getItemStack(
-                    PlayerSkin.fromHashCode("eb18cf9e1bf7ec57304ae92f2b00d91643cf0b65067dead34fb48baf18e3c385"))),
+            HeadUtils.fromHashCode("eb18cf9e1bf7ec57304ae92f2b00d91643cf0b65067dead34fb48baf18e3c385"),
             "&6Dimensional Home",
             "",
             "&fTeleports you to a",
@@ -400,8 +388,7 @@ public class Items {
 
     public static final ItemWrapper ITEM_BAND_HASTE = ItemWrapper.create(Keys.ITEM_BAND_HASTE, new SlimefunItemStack(
             Keys.ITEM_BAND_HASTE.asSlimefunId(),
-            CustomItemStack.create(PlayerHead.getItemStack(
-                    PlayerSkin.fromHashCode("4f01ec6331a3bc30a8204ec56398d08ca38788556bca9b81d776f6238d567367"))),
+            HeadUtils.fromHashCode("4f01ec6331a3bc30a8204ec56398d08ca38788556bca9b81d776f6238d567367"),
             "&6Hasty Item Band",
             "",
             "&fWhen applied to armor or tools",
@@ -411,8 +398,7 @@ public class Items {
 
     public static final ItemWrapper ITEM_BAND_HEALTH = ItemWrapper.create(Keys.ITEM_BAND_HEALTH, new SlimefunItemStack(
             Keys.ITEM_BAND_HEALTH.asSlimefunId(),
-            CustomItemStack.create(PlayerHead.getItemStack(
-                    PlayerSkin.fromHashCode("f1e2428cb359988f4c4ff0e61de21385c62269de19a69762d773223b75dd1666"))),
+            HeadUtils.fromHashCode("f1e2428cb359988f4c4ff0e61de21385c62269de19a69762d773223b75dd1666"),
             "&6Healthy Item Band",
             "",
             "&fWhen applied to armor or tools",
@@ -460,9 +446,7 @@ public class Items {
 
     public static final ItemWrapper KITCHEN_AUTO_CRAFTER = ItemWrapper.create(Keys.KITCHEN_AUTO_CRAFTER,
             new SlimefunItemStack(Keys.KITCHEN_AUTO_CRAFTER.asSlimefunId(),
-                    CustomItemStack.create(PlayerHead.getItemStack(
-                            PlayerSkin
-                                    .fromHashCode("c5c5b24cd5efa07d31beea655d7ff972e6f47cdb898be4404363deeba43ba5d"))),
+                    HeadUtils.fromHashCode("c5c5b24cd5efa07d31beea655d7ff972e6f47cdb898be4404363deeba43ba5d"),
                     "&6Kitchen Auto Crafter",
                     "",
                     "&fAutomatically makes Kitchen recipes",
@@ -495,8 +479,7 @@ public class Items {
 
     public static final ItemWrapper POTION_SPRINKLER = ItemWrapper.create(Keys.POTION_SPRINKLER, new SlimefunItemStack(
             Keys.POTION_SPRINKLER.asSlimefunId(),
-            CustomItemStack.create(PlayerHead.getItemStack(
-                    PlayerSkin.fromHashCode("8d302104180cb79d5f4cf423649ddfa8ffb31a1875fa02a983cd248c72dfb0ea"))),
+            HeadUtils.fromHashCode("8d302104180cb79d5f4cf423649ddfa8ffb31a1875fa02a983cd248c72dfb0ea"),
             "&6Potion Sprinkler",
             "",
             "&fRanged Multiple person potion effect applier.",
@@ -506,8 +489,7 @@ public class Items {
 
     public static final ItemWrapper BARBED_WIRE = ItemWrapper.create(Keys.BARBED_WIRE, new SlimefunItemStack(
             Keys.BARBED_WIRE.asSlimefunId(),
-            CustomItemStack.create(PlayerHead.getItemStack(
-                    PlayerSkin.fromHashCode("b2ac6c219004d82dfa627ffab664f29c53ecc112d91c9d7a9c915c426832412"))),
+            HeadUtils.fromHashCode("b2ac6c219004d82dfa627ffab664f29c53ecc112d91c9d7a9c915c426832412"),
             "&6Barbed Wire",
             "",
             "&fPushes mobs away in a radius.",
@@ -567,9 +549,7 @@ public class Items {
                     LoreBuilderDynamic.power(1024, " per block converted.")));
 
     public static final ItemWrapper WIRELESS_ENERGY_POINT = ItemWrapper.create(Keys.WIRELESS_ENERGY_POINT,
-            new SlimefunItemStack(Keys.WIRELESS_ENERGY_POINT.asSlimefunId(), CustomItemStack.create(
-                    PlayerHead.getItemStack(
-                            PlayerSkin.fromHashCode("335a21d95e8597759fb259c951ea68e1ad3374ca41e56ef126ffabfe03c1e0"))),
+            new SlimefunItemStack(Keys.WIRELESS_ENERGY_POINT.asSlimefunId(), HeadUtils.fromHashCode("335a21d95e8597759fb259c951ea68e1ad3374ca41e56ef126ffabfe03c1e0"),
                     "&6Wireless Energy Point",
                     "",
                     "&fTransfers Energy Wirelessly",
@@ -609,9 +589,7 @@ public class Items {
 
     public static final ItemWrapper WIRELESS_ITEM_INPUT = ItemWrapper.create(Keys.WIRELESS_ITEM_INPUT,
             new SlimefunItemStack(Keys.WIRELESS_ITEM_INPUT.asSlimefunId(),
-                    CustomItemStack.create(PlayerHead.getItemStack(
-                            PlayerSkin
-                                    .fromHashCode("abb55560c695d976b346e188d3df2bcd8c5aa32b933141a9715c42f64cb6cee"))),
+                    HeadUtils.fromHashCode("abb55560c695d976b346e188d3df2bcd8c5aa32b933141a9715c42f64cb6cee"),
                     "&6Wireless Item Input",
                     "",
                     "&fTransfers Items Wirelessly",
@@ -624,9 +602,7 @@ public class Items {
 
     public static final ItemWrapper WIRELESS_ITEM_OUTPUT = ItemWrapper.create(Keys.WIRELESS_ITEM_OUTPUT,
             new SlimefunItemStack(Keys.WIRELESS_ITEM_OUTPUT.asSlimefunId(),
-                    CustomItemStack.create(PlayerHead.getItemStack(
-                            PlayerSkin
-                                    .fromHashCode("c510d9b61ca333d2946c61a26cb17e374d4adb573b46afdebaf89f65ba5d4ae2"))),
+                    HeadUtils.fromHashCode("c510d9b61ca333d2946c61a26cb17e374d4adb573b46afdebaf89f65ba5d4ae2"),
                     "&6Wireless Item Output",
                     "",
                     "&fTransfer Items Wirelessly",
@@ -991,3 +967,4 @@ public class Items {
         // END Fluid Containers
     }
 }
+

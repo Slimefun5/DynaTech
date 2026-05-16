@@ -1,7 +1,7 @@
 package me.profelements.dynatech.tasks;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.items.misc.ItemBand;
 import org.bukkit.Bukkit;
@@ -50,8 +50,8 @@ public class ItemBandTask implements Runnable {
                             {
                                 double health = p.getHealth();
                                 p.addPotionEffect(pe);
-                                if (health > p.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue()) {
-                                    p.setHealth(p.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue());
+                                if (health > p.getAttribute(Attribute.MAX_HEALTH).getValue()) {
+                                    p.setHealth(p.getAttribute(Attribute.MAX_HEALTH).getValue());
                                 } else {
                                     p.setHealth(health);
                                 }
@@ -67,3 +67,4 @@ public class ItemBandTask implements Runnable {
     }
 
 }
+

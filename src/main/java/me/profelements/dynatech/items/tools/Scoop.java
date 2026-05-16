@@ -1,14 +1,14 @@
 package me.profelements.dynatech.items.tools;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
-import io.github.thebusybiscuit.slimefun4.core.attributes.Rechargeable;
-import io.github.thebusybiscuit.slimefun4.core.handlers.EntityInteractHandler;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
+import io.github.thebusybiscuit.slimefun5.core.attributes.Rechargeable;
+import io.github.thebusybiscuit.slimefun5.core.handlers.EntityInteractHandler;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import me.profelements.dynatech.registries.Items;
 
 import org.bukkit.Sound;
@@ -42,7 +42,7 @@ public class Scoop extends SlimefunItem implements Rechargeable, NotPlaceable {
 
             if (entity instanceof Bee) {
 
-                entity.getWorld().dropItemNaturally(entity.getLocation(), Items.BEE.stack());
+                entity.getWorld().dropItemNaturally(entity.getLocation(), Items.BEE.stack().item());
                 entity.remove();
                 removeItemCharge(item, 8);
 
@@ -58,3 +58,4 @@ public class Scoop extends SlimefunItem implements Rechargeable, NotPlaceable {
     }
 
 }
+

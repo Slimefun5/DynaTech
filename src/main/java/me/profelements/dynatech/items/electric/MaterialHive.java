@@ -1,15 +1,15 @@
 package me.profelements.dynatech.items.electric;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemSetting;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.Radioactive;
-import io.github.thebusybiscuit.slimefun4.core.attributes.Radioactivity;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemSetting;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.Radioactive;
+import io.github.thebusybiscuit.slimefun5.core.attributes.Radioactivity;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ClickAction;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
@@ -230,7 +230,7 @@ public class MaterialHive extends AbstractElectricMachine implements Radioactive
         }
         ;
 
-        preset.drawBackground(UI_KEY, BORDER_KEY);
+        preset.drawBackground(UI_KEY.item(), BORDER_KEY);
     }
 
     @Override
@@ -244,3 +244,4 @@ public class MaterialHive extends AbstractElectricMachine implements Radioactive
     }
 
 }
+

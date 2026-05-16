@@ -1,10 +1,10 @@
 package me.profelements.dynatech.items.electric.generators;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
 import me.profelements.dynatech.registries.Items;
 
 import java.util.List;
@@ -31,9 +31,10 @@ public class HydroGenerator extends SlimefunItem {
             public void onPlayerBreak(BlockBreakEvent event, ItemStack arg1, List<ItemStack> arg2) {
                 arg2.clear();
                 event.getBlock().getWorld().dropItemNaturally(event.getBlock().getLocation(),
-                        Items.DEGRADED_WATER_MILL.stack());
+                        Items.DEGRADED_WATER_MILL.stack().item());
             }
         };
     }
 
 }
+
