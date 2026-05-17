@@ -12,22 +12,6 @@ A Slimefun addon that adds various technological machines, generators, and tools
 - Paper 1.16.* - 26.1.*
 - Slimefun 5
 
-## Developer API
-
-You can easily depend on this project using [github-gradle](https://github.com/intisy/github-gradle).
-
-In your `build.gradle.kts`:
-
-```kotlin
-plugins {
-    id("io.github.intisy.github-gradle") version "1.8.2.1"
-}
-
-dependencies {
-    "githubCompileOnly"("Slimefun5:DynaTech:v1.0.1")
-}
-```
-
 A set of item and machines that I made to make things easier for me and just for fun.
 Most of these could possibly be overpowered or heavily underpowered.
 
@@ -102,3 +86,19 @@ I do not want to deal with the extra issues or development time that supporting 
  [Slimefun Discord](https://slimefun.dev/discord) for putting up with my outright spam of the programming help channel.
 
  [Slimefun5](https://github.com/Slimefun5/Slimefun5) for being incredibly intuitive to make an addon for and overall being generally helpful when needing examples.
+
+## Developer API
+
+You can easily depend on this project using [github-gradle](https://github.com/intisy/github-gradle).
+
+In your `build.gradle.kts`:
+
+```kotlin
+plugins {
+    id("io.github.intisy.github-gradle") version "1.8.2.1"
+}
+
+dependencies {
+    "githubCompileOnly"("Slimefun5:DynaTech:v1.0.1")
+}
+```
