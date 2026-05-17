@@ -12,21 +12,6 @@ A Slimefun addon that adds various technological machines, generators, and tools
 - Paper 1.16.* - 26.1.*
 - Slimefun 5
 
-A set of item and machines that I made to make things easier for me and just for fun.
-Most of these could possibly be overpowered or heavily underpowered.
-
-**THIS PLUGIN REQUIRES JAVA 21+**
-**THIS PLUGIN REQUIRES PAPER 1.21+**
-
-DynaTech **never** tries to be backwards with older minecraft versions.
-I do not want to deal with the extra issues or development time that supporting older versions needs.
-
-### Requirements
-
-- [Slimefun5](https://github.com/Slimefun5/Slimefun5)
-
-### [Download](https://github.com/Slimefun5/DynaTech/releases)
-
 ## Machines
 - **Auto-Kitchen** - If you have ExoticGarden installed, this machine will become available. It automatically crafts any Kitchen recipe inserted into it.
 - **Growth Chambers** - Automatically grow some plants. We have multiple variants for all your needs. Supports Exotic Garden saplings, plants, and bushes.
