@@ -34,20 +34,12 @@ dependencies {
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
     "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
 
-    compileOnly("com.github.thebusybiscuit:exoticgarden:7f9a5f6") {
-        exclude(group = "com.github.Slimefun", module = "Slimefun4")
-    }
-    compileOnly("com.github.Mooy1:InfinityExpansion:d995144") {
-        exclude(group = "com.github.Slimefun", module = "Slimefun4")
-    }
-    compileOnly("com.github.SchnTgaiSpock:Gastronomicon:33e89f01e6") {
-        exclude(group = "com.github.Slimefun", module = "Slimefun4")
-    }
+    githubCompileOnly("Slimefun5:ExoticGarden:v1.7.0")
+    githubCompileOnly("Slimefun5:InfinityExpansion:v1.1.0")
+    githubCompileOnly("SchnTgaiSpock:Gastronomicon:master")
 
     implementation("org.bstats:bstats-bukkit:3.0.2")
-    implementation("com.github.Slimefun-Addon-Community:extrautils:73e76ac06c") {
-        exclude(group = "com.github.Slimefun", module = "Slimefun4")
-    }
+    
 
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
@@ -88,4 +80,6 @@ tasks {
         useJUnitPlatform()
     }
 }
+
+
 
