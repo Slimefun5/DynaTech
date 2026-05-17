@@ -5,7 +5,7 @@
 [![GitHub Followers](https://img.shields.io/github/followers/Slimefun5?style=social)](https://github.com/Slimefun5)
 [![GitHub Stars](https://img.shields.io/github/stars/Slimefun5/DynaTech?style=social)](https://github.com/Slimefun5/DynaTech)
 
-A Slimefun 5 Addon.
+A Slimefun addon that adds various technological machines, generators, and tools.
 
 ## Requirements
 - Java 25
