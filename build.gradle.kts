@@ -36,7 +36,7 @@ dependencies {
 
     githubCompileOnly("Slimefun5:ExoticGarden:v1.7.0")
     githubCompileOnly("Slimefun5:InfinityExpansion:v1.1.0")
-    githubCompileOnly("SchnTgaiSpock:Gastronomicon:master")
+    githubCompileOnly("SchnTgaiSpock:Gastronomicon:v1.0.6")
 
     implementation("org.bstats:bstats-bukkit:3.0.2")
     
@@ -80,6 +80,7 @@ tasks {
         useJUnitPlatform()
     }
 }
+
 
 
 
