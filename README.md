@@ -4,6 +4,7 @@
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Slimefun5/DynaTech/total)
 [![GitHub Followers](https://img.shields.io/github/followers/Slimefun5?style=social)](https://github.com/Slimefun5)
 [![GitHub Stars](https://img.shields.io/github/stars/Slimefun5/DynaTech?style=social)](https://github.com/Slimefun5/DynaTech)
+[![bStats](https://bStats.org/signatures/bukkit/DynaTech.svg)](https://bStats.org/plugin/bukkit/DynaTech/31440)
 
 A Slimefun addon that adds various technological machines, generators, and tools.
 
