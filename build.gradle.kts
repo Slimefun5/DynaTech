@@ -30,6 +30,7 @@ repositories {
 }
 
 dependencies {
+    githubImplementation("Slimefun5:SlimefunMetrics:master")
     compileOnly("io.papermc.paper:paper-api:${property("paperApiVersion")}")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
     "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
@@ -38,8 +39,7 @@ dependencies {
     githubCompileOnly("Slimefun5:InfinityExpansion:v1.1.0")
     githubCompileOnly("SchnTgaiSpock:Gastronomicon:v1.0.6")
 
-    implementation("org.bstats:bstats-bukkit:3.0.2")
-    
+        
 
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
@@ -69,8 +69,7 @@ tasks {
     }
     shadowJar {
         archiveFileName.set("DynaTech v${project.version}-MC26.1.2.jar")
-        relocate("org.bstats", "me.profelements.dynatech.bstats")
-        relocate("dev.j3fftw.extrautils", "me.profelements.dynatech.extrautils")
+                relocate("dev.j3fftw.extrautils", "me.profelements.dynatech.extrautils")
         exclude("META-INF/**")
     }
     build {
