@@ -24,10 +24,10 @@ import me.profelements.dynatech.utils.Liquid;
 import me.profelements.dynatech.utils.LiquidRegistry;
 import me.profelements.dynatech.utils.RecipeRegistry;
 
-import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.WorldCreator;
 import org.bukkit.plugin.java.JavaPlugin;
+import dev.walshy.sfmetrics.MetricsModule;
 import org.bukkit.scheduler.BukkitTask;
 
 import javax.annotation.Nonnull;
@@ -47,6 +47,8 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public void onEnable() {
+        MetricsModule.setup(this, 31440);
+
         setInstance(this);
         rRegistry = RecipeRegistry.init();
         lRegistry = LiquidRegistry.init();
@@ -57,8 +59,7 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
 
         saveDefaultConfig();
 
-        new Metrics(this, 9689);
-
+        
         if (!getConfig().getBoolean("options.disable-dimensionalhome-world")) {
             WorldCreator worldCreator = new WorldCreator("dimensionalhome");
             worldCreator.generator(new DimensionalHomeDimension());
