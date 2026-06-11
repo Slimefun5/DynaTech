@@ -52,7 +52,8 @@ public class MineralizedApiary extends AbstractElectricMachine {
     @Override
     public void tick(BlockMenu menu, Block b) {
         BlockState state = menu.getBlock().getState(); 
-        if (state instanceof Beehive hive) {
+        if (state instanceof Beehive) {
+            Beehive hive = (Beehive) state;
 
             int count = hive.getEntityCount();
             
@@ -78,7 +79,8 @@ public class MineralizedApiary extends AbstractElectricMachine {
         MachineRecipe recipe = recipes.get(0);
     
         BlockState state = menu.getBlock().getState(); 
-        if (state instanceof Beehive hive) {
+        if (state instanceof Beehive) {
+            Beehive hive = (Beehive) state;
 
             int count = hive.getEntityCount();
             

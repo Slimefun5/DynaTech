@@ -29,7 +29,7 @@ public class Registry<T> {
 
     static <T> Registry<T> create(TypedKey<Registry<T>> key) {
         Preconditions.checkNotNull(key);
-        var registry = new Registry<T>(key);
+        Registry<T> registry = new Registry<T>(key);
 
         registries.put(key.key(), registry);
 
@@ -98,11 +98,11 @@ public class Registry<T> {
     }
 
     public Set<T> getEntries() {
-        return entries.values().stream().collect(Collectors.toUnmodifiableSet());
+        return java.util.Collections.unmodifiableSet(entries.values().stream().collect(Collectors.toSet()));
     }
 
     public Set<TypedKey<T>> getKeys() {
-        return entries.keySet().stream().collect(Collectors.toUnmodifiableSet());
+        return java.util.Collections.unmodifiableSet(entries.keySet().stream().collect(Collectors.toSet()));
     }
 
     public T entry(TypedKey<T> key) {

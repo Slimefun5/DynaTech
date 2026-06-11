@@ -29,7 +29,6 @@ import me.profelements.dynatech.registries.Items;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.Chunk;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -43,7 +42,6 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
 
 public class WirelessItemOutput extends SlimefunItem implements EnergyNetComponent {
 
@@ -183,16 +181,9 @@ public class WirelessItemOutput extends SlimefunItem implements EnergyNetCompone
     private void sendItemsFromInput(Block b, String wirelessLocation) {
         Location wirelessItemInput = stringToLocation(wirelessLocation);
 
-        // Note: You should probably also see if the Future from getChunkAtAsync is
-        // finished here.
-        // you don't really want to possibly trigger the chunk to load in another thread
-        // twice.
         if (!wirelessItemInput.getWorld().isChunkLoaded(wirelessItemInput.getBlockX() >> 4,
                 wirelessItemInput.getBlockZ() >> 4)) {
-            CompletableFuture<Chunk> chunkLoad = wirelessItemInput.getWorld().getChunkAtAsync(wirelessItemInput);
-            if (!chunkLoad.isDone()) {
-                return;
-            }
+            return;
         }
 
         if (BlockStorage.checkID(wirelessItemInput) != null

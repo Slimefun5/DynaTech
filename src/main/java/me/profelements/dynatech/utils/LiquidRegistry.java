@@ -2,6 +2,7 @@ package me.profelements.dynatech.utils;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.bukkit.NamespacedKey;
 
@@ -32,6 +33,6 @@ public class LiquidRegistry {
     }
 
     public final Liquid getByKey(NamespacedKey key) {
-        return getLiquids().stream().filter(r -> r.getKey().equals(key)).toList().get(0);
+        return getLiquids().stream().filter(r -> r.getKey().equals(key)).collect(Collectors.toList()).get(0);
     }
 }

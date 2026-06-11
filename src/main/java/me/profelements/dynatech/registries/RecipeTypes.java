@@ -23,32 +23,32 @@ public class RecipeTypes {
         registry.register(Keys.ORECHID, ORECHID);
     }
 
-    public static final RecipeType SCOOPING = new RecipeType(Keys.SCOOPING.key(),
+    public static final RecipeType SCOOPING = new RecipeType(Keys.SCOOPING.sfKey(),
             CustomItemStack.create(Material.IRON_SHOVEL, "Use the Scoop to get this item."));
 
-    public static final RecipeType OVENING = new RecipeType(Keys.OVENING.key(),
+    public static final RecipeType OVENING = new RecipeType(Keys.OVENING.sfKey(),
             CustomItemStack.create(Material.SMOKER, "Throw into the Coal Coke Oven multiblock"));
 
-    public static final RecipeType BLOCK_DROP = new RecipeType(Keys.BLOCK_DROP.key(),
+    public static final RecipeType BLOCK_DROP = new RecipeType(Keys.BLOCK_DROP.sfKey(),
             CustomItemStack.create(Material.COBWEB, "Drops from a block"));
 
-    public static final RecipeType TREE_GROWTH_CHAMBER = new RecipeType(Keys.TREE_GROWTH_CHAMBER.key(),
+    public static final RecipeType TREE_GROWTH_CHAMBER = new RecipeType(Keys.TREE_GROWTH_CHAMBER.sfKey(),
             CustomItemStack.create(Material.LIME_CONCRETE, "Throw into the Tree Growth Chamber machine"));
 
-    public static final RecipeType MATERIAL_HIVE = new RecipeType(Keys.MATERIAL_HIVE.key(),
+    public static final RecipeType MATERIAL_HIVE = new RecipeType(Keys.MATERIAL_HIVE.sfKey(),
             Items.MATERIAL_HIVE.stack().item(),
             (recipe, output) -> {
                 MaterialHive materialHive = ((MaterialHive) Items.MATERIAL_HIVE.stack().getItem());
                 materialHive.getMachineRecipes().add(new MachineRecipe(1800, recipe, new ItemStack[] { output }));
             });
 
-    public static final RecipeType PETAL_APOTHECARY = new RecipeType(Keys.PETAL_APOTHECARY.key(),
+    public static final RecipeType PETAL_APOTHECARY = new RecipeType(Keys.PETAL_APOTHECARY.sfKey(),
             Items.PETAL_APOTHECARY.stack().item(),
             (recipe, output) -> {
 
             });
 
-    public static final RecipeType ORECHID = new RecipeType(Keys.ORECHID.key(), Items.ORECHID.stack().item(),
+    public static final RecipeType ORECHID = new RecipeType(Keys.ORECHID.sfKey(), Items.ORECHID.stack().item(),
             (recipe, output) -> {
                 // Grab first item for input
                 Material inputMaterial = recipe[0].getType();

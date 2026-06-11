@@ -24,8 +24,6 @@ import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 import me.profelements.dynatech.registries.RecipeTypes;
 import me.profelements.dynatech.registries.Registries;
 import me.profelements.dynatech.utils.Recipe;
-import net.kyori.adventure.text.Component;
-import net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer;
 
 public class PetalApothecary extends SlimefunItem {
 
@@ -55,19 +53,17 @@ public class PetalApothecary extends SlimefunItem {
             @Override
             public void onRightClick(PlayerRightClickEvent event) {
 
-                if (event.getClickedBlock().get().getBlockData() instanceof Levelled lvl) {
-                    event.getPlayer()
-                            .sendMessage(Component.text("Level of cauldron = ").append(Component.text(lvl.getLevel())));
+                if (event.getClickedBlock().get().getBlockData() instanceof Levelled) {
+                    Levelled lvl = (Levelled) event.getClickedBlock().get().getBlockData();
+                    event.getPlayer().sendMessage("Level of cauldron = " + lvl.getLevel());
 
                     List<ItemStack> items = RECIPE_ITEMS
                             .getOrDefault(new BlockPosition(event.getClickedBlock().get()), new ArrayList<>());
 
-                    event.getPlayer()
-                            .sendMessage(Component.text("entries size: ").append(Component.text(RECIPE_ITEMS.size())));
+                    event.getPlayer().sendMessage("entries size: " + RECIPE_ITEMS.size());
 
                     for (ItemStack item : items) {
-                        event.getPlayer().sendMessage(Component
-                                .text(PlainTextComponentSerializer.plainText().serialize(item.displayName())));
+                        event.getPlayer().sendMessage(item.hasItemMeta() ? item.getItemMeta().getDisplayName() : item.getType().name());
                     }
                 }
 
@@ -78,9 +74,10 @@ public class PetalApothecary extends SlimefunItem {
 
     private void tickBlock(Block block) {
 
-        if (!(block.getBlockData() instanceof Levelled lvl)) {
+        if (!(block.getBlockData() instanceof Levelled)) {
             return;
         }
+        Levelled lvl = (Levelled) block.getBlockData();
 
         int levelAfterRecipeConsume = lvl.getLevel() - 1;
 
@@ -103,7 +100,7 @@ public class PetalApothecary extends SlimefunItem {
                 block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), item);
             });
 
-            if (levelAfterRecipeConsume >= lvl.getMinimumLevel()) {
+            if (levelAfterRecipeConsume >= 0) {
                 lvl.setLevel(levelAfterRecipeConsume);
                 block.setBlockData(lvl);
             } else {
@@ -116,7 +113,8 @@ public class PetalApothecary extends SlimefunItem {
 
     private List<ItemStack> getMaybeRecipes(Block block) {
         BlockPosition pos = new BlockPosition(block);
-        Collection<Item> items = block.getWorld().getNearbyEntitiesByType(Item.class, block.getLocation(), 1.d);
+        Collection<Item> items = block.getWorld().getNearbyEntities(block.getLocation(), 1.d, 1.d, 1.d).stream()
+                .filter(e -> e instanceof Item).map(e -> (Item) e).collect(java.util.stream.Collectors.toList());
         List<ItemStack> itemList = RECIPE_ITEMS.getOrDefault(pos, new ArrayList<>());
 
         Optional<Item> maybeRecipeItem = items.stream().filter((item) -> {

@@ -48,7 +48,8 @@ public class FurnaceController extends AbstractElectricTicker {
             if (getMachines().contains(relBlock.getType())) { 
                 BlockState state = relBlock.getState();
                 
-                if (state instanceof Furnace furnace && furnace.getCookTimeTotal() > 0) {
+                if (state instanceof Furnace && ((Furnace) state).getCookTimeTotal() > 0) {
+                    Furnace furnace = (Furnace) state;
                     furnace.setBurnTime((short) 1600);
 
                     state.update(true, true);

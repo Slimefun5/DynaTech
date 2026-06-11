@@ -7,6 +7,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -112,7 +113,7 @@ public class CokeOvenController extends SlimefunItem {
         BlockPosition pos = new BlockPosition(blk);
         boolean isValid = !validBlocks.stream().filter((filter) -> {
             return filter.getFirstValue().equals(pos);
-        }).toList().isEmpty();
+        }).collect(Collectors.toList()).isEmpty();
 
         if (!isValid) {
             return;
@@ -120,7 +121,7 @@ public class CokeOvenController extends SlimefunItem {
 
         Pair<BlockPosition, BlockFace> blockValid = validBlocks.stream().filter((filter) -> {
             return filter.getFirstValue().equals(pos);
-        }).toList().get(0);
+        }).collect(Collectors.toList()).get(0);
 
         BlockFace facing = blockValid.getSecondValue();
         BlockFace right = rotateCounterClockwise(facing);
@@ -132,26 +133,25 @@ public class CokeOvenController extends SlimefunItem {
         Optional<Container> inputBarrelContainer = Optional.empty();
         Optional<Container> outputBarrelContainer = Optional.empty();
 
-        if (inputBarrel.getState() instanceof Container container) {
-            inputBarrelContainer = Optional.of(container);
-
+        if (inputBarrel.getState() instanceof Container) {
+            inputBarrelContainer = Optional.of((Container) inputBarrel.getState());
         }
 
-        if (outputBarrel.getState() instanceof Container oContainer) {
-            outputBarrelContainer = Optional.of(oContainer);
+        if (outputBarrel.getState() instanceof Container) {
+            outputBarrelContainer = Optional.of((Container) outputBarrel.getState());
         }
 
-        if (inputBarrelContainer.isEmpty() || outputBarrelContainer.isEmpty()) {
+        if (!inputBarrelContainer.isPresent() || !outputBarrelContainer.isPresent()) {
             return;
         }
 
         Optional<Recipe> maybeRecipe = blockPosToMaybeRecipe.getOrDefault(pos, Optional.empty());
 
-        if (maybeRecipe.isEmpty()) {
+        if (!maybeRecipe.isPresent()) {
 
             List<Recipe> maybeRecipes = Registries.RECIPES.getEntries().stream().filter((recipe) -> {
                 return recipe.getRecipeType().equals(RecipeTypes.OVENING);
-            }).toList();
+            }).collect(Collectors.toList());
 
             List<ItemStack> itemsToRemove = new ArrayList<>();
             Inventory brlInv = inputBarrelContainer.get().getInventory();
@@ -275,13 +275,13 @@ public class CokeOvenController extends SlimefunItem {
 
     private BlockFace rotateCounterClockwise(BlockFace facing) {
         switch (facing) {
-            case BlockFace.NORTH:
+            case NORTH:
                 return BlockFace.WEST;
-            case BlockFace.EAST:
+            case EAST:
                 return BlockFace.NORTH;
-            case BlockFace.SOUTH:
+            case SOUTH:
                 return BlockFace.EAST;
-            case BlockFace.WEST:
+            case WEST:
                 return BlockFace.SOUTH;
             default:
                 return BlockFace.SELF;
@@ -294,7 +294,7 @@ public class CokeOvenController extends SlimefunItem {
         for (int y = 0; y < 3; y++) {
             for (int z = 0; z < 3; z++) {
                 for (int x = 0; x < 3; x++) {
-                    pattern[z][x][y] = blk -> (blk.getType().equals(Material.MUD_BRICKS));
+                    pattern[z][x][y] = blk -> (blk.getType().equals(Material.BRICKS));
                 }
             }
         }

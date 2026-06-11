@@ -22,10 +22,8 @@ import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.registries.Items;
 import me.profelements.dynatech.utils.EnergyUtils;
-import net.kyori.adventure.text.Component;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
-import org.bukkit.Chunk;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -37,7 +35,6 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
 
 public class Tesseract extends SlimefunItem implements EnergyNetProvider {
     public static final NamespacedKey WIRELESS_LOCATION_KEY = new NamespacedKey(DynaTech.getInstance(),
@@ -132,15 +129,8 @@ public class Tesseract extends SlimefunItem implements EnergyNetProvider {
     private void sendItemsAndCharge(Block b, String wirelessLocation) {
         Location tesseractPair = stringToLocation(wirelessLocation);
 
-        // Note: You should probably also see if the Future from getChunkAtAsync is
-        // finished here.
-        // you don't really want to possibly trigger the chunk to load in another thread
-        // twice.
         if (!tesseractPair.getWorld().isChunkLoaded(tesseractPair.getBlockX() >> 4, tesseractPair.getBlockZ() >> 4)) {
-            CompletableFuture<Chunk> chunkLoad = tesseractPair.getWorld().getChunkAtAsync(tesseractPair);
-            if (!chunkLoad.isDone()) {
-                return;
-            }
+            return;
         }
 
         if (BlockStorage.checkID(tesseractPair) != null
@@ -168,16 +158,9 @@ public class Tesseract extends SlimefunItem implements EnergyNetProvider {
         if (chargedNeeded != 0 && tesseractPairLocation != null) {
             Location tesseractPair = stringToLocation(tesseractPairLocation);
 
-            // Note: You should probably also see if the Future from getChunkAtAsync is
-            // finished here.
-            // you don't really want to possibly trigger the chunk to load in another thread
-            // twice.
             if (!tesseractPair.getWorld().isChunkLoaded(tesseractPair.getBlockX() >> 4,
                     tesseractPair.getBlockZ() >> 4)) {
-                CompletableFuture<Chunk> chunkLoad = tesseractPair.getWorld().getChunkAtAsync(tesseractPair);
-                if (!chunkLoad.isDone()) {
-                    return 0;
-                }
+                return 0;
             }
 
             if (BlockStorage.checkID(tesseractPair) != null
@@ -200,17 +183,19 @@ public class Tesseract extends SlimefunItem implements EnergyNetProvider {
 
         ItemStack knowledgePane = menu.getItemInSlot(4);
         ItemMeta im = knowledgePane.getItemMeta();
-        List<Component> lore = im.hasLore() ? im.lore() : new ArrayList<>();
+        List<String> lore = im.hasLore() ? im.getLore() : new ArrayList<>();
 
         lore.clear();
-        lore.add(Component.text(" "));
-        lore.add(Component.text(ChatColor.WHITE + "Current Power: " + currentCharge));
-        lore.add(Component.text(ChatColor.WHITE + "Current Status: " + ChatColor.RED + "CONNECTED"));
+        lore.add(" ");
+        lore.add(ChatColor.WHITE + "Current Power: " + currentCharge);
+        lore.add(ChatColor.WHITE + "Current Status: " + ChatColor.RED + "CONNECTED");
 
-        im.lore(lore);
+        im.setLore(lore);
         knowledgePane.setItemMeta(im);
 
-        menu.replaceExistingItem(4, knowledgePane.withType(Material.RED_STAINED_GLASS_PANE));
+        ItemStack coloredPane = new ItemStack(Material.RED_STAINED_GLASS_PANE);
+        coloredPane.setItemMeta(im);
+        menu.replaceExistingItem(4, coloredPane);
     }
 
     // Boilerplate for machines.
@@ -255,18 +240,18 @@ public class Tesseract extends SlimefunItem implements EnergyNetProvider {
 
     public static void setItemLore(ItemStack item, Location l) {
         ItemMeta im = item.getItemMeta();
-        List<Component> lore = im.lore();
+        List<String> lore = im.hasLore() ? im.getLore() : new ArrayList<>();
         for (int i = 0; i < lore.size(); i++) {
-            if (lore.get(i).contains(Component.text("Location: "))) {
+            if (lore.get(i).contains("Location: ")) {
                 lore.remove(i);
+                break;
             }
         }
 
-        lore.add(Component.text(
-                ChatColor.WHITE + "Location: " + l.getWorld().getName() + " " + l.getBlockX() + " " + l.getBlockY()
-                        + " " + l.getBlockZ()));
+        lore.add(ChatColor.WHITE + "Location: " + l.getWorld().getName() + " " + l.getBlockX() + " " + l.getBlockY()
+                        + " " + l.getBlockZ());
 
-        im.lore(lore);
+        im.setLore(lore);
         item.setItemMeta(im);
 
     }

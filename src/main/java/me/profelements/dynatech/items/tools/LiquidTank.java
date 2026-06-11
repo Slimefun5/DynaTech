@@ -53,7 +53,7 @@ public class LiquidTank extends SlimefunItem implements NotPlaceable, Listener {
     private final EntityInteractHandler onEntityClick() {
         return (e, item, something) -> {
             if ((e.getRightClicked().getType() == EntityType.COW
-                    || e.getRightClicked().getType() == EntityType.MOOSHROOM)
+                    || e.getRightClicked().getType() == EntityType.MUSHROOM_COW)
                     && SlimefunUtils.isItemSimilar(item, Items.LIQUID_TANK.stack().item(), true)) {
                 e.setCancelled(true);
             }
@@ -62,9 +62,10 @@ public class LiquidTank extends SlimefunItem implements NotPlaceable, Listener {
 
     @EventHandler
     private void onBucketChange(PlayerBucketFillEvent e) {
-        ItemStack item = e.getPlayer().getEquipment().getItem(e.getHand());
+        ItemStack item = e.getPlayer().getInventory().getItemInMainHand();
         if (this.isItem(item) && this.canUse(e.getPlayer(), true)
-                && SlimefunItem.getByItem(item) instanceof LiquidTank tank) {
+                && SlimefunItem.getByItem(item) instanceof LiquidTank) {
+            LiquidTank tank = (LiquidTank) SlimefunItem.getByItem(item);
             e.setCancelled(true);
             // Check if block == LAVA or WATER
             String fluidName = PersistentDataAPI.getString(item.getItemMeta(), FLUID_NAME, "NO_LIQUID");
@@ -96,7 +97,8 @@ public class LiquidTank extends SlimefunItem implements NotPlaceable, Listener {
 
     @EventHandler
     private void onCauldronFill(CauldronLevelChangeEvent e) {
-        if (e.getEntity() instanceof Player player) {
+        if (e.getEntity() instanceof Player) {
+            Player player = (Player) e.getEntity();
             ItemStack item = player.getInventory().getItemInMainHand();
             if (this.isItem(item) && this.canUse(player, true) && SlimefunItem.getByItem(item) instanceof LiquidTank) {
                 e.setCancelled(true);
@@ -117,7 +119,7 @@ public class LiquidTank extends SlimefunItem implements NotPlaceable, Listener {
 
                     if (mat != null && e.getClickedBlock().isPresent()) {
                         Block block = e.getClickedBlock().get().getRelative(e.getClickedFace());
-                        if ((block.isLiquid() || block.getType().isAir()) && !block.getWorld().isUltraWarm()
+                        if ((block.isLiquid() || block.getType().isAir()) && block.getWorld().getEnvironment() != org.bukkit.World.Environment.NETHER
                                 && Slimefun.getProtectionManager().hasPermission(e.getPlayer(), block.getLocation(),
                                         Interaction.PLACE_BLOCK)) {
                             ItemMeta meta = item.getItemMeta();

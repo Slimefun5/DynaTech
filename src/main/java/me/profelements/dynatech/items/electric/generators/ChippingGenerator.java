@@ -79,11 +79,12 @@ public class ChippingGenerator extends AbstractGenerator {
             ItemStack item =  inv.getItemInSlot(slot); 
             if (item != null && !item.getType().isAir() && item.hasItemMeta()) {
                 ItemMeta meta = item.getItemMeta(); 
-                if (meta instanceof Damageable damage && !meta.isUnbreakable()) {
+                if (meta instanceof Damageable && !meta.isUnbreakable()) {
+                    Damageable damage = (Damageable) meta;
                     if (!damage.hasDamage()) {
-                        int durability = item.getType().getMaxDurability(); 
-                        inv.consumeItem(slot); 
-                        return new MachineFuel(durability, item);  
+                        int durability = item.getType().getMaxDurability();
+                        inv.consumeItem(slot);
+                        return new MachineFuel(durability, item);
                     } else {
                         int durability = item.getType().getMaxDurability() - damage.getDamage();
                         inv.consumeItem(slot);

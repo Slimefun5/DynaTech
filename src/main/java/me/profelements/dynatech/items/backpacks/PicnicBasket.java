@@ -89,7 +89,7 @@ public class PicnicBasket extends SlimefunBackpack {
         registerFood(new ItemStack(Material.APPLE), new Pair<>(4, 3F)); 
         registerFood(new ItemStack(Material.MELON_SLICE), new Pair<>(2, 1F));
         registerFood(new ItemStack(Material.SWEET_BERRIES), new Pair<>(2, 1F));
-        registerFood(new ItemStack(Material.GLOW_BERRIES), new Pair<>(2, 1F));
+
         registerFood(new ItemStack(Material.CARROT), new Pair<>(3, 3F));
         registerFood(new ItemStack(Material.GOLDEN_CARROT), new Pair<>(6, 15F));
         registerFood(new ItemStack(Material.POTATO), new Pair<>(1, 1F));

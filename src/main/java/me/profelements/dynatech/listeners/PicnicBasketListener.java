@@ -36,15 +36,18 @@ public class PicnicBasketListener implements Listener {
     
     @EventHandler 
     public void onHungerLoss(FoodLevelChangeEvent e) {
-        if (e.getEntity() instanceof Player player && e.getFoodLevel() < player.getFoodLevel()) {
-            checkAndConsume(player);
+        if (e.getEntity() instanceof Player) {
+            Player player = (Player) e.getEntity();
+            if (e.getFoodLevel() < player.getFoodLevel()) {
+                checkAndConsume(player);
+            }
         }
     }
 
     @EventHandler 
     public void onHungerDamage(EntityDamageEvent e) {
-        if (e.getEntity() instanceof Player player && e.getCause() == DamageCause.STARVATION) {
-            checkAndConsume(player);
+        if (e.getEntity() instanceof Player && e.getCause() == DamageCause.STARVATION) {
+            checkAndConsume((Player) e.getEntity());
         }
     }       
 

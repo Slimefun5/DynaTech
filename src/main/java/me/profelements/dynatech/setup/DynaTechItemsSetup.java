@@ -165,7 +165,7 @@ public class DynaTechItemsSetup {
 
         new ItemBand(ItemGroups.TOOLS, Items.ITEM_BAND_HASTE.stack(), Recipes.ITEM_BAND_HASTE.getRecipeType(),
                 Recipes.ITEM_BAND_HASTE.getInput(),
-                new PotionEffect[] { new PotionEffect(PotionEffectType.HASTE, 20 * 15, 1, true) })
+                new PotionEffect[] { new PotionEffect(PotionEffectType.FAST_DIGGING, 20 * 15, 1, true) })
                 .register(plugin);
 
         new TesseractBinder(ItemGroups.TOOLS, Items.TESSERACT_BINDER.stack(), Recipes.TESSERACT_BINDER.getRecipeType(),
@@ -173,14 +173,14 @@ public class DynaTechItemsSetup {
 
         if (DynaTech.isInfinityExpansionInstalled()) {
             new MobDataCard("Vex", MobDataTier.HOSTILE, new ItemStack[] {
-                    Items.VEX_GEM.stack().item().asQuantity(16),
-                    Items.GHOSTLY_ESSENCE.stack().item().asQuantity(16),
-                    Items.VEX_GEM.stack().item().asQuantity(16),
-                    Items.GHOSTLY_ESSENCE.stack().item().asQuantity(16), MobData.EMPTY_DATA_CARD.item(),
-                    Items.GHOSTLY_ESSENCE.stack().item().asQuantity(16),
-                    Items.VEX_GEM.stack().item().asQuantity(16),
-                    Items.GHOSTLY_ESSENCE.stack().item().asQuantity(16),
-                    Items.VEX_GEM.stack().item().asQuantity(16)
+                    qty(Items.VEX_GEM.stack().item(), 16),
+                    qty(Items.GHOSTLY_ESSENCE.stack().item(), 16),
+                    qty(Items.VEX_GEM.stack().item(), 16),
+                    qty(Items.GHOSTLY_ESSENCE.stack().item(), 16), MobData.EMPTY_DATA_CARD.item(),
+                    qty(Items.GHOSTLY_ESSENCE.stack().item(), 16),
+                    qty(Items.VEX_GEM.stack().item(), 16),
+                    qty(Items.GHOSTLY_ESSENCE.stack().item(), 16),
+                    qty(Items.VEX_GEM.stack().item(), 16)
             })
                     .addDrop(Items.VEX_GEM.stack().item(), 1)
                     .addDrop(Items.GHOSTLY_ESSENCE.stack().item(), 9)
@@ -694,6 +694,12 @@ public class DynaTechItemsSetup {
                     .register(plugin);
         }
 
+    }
+
+    private static ItemStack qty(ItemStack item, int amount) {
+        ItemStack copy = item.clone();
+        copy.setAmount(amount);
+        return copy;
     }
 }
 

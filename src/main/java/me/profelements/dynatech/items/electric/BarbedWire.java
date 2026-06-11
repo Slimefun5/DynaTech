@@ -71,7 +71,7 @@ public class BarbedWire extends AbstractElectricTicker {
         whitelist.add(EntityType.STRAY);
         whitelist.add(EntityType.VEX);
         whitelist.add(EntityType.VINDICATOR);
-        whitelist.add(EntityType.WARDEN);
+
         whitelist.add(EntityType.WITCH);
         whitelist.add(EntityType.WITHER);
         whitelist.add(EntityType.WITHER_SKELETON);

@@ -22,15 +22,13 @@ public class Recipes {
     private static final ItemStack REDSTONE_BLOCK = new ItemStack(Material.REDSTONE_BLOCK);
     private static final ItemStack BRICK = new ItemStack(Material.BRICK);
     private static final ItemStack STONE = new ItemStack(Material.STONE);
-    private static final ItemStack DEEPSLATE = new ItemStack(Material.DEEPSLATE);
-    private static final ItemStack CALCITE = new ItemStack(Material.CALCITE);
     private static final ItemStack IRON_INGOT = new ItemStack(Material.IRON_INGOT);
     private static final ItemStack IRON_BLOCK = new ItemStack(Material.IRON_BLOCK);
     private static final ItemStack DIAMOND = new ItemStack(Material.DIAMOND);
     private static final ItemStack DIAMOND_BLOCK = new ItemStack(Material.DIAMOND_BLOCK);
     private static final ItemStack CRYING_OBSIDIAN = new ItemStack(Material.CRYING_OBSIDIAN);
     private static final ItemStack UNBREAKING_3_ENCHANTED_BOOK = CustomItemStack.create(Material.ENCHANTED_BOOK, meta -> {
-        meta.addEnchant(Enchantment.UNBREAKING, 3, false);
+        meta.addEnchant(Enchantment.DURABILITY, 3, false);
     });
 
     private static final ItemStack GLASS = new ItemStack(Material.GLASS);
@@ -944,12 +942,6 @@ public class Recipes {
             .setOutput(new ItemStack(Material.GOLD_ORE), 2)
             .register();
 
-    public static final Recipe STONE_TO_COPPER_ORE = Recipe.init()
-            .setKey(Recipes.Keys.STONE_TO_COPPER_ORE.key())
-            .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(STONE)
-            .setOutput(new ItemStack(Material.COPPER_ORE), 3)
-            .register();
 
     public static final Recipe STONE_TO_LAPIS_ORE = Recipe.init()
             .setKey(Recipes.Keys.STONE_TO_LAPIS_ORE.key())
@@ -1014,66 +1006,11 @@ public class Recipes {
             .setOutput(new ItemStack(Material.BLACKSTONE), 5)
             .register();
 
-    public static final Recipe DEEPSLATE_TO_COAL_ORE = Recipe.init()
-            .setKey(Recipes.Keys.DEEPSLATE_TO_COAL_ORE.key())
-            .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(DEEPSLATE)
-            .setOutput(new ItemStack(Material.DEEPSLATE_COAL_ORE), 3)
-            .register();
-
-    public static final Recipe DEEPSLATE_TO_IRON_ORE = Recipe.init()
-            .setKey(Recipes.Keys.DEEPSLATE_TO_IRON_ORE.key())
-            .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(DEEPSLATE)
-            .setOutput(new ItemStack(Material.DEEPSLATE_IRON_ORE), 2)
-            .register();
-
-    public static final Recipe DEEPSLATE_TO_GOLD_ORE = Recipe.init()
-            .setKey(Recipes.Keys.DEEPSLATE_TO_GOLD_ORE.key())
-            .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(DEEPSLATE)
-            .setOutput(new ItemStack(Material.DEEPSLATE_GOLD_ORE), 2)
-            .register();
-
-    public static final Recipe DEEPSLATE_TO_COPPER_ORE = Recipe.init()
-            .setKey(Recipes.Keys.DEEPSLATE_TO_COPPER_ORE.key())
-            .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(DEEPSLATE)
-            .setOutput(new ItemStack(Material.DEEPSLATE_COPPER_ORE), 3)
-            .register();
-
-    public static final Recipe DEEPSLATE_TO_LAPIS_ORE = Recipe.init()
-            .setKey(Recipes.Keys.DEEPSLATE_TO_LAPIS_ORE.key())
-            .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(DEEPSLATE)
-            .setOutput(new ItemStack(Material.DEEPSLATE_LAPIS_ORE), 3)
-            .register();
-
-    public static final Recipe DEEPSLATE_TO_REDSTONE_ORE = Recipe.init()
-            .setKey(Recipes.Keys.DEEPSLATE_TO_REDSTONE_ORE.key())
-            .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(DEEPSLATE)
-            .setOutput(new ItemStack(Material.DEEPSLATE_REDSTONE_ORE), 3)
-            .register();
-
-    public static final Recipe DEEPSLATE_TO_DIAMOND_ORE = Recipe.init()
-            .setKey(Recipes.Keys.DEEPSLATE_TO_DIAMOND_ORE.key())
-            .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(DEEPSLATE)
-            .setOutput(new ItemStack(Material.DEEPSLATE_DIAMOND_ORE), 1)
-            .register();
-
-    public static final Recipe DEEPSLATE_TO_EMERALD_ORE = Recipe.init()
-            .setKey(Recipes.Keys.DEEPSLATE_TO_EMERALD_ORE.key())
-            .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(DEEPSLATE)
-            .setOutput(new ItemStack(Material.DEEPSLATE_EMERALD_ORE), 1)
-            .register();
 
     public static final Recipe CALCITE_TO_LIVINGROCK = Recipe.init()
             .setKey(Recipes.Keys.CALCITE_TO_LIVINGROCK.key())
             .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(CALCITE)
+            .setInput(STONE)
             .setOutput(Items.LIVINGROCK.stack().item())
             .register();
 

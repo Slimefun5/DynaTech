@@ -49,12 +49,12 @@ public class DimensionalHome extends SlimefunItem {
                     if (chunkKey > 0) {
                         if (p.getLocation().getWorld() != DIM_HOME_WORLD) {
                             Location dimHomeLocation = new Location(DIM_HOME_WORLD, 16 * chunkKey + 8d, 65, 8);
-                            p.teleportAsync(dimHomeLocation);
+                            p.teleport(dimHomeLocation);
                         } else {
-                            if (p.getRespawnLocation() != null) {
-                                p.teleportAsync(p.getRespawnLocation());
+                            if (p.getBedSpawnLocation() != null) {
+                                p.teleport(p.getBedSpawnLocation());
                             } else {
-                                p.teleportAsync(Bukkit.getServer().getWorlds().get(0).getSpawnLocation());
+                                p.teleport(Bukkit.getServer().getWorlds().get(0).getSpawnLocation());
                             }
                         }
                     } else {

@@ -26,7 +26,7 @@ public class Items {
     public static final ItemWrapper WOOD_MACHINE_CORE = ItemWrapper.create(Keys.WOOD_MACHINE_CORE,
             new SlimefunItemStack(
                     Items.Keys.WOOD_MACHINE_CORE.asSlimefunId(),
-                    Material.MANGROVE_WOOD, "&fWood Machine Core"));
+                    Material.OAK_WOOD, "&fWood Machine Core"));
 
     public static final ItemWrapper STONE_MACHINE_CORE = ItemWrapper.create(Keys.STONE_MACHINE_CORE,
             new SlimefunItemStack(
@@ -260,7 +260,7 @@ public class Items {
                     Material.MUSHROOM_STEM, "&6Tesseracting Object", "&f&oIt shimmers and shifts in your hands"));
 
     public static final ItemWrapper LIVINGROCK = ItemWrapper.create(Keys.LIVINGROCK,
-            new SlimefunItemStack(Keys.LIVINGROCK.asSlimefunId(), Material.DEEPSLATE_TILES, "&6Livingrock"));
+            new SlimefunItemStack(Keys.LIVINGROCK.asSlimefunId(), Material.STONE_BRICKS, "&6Livingrock"));
 
     public static final ItemWrapper LIVINGWOOD = ItemWrapper.create(Keys.LIVINGWOOD,
             new SlimefunItemStack(Keys.LIVINGWOOD.asSlimefunId(), Material.OAK_WOOD, "&6Livingwood"));

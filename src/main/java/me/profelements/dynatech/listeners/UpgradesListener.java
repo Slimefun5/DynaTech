@@ -61,8 +61,10 @@ public class UpgradesListener implements Listener {
             BlockFace face = AutoOutputUpgrade.stringToBlockFace(upgradeString.substring(index, index2));
             // DynaTech.getInstance().getLogger().info(face.toString());
             // Grab menu and then grab output slots
-            if (e.getProcessor().getOwner() instanceof AContainer cont
-                    && e.getOperation() instanceof CraftingOperation op && op.isFinished()) {
+            if (e.getProcessor().getOwner() instanceof AContainer
+                    && e.getOperation() instanceof CraftingOperation && ((CraftingOperation) e.getOperation()).isFinished()) {
+                AContainer cont = (AContainer) e.getProcessor().getOwner();
+                CraftingOperation op = (CraftingOperation) e.getOperation();
                 BlockMenu menu = BlockStorage.getInventory(l);
                 int[] outputSlots = cont.getOutputSlots();
                 ItemStack[] outputItems = op.getResults();
@@ -85,8 +87,9 @@ public class UpgradesListener implements Listener {
 
                     DynaTech.runSync(() -> {
                         BlockState state = l.getBlock().getRelative(face).getState();
-                        if (state instanceof Chest chest
-                                && InvUtils.fitAll(chest.getBlockInventory(), outputItems)) {
+                        if (state instanceof Chest
+                                && InvUtils.fitAll(((Chest) state).getBlockInventory(), outputItems)) {
+                            Chest chest = (Chest) state;
                             Inventory inv = chest.getBlockInventory();
 
                             inv.addItem(outputItems);
@@ -141,7 +144,9 @@ public class UpgradesListener implements Listener {
 
             DynaTech.runSync(() -> {
                 BlockState state = l.getBlock().getRelative(face).getState();
-                if (state instanceof Chest chest && e.getProcessor().getOwner() instanceof AContainer acont) {
+                if (state instanceof Chest && e.getProcessor().getOwner() instanceof AContainer) {
+                    Chest chest = (Chest) state;
+                    AContainer acont = (AContainer) e.getProcessor().getOwner();
                     BlockMenu inv = BlockStorage.getInventory(l);
                     int[] slots = acont.getInputSlots();
                     for (int slot : slots) {

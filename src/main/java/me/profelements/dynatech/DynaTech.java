@@ -27,7 +27,6 @@ import me.profelements.dynatech.utils.RecipeRegistry;
 import org.bukkit.Bukkit;
 import org.bukkit.WorldCreator;
 import org.bukkit.plugin.java.JavaPlugin;
-import dev.walshy.sfmetrics.MetricsModule;
 import org.bukkit.scheduler.BukkitTask;
 
 import javax.annotation.Nonnull;
@@ -47,8 +46,6 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public void onEnable() {
-        MetricsModule.setup(this, 31440);
-
         setInstance(this);
         rRegistry = RecipeRegistry.init();
         lRegistry = LiquidRegistry.init();

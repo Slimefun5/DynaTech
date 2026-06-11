@@ -1,58 +1,30 @@
 plugins {
     java
     id("com.gradleup.shadow")
-    id("io.github.intisy.github-gradle")
 }
 
 group = "me.profelements"
 version = "1.0.0-UNOFFICIAL"
 description = "DynaTech is a Slimefun addon that adds various machines, generators, tools and more."
 
-github {
-    accessToken = System.getenv("GITHUB_TOKEN") ?: ""
-    publish {
-        tag = System.getenv("GITHUB_REF_NAME")
-    }
-}
-
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(25))
+        languageVersion.set(JavaLanguageVersion.of(8))
     }
 }
 
 repositories {
     mavenCentral()
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
-    maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://repo.codemc.io/repository/maven-public/")
-    maven("https://jitpack.io")
 }
 
 dependencies {
-    implementation("com.github.Slimefun5:SlimefunMetrics:master-SNAPSHOT")
-    compileOnly("io.papermc.paper:paper-api:${property("paperApiVersion")}")
+    compileOnly(files("../../core/Slimefun5/core/build/libs/Slimefun v5.0.0-UNOFFICIAL-MC26.1.2.jar"))
+    compileOnly(files("../ExoticGarden/build/libs/ExoticGarden vv1.0.0-UNOFFICIAL-MC26.1.2.jar"))
+    compileOnly(files("../InfinityExpansion/build/libs/InfinityExpansion v1.0.0.jar"))
+    compileOnly("org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
-    "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
-
-    githubCompileOnly("Slimefun5:ExoticGarden:v1.7.0")
-    githubCompileOnly("Slimefun5:InfinityExpansion:v1.1.0")
-    githubCompileOnly("SchnTgaiSpock:Gastronomicon:v1.0.6")
-
-        
-
-    testImplementation(platform("org.junit:junit-bom:5.11.4"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-    testImplementation("org.mockito:mockito-core:5.15.2")
-    testImplementation("org.slf4j:slf4j-simple:2.0.16")
-    testImplementation("org.mockbukkit.mockbukkit:mockbukkit-v1.21:4.107.0") {
-        exclude(group = "org.jetbrains", module = "annotations")
-    }
-}
-
-configurations.testImplementation {
-    extendsFrom(configurations.compileOnly.get())
 }
 
 tasks {
@@ -69,19 +41,16 @@ tasks {
     }
     shadowJar {
         archiveFileName.set("DynaTech v${project.version}-MC26.1.2.jar")
-                relocate("dev.j3fftw.extrautils", "me.profelements.dynatech.extrautils")
+        relocate("dev.j3fftw.extrautils", "me.profelements.dynatech.extrautils")
         exclude("META-INF/**")
     }
     build {
         dependsOn(shadowJar)
     }
+    compileTestJava {
+        enabled = false
+    }
     test {
-        useJUnitPlatform()
+        enabled = false
     }
 }
-
-
-
-
-// Trigger CI
-

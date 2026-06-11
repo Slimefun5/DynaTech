@@ -37,12 +37,11 @@ public class WirelessCharger extends AbstractElectricTicker {
                 for (ItemStack item : p.getInventory()) {
                     SlimefunItem sfItem = SlimefunItem.getByItem(item);
 
-                    if (sfItem instanceof Rechargeable rcItem && rcItem.getItemCharge(item) != rcItem.getMaxItemCharge(item)) {
-                        
+                    if (sfItem instanceof Rechargeable && ((Rechargeable) sfItem).getItemCharge(item) != ((Rechargeable) sfItem).getMaxItemCharge(item)) {
+                        Rechargeable rcItem = (Rechargeable) sfItem;
                         removeCharge(b.getLocation(), getEnergyConsumption());
                         rcItem.addItemCharge(item, getEnergyConsumption());
                         p.updateInventory();
-
                     }
                 }
             }

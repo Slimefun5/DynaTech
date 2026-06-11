@@ -101,7 +101,7 @@ public class WaterMill extends SlimefunItem implements EnergyNetProvider {
             if (durability > 0 && block.getType() == Material.COBBLESTONE_WALL
                     || block.getType() == Material.PRISMARINE_WALL) {
                 final BlockData data = block.getState().getBlockData();
-                if (data instanceof Waterlogged wl && wl.isWaterlogged()) {
+                if (data instanceof Waterlogged && ((Waterlogged) data).isWaterlogged()) {
                     hasWaterMap.put(pos, true);
                     energyAmount = this.energyOutAmount;
                 } else {
