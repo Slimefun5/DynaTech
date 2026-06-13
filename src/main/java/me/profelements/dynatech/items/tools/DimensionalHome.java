@@ -14,7 +14,7 @@ import me.profelements.dynatech.registries.Items;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.World;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -25,7 +25,7 @@ import java.util.List;
 
 public class DimensionalHome extends SlimefunItem {
 
-    private static final NamespacedKey CHUNK_KEY = new NamespacedKey(DynaTech.getInstance(), "chunk-key");
+    private static final String CHUNK_KEY = "dynatech:chunk-key";
     private static final World DIM_HOME_WORLD = Bukkit.getServer().getWorld("dimensionalhome");
     private static final Config CURRENT_HIGHEST_CHUNK_ID = new Config("plugins/DynaTech/current-chunk-highest.yml");
     private int id = CURRENT_HIGHEST_CHUNK_ID.getInt("current-chunk-highest-id");

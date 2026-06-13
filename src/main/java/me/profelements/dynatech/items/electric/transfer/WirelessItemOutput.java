@@ -31,7 +31,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockBreakEvent;
@@ -45,8 +45,7 @@ import java.util.Optional;
 
 public class WirelessItemOutput extends SlimefunItem implements EnergyNetComponent {
 
-    protected static final NamespacedKey WIRELESS_LOCATION_KEY = new NamespacedKey(DynaTech.getInstance(),
-            "wireless-input-location");
+    protected static final String WIRELESS_LOCATION_KEY = "dynatech:wireless-input-location";
     private final int capacity;
 
     public WirelessItemOutput(ItemGroup itemGroup, int capacity, SlimefunItemStack item, RecipeType recipeType,

@@ -2,7 +2,7 @@ package me.profelements.dynatech;
 
 import org.bukkit.Color;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 
 import me.profelements.dynatech.utils.Liquid;
 import me.profelements.dynatech.utils.LiquidRegistry;

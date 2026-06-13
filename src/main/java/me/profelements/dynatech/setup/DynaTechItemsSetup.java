@@ -79,7 +79,7 @@ import me.profelements.dynatech.utils.LiquidRegistry;
 import me.profelements.dynatech.utils.Recipe;
 
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;

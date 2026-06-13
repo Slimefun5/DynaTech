@@ -5,7 +5,7 @@ import java.util.Objects;
 
 import javax.annotation.Nonnull;
 
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 
 public final class TypedKey<T> {
 

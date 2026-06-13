@@ -8,7 +8,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.Persis
 import me.profelements.dynatech.DynaTech;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.potion.PotionEffect;
@@ -19,7 +19,7 @@ import java.util.List;
 
 public class ItemBand extends SlimefunItem {
 
-    public static final NamespacedKey KEY = new NamespacedKey(DynaTech.getInstance(), "item_band");
+    public static final String KEY = "dynatech:item_band";
     private final PotionEffect[] potionEffects;
 
     public ItemBand(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe, PotionEffect[] potionEffects) {
@@ -64,7 +64,7 @@ public class ItemBand extends SlimefunItem {
             ItemMeta im = item.getItemMeta();
             List<String> lore = im.getLore();
             
-            im.getPersistentDataContainer().remove(KEY);
+            PersistentDataAPI.remove(im, KEY);
 
             lore.removeIf(line -> line.contains(ChatColor.WHITE + "Bandaid: "));
     

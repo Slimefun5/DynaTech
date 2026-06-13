@@ -22,7 +22,7 @@ import me.profelements.dynatech.utils.EnergyUtils;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
@@ -36,8 +36,7 @@ import java.util.Optional;
 
 public class WirelessEnergyPoint extends SlimefunItem implements EnergyNetProvider {
 
-    private static final NamespacedKey WIRELESS_LOCATION_KEY = new NamespacedKey(DynaTech.getInstance(),
-            "wireless-location");
+    private static final String WIRELESS_LOCATION_KEY = "dynatech:wireless-location";
     private final int capacity;
     private final int energyRate;
 

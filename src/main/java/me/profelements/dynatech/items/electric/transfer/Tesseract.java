@@ -26,7 +26,7 @@ import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockBreakEvent;
@@ -37,8 +37,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Tesseract extends SlimefunItem implements EnergyNetProvider {
-    public static final NamespacedKey WIRELESS_LOCATION_KEY = new NamespacedKey(DynaTech.getInstance(),
-            "tesseract-pair-location");
+    public static final String WIRELESS_LOCATION_KEY = "dynatech:tesseract-pair-location";
     private final int capacity;
     private final int energyRate;
 

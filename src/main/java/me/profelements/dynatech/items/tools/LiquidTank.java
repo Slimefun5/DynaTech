@@ -18,7 +18,7 @@ import net.md_5.bungee.api.ChatColor;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
@@ -34,8 +34,8 @@ import java.util.List;
 
 public class LiquidTank extends SlimefunItem implements NotPlaceable, Listener {
 
-    private static final NamespacedKey FLUID_NAME = new NamespacedKey(DynaTech.getInstance(), "liquid-name");
-    private static final NamespacedKey FLUID_AMOUNT = new NamespacedKey(DynaTech.getInstance(), "liquid-amount");
+    private static final String FLUID_NAME = "dynatech:liquid-name";
+    private static final String FLUID_AMOUNT = "dynatech:liquid-amount";
 
     private final int maxLiquidAmount;
 

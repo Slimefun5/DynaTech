@@ -4,7 +4,7 @@ import java.util.Objects;
 
 import javax.annotation.Nullable;
 
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -25,8 +25,8 @@ public final class FluidStack {
     public static NamespacedKey MILK_FLUID = NamespacedKey.minecraft("milk");
     public static NamespacedKey POTION_FLUID = NamespacedKey.minecraft("potion");
 
-    public static NamespacedKey FLUID_KEY = new NamespacedKey(DynaTech.getInstance(), "fluid");
-    public static NamespacedKey FLUID_AMOUNT_KEY = new NamespacedKey(DynaTech.getInstance(), "fluid_amount");
+    public static String FLUID_KEY = "dynatech:fluid";
+    public static String FLUID_AMOUNT_KEY = "dynatech:fluid_amount";
 
     public FluidStack(NamespacedKey fluid, int amount) {
         this.fluid = fluid;

@@ -1,6 +1,6 @@
 package me.profelements.dynatech.utils;
 
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 
 import com.google.common.base.Preconditions;

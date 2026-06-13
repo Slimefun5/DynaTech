@@ -11,7 +11,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.Tag;
 import org.bukkit.enchantments.Enchantment;
 
