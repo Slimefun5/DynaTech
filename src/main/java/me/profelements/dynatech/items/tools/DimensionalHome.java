@@ -7,7 +7,7 @@ import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.config.Config;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import me.profelements.dynatech.compat.Pdc;
 import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.registries.Items;
@@ -43,7 +43,7 @@ public class DimensionalHome extends SlimefunItem {
 
                 Player p = e.getPlayer();
                 ItemStack item = e.getItem();
-                int chunkKey = PersistentDataAPI.getInt(item.getItemMeta(), CHUNK_KEY);
+                int chunkKey = Pdc.getInt(item.getItemMeta(), CHUNK_KEY);
 
                 if (SlimefunUtils.isItemSimilar(item, Items.DIMENSIONAL_HOME.stack().item(), true)) {
                     if (chunkKey > 0) {
@@ -74,7 +74,7 @@ public class DimensionalHome extends SlimefunItem {
             if (lore.get(line).contains("CHUNK ID: <id>")) {
                 id++;
                 lore.set(line, lore.get(line).replace("<id>", String.valueOf(id)));
-                PersistentDataAPI.setInt(im, CHUNK_KEY, id);
+                Pdc.setInt(im, CHUNK_KEY, id);
 
                 // THIS IS PROBABLY BAD AND A BAD WAY TO KEEP AN CHUNK ID
                 CURRENT_HIGHEST_CHUNK_ID.setValue("current-chunk-highest-id", id);

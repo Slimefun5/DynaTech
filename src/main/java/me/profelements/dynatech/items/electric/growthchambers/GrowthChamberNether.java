@@ -14,10 +14,11 @@ import me.profelements.dynatech.items.abstracts.AbstractElectricMachine;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class GrowthChamberNether extends AbstractElectricMachine {
     private static final int[] INPUT_SLOTS = new int[] { 19, 20 };
@@ -27,7 +28,7 @@ public class GrowthChamberNether extends AbstractElectricMachine {
     private static final int[] OUTPUT_BORDER_SLOTS = new int[] {14, 15, 16, 17, 23, 26, 32, 33, 34, 35 };
     private static final int[] BACKGROUND_SLOTS = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 13, 31, 36, 37, 38, 39, 40, 41, 42, 43, 44 }; 
 
-    private static final ItemStack PROGRESS_ITEM = new ItemStack(Material.NETHERRACK); 
+    private static final ItemStack PROGRESS_ITEM = new ItemStack(MaterialCompat.safe(XMaterial.NETHERRACK)); 
     
     public GrowthChamberNether(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(itemGroup, item, recipeType, recipe);
@@ -41,15 +42,15 @@ public class GrowthChamberNether extends AbstractElectricMachine {
 
     protected void registerDefaultRecipes() {
 
-        registerRecipe(12, new ItemStack(Material.NETHER_WART), new ItemStack(Material.NETHER_WART, 4));
-        registerRecipe(9, new ItemStack(Material.WEEPING_VINES), new ItemStack(Material.WEEPING_VINES, 4));
-        registerRecipe(9, new ItemStack(Material.TWISTING_VINES), new ItemStack(Material.TWISTING_VINES, 4));
-        registerRecipe(9, new ItemStack(Material.CRIMSON_ROOTS), new ItemStack(Material.CRIMSON_ROOTS, 4));
-        registerRecipe(9, new ItemStack(Material.WARPED_ROOTS), new ItemStack(Material.WARPED_ROOTS, 4));
-        registerRecipe(9, new ItemStack(Material.NETHER_SPROUTS), new ItemStack(Material.NETHER_SPROUTS, 4));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.NETHER_WART)), new ItemStack(MaterialCompat.safe(XMaterial.NETHER_WART), 4));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.WEEPING_VINES)), new ItemStack(MaterialCompat.safe(XMaterial.WEEPING_VINES), 4));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.TWISTING_VINES)), new ItemStack(MaterialCompat.safe(XMaterial.TWISTING_VINES), 4));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.CRIMSON_ROOTS)), new ItemStack(MaterialCompat.safe(XMaterial.CRIMSON_ROOTS), 4));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.WARPED_ROOTS)), new ItemStack(MaterialCompat.safe(XMaterial.WARPED_ROOTS), 4));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.NETHER_SPROUTS)), new ItemStack(MaterialCompat.safe(XMaterial.NETHER_SPROUTS), 4));
 
-        registerRecipe(30, new ItemStack[] {new ItemStack(Material.CRIMSON_FUNGUS)}, new ItemStack[] {new ItemStack(Material.CRIMSON_FUNGUS, 2), new ItemStack(Material.CRIMSON_STEM, 6)});
-        registerRecipe(30, new ItemStack[] {new ItemStack(Material.WARPED_FUNGUS)}, new ItemStack[] {new ItemStack(Material.WARPED_FUNGUS, 2), new ItemStack(Material.WARPED_STEM, 6)});
+        registerRecipe(30, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.CRIMSON_FUNGUS))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.CRIMSON_FUNGUS), 2), new ItemStack(MaterialCompat.safe(XMaterial.CRIMSON_STEM), 6)});
+        registerRecipe(30, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.WARPED_FUNGUS))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.WARPED_FUNGUS), 2), new ItemStack(MaterialCompat.safe(XMaterial.WARPED_STEM), 6)});
 
     }
    
@@ -81,13 +82,13 @@ public class GrowthChamberNether extends AbstractElectricMachine {
             preset.addItem(slot, ChestMenuUtils.getOutputSlotTexture(), ChestMenuUtils.getEmptyClickHandler());
         }
     
-        preset.addItem(getProgressSlot(), CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(getProgressSlot(), CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "), ChestMenuUtils.getEmptyClickHandler());
 
         for (int slot : getOutputSlots()) {
             preset.addMenuClickHandler(slot,new ChestMenu.AdvancedMenuClickHandler() {
                 @Override
                 public boolean onClick(InventoryClickEvent e, Player p, int slot, ItemStack cursor, ClickAction action) {
-                    return cursor.getType().isAir();
+                    return MaterialCompat.isAir(cursor.getType());
                 }
 
                 @Override

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.block.BlockFace;
 import org.bukkit.block.BlockState;
 import org.bukkit.block.Chest;
@@ -24,6 +23,8 @@ import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.items.tools.AutoOutputUpgrade;
 import me.profelements.dynatech.registries.Items;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class UpgradesListener implements Listener {
 
@@ -70,7 +71,7 @@ public class UpgradesListener implements Listener {
                 ItemStack[] outputItems = op.getResults();
                 List<Boolean> outed = new ArrayList<>(outputItems.length);
                 // Clear `outputItems` from `outputSlots`
-                if (l.getBlock().getRelative(face).getType().equals(Material.CHEST)) {
+                if (l.getBlock().getRelative(face).getType().equals(MaterialCompat.safe(XMaterial.CHEST))) {
                     for (int i = 0; i < outputSlots.length; i++) {
                         ItemStack item = menu.getItemInSlot(outputSlots[i]);
                         for (ItemStack outputItem : outputItems) {

@@ -5,8 +5,8 @@ import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.registries.Items;
 import me.profelements.dynatech.items.tools.ElectricalStimulator;
+import me.profelements.dynatech.utils.SoundCompat;
 
-import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -56,7 +56,7 @@ public class ElectricalStimulatorListener implements Listener {
                     && SlimefunUtils.isItemSimilar(item, Items.ELECTRICAL_STIMULATOR.stack().item(), false, false)
                     && ChargeUtils.getCharge(item.getItemMeta()) > electricalStimulator.getEnergyComsumption()) {
                 if (SlimefunUtils.canPlayerUseItem(p, item, true)) {
-                    p.playSound(p.getLocation(), Sound.ENTITY_PLAYER_BURP, 1F, 1F);
+                    SoundCompat.play(p, p.getLocation(), "ENTITY_PLAYER_BURP", 1F, 1F);
                     electricalStimulator.removeItemCharge(item, electricalStimulator.getEnergyComsumption());
                     return true;
                 }

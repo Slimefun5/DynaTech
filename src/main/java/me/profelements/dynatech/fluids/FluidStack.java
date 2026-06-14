@@ -9,7 +9,7 @@ import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import me.profelements.dynatech.compat.Pdc;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.profelements.dynatech.DynaTech;
 
@@ -75,8 +75,8 @@ public final class FluidStack {
     }
 
     public static @Nullable FluidStack fromItemStack(ItemStack itemStack) {
-        String fluidType = PersistentDataAPI.getString(itemStack.getItemMeta(), FLUID_KEY, "");
-        int fluidAmount = PersistentDataAPI.getInt(itemStack.getItemMeta(), FLUID_AMOUNT_KEY, 0);
+        String fluidType = Pdc.getString(itemStack.getItemMeta(), FLUID_KEY, "");
+        int fluidAmount = Pdc.getInt(itemStack.getItemMeta(), FLUID_AMOUNT_KEY, 0);
 
         if (!fluidType.equals("") && fluidAmount != 0) {
             return FluidStack.of(NamespacedKey.fromString(fluidType), fluidAmount);
@@ -88,24 +88,24 @@ public final class FluidStack {
     public void toItemStack(ItemStack itemStack) {
         ItemMeta meta = itemStack.getItemMeta();
 
-        String fluidType = PersistentDataAPI.getString(meta, FLUID_KEY, "");
-        int fluidAmount = PersistentDataAPI.getInt(meta, FLUID_AMOUNT_KEY, 0);
+        String fluidType = Pdc.getString(meta, FLUID_KEY, "");
+        int fluidAmount = Pdc.getInt(meta, FLUID_AMOUNT_KEY, 0);
 
         if (fluidType.equals("") || this.fluid().equals(NamespacedKey.fromString(fluidType))) {
-            PersistentDataAPI.setString(meta, FLUID_KEY, this.fluid().toString());
-            PersistentDataAPI.setInt(meta, FLUID_AMOUNT_KEY, fluidAmount + this.amount());
+            Pdc.setString(meta, FLUID_KEY, this.fluid().toString());
+            Pdc.setInt(meta, FLUID_AMOUNT_KEY, fluidAmount + this.amount());
         }
 
         itemStack.setItemMeta(meta);
     }
 
     public ItemMeta apply(ItemMeta meta) {
-        String fluidType = PersistentDataAPI.getString(meta, FLUID_KEY, "");
-        int fluidAmount = PersistentDataAPI.getInt(meta, FLUID_AMOUNT_KEY, 0);
+        String fluidType = Pdc.getString(meta, FLUID_KEY, "");
+        int fluidAmount = Pdc.getInt(meta, FLUID_AMOUNT_KEY, 0);
 
         if (fluidType != null && this.fluid() == NamespacedKey.fromString(fluidType)) {
-            PersistentDataAPI.setString(meta, FLUID_KEY, this.fluid().toString());
-            PersistentDataAPI.setInt(meta, FLUID_AMOUNT_KEY, fluidAmount + this.amount());
+            Pdc.setString(meta, FLUID_KEY, this.fluid().toString());
+            Pdc.setInt(meta, FLUID_AMOUNT_KEY, fluidAmount + this.amount());
         }
 
         return meta;

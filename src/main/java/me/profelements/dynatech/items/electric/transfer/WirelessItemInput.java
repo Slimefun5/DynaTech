@@ -22,7 +22,6 @@ import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
 import me.profelements.dynatech.registries.Items;
 
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockBreakEvent;
@@ -31,6 +30,8 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
 import java.util.List;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class WirelessItemInput extends SlimefunItem implements EnergyNetComponent {
 
@@ -133,7 +134,7 @@ public class WirelessItemInput extends SlimefunItem implements EnergyNetComponen
     // Boilerplate for machines.
     public void constructMenu(BlockMenuPreset preset) {
         preset.drawBackground(ChestMenuUtils.getInputSlotTexture(), getBorder());
-        preset.addItem(4, CustomItemStack.create(Material.PURPLE_STAINED_GLASS_PANE, "&fKnowledge Pane"),
+        preset.addItem(4, CustomItemStack.create(MaterialCompat.safe(XMaterial.PURPLE_STAINED_GLASS_PANE), "&fKnowledge Pane"),
                 ChestMenuUtils.getEmptyClickHandler());
     }
 

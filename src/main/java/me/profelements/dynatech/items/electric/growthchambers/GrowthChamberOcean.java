@@ -14,10 +14,11 @@ import me.profelements.dynatech.items.abstracts.AbstractElectricMachine;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class GrowthChamberOcean extends AbstractElectricMachine {
 
@@ -28,7 +29,7 @@ public class GrowthChamberOcean extends AbstractElectricMachine {
     private static final int[] OUTPUT_BORDER_SLOTS = new int[] {14, 15, 16, 17, 23, 26, 32, 33, 34, 35 };
     private static final int[] BACKGROUND_SLOTS = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 13, 31, 36, 37, 38, 39, 40, 41, 42, 43, 44 }; 
 
-    private static final ItemStack PROGRESS_ITEM = new ItemStack(Material.CONDUIT); 
+    private static final ItemStack PROGRESS_ITEM = new ItemStack(MaterialCompat.safe(XMaterial.CONDUIT)); 
 
     public GrowthChamberOcean(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(itemGroup, item, recipeType, recipe);
@@ -42,51 +43,51 @@ public class GrowthChamberOcean extends AbstractElectricMachine {
 
     protected void registerDefaultRecipes() {
 
-        registerRecipe(9, new ItemStack(Material.LILY_PAD), new ItemStack(Material.LILY_PAD, 3));
-        registerRecipe(9, new ItemStack(Material.SEA_PICKLE), new ItemStack(Material.SEA_PICKLE, 3));
-        registerRecipe(12, new ItemStack(Material.SEAGRASS), new ItemStack(Material.SEAGRASS, 4));
-        registerRecipe(9, new ItemStack(Material.KELP), new ItemStack(Material.KELP, 3));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.LILY_PAD)), new ItemStack(MaterialCompat.safe(XMaterial.LILY_PAD), 3));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.SEA_PICKLE)), new ItemStack(MaterialCompat.safe(XMaterial.SEA_PICKLE), 3));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.SEAGRASS)), new ItemStack(MaterialCompat.safe(XMaterial.SEAGRASS), 4));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.KELP)), new ItemStack(MaterialCompat.safe(XMaterial.KELP), 3));
     // Coral blocks
         // Brings dead coral blocks back to life!
-        registerRecipe(9, new ItemStack(Material.DEAD_TUBE_CORAL_BLOCK), new ItemStack(Material.TUBE_CORAL_BLOCK, 1));
-        registerRecipe(9, new ItemStack(Material.DEAD_BRAIN_CORAL_BLOCK), new ItemStack(Material.BRAIN_CORAL_BLOCK, 1));
-        registerRecipe(9, new ItemStack(Material.DEAD_BUBBLE_CORAL_BLOCK), new ItemStack(Material.BUBBLE_CORAL_BLOCK, 1));
-        registerRecipe(9, new ItemStack(Material.DEAD_FIRE_CORAL_BLOCK), new ItemStack(Material.FIRE_CORAL_BLOCK, 1));
-        registerRecipe(9, new ItemStack(Material.DEAD_HORN_CORAL_BLOCK), new ItemStack(Material.HORN_CORAL_BLOCK, 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_TUBE_CORAL_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.TUBE_CORAL_BLOCK), 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_BRAIN_CORAL_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.BRAIN_CORAL_BLOCK), 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_BUBBLE_CORAL_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.BUBBLE_CORAL_BLOCK), 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_FIRE_CORAL_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CORAL_BLOCK), 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_HORN_CORAL_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.HORN_CORAL_BLOCK), 1));
         // Block duplication
-        registerRecipe(12, new ItemStack(Material.TUBE_CORAL_BLOCK), new ItemStack(Material.TUBE_CORAL_BLOCK, 2));
-        registerRecipe(12, new ItemStack(Material.BRAIN_CORAL_BLOCK), new ItemStack(Material.BRAIN_CORAL_BLOCK, 2));
-        registerRecipe(12, new ItemStack(Material.BUBBLE_CORAL_BLOCK), new ItemStack(Material.BUBBLE_CORAL_BLOCK, 2));
-        registerRecipe(12, new ItemStack(Material.FIRE_CORAL_BLOCK), new ItemStack(Material.FIRE_CORAL_BLOCK, 2));
-        registerRecipe(12, new ItemStack(Material.HORN_CORAL_BLOCK), new ItemStack(Material.HORN_CORAL_BLOCK, 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.TUBE_CORAL_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.TUBE_CORAL_BLOCK), 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.BRAIN_CORAL_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.BRAIN_CORAL_BLOCK), 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.BUBBLE_CORAL_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.BUBBLE_CORAL_BLOCK), 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CORAL_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CORAL_BLOCK), 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.HORN_CORAL_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.HORN_CORAL_BLOCK), 2));
 
     // Coral
         // Revive for coral
-        registerRecipe(9, new ItemStack(Material.DEAD_TUBE_CORAL), new ItemStack(Material.TUBE_CORAL, 1));
-        registerRecipe(9, new ItemStack(Material.DEAD_BRAIN_CORAL), new ItemStack(Material.BRAIN_CORAL, 1));
-        registerRecipe(9, new ItemStack(Material.DEAD_BUBBLE_CORAL), new ItemStack(Material.BUBBLE_CORAL, 1));
-        registerRecipe(9, new ItemStack(Material.DEAD_FIRE_CORAL), new ItemStack(Material.FIRE_CORAL, 1));
-        registerRecipe(9, new ItemStack(Material.DEAD_HORN_CORAL), new ItemStack(Material.HORN_CORAL, 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_TUBE_CORAL)), new ItemStack(MaterialCompat.safe(XMaterial.TUBE_CORAL), 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_BRAIN_CORAL)), new ItemStack(MaterialCompat.safe(XMaterial.BRAIN_CORAL), 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_BUBBLE_CORAL)), new ItemStack(MaterialCompat.safe(XMaterial.BUBBLE_CORAL), 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_FIRE_CORAL)), new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CORAL), 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_HORN_CORAL)), new ItemStack(MaterialCompat.safe(XMaterial.HORN_CORAL), 1));
         // Coral duplication
-        registerRecipe(12, new ItemStack(Material.TUBE_CORAL), new ItemStack(Material.TUBE_CORAL, 2));
-        registerRecipe(12, new ItemStack(Material.BRAIN_CORAL), new ItemStack(Material.BRAIN_CORAL, 2));
-        registerRecipe(12, new ItemStack(Material.BUBBLE_CORAL), new ItemStack(Material.BUBBLE_CORAL, 2));
-        registerRecipe(12, new ItemStack(Material.FIRE_CORAL), new ItemStack(Material.FIRE_CORAL, 2));
-        registerRecipe(12, new ItemStack(Material.HORN_CORAL), new ItemStack(Material.HORN_CORAL, 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.TUBE_CORAL)), new ItemStack(MaterialCompat.safe(XMaterial.TUBE_CORAL), 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.BRAIN_CORAL)), new ItemStack(MaterialCompat.safe(XMaterial.BRAIN_CORAL), 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.BUBBLE_CORAL)), new ItemStack(MaterialCompat.safe(XMaterial.BUBBLE_CORAL), 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CORAL)), new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CORAL), 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.HORN_CORAL)), new ItemStack(MaterialCompat.safe(XMaterial.HORN_CORAL), 2));
 
     // Coral fans
         // Medical attention for the fans
-        registerRecipe(9, new ItemStack(Material.DEAD_TUBE_CORAL_FAN), new ItemStack(Material.TUBE_CORAL_FAN, 1));
-        registerRecipe(9, new ItemStack(Material.DEAD_BRAIN_CORAL_FAN), new ItemStack(Material.BRAIN_CORAL_FAN, 1));
-        registerRecipe(9, new ItemStack(Material.DEAD_BUBBLE_CORAL_FAN), new ItemStack(Material.BUBBLE_CORAL_FAN, 1));
-        registerRecipe(9, new ItemStack(Material.DEAD_FIRE_CORAL_FAN), new ItemStack(Material.FIRE_CORAL_FAN, 1));
-        registerRecipe(9, new ItemStack(Material.DEAD_HORN_CORAL_FAN), new ItemStack(Material.HORN_CORAL_FAN, 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_TUBE_CORAL_FAN)), new ItemStack(MaterialCompat.safe(XMaterial.TUBE_CORAL_FAN), 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_BRAIN_CORAL_FAN)), new ItemStack(MaterialCompat.safe(XMaterial.BRAIN_CORAL_FAN), 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_BUBBLE_CORAL_FAN)), new ItemStack(MaterialCompat.safe(XMaterial.BUBBLE_CORAL_FAN), 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_FIRE_CORAL_FAN)), new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CORAL_FAN), 1));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DEAD_HORN_CORAL_FAN)), new ItemStack(MaterialCompat.safe(XMaterial.HORN_CORAL_FAN), 1));
         // Fan duplication
-        registerRecipe(12, new ItemStack(Material.TUBE_CORAL_FAN), new ItemStack(Material.TUBE_CORAL_FAN, 2));
-        registerRecipe(12, new ItemStack(Material.BRAIN_CORAL_FAN), new ItemStack(Material.BRAIN_CORAL_FAN, 2));
-        registerRecipe(12, new ItemStack(Material.BUBBLE_CORAL_FAN), new ItemStack(Material.BUBBLE_CORAL_FAN, 2));
-        registerRecipe(12, new ItemStack(Material.FIRE_CORAL_FAN), new ItemStack(Material.FIRE_CORAL_FAN, 2));
-        registerRecipe(12, new ItemStack(Material.HORN_CORAL_FAN), new ItemStack(Material.HORN_CORAL_FAN, 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.TUBE_CORAL_FAN)), new ItemStack(MaterialCompat.safe(XMaterial.TUBE_CORAL_FAN), 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.BRAIN_CORAL_FAN)), new ItemStack(MaterialCompat.safe(XMaterial.BRAIN_CORAL_FAN), 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.BUBBLE_CORAL_FAN)), new ItemStack(MaterialCompat.safe(XMaterial.BUBBLE_CORAL_FAN), 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CORAL_FAN)), new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CORAL_FAN), 2));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.HORN_CORAL_FAN)), new ItemStack(MaterialCompat.safe(XMaterial.HORN_CORAL_FAN), 2));
 
 
     }
@@ -120,13 +121,13 @@ public class GrowthChamberOcean extends AbstractElectricMachine {
             preset.addItem(slot, ChestMenuUtils.getOutputSlotTexture(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        preset.addItem(getProgressSlot(), CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(getProgressSlot(), CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "), ChestMenuUtils.getEmptyClickHandler());
         
         for (int slot : getOutputSlots()) {
             preset.addMenuClickHandler(slot,new ChestMenu.AdvancedMenuClickHandler() {
                 @Override
                 public boolean onClick(InventoryClickEvent e, Player p, int slot, ItemStack cursor, ClickAction action) {
-                    return cursor.getType().isAir();
+                    return MaterialCompat.isAir(cursor.getType());
                 }
 
                 @Override

@@ -3,7 +3,6 @@ package me.profelements.dynatech.fluids;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.data.Levelled;
 import org.bukkit.inventory.ItemStack;
@@ -11,6 +10,8 @@ import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.potion.PotionType;
 
 import com.google.common.base.Preconditions;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class FluidTankAdapter {
 
@@ -54,7 +55,7 @@ public class FluidTankAdapter {
     public static @Nullable FluidStack getFluidStackFromLevelled(@Nonnull Block block) {
         Preconditions.checkNotNull(block);
 
-        if (!(block.getBlockData() instanceof Levelled) || block.getType() == Material.COMPOSTER) {
+        if (!(block.getBlockData() instanceof Levelled) || block.getType() == MaterialCompat.safe(XMaterial.COMPOSTER)) {
             return null;
         }
 
@@ -67,7 +68,7 @@ public class FluidTankAdapter {
             return null;
         }
 
-        // This is either Material.LAVA, or Material.WATER
+        // This is either MaterialCompat.safe(XMaterial.LAVA), or MaterialCompat.safe(XMaterial.WATER)
         if (lvl.getLevel() == 0) {
             switch (block.getType()) {
                 case WATER:
@@ -79,7 +80,7 @@ public class FluidTankAdapter {
             }
         }
 
-        if (block.getType() == Material.CAULDRON) {
+        if (block.getType() == MaterialCompat.safe(XMaterial.CAULDRON)) {
             return FluidStack.of(FluidStack.WATER_FLUID, (lvl.getLevel() / lvl.getMaximumLevel()) * 1000);
         }
 

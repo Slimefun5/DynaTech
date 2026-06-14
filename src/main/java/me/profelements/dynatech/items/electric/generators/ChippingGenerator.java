@@ -11,7 +11,6 @@ import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineFuel;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.profelements.dynatech.items.abstracts.AbstractGenerator;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
@@ -20,6 +19,8 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
 import java.util.List;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 
 public class ChippingGenerator extends AbstractGenerator {
@@ -32,7 +33,7 @@ public class ChippingGenerator extends AbstractGenerator {
     private static final int[] OUTPUT_BORDER_SLOTS = new int[] {14, 15, 16, 17, 23, 26, 32, 33, 34, 35 };
     private static final int[] BACKGROUND_SLOTS = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 13, 31, 36, 37, 38, 39, 40, 41, 42, 43, 44 }; 
 
-    private static final ItemStack PROGRESS_ITEM = new ItemStack(Material.NETHERITE_AXE);
+    private static final ItemStack PROGRESS_ITEM = new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_AXE));
 
     public ChippingGenerator(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(itemGroup, item, recipeType, recipe);
@@ -47,7 +48,7 @@ public class ChippingGenerator extends AbstractGenerator {
         for (int slot : getInputSlots()) {
             ItemStack item = inv.getItemInSlot(slot);
             // Do as many lightweight checks as possible before we do the intensive stuff
-            if (item != null && !item.getType().isAir() && item.getType().isItem() && item.hasItemMeta()) {
+            if (item != null && !MaterialCompat.isAir(item.getType()) && MaterialCompat.isItem(item.getType()) && item.hasItemMeta()) {
                 // `getItemMeta` does multiple clones! Even doing this once is slow, nevermind multiple times!
                 ItemMeta meta = item.getItemMeta();
                 if (meta instanceof Damageable && !meta.isUnbreakable()) {
@@ -77,7 +78,7 @@ public class ChippingGenerator extends AbstractGenerator {
             
         for (int slot : getInputSlots()) {
             ItemStack item =  inv.getItemInSlot(slot); 
-            if (item != null && !item.getType().isAir() && item.hasItemMeta()) {
+            if (item != null && !MaterialCompat.isAir(item.getType()) && item.hasItemMeta()) {
                 ItemMeta meta = item.getItemMeta(); 
                 if (meta instanceof Damageable && !meta.isUnbreakable()) {
                     Damageable damage = (Damageable) meta;
@@ -118,13 +119,13 @@ public class ChippingGenerator extends AbstractGenerator {
             preset.addItem(slot, ChestMenuUtils.getOutputSlotTexture(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        preset.addItem(22, CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(22, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "), ChestMenuUtils.getEmptyClickHandler());
         
         for (int slot : getOutputSlots()) {
             preset.addMenuClickHandler(slot,new ChestMenu.AdvancedMenuClickHandler() {
                 @Override
                 public boolean onClick(InventoryClickEvent e, Player p, int slot, ItemStack cursor, ClickAction action) {
-                    return cursor.getType().isAir();
+                    return MaterialCompat.isAir(cursor.getType());
                 }
 
                 @Override

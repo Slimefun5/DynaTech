@@ -17,6 +17,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class PicnicBasket extends SlimefunBackpack {
         
@@ -52,20 +54,20 @@ public class PicnicBasket extends SlimefunBackpack {
     }
 
     private List<Material> getDefaultBlacklist() {
-        defaultBlacklist.add(Material.PUFFERFISH);
-        defaultBlacklist.add(Material.POISONOUS_POTATO);
-        defaultBlacklist.add(Material.SPIDER_EYE);
-        defaultBlacklist.add(Material.CHORUS_FRUIT);
-        defaultBlacklist.add(Material.ENCHANTED_GOLDEN_APPLE);
-        defaultBlacklist.add(Material.GOLDEN_APPLE);
-        defaultBlacklist.add(Material.ROTTEN_FLESH);
+        defaultBlacklist.add(MaterialCompat.safe(XMaterial.PUFFERFISH));
+        defaultBlacklist.add(MaterialCompat.safe(XMaterial.POISONOUS_POTATO));
+        defaultBlacklist.add(MaterialCompat.safe(XMaterial.SPIDER_EYE));
+        defaultBlacklist.add(MaterialCompat.safe(XMaterial.CHORUS_FRUIT));
+        defaultBlacklist.add(MaterialCompat.safe(XMaterial.ENCHANTED_GOLDEN_APPLE));
+        defaultBlacklist.add(MaterialCompat.safe(XMaterial.GOLDEN_APPLE));
+        defaultBlacklist.add(MaterialCompat.safe(XMaterial.ROTTEN_FLESH));
 
         //Returns Stuff, maybe will figure this out later.
-        defaultBlacklist.add(Material.SUSPICIOUS_STEW);
-        defaultBlacklist.add(Material.MUSHROOM_STEW);
-        defaultBlacklist.add(Material.RABBIT_STEW);
-        defaultBlacklist.add(Material.BEETROOT_SOUP);
-        defaultBlacklist.add(Material.HONEY_BOTTLE);
+        defaultBlacklist.add(MaterialCompat.safe(XMaterial.SUSPICIOUS_STEW));
+        defaultBlacklist.add(MaterialCompat.safe(XMaterial.MUSHROOM_STEW));
+        defaultBlacklist.add(MaterialCompat.safe(XMaterial.RABBIT_STEW));
+        defaultBlacklist.add(MaterialCompat.safe(XMaterial.BEETROOT_SOUP));
+        defaultBlacklist.add(MaterialCompat.safe(XMaterial.HONEY_BOTTLE));
 
         return defaultBlacklist;
     }
@@ -86,35 +88,35 @@ public class PicnicBasket extends SlimefunBackpack {
     }
  
     private static void registerDefaultFoods() {
-        registerFood(new ItemStack(Material.APPLE), new Pair<>(4, 3F)); 
-        registerFood(new ItemStack(Material.MELON_SLICE), new Pair<>(2, 1F));
-        registerFood(new ItemStack(Material.SWEET_BERRIES), new Pair<>(2, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.APPLE)), new Pair<>(4, 3F)); 
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.MELON_SLICE)), new Pair<>(2, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.SWEET_BERRIES)), new Pair<>(2, 1F));
 
-        registerFood(new ItemStack(Material.CARROT), new Pair<>(3, 3F));
-        registerFood(new ItemStack(Material.GOLDEN_CARROT), new Pair<>(6, 15F));
-        registerFood(new ItemStack(Material.POTATO), new Pair<>(1, 1F));
-        registerFood(new ItemStack(Material.BAKED_POTATO), new Pair<>(5, 6F));
-        registerFood(new ItemStack(Material.BEETROOT), new Pair<>(1, 1F));
-        registerFood(new ItemStack(Material.DRIED_KELP), new Pair<>(1, 1F));
-        registerFood(new ItemStack(Material.BEEF), new Pair<>(3, 1F));
-        registerFood(new ItemStack(Material.COOKED_BEEF), new Pair<>(8, 13F));
-        registerFood(new ItemStack(Material.PORKCHOP), new Pair<>(3, 1F));
-        registerFood(new ItemStack(Material.COOKED_PORKCHOP), new Pair<>(8, 13F));
-        registerFood(new ItemStack(Material.MUTTON), new Pair<>(2, 1F));
-        registerFood(new ItemStack(Material.COOKED_MUTTON), new Pair<>(6, 9F));
-        registerFood(new ItemStack(Material.CHICKEN), new Pair<>(1, 1F));
-        registerFood(new ItemStack(Material.COOKED_CHICKEN), new Pair<>(6, 7F));
-        registerFood(new ItemStack(Material.RABBIT), new Pair<>(3, 1F));
-        registerFood(new ItemStack(Material.COOKED_RABBIT), new Pair<>(5, 6F));
-        registerFood(new ItemStack(Material.COD), new Pair<>(2, 1F));
-        registerFood(new ItemStack(Material.COOKED_COD), new Pair<>(5, 6F));
-        registerFood(new ItemStack(Material.SALMON), new Pair<>(2, 1F));
-        registerFood(new ItemStack(Material.COOKED_SALMON), new Pair<>(6, 9F));
-        registerFood(new ItemStack(Material.TROPICAL_FISH), new Pair<>(1, 1F));
-        registerFood(new ItemStack(Material.BREAD), new Pair<>(5, 6F));
-        registerFood(new ItemStack(Material.COOKIE), new Pair<>(2, 1F));
-        registerFood(new ItemStack(Material.CAKE), new Pair<>(14, 14F));
-        registerFood(new ItemStack(Material.PUMPKIN_PIE), new Pair<>(8, 5F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.CARROT)), new Pair<>(3, 3F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.GOLDEN_CARROT)), new Pair<>(6, 15F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.POTATO)), new Pair<>(1, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.BAKED_POTATO)), new Pair<>(5, 6F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.BEETROOT)), new Pair<>(1, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.DRIED_KELP)), new Pair<>(1, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.BEEF)), new Pair<>(3, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.COOKED_BEEF)), new Pair<>(8, 13F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.PORKCHOP)), new Pair<>(3, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.COOKED_PORKCHOP)), new Pair<>(8, 13F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.MUTTON)), new Pair<>(2, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.COOKED_MUTTON)), new Pair<>(6, 9F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.CHICKEN)), new Pair<>(1, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.COOKED_CHICKEN)), new Pair<>(6, 7F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.RABBIT)), new Pair<>(3, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.COOKED_RABBIT)), new Pair<>(5, 6F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.COD)), new Pair<>(2, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.COOKED_COD)), new Pair<>(5, 6F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.SALMON)), new Pair<>(2, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.COOKED_SALMON)), new Pair<>(6, 9F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.TROPICAL_FISH)), new Pair<>(1, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.BREAD)), new Pair<>(5, 6F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.COOKIE)), new Pair<>(2, 1F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.CAKE)), new Pair<>(14, 14F));
+        registerFood(new ItemStack(MaterialCompat.safe(XMaterial.PUMPKIN_PIE)), new Pair<>(8, 5F));
     }
         
 

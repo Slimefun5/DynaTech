@@ -12,7 +12,7 @@ import io.github.thebusybiscuit.slimefun5.core.handlers.BlockPlaceHandler;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import me.profelements.dynatech.compat.Pdc;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.inventory.InvUtils;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
@@ -30,7 +30,6 @@ import me.profelements.dynatech.registries.Items;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
-import org.bukkit.Material;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -42,6 +41,8 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class WirelessItemOutput extends SlimefunItem implements EnergyNetComponent {
 
@@ -122,7 +123,7 @@ public class WirelessItemOutput extends SlimefunItem implements EnergyNetCompone
                         ItemMeta im = item.getItemMeta();
                         String locationString = locationToString(blockLoc);
 
-                        PersistentDataAPI.setString(im, WIRELESS_LOCATION_KEY, locationString);
+                        Pdc.setString(im, WIRELESS_LOCATION_KEY, locationString);
                         item.setItemMeta(im);
                         setItemLore(item, blockLoc);
                     }
@@ -138,7 +139,7 @@ public class WirelessItemOutput extends SlimefunItem implements EnergyNetCompone
 
                 Location blockLoc = event.getBlockPlaced().getLocation();
                 ItemStack item = event.getItemInHand();
-                String locationString = PersistentDataAPI.getString(item.getItemMeta(), WIRELESS_LOCATION_KEY);
+                String locationString = Pdc.getString(item.getItemMeta(), WIRELESS_LOCATION_KEY);
 
                 if (item.getType() == Items.WIRELESS_ITEM_OUTPUT.stack().item().getType() && item.hasItemMeta()
                         && locationString != null) {
@@ -198,7 +199,7 @@ public class WirelessItemOutput extends SlimefunItem implements EnergyNetCompone
                 }
                 ItemStack itemStack = input.getItemInSlot(i);
 
-                if (itemStack != null && itemStack.getType() != Material.AIR
+                if (itemStack != null && itemStack.getType() != MaterialCompat.safe(XMaterial.AIR)
                         && InvUtils.fitAll(output.toInventory(), new ItemStack[] { itemStack }, getOutputSlots())) {
                     removeCharge(wirelessItemInput, getEnergyConsumption());
                     removeCharge(b.getLocation(), getEnergyConsumption());
@@ -220,7 +221,7 @@ public class WirelessItemOutput extends SlimefunItem implements EnergyNetCompone
         lore.add(" ");
         lore.add(ChatColor.WHITE + "Current Power: " + currentCharge);
         lore.add(ChatColor.WHITE + "Current Status: " + ChatColor.RED + "CONNECTED");
-        knowledgePane.setType(Material.RED_STAINED_GLASS_PANE);
+        knowledgePane.setType(MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE));
 
         im.setLore(lore);
         knowledgePane.setItemMeta(im);
@@ -230,7 +231,7 @@ public class WirelessItemOutput extends SlimefunItem implements EnergyNetCompone
     public void constructMenu(BlockMenuPreset preset) {
         preset.drawBackground(ChestMenuUtils.getOutputSlotTexture(), getBorder());
         preset.addItem(
-                4, CustomItemStack.create(Material.PURPLE_STAINED_GLASS_PANE, "&fKnowledge Pane",
+                4, CustomItemStack.create(MaterialCompat.safe(XMaterial.PURPLE_STAINED_GLASS_PANE), "&fKnowledge Pane",
                         "&fCurrent Power: Unknown", "&fCurrent Status: NOT CONNECTED"),
                 ChestMenuUtils.getEmptyClickHandler());
     }

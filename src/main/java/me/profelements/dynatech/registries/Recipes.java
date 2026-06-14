@@ -12,46 +12,48 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.Material;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
-import org.bukkit.Tag;
+import me.profelements.dynatech.utils.TagCompat;
 import org.bukkit.enchantments.Enchantment;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class Recipes {
     // START common use items
-    private static final ItemStack STICK = new ItemStack(Material.STICK);
-    private static final ItemStack OAK_LOG = new ItemStack(Material.OAK_LOG);
-    private static final ItemStack REDSTONE_BLOCK = new ItemStack(Material.REDSTONE_BLOCK);
-    private static final ItemStack BRICK = new ItemStack(Material.BRICK);
-    private static final ItemStack STONE = new ItemStack(Material.STONE);
-    private static final ItemStack IRON_INGOT = new ItemStack(Material.IRON_INGOT);
-    private static final ItemStack IRON_BLOCK = new ItemStack(Material.IRON_BLOCK);
-    private static final ItemStack DIAMOND = new ItemStack(Material.DIAMOND);
-    private static final ItemStack DIAMOND_BLOCK = new ItemStack(Material.DIAMOND_BLOCK);
-    private static final ItemStack CRYING_OBSIDIAN = new ItemStack(Material.CRYING_OBSIDIAN);
-    private static final ItemStack UNBREAKING_3_ENCHANTED_BOOK = CustomItemStack.create(Material.ENCHANTED_BOOK, meta -> {
+    private static final ItemStack STICK = new ItemStack(MaterialCompat.safe(XMaterial.STICK));
+    private static final ItemStack OAK_LOG = new ItemStack(MaterialCompat.safe(XMaterial.OAK_LOG));
+    private static final ItemStack REDSTONE_BLOCK = new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE_BLOCK));
+    private static final ItemStack BRICK = new ItemStack(MaterialCompat.safe(XMaterial.BRICK));
+    private static final ItemStack STONE = new ItemStack(MaterialCompat.safe(XMaterial.STONE));
+    private static final ItemStack IRON_INGOT = new ItemStack(MaterialCompat.safe(XMaterial.IRON_INGOT));
+    private static final ItemStack IRON_BLOCK = new ItemStack(MaterialCompat.safe(XMaterial.IRON_BLOCK));
+    private static final ItemStack DIAMOND = new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND));
+    private static final ItemStack DIAMOND_BLOCK = new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND_BLOCK));
+    private static final ItemStack CRYING_OBSIDIAN = new ItemStack(MaterialCompat.safe(XMaterial.CRYING_OBSIDIAN));
+    private static final ItemStack UNBREAKING_3_ENCHANTED_BOOK = CustomItemStack.create(MaterialCompat.safe(XMaterial.ENCHANTED_BOOK), meta -> {
         meta.addEnchant(Enchantment.DURABILITY, 3, false);
     });
 
-    private static final ItemStack GLASS = new ItemStack(Material.GLASS);
-    private static final ItemStack CYAN_CONCRETE = new ItemStack(Material.LIGHT_BLUE_CONCRETE);
-    private static final ItemStack PINK_CONCRETE = new ItemStack(Material.PINK_CONCRETE);
-    private static final ItemStack STRING = new ItemStack(Material.STRING);
-    private static final ItemStack IRON_BARS = new ItemStack(Material.IRON_BARS);
-    private static final ItemStack END_STONE = new ItemStack(Material.END_STONE);
-    private static final ItemStack CHORUS_FRUIT = new ItemStack(Material.CHORUS_FRUIT);
-    private static final ItemStack BOOK = new ItemStack(Material.BOOK);
-    private static final ItemStack SMOOTH_STONE = new ItemStack(Material.SMOOTH_STONE);
-    private static final ItemStack SMOOTH_STONE_SLAB = new ItemStack(Material.SMOOTH_STONE_SLAB);
-    private static final ItemStack BUCKET = new ItemStack(Material.BUCKET);
+    private static final ItemStack GLASS = new ItemStack(MaterialCompat.safe(XMaterial.GLASS));
+    private static final ItemStack CYAN_CONCRETE = new ItemStack(MaterialCompat.safe(XMaterial.LIGHT_BLUE_CONCRETE));
+    private static final ItemStack PINK_CONCRETE = new ItemStack(MaterialCompat.safe(XMaterial.PINK_CONCRETE));
+    private static final ItemStack STRING = new ItemStack(MaterialCompat.safe(XMaterial.STRING));
+    private static final ItemStack IRON_BARS = new ItemStack(MaterialCompat.safe(XMaterial.IRON_BARS));
+    private static final ItemStack END_STONE = new ItemStack(MaterialCompat.safe(XMaterial.END_STONE));
+    private static final ItemStack CHORUS_FRUIT = new ItemStack(MaterialCompat.safe(XMaterial.CHORUS_FRUIT));
+    private static final ItemStack BOOK = new ItemStack(MaterialCompat.safe(XMaterial.BOOK));
+    private static final ItemStack SMOOTH_STONE = new ItemStack(MaterialCompat.safe(XMaterial.SMOOTH_STONE));
+    private static final ItemStack SMOOTH_STONE_SLAB = new ItemStack(MaterialCompat.safe(XMaterial.SMOOTH_STONE_SLAB));
+    private static final ItemStack BUCKET = new ItemStack(MaterialCompat.safe(XMaterial.BUCKET));
 
     // END common use items
 
     public static void init(Registry<Recipe> registry) {
-        for (Material mat : Tag.LOGS.getValues()) {
+        for (Material mat : TagCompat.logs()) {
             Recipe.init()
                     .setKey(new NamespacedKey(DynaTech.getInstance(), mat.toString().toLowerCase() + "_to_charcoal"))
                     .setRecipeType(RecipeTypes.OVENING)
                     .setInput(new ItemStack(mat))
-                    .setOutput(new ItemStack(Material.CHARCOAL))
+                    .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.CHARCOAL)))
                     .register();
         }
 
@@ -59,12 +61,12 @@ public class Recipes {
                 .setTimeInTicks(20)
                 .setKey(new NamespacedKey(DynaTech.getInstance(), "oak_tree"))
                 .setRecipeType(RecipeTypes.TREE_GROWTH_CHAMBER)
-                .setInput(new ItemStack(Material.OAK_SAPLING))
+                .setInput(new ItemStack(MaterialCompat.safe(XMaterial.OAK_SAPLING)))
                 .setOutput(
                         new ItemStack[] {
-                                new ItemStack(Material.OAK_SAPLING, 2),
-                                new ItemStack(Material.OAK_LOG, 6),
-                                new ItemStack(Material.OAK_LEAVES, 3)
+                                new ItemStack(MaterialCompat.safe(XMaterial.OAK_SAPLING), 2),
+                                new ItemStack(MaterialCompat.safe(XMaterial.OAK_LOG), 6),
+                                new ItemStack(MaterialCompat.safe(XMaterial.OAK_LEAVES), 3)
                         })
                 .register();
 
@@ -125,7 +127,7 @@ public class Recipes {
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
                     SlimefunItems.LEAD_INGOT.item(), SlimefunItems.MAGIC_LUMP_1.item(), SlimefunItems.LEAD_INGOT.item(),
-                    SlimefunItems.MAGIC_LUMP_1.item(), new ItemStack(Material.REDSTONE_BLOCK), SlimefunItems.MAGIC_LUMP_1.item(),
+                    SlimefunItems.MAGIC_LUMP_1.item(), new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE_BLOCK)), SlimefunItems.MAGIC_LUMP_1.item(),
                     SlimefunItems.LEAD_INGOT.item(), SlimefunItems.MAGIC_LUMP_1.item(), SlimefunItems.LEAD_INGOT.item()
             })
             .setOutput(Items.ANCIENT_MACHINE_CORE.stack().item())
@@ -402,8 +404,8 @@ public class Recipes {
     public static final Recipe CHARCOAL_TO_COAL = Recipe.init()
             .setKey(Keys.CHARCOAL_TO_COAL.key())
             .setRecipeType(RecipeTypes.OVENING)
-            .setInput(new ItemStack[] { new ItemStack(Material.CHARCOAL) })
-            .setOutput(new ItemStack[] { new ItemStack(Material.COAL) })
+            .setInput(new ItemStack[] { new ItemStack(MaterialCompat.safe(XMaterial.CHARCOAL)) })
+            .setOutput(new ItemStack[] { new ItemStack(MaterialCompat.safe(XMaterial.COAL)) })
             .register();
 
     // Logs to Charcoal Coke Oven Recipe
@@ -413,7 +415,7 @@ public class Recipes {
     // mat.toString().toLowerCase() + "_to_charcoal"))
     // .setRecipeType(RecipeTypes.OVENING)
     // .setInput(new ItemStack(mat))
-    // .setOutput(new ItemStack(Material.CHARCOAL))
+    // .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.CHARCOAL)))
     // .register(registry);
     // }
     //
@@ -421,7 +423,7 @@ public class Recipes {
     public static final Recipe COAL_TO_COAL_COKE = Recipe.init()
             .setKey(Keys.COAL_TO_COAL_COKE.key())
             .setRecipeType(RecipeTypes.OVENING)
-            .setInput(new ItemStack(Material.COAL))
+            .setInput(new ItemStack(MaterialCompat.safe(XMaterial.COAL)))
             .setOutput(Items.COAL_COKE.stack().item())
             .register();
 
@@ -483,8 +485,8 @@ public class Recipes {
     public static final Recipe VEX_GEM_ALT = Recipe.init().setKey(Keys.VEX_GEM_ALT.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] { null, SlimefunItems.SYNTHETIC_SAPPHIRE.item(), null,
-                    new ItemStack(Material.PHANTOM_MEMBRANE), SlimefunItems.MAGIC_LUMP_3.item(),
-                    new ItemStack(Material.PHANTOM_MEMBRANE),
+                    new ItemStack(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE)), SlimefunItems.MAGIC_LUMP_3.item(),
+                    new ItemStack(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE)),
                     Items.STAR_DUST.stack().item(), Items.STAR_DUST.stack().item(), Items.STAR_DUST.stack().item() })
             .setOutput(Items.VEX_GEM.stack().item())
             .register();
@@ -501,7 +503,7 @@ public class Recipes {
             .setRecipeType(RecipeType.ANCIENT_ALTAR)
             .setInput(new ItemStack[] {
                     Items.GHOSTLY_ESSENCE.stack().item(), SlimefunItems.ENDER_RUNE.item(), Items.VEX_GEM.stack().item(),
-                    SlimefunItems.ENDER_RUNE.item(), new ItemStack(Material.WITHER_ROSE), SlimefunItems.ENDER_RUNE.item(),
+                    SlimefunItems.ENDER_RUNE.item(), new ItemStack(MaterialCompat.safe(XMaterial.WITHER_ROSE)), SlimefunItems.ENDER_RUNE.item(),
                     Items.VEX_GEM.stack().item(), SlimefunItems.ENDER_RUNE.item(), Items.GHOSTLY_ESSENCE.stack().item()
             })
             .setOutput(Items.TESSERACTING_OBJ.stack().item())
@@ -568,7 +570,7 @@ public class Recipes {
             .setInput(new ItemStack[] {
                     Items.STAINLESS_STEEL_INGOT.stack().item(), SlimefunItems.CARGO_MOTOR.item(),
                     Items.STAINLESS_STEEL_INGOT.stack().item(),
-                    new ItemStack(Material.HOPPER), new ItemStack(Material.HOPPER), new ItemStack(Material.HOPPER),
+                    new ItemStack(MaterialCompat.safe(XMaterial.HOPPER)), new ItemStack(MaterialCompat.safe(XMaterial.HOPPER)), new ItemStack(MaterialCompat.safe(XMaterial.HOPPER)),
                     Items.STAINLESS_STEEL_INGOT.stack().item(), SlimefunItems.CARGO_MOTOR.item(),
                     Items.STAINLESS_STEEL_INGOT.stack().item(),
             })
@@ -580,8 +582,8 @@ public class Recipes {
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
                     SlimefunItems.CLOTH.item(), SlimefunItems.CLOTH.item(), SlimefunItems.CLOTH.item(),
-                    new ItemStack(Material.BAMBOO), SlimefunItems.COOLER.item(), new ItemStack(Material.BAMBOO),
-                    SlimefunItems.HEATING_COIL.item(), new ItemStack(Material.BAMBOO), SlimefunItems.COOLING_UNIT.item() })
+                    new ItemStack(MaterialCompat.safe(XMaterial.BAMBOO)), SlimefunItems.COOLER.item(), new ItemStack(MaterialCompat.safe(XMaterial.BAMBOO)),
+                    SlimefunItems.HEATING_COIL.item(), new ItemStack(MaterialCompat.safe(XMaterial.BAMBOO)), SlimefunItems.COOLING_UNIT.item() })
             .setOutput(Items.PICNIC_BASKET.stack().item())
             .register();
 
@@ -589,11 +591,11 @@ public class Recipes {
             .setKey(Keys.SOUL_BOUND_PICNIC_BASKET.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
-                    new ItemStack(Material.CRYING_OBSIDIAN), SlimefunItems.ENDER_RUNE.item(),
-                    new ItemStack(Material.CRYING_OBSIDIAN),
+                    new ItemStack(MaterialCompat.safe(XMaterial.CRYING_OBSIDIAN)), SlimefunItems.ENDER_RUNE.item(),
+                    new ItemStack(MaterialCompat.safe(XMaterial.CRYING_OBSIDIAN)),
                     SlimefunItems.ENDER_RUNE.item(), Items.PICNIC_BASKET.stack().item(), SlimefunItems.ENDER_RUNE.item(),
-                    new ItemStack(Material.CRYING_OBSIDIAN), SlimefunItems.ENDER_RUNE.item(),
-                    new ItemStack(Material.CRYING_OBSIDIAN)
+                    new ItemStack(MaterialCompat.safe(XMaterial.CRYING_OBSIDIAN)), SlimefunItems.ENDER_RUNE.item(),
+                    new ItemStack(MaterialCompat.safe(XMaterial.CRYING_OBSIDIAN))
             })
             .setOutput(Items.SOUL_BOUND_PICNIC_BASKET.stack().item())
             .register();
@@ -601,8 +603,8 @@ public class Recipes {
     public static final Recipe ANGEL_GEM = Recipe.init()
             .setKey(Keys.ANGEL_GEM.key())
             .setRecipeType(RecipeType.ANCIENT_ALTAR)
-            .setInput(new ItemStack[] { new ItemStack(Material.NETHERITE_INGOT), SlimefunItems.NUCLEAR_REACTOR.item(),
-                    new ItemStack(Material.NETHERITE_INGOT),
+            .setInput(new ItemStack[] { new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_INGOT)), SlimefunItems.NUCLEAR_REACTOR.item(),
+                    new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_INGOT)),
                     SlimefunItems.GOLD_24K_BLOCK.item(), Items.VEX_GEM.stack().item(), SlimefunItems.GOLD_24K_BLOCK.item(),
                     SlimefunItems.BLISTERING_INGOT_3.item(), Items.STAINLESS_STEEL_ROTOR.stack().item(),
                     SlimefunItems.BLISTERING_INGOT_3.item()
@@ -613,10 +615,10 @@ public class Recipes {
     public static final Recipe SCOOP = Recipe.init()
             .setKey(Keys.SCOOP.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
-            .setInput(new ItemStack[] { new ItemStack(Material.WHITE_WOOL), new ItemStack(Material.WHITE_WOOL),
-                    new ItemStack(Material.WHITE_WOOL),
-                    new ItemStack(Material.WHITE_WOOL), SlimefunItems.BATTERY.item(), new ItemStack(Material.WHITE_WOOL),
-                    null, new ItemStack(Material.STICK), null
+            .setInput(new ItemStack[] { new ItemStack(MaterialCompat.safe(XMaterial.WHITE_WOOL)), new ItemStack(MaterialCompat.safe(XMaterial.WHITE_WOOL)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.WHITE_WOOL)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.WHITE_WOOL)), SlimefunItems.BATTERY.item(), new ItemStack(MaterialCompat.safe(XMaterial.WHITE_WOOL)),
+                    null, new ItemStack(MaterialCompat.safe(XMaterial.STICK)), null
             })
             .setOutput(Items.SCOOP.stack().item())
             .register();
@@ -626,7 +628,7 @@ public class Recipes {
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
                     null, null, SlimefunItems.GOLD_24K_BLOCK.item(),
-                    SlimefunItems.BRONZE_INGOT.item(), new ItemStack(Material.BLAZE_ROD), null,
+                    SlimefunItems.BRONZE_INGOT.item(), new ItemStack(MaterialCompat.safe(XMaterial.BLAZE_ROD)), null,
                     SlimefunItems.SYNTHETIC_SAPPHIRE.item(), SlimefunItems.BRONZE_INGOT.item(), null
 
             })
@@ -637,9 +639,9 @@ public class Recipes {
             .setKey(Keys.ITEM_BAND_HASTE.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
-                    SlimefunItems.COBALT_PICKAXE.item(), new ItemStack(Material.NETHER_STAR), SlimefunItems.COBALT_PICKAXE.item(),
-                    new ItemStack(Material.NETHER_STAR), Items.VEX_GEM.stack().item(), new ItemStack(Material.NETHER_STAR),
-                    SlimefunItems.COBALT_PICKAXE.item(), new ItemStack(Material.NETHER_STAR), SlimefunItems.COBALT_PICKAXE.item()
+                    SlimefunItems.COBALT_PICKAXE.item(), new ItemStack(MaterialCompat.safe(XMaterial.NETHER_STAR)), SlimefunItems.COBALT_PICKAXE.item(),
+                    new ItemStack(MaterialCompat.safe(XMaterial.NETHER_STAR)), Items.VEX_GEM.stack().item(), new ItemStack(MaterialCompat.safe(XMaterial.NETHER_STAR)),
+                    SlimefunItems.COBALT_PICKAXE.item(), new ItemStack(MaterialCompat.safe(XMaterial.NETHER_STAR)), SlimefunItems.COBALT_PICKAXE.item()
 
             })
             .setOutput(Items.ITEM_BAND_HASTE.stack().item())
@@ -649,11 +651,11 @@ public class Recipes {
             .setKey(Keys.ITEM_BAND_HEALTH.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
             .setInput(new ItemStack[] {
-                    new ItemStack(Material.GOLDEN_CARROT), new ItemStack(Material.NETHER_STAR),
-                    new ItemStack(Material.GOLDEN_CARROT),
-                    new ItemStack(Material.NETHER_STAR), Items.VEX_GEM.stack().item(), new ItemStack(Material.NETHER_STAR),
-                    new ItemStack(Material.GOLDEN_CARROT), new ItemStack(Material.NETHER_STAR),
-                    new ItemStack(Material.GOLDEN_CARROT)
+                    new ItemStack(MaterialCompat.safe(XMaterial.GOLDEN_CARROT)), new ItemStack(MaterialCompat.safe(XMaterial.NETHER_STAR)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.GOLDEN_CARROT)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.NETHER_STAR)), Items.VEX_GEM.stack().item(), new ItemStack(MaterialCompat.safe(XMaterial.NETHER_STAR)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.GOLDEN_CARROT)), new ItemStack(MaterialCompat.safe(XMaterial.NETHER_STAR)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.GOLDEN_CARROT))
             }).setOutput(Items.ITEM_BAND_HEALTH.stack().item())
             .register();
 
@@ -673,12 +675,12 @@ public class Recipes {
             .setKey(Keys.KITCHEN_AUTO_CRAFTER.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    new ItemStack(Material.BRICK), SlimefunItems.ELECTRIC_FURNACE.item(),
-                    new ItemStack(Material.BRICK),
+                    new ItemStack(MaterialCompat.safe(XMaterial.BRICK)), SlimefunItems.ELECTRIC_FURNACE.item(),
+                    new ItemStack(MaterialCompat.safe(XMaterial.BRICK)),
                     Items.STAINLESS_STEEL_INGOT.stack().item(), SlimefunItems.GOLD_24K_BLOCK.item(),
                     Items.STAINLESS_STEEL_INGOT.stack().item(),
-                    new ItemStack(Material.TERRACOTTA), new ItemStack(Material.TERRACOTTA),
-                    new ItemStack(Material.TERRACOTTA),
+                    new ItemStack(MaterialCompat.safe(XMaterial.TERRACOTTA)), new ItemStack(MaterialCompat.safe(XMaterial.TERRACOTTA)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.TERRACOTTA)),
 
             })
             .setOutput(Items.KITCHEN_AUTO_CRAFTER.stack().item())
@@ -691,8 +693,8 @@ public class Recipes {
             .setInput(new ItemStack[] {
                     SlimefunItems.HARDENED_GLASS.item(), SlimefunItems.TREE_GROWTH_ACCELERATOR.item(),
                     SlimefunItems.HARDENED_GLASS.item(),
-                    new ItemStack(Material.BONE_BLOCK), new ItemStack(Material.GRASS_BLOCK),
-                    new ItemStack(Material.BONE_BLOCK),
+                    new ItemStack(MaterialCompat.safe(XMaterial.BONE_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.GRASS_BLOCK)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.BONE_BLOCK)),
                     Items.STAINLESS_STEEL_INGOT.stack().item(), SlimefunItems.CROP_GROWTH_ACCELERATOR_2.item(),
                     Items.STAINLESS_STEEL_INGOT.stack().item()
 
@@ -705,8 +707,8 @@ public class Recipes {
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
                     SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER.stack().item(), SlimefunItems.STEEL_PLATE.item(),
-                    new ItemStack(Material.GRASS_BLOCK), new ItemStack(Material.LIME_STAINED_GLASS),
-                    new ItemStack(Material.SAND),
+                    new ItemStack(MaterialCompat.safe(XMaterial.GRASS_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.SAND)),
                     SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER.stack().item(), SlimefunItems.STEEL_PLATE.item()
 
             })
@@ -718,8 +720,8 @@ public class Recipes {
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
                     SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_END.stack().item(), SlimefunItems.STEEL_PLATE.item(),
-                    new ItemStack(Material.PURPUR_PILLAR), new ItemStack(Material.PURPLE_STAINED_GLASS),
-                    new ItemStack(Material.END_STONE_BRICKS),
+                    new ItemStack(MaterialCompat.safe(XMaterial.PURPUR_PILLAR)), new ItemStack(MaterialCompat.safe(XMaterial.PURPLE_STAINED_GLASS)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.END_STONE_BRICKS)),
                     SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_END.stack().item(), SlimefunItems.STEEL_PLATE.item()
 
             })
@@ -731,8 +733,8 @@ public class Recipes {
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
                     SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_END.stack().item(), SlimefunItems.STEEL_PLATE.item(),
-                    new ItemStack(Material.PURPUR_PILLAR), new ItemStack(Material.PURPLE_STAINED_GLASS),
-                    new ItemStack(Material.END_STONE_BRICKS),
+                    new ItemStack(MaterialCompat.safe(XMaterial.PURPUR_PILLAR)), new ItemStack(MaterialCompat.safe(XMaterial.PURPLE_STAINED_GLASS)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.END_STONE_BRICKS)),
                     SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_END.stack().item(), SlimefunItems.STEEL_PLATE.item()
 
             })
@@ -743,10 +745,10 @@ public class Recipes {
             .setKey(Keys.GROWTH_CHAMBER_NETHER.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.HARDENED_GLASS.item(), new ItemStack(Material.RED_STAINED_GLASS),
+                    SlimefunItems.HARDENED_GLASS.item(), new ItemStack(MaterialCompat.safe(XMaterial.RED_STAINED_GLASS)),
                     SlimefunItems.HARDENED_GLASS.item(),
-                    new ItemStack(Material.CRIMSON_NYLIUM), new ItemStack(Material.SOUL_SAND),
-                    new ItemStack(Material.WARPED_NYLIUM),
+                    new ItemStack(MaterialCompat.safe(XMaterial.CRIMSON_NYLIUM)), new ItemStack(MaterialCompat.safe(XMaterial.SOUL_SAND)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.WARPED_NYLIUM)),
                     Items.STAINLESS_STEEL_INGOT.stack().item(), Items.GROWTH_CHAMBER.stack().item(),
                     Items.STAINLESS_STEEL_INGOT.stack().item()
             })
@@ -758,8 +760,8 @@ public class Recipes {
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
                     SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_NETHER.stack().item(), SlimefunItems.STEEL_PLATE.item(),
-                    new ItemStack(Material.CRIMSON_NYLIUM), new ItemStack(Material.SOUL_SAND),
-                    new ItemStack(Material.WARPED_NYLIUM),
+                    new ItemStack(MaterialCompat.safe(XMaterial.CRIMSON_NYLIUM)), new ItemStack(MaterialCompat.safe(XMaterial.SOUL_SAND)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.WARPED_NYLIUM)),
                     SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_NETHER.stack().item(), SlimefunItems.STEEL_PLATE.item()
 
             })
@@ -770,10 +772,10 @@ public class Recipes {
             .setKey(Keys.GROWTH_CHAMBER_OCEAN.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.HARDENED_GLASS.item(), new ItemStack(Material.CYAN_STAINED_GLASS),
+                    SlimefunItems.HARDENED_GLASS.item(), new ItemStack(MaterialCompat.safe(XMaterial.CYAN_STAINED_GLASS)),
                     SlimefunItems.HARDENED_GLASS.item(),
-                    new ItemStack(Material.WATER_BUCKET), new ItemStack(Material.SAND),
-                    new ItemStack(Material.WATER_BUCKET),
+                    new ItemStack(MaterialCompat.safe(XMaterial.WATER_BUCKET)), new ItemStack(MaterialCompat.safe(XMaterial.SAND)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.WATER_BUCKET)),
                     Items.STAINLESS_STEEL_INGOT.stack().item(), Items.GROWTH_CHAMBER.stack().item(),
                     Items.STAINLESS_STEEL_INGOT.stack().item()
             })
@@ -785,8 +787,8 @@ public class Recipes {
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
                     SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_OCEAN.stack().item(), SlimefunItems.STEEL_PLATE.item(),
-                    new ItemStack(Material.GRAVEL), new ItemStack(Material.LIGHT_BLUE_STAINED_GLASS),
-                    new ItemStack(Material.DIRT),
+                    new ItemStack(MaterialCompat.safe(XMaterial.GRAVEL)), new ItemStack(MaterialCompat.safe(XMaterial.LIGHT_BLUE_STAINED_GLASS)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.DIRT)),
                     SlimefunItems.STEEL_PLATE.item(), Items.GROWTH_CHAMBER_OCEAN.stack().item(), SlimefunItems.STEEL_PLATE.item()
 
             })
@@ -797,7 +799,7 @@ public class Recipes {
             .setKey(Keys.ANTIGRAVITY_BUBBLE.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    SlimefunItems.BLISTERING_INGOT_3.item(), new ItemStack(Material.DIAMOND_BLOCK),
+                    SlimefunItems.BLISTERING_INGOT_3.item(), new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND_BLOCK)),
                     SlimefunItems.BLISTERING_INGOT_3.item(),
                     SlimefunItems.REINFORCED_ALLOY_INGOT.item(), SlimefunItems.BIG_CAPACITOR.item(),
                     SlimefunItems.REINFORCED_ALLOY_INGOT.item(),
@@ -812,9 +814,9 @@ public class Recipes {
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
                     null, SlimefunItems.HARDENED_METAL_INGOT.item(), null,
-                    new ItemStack(Material.WATER_BUCKET), Items.ANCIENT_MACHINE_CORE.stack().item(),
-                    new ItemStack(Material.LAVA_BUCKET),
-                    Items.STAINLESS_STEEL_INGOT.stack().item(), new ItemStack(Material.CRYING_OBSIDIAN),
+                    new ItemStack(MaterialCompat.safe(XMaterial.WATER_BUCKET)), Items.ANCIENT_MACHINE_CORE.stack().item(),
+                    new ItemStack(MaterialCompat.safe(XMaterial.LAVA_BUCKET)),
+                    Items.STAINLESS_STEEL_INGOT.stack().item(), new ItemStack(MaterialCompat.safe(XMaterial.CRYING_OBSIDIAN)),
                     Items.STAINLESS_STEEL_INGOT.stack().item()
 
             })
@@ -825,9 +827,9 @@ public class Recipes {
             .setKey(Keys.POTION_SPRINKLER.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    new ItemStack(Material.BREWING_STAND), null, new ItemStack(Material.BREWING_STAND),
-                    new ItemStack(Material.IRON_BARS), Items.ANCIENT_MACHINE_CORE.stack().item(),
-                    new ItemStack(Material.IRON_BARS),
+                    new ItemStack(MaterialCompat.safe(XMaterial.BREWING_STAND)), null, new ItemStack(MaterialCompat.safe(XMaterial.BREWING_STAND)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.IRON_BARS)), Items.ANCIENT_MACHINE_CORE.stack().item(),
+                    new ItemStack(MaterialCompat.safe(XMaterial.IRON_BARS)),
                     SlimefunItems.FERROSILICON.item(), SlimefunItems.FERROSILICON.item(), SlimefunItems.FERROSILICON.item()
             })
             .setOutput(Items.POTION_SPRINKLER.stack().item())
@@ -837,9 +839,9 @@ public class Recipes {
             .setKey(Keys.BARBED_WIRE.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
-                    new ItemStack(Material.IRON_SWORD), new ItemStack(Material.IRON_SWORD),
-                    new ItemStack(Material.IRON_SWORD),
-                    Items.STAINLESS_STEEL_INGOT.stack().item(), new ItemStack(Material.OAK_LOG),
+                    new ItemStack(MaterialCompat.safe(XMaterial.IRON_SWORD)), new ItemStack(MaterialCompat.safe(XMaterial.IRON_SWORD)),
+                    new ItemStack(MaterialCompat.safe(XMaterial.IRON_SWORD)),
+                    Items.STAINLESS_STEEL_INGOT.stack().item(), new ItemStack(MaterialCompat.safe(XMaterial.OAK_LOG)),
                     Items.STAINLESS_STEEL_INGOT.stack().item(),
                     SlimefunItems.ZINC_INGOT.item(), SlimefunItems.ZINC_INGOT.item(), SlimefunItems.ZINC_INGOT.item()
 
@@ -853,7 +855,7 @@ public class Recipes {
             .setInput(new ItemStack[] {
                     SlimefunItems.HARDENED_METAL_INGOT.item(), SlimefunItems.SYNTHETIC_DIAMOND.item(),
                     SlimefunItems.HARDENED_METAL_INGOT.item(),
-                    SlimefunItems.HARDENED_METAL_INGOT.item(), new ItemStack(Material.BEEHIVE),
+                    SlimefunItems.HARDENED_METAL_INGOT.item(), new ItemStack(MaterialCompat.safe(XMaterial.BEEHIVE)),
                     SlimefunItems.HARDENED_METAL_INGOT.item(),
                     Items.ADVANCED_MACHINE_SCRAP.stack().item(), Items.MACHINE_SCRAP.stack().item(),
                     Items.ADVANCED_MACHINE_SCRAP.stack().item()
@@ -878,8 +880,8 @@ public class Recipes {
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
             .setInput(new ItemStack[] {
                     SlimefunItems.HARDENED_GLASS.item(), Items.STAINLESS_STEEL_INGOT.stack().item(), SlimefunItems.HARDENED_GLASS.item(),
-                    new ItemStack(Material.BONE_BLOCK), null, new ItemStack(Material.BONE_BLOCK),
-                    Items.STAINLESS_STEEL_INGOT.stack().item(), new ItemStack(Material.SHEARS),
+                    new ItemStack(MaterialCompat.safe(XMaterial.BONE_BLOCK)), null, new ItemStack(MaterialCompat.safe(XMaterial.BONE_BLOCK)),
+                    Items.STAINLESS_STEEL_INGOT.stack().item(), new ItemStack(MaterialCompat.safe(XMaterial.SHEARS)),
                     Items.STAINLESS_STEEL_INGOT.stack().item()
             })
             .setOutput(Items.SEED_PLUCKER.stack().item())
@@ -912,8 +914,8 @@ public class Recipes {
     public static final Recipe TEST_PETAL_APOTH_RECIPE = Recipe.init()
             .setKey(new NamespacedKey("dynatech", "test_apoth"))
             .setRecipeType(RecipeTypes.PETAL_APOTHECARY)
-            .setInput(new ItemStack[] { new ItemStack(Material.BONE), new ItemStack(Material.WHEAT_SEEDS) })
-            .setOutput(new ItemStack(Material.WHEAT))
+            .setInput(new ItemStack[] { new ItemStack(MaterialCompat.safe(XMaterial.BONE)), new ItemStack(MaterialCompat.safe(XMaterial.WHEAT_SEEDS)) })
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.WHEAT)))
             .register();
 
     // END EXPERIMETNAL SHENANIGANS
@@ -925,21 +927,21 @@ public class Recipes {
             .setKey(Recipes.Keys.STONE_TO_COAL_ORE.key())
             .setRecipeType(RecipeTypes.ORECHID)
             .setInput(STONE)
-            .setOutput(new ItemStack(Material.COAL_ORE), 3)
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.COAL_ORE)), 3)
             .register();
 
     public static final Recipe STONE_TO_IRON_ORE = Recipe.init()
             .setKey(Recipes.Keys.STONE_TO_IRON_ORE.key())
             .setRecipeType(RecipeTypes.ORECHID)
             .setInput(STONE)
-            .setOutput(new ItemStack(Material.IRON_ORE), 2)
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.IRON_ORE)), 2)
             .register();
 
     public static final Recipe STONE_TO_GOLD_ORE = Recipe.init()
             .setKey(Recipes.Keys.STONE_TO_GOLD_ORE.key())
             .setRecipeType(RecipeTypes.ORECHID)
             .setInput(STONE)
-            .setOutput(new ItemStack(Material.GOLD_ORE), 2)
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.GOLD_ORE)), 2)
             .register();
 
 
@@ -947,63 +949,63 @@ public class Recipes {
             .setKey(Recipes.Keys.STONE_TO_LAPIS_ORE.key())
             .setRecipeType(RecipeTypes.ORECHID)
             .setInput(STONE)
-            .setOutput(new ItemStack(Material.LAPIS_ORE), 3)
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.LAPIS_ORE)), 3)
             .register();
 
     public static final Recipe STONE_TO_REDSTONE_ORE = Recipe.init()
             .setKey(Recipes.Keys.STONE_TO_REDSTONE_ORE.key())
             .setRecipeType(RecipeTypes.ORECHID)
             .setInput(STONE)
-            .setOutput(new ItemStack(Material.REDSTONE_ORE), 3)
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE_ORE)), 3)
             .register();
 
     public static final Recipe STONE_TO_DIAMOND_ORE = Recipe.init()
             .setKey(Recipes.Keys.STONE_TO_DIAMOND_ORE.key())
             .setRecipeType(RecipeTypes.ORECHID)
             .setInput(STONE)
-            .setOutput(new ItemStack(Material.DIAMOND_ORE), 1)
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND_ORE)), 1)
             .register();
 
     public static final Recipe STONE_TO_EMERALD_ORE = Recipe.init()
             .setKey(Recipes.Keys.STONE_TO_EMERALD_ORE.key())
             .setRecipeType(RecipeTypes.ORECHID)
             .setInput(STONE)
-            .setOutput(new ItemStack(Material.EMERALD_ORE), 1)
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.EMERALD_ORE)), 1)
             .register();
 
     public static final Recipe NETHERRACK_TO_QUARTZ_ORE = Recipe.init()
             .setKey(Recipes.Keys.NETHERRACK_TO_QUARTZ_ORE.key())
             .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(new ItemStack(Material.NETHERRACK))
-            .setOutput(new ItemStack(Material.NETHER_QUARTZ_ORE), 3)
+            .setInput(new ItemStack(MaterialCompat.safe(XMaterial.NETHERRACK)))
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.NETHER_QUARTZ_ORE)), 3)
             .register();
 
     public static final Recipe NETHERRACK_TO_GOLD_ORE = Recipe.init()
             .setKey(Recipes.Keys.NETHERRACK_TO_GOLD_ORE.key())
             .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(new ItemStack(Material.NETHERRACK))
-            .setOutput(new ItemStack(Material.NETHER_GOLD_ORE), 3)
+            .setInput(new ItemStack(MaterialCompat.safe(XMaterial.NETHERRACK)))
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.NETHER_GOLD_ORE)), 3)
             .register();
 
     public static final Recipe NETHERRACK_TO_ANCIENT_DEBRIS = Recipe.init()
             .setKey(Recipes.Keys.NETHERRACK_TO_ANCIENT_DEBRIS.key())
             .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(new ItemStack(Material.NETHERRACK))
-            .setOutput(new ItemStack(Material.ANCIENT_DEBRIS), 3)
+            .setInput(new ItemStack(MaterialCompat.safe(XMaterial.NETHERRACK)))
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.ANCIENT_DEBRIS)), 3)
             .register();
 
     public static final Recipe NETHERRACK_TO_BASALT = Recipe.init()
             .setKey(Recipes.Keys.NETHERRACK_TO_BASALT.key())
             .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(new ItemStack(Material.NETHERRACK))
-            .setOutput(new ItemStack(Material.BASALT), 5)
+            .setInput(new ItemStack(MaterialCompat.safe(XMaterial.NETHERRACK)))
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.BASALT)), 5)
             .register();
 
     public static final Recipe NETHERRACK_TO_BLACKSTONE = Recipe.init()
             .setKey(Recipes.Keys.NETHERRACK_TO_BLACKSTONE.key())
             .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(new ItemStack(Material.NETHERRACK))
-            .setOutput(new ItemStack(Material.BLACKSTONE), 5)
+            .setInput(new ItemStack(MaterialCompat.safe(XMaterial.NETHERRACK)))
+            .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.BLACKSTONE)), 5)
             .register();
 
 
@@ -1017,7 +1019,7 @@ public class Recipes {
     public static final Recipe DARK_OAK_TO_LIVINGWOOD = Recipe.init()
             .setKey(Recipes.Keys.DARK_OAK_TO_LIVINGWOOD.key())
             .setRecipeType(RecipeTypes.ORECHID)
-            .setInput(new ItemStack(Material.DARK_OAK_LOG))
+            .setInput(new ItemStack(MaterialCompat.safe(XMaterial.DARK_OAK_LOG)))
             .setOutput(Items.LIVINGWOOD.stack().item())
             .register();
 

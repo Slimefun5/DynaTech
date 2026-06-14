@@ -14,7 +14,6 @@ import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
 import me.profelements.dynatech.items.abstracts.AbstractElectricTicker;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
@@ -35,6 +34,8 @@ import java.util.Set;
 import java.util.UUID;
 
 import javax.annotation.Nonnull;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class PotionSprinkler extends AbstractElectricTicker {
 
@@ -111,7 +112,7 @@ public class PotionSprinkler extends AbstractElectricTicker {
         BlockMenu menu = BlockStorage.getInventory(b);
         ItemStack item = menu.getItemInSlot(13);
 
-        if (item != null && item.getType() == Material.POTION && item.hasItemMeta() && item.getItemMeta() instanceof PotionMeta) {
+        if (item != null && item.getType() == MaterialCompat.safe(XMaterial.POTION) && item.hasItemMeta() && item.getItemMeta() instanceof PotionMeta) {
             PotionMeta potionMeta = (PotionMeta) item.getItemMeta();
             PotionType pt = potionMeta.getBasePotionData().getType();
             for (Entity ent : b.getWorld().getNearbyEntities(b.getLocation(), 10, 10, 10, LivingEntity.class::isInstance)) {

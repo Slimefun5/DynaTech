@@ -25,7 +25,6 @@ import me.profelements.dynatech.utils.EnergyUtils;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
-import org.bukkit.Material;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -35,6 +34,8 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
 import java.util.List;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class Tesseract extends SlimefunItem implements EnergyNetProvider {
     public static final String WIRELESS_LOCATION_KEY = "dynatech:tesseract-pair-location";
@@ -192,7 +193,7 @@ public class Tesseract extends SlimefunItem implements EnergyNetProvider {
         im.setLore(lore);
         knowledgePane.setItemMeta(im);
 
-        ItemStack coloredPane = new ItemStack(Material.RED_STAINED_GLASS_PANE);
+        ItemStack coloredPane = new ItemStack(MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE));
         coloredPane.setItemMeta(im);
         menu.replaceExistingItem(4, coloredPane);
     }
@@ -203,7 +204,7 @@ public class Tesseract extends SlimefunItem implements EnergyNetProvider {
         preset.drawBackground(ChestMenuUtils.getInputSlotTexture(), getInputBorder());
         preset.drawBackground(ChestMenuUtils.getOutputSlotTexture(), getOutputBorder());
         preset.addItem(
-                4, CustomItemStack.create(Material.PURPLE_STAINED_GLASS_PANE, "&fKnowledge Pane",
+                4, CustomItemStack.create(MaterialCompat.safe(XMaterial.PURPLE_STAINED_GLASS_PANE), "&fKnowledge Pane",
                         "&fCurrent Power: Unknown", "&fCurrent Status: NOT CONNECTED"),
                 ChestMenuUtils.getEmptyClickHandler());
     }

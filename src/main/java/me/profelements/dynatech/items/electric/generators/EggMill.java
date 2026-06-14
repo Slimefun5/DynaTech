@@ -3,7 +3,6 @@ package me.profelements.dynatech.items.electric.generators;
 import java.util.List;
 
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.event.block.BlockBreakEvent;
@@ -19,6 +18,8 @@ import io.github.thebusybiscuit.slimefun5.core.handlers.BlockPlaceHandler;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.profelements.dynatech.utils.Recipe;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class EggMill extends SlimefunItem implements EnergyNetProvider {
 
@@ -89,7 +90,7 @@ public class EggMill extends SlimefunItem implements EnergyNetProvider {
 
         if (currDurability > 0) {
             Block block = l.getBlock().getRelative(BlockFace.UP);
-            if (block.getType().equals(Material.DRAGON_EGG)) {
+            if (block.getType().equals(MaterialCompat.safe(XMaterial.DRAGON_EGG))) {
                 energy = this.energyRate;
             }
         }

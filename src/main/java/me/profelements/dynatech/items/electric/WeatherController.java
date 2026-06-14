@@ -17,7 +17,6 @@ import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.items.abstracts.AbstractElectricTicker;
 
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockBreakEvent;
@@ -26,6 +25,8 @@ import org.bukkit.inventory.ItemStack;
 import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.List;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class WeatherController extends AbstractElectricTicker implements RecipeDisplayItem {
 
@@ -80,8 +81,8 @@ public class WeatherController extends AbstractElectricTicker implements RecipeD
         BlockMenu menu = BlockStorage.getInventory(b);
         ItemStack item = menu.getItemInSlot(4);
 
-        if (item != null && (item.getType() == Material.SUNFLOWER || item.getType() == Material.LILAC || item.getType() == Material.CREEPER_HEAD)) {
-            if (item.getType() == Material.SUNFLOWER) {
+        if (item != null && (item.getType() == MaterialCompat.safe(XMaterial.SUNFLOWER) || item.getType() == MaterialCompat.safe(XMaterial.LILAC) || item.getType() == MaterialCompat.safe(XMaterial.CREEPER_HEAD))) {
+            if (item.getType() == MaterialCompat.safe(XMaterial.SUNFLOWER)) {
                 if (b.getWorld().isClearWeather()) {
                     return;
                 } 
@@ -91,7 +92,7 @@ public class WeatherController extends AbstractElectricTicker implements RecipeD
                 });
             }
             
-            if (item.getType() == Material.LILAC) {
+            if (item.getType() == MaterialCompat.safe(XMaterial.LILAC)) {
                 if (b.getWorld().hasStorm()) {
                     return;
                 }
@@ -102,7 +103,7 @@ public class WeatherController extends AbstractElectricTicker implements RecipeD
                 });
             }
 
-            if (item.getType() == Material.CREEPER_HEAD) {
+            if (item.getType() == MaterialCompat.safe(XMaterial.CREEPER_HEAD)) {
                 if (b.getWorld().isThundering()) {
                     return;
                 }
@@ -124,14 +125,14 @@ public class WeatherController extends AbstractElectricTicker implements RecipeD
     @Override
     public List<ItemStack> getDisplayRecipes() {
         List<ItemStack> items = new ArrayList<>();
-        items.add(new ItemStack(Material.SUNFLOWER));
-        items.add(CustomItemStack.create(Material.DIAMOND, "&fMakes its sunny in philadelphia."));
+        items.add(new ItemStack(MaterialCompat.safe(XMaterial.SUNFLOWER)));
+        items.add(CustomItemStack.create(MaterialCompat.safe(XMaterial.DIAMOND), "&fMakes its sunny in philadelphia."));
 
-        items.add(new ItemStack(Material.LILAC));
-        items.add(CustomItemStack.create(Material.DIAMOND, "&fMakes its rain while the old man snores"));
+        items.add(new ItemStack(MaterialCompat.safe(XMaterial.LILAC)));
+        items.add(CustomItemStack.create(MaterialCompat.safe(XMaterial.DIAMOND), "&fMakes its rain while the old man snores"));
 
-        items.add(new ItemStack(Material.CREEPER_HEAD));
-        items.add(CustomItemStack.create(Material.DIAMOND, "&fMakes it thunder."));
+        items.add(new ItemStack(MaterialCompat.safe(XMaterial.CREEPER_HEAD)));
+        items.add(CustomItemStack.create(MaterialCompat.safe(XMaterial.DIAMOND), "&fMakes it thunder."));
 
         return items;
     }

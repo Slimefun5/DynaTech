@@ -4,10 +4,9 @@ import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import me.profelements.dynatech.compat.Pdc;
 import me.profelements.dynatech.DynaTech;
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -16,6 +15,8 @@ import org.bukkit.potion.PotionEffect;
 import javax.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class ItemBand extends SlimefunItem {
 
@@ -33,8 +34,8 @@ public class ItemBand extends SlimefunItem {
     }
 
     public static boolean containsItemBand(ItemStack item) {
-        if (item != null && item.getType() != Material.AIR && item.hasItemMeta()) {
-            return PersistentDataAPI.getString(item.getItemMeta(), KEY) != null;
+        if (item != null && item.getType() != MaterialCompat.safe(XMaterial.AIR) && item.hasItemMeta()) {
+            return Pdc.getString(item.getItemMeta(), KEY) != null;
         } else {
             return false;
         }
@@ -42,14 +43,14 @@ public class ItemBand extends SlimefunItem {
 
     @Nullable
     public ItemStack applyToItem(@Nullable ItemStack item) {
-        if (item != null && item.getType() != Material.AIR) {
+        if (item != null && item.getType() != MaterialCompat.safe(XMaterial.AIR)) {
            
 
             ItemMeta im = item.getItemMeta();
             List<String> lore = im.hasLore() ? im.getLore() : new ArrayList<>();
             
             lore.add(ChatColor.WHITE + "Bandaid: " + getPotionEffects()[0].getType().getName());
-            PersistentDataAPI.setString(im, KEY, this.getId());
+            Pdc.setString(im, KEY, this.getId());
 
             im.setLore(lore);
             item.setItemMeta(im);
@@ -60,11 +61,11 @@ public class ItemBand extends SlimefunItem {
 
     @Nullable
     public static ItemStack removeFromItem(@Nullable ItemStack item) {
-        if (item != null && item.getType() != Material.AIR) {
+        if (item != null && item.getType() != MaterialCompat.safe(XMaterial.AIR)) {
             ItemMeta im = item.getItemMeta();
             List<String> lore = im.getLore();
             
-            PersistentDataAPI.remove(im, KEY);
+            Pdc.remove(im, KEY);
 
             lore.removeIf(line -> line.contains(ChatColor.WHITE + "Bandaid: "));
     

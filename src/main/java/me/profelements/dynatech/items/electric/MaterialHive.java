@@ -27,6 +27,8 @@ import org.bukkit.inventory.ItemStack;
 import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.List;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class MaterialHive extends AbstractElectricMachine implements Radioactive {
 
@@ -37,7 +39,7 @@ public class MaterialHive extends AbstractElectricMachine implements Radioactive
 
     private static final int[] BORDER_KEY = new int[] { 3, 5, 13 };
     private static final SlimefunItemStack UI_KEY = new SlimefunItemStack("_UI_KEY",
-            Material.LIGHT_BLUE_STAINED_GLASS_PANE, " ");
+            MaterialCompat.safe(XMaterial.LIGHT_BLUE_STAINED_GLASS_PANE), " ");
 
     private static final int[] INPUT_SLOTS = new int[] { 19, 20, 4 };
     private static final int[] OUTPUT_SLOTS = new int[] { 24, 25 };
@@ -127,7 +129,7 @@ public class MaterialHive extends AbstractElectricMachine implements Radioactive
 
     @Override
     public ItemStack getProgressBar() {
-        return new ItemStack(Material.NETHERITE_HOE);
+        return new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_HOE));
     }
 
     private static List<String> getDefaultAllowedVanillaItems() {
@@ -211,7 +213,7 @@ public class MaterialHive extends AbstractElectricMachine implements Radioactive
             preset.addItem(slot, ChestMenuUtils.getOutputSlotTexture(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        preset.addItem(getProgressSlot(), CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " "),
+        preset.addItem(getProgressSlot(), CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "),
                 ChestMenuUtils.getEmptyClickHandler());
 
         for (int slot : getOutputSlots()) {
@@ -219,7 +221,7 @@ public class MaterialHive extends AbstractElectricMachine implements Radioactive
                 @Override
                 public boolean onClick(InventoryClickEvent e, Player p, int slot, ItemStack cursor,
                         ClickAction action) {
-                    return cursor.getType().isAir();
+                    return MaterialCompat.isAir(cursor.getType());
                 }
 
                 @Override

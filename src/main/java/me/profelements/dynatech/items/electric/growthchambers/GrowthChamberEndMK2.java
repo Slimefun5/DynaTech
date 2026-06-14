@@ -14,10 +14,11 @@ import me.profelements.dynatech.items.abstracts.AbstractElectricMachine;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class GrowthChamberEndMK2 extends AbstractElectricMachine {
    
@@ -28,7 +29,7 @@ public class GrowthChamberEndMK2 extends AbstractElectricMachine {
     private static final int[] OUTPUT_BORDER_SLOTS = new int[] {18,19,20,21,22,23,24,25,26,27,35,36,44,45,53};
     private static final int[] BACKGROUND_SLOTS = new int[] {}; 
  
-    private static final ItemStack PROGRESS_ITEM = new ItemStack(Material.CHORUS_FLOWER);
+    private static final ItemStack PROGRESS_ITEM = new ItemStack(MaterialCompat.safe(XMaterial.CHORUS_FLOWER));
 
     public GrowthChamberEndMK2(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(itemGroup, item, recipeType, recipe);
@@ -42,7 +43,7 @@ public class GrowthChamberEndMK2 extends AbstractElectricMachine {
 
     protected void registerDefaultRecipes() {
 
-        registerRecipe(9, new ItemStack[] {new ItemStack(Material.CHORUS_FLOWER)}, new ItemStack[] {new ItemStack(Material.CHORUS_FLOWER , 6), new ItemStack(Material.CHORUS_FRUIT, 24)});
+        registerRecipe(9, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.CHORUS_FLOWER))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.CHORUS_FLOWER) , 6), new ItemStack(MaterialCompat.safe(XMaterial.CHORUS_FRUIT), 24)});
 
     } 
 
@@ -84,12 +85,12 @@ public class GrowthChamberEndMK2 extends AbstractElectricMachine {
             preset.addItem(slot, ChestMenuUtils.getOutputSlotTexture(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        preset.addItem(getProgressSlot(), CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(getProgressSlot(), CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "), ChestMenuUtils.getEmptyClickHandler());
         for (int slot : getOutputSlots()) {
             preset.addMenuClickHandler(slot,new ChestMenu.AdvancedMenuClickHandler() {
                 @Override
                 public boolean onClick(InventoryClickEvent e, Player p, int slot, ItemStack cursor, ClickAction action) {
-                    return cursor.getType().isAir();
+                    return MaterialCompat.isAir(cursor.getType());
                 }
 
                 @Override

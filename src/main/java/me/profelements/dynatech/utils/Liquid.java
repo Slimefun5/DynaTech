@@ -5,6 +5,8 @@ import org.bukkit.Material;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 
 import com.google.common.base.Preconditions;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class Liquid {
     private NamespacedKey KEY;
@@ -51,7 +53,7 @@ public class Liquid {
     }
 
     public Liquid setLiquidMaterial(Material mat) {
-        Preconditions.checkArgument(mat == Material.LAVA || mat == Material.WATER,
+        Preconditions.checkArgument(mat == MaterialCompat.safe(XMaterial.LAVA) || mat == MaterialCompat.safe(XMaterial.WATER),
                 "The liquid's liquid material should be a liquid!");
         this.LIQUID_MATERIAL = mat;
         return this;

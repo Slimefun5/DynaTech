@@ -10,7 +10,6 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.block.Container;
@@ -38,6 +37,8 @@ import me.profelements.dynatech.registries.Items;
 import me.profelements.dynatech.registries.RecipeTypes;
 import me.profelements.dynatech.registries.Registries;
 import me.profelements.dynatech.utils.Recipe;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class CokeOvenController extends SlimefunItem {
 
@@ -294,7 +295,7 @@ public class CokeOvenController extends SlimefunItem {
         for (int y = 0; y < 3; y++) {
             for (int z = 0; z < 3; z++) {
                 for (int x = 0; x < 3; x++) {
-                    pattern[z][x][y] = blk -> (blk.getType().equals(Material.BRICKS));
+                    pattern[z][x][y] = blk -> (blk.getType().equals(MaterialCompat.safe(XMaterial.BRICKS)));
                 }
             }
         }
@@ -303,7 +304,7 @@ public class CokeOvenController extends SlimefunItem {
                 .equals(Items.COAL_COKE_OVEN.stack().getItemId()));
         pattern[2][1][0] = isControl;
 
-        Predicate<Block> isBarrel = blk -> (blk.getType().equals(Material.BARREL));
+        Predicate<Block> isBarrel = blk -> (blk.getType().equals(MaterialCompat.safe(XMaterial.BARREL)));
         pattern[1][0][1] = isBarrel;
         pattern[1][2][1] = isBarrel;
 

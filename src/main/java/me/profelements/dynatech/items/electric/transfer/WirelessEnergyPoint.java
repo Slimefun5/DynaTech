@@ -12,7 +12,7 @@ import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
 import io.github.thebusybiscuit.slimefun5.core.handlers.BlockPlaceHandler;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import me.profelements.dynatech.compat.Pdc;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
@@ -103,7 +103,7 @@ public class WirelessEnergyPoint extends SlimefunItem implements EnergyNetProvid
                         ItemMeta im = item.getItemMeta();
                         String locationString = locationToString(blockLoc);
 
-                        PersistentDataAPI.setString(im, WIRELESS_LOCATION_KEY, locationString);
+                        Pdc.setString(im, WIRELESS_LOCATION_KEY, locationString);
                         item.setItemMeta(im);
                         setItemLore(item, blockLoc);
                     }
@@ -119,7 +119,7 @@ public class WirelessEnergyPoint extends SlimefunItem implements EnergyNetProvid
 
                 Location blockLoc = event.getBlockPlaced().getLocation();
                 ItemStack item = event.getItemInHand();
-                String locationString = PersistentDataAPI.getString(item.getItemMeta(), WIRELESS_LOCATION_KEY);
+                String locationString = Pdc.getString(item.getItemMeta(), WIRELESS_LOCATION_KEY);
 
                 if (item.getType() == Items.WIRELESS_ENERGY_POINT.stack().item().getType() && item.hasItemMeta()
                         && locationString != null) {

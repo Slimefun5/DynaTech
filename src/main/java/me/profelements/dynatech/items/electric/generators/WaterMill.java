@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.List;
 
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.data.BlockData;
 import org.bukkit.block.data.Waterlogged;
@@ -23,6 +22,8 @@ import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.utils.Recipe;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class WaterMill extends SlimefunItem implements EnergyNetProvider {
 
@@ -98,8 +99,8 @@ public class WaterMill extends SlimefunItem implements EnergyNetProvider {
         int durability = durabilityMap.getOrDefault(pos, durabilityDef);
         boolean hasWater = hasWaterMap.getOrDefault(pos, false);
         if (DynaTech.getInstance().getTickInterval() % 600 == 0 || (durability == 2500 && hasWater == false)) {
-            if (durability > 0 && block.getType() == Material.COBBLESTONE_WALL
-                    || block.getType() == Material.PRISMARINE_WALL) {
+            if (durability > 0 && block.getType() == MaterialCompat.safe(XMaterial.COBBLESTONE_WALL)
+                    || block.getType() == MaterialCompat.safe(XMaterial.PRISMARINE_WALL)) {
                 final BlockData data = block.getState().getBlockData();
                 if (data instanceof Waterlogged && ((Waterlogged) data).isWaterlogged()) {
                     hasWaterMap.put(pos, true);

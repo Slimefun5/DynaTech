@@ -1,11 +1,12 @@
 package me.profelements.dynatech.registries;
 
-import org.bukkit.Material;
 
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun5.api.items.groups.NestedItemGroup;
 import io.github.thebusybiscuit.slimefun5.api.items.groups.SubItemGroup;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class ItemGroups {
 
@@ -21,26 +22,26 @@ public class ItemGroups {
 
     public static final NestedItemGroup GENERAL = new NestedItemGroup(
             Keys.GENERAL.sfKey(),
-            CustomItemStack.create(Material.CONDUIT, "&bDynaTech"));
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.CONDUIT), "&bDynaTech"));
 
     public static final SubItemGroup RESOURCES = new SubItemGroup(
             Keys.RESOURCES.sfKey(), GENERAL,
-            CustomItemStack.create(Material.PUFFERFISH, "&bDynaTech Resources"));
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.PUFFERFISH), "&bDynaTech Resources"));
 
     public static final SubItemGroup TOOLS = new SubItemGroup(Keys.TOOLS.sfKey(),
-            GENERAL, CustomItemStack.create(Material.DIAMOND_AXE, "&bDynaTech Tools"));
+            GENERAL, CustomItemStack.create(MaterialCompat.safe(XMaterial.DIAMOND_AXE), "&bDynaTech Tools"));
 
     public static final SubItemGroup MACHINES = new SubItemGroup(Keys.MACHINES.sfKey(), GENERAL,
-            CustomItemStack.create(Material.SEA_LANTERN, "&bDynaTech Machines"));
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.SEA_LANTERN), "&bDynaTech Machines"));
 
     public static final SubItemGroup GENERATORS = new SubItemGroup(Keys.GENERATORS.sfKey(), GENERAL,
-            CustomItemStack.create(Material.PRISMARINE_BRICKS, "&bDynaTech Generators"));
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.PRISMARINE_BRICKS), "&bDynaTech Generators"));
 
     public static final SubItemGroup EXPERIMENTAL = new SubItemGroup(Keys.EXPERIMENTAL.sfKey(), GENERAL,
-            CustomItemStack.create(Material.REDSTONE_LAMP, "&fDynaTech Experimental"));
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.REDSTONE_LAMP), "&fDynaTech Experimental"));
 
     public static final SubItemGroup HIVES = new SubItemGroup(Keys.APIARIES.sfKey(),
-            GENERAL, CustomItemStack.create(Material.BEEHIVE, "&bDynaTech Apiaries"));
+            GENERAL, CustomItemStack.create(MaterialCompat.safe(XMaterial.BEEHIVE), "&bDynaTech Apiaries"));
 
     public static final class Keys {
         public static final TypedKey<ItemGroup> GENERAL = TypedKey.create("dynatech", "general");
