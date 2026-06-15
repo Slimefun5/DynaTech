@@ -31,7 +31,7 @@ public class ItemBandTask implements Runnable {
             for (ItemStack item : p.getEquipment().getArmorContents()) {
                 testItemBand(p, item);
             }
-            testItemBand(p, p.getEquipment().getItemInMainHand());
+            testItemBand(p, p.getEquipment().getItemInHand());
         }
     }
 

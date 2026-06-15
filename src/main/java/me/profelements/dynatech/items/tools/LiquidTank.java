@@ -64,7 +64,7 @@ public class LiquidTank extends SlimefunItem implements NotPlaceable, Listener {
 
     @EventHandler
     private void onBucketChange(PlayerBucketFillEvent e) {
-        ItemStack item = e.getPlayer().getInventory().getItemInMainHand();
+        ItemStack item = e.getPlayer().getInventory().getItemInHand();
         if (this.isItem(item) && this.canUse(e.getPlayer(), true)
                 && SlimefunItem.getByItem(item) instanceof LiquidTank) {
             LiquidTank tank = (LiquidTank) SlimefunItem.getByItem(item);
@@ -101,7 +101,7 @@ public class LiquidTank extends SlimefunItem implements NotPlaceable, Listener {
     private void onCauldronFill(CauldronLevelChangeEvent e) {
         if (e.getEntity() instanceof Player) {
             Player player = (Player) e.getEntity();
-            ItemStack item = player.getInventory().getItemInMainHand();
+            ItemStack item = player.getInventory().getItemInHand();
             if (this.isItem(item) && this.canUse(player, true) && SlimefunItem.getByItem(item) instanceof LiquidTank) {
                 e.setCancelled(true);
             }

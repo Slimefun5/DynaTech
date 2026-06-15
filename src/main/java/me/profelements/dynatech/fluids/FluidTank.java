@@ -40,7 +40,7 @@ public class FluidTank extends SlimefunItem implements Listener {
             @Override
             public void onRightClick(PlayerRightClickEvent event) {
 
-                ItemStack handItem = event.getPlayer().getInventory().getItemInMainHand();
+                ItemStack handItem = event.getPlayer().getInventory().getItemInHand();
                 if (event.getPlayer().isSneaking()) {
                     FluidStack handFluid = FluidStack.fromItemStack(handItem);
 
@@ -70,14 +70,14 @@ public class FluidTank extends SlimefunItem implements Listener {
 
     @EventHandler
     public void onBucketFill(PlayerBucketFillEvent event) {
-        SlimefunItem sf = SlimefunItem.getByItem(event.getPlayer().getInventory().getItemInMainHand());
+        SlimefunItem sf = SlimefunItem.getByItem(event.getPlayer().getInventory().getItemInHand());
         if (sf == null || !this.getId().equals(sf.getId())) {
             return;
         }
 
         FluidStack stack = FluidTankAdapter.getFluidFromItemStack(event.getItemStack());
 
-        ItemStack handItem = event.getPlayer().getInventory().getItemInMainHand().clone();
+        ItemStack handItem = event.getPlayer().getInventory().getItemInHand().clone();
 
         FluidStack handFluid = FluidStack.fromItemStack(handItem);
         ItemMeta handMeta = handItem.getItemMeta();
@@ -113,12 +113,12 @@ public class FluidTank extends SlimefunItem implements Listener {
 
     @EventHandler
     public void onBucketEmpty(PlayerBucketEmptyEvent event) {
-        SlimefunItem sf = SlimefunItem.getByItem(event.getPlayer().getInventory().getItemInMainHand());
+        SlimefunItem sf = SlimefunItem.getByItem(event.getPlayer().getInventory().getItemInHand());
         if (sf == null || !this.getId().equals(sf.getId())) {
             return;
         }
 
-        ItemStack handItem = event.getPlayer().getInventory().getItemInMainHand().clone();
+        ItemStack handItem = event.getPlayer().getInventory().getItemInHand().clone();
         FluidStack handFluid = FluidStack.fromItemStack(handItem);
         ItemMeta handMeta = handItem.getItemMeta();
 
@@ -156,7 +156,7 @@ public class FluidTank extends SlimefunItem implements Listener {
     public void onCauldronInteract(CauldronLevelChangeEvent event) {
         if (event.getEntity() instanceof Player) {
             Player p = (Player) event.getEntity();
-            SlimefunItem sf = SlimefunItem.getByItem(p.getEquipment().getItemInMainHand());
+            SlimefunItem sf = SlimefunItem.getByItem(p.getEquipment().getItemInHand());
             if (sf != null && this.getId().equals(sf.getId())) {
                 event.setCancelled(true);
             }
@@ -165,7 +165,7 @@ public class FluidTank extends SlimefunItem implements Listener {
 
     @EventHandler
     public void onPlayerConsume(PlayerItemConsumeEvent event) {
-        SlimefunItem sf = SlimefunItem.getByItem(event.getPlayer().getInventory().getItemInMainHand());
+        SlimefunItem sf = SlimefunItem.getByItem(event.getPlayer().getInventory().getItemInHand());
         if (sf != null && this.getId().equals(sf.getId())) {
             event.setCancelled(true);
         }
