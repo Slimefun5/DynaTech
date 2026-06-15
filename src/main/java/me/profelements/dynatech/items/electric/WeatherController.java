@@ -131,7 +131,7 @@ public class WeatherController extends AbstractElectricTicker implements RecipeD
         items.add(new ItemStack(MaterialCompat.safe(XMaterial.LILAC)));
         items.add(CustomItemStack.create(MaterialCompat.safe(XMaterial.DIAMOND), "&fMakes its rain while the old man snores"));
 
-        items.add(new ItemStack(MaterialCompat.safe(XMaterial.CREEPER_HEAD)));
+        items.add(MaterialCompat.stack(XMaterial.CREEPER_HEAD));
         items.add(CustomItemStack.create(MaterialCompat.safe(XMaterial.DIAMOND), "&fMakes it thunder."));
 
         return items;

@@ -27,6 +27,13 @@ public final class MaterialCompat {
         return resolved != null ? resolved : Material.STONE;
     }
 
+    /** Resolves an XMaterial to an ItemStack, preserving the legacy data value safe(XMaterial) drops on 1.8-1.12. */
+    @javax.annotation.Nonnull
+    public static org.bukkit.inventory.ItemStack stack(@javax.annotation.Nonnull XMaterial material) {
+        org.bukkit.inventory.ItemStack item = material.parseItem();
+        return item != null ? item : new org.bukkit.inventory.ItemStack(safe(material));
+    }
+
     private static final Method IS_AIR = resolve("isAir");
     private static final Method IS_ITEM = resolve("isItem");
 
