@@ -109,9 +109,14 @@ public class MaterialHive extends AbstractElectricMachine implements Radioactive
             }
         }
         for (String material : vanillaItemsAccepted.getValue()) {
-            ItemStack item = new ItemStack(Material.matchMaterial(material), 64);
+            Material mat = Material.matchMaterial(material);
+            // Skip materials that don't exist on this Minecraft version (e.g. 1.13+ names on 1.8)
+            if (mat == null) {
+                continue;
+            }
+            ItemStack item = new ItemStack(mat, 64);
             registerRecipe(new MachineRecipe(1800, new ItemStack[] { item },
-                    new ItemStack[] { new ItemStack(Material.matchMaterial(material)) }));
+                    new ItemStack[] { new ItemStack(mat) }));
         }
     }
 
