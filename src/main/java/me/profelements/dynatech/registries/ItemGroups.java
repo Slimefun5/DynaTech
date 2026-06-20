@@ -20,28 +20,28 @@ public class ItemGroups {
         registry.register(Keys.APIARIES, HIVES);
     }
 
-    public static final NestedItemGroup GENERAL = new NestedItemGroup(
+    public static final NestedItemGroup GENERAL = (NestedItemGroup) new NestedItemGroup(
             Keys.GENERAL.sfKey(),
-            CustomItemStack.create(MaterialCompat.safe(XMaterial.CONDUIT), "&bDynaTech"));
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.CONDUIT), "&bDynaTech")).setTheme("machines");
 
-    public static final SubItemGroup RESOURCES = new SubItemGroup(
+    public static final SubItemGroup RESOURCES = (SubItemGroup) new SubItemGroup(
             Keys.RESOURCES.sfKey(), GENERAL,
-            CustomItemStack.create(MaterialCompat.safe(XMaterial.PUFFERFISH), "&bDynaTech Resources"));
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.PUFFERFISH), "&bDynaTech Resources")).setTheme("resources");
 
-    public static final SubItemGroup TOOLS = new SubItemGroup(Keys.TOOLS.sfKey(),
-            GENERAL, CustomItemStack.create(MaterialCompat.safe(XMaterial.DIAMOND_AXE), "&bDynaTech Tools"));
+    public static final SubItemGroup TOOLS = (SubItemGroup) new SubItemGroup(Keys.TOOLS.sfKey(),
+            GENERAL, CustomItemStack.create(MaterialCompat.safe(XMaterial.DIAMOND_AXE), "&bDynaTech Tools")).setTheme("tools");
 
-    public static final SubItemGroup MACHINES = new SubItemGroup(Keys.MACHINES.sfKey(), GENERAL,
-            CustomItemStack.create(MaterialCompat.safe(XMaterial.SEA_LANTERN), "&bDynaTech Machines"));
+    public static final SubItemGroup MACHINES = (SubItemGroup) new SubItemGroup(Keys.MACHINES.sfKey(), GENERAL,
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.SEA_LANTERN), "&bDynaTech Machines")).setTheme("machines");
 
-    public static final SubItemGroup GENERATORS = new SubItemGroup(Keys.GENERATORS.sfKey(), GENERAL,
-            CustomItemStack.create(MaterialCompat.safe(XMaterial.PRISMARINE_BRICKS), "&bDynaTech Generators"));
+    public static final SubItemGroup GENERATORS = (SubItemGroup) new SubItemGroup(Keys.GENERATORS.sfKey(), GENERAL,
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.PRISMARINE_BRICKS), "&bDynaTech Generators")).setTheme("energy_tech");
 
-    public static final SubItemGroup EXPERIMENTAL = new SubItemGroup(Keys.EXPERIMENTAL.sfKey(), GENERAL,
-            CustomItemStack.create(MaterialCompat.safe(XMaterial.REDSTONE_LAMP), "&fDynaTech Experimental"));
+    public static final SubItemGroup EXPERIMENTAL = (SubItemGroup) new SubItemGroup(Keys.EXPERIMENTAL.sfKey(), GENERAL,
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.REDSTONE_LAMP), "&fDynaTech Experimental")).setTheme("machines");
 
-    public static final SubItemGroup HIVES = new SubItemGroup(Keys.APIARIES.sfKey(),
-            GENERAL, CustomItemStack.create(MaterialCompat.safe(XMaterial.BEEHIVE), "&bDynaTech Apiaries"));
+    public static final SubItemGroup HIVES = (SubItemGroup) new SubItemGroup(Keys.APIARIES.sfKey(),
+            GENERAL, CustomItemStack.create(MaterialCompat.safe(XMaterial.BEEHIVE), "&bDynaTech Apiaries")).setTheme("resources");
 
     public static final class Keys {
         public static final TypedKey<ItemGroup> GENERAL = TypedKey.create("dynatech", "general");
