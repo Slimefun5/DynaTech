@@ -22,9 +22,11 @@ repositories {
     mavenCentral()
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
     maven("https://repo.codemc.io/repository/maven-public/")
+    maven("https://jitpack.io")
 }
 
 dependencies {
+    implementation("com.github.Slimefun5:SlimefunMetrics:master-SNAPSHOT")
     githubCompileOnly("Slimefun5:Slimefun5:gh-v5.2.3.1")
     githubCompileOnly("Slimefun5:ExoticGarden:v1.7.2")
     githubCompileOnly("Slimefun5:InfinityExpansion:v1.1.2")
@@ -45,6 +47,7 @@ tasks {
         enabled = false
     }
     shadowJar {
+        relocate("org.bstats", "dynatech.libs.bstats")
         archiveFileName.set("DynaTech-1.0.0-UNOFFICIAL.jar")
         relocate("dev.j3fftw.extrautils", "me.profelements.dynatech.extrautils")
         exclude("META-INF/**")

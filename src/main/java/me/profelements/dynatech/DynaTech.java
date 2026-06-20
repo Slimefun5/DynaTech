@@ -34,6 +34,8 @@ import javax.annotation.Nullable;
 
 import com.google.common.base.Preconditions;
 
+import dev.walshy.sfmetrics.MetricsModule;
+
 public class DynaTech extends JavaPlugin implements SlimefunAddon {
 
     private static DynaTech instance;
@@ -90,6 +92,8 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
         getServer().getScheduler().runTaskTimer(DynaTech.getInstance(), () -> this.tickInterval++, 0, TICK_TIME);
 
         setupRegistries();
+
+        MetricsModule.setup(this, 31440);
     }
 
     private static void setupRegistries() {
