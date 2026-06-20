@@ -45,7 +45,7 @@ tasks {
         enabled = false
     }
     shadowJar {
-        archiveFileName.set("DynaTech v${project.version}-MC26.1.2.jar")
+        archiveFileName.set("DynaTech-1.0.0-UNOFFICIAL.jar")
         relocate("dev.j3fftw.extrautils", "me.profelements.dynatech.extrautils")
         exclude("META-INF/**")
     }
