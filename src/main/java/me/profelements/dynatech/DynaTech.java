@@ -1,7 +1,11 @@
 package me.profelements.dynatech;
 
 import io.github.thebusybiscuit.slimefun5.api.SlimefunAddon;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiText;
+import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiTopic;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.profelements.dynatech.items.backpacks.PicnicBasket;
 import me.profelements.dynatech.items.misc.DimensionalHomeDimension;
 import me.profelements.dynatech.items.tools.ElectricalStimulator;
@@ -35,6 +39,10 @@ import javax.annotation.Nullable;
 import com.google.common.base.Preconditions;
 
 import dev.walshy.sfmetrics.MetricsModule;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class DynaTech extends JavaPlugin implements SlimefunAddon {
 
@@ -97,6 +105,35 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
 
         // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
         Slimefun.getItemTranslationService().registerTranslations(this);
+
+        // Register this addon's own in-game wiki page (core does not auto-generate addon wikis).
+        registerWiki();
+    }
+
+    private void registerWiki() {
+        WikiText wiki = Slimefun.getWikiText();
+        String topicId = "addon_dynatech";
+
+        wiki.registerTopic(new WikiTopic(topicId, "DynaTech", XMaterial.FURNACE, "&7Machines driven by motion"));
+        wiki.setMechanic(topicId, Arrays.asList(
+            "&7Machines driven by motion.", "",
+            "&7Water mills, wind mills and momentum-based", "&7generators, plus advanced processing", "&7machines.", "",
+            "&7Click an item below for its recipe."));
+
+        // Collect this addon's own items dynamically - never hardcode item lists.
+        List<String> items = new ArrayList<>();
+
+        for (SlimefunItem item : Slimefun.getRegistry().getEnabledSlimefunItems()) {
+            try {
+                if (item.getAddon() == this) {
+                    items.add(item.getId());
+                }
+            } catch (Exception | LinkageError ignored) {
+                // A broken item should not break wiki registration.
+            }
+        }
+
+        wiki.setTopicItems(topicId, items);
     }
 
     private static void setupRegistries() {
