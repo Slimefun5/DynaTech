@@ -1,0 +1,260 @@
+# Russian item translations for DynaTech. Keyed by Slimefun item id.
+# name = display name, '&' colour codes preserved. Missing items fall back to English.
+
+DYNATECH_WOOD_MACHINE_CORE:
+  name: "&fДеревянное ядро машины"
+
+DYNATECH_STONE_MACHINE_CORE:
+  name: "&fКаменное ядро машины"
+
+DYNATECH_IRON_MACHINE_CORE:
+  name: "&fЖелезное ядро машины"
+
+DYNATECH_DIAMOND_MACHINE_CORE:
+  name: "&fАлмазное ядро машины"
+
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: "&bЗачарованное ядро машины"
+
+DYNATECH_ANCIENT_MACHINE_CORE:
+  name: "&fДревнее ядро машины"
+
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: "&cКомпонент хранения энергии"
+
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: "&cКомпонент ввода энергии"
+
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: "&cКомпонент вывода энергии"
+
+DYNATECH_DEGRADED_WATER_MILL:
+  name: "&cИзношенная Водяная мельница"
+
+DYNATECH_DEGRADED_WATER_MILL_2:
+  name: "&cИзношенная Гидротурбина"
+
+DYNATECH_DEGRADED_WIND_MILL:
+  name: "&cИзношенная Ветряная мельница"
+
+DYNATECH_DEGRADED_WIND_MILL_2:
+  name: "&cИзношенная Ветряная турбина"
+
+DYNATECH_DEGRADED_EGG_MILL:
+  name: "&cИзношенная мельница Драконьего яйца"
+
+DYNATECH_DEGRADED_EGG_MILL_2:
+  name: "&cИзношенная турбина Драконьего яйца"
+
+DYNATECH_WATER_MILL:
+  name: "&bВодяная мельница"
+
+DYNATECH_WATER_MILL_2:
+  name: "&bГидротурбина"
+
+DYNATECH_WIND_MILL:
+  name: "&bВетряная мельница"
+
+DYNATECH_WIND_MILL_2:
+  name: "&bВетряная турбина"
+
+DYNATECH_EGG_MILL:
+  name: "&bМельница Драконьего яйца"
+
+DYNATECH_EGG_MILL_2:
+  name: "&bТурбина Драконьего яйца"
+
+DYNATECH_DURABILITY_GENERATOR:
+  name: "&bСтружечный генератор"
+
+DYNATECH_FOOD_GENERATOR:
+  name: "&bКулинарный генератор"
+
+DYNATECH_STARDUST_GENERATOR:
+  name: "&bРеактор звёздной пыли"
+
+DYNATECH_STAINLESS_STEEL_INGOT:
+  name: "&fСлиток нержавеющей стали"
+
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: "&fРотор из нержавеющей стали"
+
+DYNATECH_COAL_COKE:
+  name: "&fКаменноугольный кокс"
+
+DYNATECH_BEE:
+  name: "&6Пчела"
+
+DYNATECH_ROBOTIC_BEE:
+  name: "&6Робот-пчела"
+
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  name: "&6Улучшенная робот-пчела"
+
+DYNATECH_VEX_GEM:
+  name: "&6Самоцвет Вредины"
+
+DYNATECH_MACHINE_SCRAP:
+  name: "&6Машинный лом"
+
+DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: "&6Улучшенный машинный лом"
+
+DYNATECH_STAR_DUST:
+  name: "&6Звёздная пыль"
+
+DYNATECH_GHOSTLY_ESSENCE:
+  name: "&6Призрачная эссенция"
+
+DYNATECH_TESSERACTING_OBJECT:
+  name: "&6Тессеракт-объект"
+
+DYNATECH_LIVINGROCK:
+  name: "&6Живой камень"
+
+DYNATECH_LIVINGWOOD:
+  name: "&6Живое дерево"
+
+DYNATECH_ELECTRICAL_STIMULATOR:
+  name: "&6Электрический стимулятор"
+
+DYNATECH_INVENTORY_FILTER:
+  name: "&6Фильтр инвентаря"
+
+DYNATECH_ANGEL_GEM:
+  name: "&6Самоцвет полёта"
+
+DYNATECH_RECIPE_BOOK:
+  name: "&6Книга рецептов"
+
+DYNATECH_AUTO_INPUT_UPGRADE:
+  name: "&6Улучшение автоввода"
+
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  name: "&6Улучшение автовывода"
+
+DYNATECH_FLUID_TANK:
+  name: "&fРезервуар для жидкости"
+
+DYNATECH_LIQUID_TANK:
+  name: "&6Переносной резервуар для жидкости"
+
+DYNATECH_PICNIC_BASKET:
+  name: "&6Корзина для пикника"
+
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  name: "&6Привязанная к душе корзина для пикника"
+
+DYNATECH_SCOOP:
+  name: "&6Совок"
+
+DYNATECH_DIMENSIONAL_HOME:
+  name: "&6Измеренческий дом"
+
+DYNATECH_HASTE_ITEM_BAND:
+  name: "&6Браслет предмета спешки"
+
+DYNATECH_HEALTH_ITEM_BAND:
+  name: "&6Браслет предмета здоровья"
+
+DYNATECH_TESSERACT_BINDER:
+  name: "&6Связыватель тессеракта"
+
+DYNATECH_WITHER_SKELETON_GOLEM:
+  name: "&6Мультиблок Голема-иссушителя"
+
+DYNATECH_COAL_COKE_OVEN:
+  name: "&fКонтроллер коксовой печи"
+
+DYNATECH_AUTO_KITCHEN:
+  name: "&6Автоматическая кухня"
+
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  name: "&6Автокрафтер кухни"
+
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  name: "&6Антигравитационный пузырь"
+
+DYNATECH_WEATHER_CONTROLLER:
+  name: "&6Контроллер погоды"
+
+DYNATECH_POTION_SPRINKLER:
+  name: "&6Зельевой распылитель"
+
+DYNATECH_BARBED_WIRE:
+  name: "&6Колючая проволока"
+
+DYNATECH_MATERIAL_HIVE:
+  name: "&6Материальный улей"
+
+DYNATECH_WIRELESS_CHARGER:
+  name: "&6Беспроводное зарядное устройство"
+
+DYNATECH_SEED_PLUCKER:
+  name: "&6Сборщик семян"
+
+DYNATECH_BANDAID_MANAGER:
+  name: "&6Менеджер браслетов предметов"
+
+DYNATECH_ORECHID:
+  name: "&6Рудная орхидея"
+
+DYNATECH_WIRELESS_ENERGY_POINT:
+  name: "&6Беспроводная точка энергии"
+
+DYNATECH_WIRELESS_ENERGY_BANK:
+  name: "&6Беспроводной энергобанк"
+
+DYNATECH_TESSERACT:
+  name: "&6Тессеракт"
+
+DYNATECH_WIRELESS_ITEM_INPUT:
+  name: "&6Беспроводной ввод предметов"
+
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  name: "&6Беспроводной вывод предметов"
+
+DYNATECH_EXTERNAL_HEATER:
+  name: "&6Внешний нагреватель"
+
+DYNATECH_GROWTH_CHAMBER:
+  name: "&6Камера роста"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  name: "&bОкеаническая камера роста"
+
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  name: "&cНезерная камера роста"
+
+DYNATECH_END_GROWTH_CHAMBER:
+  name: "&dЭндовая камера роста"
+
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  name: "&6Камера роста MK2"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  name: "&bОкеаническая камера роста MK2"
+
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  name: "&cНезерная камера роста MK2"
+
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  name: "&dЭндовая камера роста MK2"
+
+DYNATECH_PETAL_APOTHECARY:
+  name: "&dЛепестковая аптека"
+
+DYNATECH_LAVA_BOTTLE:
+  name: "&fБутылка лавы"
+
+DYNATECH_MILK_BOTTLE:
+  name: "&fБутылка молока"
+
+DYNATECH_HONEY_BUCKET:
+  name: "&fВедро мёда"
+
+DYNATECH_POTION_BUCKET:
+  name: "&fВедро зелья"
+
+STARDUST_METEOR:
+  name: "&6Метеор звёздной пыли"

@@ -1,0 +1,260 @@
+# Polish item translations for DynaTech. Keyed by Slimefun item id.
+# name = display name, '&' colour codes preserved. Missing items fall back to English.
+
+DYNATECH_WOOD_MACHINE_CORE:
+  name: "&fDrewniany rdzeń maszyny"
+
+DYNATECH_STONE_MACHINE_CORE:
+  name: "&fKamienny rdzeń maszyny"
+
+DYNATECH_IRON_MACHINE_CORE:
+  name: "&fŻelazny rdzeń maszyny"
+
+DYNATECH_DIAMOND_MACHINE_CORE:
+  name: "&fDiamentowy rdzeń maszyny"
+
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: "&bZaklęty rdzeń maszyny"
+
+DYNATECH_ANCIENT_MACHINE_CORE:
+  name: "&fStarożytny rdzeń maszyny"
+
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: "&cKomponent magazynowania energii"
+
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: "&cKomponent wejścia energii"
+
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: "&cKomponent wyjścia energii"
+
+DYNATECH_DEGRADED_WATER_MILL:
+  name: "&cZniszczony Młyn wodny"
+
+DYNATECH_DEGRADED_WATER_MILL_2:
+  name: "&cZniszczona Turbina wodna"
+
+DYNATECH_DEGRADED_WIND_MILL:
+  name: "&cZniszczony Wiatrak"
+
+DYNATECH_DEGRADED_WIND_MILL_2:
+  name: "&cZniszczona Turbina wiatrowa"
+
+DYNATECH_DEGRADED_EGG_MILL:
+  name: "&cZniszczony Młyn smoczego jaja"
+
+DYNATECH_DEGRADED_EGG_MILL_2:
+  name: "&cZniszczona Turbina smoczego jaja"
+
+DYNATECH_WATER_MILL:
+  name: "&bMłyn wodny"
+
+DYNATECH_WATER_MILL_2:
+  name: "&bTurbina wodna"
+
+DYNATECH_WIND_MILL:
+  name: "&bWiatrak"
+
+DYNATECH_WIND_MILL_2:
+  name: "&bTurbina wiatrowa"
+
+DYNATECH_EGG_MILL:
+  name: "&bMłyn smoczego jaja"
+
+DYNATECH_EGG_MILL_2:
+  name: "&bTurbina smoczego jaja"
+
+DYNATECH_DURABILITY_GENERATOR:
+  name: "&bGenerator wiórowy"
+
+DYNATECH_FOOD_GENERATOR:
+  name: "&bGenerator kulinarny"
+
+DYNATECH_STARDUST_GENERATOR:
+  name: "&bReaktor gwiezdnego pyłu"
+
+DYNATECH_STAINLESS_STEEL_INGOT:
+  name: "&fSztabka stali nierdzewnej"
+
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: "&fWirnik ze stali nierdzewnej"
+
+DYNATECH_COAL_COKE:
+  name: "&fKoks węglowy"
+
+DYNATECH_BEE:
+  name: "&6Pszczoła"
+
+DYNATECH_ROBOTIC_BEE:
+  name: "&6Robotyczna pszczoła"
+
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  name: "&6Zaawansowana robotyczna pszczoła"
+
+DYNATECH_VEX_GEM:
+  name: "&6Klejnot zmory"
+
+DYNATECH_MACHINE_SCRAP:
+  name: "&6Złom maszynowy"
+
+DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: "&6Zaawansowany złom maszynowy"
+
+DYNATECH_STAR_DUST:
+  name: "&6Gwiezdny pył"
+
+DYNATECH_GHOSTLY_ESSENCE:
+  name: "&6Upiorna esencja"
+
+DYNATECH_TESSERACTING_OBJECT:
+  name: "&6Obiekt tesseraktu"
+
+DYNATECH_LIVINGROCK:
+  name: "&6Żywy kamień"
+
+DYNATECH_LIVINGWOOD:
+  name: "&6Żywe drewno"
+
+DYNATECH_ELECTRICAL_STIMULATOR:
+  name: "&6Stymulator elektryczny"
+
+DYNATECH_INVENTORY_FILTER:
+  name: "&6Filtr ekwipunku"
+
+DYNATECH_ANGEL_GEM:
+  name: "&6Klejnot lotu"
+
+DYNATECH_RECIPE_BOOK:
+  name: "&6Księga przepisów"
+
+DYNATECH_AUTO_INPUT_UPGRADE:
+  name: "&6Ulepszenie automatycznego wejścia"
+
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  name: "&6Ulepszenie automatycznego wyjścia"
+
+DYNATECH_FLUID_TANK:
+  name: "&fZbiornik na płyn"
+
+DYNATECH_LIQUID_TANK:
+  name: "&6Przenośny zbiornik na płyn"
+
+DYNATECH_PICNIC_BASKET:
+  name: "&6Kosz piknikowy"
+
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  name: "&6Kosz piknikowy związany z duszą"
+
+DYNATECH_SCOOP:
+  name: "&6Czerpak"
+
+DYNATECH_DIMENSIONAL_HOME:
+  name: "&6Wymiarowy dom"
+
+DYNATECH_HASTE_ITEM_BAND:
+  name: "&6Opaska przedmiotu pośpiechu"
+
+DYNATECH_HEALTH_ITEM_BAND:
+  name: "&6Opaska przedmiotu zdrowia"
+
+DYNATECH_TESSERACT_BINDER:
+  name: "&6Spinacz tesseraktu"
+
+DYNATECH_WITHER_SKELETON_GOLEM:
+  name: "&6Multiblok golema wither"
+
+DYNATECH_COAL_COKE_OVEN:
+  name: "&fSterownik pieca koksowniczego"
+
+DYNATECH_AUTO_KITCHEN:
+  name: "&6Automatyczna kuchnia"
+
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  name: "&6Automatyczny crafter kuchenny"
+
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  name: "&6Bąbel antygrawitacyjny"
+
+DYNATECH_WEATHER_CONTROLLER:
+  name: "&6Sterownik pogody"
+
+DYNATECH_POTION_SPRINKLER:
+  name: "&6Zraszacz mikstur"
+
+DYNATECH_BARBED_WIRE:
+  name: "&6Drut kolczasty"
+
+DYNATECH_MATERIAL_HIVE:
+  name: "&6Ul materiałowy"
+
+DYNATECH_WIRELESS_CHARGER:
+  name: "&6Ładowarka bezprzewodowa"
+
+DYNATECH_SEED_PLUCKER:
+  name: "&6Zrywacz nasion"
+
+DYNATECH_BANDAID_MANAGER:
+  name: "&6Menedżer opasek przedmiotów"
+
+DYNATECH_ORECHID:
+  name: "&6Storczyk rudny"
+
+DYNATECH_WIRELESS_ENERGY_POINT:
+  name: "&6Bezprzewodowy punkt energii"
+
+DYNATECH_WIRELESS_ENERGY_BANK:
+  name: "&6Bezprzewodowy bank energii"
+
+DYNATECH_TESSERACT:
+  name: "&6Tesserakt"
+
+DYNATECH_WIRELESS_ITEM_INPUT:
+  name: "&6Bezprzewodowe wejście przedmiotów"
+
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  name: "&6Bezprzewodowe wyjście przedmiotów"
+
+DYNATECH_EXTERNAL_HEATER:
+  name: "&6Grzejnik zewnętrzny"
+
+DYNATECH_GROWTH_CHAMBER:
+  name: "&6Komora wzrostu"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  name: "&bOceaniczna komora wzrostu"
+
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  name: "&cNetherowa komora wzrostu"
+
+DYNATECH_END_GROWTH_CHAMBER:
+  name: "&dEndowa komora wzrostu"
+
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  name: "&6Komora wzrostu MK2"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  name: "&bOceaniczna komora wzrostu MK2"
+
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  name: "&cNetherowa komora wzrostu MK2"
+
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  name: "&dEndowa komora wzrostu MK2"
+
+DYNATECH_PETAL_APOTHECARY:
+  name: "&dApteka płatków"
+
+DYNATECH_LAVA_BOTTLE:
+  name: "&fButelka lawy"
+
+DYNATECH_MILK_BOTTLE:
+  name: "&fButelka mleka"
+
+DYNATECH_HONEY_BUCKET:
+  name: "&fWiadro miodu"
+
+DYNATECH_POTION_BUCKET:
+  name: "&fWiadro mikstury"
+
+STARDUST_METEOR:
+  name: "&6Meteor gwiezdnego pyłu"

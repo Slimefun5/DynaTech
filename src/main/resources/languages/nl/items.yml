@@ -1,0 +1,260 @@
+# Dutch item translations for DynaTech. Keyed by Slimefun item id.
+# name = display name, '&' colour codes preserved. Missing items fall back to English.
+
+DYNATECH_WOOD_MACHINE_CORE:
+  name: "&fHouten machinekern"
+
+DYNATECH_STONE_MACHINE_CORE:
+  name: "&fStenen machinekern"
+
+DYNATECH_IRON_MACHINE_CORE:
+  name: "&fIJzeren machinekern"
+
+DYNATECH_DIAMOND_MACHINE_CORE:
+  name: "&fDiamanten machinekern"
+
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: "&bBetoverde machinekern"
+
+DYNATECH_ANCIENT_MACHINE_CORE:
+  name: "&fOude machinekern"
+
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: "&cEnergieopslagcomponent"
+
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: "&cEnergie-invoercomponent"
+
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: "&cEnergie-uitvoercomponent"
+
+DYNATECH_DEGRADED_WATER_MILL:
+  name: "&cVersleten Watermolen"
+
+DYNATECH_DEGRADED_WATER_MILL_2:
+  name: "&cVersleten Hydroturbine"
+
+DYNATECH_DEGRADED_WIND_MILL:
+  name: "&cVersleten Windmolen"
+
+DYNATECH_DEGRADED_WIND_MILL_2:
+  name: "&cVersleten Windturbine"
+
+DYNATECH_DEGRADED_EGG_MILL:
+  name: "&cVersleten Drakeneimolen"
+
+DYNATECH_DEGRADED_EGG_MILL_2:
+  name: "&cVersleten Drakeneiturbine"
+
+DYNATECH_WATER_MILL:
+  name: "&bWatermolen"
+
+DYNATECH_WATER_MILL_2:
+  name: "&bHydroturbine"
+
+DYNATECH_WIND_MILL:
+  name: "&bWindmolen"
+
+DYNATECH_WIND_MILL_2:
+  name: "&bWindturbine"
+
+DYNATECH_EGG_MILL:
+  name: "&bDrakeneimolen"
+
+DYNATECH_EGG_MILL_2:
+  name: "&bDrakeneiturbine"
+
+DYNATECH_DURABILITY_GENERATOR:
+  name: "&bSpaandergenerator"
+
+DYNATECH_FOOD_GENERATOR:
+  name: "&bCulinaire generator"
+
+DYNATECH_STARDUST_GENERATOR:
+  name: "&bSterrenstofreactor"
+
+DYNATECH_STAINLESS_STEEL_INGOT:
+  name: "&fRoestvrijstalen staaf"
+
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: "&fRoestvrijstalen rotor"
+
+DYNATECH_COAL_COKE:
+  name: "&fCokeskool"
+
+DYNATECH_BEE:
+  name: "&6Bij"
+
+DYNATECH_ROBOTIC_BEE:
+  name: "&6Robotbij"
+
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  name: "&6Geavanceerde robotbij"
+
+DYNATECH_VEX_GEM:
+  name: "&6Vex-edelsteen"
+
+DYNATECH_MACHINE_SCRAP:
+  name: "&6Machineschroot"
+
+DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: "&6Geavanceerd machineschroot"
+
+DYNATECH_STAR_DUST:
+  name: "&6Sterrenstof"
+
+DYNATECH_GHOSTLY_ESSENCE:
+  name: "&6Spookachtige essentie"
+
+DYNATECH_TESSERACTING_OBJECT:
+  name: "&6Tesseract-object"
+
+DYNATECH_LIVINGROCK:
+  name: "&6Levende rots"
+
+DYNATECH_LIVINGWOOD:
+  name: "&6Levend hout"
+
+DYNATECH_ELECTRICAL_STIMULATOR:
+  name: "&6Elektrische stimulator"
+
+DYNATECH_INVENTORY_FILTER:
+  name: "&6Inventarisfilter"
+
+DYNATECH_ANGEL_GEM:
+  name: "&6Vluchtedelsteen"
+
+DYNATECH_RECIPE_BOOK:
+  name: "&6Receptenboek"
+
+DYNATECH_AUTO_INPUT_UPGRADE:
+  name: "&6Auto-invoer-upgrade"
+
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  name: "&6Auto-uitvoer-upgrade"
+
+DYNATECH_FLUID_TANK:
+  name: "&fVloeistoftank"
+
+DYNATECH_LIQUID_TANK:
+  name: "&6Draagbare vloeistoftank"
+
+DYNATECH_PICNIC_BASKET:
+  name: "&6Picknickmand"
+
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  name: "&6Zielgebonden picknickmand"
+
+DYNATECH_SCOOP:
+  name: "&6Schep"
+
+DYNATECH_DIMENSIONAL_HOME:
+  name: "&6Dimensionaal thuis"
+
+DYNATECH_HASTE_ITEM_BAND:
+  name: "&6Haastige itemband"
+
+DYNATECH_HEALTH_ITEM_BAND:
+  name: "&6Gezonde itemband"
+
+DYNATECH_TESSERACT_BINDER:
+  name: "&6Tesseract-binder"
+
+DYNATECH_WITHER_SKELETON_GOLEM:
+  name: "&6Wither-golem-multiblok"
+
+DYNATECH_COAL_COKE_OVEN:
+  name: "&fCokesovenregelaar"
+
+DYNATECH_AUTO_KITCHEN:
+  name: "&6Automatische keuken"
+
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  name: "&6Keuken-auto-crafter"
+
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  name: "&6Antizwaartekrachtbel"
+
+DYNATECH_WEATHER_CONTROLLER:
+  name: "&6Weerregelaar"
+
+DYNATECH_POTION_SPRINKLER:
+  name: "&6Drankjessproeier"
+
+DYNATECH_BARBED_WIRE:
+  name: "&6Prikkeldraad"
+
+DYNATECH_MATERIAL_HIVE:
+  name: "&6Materiaalkorf"
+
+DYNATECH_WIRELESS_CHARGER:
+  name: "&6Draadloze lader"
+
+DYNATECH_SEED_PLUCKER:
+  name: "&6Zaadplukker"
+
+DYNATECH_BANDAID_MANAGER:
+  name: "&6Itembandbeheerder"
+
+DYNATECH_ORECHID:
+  name: "&6Erts-orchidee"
+
+DYNATECH_WIRELESS_ENERGY_POINT:
+  name: "&6Draadloos energiepunt"
+
+DYNATECH_WIRELESS_ENERGY_BANK:
+  name: "&6Draadloze energiebank"
+
+DYNATECH_TESSERACT:
+  name: "&6Tesseract"
+
+DYNATECH_WIRELESS_ITEM_INPUT:
+  name: "&6Draadloze itemingang"
+
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  name: "&6Draadloze itemuitgang"
+
+DYNATECH_EXTERNAL_HEATER:
+  name: "&6Externe verwarmer"
+
+DYNATECH_GROWTH_CHAMBER:
+  name: "&6Groeikamer"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  name: "&bOceaangroeikamer"
+
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  name: "&cNethergroeikamer"
+
+DYNATECH_END_GROWTH_CHAMBER:
+  name: "&dEndgroeikamer"
+
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  name: "&6Groeikamer MK2"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  name: "&bOceaangroeikamer MK2"
+
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  name: "&cNethergroeikamer MK2"
+
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  name: "&dEndgroeikamer MK2"
+
+DYNATECH_PETAL_APOTHECARY:
+  name: "&dBloemblad-apotheek"
+
+DYNATECH_LAVA_BOTTLE:
+  name: "&fLavafles"
+
+DYNATECH_MILK_BOTTLE:
+  name: "&fMelkfles"
+
+DYNATECH_HONEY_BUCKET:
+  name: "&fHoningemmer"
+
+DYNATECH_POTION_BUCKET:
+  name: "&fDrankjesemmer"
+
+STARDUST_METEOR:
+  name: "&6Sterrenstofmeteoor"

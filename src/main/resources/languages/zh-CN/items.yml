@@ -1,0 +1,260 @@
+# Simplified Chinese item translations for DynaTech. Keyed by Slimefun item id.
+# name = display name, '&' colour codes preserved. Missing items fall back to English.
+
+DYNATECH_WOOD_MACHINE_CORE:
+  name: "&f木制机器核心"
+
+DYNATECH_STONE_MACHINE_CORE:
+  name: "&f石制机器核心"
+
+DYNATECH_IRON_MACHINE_CORE:
+  name: "&f铁制机器核心"
+
+DYNATECH_DIAMOND_MACHINE_CORE:
+  name: "&f钻石机器核心"
+
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: "&b附魔机器核心"
+
+DYNATECH_ANCIENT_MACHINE_CORE:
+  name: "&f远古机器核心"
+
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: "&c能量存储组件"
+
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: "&c能量输入组件"
+
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: "&c能量输出组件"
+
+DYNATECH_DEGRADED_WATER_MILL:
+  name: "&c老化的水磨坊"
+
+DYNATECH_DEGRADED_WATER_MILL_2:
+  name: "&c老化的水力涡轮机"
+
+DYNATECH_DEGRADED_WIND_MILL:
+  name: "&c老化的风车"
+
+DYNATECH_DEGRADED_WIND_MILL_2:
+  name: "&c老化的风力涡轮机"
+
+DYNATECH_DEGRADED_EGG_MILL:
+  name: "&c老化的龙蛋磨坊"
+
+DYNATECH_DEGRADED_EGG_MILL_2:
+  name: "&c老化的龙蛋涡轮机"
+
+DYNATECH_WATER_MILL:
+  name: "&b水磨坊"
+
+DYNATECH_WATER_MILL_2:
+  name: "&b水力涡轮机"
+
+DYNATECH_WIND_MILL:
+  name: "&b风车"
+
+DYNATECH_WIND_MILL_2:
+  name: "&b风力涡轮机"
+
+DYNATECH_EGG_MILL:
+  name: "&b龙蛋磨坊"
+
+DYNATECH_EGG_MILL_2:
+  name: "&b龙蛋涡轮机"
+
+DYNATECH_DURABILITY_GENERATOR:
+  name: "&b削片发电机"
+
+DYNATECH_FOOD_GENERATOR:
+  name: "&b烹饪发电机"
+
+DYNATECH_STARDUST_GENERATOR:
+  name: "&b星尘反应堆"
+
+DYNATECH_STAINLESS_STEEL_INGOT:
+  name: "&f不锈钢锭"
+
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: "&f不锈钢转子"
+
+DYNATECH_COAL_COKE:
+  name: "&f煤焦"
+
+DYNATECH_BEE:
+  name: "&6蜜蜂"
+
+DYNATECH_ROBOTIC_BEE:
+  name: "&6机械蜜蜂"
+
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  name: "&6高级机械蜜蜂"
+
+DYNATECH_VEX_GEM:
+  name: "&6恼鬼宝石"
+
+DYNATECH_MACHINE_SCRAP:
+  name: "&6机器废料"
+
+DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: "&6高级机器废料"
+
+DYNATECH_STAR_DUST:
+  name: "&6星尘"
+
+DYNATECH_GHOSTLY_ESSENCE:
+  name: "&6幽灵精华"
+
+DYNATECH_TESSERACTING_OBJECT:
+  name: "&6超立方体物体"
+
+DYNATECH_LIVINGROCK:
+  name: "&6活石"
+
+DYNATECH_LIVINGWOOD:
+  name: "&6活木"
+
+DYNATECH_ELECTRICAL_STIMULATOR:
+  name: "&6电刺激器"
+
+DYNATECH_INVENTORY_FILTER:
+  name: "&6物品栏过滤器"
+
+DYNATECH_ANGEL_GEM:
+  name: "&6飞行宝石"
+
+DYNATECH_RECIPE_BOOK:
+  name: "&6配方书"
+
+DYNATECH_AUTO_INPUT_UPGRADE:
+  name: "&6自动输入升级"
+
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  name: "&6自动输出升级"
+
+DYNATECH_FLUID_TANK:
+  name: "&f流体罐"
+
+DYNATECH_LIQUID_TANK:
+  name: "&6便携式液体罐"
+
+DYNATECH_PICNIC_BASKET:
+  name: "&6野餐篮"
+
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  name: "&6灵魂绑定野餐篮"
+
+DYNATECH_SCOOP:
+  name: "&6捕捉器"
+
+DYNATECH_DIMENSIONAL_HOME:
+  name: "&6次元之家"
+
+DYNATECH_HASTE_ITEM_BAND:
+  name: "&6急迫物品带"
+
+DYNATECH_HEALTH_ITEM_BAND:
+  name: "&6健康物品带"
+
+DYNATECH_TESSERACT_BINDER:
+  name: "&6超立方体绑定器"
+
+DYNATECH_WITHER_SKELETON_GOLEM:
+  name: "&6凋零傀儡多方块结构"
+
+DYNATECH_COAL_COKE_OVEN:
+  name: "&f焦炉控制器"
+
+DYNATECH_AUTO_KITCHEN:
+  name: "&6自动厨房"
+
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  name: "&6厨房自动合成器"
+
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  name: "&6反重力气泡"
+
+DYNATECH_WEATHER_CONTROLLER:
+  name: "&6天气控制器"
+
+DYNATECH_POTION_SPRINKLER:
+  name: "&6药水喷洒器"
+
+DYNATECH_BARBED_WIRE:
+  name: "&6带刺铁丝网"
+
+DYNATECH_MATERIAL_HIVE:
+  name: "&6材料蜂巢"
+
+DYNATECH_WIRELESS_CHARGER:
+  name: "&6无线充电器"
+
+DYNATECH_SEED_PLUCKER:
+  name: "&6种子采摘器"
+
+DYNATECH_BANDAID_MANAGER:
+  name: "&6物品带管理器"
+
+DYNATECH_ORECHID:
+  name: "&6矿石兰"
+
+DYNATECH_WIRELESS_ENERGY_POINT:
+  name: "&6无线能量节点"
+
+DYNATECH_WIRELESS_ENERGY_BANK:
+  name: "&6无线能量库"
+
+DYNATECH_TESSERACT:
+  name: "&6超立方体"
+
+DYNATECH_WIRELESS_ITEM_INPUT:
+  name: "&6无线物品输入"
+
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  name: "&6无线物品输出"
+
+DYNATECH_EXTERNAL_HEATER:
+  name: "&6外部加热器"
+
+DYNATECH_GROWTH_CHAMBER:
+  name: "&6生长室"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  name: "&b海洋生长室"
+
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  name: "&c下界生长室"
+
+DYNATECH_END_GROWTH_CHAMBER:
+  name: "&d末地生长室"
+
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  name: "&6生长室 MK2"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  name: "&b海洋生长室 MK2"
+
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  name: "&c下界生长室 MK2"
+
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  name: "&d末地生长室 MK2"
+
+DYNATECH_PETAL_APOTHECARY:
+  name: "&d花瓣药剂台"
+
+DYNATECH_LAVA_BOTTLE:
+  name: "&f熔岩瓶"
+
+DYNATECH_MILK_BOTTLE:
+  name: "&f牛奶瓶"
+
+DYNATECH_HONEY_BUCKET:
+  name: "&f蜂蜜桶"
+
+DYNATECH_POTION_BUCKET:
+  name: "&f药水桶"
+
+STARDUST_METEOR:
+  name: "&6星尘陨石"

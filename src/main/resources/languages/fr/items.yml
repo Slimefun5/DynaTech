@@ -1,8 +1,14 @@
 # French item translations for DynaTech. Keyed by Slimefun item id.
-# name = display name, lore = list of lines, '&' colour codes. Missing items fall back to English.
+# name = display name, '&' colour codes preserved. Missing items fall back to English.
 
 DYNATECH_WOOD_MACHINE_CORE:
   name: "&fNoyau de machine en bois"
+
+DYNATECH_STONE_MACHINE_CORE:
+  name: "&fNoyau de machine en pierre"
+
+DYNATECH_IRON_MACHINE_CORE:
+  name: "&fNoyau de machine en fer"
 
 DYNATECH_DIAMOND_MACHINE_CORE:
   name: "&fNoyau de machine en diamant"
@@ -13,32 +19,242 @@ DYNATECH_ENCHANTED_MACHINE_CORE:
 DYNATECH_ANCIENT_MACHINE_CORE:
   name: "&fNoyau de machine ancien"
 
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: "&cComposant de stockage d'énergie"
+
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: "&cComposant d'entrée d'énergie"
+
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: "&cComposant de sortie d'énergie"
+
+DYNATECH_DEGRADED_WATER_MILL:
+  name: "&cMoulin à eau dégradé"
+
+DYNATECH_DEGRADED_WATER_MILL_2:
+  name: "&cTurbine hydraulique dégradée"
+
+DYNATECH_DEGRADED_WIND_MILL:
+  name: "&cMoulin à vent dégradé"
+
+DYNATECH_DEGRADED_WIND_MILL_2:
+  name: "&cÉolienne dégradée"
+
+DYNATECH_DEGRADED_EGG_MILL:
+  name: "&cMoulin à œuf de dragon dégradé"
+
+DYNATECH_DEGRADED_EGG_MILL_2:
+  name: "&cTurbine à œuf de dragon dégradée"
+
 DYNATECH_WATER_MILL:
   name: "&bMoulin à eau"
-  lore:
-    - "&7Se dégrade avec le temps."
 
 DYNATECH_WATER_MILL_2:
   name: "&bTurbine hydraulique"
-  lore:
-    - "&7Se dégrade avec le temps."
 
 DYNATECH_WIND_MILL:
   name: "&bMoulin à vent"
-  lore:
-    - "&7Se dégrade avec le temps."
+
+DYNATECH_WIND_MILL_2:
+  name: "&bÉolienne"
 
 DYNATECH_EGG_MILL:
   name: "&bMoulin à œuf de dragon"
-  lore:
-    - "&7Se dégrade avec le temps."
+
+DYNATECH_EGG_MILL_2:
+  name: "&bTurbine à œuf de dragon"
 
 DYNATECH_DURABILITY_GENERATOR:
-  name: "&bGénérateur à copeaux"
-  lore:
-    - "&7Échange de la durabilité contre de l'énergie."
+  name: "&bGénérateur d'usure"
 
 DYNATECH_FOOD_GENERATOR:
   name: "&bGénérateur culinaire"
-  lore:
-    - "&7Échange de la faim contre de l'énergie"
+
+DYNATECH_STARDUST_GENERATOR:
+  name: "&bRéacteur de poussière d'étoile"
+
+DYNATECH_STAINLESS_STEEL_INGOT:
+  name: "&fLingot d'acier inoxydable"
+
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: "&fRotor en acier inoxydable"
+
+DYNATECH_COAL_COKE:
+  name: "&fCoke de charbon"
+
+DYNATECH_BEE:
+  name: "&6Abeille"
+
+DYNATECH_ROBOTIC_BEE:
+  name: "&6Abeille robotique"
+
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  name: "&6Abeille robotique avancée"
+
+DYNATECH_VEX_GEM:
+  name: "&6Gemme de vex"
+
+DYNATECH_MACHINE_SCRAP:
+  name: "&6Ferraille de machine"
+
+DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: "&6Ferraille de machine avancée"
+
+DYNATECH_STAR_DUST:
+  name: "&6Poussière d'étoile"
+
+DYNATECH_GHOSTLY_ESSENCE:
+  name: "&6Essence spectrale"
+
+DYNATECH_TESSERACTING_OBJECT:
+  name: "&6Objet tesseract"
+
+DYNATECH_LIVINGROCK:
+  name: "&6Roche vivante"
+
+DYNATECH_LIVINGWOOD:
+  name: "&6Bois vivant"
+
+DYNATECH_ELECTRICAL_STIMULATOR:
+  name: "&6Stimulateur électrique"
+
+DYNATECH_INVENTORY_FILTER:
+  name: "&6Filtre d'inventaire"
+
+DYNATECH_ANGEL_GEM:
+  name: "&6Gemme de vol"
+
+DYNATECH_RECIPE_BOOK:
+  name: "&6Livre de recettes"
+
+DYNATECH_AUTO_INPUT_UPGRADE:
+  name: "&6Amélioration d'entrée automatique"
+
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  name: "&6Amélioration de sortie automatique"
+
+DYNATECH_FLUID_TANK:
+  name: "&fRéservoir de fluide"
+
+DYNATECH_LIQUID_TANK:
+  name: "&6Réservoir de liquide portable"
+
+DYNATECH_PICNIC_BASKET:
+  name: "&6Panier de pique-nique"
+
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  name: "&6Panier de pique-nique lié à l'âme"
+
+DYNATECH_SCOOP:
+  name: "&6Pelle"
+
+DYNATECH_DIMENSIONAL_HOME:
+  name: "&6Maison dimensionnelle"
+
+DYNATECH_HASTE_ITEM_BAND:
+  name: "&6Bracelet d'objet hâtif"
+
+DYNATECH_HEALTH_ITEM_BAND:
+  name: "&6Bracelet d'objet sain"
+
+DYNATECH_TESSERACT_BINDER:
+  name: "&6Lieur de tesseract"
+
+DYNATECH_WITHER_SKELETON_GOLEM:
+  name: "&6Multibloc golem wither"
+
+DYNATECH_COAL_COKE_OVEN:
+  name: "&fContrôleur de four à coke"
+
+DYNATECH_AUTO_KITCHEN:
+  name: "&6Cuisine automatique"
+
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  name: "&6Fabricant automatique de cuisine"
+
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  name: "&6Bulle antigravité"
+
+DYNATECH_WEATHER_CONTROLLER:
+  name: "&6Contrôleur de météo"
+
+DYNATECH_POTION_SPRINKLER:
+  name: "&6Arroseur de potion"
+
+DYNATECH_BARBED_WIRE:
+  name: "&6Fil barbelé"
+
+DYNATECH_MATERIAL_HIVE:
+  name: "&6Ruche à matériaux"
+
+DYNATECH_WIRELESS_CHARGER:
+  name: "&6Chargeur sans fil"
+
+DYNATECH_SEED_PLUCKER:
+  name: "&6Cueilleur de graines"
+
+DYNATECH_BANDAID_MANAGER:
+  name: "&6Gestionnaire de bracelets d'objet"
+
+DYNATECH_ORECHID:
+  name: "&6Orchidée à minerai"
+
+DYNATECH_WIRELESS_ENERGY_POINT:
+  name: "&6Point d'énergie sans fil"
+
+DYNATECH_WIRELESS_ENERGY_BANK:
+  name: "&6Banque d'énergie sans fil"
+
+DYNATECH_TESSERACT:
+  name: "&6Tesseract"
+
+DYNATECH_WIRELESS_ITEM_INPUT:
+  name: "&6Entrée d'objet sans fil"
+
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  name: "&6Sortie d'objet sans fil"
+
+DYNATECH_EXTERNAL_HEATER:
+  name: "&6Chauffage externe"
+
+DYNATECH_GROWTH_CHAMBER:
+  name: "&6Chambre de croissance"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  name: "&bChambre de croissance océanique"
+
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  name: "&cChambre de croissance du Nether"
+
+DYNATECH_END_GROWTH_CHAMBER:
+  name: "&dChambre de croissance de l'End"
+
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  name: "&6Chambre de croissance MK2"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  name: "&bChambre de croissance océanique MK2"
+
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  name: "&cChambre de croissance du Nether MK2"
+
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  name: "&dChambre de croissance de l'End MK2"
+
+DYNATECH_PETAL_APOTHECARY:
+  name: "&dApothicaire à pétales"
+
+DYNATECH_LAVA_BOTTLE:
+  name: "&fBouteille de lave"
+
+DYNATECH_MILK_BOTTLE:
+  name: "&fBouteille de lait"
+
+DYNATECH_HONEY_BUCKET:
+  name: "&fSeau de miel"
+
+DYNATECH_POTION_BUCKET:
+  name: "&fSeau de potion"
+
+STARDUST_METEOR:
+  name: "&6Météore de poussière d'étoile"
