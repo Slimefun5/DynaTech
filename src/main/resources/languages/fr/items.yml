@@ -1,0 +1,44 @@
+# French item translations for DynaTech. Keyed by Slimefun item id.
+# name = display name, lore = list of lines, '&' colour codes. Missing items fall back to English.
+
+DYNATECH_WOOD_MACHINE_CORE:
+  name: "&fNoyau de machine en bois"
+
+DYNATECH_DIAMOND_MACHINE_CORE:
+  name: "&fNoyau de machine en diamant"
+
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: "&bNoyau de machine enchanté"
+
+DYNATECH_ANCIENT_MACHINE_CORE:
+  name: "&fNoyau de machine ancien"
+
+DYNATECH_WATER_MILL:
+  name: "&bMoulin à eau"
+  lore:
+    - "&7Se dégrade avec le temps."
+
+DYNATECH_WATER_MILL_2:
+  name: "&bTurbine hydraulique"
+  lore:
+    - "&7Se dégrade avec le temps."
+
+DYNATECH_WIND_MILL:
+  name: "&bMoulin à vent"
+  lore:
+    - "&7Se dégrade avec le temps."
+
+DYNATECH_EGG_MILL:
+  name: "&bMoulin à œuf de dragon"
+  lore:
+    - "&7Se dégrade avec le temps."
+
+DYNATECH_DURABILITY_GENERATOR:
+  name: "&bGénérateur à copeaux"
+  lore:
+    - "&7Échange de la durabilité contre de l'énergie."
+
+DYNATECH_FOOD_GENERATOR:
+  name: "&bGénérateur culinaire"
+  lore:
+    - "&7Échange de la faim contre de l'énergie"

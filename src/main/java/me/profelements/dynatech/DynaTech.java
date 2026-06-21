@@ -94,6 +94,9 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
         setupRegistries();
 
         MetricsModule.setup(this, 31440);
+
+        // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
+        Slimefun.getItemTranslationService().registerTranslations(this);
     }
 
     private static void setupRegistries() {
