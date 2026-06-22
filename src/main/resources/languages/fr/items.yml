@@ -71,7 +71,7 @@ DYNATECH_FOOD_GENERATOR:
   name: "&bGénérateur culinaire"
 
 DYNATECH_STARDUST_GENERATOR:
-  name: "&bRéacteur de poussière d'étoile"
+  name: "&bRéacteur à poussière d'étoile"
 
 DYNATECH_STAINLESS_STEEL_INGOT:
   name: "&fLingot d'acier inoxydable"
@@ -107,7 +107,7 @@ DYNATECH_GHOSTLY_ESSENCE:
   name: "&6Essence spectrale"
 
 DYNATECH_TESSERACTING_OBJECT:
-  name: "&6Objet tesseract"
+  name: "&6Objet tesseractant"
 
 DYNATECH_LIVINGROCK:
   name: "&6Roche vivante"
@@ -152,16 +152,16 @@ DYNATECH_DIMENSIONAL_HOME:
   name: "&6Maison dimensionnelle"
 
 DYNATECH_HASTE_ITEM_BAND:
-  name: "&6Bracelet d'objet hâtif"
+  name: "&6Bandeau d'objet de hâte"
 
 DYNATECH_HEALTH_ITEM_BAND:
-  name: "&6Bracelet d'objet sain"
+  name: "&6Bandeau d'objet de santé"
 
 DYNATECH_TESSERACT_BINDER:
   name: "&6Lieur de tesseract"
 
 DYNATECH_WITHER_SKELETON_GOLEM:
-  name: "&6Multibloc golem wither"
+  name: "&6MultiBloc de golem wither"
 
 DYNATECH_COAL_COKE_OVEN:
   name: "&fContrôleur de four à coke"
@@ -170,13 +170,13 @@ DYNATECH_AUTO_KITCHEN:
   name: "&6Cuisine automatique"
 
 DYNATECH_KITCHEN_AUTO_CRAFTER:
-  name: "&6Fabricant automatique de cuisine"
+  name: "&6Fabricateur automatique de cuisine"
 
 DYNATECH_ANTIGRAVITY_BUBBLE:
   name: "&6Bulle antigravité"
 
 DYNATECH_WEATHER_CONTROLLER:
-  name: "&6Contrôleur de météo"
+  name: "&6Contrôleur météo"
 
 DYNATECH_POTION_SPRINKLER:
   name: "&6Arroseur de potion"
@@ -185,7 +185,7 @@ DYNATECH_BARBED_WIRE:
   name: "&6Fil barbelé"
 
 DYNATECH_MATERIAL_HIVE:
-  name: "&6Ruche à matériaux"
+  name: "&6Ruche de matériaux"
 
 DYNATECH_WIRELESS_CHARGER:
   name: "&6Chargeur sans fil"
@@ -194,7 +194,7 @@ DYNATECH_SEED_PLUCKER:
   name: "&6Cueilleur de graines"
 
 DYNATECH_BANDAID_MANAGER:
-  name: "&6Gestionnaire de bracelets d'objet"
+  name: "&6Gestionnaire de bandeaux d'objet"
 
 DYNATECH_ORECHID:
   name: "&6Orchidée à minerai"

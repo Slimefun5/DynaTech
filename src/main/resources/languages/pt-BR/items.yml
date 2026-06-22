@@ -2,259 +2,259 @@
 # name = display name, '&' colour codes preserved. Missing items fall back to English.
 
 DYNATECH_WOOD_MACHINE_CORE:
-  name: "&fNúcleo de máquina de madeira"
+  name: "&fNúcleo de Máquina de Madeira"
 
 DYNATECH_STONE_MACHINE_CORE:
-  name: "&fNúcleo de máquina de pedra"
+  name: "&fNúcleo de Máquina de Pedra"
 
 DYNATECH_IRON_MACHINE_CORE:
-  name: "&fNúcleo de máquina de ferro"
+  name: "&fNúcleo de Máquina de Ferro"
 
 DYNATECH_DIAMOND_MACHINE_CORE:
-  name: "&fNúcleo de máquina de diamante"
+  name: "&fNúcleo de Máquina de Diamante"
 
 DYNATECH_ENCHANTED_MACHINE_CORE:
-  name: "&bNúcleo de máquina encantado"
+  name: "&bNúcleo de Máquina Encantado"
 
 DYNATECH_ANCIENT_MACHINE_CORE:
-  name: "&fNúcleo de máquina antigo"
+  name: "&fNúcleo de Máquina Antigo"
 
 DYNATECH_ENERGY_STORAGE_COMPONENT:
-  name: "&cComponente de armazenamento de energia"
+  name: "&cComponente de Armazenamento de Energia"
 
 DYNATECH_ENERGY_INPUT_COMPONENT:
-  name: "&cComponente de entrada de energia"
+  name: "&cComponente de Entrada de Energia"
 
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
-  name: "&cComponente de saída de energia"
+  name: "&cComponente de Saída de Energia"
 
 DYNATECH_DEGRADED_WATER_MILL:
-  name: "&cMoinho de água degradado"
+  name: "&cMoinho de Água Degradado"
 
 DYNATECH_DEGRADED_WATER_MILL_2:
-  name: "&cTurbina hidráulica degradada"
+  name: "&cTurbina Hídrica Degradada"
 
 DYNATECH_DEGRADED_WIND_MILL:
-  name: "&cMoinho de vento degradado"
+  name: "&cMoinho de Vento Degradado"
 
 DYNATECH_DEGRADED_WIND_MILL_2:
-  name: "&cTurbina eólica degradada"
+  name: "&cTurbina Eólica Degradada"
 
 DYNATECH_DEGRADED_EGG_MILL:
-  name: "&cMoinho de ovo de dragão degradado"
+  name: "&cMoinho de Ovo de Dragão Degradado"
 
 DYNATECH_DEGRADED_EGG_MILL_2:
-  name: "&cTurbina de ovo de dragão degradada"
+  name: "&cTurbina de Ovo de Dragão Degradada"
 
 DYNATECH_WATER_MILL:
-  name: "&bMoinho de água"
+  name: "&bMoinho de Água"
 
 DYNATECH_WATER_MILL_2:
-  name: "&bTurbina hidráulica"
+  name: "&bTurbina Hídrica"
 
 DYNATECH_WIND_MILL:
-  name: "&bMoinho de vento"
+  name: "&bMoinho de Vento"
 
 DYNATECH_WIND_MILL_2:
-  name: "&bTurbina eólica"
+  name: "&bTurbina Eólica"
 
 DYNATECH_EGG_MILL:
-  name: "&bMoinho de ovo de dragão"
+  name: "&bMoinho de Ovo de Dragão"
 
 DYNATECH_EGG_MILL_2:
-  name: "&bTurbina de ovo de dragão"
+  name: "&bTurbina de Ovo de Dragão"
 
 DYNATECH_DURABILITY_GENERATOR:
-  name: "&bGerador de lascas"
+  name: "&bGerador de Lascamento"
 
 DYNATECH_FOOD_GENERATOR:
-  name: "&bGerador culinário"
+  name: "&bGerador Culinário"
 
 DYNATECH_STARDUST_GENERATOR:
-  name: "&bReator de poeira estelar"
+  name: "&bReator de Poeira Estelar"
 
 DYNATECH_STAINLESS_STEEL_INGOT:
-  name: "&fLingote de aço inoxidável"
+  name: "&fLingote de Aço Inoxidável"
 
 DYNATECH_STAINLESS_STEEL_ROTOR:
-  name: "&fRotor de aço inoxidável"
+  name: "&fRotor de Aço Inoxidável"
 
 DYNATECH_COAL_COKE:
-  name: "&fCoque de carvão"
+  name: "&fCoque de Carvão"
 
 DYNATECH_BEE:
   name: "&6Abelha"
 
 DYNATECH_ROBOTIC_BEE:
-  name: "&6Abelha robótica"
+  name: "&6Abelha Robótica"
 
 DYNATECH_ADVANCED_ROBOTIC_BEE:
-  name: "&6Abelha robótica avançada"
+  name: "&6Abelha Robótica Avançada"
 
 DYNATECH_VEX_GEM:
-  name: "&6Gema de vex"
+  name: "&6Gema de Vex"
 
 DYNATECH_MACHINE_SCRAP:
-  name: "&6Sucata de máquina"
+  name: "&6Sucata de Máquina"
 
 DYNATECH_ADVANCED_MACHINE_SCRAP:
-  name: "&6Sucata de máquina avançada"
+  name: "&6Sucata de Máquina Avançada"
 
 DYNATECH_STAR_DUST:
-  name: "&6Poeira estelar"
+  name: "&6Poeira Estelar"
 
 DYNATECH_GHOSTLY_ESSENCE:
-  name: "&6Essência fantasmagórica"
+  name: "&6Essência Fantasmagórica"
 
 DYNATECH_TESSERACTING_OBJECT:
-  name: "&6Objeto tesserato"
+  name: "&6Objeto Tesseráctico"
 
 DYNATECH_LIVINGROCK:
-  name: "&6Rocha viva"
+  name: "&6Rocha Viva"
 
 DYNATECH_LIVINGWOOD:
-  name: "&6Madeira viva"
+  name: "&6Madeira Viva"
 
 DYNATECH_ELECTRICAL_STIMULATOR:
-  name: "&6Estimulador elétrico"
+  name: "&6Estimulador Elétrico"
 
 DYNATECH_INVENTORY_FILTER:
-  name: "&6Filtro de inventário"
+  name: "&6Filtro de Inventário"
 
 DYNATECH_ANGEL_GEM:
-  name: "&6Gema de voo"
+  name: "&6Gema de Voo"
 
 DYNATECH_RECIPE_BOOK:
-  name: "&6Livro de receitas"
+  name: "&6Livro de Receitas"
 
 DYNATECH_AUTO_INPUT_UPGRADE:
-  name: "&6Aprimoramento de entrada automática"
+  name: "&6Aprimoramento de Entrada Automática"
 
 DYNATECH_AUTO_OUTPUT_UPGRADE:
-  name: "&6Aprimoramento de saída automática"
+  name: "&6Aprimoramento de Saída Automática"
 
 DYNATECH_FLUID_TANK:
-  name: "&fTanque de fluido"
+  name: "&fTanque de Fluido"
 
 DYNATECH_LIQUID_TANK:
-  name: "&6Tanque de líquido portátil"
+  name: "&6Tanque de Líquido Portátil"
 
 DYNATECH_PICNIC_BASKET:
-  name: "&6Cesta de piquenique"
+  name: "&6Cesta de Piquenique"
 
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
-  name: "&6Cesta de piquenique vinculada à alma"
+  name: "&6Cesta de Piquenique Vinculada à Alma"
 
 DYNATECH_SCOOP:
   name: "&6Concha"
 
 DYNATECH_DIMENSIONAL_HOME:
-  name: "&6Lar dimensional"
+  name: "&6Lar Dimensional"
 
 DYNATECH_HASTE_ITEM_BAND:
-  name: "&6Faixa de item de pressa"
+  name: "&6Faixa de Item de Pressa"
 
 DYNATECH_HEALTH_ITEM_BAND:
-  name: "&6Faixa de item de saúde"
+  name: "&6Faixa de Item de Saúde"
 
 DYNATECH_TESSERACT_BINDER:
-  name: "&6Vinculador de tesserato"
+  name: "&6Vinculador de Tesserato"
 
 DYNATECH_WITHER_SKELETON_GOLEM:
-  name: "&6Multibloco golem wither"
+  name: "&6MultiBloco de Golem Wither"
 
 DYNATECH_COAL_COKE_OVEN:
-  name: "&fControlador de forno de coque"
+  name: "&fControlador do Forno de Coque"
 
 DYNATECH_AUTO_KITCHEN:
-  name: "&6Cozinha automática"
+  name: "&6Cozinha Automática"
 
 DYNATECH_KITCHEN_AUTO_CRAFTER:
-  name: "&6Fabricador automático de cozinha"
+  name: "&6Fabricador Automático de Cozinha"
 
 DYNATECH_ANTIGRAVITY_BUBBLE:
-  name: "&6Bolha antigravidade"
+  name: "&6Bolha Antigravidade"
 
 DYNATECH_WEATHER_CONTROLLER:
-  name: "&6Controlador do clima"
+  name: "&6Controlador do Clima"
 
 DYNATECH_POTION_SPRINKLER:
-  name: "&6Aspersor de poções"
+  name: "&6Aspersor de Poções"
 
 DYNATECH_BARBED_WIRE:
-  name: "&6Arame farpado"
+  name: "&6Arame Farpado"
 
 DYNATECH_MATERIAL_HIVE:
-  name: "&6Colmeia de materiais"
+  name: "&6Colmeia de Materiais"
 
 DYNATECH_WIRELESS_CHARGER:
-  name: "&6Carregador sem fio"
+  name: "&6Carregador Sem Fio"
 
 DYNATECH_SEED_PLUCKER:
-  name: "&6Extrator de sementes"
+  name: "&6Colhedor de Sementes"
 
 DYNATECH_BANDAID_MANAGER:
-  name: "&6Gerenciador de faixas de item"
+  name: "&6Gerenciador de Faixas de Item"
 
 DYNATECH_ORECHID:
-  name: "&6Orquídea de minério"
+  name: "&6Orquídea de Minério"
 
 DYNATECH_WIRELESS_ENERGY_POINT:
-  name: "&6Ponto de energia sem fio"
+  name: "&6Ponto de Energia Sem Fio"
 
 DYNATECH_WIRELESS_ENERGY_BANK:
-  name: "&6Banco de energia sem fio"
+  name: "&6Banco de Energia Sem Fio"
 
 DYNATECH_TESSERACT:
   name: "&6Tesserato"
 
 DYNATECH_WIRELESS_ITEM_INPUT:
-  name: "&6Entrada de itens sem fio"
+  name: "&6Entrada de Itens Sem Fio"
 
 DYNATECH_WIRELESS_ITEM_OUTPUT:
-  name: "&6Saída de itens sem fio"
+  name: "&6Saída de Itens Sem Fio"
 
 DYNATECH_EXTERNAL_HEATER:
-  name: "&6Aquecedor externo"
+  name: "&6Aquecedor Externo"
 
 DYNATECH_GROWTH_CHAMBER:
-  name: "&6Câmara de crescimento"
+  name: "&6Câmara de Crescimento"
 
 DYNATECH_OCEAN_GROWTH_CHAMBER:
-  name: "&bCâmara de crescimento oceânica"
+  name: "&bCâmara de Crescimento Oceânica"
 
 DYNATECH_NETHER_GROWTH_CHAMBER:
-  name: "&cCâmara de crescimento do Nether"
+  name: "&cCâmara de Crescimento do Nether"
 
 DYNATECH_END_GROWTH_CHAMBER:
-  name: "&dCâmara de crescimento do End"
+  name: "&dCâmara de Crescimento do End"
 
 DYNATECH_GROWTH_CHAMBER_MARK_2:
-  name: "&6Câmara de crescimento MK2"
+  name: "&6Câmara de Crescimento MK2"
 
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
-  name: "&bCâmara de crescimento oceânica MK2"
+  name: "&bCâmara de Crescimento Oceânica MK2"
 
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
-  name: "&cCâmara de crescimento do Nether MK2"
+  name: "&cCâmara de Crescimento do Nether MK2"
 
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
-  name: "&dCâmara de crescimento do End MK2"
+  name: "&dCâmara de Crescimento do End MK2"
 
 DYNATECH_PETAL_APOTHECARY:
-  name: "&dBoticário de pétalas"
+  name: "&dBoticário de Pétalas"
 
 DYNATECH_LAVA_BOTTLE:
-  name: "&fGarrafa de lava"
+  name: "&fGarrafa de Lava"
 
 DYNATECH_MILK_BOTTLE:
-  name: "&fGarrafa de leite"
+  name: "&fGarrafa de Leite"
 
 DYNATECH_HONEY_BUCKET:
-  name: "&fBalde de mel"
+  name: "&fBalde de Mel"
 
 DYNATECH_POTION_BUCKET:
-  name: "&fBalde de poção"
+  name: "&fBalde de Poção"
 
 STARDUST_METEOR:
-  name: "&6Meteoro de poeira estelar"
+  name: "&6Meteoro de Poeira Estelar"

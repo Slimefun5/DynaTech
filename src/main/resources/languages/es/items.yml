@@ -65,7 +65,7 @@ DYNATECH_EGG_MILL_2:
   name: "&bTurbina de huevo de dragón"
 
 DYNATECH_DURABILITY_GENERATOR:
-  name: "&bGenerador de viruta"
+  name: "&bGenerador de astillado"
 
 DYNATECH_FOOD_GENERATOR:
   name: "&bGenerador culinario"
@@ -107,7 +107,7 @@ DYNATECH_GHOSTLY_ESSENCE:
   name: "&6Esencia fantasmal"
 
 DYNATECH_TESSERACTING_OBJECT:
-  name: "&6Objeto teseracto"
+  name: "&6Objeto teseráctico"
 
 DYNATECH_LIVINGROCK:
   name: "&6Roca viviente"
@@ -146,7 +146,7 @@ DYNATECH_SOUL_BOUND_PICNIC_BASKET:
   name: "&6Cesta de picnic vinculada al alma"
 
 DYNATECH_SCOOP:
-  name: "&6Cucharón"
+  name: "&6Cazo"
 
 DYNATECH_DIMENSIONAL_HOME:
   name: "&6Hogar dimensional"
@@ -161,7 +161,7 @@ DYNATECH_TESSERACT_BINDER:
   name: "&6Vinculador de teseracto"
 
 DYNATECH_WITHER_SKELETON_GOLEM:
-  name: "&6Multibloque golem wither"
+  name: "&6Multibloque de gólem wither"
 
 DYNATECH_COAL_COKE_OVEN:
   name: "&fControlador de horno de coque"
@@ -170,7 +170,7 @@ DYNATECH_AUTO_KITCHEN:
   name: "&6Cocina automática"
 
 DYNATECH_KITCHEN_AUTO_CRAFTER:
-  name: "&6Fabricador automático de cocina"
+  name: "&6Fabricante automático de cocina"
 
 DYNATECH_ANTIGRAVITY_BUBBLE:
   name: "&6Burbuja antigravedad"
@@ -191,13 +191,13 @@ DYNATECH_WIRELESS_CHARGER:
   name: "&6Cargador inalámbrico"
 
 DYNATECH_SEED_PLUCKER:
-  name: "&6Extractor de semillas"
+  name: "&6Recolector de semillas"
 
 DYNATECH_BANDAID_MANAGER:
-  name: "&6Administrador de bandas de objeto"
+  name: "&6Gestor de bandas de objeto"
 
 DYNATECH_ORECHID:
-  name: "&6Orquídea de mineral"
+  name: "&6Orquídea de minerales"
 
 DYNATECH_WIRELESS_ENERGY_POINT:
   name: "&6Punto de energía inalámbrico"

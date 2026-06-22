@@ -2,13 +2,13 @@
 # name = display name, '&' colour codes preserved. Missing items fall back to English.
 
 DYNATECH_WOOD_MACHINE_CORE:
-  name: "&f木制机器核心"
+  name: "&f木质机器核心"
 
 DYNATECH_STONE_MACHINE_CORE:
-  name: "&f石制机器核心"
+  name: "&f石质机器核心"
 
 DYNATECH_IRON_MACHINE_CORE:
-  name: "&f铁制机器核心"
+  name: "&f铁质机器核心"
 
 DYNATECH_DIAMOND_MACHINE_CORE:
   name: "&f钻石机器核心"
@@ -20,7 +20,7 @@ DYNATECH_ANCIENT_MACHINE_CORE:
   name: "&f远古机器核心"
 
 DYNATECH_ENERGY_STORAGE_COMPONENT:
-  name: "&c能量存储组件"
+  name: "&c储能组件"
 
 DYNATECH_ENERGY_INPUT_COMPONENT:
   name: "&c能量输入组件"
@@ -35,7 +35,7 @@ DYNATECH_DEGRADED_WATER_MILL_2:
   name: "&c老化的水力涡轮机"
 
 DYNATECH_DEGRADED_WIND_MILL:
-  name: "&c老化的风车"
+  name: "&c老化的风磨坊"
 
 DYNATECH_DEGRADED_WIND_MILL_2:
   name: "&c老化的风力涡轮机"
@@ -53,7 +53,7 @@ DYNATECH_WATER_MILL_2:
   name: "&b水力涡轮机"
 
 DYNATECH_WIND_MILL:
-  name: "&b风车"
+  name: "&b风磨坊"
 
 DYNATECH_WIND_MILL_2:
   name: "&b风力涡轮机"
@@ -80,7 +80,7 @@ DYNATECH_STAINLESS_STEEL_ROTOR:
   name: "&f不锈钢转子"
 
 DYNATECH_COAL_COKE:
-  name: "&f煤焦"
+  name: "&f煤焦炭"
 
 DYNATECH_BEE:
   name: "&6蜜蜂"
@@ -134,10 +134,10 @@ DYNATECH_AUTO_OUTPUT_UPGRADE:
   name: "&6自动输出升级"
 
 DYNATECH_FLUID_TANK:
-  name: "&f流体罐"
+  name: "&f流体储罐"
 
 DYNATECH_LIQUID_TANK:
-  name: "&6便携式液体罐"
+  name: "&6便携式液体储罐"
 
 DYNATECH_PICNIC_BASKET:
   name: "&6野餐篮"
@@ -146,7 +146,7 @@ DYNATECH_SOUL_BOUND_PICNIC_BASKET:
   name: "&6灵魂绑定野餐篮"
 
 DYNATECH_SCOOP:
-  name: "&6捕捉器"
+  name: "&6捕捉勺"
 
 DYNATECH_DIMENSIONAL_HOME:
   name: "&6次元之家"
@@ -155,7 +155,7 @@ DYNATECH_HASTE_ITEM_BAND:
   name: "&6急迫物品带"
 
 DYNATECH_HEALTH_ITEM_BAND:
-  name: "&6健康物品带"
+  name: "&6生命物品带"
 
 DYNATECH_TESSERACT_BINDER:
   name: "&6超立方体绑定器"
@@ -164,7 +164,7 @@ DYNATECH_WITHER_SKELETON_GOLEM:
   name: "&6凋零傀儡多方块结构"
 
 DYNATECH_COAL_COKE_OVEN:
-  name: "&f焦炉控制器"
+  name: "&f焦炭炉控制器"
 
 DYNATECH_AUTO_KITCHEN:
   name: "&6自动厨房"
@@ -182,7 +182,7 @@ DYNATECH_POTION_SPRINKLER:
   name: "&6药水喷洒器"
 
 DYNATECH_BARBED_WIRE:
-  name: "&6带刺铁丝网"
+  name: "&6铁丝网"
 
 DYNATECH_MATERIAL_HIVE:
   name: "&6材料蜂巢"
@@ -191,16 +191,16 @@ DYNATECH_WIRELESS_CHARGER:
   name: "&6无线充电器"
 
 DYNATECH_SEED_PLUCKER:
-  name: "&6种子采摘器"
+  name: "&6种子采摘机"
 
 DYNATECH_BANDAID_MANAGER:
   name: "&6物品带管理器"
 
 DYNATECH_ORECHID:
-  name: "&6矿石兰"
+  name: "&6矿石兰花"
 
 DYNATECH_WIRELESS_ENERGY_POINT:
-  name: "&6无线能量节点"
+  name: "&6无线能量点"
 
 DYNATECH_WIRELESS_ENERGY_BANK:
   name: "&6无线能量库"

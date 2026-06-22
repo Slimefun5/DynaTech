@@ -20,7 +20,7 @@ DYNATECH_ANCIENT_MACHINE_CORE:
   name: "&fNucleo di macchina antico"
 
 DYNATECH_ENERGY_STORAGE_COMPONENT:
-  name: "&cComponente di stoccaggio energia"
+  name: "&cComponente di accumulo energia"
 
 DYNATECH_ENERGY_INPUT_COMPONENT:
   name: "&cComponente di ingresso energia"
@@ -65,7 +65,7 @@ DYNATECH_EGG_MILL_2:
   name: "&bTurbina dell'uovo del drago"
 
 DYNATECH_DURABILITY_GENERATOR:
-  name: "&bGeneratore di trucioli"
+  name: "&bGeneratore di scheggiatura"
 
 DYNATECH_FOOD_GENERATOR:
   name: "&bGeneratore culinario"
@@ -74,10 +74,10 @@ DYNATECH_STARDUST_GENERATOR:
   name: "&bReattore di polvere di stelle"
 
 DYNATECH_STAINLESS_STEEL_INGOT:
-  name: "&fLingotto di acciaio inossidabile"
+  name: "&fLingotto di acciaio inox"
 
 DYNATECH_STAINLESS_STEEL_ROTOR:
-  name: "&fRotore in acciaio inossidabile"
+  name: "&fRotore in acciaio inox"
 
 DYNATECH_COAL_COKE:
   name: "&fCoke di carbone"
@@ -107,7 +107,7 @@ DYNATECH_GHOSTLY_ESSENCE:
   name: "&6Essenza spettrale"
 
 DYNATECH_TESSERACTING_OBJECT:
-  name: "&6Oggetto tesseract"
+  name: "&6Oggetto tesseratto"
 
 DYNATECH_LIVINGROCK:
   name: "&6Roccia vivente"
@@ -152,16 +152,16 @@ DYNATECH_DIMENSIONAL_HOME:
   name: "&6Casa dimensionale"
 
 DYNATECH_HASTE_ITEM_BAND:
-  name: "&6Fascia oggetto della fretta"
+  name: "&6Fascia oggetto di rapidità"
 
 DYNATECH_HEALTH_ITEM_BAND:
-  name: "&6Fascia oggetto della salute"
+  name: "&6Fascia oggetto di salute"
 
 DYNATECH_TESSERACT_BINDER:
-  name: "&6Legante del tesseract"
+  name: "&6Legante di tesseratto"
 
 DYNATECH_WITHER_SKELETON_GOLEM:
-  name: "&6Multiblocco golem wither"
+  name: "&6MultiBlocco golem wither"
 
 DYNATECH_COAL_COKE_OVEN:
   name: "&fControllore del forno da coke"
@@ -170,7 +170,7 @@ DYNATECH_AUTO_KITCHEN:
   name: "&6Cucina automatica"
 
 DYNATECH_KITCHEN_AUTO_CRAFTER:
-  name: "&6Crafter automatico da cucina"
+  name: "&6Creatore automatico da cucina"
 
 DYNATECH_ANTIGRAVITY_BUBBLE:
   name: "&6Bolla antigravità"
@@ -206,7 +206,7 @@ DYNATECH_WIRELESS_ENERGY_BANK:
   name: "&6Banca energetica wireless"
 
 DYNATECH_TESSERACT:
-  name: "&6Tesseract"
+  name: "&6Tesseratto"
 
 DYNATECH_WIRELESS_ITEM_INPUT:
   name: "&6Ingresso oggetti wireless"
@@ -242,7 +242,7 @@ DYNATECH_END_GROWTH_CHAMBER_MARK_2:
   name: "&dCamera di crescita dell'End MK2"
 
 DYNATECH_PETAL_APOTHECARY:
-  name: "&dSpeziale dei petali"
+  name: "&dApotecario di petali"
 
 DYNATECH_LAVA_BOTTLE:
   name: "&fBottiglia di lava"

@@ -29,22 +29,22 @@ DYNATECH_ENERGY_OUTPUT_COMPONENT:
   name: "&cKomponent wyjścia energii"
 
 DYNATECH_DEGRADED_WATER_MILL:
-  name: "&cZniszczony Młyn wodny"
+  name: "&cZniszczony młyn wodny"
 
 DYNATECH_DEGRADED_WATER_MILL_2:
-  name: "&cZniszczona Turbina wodna"
+  name: "&cZniszczona turbina wodna"
 
 DYNATECH_DEGRADED_WIND_MILL:
-  name: "&cZniszczony Wiatrak"
+  name: "&cZniszczony młyn wiatrowy"
 
 DYNATECH_DEGRADED_WIND_MILL_2:
-  name: "&cZniszczona Turbina wiatrowa"
+  name: "&cZniszczona turbina wiatrowa"
 
 DYNATECH_DEGRADED_EGG_MILL:
-  name: "&cZniszczony Młyn smoczego jaja"
+  name: "&cZniszczony młyn smoczego jaja"
 
 DYNATECH_DEGRADED_EGG_MILL_2:
-  name: "&cZniszczona Turbina smoczego jaja"
+  name: "&cZniszczona turbina smoczego jaja"
 
 DYNATECH_WATER_MILL:
   name: "&bMłyn wodny"
@@ -53,7 +53,7 @@ DYNATECH_WATER_MILL_2:
   name: "&bTurbina wodna"
 
 DYNATECH_WIND_MILL:
-  name: "&bWiatrak"
+  name: "&bMłyn wiatrowy"
 
 DYNATECH_WIND_MILL_2:
   name: "&bTurbina wiatrowa"
@@ -65,7 +65,7 @@ DYNATECH_EGG_MILL_2:
   name: "&bTurbina smoczego jaja"
 
 DYNATECH_DURABILITY_GENERATOR:
-  name: "&bGenerator wiórowy"
+  name: "&bGenerator zużycia"
 
 DYNATECH_FOOD_GENERATOR:
   name: "&bGenerator kulinarny"
@@ -86,10 +86,10 @@ DYNATECH_BEE:
   name: "&6Pszczoła"
 
 DYNATECH_ROBOTIC_BEE:
-  name: "&6Robotyczna pszczoła"
+  name: "&6Pszczoła robot"
 
 DYNATECH_ADVANCED_ROBOTIC_BEE:
-  name: "&6Zaawansowana robotyczna pszczoła"
+  name: "&6Zaawansowana pszczoła robot"
 
 DYNATECH_VEX_GEM:
   name: "&6Klejnot zmory"
@@ -107,10 +107,10 @@ DYNATECH_GHOSTLY_ESSENCE:
   name: "&6Upiorna esencja"
 
 DYNATECH_TESSERACTING_OBJECT:
-  name: "&6Obiekt tesseraktu"
+  name: "&6Obiekt tesseraktowy"
 
 DYNATECH_LIVINGROCK:
-  name: "&6Żywy kamień"
+  name: "&6Żywa skała"
 
 DYNATECH_LIVINGWOOD:
   name: "&6Żywe drewno"
@@ -128,16 +128,16 @@ DYNATECH_RECIPE_BOOK:
   name: "&6Księga przepisów"
 
 DYNATECH_AUTO_INPUT_UPGRADE:
-  name: "&6Ulepszenie automatycznego wejścia"
+  name: "&6Ulepszenie auto-wejścia"
 
 DYNATECH_AUTO_OUTPUT_UPGRADE:
-  name: "&6Ulepszenie automatycznego wyjścia"
+  name: "&6Ulepszenie auto-wyjścia"
 
 DYNATECH_FLUID_TANK:
   name: "&fZbiornik na płyn"
 
 DYNATECH_LIQUID_TANK:
-  name: "&6Przenośny zbiornik na płyn"
+  name: "&6Przenośny zbiornik na ciecz"
 
 DYNATECH_PICNIC_BASKET:
   name: "&6Kosz piknikowy"
@@ -158,10 +158,10 @@ DYNATECH_HEALTH_ITEM_BAND:
   name: "&6Opaska przedmiotu zdrowia"
 
 DYNATECH_TESSERACT_BINDER:
-  name: "&6Spinacz tesseraktu"
+  name: "&6Spinacz tesseraktów"
 
 DYNATECH_WITHER_SKELETON_GOLEM:
-  name: "&6Multiblok golema wither"
+  name: "&6Wieloblok golema withera"
 
 DYNATECH_COAL_COKE_OVEN:
   name: "&fSterownik pieca koksowniczego"
@@ -170,10 +170,10 @@ DYNATECH_AUTO_KITCHEN:
   name: "&6Automatyczna kuchnia"
 
 DYNATECH_KITCHEN_AUTO_CRAFTER:
-  name: "&6Automatyczny crafter kuchenny"
+  name: "&6Automatyczny twórca kuchenny"
 
 DYNATECH_ANTIGRAVITY_BUBBLE:
-  name: "&6Bąbel antygrawitacyjny"
+  name: "&6Bańka antygrawitacyjna"
 
 DYNATECH_WEATHER_CONTROLLER:
   name: "&6Sterownik pogody"
@@ -191,13 +191,13 @@ DYNATECH_WIRELESS_CHARGER:
   name: "&6Ładowarka bezprzewodowa"
 
 DYNATECH_SEED_PLUCKER:
-  name: "&6Zrywacz nasion"
+  name: "&6Zbieracz nasion"
 
 DYNATECH_BANDAID_MANAGER:
   name: "&6Menedżer opasek przedmiotów"
 
 DYNATECH_ORECHID:
-  name: "&6Storczyk rudny"
+  name: "&6Storczyk rudy"
 
 DYNATECH_WIRELESS_ENERGY_POINT:
   name: "&6Bezprzewodowy punkt energii"
@@ -215,7 +215,7 @@ DYNATECH_WIRELESS_ITEM_OUTPUT:
   name: "&6Bezprzewodowe wyjście przedmiotów"
 
 DYNATECH_EXTERNAL_HEATER:
-  name: "&6Grzejnik zewnętrzny"
+  name: "&6Zewnętrzny grzejnik"
 
 DYNATECH_GROWTH_CHAMBER:
   name: "&6Komora wzrostu"
@@ -242,7 +242,7 @@ DYNATECH_END_GROWTH_CHAMBER_MARK_2:
   name: "&dEndowa komora wzrostu MK2"
 
 DYNATECH_PETAL_APOTHECARY:
-  name: "&dApteka płatków"
+  name: "&dAptekarz płatków"
 
 DYNATECH_LAVA_BOTTLE:
   name: "&fButelka lawy"

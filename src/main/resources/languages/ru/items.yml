@@ -29,22 +29,22 @@ DYNATECH_ENERGY_OUTPUT_COMPONENT:
   name: "&cКомпонент вывода энергии"
 
 DYNATECH_DEGRADED_WATER_MILL:
-  name: "&cИзношенная Водяная мельница"
+  name: "&cИзношенная водяная мельница"
 
 DYNATECH_DEGRADED_WATER_MILL_2:
-  name: "&cИзношенная Гидротурбина"
+  name: "&cИзношенная гидротурбина"
 
 DYNATECH_DEGRADED_WIND_MILL:
-  name: "&cИзношенная Ветряная мельница"
+  name: "&cИзношенная ветряная мельница"
 
 DYNATECH_DEGRADED_WIND_MILL_2:
-  name: "&cИзношенная Ветряная турбина"
+  name: "&cИзношенная ветротурбина"
 
 DYNATECH_DEGRADED_EGG_MILL:
-  name: "&cИзношенная мельница Драконьего яйца"
+  name: "&cИзношенная мельница драконьего яйца"
 
 DYNATECH_DEGRADED_EGG_MILL_2:
-  name: "&cИзношенная турбина Драконьего яйца"
+  name: "&cИзношенная турбина драконьего яйца"
 
 DYNATECH_WATER_MILL:
   name: "&bВодяная мельница"
@@ -56,16 +56,16 @@ DYNATECH_WIND_MILL:
   name: "&bВетряная мельница"
 
 DYNATECH_WIND_MILL_2:
-  name: "&bВетряная турбина"
+  name: "&bВетротурбина"
 
 DYNATECH_EGG_MILL:
-  name: "&bМельница Драконьего яйца"
+  name: "&bМельница драконьего яйца"
 
 DYNATECH_EGG_MILL_2:
-  name: "&bТурбина Драконьего яйца"
+  name: "&bТурбина драконьего яйца"
 
 DYNATECH_DURABILITY_GENERATOR:
-  name: "&bСтружечный генератор"
+  name: "&bСтругальный генератор"
 
 DYNATECH_FOOD_GENERATOR:
   name: "&bКулинарный генератор"
@@ -89,10 +89,10 @@ DYNATECH_ROBOTIC_BEE:
   name: "&6Робот-пчела"
 
 DYNATECH_ADVANCED_ROBOTIC_BEE:
-  name: "&6Улучшенная робот-пчела"
+  name: "&6Улучшенный робот-пчела"
 
 DYNATECH_VEX_GEM:
-  name: "&6Самоцвет Вредины"
+  name: "&6Самоцвет вредины"
 
 DYNATECH_MACHINE_SCRAP:
   name: "&6Машинный лом"
@@ -107,7 +107,7 @@ DYNATECH_GHOSTLY_ESSENCE:
   name: "&6Призрачная эссенция"
 
 DYNATECH_TESSERACTING_OBJECT:
-  name: "&6Тессеракт-объект"
+  name: "&6Тессерактный объект"
 
 DYNATECH_LIVINGROCK:
   name: "&6Живой камень"
@@ -146,40 +146,40 @@ DYNATECH_SOUL_BOUND_PICNIC_BASKET:
   name: "&6Привязанная к душе корзина для пикника"
 
 DYNATECH_SCOOP:
-  name: "&6Совок"
+  name: "&6Сачок"
 
 DYNATECH_DIMENSIONAL_HOME:
   name: "&6Измеренческий дом"
 
 DYNATECH_HASTE_ITEM_BAND:
-  name: "&6Браслет предмета спешки"
+  name: "&6Лента предмета поспешности"
 
 DYNATECH_HEALTH_ITEM_BAND:
-  name: "&6Браслет предмета здоровья"
+  name: "&6Лента предмета здоровья"
 
 DYNATECH_TESSERACT_BINDER:
   name: "&6Связыватель тессеракта"
 
 DYNATECH_WITHER_SKELETON_GOLEM:
-  name: "&6Мультиблок Голема-иссушителя"
+  name: "&6Мультиблок голема-иссушителя"
 
 DYNATECH_COAL_COKE_OVEN:
   name: "&fКонтроллер коксовой печи"
 
 DYNATECH_AUTO_KITCHEN:
-  name: "&6Автоматическая кухня"
+  name: "&6Автокухня"
 
 DYNATECH_KITCHEN_AUTO_CRAFTER:
-  name: "&6Автокрафтер кухни"
+  name: "&6Кухонный автокрафтер"
 
 DYNATECH_ANTIGRAVITY_BUBBLE:
   name: "&6Антигравитационный пузырь"
 
 DYNATECH_WEATHER_CONTROLLER:
-  name: "&6Контроллер погоды"
+  name: "&6Управитель погоды"
 
 DYNATECH_POTION_SPRINKLER:
-  name: "&6Зельевой распылитель"
+  name: "&6Зельевой разбрызгиватель"
 
 DYNATECH_BARBED_WIRE:
   name: "&6Колючая проволока"
@@ -194,7 +194,7 @@ DYNATECH_SEED_PLUCKER:
   name: "&6Сборщик семян"
 
 DYNATECH_BANDAID_MANAGER:
-  name: "&6Менеджер браслетов предметов"
+  name: "&6Управитель лент предметов"
 
 DYNATECH_ORECHID:
   name: "&6Рудная орхидея"
@@ -224,10 +224,10 @@ DYNATECH_OCEAN_GROWTH_CHAMBER:
   name: "&bОкеаническая камера роста"
 
 DYNATECH_NETHER_GROWTH_CHAMBER:
-  name: "&cНезерная камера роста"
+  name: "&cНезеровая камера роста"
 
 DYNATECH_END_GROWTH_CHAMBER:
-  name: "&dЭндовая камера роста"
+  name: "&dЭндерная камера роста"
 
 DYNATECH_GROWTH_CHAMBER_MARK_2:
   name: "&6Камера роста MK2"
@@ -236,10 +236,10 @@ DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
   name: "&bОкеаническая камера роста MK2"
 
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
-  name: "&cНезерная камера роста MK2"
+  name: "&cНезеровая камера роста MK2"
 
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
-  name: "&dЭндовая камера роста MK2"
+  name: "&dЭндерная камера роста MK2"
 
 DYNATECH_PETAL_APOTHECARY:
   name: "&dЛепестковая аптека"

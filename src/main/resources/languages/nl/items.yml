@@ -29,22 +29,22 @@ DYNATECH_ENERGY_OUTPUT_COMPONENT:
   name: "&cEnergie-uitvoercomponent"
 
 DYNATECH_DEGRADED_WATER_MILL:
-  name: "&cVersleten Watermolen"
+  name: "&cVersleten watermolen"
 
 DYNATECH_DEGRADED_WATER_MILL_2:
-  name: "&cVersleten Hydroturbine"
+  name: "&cVersleten hydroturbine"
 
 DYNATECH_DEGRADED_WIND_MILL:
-  name: "&cVersleten Windmolen"
+  name: "&cVersleten windmolen"
 
 DYNATECH_DEGRADED_WIND_MILL_2:
-  name: "&cVersleten Windturbine"
+  name: "&cVersleten windturbine"
 
 DYNATECH_DEGRADED_EGG_MILL:
-  name: "&cVersleten Drakeneimolen"
+  name: "&cVersleten drakeneimolen"
 
 DYNATECH_DEGRADED_EGG_MILL_2:
-  name: "&cVersleten Drakeneiturbine"
+  name: "&cVersleten drakeneiturbine"
 
 DYNATECH_WATER_MILL:
   name: "&bWatermolen"
@@ -65,7 +65,7 @@ DYNATECH_EGG_MILL_2:
   name: "&bDrakeneiturbine"
 
 DYNATECH_DURABILITY_GENERATOR:
-  name: "&bSpaandergenerator"
+  name: "&bVersplinteringsgenerator"
 
 DYNATECH_FOOD_GENERATOR:
   name: "&bCulinaire generator"
@@ -80,7 +80,7 @@ DYNATECH_STAINLESS_STEEL_ROTOR:
   name: "&fRoestvrijstalen rotor"
 
 DYNATECH_COAL_COKE:
-  name: "&fCokeskool"
+  name: "&fSteenkoolcokes"
 
 DYNATECH_BEE:
   name: "&6Bij"
@@ -107,10 +107,10 @@ DYNATECH_GHOSTLY_ESSENCE:
   name: "&6Spookachtige essentie"
 
 DYNATECH_TESSERACTING_OBJECT:
-  name: "&6Tesseract-object"
+  name: "&6Tesseractobject"
 
 DYNATECH_LIVINGROCK:
-  name: "&6Levende rots"
+  name: "&6Levend gesteente"
 
 DYNATECH_LIVINGWOOD:
   name: "&6Levend hout"
@@ -122,7 +122,7 @@ DYNATECH_INVENTORY_FILTER:
   name: "&6Inventarisfilter"
 
 DYNATECH_ANGEL_GEM:
-  name: "&6Vluchtedelsteen"
+  name: "&6Vlucht-edelsteen"
 
 DYNATECH_RECIPE_BOOK:
   name: "&6Receptenboek"
@@ -146,37 +146,37 @@ DYNATECH_SOUL_BOUND_PICNIC_BASKET:
   name: "&6Zielgebonden picknickmand"
 
 DYNATECH_SCOOP:
-  name: "&6Schep"
+  name: "&6Schepje"
 
 DYNATECH_DIMENSIONAL_HOME:
   name: "&6Dimensionaal thuis"
 
 DYNATECH_HASTE_ITEM_BAND:
-  name: "&6Haastige itemband"
+  name: "&6Haast-voorwerpband"
 
 DYNATECH_HEALTH_ITEM_BAND:
-  name: "&6Gezonde itemband"
+  name: "&6Gezondheids-voorwerpband"
 
 DYNATECH_TESSERACT_BINDER:
-  name: "&6Tesseract-binder"
+  name: "&6Tesseractbinder"
 
 DYNATECH_WITHER_SKELETON_GOLEM:
   name: "&6Wither-golem-multiblok"
 
 DYNATECH_COAL_COKE_OVEN:
-  name: "&fCokesovenregelaar"
+  name: "&fCokesoven-controller"
 
 DYNATECH_AUTO_KITCHEN:
-  name: "&6Automatische keuken"
+  name: "&6Auto-keuken"
 
 DYNATECH_KITCHEN_AUTO_CRAFTER:
-  name: "&6Keuken-auto-crafter"
+  name: "&6Keuken-autocrafter"
 
 DYNATECH_ANTIGRAVITY_BUBBLE:
   name: "&6Antizwaartekrachtbel"
 
 DYNATECH_WEATHER_CONTROLLER:
-  name: "&6Weerregelaar"
+  name: "&6Weercontroller"
 
 DYNATECH_POTION_SPRINKLER:
   name: "&6Drankjessproeier"
@@ -188,16 +188,16 @@ DYNATECH_MATERIAL_HIVE:
   name: "&6Materiaalkorf"
 
 DYNATECH_WIRELESS_CHARGER:
-  name: "&6Draadloze lader"
+  name: "&6Draadloze oplader"
 
 DYNATECH_SEED_PLUCKER:
   name: "&6Zaadplukker"
 
 DYNATECH_BANDAID_MANAGER:
-  name: "&6Itembandbeheerder"
+  name: "&6Voorwerpbandbeheerder"
 
 DYNATECH_ORECHID:
-  name: "&6Erts-orchidee"
+  name: "&6Ertsorchidee"
 
 DYNATECH_WIRELESS_ENERGY_POINT:
   name: "&6Draadloos energiepunt"
@@ -209,10 +209,10 @@ DYNATECH_TESSERACT:
   name: "&6Tesseract"
 
 DYNATECH_WIRELESS_ITEM_INPUT:
-  name: "&6Draadloze itemingang"
+  name: "&6Draadloze voorwerpinvoer"
 
 DYNATECH_WIRELESS_ITEM_OUTPUT:
-  name: "&6Draadloze itemuitgang"
+  name: "&6Draadloze voorwerpuitvoer"
 
 DYNATECH_EXTERNAL_HEATER:
   name: "&6Externe verwarmer"
@@ -242,7 +242,7 @@ DYNATECH_END_GROWTH_CHAMBER_MARK_2:
   name: "&dEndgroeikamer MK2"
 
 DYNATECH_PETAL_APOTHECARY:
-  name: "&dBloemblad-apotheek"
+  name: "&dBloembladapotheek"
 
 DYNATECH_LAVA_BOTTLE:
   name: "&fLavafles"

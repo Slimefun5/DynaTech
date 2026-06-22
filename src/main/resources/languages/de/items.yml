@@ -65,7 +65,7 @@ DYNATECH_EGG_MILL_2:
   name: "&bDrachenei-Turbine"
 
 DYNATECH_DURABILITY_GENERATOR:
-  name: "&bSpan-Generator"
+  name: "&bSchnitzel-Generator"
 
 DYNATECH_FOOD_GENERATOR:
   name: "&bKulinarischer Generator"
@@ -77,7 +77,7 @@ DYNATECH_STAINLESS_STEEL_INGOT:
   name: "&fEdelstahlbarren"
 
 DYNATECH_STAINLESS_STEEL_ROTOR:
-  name: "&fEdelstahl-Rotor"
+  name: "&fEdelstahlrotor"
 
 DYNATECH_COAL_COKE:
   name: "&fKokskohle"
@@ -92,7 +92,7 @@ DYNATECH_ADVANCED_ROBOTIC_BEE:
   name: "&6Fortgeschrittene Roboterbiene"
 
 DYNATECH_VEX_GEM:
-  name: "&6Plagegeist-Edelstein"
+  name: "&6Vex-Edelstein"
 
 DYNATECH_MACHINE_SCRAP:
   name: "&6Maschinenschrott"
@@ -110,10 +110,10 @@ DYNATECH_TESSERACTING_OBJECT:
   name: "&6Tesserakt-Objekt"
 
 DYNATECH_LIVINGROCK:
-  name: "&6Lebensfels"
+  name: "&6Lebender Fels"
 
 DYNATECH_LIVINGWOOD:
-  name: "&6Lebensholz"
+  name: "&6Lebendes Holz"
 
 DYNATECH_ELECTRICAL_STIMULATOR:
   name: "&6Elektrischer Stimulator"
@@ -128,10 +128,10 @@ DYNATECH_RECIPE_BOOK:
   name: "&6Rezeptbuch"
 
 DYNATECH_AUTO_INPUT_UPGRADE:
-  name: "&6Auto-Eingabe-Upgrade"
+  name: "&6Auto-Eingang-Verbesserung"
 
 DYNATECH_AUTO_OUTPUT_UPGRADE:
-  name: "&6Auto-Ausgabe-Upgrade"
+  name: "&6Auto-Ausgang-Verbesserung"
 
 DYNATECH_FLUID_TANK:
   name: "&fFlüssigkeitstank"
@@ -146,28 +146,28 @@ DYNATECH_SOUL_BOUND_PICNIC_BASKET:
   name: "&6Seelengebundener Picknickkorb"
 
 DYNATECH_SCOOP:
-  name: "&6Schaufel"
+  name: "&6Kescher"
 
 DYNATECH_DIMENSIONAL_HOME:
   name: "&6Dimensionales Zuhause"
 
 DYNATECH_HASTE_ITEM_BAND:
-  name: "&6Eiliges Gegenstandsband"
+  name: "&6Eile-Gegenstandsband"
 
 DYNATECH_HEALTH_ITEM_BAND:
-  name: "&6Gesundes Gegenstandsband"
+  name: "&6Gesundheits-Gegenstandsband"
 
 DYNATECH_TESSERACT_BINDER:
   name: "&6Tesserakt-Binder"
 
 DYNATECH_WITHER_SKELETON_GOLEM:
-  name: "&6Wither-Golem-Multiblock"
+  name: "&6Wither-Golem-MultiBlock"
 
 DYNATECH_COAL_COKE_OVEN:
   name: "&fKoksofen-Steuerung"
 
 DYNATECH_AUTO_KITCHEN:
-  name: "&6Automatische Küche"
+  name: "&6Auto-Küche"
 
 DYNATECH_KITCHEN_AUTO_CRAFTER:
   name: "&6Küchen-Auto-Crafter"
@@ -176,7 +176,7 @@ DYNATECH_ANTIGRAVITY_BUBBLE:
   name: "&6Antigravitationsblase"
 
 DYNATECH_WEATHER_CONTROLLER:
-  name: "&6Wettersteuerung"
+  name: "&6Wetterkontroller"
 
 DYNATECH_POTION_SPRINKLER:
   name: "&6Trank-Sprinkler"
@@ -188,10 +188,10 @@ DYNATECH_MATERIAL_HIVE:
   name: "&6Material-Bienenstock"
 
 DYNATECH_WIRELESS_CHARGER:
-  name: "&6Kabelloses Ladegerät"
+  name: "&6Drahtloses Ladegerät"
 
 DYNATECH_SEED_PLUCKER:
-  name: "&6Samenpflücker"
+  name: "&6Samenzupfer"
 
 DYNATECH_BANDAID_MANAGER:
   name: "&6Gegenstandsband-Verwalter"
@@ -200,22 +200,22 @@ DYNATECH_ORECHID:
   name: "&6Erzorchidee"
 
 DYNATECH_WIRELESS_ENERGY_POINT:
-  name: "&6Kabelloser Energiepunkt"
+  name: "&6Drahtloser Energiepunkt"
 
 DYNATECH_WIRELESS_ENERGY_BANK:
-  name: "&6Kabellose Energiebank"
+  name: "&6Drahtlose Energiebank"
 
 DYNATECH_TESSERACT:
   name: "&6Tesserakt"
 
 DYNATECH_WIRELESS_ITEM_INPUT:
-  name: "&6Kabellose Gegenstandseingabe"
+  name: "&6Drahtloser Gegenstandseingang"
 
 DYNATECH_WIRELESS_ITEM_OUTPUT:
-  name: "&6Kabellose Gegenstandsausgabe"
+  name: "&6Drahtloser Gegenstandsausgang"
 
 DYNATECH_EXTERNAL_HEATER:
-  name: "&6Externe Heizung"
+  name: "&6Externer Erhitzer"
 
 DYNATECH_GROWTH_CHAMBER:
   name: "&6Wachstumskammer"
@@ -242,7 +242,7 @@ DYNATECH_END_GROWTH_CHAMBER_MARK_2:
   name: "&dEnd-Wachstumskammer MK2"
 
 DYNATECH_PETAL_APOTHECARY:
-  name: "&dBlüten-Apotheke"
+  name: "&dBlütenblatt-Apotheke"
 
 DYNATECH_LAVA_BOTTLE:
   name: "&fLavaflasche"
