@@ -258,3 +258,76 @@ DYNATECH_POTION_BUCKET:
 
 STARDUST_METEOR:
   name: "&6Meteor gwiezdnego pyłu"
+
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul żelazny"
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul złoty"
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z netherytu"
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul diamentowy"
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul szmaragdowy"
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z lazurytu"
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z kwarcu"
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z czerwienitu"
+DYNATECH_COALMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul węglowy"
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul miedziany"
+DYNATECH_TINMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul cynowy"
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul srebrny"
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul aluminiowy"
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul ołowiany"
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul cynkowy"
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul magnezowy"
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul stalowy"
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z duraluminium"
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z bilonu"
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul mosiężny"
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z mosiądzu aluminiowego"
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z brązu aluminiowego"
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z brązu koryntyjskiego"
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z lutowia"
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul ze stali damasceńskiej"
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z utwardzonego metalu"
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul ze wzmocnionego stopu"
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z żelazokrzemu"
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z pozłacanego żelaza"
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul niklowy"
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul kobaltowy"
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul ze stopu czerwienitu"
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z syntetycznego diamentu"
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z syntetycznego szmaragdu"
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z syntetycznego szafiru"
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z karbonado"

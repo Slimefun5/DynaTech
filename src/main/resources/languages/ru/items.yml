@@ -258,3 +258,76 @@ DYNATECH_POTION_BUCKET:
 
 STARDUST_METEOR:
   name: "&6Метеор звёздной пыли"
+
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из железа"
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из золота"
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из незерита"
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из алмаза"
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из изумруда"
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из лазурита"
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из кварца"
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из редстоуна"
+DYNATECH_COALMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из угля"
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из меди"
+DYNATECH_TINMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из олова"
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из серебра"
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из алюминия"
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из свинца"
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из цинка"
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из магния"
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из стали"
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из дюралюминия"
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из биллона"
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из латуни"
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из алюминиевой латуни"
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из алюминиевой бронзы"
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из коринфской бронзы"
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из припоя"
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из дамасской стали"
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из закалённого металла"
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из укреплённого сплава"
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из ферросилиция"
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из золочёного железа"
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из никеля"
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из кобальта"
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из редстоунового сплава"
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из синтетического алмаза"
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из синтетического изумруда"
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из синтетического сапфира"
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  name: "&fМинерализованный улей из карбонадо"

@@ -258,3 +258,76 @@ DYNATECH_POTION_BUCKET:
 
 STARDUST_METEOR:
   name: "&6Meteora di polvere di stelle"
+
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Ferro"
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Oro"
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Netherite"
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Diamante"
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Smeraldo"
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Lapislazzuli"
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Quarzo"
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Redstone"
+DYNATECH_COALMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Carbone"
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Rame"
+DYNATECH_TINMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Stagno"
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Argento"
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Alluminio"
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Piombo"
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Zinco"
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Magnesio"
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Acciaio"
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Duralluminio"
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Biglione"
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Ottone"
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Ottone d'Alluminio"
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Bronzo d'Alluminio"
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Bronzo Corinzio"
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Lega per Saldatura"
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Acciaio di Damasco"
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Metallo Temprato"
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Lega Rinforzata"
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Ferrosilicio"
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Ferro Dorato"
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Nichel"
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Cobalto"
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Lega di Redstone"
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Diamante Sintetico"
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Smeraldo Sintetico"
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Zaffiro Sintetico"
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  name: "&fApiario Mineralizzato in Carbonado"

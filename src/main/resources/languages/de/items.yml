@@ -258,3 +258,76 @@ DYNATECH_POTION_BUCKET:
 
 STARDUST_METEOR:
   name: "&6Sternenstaub-Meteor"
+
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: "&fMineralisierter Eisen-Bienenstock"
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: "&fMineralisierter Gold-Bienenstock"
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: "&fMineralisierter Netherit-Bienenstock"
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: "&fMineralisierter Diamant-Bienenstock"
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: "&fMineralisierter Smaragd-Bienenstock"
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: "&fMineralisierter Lapislazuli-Bienenstock"
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: "&fMineralisierter Quarz-Bienenstock"
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: "&fMineralisierter Redstone-Bienenstock"
+DYNATECH_COALMINERALIZED_APIARY:
+  name: "&fMineralisierter Kohle-Bienenstock"
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: "&fMineralisierter Kupfer-Bienenstock"
+DYNATECH_TINMINERALIZED_APIARY:
+  name: "&fMineralisierter Zinn-Bienenstock"
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: "&fMineralisierter Silber-Bienenstock"
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  name: "&fMineralisierter Aluminium-Bienenstock"
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: "&fMineralisierter Blei-Bienenstock"
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: "&fMineralisierter Zink-Bienenstock"
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: "&fMineralisierter Magnesium-Bienenstock"
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: "&fMineralisierter Stahl-Bienenstock"
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: "&fMineralisierter Duraluminium-Bienenstock"
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: "&fMineralisierter Billon-Bienenstock"
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: "&fMineralisierter Messing-Bienenstock"
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  name: "&fMineralisierter Aluminiummessing-Bienenstock"
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  name: "&fMineralisierter Aluminiumbronze-Bienenstock"
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: "&fMineralisierter Korinthische-Bronze-Bienenstock"
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: "&fMineralisierter Lötzinn-Bienenstock"
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: "&fMineralisierter Damaszener-Stahl-Bienenstock"
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: "&fMineralisierter Gehärtetes-Metall-Bienenstock"
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: "&fMineralisierter Verstärkte-Legierung-Bienenstock"
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: "&fMineralisierter Ferrosilizium-Bienenstock"
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: "&fMineralisierter Vergoldetes-Eisen-Bienenstock"
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: "&fMineralisierter Nickel-Bienenstock"
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: "&fMineralisierter Kobalt-Bienenstock"
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: "&fMineralisierter Redstone-Legierung-Bienenstock"
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: "&fMineralisierter Synthetischer-Diamant-Bienenstock"
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: "&fMineralisierter Synthetischer-Smaragd-Bienenstock"
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: "&fMineralisierter Synthetischer-Saphir-Bienenstock"
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  name: "&fMineralisierter Carbonado-Bienenstock"

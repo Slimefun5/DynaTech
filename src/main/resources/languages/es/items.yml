@@ -258,3 +258,76 @@ DYNATECH_POTION_BUCKET:
 
 STARDUST_METEOR:
   name: "&6Meteoro de polvo estelar"
+
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Hierro"
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Oro"
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Netherita"
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Diamante"
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Esmeralda"
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Lapislázuli"
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Cuarzo"
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Redstone"
+DYNATECH_COALMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Carbón"
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Cobre"
+DYNATECH_TINMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Estaño"
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Plata"
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Aluminio"
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Plomo"
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Zinc"
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Magnesio"
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Acero"
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Duraluminio"
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Vellón"
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Latón"
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Latón de Aluminio"
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Bronce de Aluminio"
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Bronce Corintio"
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Soldadura"
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Acero de Damasco"
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Metal Endurecido"
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Aleación Reforzada"
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Ferrosilicio"
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Hierro Dorado"
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Níquel"
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Cobalto"
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Aleación de Redstone"
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Diamante Sintético"
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Esmeralda Sintética"
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Zafiro Sintético"
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  name: "&fColmena Mineralizada de Carbonado"

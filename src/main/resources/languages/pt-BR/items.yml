@@ -258,3 +258,76 @@ DYNATECH_POTION_BUCKET:
 
 STARDUST_METEOR:
   name: "&6Meteoro de Poeira Estelar"
+
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Ferro"
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Ouro"
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Netherita"
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Diamante"
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Esmeralda"
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Lápis-Lazúli"
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Quartzo"
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Redstone"
+DYNATECH_COALMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Carvão"
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Cobre"
+DYNATECH_TINMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Estanho"
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Prata"
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Alumínio"
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Chumbo"
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Zinco"
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Magnésio"
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Aço"
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Duralumínio"
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Bilhão"
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Latão"
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Latão de Alumínio"
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Bronze de Alumínio"
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Bronze Coríntio"
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Solda"
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Aço de Damasco"
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Metal Endurecido"
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Liga Reforçada"
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Ferrossilício"
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Ferro Dourado"
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Níquel"
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Cobalto"
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Liga de Redstone"
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Diamante Sintético"
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Esmeralda Sintética"
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Safira Sintética"
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Carbonado"

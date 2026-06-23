@@ -258,3 +258,76 @@ DYNATECH_POTION_BUCKET:
 
 STARDUST_METEOR:
   name: "&6Sterrenstofmeteoor"
+
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: "&fGemineraliseerde IJzeren Bijenkorf"
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Gouden Bijenkorf"
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Netherieten Bijenkorf"
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Diamanten Bijenkorf"
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Smaragden Bijenkorf"
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Lapis Lazuli Bijenkorf"
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Kwartsen Bijenkorf"
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Redstone Bijenkorf"
+DYNATECH_COALMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Kolen Bijenkorf"
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Koperen Bijenkorf"
+DYNATECH_TINMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Tinnen Bijenkorf"
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Zilveren Bijenkorf"
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Aluminium Bijenkorf"
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Loden Bijenkorf"
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Zinken Bijenkorf"
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Magnesium Bijenkorf"
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Stalen Bijenkorf"
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Duraluminium Bijenkorf"
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Billon Bijenkorf"
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Messing Bijenkorf"
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Aluminiummessing Bijenkorf"
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Aluminiumbrons Bijenkorf"
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Korinthisch Brons Bijenkorf"
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Soldeer Bijenkorf"
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Damaststalen Bijenkorf"
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Gehard Metalen Bijenkorf"
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Versterkte Legering Bijenkorf"
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Ferrosilicium Bijenkorf"
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Verguld IJzeren Bijenkorf"
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Nikkelen Bijenkorf"
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Kobalten Bijenkorf"
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Redstone-legering Bijenkorf"
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Synthetisch Diamanten Bijenkorf"
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Synthetisch Smaragden Bijenkorf"
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Synthetisch Saffieren Bijenkorf"
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  name: "&fGemineraliseerde Carbonado Bijenkorf"

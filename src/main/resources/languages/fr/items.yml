@@ -258,3 +258,76 @@ DYNATECH_POTION_BUCKET:
 
 STARDUST_METEOR:
   name: "&6Météore de poussière d'étoile"
+
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en fer"
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en or"
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en netherite"
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en diamant"
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en émeraude"
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en lapis-lazuli"
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en quartz"
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en redstone"
+DYNATECH_COALMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en charbon"
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en cuivre"
+DYNATECH_TINMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en étain"
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en argent"
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en aluminium"
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en plomb"
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en zinc"
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en magnésium"
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en acier"
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en duralumin"
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en billon"
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en laiton"
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en laiton d'aluminium"
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en bronze d'aluminium"
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en bronze corinthien"
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en soudure"
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en acier de Damas"
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en métal durci"
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en alliage renforcé"
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en ferrosilicium"
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en fer doré"
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en nickel"
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en cobalt"
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en alliage de redstone"
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en diamant synthétique"
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en émeraude synthétique"
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en saphir synthétique"
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  name: "&fRucher minéralisé en carbonado"
