@@ -518,7 +518,7 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public String getBugTrackerURL() {
-        return "https://github.com/ProfElements/DynaTech/issues";
+        return "https://github.com/Slimefun5/DynaTech/issues";
     }
 
     @Nonnull
