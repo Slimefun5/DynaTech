@@ -331,3 +331,9 @@ DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
   name: "&fMineralisierter Synthetischer-Saphir-Bienenstock"
 DYNATECH_CARBONADOMINERALIZED_APIARY:
   name: "&fMineralisierter Carbonado-Bienenstock"
+
+# --- auto-generated German translations (batch 2026-06-30) ---
+VEX_DATA_CARD:
+  name: "&bPlagegeist-Datenkarte"
+PHANTOM_DATA_CARD:
+  name: "&bPhantom-Datenkarte"
