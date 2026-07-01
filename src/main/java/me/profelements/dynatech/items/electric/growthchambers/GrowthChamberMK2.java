@@ -11,13 +11,14 @@ import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ClickAction;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.profelements.dynatech.items.abstracts.AbstractElectricMachine;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.ArrayList;
 import java.util.List;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class GrowthChamberMK2 extends AbstractElectricMachine {
    
@@ -28,7 +29,7 @@ public class GrowthChamberMK2 extends AbstractElectricMachine {
     private static final int[] OUTPUT_BORDER_SLOTS = new int[] {18,19,20,21,22,23,24,25,26,27,35,36,44,45,53};
     private static final int[] BACKGROUND_SLOTS = new int[] {}; 
 
-    private static final ItemStack PROGRESS_ITEM = new ItemStack(Material.DIAMOND_HOE);
+    private static final ItemStack PROGRESS_ITEM = new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND_HOE));
 
 
     private ItemSetting<Boolean> exoticGardenIntegration = new ItemSetting<>(this, "exotic-garden-integration", true);
@@ -47,55 +48,54 @@ public class GrowthChamberMK2 extends AbstractElectricMachine {
 
     protected void registerDefaultRecipes() {
 
-        registerRecipe(9, new ItemStack(Material.COCOA_BEANS), new ItemStack(Material.COCOA_BEANS, 9));
-        registerRecipe(15, new ItemStack[] {new ItemStack(Material.MELON_SEEDS)}, new ItemStack[] {new ItemStack(Material.MELON , 3), new ItemStack(Material.MELON_SEEDS, 3)});
-        registerRecipe(15, new ItemStack[] {new ItemStack(Material.PUMPKIN_SEEDS)}, new ItemStack[] {new ItemStack(Material.PUMPKIN , 3), new ItemStack(Material.PUMPKIN_SEEDS, 3)});
-        registerRecipe(15, new ItemStack[] {new ItemStack(Material.BEETROOT_SEEDS)}, new ItemStack[] {new ItemStack(Material.BEETROOT , 9), new ItemStack(Material.BEETROOT_SEEDS, 6)});
-        registerRecipe(12, new ItemStack[] {new ItemStack(Material.WHEAT_SEEDS)}, new ItemStack[] {new ItemStack(Material.WHEAT , 9), new ItemStack(Material.WHEAT_SEEDS, 6)});
-        registerRecipe(9, new ItemStack(Material.APPLE), new ItemStack(Material.APPLE, 9));
-        registerRecipe(9, new ItemStack(Material.BROWN_MUSHROOM), new ItemStack(Material.BROWN_MUSHROOM, 9));
-        registerRecipe(9, new ItemStack(Material.RED_MUSHROOM), new ItemStack(Material.RED_MUSHROOM, 9));
-        registerRecipe(9, new ItemStack[] {new ItemStack(Material.DEAD_BUSH)}, new ItemStack[] {new ItemStack(Material.DEAD_BUSH , 9), new ItemStack(Material.STICK, 6)});
-        registerRecipe(9, new ItemStack(Material.SHORT_GRASS), new ItemStack(Material.SHORT_GRASS, 9));
-        registerRecipe(12, new ItemStack(Material.TALL_GRASS), new ItemStack(Material.TALL_GRASS, 9));
-        registerRecipe(9, new ItemStack(Material.FERN), new ItemStack(Material.FERN, 9));
-        registerRecipe(12, new ItemStack(Material.LARGE_FERN), new ItemStack(Material.LARGE_FERN, 9));
-        registerRecipe(9, new ItemStack(Material.VINE), new ItemStack(Material.VINE, 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.COCOA_BEANS)), new ItemStack(MaterialCompat.safe(XMaterial.COCOA_BEANS), 9));
+        registerRecipe(15, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.MELON_SEEDS))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.MELON) , 3), new ItemStack(MaterialCompat.safe(XMaterial.MELON_SEEDS), 3)});
+        registerRecipe(15, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.PUMPKIN_SEEDS))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.PUMPKIN) , 3), new ItemStack(MaterialCompat.safe(XMaterial.PUMPKIN_SEEDS), 3)});
+        registerRecipe(15, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.BEETROOT_SEEDS))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.BEETROOT) , 9), new ItemStack(MaterialCompat.safe(XMaterial.BEETROOT_SEEDS), 6)});
+        registerRecipe(12, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.WHEAT_SEEDS))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.WHEAT) , 9), new ItemStack(MaterialCompat.safe(XMaterial.WHEAT_SEEDS), 6)});
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.APPLE)), new ItemStack(MaterialCompat.safe(XMaterial.APPLE), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.BROWN_MUSHROOM)), new ItemStack(MaterialCompat.safe(XMaterial.BROWN_MUSHROOM), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.RED_MUSHROOM)), new ItemStack(MaterialCompat.safe(XMaterial.RED_MUSHROOM), 9));
+        registerRecipe(9, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.DEAD_BUSH))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.DEAD_BUSH) , 9), new ItemStack(MaterialCompat.safe(XMaterial.STICK), 6)});
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.SHORT_GRASS)), new ItemStack(MaterialCompat.safe(XMaterial.SHORT_GRASS), 9));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.TALL_GRASS)), new ItemStack(MaterialCompat.safe(XMaterial.TALL_GRASS), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.FERN)), new ItemStack(MaterialCompat.safe(XMaterial.FERN), 9));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.LARGE_FERN)), new ItemStack(MaterialCompat.safe(XMaterial.LARGE_FERN), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.VINE)), new ItemStack(MaterialCompat.safe(XMaterial.VINE), 9));
 
         // Flowers
-        registerRecipe(9, new ItemStack(Material.DANDELION), new ItemStack(Material.DANDELION, 9));
-        registerRecipe(9, new ItemStack(Material.POPPY), new ItemStack(Material.POPPY, 3));
-        registerRecipe(9, new ItemStack(Material.BLUE_ORCHID), new ItemStack(Material.BLUE_ORCHID, 9));
-        registerRecipe(9, new ItemStack(Material.ALLIUM), new ItemStack(Material.ALLIUM, 9));
-        registerRecipe(9, new ItemStack(Material.AZURE_BLUET), new ItemStack(Material.AZURE_BLUET, 9));
-        registerRecipe(9, new ItemStack(Material.RED_TULIP), new ItemStack(Material.RED_TULIP, 9));
-        registerRecipe(9, new ItemStack(Material.ORANGE_TULIP), new ItemStack(Material.ORANGE_TULIP, 9));
-        registerRecipe(9, new ItemStack(Material.WHITE_TULIP), new ItemStack(Material.WHITE_TULIP, 9));
-        registerRecipe(9, new ItemStack(Material.PINK_TULIP), new ItemStack(Material.PINK_TULIP, 9));
-        registerRecipe(9, new ItemStack(Material.OXEYE_DAISY), new ItemStack(Material.OXEYE_DAISY, 9));
-        registerRecipe(9, new ItemStack(Material.CORNFLOWER), new ItemStack(Material.CORNFLOWER, 9));
-        registerRecipe(9, new ItemStack(Material.LILY_OF_THE_VALLEY), new ItemStack(Material.LILY_OF_THE_VALLEY, 9));
-        registerRecipe(12, new ItemStack(Material.WITHER_ROSE), new ItemStack(Material.WITHER_ROSE, 6));
-        registerRecipe(12, new ItemStack(Material.SUNFLOWER), new ItemStack(Material.SUNFLOWER, 6));
-        registerRecipe(12, new ItemStack(Material.LILAC), new ItemStack(Material.LILAC, 6));
-        registerRecipe(12, new ItemStack(Material.ROSE_BUSH), new ItemStack(Material.ROSE_BUSH, 6));
-        registerRecipe(12, new ItemStack(Material.PEONY), new ItemStack(Material.PEONY, 6));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.DANDELION)), new ItemStack(MaterialCompat.safe(XMaterial.DANDELION), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.POPPY)), new ItemStack(MaterialCompat.safe(XMaterial.POPPY), 3));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.BLUE_ORCHID)), new ItemStack(MaterialCompat.safe(XMaterial.BLUE_ORCHID), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.ALLIUM)), new ItemStack(MaterialCompat.safe(XMaterial.ALLIUM), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.AZURE_BLUET)), new ItemStack(MaterialCompat.safe(XMaterial.AZURE_BLUET), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.RED_TULIP)), new ItemStack(MaterialCompat.safe(XMaterial.RED_TULIP), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.ORANGE_TULIP)), new ItemStack(MaterialCompat.safe(XMaterial.ORANGE_TULIP), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.WHITE_TULIP)), new ItemStack(MaterialCompat.safe(XMaterial.WHITE_TULIP), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.PINK_TULIP)), new ItemStack(MaterialCompat.safe(XMaterial.PINK_TULIP), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.OXEYE_DAISY)), new ItemStack(MaterialCompat.safe(XMaterial.OXEYE_DAISY), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.CORNFLOWER)), new ItemStack(MaterialCompat.safe(XMaterial.CORNFLOWER), 9));
+        registerRecipe(9, new ItemStack(MaterialCompat.safe(XMaterial.LILY_OF_THE_VALLEY)), new ItemStack(MaterialCompat.safe(XMaterial.LILY_OF_THE_VALLEY), 9));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.WITHER_ROSE)), new ItemStack(MaterialCompat.safe(XMaterial.WITHER_ROSE), 6));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.SUNFLOWER)), new ItemStack(MaterialCompat.safe(XMaterial.SUNFLOWER), 6));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.LILAC)), new ItemStack(MaterialCompat.safe(XMaterial.LILAC), 6));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.ROSE_BUSH)), new ItemStack(MaterialCompat.safe(XMaterial.ROSE_BUSH), 6));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.PEONY)), new ItemStack(MaterialCompat.safe(XMaterial.PEONY), 6));
 
-        registerRecipe(12, new ItemStack(Material.CARROT), new ItemStack(Material.CARROT, 9));
-        registerRecipe(12, new ItemStack(Material.POTATO), new ItemStack(Material.POTATO, 9));
-        registerRecipe(12, new ItemStack(Material.SWEET_BERRIES), new ItemStack(Material.SWEET_BERRIES, 9));
-        registerRecipe(12, new ItemStack(Material.SUGAR_CANE), new ItemStack(Material.SUGAR_CANE, 9));
-        registerRecipe(12, new ItemStack(Material.BAMBOO), new ItemStack(Material.BAMBOO, 9));
-        registerRecipe(12, new ItemStack(Material.CACTUS), new ItemStack(Material.CACTUS, 9));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.CARROT)), new ItemStack(MaterialCompat.safe(XMaterial.CARROT), 9));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.POTATO)), new ItemStack(MaterialCompat.safe(XMaterial.POTATO), 9));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.SWEET_BERRIES)), new ItemStack(MaterialCompat.safe(XMaterial.SWEET_BERRIES), 9));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.SUGAR_CANE)), new ItemStack(MaterialCompat.safe(XMaterial.SUGAR_CANE), 9));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.BAMBOO)), new ItemStack(MaterialCompat.safe(XMaterial.BAMBOO), 9));
+        registerRecipe(12, new ItemStack(MaterialCompat.safe(XMaterial.CACTUS)), new ItemStack(MaterialCompat.safe(XMaterial.CACTUS), 9));
 
-        registerRecipe(30, new ItemStack[] {new ItemStack(Material.OAK_SAPLING)}, new ItemStack[] {new ItemStack(Material.OAK_SAPLING , 9), new ItemStack(Material.OAK_LOG, 18), new ItemStack(Material.APPLE, 6), new ItemStack(Material.OAK_LEAVES, 9), new ItemStack(Material.STICK, 6)});
-        registerRecipe(30, new ItemStack[] {new ItemStack(Material.BIRCH_SAPLING)}, new ItemStack[] {new ItemStack(Material.BIRCH_SAPLING , 9), new ItemStack(Material.BIRCH_LOG, 18), new ItemStack(Material.APPLE, 6), new ItemStack(Material.BIRCH_LEAVES, 9), new ItemStack(Material.STICK, 6)});
-        registerRecipe(30, new ItemStack[] {new ItemStack(Material.SPRUCE_SAPLING)}, new ItemStack[] {new ItemStack(Material.SPRUCE_SAPLING , 9), new ItemStack(Material.SPRUCE_LOG, 18), new ItemStack(Material.APPLE, 6), new ItemStack(Material.SPRUCE_LEAVES, 9), new ItemStack(Material.STICK, 6)});
-        registerRecipe(30, new ItemStack[] {new ItemStack(Material.DARK_OAK_SAPLING)}, new ItemStack[] {new ItemStack(Material.DARK_OAK_SAPLING , 9), new ItemStack(Material.DARK_OAK_LOG, 18), new ItemStack(Material.APPLE, 6), new ItemStack(Material.DARK_OAK_LEAVES, 9), new ItemStack(Material.STICK, 6)});
-        registerRecipe(30, new ItemStack[] {new ItemStack(Material.JUNGLE_SAPLING)}, new ItemStack[] {new ItemStack(Material.JUNGLE_SAPLING, 9), new ItemStack(Material.JUNGLE_LOG, 18), new ItemStack(Material.APPLE, 6), new ItemStack(Material.JUNGLE_LEAVES, 9), new ItemStack(Material.STICK, 6)});
-        registerRecipe(30, new ItemStack[] {new ItemStack(Material.ACACIA_SAPLING)}, new ItemStack[] {new ItemStack(Material.ACACIA_SAPLING, 9), new ItemStack(Material.ACACIA_LOG, 18), new ItemStack(Material.APPLE, 6), new ItemStack(Material.ACACIA_LEAVES, 9), new ItemStack(Material.STICK, 6)});
-        registerRecipe(30, new ItemStack[] {new ItemStack(Material.MANGROVE_PROPAGULE)}, new ItemStack[] {new ItemStack(Material.MANGROVE_PROPAGULE, 9), new ItemStack(Material.MANGROVE_LOG, 18), new ItemStack(Material.MANGROVE_LEAVES, 9) });
-        registerRecipe(30, new ItemStack[] {new ItemStack(Material.CHERRY_SAPLING)}, new ItemStack[] {new ItemStack(Material.CHERRY_SAPLING, 9), new ItemStack(Material.CHERRY_LOG, 18), new ItemStack(Material.CHERRY_LEAVES, 9) }); 
+        registerRecipe(30, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.OAK_SAPLING))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.OAK_SAPLING) , 9), new ItemStack(MaterialCompat.safe(XMaterial.OAK_LOG), 18), new ItemStack(MaterialCompat.safe(XMaterial.APPLE), 6), new ItemStack(MaterialCompat.safe(XMaterial.OAK_LEAVES), 9), new ItemStack(MaterialCompat.safe(XMaterial.STICK), 6)});
+        registerRecipe(30, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.BIRCH_SAPLING))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.BIRCH_SAPLING) , 9), new ItemStack(MaterialCompat.safe(XMaterial.BIRCH_LOG), 18), new ItemStack(MaterialCompat.safe(XMaterial.APPLE), 6), new ItemStack(MaterialCompat.safe(XMaterial.BIRCH_LEAVES), 9), new ItemStack(MaterialCompat.safe(XMaterial.STICK), 6)});
+        registerRecipe(30, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.SPRUCE_SAPLING))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.SPRUCE_SAPLING) , 9), new ItemStack(MaterialCompat.safe(XMaterial.SPRUCE_LOG), 18), new ItemStack(MaterialCompat.safe(XMaterial.APPLE), 6), new ItemStack(MaterialCompat.safe(XMaterial.SPRUCE_LEAVES), 9), new ItemStack(MaterialCompat.safe(XMaterial.STICK), 6)});
+        registerRecipe(30, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.DARK_OAK_SAPLING))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.DARK_OAK_SAPLING) , 9), new ItemStack(MaterialCompat.safe(XMaterial.DARK_OAK_LOG), 18), new ItemStack(MaterialCompat.safe(XMaterial.APPLE), 6), new ItemStack(MaterialCompat.safe(XMaterial.DARK_OAK_LEAVES), 9), new ItemStack(MaterialCompat.safe(XMaterial.STICK), 6)});
+        registerRecipe(30, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.JUNGLE_SAPLING))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.JUNGLE_SAPLING), 9), new ItemStack(MaterialCompat.safe(XMaterial.JUNGLE_LOG), 18), new ItemStack(MaterialCompat.safe(XMaterial.APPLE), 6), new ItemStack(MaterialCompat.safe(XMaterial.JUNGLE_LEAVES), 9), new ItemStack(MaterialCompat.safe(XMaterial.STICK), 6)});
+        registerRecipe(30, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.ACACIA_SAPLING))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.ACACIA_SAPLING), 9), new ItemStack(MaterialCompat.safe(XMaterial.ACACIA_LOG), 18), new ItemStack(MaterialCompat.safe(XMaterial.APPLE), 6), new ItemStack(MaterialCompat.safe(XMaterial.ACACIA_LEAVES), 9), new ItemStack(MaterialCompat.safe(XMaterial.STICK), 6)});
+
     }
 
     @Override
@@ -146,13 +146,13 @@ public class GrowthChamberMK2 extends AbstractElectricMachine {
             preset.addItem(slot, ChestMenuUtils.getOutputSlotTexture(), ChestMenuUtils.getEmptyClickHandler());
         }
         
-        preset.addItem(getProgressSlot(), CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(getProgressSlot(), CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "), ChestMenuUtils.getEmptyClickHandler());
 
         for (int slot : getOutputSlots()) {
             preset.addMenuClickHandler(slot,new ChestMenu.AdvancedMenuClickHandler() {
                 @Override
                 public boolean onClick(InventoryClickEvent e, Player p, int slot, ItemStack cursor, ClickAction action) {
-                    return cursor.getType().isAir();
+                    return MaterialCompat.isAir(cursor.getType());
                 }
 
                 @Override

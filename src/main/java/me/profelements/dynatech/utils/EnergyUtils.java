@@ -7,12 +7,13 @@ import java.util.List;
 import java.util.Map;
 
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.thebusybiscuit.slimefun5.libraries.dough.blocks.BlockPosition;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class EnergyUtils {
 
@@ -93,7 +94,7 @@ public class EnergyUtils {
             ItemStack item = entry.getValue();
 
             toMenu.toInventory().setItem(slot, item);
-            fromMenu.replaceExistingItem(fromSlot, new ItemStack(Material.AIR, 0));
+            fromMenu.replaceExistingItem(fromSlot, new ItemStack(MaterialCompat.safe(XMaterial.AIR), 0));
         }
 
         fromMenu.markDirty();

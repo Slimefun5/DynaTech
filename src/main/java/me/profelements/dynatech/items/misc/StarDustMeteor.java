@@ -7,7 +7,7 @@ import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.implementation.items.blocks.UnplaceableBlock;
 import me.profelements.dynatech.utils.HeadUtils;
 import me.profelements.dynatech.DynaTech;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.World.Environment;
 import org.bukkit.block.Biome;
 import org.bukkit.inventory.ItemStack;
@@ -56,7 +56,7 @@ public class StarDustMeteor extends UnplaceableBlock implements GEOResource {
     
     @Override
     public int getDefaultSupply(@Nonnull Environment environment, @Nonnull Biome biome) {
-        if (biome == Biome.MEADOW || biome == Biome.BADLANDS) {
+        if (biome == Biome.MOUNTAINS || biome == Biome.BADLANDS) {
             return 16;
         } else {
             return 0;

@@ -17,6 +17,8 @@ import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import me.profelements.dynatech.items.abstracts.AbstractElectricTicker;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class FurnaceController extends AbstractElectricTicker {
     
@@ -48,7 +50,8 @@ public class FurnaceController extends AbstractElectricTicker {
             if (getMachines().contains(relBlock.getType())) { 
                 BlockState state = relBlock.getState();
                 
-                if (state instanceof Furnace furnace && furnace.getCookTimeTotal() > 0) {
+                if (state instanceof Furnace && ((Furnace) state).getCookTimeTotal() > 0) {
+                    Furnace furnace = (Furnace) state;
                     furnace.setBurnTime((short) 1600);
 
                     state.update(true, true);
@@ -66,9 +69,9 @@ public class FurnaceController extends AbstractElectricTicker {
     private List<Material> getMachines() {
         List<Material> machines = new ArrayList<>();
 
-        machines.add(Material.FURNACE);
-        machines.add(Material.BLAST_FURNACE);
-        machines.add(Material.SMOKER);
+        machines.add(MaterialCompat.safe(XMaterial.FURNACE));
+        machines.add(MaterialCompat.safe(XMaterial.BLAST_FURNACE));
+        machines.add(MaterialCompat.safe(XMaterial.SMOKER));
         
         return machines;
     }

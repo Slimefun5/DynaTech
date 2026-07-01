@@ -1,0 +1,333 @@
+# Polish item translations for DynaTech. Keyed by Slimefun item id.
+# name = display name, '&' colour codes preserved. Missing items fall back to English.
+
+DYNATECH_WOOD_MACHINE_CORE:
+  name: "&fDrewniany rdzeń maszyny"
+
+DYNATECH_STONE_MACHINE_CORE:
+  name: "&fKamienny rdzeń maszyny"
+
+DYNATECH_IRON_MACHINE_CORE:
+  name: "&fŻelazny rdzeń maszyny"
+
+DYNATECH_DIAMOND_MACHINE_CORE:
+  name: "&fDiamentowy rdzeń maszyny"
+
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: "&bZaklęty rdzeń maszyny"
+
+DYNATECH_ANCIENT_MACHINE_CORE:
+  name: "&fStarożytny rdzeń maszyny"
+
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: "&cKomponent magazynowania energii"
+
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: "&cKomponent wejścia energii"
+
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: "&cKomponent wyjścia energii"
+
+DYNATECH_DEGRADED_WATER_MILL:
+  name: "&cZniszczony młyn wodny"
+
+DYNATECH_DEGRADED_WATER_MILL_2:
+  name: "&cZniszczona turbina wodna"
+
+DYNATECH_DEGRADED_WIND_MILL:
+  name: "&cZniszczony młyn wiatrowy"
+
+DYNATECH_DEGRADED_WIND_MILL_2:
+  name: "&cZniszczona turbina wiatrowa"
+
+DYNATECH_DEGRADED_EGG_MILL:
+  name: "&cZniszczony młyn smoczego jaja"
+
+DYNATECH_DEGRADED_EGG_MILL_2:
+  name: "&cZniszczona turbina smoczego jaja"
+
+DYNATECH_WATER_MILL:
+  name: "&bMłyn wodny"
+
+DYNATECH_WATER_MILL_2:
+  name: "&bTurbina wodna"
+
+DYNATECH_WIND_MILL:
+  name: "&bMłyn wiatrowy"
+
+DYNATECH_WIND_MILL_2:
+  name: "&bTurbina wiatrowa"
+
+DYNATECH_EGG_MILL:
+  name: "&bMłyn smoczego jaja"
+
+DYNATECH_EGG_MILL_2:
+  name: "&bTurbina smoczego jaja"
+
+DYNATECH_DURABILITY_GENERATOR:
+  name: "&bGenerator zużycia"
+
+DYNATECH_FOOD_GENERATOR:
+  name: "&bGenerator kulinarny"
+
+DYNATECH_STARDUST_GENERATOR:
+  name: "&bReaktor gwiezdnego pyłu"
+
+DYNATECH_STAINLESS_STEEL_INGOT:
+  name: "&fSztabka stali nierdzewnej"
+
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: "&fWirnik ze stali nierdzewnej"
+
+DYNATECH_COAL_COKE:
+  name: "&fKoks węglowy"
+
+DYNATECH_BEE:
+  name: "&6Pszczoła"
+
+DYNATECH_ROBOTIC_BEE:
+  name: "&6Pszczoła robot"
+
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  name: "&6Zaawansowana pszczoła robot"
+
+DYNATECH_VEX_GEM:
+  name: "&6Klejnot zmory"
+
+DYNATECH_MACHINE_SCRAP:
+  name: "&6Złom maszynowy"
+
+DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: "&6Zaawansowany złom maszynowy"
+
+DYNATECH_STAR_DUST:
+  name: "&6Gwiezdny pył"
+
+DYNATECH_GHOSTLY_ESSENCE:
+  name: "&6Upiorna esencja"
+
+DYNATECH_TESSERACTING_OBJECT:
+  name: "&6Obiekt tesseraktowy"
+
+DYNATECH_LIVINGROCK:
+  name: "&6Żywa skała"
+
+DYNATECH_LIVINGWOOD:
+  name: "&6Żywe drewno"
+
+DYNATECH_ELECTRICAL_STIMULATOR:
+  name: "&6Stymulator elektryczny"
+
+DYNATECH_INVENTORY_FILTER:
+  name: "&6Filtr ekwipunku"
+
+DYNATECH_ANGEL_GEM:
+  name: "&6Klejnot lotu"
+
+DYNATECH_RECIPE_BOOK:
+  name: "&6Księga przepisów"
+
+DYNATECH_AUTO_INPUT_UPGRADE:
+  name: "&6Ulepszenie auto-wejścia"
+
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  name: "&6Ulepszenie auto-wyjścia"
+
+DYNATECH_FLUID_TANK:
+  name: "&fZbiornik na płyn"
+
+DYNATECH_LIQUID_TANK:
+  name: "&6Przenośny zbiornik na ciecz"
+
+DYNATECH_PICNIC_BASKET:
+  name: "&6Kosz piknikowy"
+
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  name: "&6Kosz piknikowy związany z duszą"
+
+DYNATECH_SCOOP:
+  name: "&6Czerpak"
+
+DYNATECH_DIMENSIONAL_HOME:
+  name: "&6Wymiarowy dom"
+
+DYNATECH_HASTE_ITEM_BAND:
+  name: "&6Opaska przedmiotu pośpiechu"
+
+DYNATECH_HEALTH_ITEM_BAND:
+  name: "&6Opaska przedmiotu zdrowia"
+
+DYNATECH_TESSERACT_BINDER:
+  name: "&6Spinacz tesseraktów"
+
+DYNATECH_WITHER_SKELETON_GOLEM:
+  name: "&6Wieloblok golema withera"
+
+DYNATECH_COAL_COKE_OVEN:
+  name: "&fSterownik pieca koksowniczego"
+
+DYNATECH_AUTO_KITCHEN:
+  name: "&6Automatyczna kuchnia"
+
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  name: "&6Automatyczny twórca kuchenny"
+
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  name: "&6Bańka antygrawitacyjna"
+
+DYNATECH_WEATHER_CONTROLLER:
+  name: "&6Sterownik pogody"
+
+DYNATECH_POTION_SPRINKLER:
+  name: "&6Zraszacz mikstur"
+
+DYNATECH_BARBED_WIRE:
+  name: "&6Drut kolczasty"
+
+DYNATECH_MATERIAL_HIVE:
+  name: "&6Ul materiałowy"
+
+DYNATECH_WIRELESS_CHARGER:
+  name: "&6Ładowarka bezprzewodowa"
+
+DYNATECH_SEED_PLUCKER:
+  name: "&6Zbieracz nasion"
+
+DYNATECH_BANDAID_MANAGER:
+  name: "&6Menedżer opasek przedmiotów"
+
+DYNATECH_ORECHID:
+  name: "&6Storczyk rudy"
+
+DYNATECH_WIRELESS_ENERGY_POINT:
+  name: "&6Bezprzewodowy punkt energii"
+
+DYNATECH_WIRELESS_ENERGY_BANK:
+  name: "&6Bezprzewodowy bank energii"
+
+DYNATECH_TESSERACT:
+  name: "&6Tesserakt"
+
+DYNATECH_WIRELESS_ITEM_INPUT:
+  name: "&6Bezprzewodowe wejście przedmiotów"
+
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  name: "&6Bezprzewodowe wyjście przedmiotów"
+
+DYNATECH_EXTERNAL_HEATER:
+  name: "&6Zewnętrzny grzejnik"
+
+DYNATECH_GROWTH_CHAMBER:
+  name: "&6Komora wzrostu"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  name: "&bOceaniczna komora wzrostu"
+
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  name: "&cNetherowa komora wzrostu"
+
+DYNATECH_END_GROWTH_CHAMBER:
+  name: "&dEndowa komora wzrostu"
+
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  name: "&6Komora wzrostu MK2"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  name: "&bOceaniczna komora wzrostu MK2"
+
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  name: "&cNetherowa komora wzrostu MK2"
+
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  name: "&dEndowa komora wzrostu MK2"
+
+DYNATECH_PETAL_APOTHECARY:
+  name: "&dAptekarz płatków"
+
+DYNATECH_LAVA_BOTTLE:
+  name: "&fButelka lawy"
+
+DYNATECH_MILK_BOTTLE:
+  name: "&fButelka mleka"
+
+DYNATECH_HONEY_BUCKET:
+  name: "&fWiadro miodu"
+
+DYNATECH_POTION_BUCKET:
+  name: "&fWiadro mikstury"
+
+STARDUST_METEOR:
+  name: "&6Meteor gwiezdnego pyłu"
+
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul żelazny"
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul złoty"
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z netherytu"
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul diamentowy"
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul szmaragdowy"
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z lazurytu"
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z kwarcu"
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z czerwienitu"
+DYNATECH_COALMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul węglowy"
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul miedziany"
+DYNATECH_TINMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul cynowy"
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul srebrny"
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul aluminiowy"
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul ołowiany"
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul cynkowy"
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul magnezowy"
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul stalowy"
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z duraluminium"
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z bilonu"
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul mosiężny"
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z mosiądzu aluminiowego"
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z brązu aluminiowego"
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z brązu koryntyjskiego"
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z lutowia"
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul ze stali damasceńskiej"
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z utwardzonego metalu"
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul ze wzmocnionego stopu"
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z żelazokrzemu"
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z pozłacanego żelaza"
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul niklowy"
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul kobaltowy"
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul ze stopu czerwienitu"
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z syntetycznego diamentu"
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z syntetycznego szmaragdu"
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z syntetycznego szafiru"
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  name: "&fZmineralizowany ul z karbonado"

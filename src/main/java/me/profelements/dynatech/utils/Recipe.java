@@ -1,6 +1,6 @@
 package me.profelements.dynatech.utils;
 
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 
 import com.google.common.base.Preconditions;
@@ -66,7 +66,7 @@ public class Recipe {
 
     public Recipe setOutput(ItemStack output, int amount) {
         Preconditions.checkNotNull(output, "This recipe's output should not be null");
-        var actualOutput = output.clone();
+        ItemStack actualOutput = output.clone();
         actualOutput.setAmount(amount);
         this.OUTPUT = new ItemStack[] { actualOutput };
         return this;

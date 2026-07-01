@@ -12,19 +12,17 @@ import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
 import io.github.thebusybiscuit.slimefun5.core.handlers.BlockPlaceHandler;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import me.profelements.dynatech.compat.Pdc;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.registries.Items;
 import me.profelements.dynatech.utils.EnergyUtils;
-import net.kyori.adventure.text.Component;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
-import org.bukkit.Chunk;
 import org.bukkit.Location;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
@@ -32,14 +30,13 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import javax.annotation.ParametersAreNonnullByDefault;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
 
 public class WirelessEnergyPoint extends SlimefunItem implements EnergyNetProvider {
 
-    private static final NamespacedKey WIRELESS_LOCATION_KEY = new NamespacedKey(DynaTech.getInstance(),
-            "wireless-location");
+    private static final String WIRELESS_LOCATION_KEY = "dynatech:wireless-location";
     private final int capacity;
     private final int energyRate;
 
@@ -63,16 +60,9 @@ public class WirelessEnergyPoint extends SlimefunItem implements EnergyNetProvid
         if (chargedNeeded != 0 && wirelessBankLocation != null) {
             Location wirelessEnergyBank = stringToLocation(wirelessBankLocation);
 
-            // Note: You should probably also see if the Future from getChunkAtAsync is
-            // finished here.
-            // you don't really want to possibly trigger the chunk to load in another thread
-            // twice.
             if (!wirelessEnergyBank.getWorld().isChunkLoaded(wirelessEnergyBank.getBlockX() >> 4,
                     wirelessEnergyBank.getBlockZ() >> 4)) {
-                CompletableFuture<Chunk> chunkLoad = wirelessEnergyBank.getWorld().getChunkAtAsync(wirelessEnergyBank);
-                if (!chunkLoad.isDone()) {
-                    return 0;
-                }
+                return 0;
             }
 
             if (BlockStorage.checkID(wirelessEnergyBank) != null && BlockStorage.checkID(wirelessEnergyBank)
@@ -113,7 +103,7 @@ public class WirelessEnergyPoint extends SlimefunItem implements EnergyNetProvid
                         ItemMeta im = item.getItemMeta();
                         String locationString = locationToString(blockLoc);
 
-                        PersistentDataAPI.setString(im, WIRELESS_LOCATION_KEY, locationString);
+                        Pdc.setString(im, WIRELESS_LOCATION_KEY, locationString);
                         item.setItemMeta(im);
                         setItemLore(item, blockLoc);
                     }
@@ -129,7 +119,7 @@ public class WirelessEnergyPoint extends SlimefunItem implements EnergyNetProvid
 
                 Location blockLoc = event.getBlockPlaced().getLocation();
                 ItemStack item = event.getItemInHand();
-                String locationString = PersistentDataAPI.getString(item.getItemMeta(), WIRELESS_LOCATION_KEY);
+                String locationString = Pdc.getString(item.getItemMeta(), WIRELESS_LOCATION_KEY);
 
                 if (item.getType() == Items.WIRELESS_ENERGY_POINT.stack().item().getType() && item.hasItemMeta()
                         && locationString != null) {
@@ -163,18 +153,18 @@ public class WirelessEnergyPoint extends SlimefunItem implements EnergyNetProvid
 
     private void setItemLore(ItemStack item, Location l) {
         ItemMeta im = item.getItemMeta();
-        List<Component> lore = im.lore();
+        List<String> lore = im.hasLore() ? im.getLore() : new ArrayList<>();
         for (int i = 0; i < lore.size(); i++) {
-            if (lore.get(i).contains(Component.text("Location: "))) {
+            if (lore.get(i).contains("Location: ")) {
                 lore.remove(i);
+                break;
             }
         }
 
-        lore.add(Component.text(
-                ChatColor.WHITE + "Location: " + l.getWorld().getName() + " " + l.getBlockX() + " " + l.getBlockY()
-                        + " " + l.getBlockZ()));
+        lore.add(ChatColor.WHITE + "Location: " + l.getWorld().getName() + " " + l.getBlockX() + " " + l.getBlockY()
+                        + " " + l.getBlockZ());
 
-        im.lore(lore);
+        im.setLore(lore);
         item.setItemMeta(im);
 
     }

@@ -2,6 +2,7 @@ package me.profelements.dynatech.utils;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.Set;
 
 import org.bukkit.entity.Player;
@@ -69,7 +70,7 @@ public class ChestMenuUtils {
         }
 
         List<Recipe> recipes = Registries.RECIPES.getEntries().stream()
-                .filter((recipe) -> recipe.getOutput()[0].equals(item)).toList();
+                .filter((recipe) -> recipe.getOutput()[0].equals(item)).collect(Collectors.toList());
 
         Recipe recipe = recipes.get(idx);
 
@@ -77,7 +78,7 @@ public class ChestMenuUtils {
         int iter = 0;
 
         for (ItemStack recipeItem : recipe.getInput()) {
-            if (RecipeRegistry.getInstance().getRecipesByOutput(recipeItem).toList().size() > 0) {
+            if (RecipeRegistry.getInstance().getRecipesByOutput(recipeItem).collect(Collectors.toList()).size() > 0) {
                 menu.addItem(recipeSlots[iter], recipeItem, new MenuClickHandler() {
 
                     @Override

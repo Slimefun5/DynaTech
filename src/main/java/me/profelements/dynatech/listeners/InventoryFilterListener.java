@@ -26,8 +26,8 @@ public class InventoryFilterListener implements Listener {
 
     @EventHandler
     private void onPlayerAttemptPickup(EntityPickupItemEvent e) {
-        if (e.getEntity() instanceof Player p) {
-            filterInventory(p, e);
+        if (e.getEntity() instanceof Player) {
+            filterInventory((Player) e.getEntity(), e);
         }
     }
 

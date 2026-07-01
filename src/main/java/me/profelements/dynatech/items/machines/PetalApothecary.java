@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
 
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.data.Levelled;
 import org.bukkit.entity.Item;
@@ -24,8 +23,8 @@ import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 import me.profelements.dynatech.registries.RecipeTypes;
 import me.profelements.dynatech.registries.Registries;
 import me.profelements.dynatech.utils.Recipe;
-import net.kyori.adventure.text.Component;
-import net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class PetalApothecary extends SlimefunItem {
 
@@ -55,19 +54,17 @@ public class PetalApothecary extends SlimefunItem {
             @Override
             public void onRightClick(PlayerRightClickEvent event) {
 
-                if (event.getClickedBlock().get().getBlockData() instanceof Levelled lvl) {
-                    event.getPlayer()
-                            .sendMessage(Component.text("Level of cauldron = ").append(Component.text(lvl.getLevel())));
+                Integer cauldronLevel = cauldronLevel(event.getClickedBlock().get());
+                if (cauldronLevel != null) {
+                    event.getPlayer().sendMessage("Level of cauldron = " + cauldronLevel);
 
                     List<ItemStack> items = RECIPE_ITEMS
                             .getOrDefault(new BlockPosition(event.getClickedBlock().get()), new ArrayList<>());
 
-                    event.getPlayer()
-                            .sendMessage(Component.text("entries size: ").append(Component.text(RECIPE_ITEMS.size())));
+                    event.getPlayer().sendMessage("entries size: " + RECIPE_ITEMS.size());
 
                     for (ItemStack item : items) {
-                        event.getPlayer().sendMessage(Component
-                                .text(PlainTextComponentSerializer.plainText().serialize(item.displayName())));
+                        event.getPlayer().sendMessage(item.hasItemMeta() ? item.getItemMeta().getDisplayName() : item.getType().name());
                     }
                 }
 
@@ -76,13 +73,37 @@ public class PetalApothecary extends SlimefunItem {
 
     }
 
+    // Cauldron fill level is BlockData (1.13+); accessed reflectively so this class loads on 1.8.
+    private static Integer cauldronLevel(Block block) {
+        try {
+            Object bd = Block.class.getMethod("getBlockData").invoke(block);
+            if (!Class.forName("org.bukkit.block.data.Levelled").isInstance(bd)) {
+                return null;
+            }
+            return (Integer) bd.getClass().getMethod("getLevel").invoke(bd);
+        } catch (ReflectiveOperationException e) {
+            return null;
+        }
+    }
+
+    private static void setCauldronLevel(Block block, int level) {
+        try {
+            Object bd = Block.class.getMethod("getBlockData").invoke(block);
+            bd.getClass().getMethod("setLevel", int.class).invoke(bd, level);
+            Block.class.getMethod("setBlockData", Class.forName("org.bukkit.block.data.BlockData")).invoke(block, bd);
+        } catch (ReflectiveOperationException e) {
+            // legacy MC: cauldron level is not BlockData-backed; no-op
+        }
+    }
+
     private void tickBlock(Block block) {
 
-        if (!(block.getBlockData() instanceof Levelled lvl)) {
+        Integer cauldronLevel = cauldronLevel(block);
+        if (cauldronLevel == null) {
             return;
         }
 
-        int levelAfterRecipeConsume = lvl.getLevel() - 1;
+        int levelAfterRecipeConsume = cauldronLevel - 1;
 
         List<ItemStack> maybeRecipeContents = getMaybeRecipes(block);
 
@@ -103,11 +124,10 @@ public class PetalApothecary extends SlimefunItem {
                 block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), item);
             });
 
-            if (levelAfterRecipeConsume >= lvl.getMinimumLevel()) {
-                lvl.setLevel(levelAfterRecipeConsume);
-                block.setBlockData(lvl);
+            if (levelAfterRecipeConsume >= 0) {
+                setCauldronLevel(block, levelAfterRecipeConsume);
             } else {
-                block.setType(Material.CAULDRON);
+                block.setType(MaterialCompat.safe(XMaterial.CAULDRON));
             }
 
             RECIPE_ITEMS.put(new BlockPosition(block), new ArrayList<>());
@@ -116,7 +136,8 @@ public class PetalApothecary extends SlimefunItem {
 
     private List<ItemStack> getMaybeRecipes(Block block) {
         BlockPosition pos = new BlockPosition(block);
-        Collection<Item> items = block.getWorld().getNearbyEntitiesByType(Item.class, block.getLocation(), 1.d);
+        Collection<Item> items = block.getWorld().getNearbyEntities(block.getLocation(), 1.d, 1.d, 1.d).stream()
+                .filter(e -> e instanceof Item).map(e -> (Item) e).collect(java.util.stream.Collectors.toList());
         List<ItemStack> itemList = RECIPE_ITEMS.getOrDefault(pos, new ArrayList<>());
 
         Optional<Item> maybeRecipeItem = items.stream().filter((item) -> {

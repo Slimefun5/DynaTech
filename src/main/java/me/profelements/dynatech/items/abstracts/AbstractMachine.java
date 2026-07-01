@@ -4,7 +4,6 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
@@ -19,6 +18,8 @@ import io.github.thebusybiscuit.slimefun5.implementation.operations.CraftingOper
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public abstract class AbstractMachine extends AbstractTickingContainer implements MachineProcessHolder<CraftingOperation>, RecipeDisplayItem {
         
@@ -79,7 +80,7 @@ public abstract class AbstractMachine extends AbstractTickingContainer implement
                     processor.updateProgressBar(menu, getProgressSlot(), currentOp); 
                     currentOp.addProgress(1);
                 } else {
-                    menu.replaceExistingItem(getProgressSlot(), CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " ")); 
+                    menu.replaceExistingItem(getProgressSlot(), CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " ")); 
 
                     boolean isFinished = onCraftFinish(menu, currentOp.getIngredients()); 
                     if (isFinished) {

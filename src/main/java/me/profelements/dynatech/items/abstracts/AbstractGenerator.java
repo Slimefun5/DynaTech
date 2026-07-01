@@ -9,7 +9,6 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
@@ -32,6 +31,8 @@ import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineFuel;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public abstract class AbstractGenerator extends AbstractContainer implements MachineProcessHolder<FuelOperation>, RecipeDisplayItem, EnergyNetProvider {
    
@@ -176,7 +177,7 @@ public abstract class AbstractGenerator extends AbstractContainer implements Mac
                         return getEnergyProduction();
                     }                    
                 } else {
-                    menu.replaceExistingItem(22, CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " ")); 
+                    menu.replaceExistingItem(22, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " ")); 
 
                     boolean isFinished = onFuelFinish(menu, new ItemStack[] { currentOp.getIngredient() }); 
                     if (isFinished) {

@@ -6,7 +6,7 @@ import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import me.profelements.dynatech.compat.Pdc;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.profelements.dynatech.items.electric.transfer.Tesseract;
@@ -43,20 +43,20 @@ public class TesseractBinder extends SlimefunItem {
                         Interaction.INTERACT_BLOCK);
 
                 if (e.getPlayer().isSneaking()) {
-                    String locString = PersistentDataAPI.getString(item.getItemMeta(), Tesseract.WIRELESS_LOCATION_KEY);
+                    String locString = Pdc.getString(item.getItemMeta(), Tesseract.WIRELESS_LOCATION_KEY);
                     if (item != null && hasPermision
                             && BlockStorage.checkID(blockLocation).equals(Items.TESSERACT.stack().getItemId())
                             && item.hasItemMeta() && locString != null) {
                         BlockStorage.addBlockInfo(blockLocation, "tesseract-pair-location", locString);
                         e.getPlayer().spigot().sendMessage(ChatMessageType.ACTION_BAR,
-                                TextComponent.fromLegacy(ChatColor.WHITE + "Tesseract Connected!"));
+                                new TextComponent(ChatColor.WHITE + "Tesseract Connected!"));
                     }
                 } else if (Boolean.TRUE.equals(hasPermision)
                         && sfItem.getId().equals(Items.TESSERACT.stack().getItemId()) && blockLocation != null) {
                     ItemMeta im = item.getItemMeta();
                     String locString = Tesseract.locationToString(blockLocation);
 
-                    PersistentDataAPI.setString(im, Tesseract.WIRELESS_LOCATION_KEY, locString);
+                    Pdc.setString(im, Tesseract.WIRELESS_LOCATION_KEY, locString);
                     item.setItemMeta(im);
                     Tesseract.setItemLore(item, blockLocation);
                 }

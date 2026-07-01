@@ -3,7 +3,6 @@ package me.profelements.dynatech.fluids;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.data.Levelled;
 import org.bukkit.inventory.ItemStack;
@@ -11,6 +10,8 @@ import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.potion.PotionType;
 
 import com.google.common.base.Preconditions;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class FluidTankAdapter {
 
@@ -19,15 +20,16 @@ public class FluidTankAdapter {
 
     public static @Nullable FluidStack getFluidFromItemStack(@Nonnull ItemStack itemStack) {
         switch (itemStack.getType()) {
-            case Material.WATER_BUCKET:
+            case WATER_BUCKET:
                 return FluidStack.of(FluidStack.WATER_FLUID, FluidStack.BUCKET_AMOUNT);
-            case Material.MILK_BUCKET:
+            case MILK_BUCKET:
                 return FluidStack.of(FluidStack.MILK_FLUID, FluidStack.BUCKET_AMOUNT);
-            case Material.LAVA_BUCKET:
+            case LAVA_BUCKET:
                 return FluidStack.of(FluidStack.LAVA_FLUID, FluidStack.BUCKET_AMOUNT);
-            case Material.POTION:
-                if (itemStack.getItemMeta() instanceof PotionMeta pm) {
-                    if (pm.getBasePotionType() == PotionType.WATER) {
+            case POTION:
+                if (itemStack.getItemMeta() instanceof PotionMeta) {
+                    PotionMeta pm = (PotionMeta) itemStack.getItemMeta();
+                    if (pm.getBasePotionData().getType() == PotionType.WATER) {
                         return FluidStack.of(FluidStack.WATER_FLUID, FluidStack.BOTTLE_AMOUNT);
                     } else {
                         return FluidStack.of(FluidStack.POTION_FLUID, FluidStack.BOTTLE_AMOUNT);
@@ -41,11 +43,9 @@ public class FluidTankAdapter {
     public static @Nullable FluidStack getFluidStackFromBlock(@Nonnull Block block) {
         Preconditions.checkNotNull(block);
         switch (block.getType()) {
-            case Material.LAVA_CAULDRON:
-                return FluidStack.of(FluidStack.LAVA_FLUID, FluidStack.BUCKET_AMOUNT);
-            case Material.WATER_CAULDRON:
-            case Material.WATER:
-            case Material.LAVA:
+            case CAULDRON:
+            case WATER:
+            case LAVA:
                 return getFluidStackFromLevelled(block);
             default:
                 return null;
@@ -55,7 +55,7 @@ public class FluidTankAdapter {
     public static @Nullable FluidStack getFluidStackFromLevelled(@Nonnull Block block) {
         Preconditions.checkNotNull(block);
 
-        if (!(block.getBlockData() instanceof Levelled) || block.getType() == Material.COMPOSTER) {
+        if (!(block.getBlockData() instanceof Levelled) || block.getType() == MaterialCompat.safe(XMaterial.COMPOSTER)) {
             return null;
         }
 
@@ -68,19 +68,19 @@ public class FluidTankAdapter {
             return null;
         }
 
-        // This is either Material.LAVA, or Material.WATER
+        // This is either MaterialCompat.safe(XMaterial.LAVA), or MaterialCompat.safe(XMaterial.WATER)
         if (lvl.getLevel() == 0) {
             switch (block.getType()) {
-                case Material.WATER:
+                case WATER:
                     return FluidStack.of(FluidStack.WATER_FLUID, FluidStack.BUCKET_AMOUNT);
-                case Material.LAVA:
+                case LAVA:
                     return FluidStack.of(FluidStack.LAVA_FLUID, FluidStack.BUCKET_AMOUNT);
                 default:
                     return null;
             }
         }
 
-        if (block.getType() == Material.WATER_CAULDRON) {
+        if (block.getType() == MaterialCompat.safe(XMaterial.CAULDRON)) {
             return FluidStack.of(FluidStack.WATER_FLUID, (lvl.getLevel() / lvl.getMaximumLevel()) * 1000);
         }
 

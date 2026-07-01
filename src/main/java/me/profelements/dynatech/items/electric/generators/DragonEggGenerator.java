@@ -7,12 +7,13 @@ import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetProvider;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class DragonEggGenerator extends SlimefunItem implements EnergyNetProvider {
 
@@ -23,7 +24,7 @@ public class DragonEggGenerator extends SlimefunItem implements EnergyNetProvide
     @Override
     public int getGeneratedOutput(@Nonnull Location location, @Nonnull Config config) {
         Block dragonEgg = location.getBlock().getRelative(BlockFace.UP);
-        if (dragonEgg.getType() == Material.DRAGON_EGG) {
+        if (dragonEgg.getType() == MaterialCompat.safe(XMaterial.DRAGON_EGG)) {
             return 32;
         }
 

@@ -79,7 +79,7 @@ import me.profelements.dynatech.utils.LiquidRegistry;
 import me.profelements.dynatech.utils.Recipe;
 
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
@@ -87,6 +87,8 @@ import org.bukkit.potion.PotionEffectType;
 import dev.j3fftw.extrautils.utils.LoreBuilderDynamic;
 
 import javax.annotation.Nonnull;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class DynaTechItemsSetup {
 
@@ -165,7 +167,7 @@ public class DynaTechItemsSetup {
 
         new ItemBand(ItemGroups.TOOLS, Items.ITEM_BAND_HASTE.stack(), Recipes.ITEM_BAND_HASTE.getRecipeType(),
                 Recipes.ITEM_BAND_HASTE.getInput(),
-                new PotionEffect[] { new PotionEffect(PotionEffectType.HASTE, 20 * 15, 1, true) })
+                new PotionEffect[] { new PotionEffect(PotionEffectType.FAST_DIGGING, 20 * 15, 1, true) })
                 .register(plugin);
 
         new TesseractBinder(ItemGroups.TOOLS, Items.TESSERACT_BINDER.stack(), Recipes.TESSERACT_BINDER.getRecipeType(),
@@ -173,28 +175,28 @@ public class DynaTechItemsSetup {
 
         if (DynaTech.isInfinityExpansionInstalled()) {
             new MobDataCard("Vex", MobDataTier.HOSTILE, new ItemStack[] {
-                    Items.VEX_GEM.stack().item().asQuantity(16),
-                    Items.GHOSTLY_ESSENCE.stack().item().asQuantity(16),
-                    Items.VEX_GEM.stack().item().asQuantity(16),
-                    Items.GHOSTLY_ESSENCE.stack().item().asQuantity(16), MobData.EMPTY_DATA_CARD.item(),
-                    Items.GHOSTLY_ESSENCE.stack().item().asQuantity(16),
-                    Items.VEX_GEM.stack().item().asQuantity(16),
-                    Items.GHOSTLY_ESSENCE.stack().item().asQuantity(16),
-                    Items.VEX_GEM.stack().item().asQuantity(16)
+                    qty(Items.VEX_GEM.stack().item(), 16),
+                    qty(Items.GHOSTLY_ESSENCE.stack().item(), 16),
+                    qty(Items.VEX_GEM.stack().item(), 16),
+                    qty(Items.GHOSTLY_ESSENCE.stack().item(), 16), MobData.EMPTY_DATA_CARD.item(),
+                    qty(Items.GHOSTLY_ESSENCE.stack().item(), 16),
+                    qty(Items.VEX_GEM.stack().item(), 16),
+                    qty(Items.GHOSTLY_ESSENCE.stack().item(), 16),
+                    qty(Items.VEX_GEM.stack().item(), 16)
             })
                     .addDrop(Items.VEX_GEM.stack().item(), 1)
                     .addDrop(Items.GHOSTLY_ESSENCE.stack().item(), 9)
                     .register(plugin);
 
             new MobDataCard("Phantom", MobDataTier.HOSTILE, new ItemStack[] {
-                    new ItemStack(Material.PHANTOM_MEMBRANE, 16), new ItemStack(Material.PHANTOM_MEMBRANE, 16),
-                    new ItemStack(Material.PHANTOM_MEMBRANE, 16),
-                    new ItemStack(Material.PHANTOM_MEMBRANE, 16), MobData.EMPTY_DATA_CARD.item(),
-                    new ItemStack(Material.PHANTOM_MEMBRANE, 16),
-                    new ItemStack(Material.PHANTOM_MEMBRANE, 16), new ItemStack(Material.PHANTOM_MEMBRANE, 16),
-                    new ItemStack(Material.PHANTOM_MEMBRANE, 16),
+                    new ItemStack(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE), 16), new ItemStack(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE), 16),
+                    new ItemStack(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE), 16),
+                    new ItemStack(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE), 16), MobData.EMPTY_DATA_CARD.item(),
+                    new ItemStack(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE), 16),
+                    new ItemStack(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE), 16), new ItemStack(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE), 16),
+                    new ItemStack(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE), 16),
             })
-                    .addDrop(Material.PHANTOM_MEMBRANE, 0.25f)
+                    .addDrop(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE), 0.25f)
                     .register(plugin);
         }
 
@@ -226,10 +228,10 @@ public class DynaTechItemsSetup {
         new GrowthChamberEnd(ItemGroups.MACHINES, Items.GROWTH_CHAMBER_END.stack(),
                 RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
-                        SlimefunItems.HARDENED_GLASS.item(), new ItemStack(Material.MAGENTA_STAINED_GLASS),
+                        SlimefunItems.HARDENED_GLASS.item(), new ItemStack(MaterialCompat.safe(XMaterial.MAGENTA_STAINED_GLASS)),
                         SlimefunItems.HARDENED_GLASS.item(),
-                        new ItemStack(Material.PURPUR_BLOCK), new ItemStack(Material.CHORUS_FLOWER),
-                        new ItemStack(Material.END_STONE),
+                        new ItemStack(MaterialCompat.safe(XMaterial.PURPUR_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.CHORUS_FLOWER)),
+                        new ItemStack(MaterialCompat.safe(XMaterial.END_STONE)),
                         Items.STAINLESS_STEEL_INGOT.stack().item(), Items.GROWTH_CHAMBER.stack().item(),
                         Items.STAINLESS_STEEL_INGOT.stack().item()
                 })
@@ -328,7 +330,7 @@ public class DynaTechItemsSetup {
         new BandaidManager(ItemGroups.MACHINES, Items.BANDAID_MANAGER.stack(), RecipeType.MAGIC_WORKBENCH,
                 new ItemStack[] {
                         SlimefunItems.BLANK_RUNE.item(), Items.ANCIENT_MACHINE_CORE.stack().item(), SlimefunItems.BLANK_RUNE.item(),
-                        SlimefunItems.REINFORCED_CLOTH.item(), new ItemStack(Material.ENCHANTING_TABLE),
+                        SlimefunItems.REINFORCED_CLOTH.item(), new ItemStack(MaterialCompat.safe(XMaterial.ENCHANTING_TABLE)),
                         SlimefunItems.REINFORCED_CLOTH.item(),
                         null, SlimefunItems.WITHER_PROOF_OBSIDIAN.item(), null
                 })
@@ -340,7 +342,7 @@ public class DynaTechItemsSetup {
         new Orechid(ItemGroups.MACHINES, Items.ORECHID.stack(), RecipeType.MAGIC_WORKBENCH,
                 new ItemStack[] {
                         SlimefunItems.ENDER_RUNE.item(), SlimefunItems.ENDER_RUNE.item(), SlimefunItems.ENDER_RUNE.item(),
-                        SlimefunItems.MAGIC_LUMP_3.item(), new ItemStack(Material.WITHER_ROSE), SlimefunItems.MAGIC_LUMP_3.item(),
+                        SlimefunItems.MAGIC_LUMP_3.item(), new ItemStack(MaterialCompat.safe(XMaterial.WITHER_ROSE)), SlimefunItems.MAGIC_LUMP_3.item(),
                         SlimefunItems.HARDENED_METAL_INGOT.item(), SlimefunItems.REINFORCED_PLATE.item(),
                         SlimefunItems.HARDENED_METAL_INGOT.item()
                 })
@@ -396,10 +398,10 @@ public class DynaTechItemsSetup {
                 new ItemStack[] {
                         Items.STAINLESS_STEEL_INGOT.stack().item(), SlimefunItems.HARDENED_METAL_INGOT.item(),
                         Items.STAINLESS_STEEL_INGOT.stack().item(),
-                        new ItemStack(Material.OBSIDIAN), new ItemStack(Material.OBSERVER),
-                        new ItemStack(Material.OBSIDIAN),
-                        new ItemStack(Material.OBSIDIAN), SlimefunItems.ENERGY_REGULATOR.item(),
-                        new ItemStack(Material.OBSIDIAN)
+                        new ItemStack(MaterialCompat.safe(XMaterial.OBSIDIAN)), new ItemStack(MaterialCompat.safe(XMaterial.OBSERVER)),
+                        new ItemStack(MaterialCompat.safe(XMaterial.OBSIDIAN)),
+                        new ItemStack(MaterialCompat.safe(XMaterial.OBSIDIAN)), SlimefunItems.ENERGY_REGULATOR.item(),
+                        new ItemStack(MaterialCompat.safe(XMaterial.OBSIDIAN))
                 })
                 .setCapacity(2048)
                 .setConsumption(128)
@@ -413,10 +415,10 @@ public class DynaTechItemsSetup {
         // END Machines
         new LiquidTank(ItemGroups.TOOLS, Items.LIQUID_TANK.stack(), 16000, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
-                        Items.STAINLESS_STEEL_INGOT.stack().item(), new ItemStack(Material.BUCKET),
+                        Items.STAINLESS_STEEL_INGOT.stack().item(), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)),
                         Items.STAINLESS_STEEL_INGOT.stack().item(),
-                        new ItemStack(Material.BUCKET), new ItemStack(Material.BUCKET), new ItemStack(Material.BUCKET),
-                        Items.STAINLESS_STEEL_INGOT.stack().item(), new ItemStack(Material.BUCKET),
+                        new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)),
+                        Items.STAINLESS_STEEL_INGOT.stack().item(), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)),
                         Items.STAINLESS_STEEL_INGOT.stack().item(),
                 }).register(plugin);
 
@@ -426,8 +428,8 @@ public class DynaTechItemsSetup {
                 new ItemStack[] {
                         Items.STAINLESS_STEEL_INGOT.stack().item(), Items.STAINLESS_STEEL_INGOT.stack().item(),
                         Items.STAINLESS_STEEL_INGOT.stack().item(),
-                        new ItemStack(Material.DIAMOND_AXE), Items.ANCIENT_MACHINE_CORE.stack().item(),
-                        new ItemStack(Material.DIAMOND_AXE),
+                        new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND_AXE)), Items.ANCIENT_MACHINE_CORE.stack().item(),
+                        new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND_AXE)),
                         Items.STAINLESS_STEEL_INGOT.stack().item(), Items.STAINLESS_STEEL_INGOT.stack().item(),
                         Items.STAINLESS_STEEL_INGOT.stack().item(),
                 })
@@ -442,8 +444,8 @@ public class DynaTechItemsSetup {
                         SlimefunItems.ALUMINUM_BRASS_INGOT.item(), SlimefunItems.ALUMINUM_BRASS_INGOT.item(),
                         SlimefunItems.ALUMINUM_BRASS_INGOT.item(),
                         SlimefunItems.LEAD_DUST.item(), SlimefunItems.SMALL_CAPACITOR.item(), SlimefunItems.LEAD_DUST.item(),
-                        new ItemStack(Material.CAMPFIRE), new ItemStack(Material.CAMPFIRE),
-                        new ItemStack(Material.CAMPFIRE)
+                        new ItemStack(MaterialCompat.safe(XMaterial.CAMPFIRE)), new ItemStack(MaterialCompat.safe(XMaterial.CAMPFIRE)),
+                        new ItemStack(MaterialCompat.safe(XMaterial.CAMPFIRE))
                 })
                 .setEnergyCapacity(256)
                 .setEnergyProduction(16)
@@ -452,8 +454,8 @@ public class DynaTechItemsSetup {
         new StardustReactor(ItemGroups.GENERATORS, Items.STARDUST_GENERATOR.stack(),
                 RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
-                        new ItemStack(Material.FIRE_CHARGE), new ItemStack(Material.FIRE_CHARGE),
-                        new ItemStack(Material.FIRE_CHARGE),
+                        new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CHARGE)), new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CHARGE)),
+                        new ItemStack(MaterialCompat.safe(XMaterial.FIRE_CHARGE)),
                         null, SlimefunItems.NUCLEAR_REACTOR.item(), null,
                         Items.ADVANCED_MACHINE_SCRAP.stack().item(), Items.ANCIENT_MACHINE_CORE.stack().item(),
                         Items.ADVANCED_MACHINE_SCRAP.stack().item()
@@ -629,7 +631,7 @@ public class DynaTechItemsSetup {
                         id.replace("_INGOT", "").toLowerCase() + "mineralized_apiary");
                 ItemWrapper APIARY = ItemWrapper.create(APIARY_KEY, new SlimefunItemStack(
                         APIARY_KEY.asSlimefunId(),
-                        Material.BEEHIVE,
+                        MaterialCompat.safe(XMaterial.BEEHIVE),
                         "&f" + item.getItemName().replace(" Ingot", "") + " Mineralized Apiary",
                         "",
                         "&fProduces a material",
@@ -660,12 +662,16 @@ public class DynaTechItemsSetup {
         }
 
         for (String name : hive.vanillaItemsAccepted.getValue()) {
-            ItemStack item = new ItemStack(Material.matchMaterial(name));
+            Material apiaryMaterial = Material.matchMaterial(name);
+            if (apiaryMaterial == null) {
+                continue; // accepted item doesn't exist on this Minecraft version
+            }
+            ItemStack item = new ItemStack(apiaryMaterial);
             TypedKey<ItemWrapper> APIARY_KEY = TypedKey.create("dynatech",
                     name.replace("_INGOT", "").toLowerCase() + "mineralized_apiary");
 
             ItemWrapper APIARY = ItemWrapper.create(APIARY_KEY, new SlimefunItemStack(APIARY_KEY.asSlimefunId(),
-                    Material.BEEHIVE,
+                    MaterialCompat.safe(XMaterial.BEEHIVE),
                     "&f" + ItemUtils.getItemName(item).replace(" Ingot", "") + " Mineralized Apiary",
                     "",
                     "&fProduces a material",
@@ -694,6 +700,12 @@ public class DynaTechItemsSetup {
                     .register(plugin);
         }
 
+    }
+
+    private static ItemStack qty(ItemStack item, int amount) {
+        ItemStack copy = item.clone();
+        copy.setAmount(amount);
+        return copy;
     }
 }
 

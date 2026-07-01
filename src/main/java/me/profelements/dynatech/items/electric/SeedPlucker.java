@@ -15,10 +15,11 @@ import me.profelements.dynatech.items.abstracts.AbstractElectricMachine;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class SeedPlucker extends AbstractElectricMachine {
         
@@ -29,7 +30,7 @@ public class SeedPlucker extends AbstractElectricMachine {
     private static final int[] OUTPUT_BORDER_SLOTS = new int[] {14, 15, 16, 17, 23, 26, 32, 33, 34, 35 };
     private static final int[] BACKGROUND_SLOTS = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 13, 31, 36, 37, 38, 39, 40, 41, 42, 43, 44 }; 
 
-    private static final ItemStack PROGRESS_ITEM = new ItemStack(Material.IRON_HOE);
+    private static final ItemStack PROGRESS_ITEM = new ItemStack(MaterialCompat.safe(XMaterial.IRON_HOE));
 
     private final ItemSetting<Boolean> exoticGardenIntegration = new ItemSetting<>(this, "exotic-garden-integration", true);
 
@@ -40,11 +41,11 @@ public class SeedPlucker extends AbstractElectricMachine {
     }
 
     public void registerDefaultRecipes() {
-        recipes.add(new MachineRecipe(10, new ItemStack[] {new ItemStack(Material.CHORUS_FRUIT, 4)},  new ItemStack[] {new ItemStack(Material.CHORUS_FLOWER)}));
-        recipes.add(new MachineRecipe(10, new ItemStack[] {new ItemStack(Material.WHEAT)}, new ItemStack[] {new ItemStack(Material.WHEAT_SEEDS)}));
-        recipes.add(new MachineRecipe(10, new ItemStack[] {new ItemStack(Material.BEETROOT)}, new ItemStack[] {new ItemStack(Material.BEETROOT_SEEDS)}));
-        recipes.add(new MachineRecipe(10, new ItemStack[] {new ItemStack(Material.PUMPKIN)}, new ItemStack[] {new ItemStack(Material.PUMPKIN_SEEDS)}));
-        recipes.add(new MachineRecipe(10, new ItemStack[] {new ItemStack(Material.MELON_SLICE)}, new ItemStack[] {new ItemStack(Material.MELON_SEEDS)})); 
+        recipes.add(new MachineRecipe(10, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.CHORUS_FRUIT), 4)},  new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.CHORUS_FLOWER))}));
+        recipes.add(new MachineRecipe(10, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.WHEAT))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.WHEAT_SEEDS))}));
+        recipes.add(new MachineRecipe(10, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.BEETROOT))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.BEETROOT_SEEDS))}));
+        recipes.add(new MachineRecipe(10, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.PUMPKIN))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.PUMPKIN_SEEDS))}));
+        recipes.add(new MachineRecipe(10, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.MELON_SLICE))}, new ItemStack[] {new ItemStack(MaterialCompat.safe(XMaterial.MELON_SEEDS))})); 
     }
     
     @Override
@@ -72,13 +73,13 @@ public class SeedPlucker extends AbstractElectricMachine {
             preset.addItem(slot, ChestMenuUtils.getOutputSlotTexture(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        preset.addItem(getProgressSlot(), CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(getProgressSlot(), CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "), ChestMenuUtils.getEmptyClickHandler());
         
         for (int slot : getOutputSlots()) {
             preset.addMenuClickHandler(slot,new ChestMenu.AdvancedMenuClickHandler() {
                 @Override
                 public boolean onClick(InventoryClickEvent e, Player p, int slot, ItemStack cursor, ClickAction action) {
-                    return cursor.getType().isAir();
+                    return MaterialCompat.isAir(cursor.getType());
                 }
 
                 @Override

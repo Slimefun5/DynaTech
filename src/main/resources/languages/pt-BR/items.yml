@@ -1,0 +1,333 @@
+# Brazilian Portuguese item translations for DynaTech. Keyed by Slimefun item id.
+# name = display name, '&' colour codes preserved. Missing items fall back to English.
+
+DYNATECH_WOOD_MACHINE_CORE:
+  name: "&fNúcleo de Máquina de Madeira"
+
+DYNATECH_STONE_MACHINE_CORE:
+  name: "&fNúcleo de Máquina de Pedra"
+
+DYNATECH_IRON_MACHINE_CORE:
+  name: "&fNúcleo de Máquina de Ferro"
+
+DYNATECH_DIAMOND_MACHINE_CORE:
+  name: "&fNúcleo de Máquina de Diamante"
+
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: "&bNúcleo de Máquina Encantado"
+
+DYNATECH_ANCIENT_MACHINE_CORE:
+  name: "&fNúcleo de Máquina Antigo"
+
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: "&cComponente de Armazenamento de Energia"
+
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: "&cComponente de Entrada de Energia"
+
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: "&cComponente de Saída de Energia"
+
+DYNATECH_DEGRADED_WATER_MILL:
+  name: "&cMoinho de Água Degradado"
+
+DYNATECH_DEGRADED_WATER_MILL_2:
+  name: "&cTurbina Hídrica Degradada"
+
+DYNATECH_DEGRADED_WIND_MILL:
+  name: "&cMoinho de Vento Degradado"
+
+DYNATECH_DEGRADED_WIND_MILL_2:
+  name: "&cTurbina Eólica Degradada"
+
+DYNATECH_DEGRADED_EGG_MILL:
+  name: "&cMoinho de Ovo de Dragão Degradado"
+
+DYNATECH_DEGRADED_EGG_MILL_2:
+  name: "&cTurbina de Ovo de Dragão Degradada"
+
+DYNATECH_WATER_MILL:
+  name: "&bMoinho de Água"
+
+DYNATECH_WATER_MILL_2:
+  name: "&bTurbina Hídrica"
+
+DYNATECH_WIND_MILL:
+  name: "&bMoinho de Vento"
+
+DYNATECH_WIND_MILL_2:
+  name: "&bTurbina Eólica"
+
+DYNATECH_EGG_MILL:
+  name: "&bMoinho de Ovo de Dragão"
+
+DYNATECH_EGG_MILL_2:
+  name: "&bTurbina de Ovo de Dragão"
+
+DYNATECH_DURABILITY_GENERATOR:
+  name: "&bGerador de Lascamento"
+
+DYNATECH_FOOD_GENERATOR:
+  name: "&bGerador Culinário"
+
+DYNATECH_STARDUST_GENERATOR:
+  name: "&bReator de Poeira Estelar"
+
+DYNATECH_STAINLESS_STEEL_INGOT:
+  name: "&fLingote de Aço Inoxidável"
+
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: "&fRotor de Aço Inoxidável"
+
+DYNATECH_COAL_COKE:
+  name: "&fCoque de Carvão"
+
+DYNATECH_BEE:
+  name: "&6Abelha"
+
+DYNATECH_ROBOTIC_BEE:
+  name: "&6Abelha Robótica"
+
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  name: "&6Abelha Robótica Avançada"
+
+DYNATECH_VEX_GEM:
+  name: "&6Gema de Vex"
+
+DYNATECH_MACHINE_SCRAP:
+  name: "&6Sucata de Máquina"
+
+DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: "&6Sucata de Máquina Avançada"
+
+DYNATECH_STAR_DUST:
+  name: "&6Poeira Estelar"
+
+DYNATECH_GHOSTLY_ESSENCE:
+  name: "&6Essência Fantasmagórica"
+
+DYNATECH_TESSERACTING_OBJECT:
+  name: "&6Objeto Tesseráctico"
+
+DYNATECH_LIVINGROCK:
+  name: "&6Rocha Viva"
+
+DYNATECH_LIVINGWOOD:
+  name: "&6Madeira Viva"
+
+DYNATECH_ELECTRICAL_STIMULATOR:
+  name: "&6Estimulador Elétrico"
+
+DYNATECH_INVENTORY_FILTER:
+  name: "&6Filtro de Inventário"
+
+DYNATECH_ANGEL_GEM:
+  name: "&6Gema de Voo"
+
+DYNATECH_RECIPE_BOOK:
+  name: "&6Livro de Receitas"
+
+DYNATECH_AUTO_INPUT_UPGRADE:
+  name: "&6Aprimoramento de Entrada Automática"
+
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  name: "&6Aprimoramento de Saída Automática"
+
+DYNATECH_FLUID_TANK:
+  name: "&fTanque de Fluido"
+
+DYNATECH_LIQUID_TANK:
+  name: "&6Tanque de Líquido Portátil"
+
+DYNATECH_PICNIC_BASKET:
+  name: "&6Cesta de Piquenique"
+
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  name: "&6Cesta de Piquenique Vinculada à Alma"
+
+DYNATECH_SCOOP:
+  name: "&6Concha"
+
+DYNATECH_DIMENSIONAL_HOME:
+  name: "&6Lar Dimensional"
+
+DYNATECH_HASTE_ITEM_BAND:
+  name: "&6Faixa de Item de Pressa"
+
+DYNATECH_HEALTH_ITEM_BAND:
+  name: "&6Faixa de Item de Saúde"
+
+DYNATECH_TESSERACT_BINDER:
+  name: "&6Vinculador de Tesserato"
+
+DYNATECH_WITHER_SKELETON_GOLEM:
+  name: "&6MultiBloco de Golem Wither"
+
+DYNATECH_COAL_COKE_OVEN:
+  name: "&fControlador do Forno de Coque"
+
+DYNATECH_AUTO_KITCHEN:
+  name: "&6Cozinha Automática"
+
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  name: "&6Fabricador Automático de Cozinha"
+
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  name: "&6Bolha Antigravidade"
+
+DYNATECH_WEATHER_CONTROLLER:
+  name: "&6Controlador do Clima"
+
+DYNATECH_POTION_SPRINKLER:
+  name: "&6Aspersor de Poções"
+
+DYNATECH_BARBED_WIRE:
+  name: "&6Arame Farpado"
+
+DYNATECH_MATERIAL_HIVE:
+  name: "&6Colmeia de Materiais"
+
+DYNATECH_WIRELESS_CHARGER:
+  name: "&6Carregador Sem Fio"
+
+DYNATECH_SEED_PLUCKER:
+  name: "&6Colhedor de Sementes"
+
+DYNATECH_BANDAID_MANAGER:
+  name: "&6Gerenciador de Faixas de Item"
+
+DYNATECH_ORECHID:
+  name: "&6Orquídea de Minério"
+
+DYNATECH_WIRELESS_ENERGY_POINT:
+  name: "&6Ponto de Energia Sem Fio"
+
+DYNATECH_WIRELESS_ENERGY_BANK:
+  name: "&6Banco de Energia Sem Fio"
+
+DYNATECH_TESSERACT:
+  name: "&6Tesserato"
+
+DYNATECH_WIRELESS_ITEM_INPUT:
+  name: "&6Entrada de Itens Sem Fio"
+
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  name: "&6Saída de Itens Sem Fio"
+
+DYNATECH_EXTERNAL_HEATER:
+  name: "&6Aquecedor Externo"
+
+DYNATECH_GROWTH_CHAMBER:
+  name: "&6Câmara de Crescimento"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  name: "&bCâmara de Crescimento Oceânica"
+
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  name: "&cCâmara de Crescimento do Nether"
+
+DYNATECH_END_GROWTH_CHAMBER:
+  name: "&dCâmara de Crescimento do End"
+
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  name: "&6Câmara de Crescimento MK2"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  name: "&bCâmara de Crescimento Oceânica MK2"
+
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  name: "&cCâmara de Crescimento do Nether MK2"
+
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  name: "&dCâmara de Crescimento do End MK2"
+
+DYNATECH_PETAL_APOTHECARY:
+  name: "&dBoticário de Pétalas"
+
+DYNATECH_LAVA_BOTTLE:
+  name: "&fGarrafa de Lava"
+
+DYNATECH_MILK_BOTTLE:
+  name: "&fGarrafa de Leite"
+
+DYNATECH_HONEY_BUCKET:
+  name: "&fBalde de Mel"
+
+DYNATECH_POTION_BUCKET:
+  name: "&fBalde de Poção"
+
+STARDUST_METEOR:
+  name: "&6Meteoro de Poeira Estelar"
+
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Ferro"
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Ouro"
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Netherita"
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Diamante"
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Esmeralda"
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Lápis-Lazúli"
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Quartzo"
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Redstone"
+DYNATECH_COALMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Carvão"
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Cobre"
+DYNATECH_TINMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Estanho"
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Prata"
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Alumínio"
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Chumbo"
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Zinco"
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Magnésio"
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Aço"
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Duralumínio"
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Bilhão"
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Latão"
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Latão de Alumínio"
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Bronze de Alumínio"
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Bronze Coríntio"
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Solda"
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Aço de Damasco"
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Metal Endurecido"
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Liga Reforçada"
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Ferrossilício"
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Ferro Dourado"
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Níquel"
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Cobalto"
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Liga de Redstone"
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Diamante Sintético"
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Esmeralda Sintética"
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Safira Sintética"
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  name: "&fColmeia Mineralizada de Carbonado"

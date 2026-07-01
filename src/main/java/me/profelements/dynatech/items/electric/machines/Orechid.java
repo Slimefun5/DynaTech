@@ -22,6 +22,8 @@ import java.util.Map;
 import java.util.Set;
 
 import javax.annotation.Nonnull;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 //I feel like this can somehow be much better :O (review)
 
@@ -107,29 +109,29 @@ public class Orechid extends AbstractElectricTicker implements RecipeDisplayItem
     }
 
     private static void registerDefaultOres() {
-        // registerOre(Material.STONE, Material.COAL_ORE, 3);
-        // registerOre(Material.STONE, Material.IRON_ORE, 2);
-        // registerOre(Material.STONE, Material.GOLD_ORE, 2);
-        // registerOre(Material.STONE, Material.DIAMOND_ORE, 1);
-        // registerOre(Material.STONE, Material.EMERALD_ORE, 1);
-        // registerOre(Material.STONE, Material.REDSTONE_ORE, 3);
-        // registerOre(Material.STONE, Material.LAPIS_ORE, 3);
-        // registerOre(Material.STONE, Material.COPPER_ORE, 3);
+        // registerOre(MaterialCompat.safe(XMaterial.STONE), MaterialCompat.safe(XMaterial.COAL_ORE), 3);
+        // registerOre(MaterialCompat.safe(XMaterial.STONE), MaterialCompat.safe(XMaterial.IRON_ORE), 2);
+        // registerOre(MaterialCompat.safe(XMaterial.STONE), MaterialCompat.safe(XMaterial.GOLD_ORE), 2);
+        // registerOre(MaterialCompat.safe(XMaterial.STONE), MaterialCompat.safe(XMaterial.DIAMOND_ORE), 1);
+        // registerOre(MaterialCompat.safe(XMaterial.STONE), MaterialCompat.safe(XMaterial.EMERALD_ORE), 1);
+        // registerOre(MaterialCompat.safe(XMaterial.STONE), MaterialCompat.safe(XMaterial.REDSTONE_ORE), 3);
+        // registerOre(MaterialCompat.safe(XMaterial.STONE), MaterialCompat.safe(XMaterial.LAPIS_ORE), 3);
+        // registerOre(MaterialCompat.safe(XMaterial.STONE), MaterialCompat.safe(XMaterial.COPPER_ORE), 3);
         //
-        // registerOre(Material.NETHERRACK, Material.NETHER_QUARTZ_ORE, 3);
-        // registerOre(Material.NETHERRACK, Material.NETHER_GOLD_ORE, 3);
-        // registerOre(Material.NETHERRACK, Material.ANCIENT_DEBRIS, 1);
-        // registerOre(Material.NETHERRACK, Material.BASALT, 5);
-        // registerOre(Material.NETHERRACK, Material.BLACKSTONE, 5);
+        // registerOre(MaterialCompat.safe(XMaterial.NETHERRACK), MaterialCompat.safe(XMaterial.NETHER_QUARTZ_ORE), 3);
+        // registerOre(MaterialCompat.safe(XMaterial.NETHERRACK), MaterialCompat.safe(XMaterial.NETHER_GOLD_ORE), 3);
+        // registerOre(MaterialCompat.safe(XMaterial.NETHERRACK), MaterialCompat.safe(XMaterial.ANCIENT_DEBRIS), 1);
+        // registerOre(MaterialCompat.safe(XMaterial.NETHERRACK), MaterialCompat.safe(XMaterial.BASALT), 5);
+        // registerOre(MaterialCompat.safe(XMaterial.NETHERRACK), MaterialCompat.safe(XMaterial.BLACKSTONE), 5);
         //
-        // registerOre(Material.DEEPSLATE, Material.DEEPSLATE_COAL_ORE, 3);
-        // registerOre(Material.DEEPSLATE, Material.DEEPSLATE_IRON_ORE, 2);
-        // registerOre(Material.DEEPSLATE, Material.DEEPSLATE_GOLD_ORE, 2);
-        // registerOre(Material.DEEPSLATE, Material.DEEPSLATE_DIAMOND_ORE, 1);
-        // registerOre(Material.DEEPSLATE, Material.DEEPSLATE_EMERALD_ORE, 1);
-        // registerOre(Material.DEEPSLATE, Material.DEEPSLATE_REDSTONE_ORE, 3);
-        // registerOre(Material.DEEPSLATE, Material.DEEPSLATE_LAPIS_ORE, 3);
-        // registerOre(Material.DEEPSLATE, Material.DEEPSLATE_COPPER_ORE, 3);
+        // registerOre(MaterialCompat.safe(XMaterial.DEEPSLATE), MaterialCompat.safe(XMaterial.DEEPSLATE_COAL_ORE), 3);
+        // registerOre(MaterialCompat.safe(XMaterial.DEEPSLATE), MaterialCompat.safe(XMaterial.DEEPSLATE_IRON_ORE), 2);
+        // registerOre(MaterialCompat.safe(XMaterial.DEEPSLATE), MaterialCompat.safe(XMaterial.DEEPSLATE_GOLD_ORE), 2);
+        // registerOre(MaterialCompat.safe(XMaterial.DEEPSLATE), MaterialCompat.safe(XMaterial.DEEPSLATE_DIAMOND_ORE), 1);
+        // registerOre(MaterialCompat.safe(XMaterial.DEEPSLATE), MaterialCompat.safe(XMaterial.DEEPSLATE_EMERALD_ORE), 1);
+        // registerOre(MaterialCompat.safe(XMaterial.DEEPSLATE), MaterialCompat.safe(XMaterial.DEEPSLATE_REDSTONE_ORE), 3);
+        // registerOre(MaterialCompat.safe(XMaterial.DEEPSLATE), MaterialCompat.safe(XMaterial.DEEPSLATE_LAPIS_ORE), 3);
+        // registerOre(MaterialCompat.safe(XMaterial.DEEPSLATE), MaterialCompat.safe(XMaterial.DEEPSLATE_COPPER_ORE), 3);
         //
     }
 

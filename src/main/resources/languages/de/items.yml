@@ -1,0 +1,339 @@
+# German item translations for DynaTech. Keyed by Slimefun item id.
+# name = display name, '&' colour codes preserved. Missing items fall back to English.
+
+DYNATECH_WOOD_MACHINE_CORE:
+  name: "&fHolz-Maschinenkern"
+
+DYNATECH_STONE_MACHINE_CORE:
+  name: "&fStein-Maschinenkern"
+
+DYNATECH_IRON_MACHINE_CORE:
+  name: "&fEisen-Maschinenkern"
+
+DYNATECH_DIAMOND_MACHINE_CORE:
+  name: "&fDiamant-Maschinenkern"
+
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: "&bVerzauberter Maschinenkern"
+
+DYNATECH_ANCIENT_MACHINE_CORE:
+  name: "&fUralter Maschinenkern"
+
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: "&cEnergiespeicher-Komponente"
+
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: "&cEnergie-Eingangskomponente"
+
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: "&cEnergie-Ausgangskomponente"
+
+DYNATECH_DEGRADED_WATER_MILL:
+  name: "&cVerschlissene Wassermühle"
+
+DYNATECH_DEGRADED_WATER_MILL_2:
+  name: "&cVerschlissene Hydroturbine"
+
+DYNATECH_DEGRADED_WIND_MILL:
+  name: "&cVerschlissene Windmühle"
+
+DYNATECH_DEGRADED_WIND_MILL_2:
+  name: "&cVerschlissene Windturbine"
+
+DYNATECH_DEGRADED_EGG_MILL:
+  name: "&cVerschlissene Drachenei-Mühle"
+
+DYNATECH_DEGRADED_EGG_MILL_2:
+  name: "&cVerschlissene Drachenei-Turbine"
+
+DYNATECH_WATER_MILL:
+  name: "&bWassermühle"
+
+DYNATECH_WATER_MILL_2:
+  name: "&bHydroturbine"
+
+DYNATECH_WIND_MILL:
+  name: "&bWindmühle"
+
+DYNATECH_WIND_MILL_2:
+  name: "&bWindturbine"
+
+DYNATECH_EGG_MILL:
+  name: "&bDrachenei-Mühle"
+
+DYNATECH_EGG_MILL_2:
+  name: "&bDrachenei-Turbine"
+
+DYNATECH_DURABILITY_GENERATOR:
+  name: "&bSchnitzel-Generator"
+
+DYNATECH_FOOD_GENERATOR:
+  name: "&bKulinarischer Generator"
+
+DYNATECH_STARDUST_GENERATOR:
+  name: "&bSternenstaub-Reaktor"
+
+DYNATECH_STAINLESS_STEEL_INGOT:
+  name: "&fEdelstahlbarren"
+
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: "&fEdelstahlrotor"
+
+DYNATECH_COAL_COKE:
+  name: "&fKokskohle"
+
+DYNATECH_BEE:
+  name: "&6Biene"
+
+DYNATECH_ROBOTIC_BEE:
+  name: "&6Roboterbiene"
+
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  name: "&6Fortgeschrittene Roboterbiene"
+
+DYNATECH_VEX_GEM:
+  name: "&6Vex-Edelstein"
+
+DYNATECH_MACHINE_SCRAP:
+  name: "&6Maschinenschrott"
+
+DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: "&6Fortgeschrittener Maschinenschrott"
+
+DYNATECH_STAR_DUST:
+  name: "&6Sternenstaub"
+
+DYNATECH_GHOSTLY_ESSENCE:
+  name: "&6Geisterhafte Essenz"
+
+DYNATECH_TESSERACTING_OBJECT:
+  name: "&6Tesserakt-Objekt"
+
+DYNATECH_LIVINGROCK:
+  name: "&6Lebender Fels"
+
+DYNATECH_LIVINGWOOD:
+  name: "&6Lebendes Holz"
+
+DYNATECH_ELECTRICAL_STIMULATOR:
+  name: "&6Elektrischer Stimulator"
+
+DYNATECH_INVENTORY_FILTER:
+  name: "&6Inventarfilter"
+
+DYNATECH_ANGEL_GEM:
+  name: "&6Flug-Edelstein"
+
+DYNATECH_RECIPE_BOOK:
+  name: "&6Rezeptbuch"
+
+DYNATECH_AUTO_INPUT_UPGRADE:
+  name: "&6Auto-Eingang-Verbesserung"
+
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  name: "&6Auto-Ausgang-Verbesserung"
+
+DYNATECH_FLUID_TANK:
+  name: "&fFlüssigkeitstank"
+
+DYNATECH_LIQUID_TANK:
+  name: "&6Tragbarer Flüssigkeitstank"
+
+DYNATECH_PICNIC_BASKET:
+  name: "&6Picknickkorb"
+
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  name: "&6Seelengebundener Picknickkorb"
+
+DYNATECH_SCOOP:
+  name: "&6Kescher"
+
+DYNATECH_DIMENSIONAL_HOME:
+  name: "&6Dimensionales Zuhause"
+
+DYNATECH_HASTE_ITEM_BAND:
+  name: "&6Eile-Gegenstandsband"
+
+DYNATECH_HEALTH_ITEM_BAND:
+  name: "&6Gesundheits-Gegenstandsband"
+
+DYNATECH_TESSERACT_BINDER:
+  name: "&6Tesserakt-Binder"
+
+DYNATECH_WITHER_SKELETON_GOLEM:
+  name: "&6Wither-Golem-MultiBlock"
+
+DYNATECH_COAL_COKE_OVEN:
+  name: "&fKoksofen-Steuerung"
+
+DYNATECH_AUTO_KITCHEN:
+  name: "&6Auto-Küche"
+
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  name: "&6Küchen-Auto-Crafter"
+
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  name: "&6Antigravitationsblase"
+
+DYNATECH_WEATHER_CONTROLLER:
+  name: "&6Wetterkontroller"
+
+DYNATECH_POTION_SPRINKLER:
+  name: "&6Trank-Sprinkler"
+
+DYNATECH_BARBED_WIRE:
+  name: "&6Stacheldraht"
+
+DYNATECH_MATERIAL_HIVE:
+  name: "&6Material-Bienenstock"
+
+DYNATECH_WIRELESS_CHARGER:
+  name: "&6Drahtloses Ladegerät"
+
+DYNATECH_SEED_PLUCKER:
+  name: "&6Samenzupfer"
+
+DYNATECH_BANDAID_MANAGER:
+  name: "&6Gegenstandsband-Verwalter"
+
+DYNATECH_ORECHID:
+  name: "&6Erzorchidee"
+
+DYNATECH_WIRELESS_ENERGY_POINT:
+  name: "&6Drahtloser Energiepunkt"
+
+DYNATECH_WIRELESS_ENERGY_BANK:
+  name: "&6Drahtlose Energiebank"
+
+DYNATECH_TESSERACT:
+  name: "&6Tesserakt"
+
+DYNATECH_WIRELESS_ITEM_INPUT:
+  name: "&6Drahtloser Gegenstandseingang"
+
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  name: "&6Drahtloser Gegenstandsausgang"
+
+DYNATECH_EXTERNAL_HEATER:
+  name: "&6Externer Erhitzer"
+
+DYNATECH_GROWTH_CHAMBER:
+  name: "&6Wachstumskammer"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  name: "&bOzean-Wachstumskammer"
+
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  name: "&cNether-Wachstumskammer"
+
+DYNATECH_END_GROWTH_CHAMBER:
+  name: "&dEnd-Wachstumskammer"
+
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  name: "&6Wachstumskammer MK2"
+
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  name: "&bOzean-Wachstumskammer MK2"
+
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  name: "&cNether-Wachstumskammer MK2"
+
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  name: "&dEnd-Wachstumskammer MK2"
+
+DYNATECH_PETAL_APOTHECARY:
+  name: "&dBlütenblatt-Apotheke"
+
+DYNATECH_LAVA_BOTTLE:
+  name: "&fLavaflasche"
+
+DYNATECH_MILK_BOTTLE:
+  name: "&fMilchflasche"
+
+DYNATECH_HONEY_BUCKET:
+  name: "&fHonigeimer"
+
+DYNATECH_POTION_BUCKET:
+  name: "&fTrankeimer"
+
+STARDUST_METEOR:
+  name: "&6Sternenstaub-Meteor"
+
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: "&fMineralisierter Eisen-Bienenstock"
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: "&fMineralisierter Gold-Bienenstock"
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: "&fMineralisierter Netherit-Bienenstock"
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: "&fMineralisierter Diamant-Bienenstock"
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: "&fMineralisierter Smaragd-Bienenstock"
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: "&fMineralisierter Lapislazuli-Bienenstock"
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: "&fMineralisierter Quarz-Bienenstock"
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: "&fMineralisierter Redstone-Bienenstock"
+DYNATECH_COALMINERALIZED_APIARY:
+  name: "&fMineralisierter Kohle-Bienenstock"
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: "&fMineralisierter Kupfer-Bienenstock"
+DYNATECH_TINMINERALIZED_APIARY:
+  name: "&fMineralisierter Zinn-Bienenstock"
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: "&fMineralisierter Silber-Bienenstock"
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  name: "&fMineralisierter Aluminium-Bienenstock"
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: "&fMineralisierter Blei-Bienenstock"
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: "&fMineralisierter Zink-Bienenstock"
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: "&fMineralisierter Magnesium-Bienenstock"
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: "&fMineralisierter Stahl-Bienenstock"
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: "&fMineralisierter Duraluminium-Bienenstock"
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: "&fMineralisierter Billon-Bienenstock"
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: "&fMineralisierter Messing-Bienenstock"
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  name: "&fMineralisierter Aluminiummessing-Bienenstock"
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  name: "&fMineralisierter Aluminiumbronze-Bienenstock"
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: "&fMineralisierter Korinthische-Bronze-Bienenstock"
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: "&fMineralisierter Lötzinn-Bienenstock"
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: "&fMineralisierter Damaszener-Stahl-Bienenstock"
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: "&fMineralisierter Gehärtetes-Metall-Bienenstock"
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: "&fMineralisierter Verstärkte-Legierung-Bienenstock"
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: "&fMineralisierter Ferrosilizium-Bienenstock"
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: "&fMineralisierter Vergoldetes-Eisen-Bienenstock"
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: "&fMineralisierter Nickel-Bienenstock"
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: "&fMineralisierter Kobalt-Bienenstock"
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: "&fMineralisierter Redstone-Legierung-Bienenstock"
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: "&fMineralisierter Synthetischer-Diamant-Bienenstock"
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: "&fMineralisierter Synthetischer-Smaragd-Bienenstock"
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: "&fMineralisierter Synthetischer-Saphir-Bienenstock"
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  name: "&fMineralisierter Carbonado-Bienenstock"
+
+# --- auto-generated German translations (batch 2026-06-30) ---
+VEX_DATA_CARD:
+  name: "&bPlagegeist-Datenkarte"
+PHANTOM_DATA_CARD:
+  name: "&bPhantom-Datenkarte"

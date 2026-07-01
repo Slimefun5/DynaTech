@@ -1,6 +1,5 @@
 package me.profelements.dynatech.items.electric;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.ParametersAreNonnullByDefault;
@@ -19,6 +18,7 @@ import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import me.profelements.dynatech.items.abstracts.AbstractElectricTicker;
+import me.profelements.dynatech.utils.EntityTypeCompat;
 
 public class BarbedWire extends AbstractElectricTicker {
 
@@ -35,52 +35,14 @@ public class BarbedWire extends AbstractElectricTicker {
     }
 
     private List<EntityType> getEntityWhitelist() {
-        ArrayList<EntityType> whitelist = new ArrayList<>();
-
-        whitelist.add(EntityType.ARROW);
-        whitelist.add(EntityType.BLAZE);
-        whitelist.add(EntityType.CAVE_SPIDER);
-        whitelist.add(EntityType.CREEPER);
-        whitelist.add(EntityType.DRAGON_FIREBALL);
-        whitelist.add(EntityType.DROWNED);
-        whitelist.add(EntityType.ELDER_GUARDIAN);
-        whitelist.add(EntityType.ENDER_DRAGON);
-        whitelist.add(EntityType.ENDERMAN);
-        whitelist.add(EntityType.ENDERMITE);
-        whitelist.add(EntityType.EVOKER);
-        whitelist.add(EntityType.FIREBALL);
-        whitelist.add(EntityType.GHAST);
-        whitelist.add(EntityType.GIANT);
-        whitelist.add(EntityType.GUARDIAN);
-        whitelist.add(EntityType.HOGLIN);
-        whitelist.add(EntityType.HUSK);
-        whitelist.add(EntityType.ILLUSIONER);
-        whitelist.add(EntityType.MAGMA_CUBE);
-        whitelist.add(EntityType.PHANTOM);
-        whitelist.add(EntityType.PIGLIN);
-        whitelist.add(EntityType.PIGLIN_BRUTE);
-        whitelist.add(EntityType.PILLAGER);
-        whitelist.add(EntityType.RAVAGER);
-        whitelist.add(EntityType.SHULKER);
-        whitelist.add(EntityType.SHULKER_BULLET);
-        whitelist.add(EntityType.SILVERFISH);
-        whitelist.add(EntityType.SKELETON);
-        whitelist.add(EntityType.SLIME);
-        whitelist.add(EntityType.SMALL_FIREBALL);
-        whitelist.add(EntityType.SPIDER);
-        whitelist.add(EntityType.STRAY);
-        whitelist.add(EntityType.VEX);
-        whitelist.add(EntityType.VINDICATOR);
-        whitelist.add(EntityType.WARDEN);
-        whitelist.add(EntityType.WITCH);
-        whitelist.add(EntityType.WITHER);
-        whitelist.add(EntityType.WITHER_SKELETON);
-        whitelist.add(EntityType.WITHER_SKULL);
-        whitelist.add(EntityType.ZOGLIN);
-        whitelist.add(EntityType.ZOMBIE);
-        whitelist.add(EntityType.ZOMBIFIED_PIGLIN);
-
-        return whitelist;
+        return EntityTypeCompat.resolve(
+            "ARROW", "BLAZE", "CAVE_SPIDER", "CREEPER", "DRAGON_FIREBALL", "DROWNED",
+            "ELDER_GUARDIAN", "ENDER_DRAGON", "ENDERMAN", "ENDERMITE", "EVOKER", "FIREBALL",
+            "GHAST", "GIANT", "GUARDIAN", "HOGLIN", "HUSK", "ILLUSIONER", "MAGMA_CUBE",
+            "PHANTOM", "PIGLIN", "PIGLIN_BRUTE", "PILLAGER", "RAVAGER", "SHULKER",
+            "SHULKER_BULLET", "SILVERFISH", "SKELETON", "SLIME", "SMALL_FIREBALL", "SPIDER",
+            "STRAY", "VEX", "VINDICATOR", "WITCH", "WITHER", "WITHER_SKELETON", "WITHER_SKULL",
+            "ZOGLIN", "ZOMBIE", "ZOMBIFIED_PIGLIN");
     }
 
     protected void tick(Block block, SlimefunItem item) {

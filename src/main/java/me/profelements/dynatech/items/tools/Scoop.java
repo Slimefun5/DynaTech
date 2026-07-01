@@ -11,7 +11,7 @@ import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import me.profelements.dynatech.registries.Items;
 
-import org.bukkit.Sound;
+import me.profelements.dynatech.utils.SoundCompat;
 import org.bukkit.entity.Bee;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -46,7 +46,7 @@ public class Scoop extends SlimefunItem implements Rechargeable, NotPlaceable {
                 entity.remove();
                 removeItemCharge(item, 8);
 
-                p.playSound(p.getLocation(), Sound.BLOCK_ANVIL_FALL, 1, 1);
+                SoundCompat.play(p, p.getLocation(), "BLOCK_ANVIL_FALL", 1, 1);
             }
         };
 

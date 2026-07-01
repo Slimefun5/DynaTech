@@ -2,9 +2,10 @@ package me.profelements.dynatech.utils;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
@@ -35,7 +36,7 @@ public class RecipeRegistry {
     }
 
     public final Recipe getRecipeByKey(NamespacedKey key) {
-        return getRecipes().stream().filter(r -> r.getKey().equals(key)).toList().get(0);
+        return getRecipes().stream().filter(r -> r.getKey().equals(key)).collect(Collectors.toList()).get(0);
     }
 
     public final Stream<Recipe> getRecipesByRecipeType(RecipeType type) {
@@ -56,7 +57,7 @@ public class RecipeRegistry {
 
     public final boolean isMatching(RecipeType type, ItemStack[] input, ItemStack output) {
         List<Recipe> recipes = getRecipesByRecipeType(type).filter(r -> r.getOutput().equals(output))
-                .filter(r -> r.getInput().equals(input)).toList();
+                .filter(r -> r.getInput().equals(input)).collect(Collectors.toList());
         return !recipes.isEmpty();
     }
 

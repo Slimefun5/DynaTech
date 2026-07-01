@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -15,7 +14,7 @@ import org.bukkit.event.player.PlayerItemConsumeEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import me.profelements.dynatech.compat.Pdc;
 import io.github.thebusybiscuit.slimefun5.api.events.PlayerRightClickEvent;
 import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
@@ -23,6 +22,8 @@ import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import me.profelements.dynatech.DynaTech;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class FluidTank extends SlimefunItem implements Listener {
 
@@ -39,27 +40,27 @@ public class FluidTank extends SlimefunItem implements Listener {
             @Override
             public void onRightClick(PlayerRightClickEvent event) {
 
-                ItemStack handItem = event.getPlayer().getEquipment().getItem(event.getHand());
+                ItemStack handItem = event.getPlayer().getInventory().getItemInHand();
                 if (event.getPlayer().isSneaking()) {
                     FluidStack handFluid = FluidStack.fromItemStack(handItem);
 
-                    if (handFluid == null || !handItem.getType().equals(Material.BUCKET)) {
-                        handItem.setType(Material.BUCKET);
+                    if (handFluid == null || !handItem.getType().equals(MaterialCompat.safe(XMaterial.BUCKET))) {
+                        handItem.setType(MaterialCompat.safe(XMaterial.BUCKET));
                         return;
                     }
 
                     if (handFluid.fluid().equals(FluidStack.LAVA_FLUID)) {
-                        handItem.setType(Material.LAVA_BUCKET);
+                        handItem.setType(MaterialCompat.safe(XMaterial.LAVA_BUCKET));
                         return;
                     }
 
                     if (handFluid.fluid().equals(FluidStack.WATER_FLUID)) {
-                        handItem.setType(Material.WATER_BUCKET);
+                        handItem.setType(MaterialCompat.safe(XMaterial.WATER_BUCKET));
                         return;
                     }
 
                     if (handFluid.fluid().equals(FluidStack.MILK_FLUID)) {
-                        handItem.setType(Material.MILK_BUCKET);
+                        handItem.setType(MaterialCompat.safe(XMaterial.MILK_BUCKET));
                         return;
                     }
                 }
@@ -69,14 +70,14 @@ public class FluidTank extends SlimefunItem implements Listener {
 
     @EventHandler
     public void onBucketFill(PlayerBucketFillEvent event) {
-        SlimefunItem sf = SlimefunItem.getByItem(event.getPlayer().getEquipment().getItem(event.getHand()));
+        SlimefunItem sf = SlimefunItem.getByItem(event.getPlayer().getInventory().getItemInHand());
         if (sf == null || !this.getId().equals(sf.getId())) {
             return;
         }
 
         FluidStack stack = FluidTankAdapter.getFluidFromItemStack(event.getItemStack());
 
-        ItemStack handItem = event.getPlayer().getEquipment().getItem(event.getHand()).clone();
+        ItemStack handItem = event.getPlayer().getInventory().getItemInHand().clone();
 
         FluidStack handFluid = FluidStack.fromItemStack(handItem);
         ItemMeta handMeta = handItem.getItemMeta();
@@ -88,9 +89,9 @@ public class FluidTank extends SlimefunItem implements Listener {
             if (handFluid != null) {
                 amount = handFluid.amount();
             }
-            PersistentDataAPI.setString(handMeta, FluidStack.FLUID_KEY,
+            Pdc.setString(handMeta, FluidStack.FLUID_KEY,
                     stack.fluid().toString());
-            PersistentDataAPI.setInt(handMeta, FluidStack.FLUID_AMOUNT_KEY, amount +
+            Pdc.setInt(handMeta, FluidStack.FLUID_AMOUNT_KEY, amount +
                     stack.amount());
 
             handFluid = FluidStack.of(stack.fluid(), amount + stack.amount());
@@ -112,19 +113,19 @@ public class FluidTank extends SlimefunItem implements Listener {
 
     @EventHandler
     public void onBucketEmpty(PlayerBucketEmptyEvent event) {
-        SlimefunItem sf = SlimefunItem.getByItem(event.getPlayer().getEquipment().getItem(event.getHand()));
+        SlimefunItem sf = SlimefunItem.getByItem(event.getPlayer().getInventory().getItemInHand());
         if (sf == null || !this.getId().equals(sf.getId())) {
             return;
         }
 
-        ItemStack handItem = event.getPlayer().getEquipment().getItem(event.getHand()).clone();
+        ItemStack handItem = event.getPlayer().getInventory().getItemInHand().clone();
         FluidStack handFluid = FluidStack.fromItemStack(handItem);
         ItemMeta handMeta = handItem.getItemMeta();
 
         if (handFluid != null && handFluid.amount() >= 1000) {
-            PersistentDataAPI.setString(handMeta, FluidStack.FLUID_KEY,
+            Pdc.setString(handMeta, FluidStack.FLUID_KEY,
                     handFluid.fluid().toString());
-            PersistentDataAPI.setInt(handMeta, FluidStack.FLUID_AMOUNT_KEY,
+            Pdc.setInt(handMeta, FluidStack.FLUID_AMOUNT_KEY,
                     handFluid.amount() - 1000);
 
             handFluid = FluidStack.of(handFluid.fluid(), handFluid.amount() - 1000);
@@ -132,9 +133,9 @@ public class FluidTank extends SlimefunItem implements Listener {
         }
 
         if (handFluid.amount() == 0) {
-            PersistentDataAPI.setString(handMeta, FluidStack.FLUID_KEY, "");
-            PersistentDataAPI.setInt(handMeta, FluidStack.FLUID_AMOUNT_KEY, 0);
-            handItem.setType(Material.BUCKET);
+            Pdc.setString(handMeta, FluidStack.FLUID_KEY, "");
+            Pdc.setInt(handMeta, FluidStack.FLUID_AMOUNT_KEY, 0);
+            handItem.setType(MaterialCompat.safe(XMaterial.BUCKET));
 
             ArrayList<String> lore = new ArrayList<>();
             handMeta.setLore(lore);
@@ -153,8 +154,9 @@ public class FluidTank extends SlimefunItem implements Listener {
 
     @EventHandler
     public void onCauldronInteract(CauldronLevelChangeEvent event) {
-        if (event.getEntity() instanceof Player p) {
-            SlimefunItem sf = SlimefunItem.getByItem(p.getEquipment().getItemInMainHand());
+        if (event.getEntity() instanceof Player) {
+            Player p = (Player) event.getEntity();
+            SlimefunItem sf = SlimefunItem.getByItem(p.getEquipment().getItemInHand());
             if (sf != null && this.getId().equals(sf.getId())) {
                 event.setCancelled(true);
             }
@@ -163,7 +165,7 @@ public class FluidTank extends SlimefunItem implements Listener {
 
     @EventHandler
     public void onPlayerConsume(PlayerItemConsumeEvent event) {
-        SlimefunItem sf = SlimefunItem.getByItem(event.getPlayer().getEquipment().getItem(event.getHand()));
+        SlimefunItem sf = SlimefunItem.getByItem(event.getPlayer().getInventory().getItemInHand());
         if (sf != null && this.getId().equals(sf.getId())) {
             event.setCancelled(true);
         }

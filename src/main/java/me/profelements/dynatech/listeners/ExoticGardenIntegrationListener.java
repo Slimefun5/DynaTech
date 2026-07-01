@@ -52,10 +52,15 @@ public class ExoticGardenIntegrationListener implements Listener {
          * }
          * }
          */
-        if (item1 instanceof CulinaryGenerator cg1 && item3 instanceof GrowthChamber gc
-                && item4 instanceof GrowthChamberMK2 gc2 && item2 instanceof SeedPlucker sp1 && exoticGardenInstalled) {
+        if (item1 instanceof CulinaryGenerator && item3 instanceof GrowthChamber
+                && item4 instanceof GrowthChamberMK2 && item2 instanceof SeedPlucker && exoticGardenInstalled) {
+            CulinaryGenerator cg1 = (CulinaryGenerator) item1;
+            GrowthChamber gc = (GrowthChamber) item3;
+            GrowthChamberMK2 gc2 = (GrowthChamberMK2) item4;
+            SeedPlucker sp1 = (SeedPlucker) item2;
             for (SlimefunItem item : Slimefun.getRegistry().getEnabledSlimefunItems()) {
-                if (item instanceof CustomFood cfItem) {
+                if (item instanceof CustomFood) {
+                    CustomFood cfItem = (CustomFood) item;
                     cg1.registerFuel(cfItem.getItem(), cfItem.getFoodValue() * 4);
                     PicnicBasket.registerFood(cfItem.getItem(), new Pair<>(cfItem.getFoodValue(), 10F));
                 }

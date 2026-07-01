@@ -4,7 +4,7 @@ import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import me.profelements.dynatech.compat.Pdc;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu;
@@ -19,10 +19,11 @@ import me.profelements.dynatech.registries.Items;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class BandaidManager extends AbstractElectricMachine {
 
@@ -34,7 +35,7 @@ public class BandaidManager extends AbstractElectricMachine {
     private static final int[] BACKGROUND_SLOTS = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 13, 31, 36, 37, 38, 39, 40, 41,
             42, 43, 44 };
 
-    private static final ItemStack PROGRESS_ITEM = new ItemStack(Material.PHANTOM_MEMBRANE);
+    private static final ItemStack PROGRESS_ITEM = new ItemStack(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE));
 
     public BandaidManager(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(itemGroup, item, recipeType, recipe);
@@ -65,7 +66,7 @@ public class BandaidManager extends AbstractElectricMachine {
 
                 }
             } else if (ItemBand.containsItemBand(target)) {
-                String id = PersistentDataAPI.getString(target.getItemMeta(), ItemBand.KEY);
+                String id = Pdc.getString(target.getItemMeta(), ItemBand.KEY);
                 if (id != null && SlimefunItem.getById(id) != null) {
                     SlimefunItem sfItem = SlimefunItem.getById(id);
                     ItemStack result = ItemBand.removeFromItem(target.clone());
@@ -104,7 +105,7 @@ public class BandaidManager extends AbstractElectricMachine {
             preset.addItem(slot, ChestMenuUtils.getOutputSlotTexture(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        preset.addItem(getProgressSlot(), CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " "),
+        preset.addItem(getProgressSlot(), CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "),
                 ChestMenuUtils.getEmptyClickHandler());
 
         for (int slot : getOutputSlots()) {
@@ -112,7 +113,7 @@ public class BandaidManager extends AbstractElectricMachine {
                 @Override
                 public boolean onClick(InventoryClickEvent e, Player p, int slot, ItemStack cursor,
                         ClickAction action) {
-                    return cursor.getType().isAir();
+                    return MaterialCompat.isAir(cursor.getType());
                 }
 
                 @Override
@@ -138,9 +139,9 @@ public class BandaidManager extends AbstractElectricMachine {
         List<ItemStack> display = new ArrayList<>();
 
         display.add(Items.ITEM_BAND_HASTE.stack().item());
-        display.add(CustomItemStack.create(Material.IRON_PICKAXE, "Any Tool"));
+        display.add(CustomItemStack.create(MaterialCompat.safe(XMaterial.IRON_PICKAXE), "Any Tool"));
         display.add(Items.ITEM_BAND_HEALTH.stack().item());
-        display.add(CustomItemStack.create(Material.IRON_PICKAXE, "Any Tool"));
+        display.add(CustomItemStack.create(MaterialCompat.safe(XMaterial.IRON_PICKAXE), "Any Tool"));
 
         return display;
     }

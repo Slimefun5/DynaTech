@@ -14,7 +14,6 @@ import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
 import me.profelements.dynatech.items.abstracts.AbstractElectricTicker;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
@@ -35,6 +34,8 @@ import java.util.Set;
 import java.util.UUID;
 
 import javax.annotation.Nonnull;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.profelements.dynatech.utils.MaterialCompat;
 
 public class PotionSprinkler extends AbstractElectricTicker {
 
@@ -111,14 +112,15 @@ public class PotionSprinkler extends AbstractElectricTicker {
         BlockMenu menu = BlockStorage.getInventory(b);
         ItemStack item = menu.getItemInSlot(13);
 
-        if (item != null && item.getType() == Material.POTION && item.hasItemMeta() && item.getItemMeta() instanceof PotionMeta potionMeta) {
-            PotionType pt = potionMeta.getBasePotionType();
+        if (item != null && item.getType() == MaterialCompat.safe(XMaterial.POTION) && item.hasItemMeta() && item.getItemMeta() instanceof PotionMeta) {
+            PotionMeta potionMeta = (PotionMeta) item.getItemMeta();
+            PotionType pt = potionMeta.getBasePotionData().getType();
             for (Entity ent : b.getWorld().getNearbyEntities(b.getLocation(), 10, 10, 10, LivingEntity.class::isInstance)) {
                 LivingEntity p = (LivingEntity) ent;
                 if (!enabledEntities.get(b.getLocation()).contains(p.getUniqueId())) {
                     int amplifier = (!pt.isUpgradeable()) ? 1 : 0;
                     int duration = (!pt.isExtendable()) ? 9600 : 3600;
-                    PotionEffectType pet = pt.getPotionEffects().get(0).getType();
+                    PotionEffectType pet = pt.getEffectType();
 
                     if (pet != null) {
                         PotionEffect pe = new PotionEffect(pet, duration, amplifier);
@@ -134,9 +136,9 @@ public class PotionSprinkler extends AbstractElectricTicker {
             }
         }
 
-        enabledEntities.getOrDefault(b.getLocation(), new HashSet<>()).removeIf(uuid -> (Bukkit.getEntity(uuid) != null 
-                    && Bukkit.getEntity(uuid) instanceof LivingEntity livingEntity
-                    && livingEntity.getActivePotionEffects().isEmpty())); 
+        enabledEntities.getOrDefault(b.getLocation(), new HashSet<>()).removeIf(uuid -> (Bukkit.getEntity(uuid) != null
+                    && Bukkit.getEntity(uuid) instanceof LivingEntity
+                    && ((LivingEntity) Bukkit.getEntity(uuid)).getActivePotionEffects().isEmpty()));
     }
 
     private void applyPotionEffect(PotionEffect pe, LivingEntity livingEntity) {

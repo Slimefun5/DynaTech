@@ -7,8 +7,8 @@ import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.profelements.dynatech.DynaTech;
 import me.profelements.dynatech.events.PicnicBasketFeedPlayerEvent;
 import me.profelements.dynatech.items.backpacks.PicnicBasket;
+import me.profelements.dynatech.utils.SoundCompat;
 
-import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -36,15 +36,18 @@ public class PicnicBasketListener implements Listener {
     
     @EventHandler 
     public void onHungerLoss(FoodLevelChangeEvent e) {
-        if (e.getEntity() instanceof Player player && e.getFoodLevel() < player.getFoodLevel()) {
-            checkAndConsume(player);
+        if (e.getEntity() instanceof Player) {
+            Player player = (Player) e.getEntity();
+            if (e.getFoodLevel() < player.getFoodLevel()) {
+                checkAndConsume(player);
+            }
         }
     }
 
     @EventHandler 
     public void onHungerDamage(EntityDamageEvent e) {
-        if (e.getEntity() instanceof Player player && e.getCause() == DamageCause.STARVATION) {
-            checkAndConsume(player);
+        if (e.getEntity() instanceof Player && e.getCause() == DamageCause.STARVATION) {
+            checkAndConsume((Player) e.getEntity());
         }
     }       
 
@@ -95,7 +98,7 @@ public class PicnicBasketListener implements Listener {
                     if (SlimefunUtils.isItemSimilar(food, item, false, false) && (p.getFoodLevel() + PicnicBasket.getFoods().get(food).getFirstValue()) <= 20) {
                         p.setFoodLevel(p.getFoodLevel() + PicnicBasket.getFoods().get(food).getFirstValue());
                         p.setSaturation(p.getSaturation() + PicnicBasket.getFoods().get(food).getSecondValue());
-                        p.playSound(p.getLocation(), Sound.ENTITY_PLAYER_BURP, 1F, 1F);
+                        SoundCompat.play(p, p.getLocation(), "ENTITY_PLAYER_BURP", 1F, 1F);
 
                         if (item.getAmount() > 1) {
                             item.setAmount(item.getAmount() - 1);
