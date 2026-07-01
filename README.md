@@ -85,7 +85,7 @@ plugins {
 }
 
 dependencies {
-    "githubCompileOnly"("Slimefun5:DynaTech:v1.0.3")
+    "githubCompileOnly"("Slimefun5:DynaTech:v1.0.3.1")
 }
 ```
 
