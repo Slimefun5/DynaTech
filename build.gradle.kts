@@ -46,7 +46,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.Slimefun5:SlimefunMetrics:master-SNAPSHOT")
+    githubImplementation("Slimefun5:SlimefunMetrics:v1.0.0")
     githubCompileOnly("Slimefun5:Slimefun5:gh-v5.2.3.2")
     githubCompileOnly("Slimefun5:ExoticGarden:v1.7.2")
     githubCompileOnly("Slimefun5:InfinityExpansion:v1.1.2")
