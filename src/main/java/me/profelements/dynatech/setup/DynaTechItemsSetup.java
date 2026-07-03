@@ -631,15 +631,7 @@ public class DynaTechItemsSetup {
                         id.replace("_INGOT", "").toLowerCase() + "mineralized_apiary");
                 ItemWrapper APIARY = ItemWrapper.create(APIARY_KEY, new SlimefunItemStack(
                         APIARY_KEY.asSlimefunId(),
-                        MaterialCompat.safe(XMaterial.BEEHIVE),
-                        "&f" + item.getItemName().replace(" Ingot", "") + " Mineralized Apiary",
-                        "",
-                        "&fProduces a material",
-                        "&fwith the help of bees",
-                        "",
-                        LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE),
-                        LoreBuilder.powerBuffer(16384),
-                        LoreBuilderDynamic.powerPerTick(1024)));
+                        MaterialCompat.safe(XMaterial.BEEHIVE)));
 
                 Recipe APIARY_RECIPE = Recipe.init()
                         .setKey(APIARY_KEY.key())
@@ -670,16 +662,9 @@ public class DynaTechItemsSetup {
             TypedKey<ItemWrapper> APIARY_KEY = TypedKey.create("dynatech",
                     name.replace("_INGOT", "").toLowerCase() + "mineralized_apiary");
 
-            ItemWrapper APIARY = ItemWrapper.create(APIARY_KEY, new SlimefunItemStack(APIARY_KEY.asSlimefunId(),
-                    MaterialCompat.safe(XMaterial.BEEHIVE),
-                    "&f" + ItemUtils.getItemName(item).replace(" Ingot", "") + " Mineralized Apiary",
-                    "",
-                    "&fProduces a material",
-                    "&fwith the help of bees",
-                    "",
-                    LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE),
-                    LoreBuilder.powerBuffer(16384),
-                    LoreBuilderDynamic.powerPerTick(1024)));
+            ItemWrapper APIARY = ItemWrapper.create(APIARY_KEY, new SlimefunItemStack(
+                    APIARY_KEY.asSlimefunId(),
+                    MaterialCompat.safe(XMaterial.BEEHIVE)));
 
             Recipe APIARY_RECIPE = Recipe.init()
                     .setKey(APIARY_KEY.key())
