@@ -157,12 +157,12 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
 
     private static String categoryTitle(String groupKey) {
         switch (groupKey) {
-            case "resources": return "&bDynaTech &7Resources";
-            case "tools": return "&bDynaTech &7Tools";
-            case "machines": return "&bDynaTech &7Machines";
-            case "generators": return "&bDynaTech &7Generators";
-            case "experimental": return "&fDynaTech &7Experimental";
-            case "apiaries": return "&6Mineralized &7Apiaries";
+            case "resources": return "DynaTech: Resources";
+            case "tools": return "DynaTech: Tools";
+            case "machines": return "DynaTech: Machines";
+            case "generators": return "DynaTech: Generators";
+            case "experimental": return "DynaTech: Experimental";
+            case "apiaries": return "DynaTech: Mineralized Apiaries";
             default: return "&bDynaTech";
         }
     }
