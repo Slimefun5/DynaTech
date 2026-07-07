@@ -7,12 +7,7 @@ plugins {
 group = "me.profelements"
 description = "DynaTech is a Slimefun addon that adds various machines, generators, tools and more."
 
-// Shared Slimefun-addon build conventions (Java 8, spigot-api baseline, core dep, publish, shadow, version).
-apply(from = "https://raw.githubusercontent.com/Slimefun5/workflows/stable/slimefun-addon.gradle")
-
-repositories {
-    maven("https://jitpack.io")
-}
+apply(from = "https://raw.githubusercontent.com/Slimefun5/gradle/stable/slimefun-addon.gradle")
 
 dependencies {
     githubImplementation("Slimefun5:SlimefunMetrics:v1.0.0")
@@ -25,6 +20,4 @@ tasks {
         relocate("org.bstats", "dynatech.libs.bstats")
         relocate("dev.j3fftw.extrautils", "me.profelements.dynatech.extrautils")
     }
-    compileTestJava { enabled = false }
-    test { enabled = false }
 }
