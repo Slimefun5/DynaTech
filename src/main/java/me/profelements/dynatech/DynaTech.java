@@ -163,7 +163,7 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
             case "generators": return "DynaTech: Generators";
             case "experimental": return "DynaTech: Experimental";
             case "apiaries": return "DynaTech: Mineralized Apiaries";
-            default: return "&bDynaTech";
+            default: return "DynaTech";
         }
     }
 
