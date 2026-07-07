@@ -134,7 +134,6 @@ public class UpgradesListener implements Listener {
         String upgradeString = upgrades.substring(upgradeIdx, upgradeIdx2 + 1);
 
         if (upgradeString.contains("id:auto_input")) {
-            DynaTech.getInstance().getLogger().info("GOT TO INPUT FOUND");
             // Grab face
             int index = upgradeString.indexOf("face:");
             int index2 = upgradeString.indexOf("}");
@@ -160,7 +159,6 @@ public class UpgradesListener implements Listener {
 
                                 if (inputStack == null) {
 
-                                    DynaTech.getInstance().getLogger().info("GOT TO NULLY FOUND");
                                     inv.pushItem(stack, acont.getInputSlots());
                                     chsInv.remove(stack);
                                 } else {
@@ -170,12 +168,10 @@ public class UpgradesListener implements Listener {
                                         int diff = inputStack.getMaxStackSize() - inputStack.getAmount();
                                         if (diff >= chsAmount) {
 
-                                            DynaTech.getInstance().getLogger().info("GOT TO DIFFY FOUND");
                                             inputStack.setAmount(inputStack.getAmount() + chsAmount);
                                             chsInv.remove(stack);
                                         } else {
 
-                                            DynaTech.getInstance().getLogger().info("GOT TO DIFFY2 FOUND");
                                             inputStack.setAmount(inputStack.getAmount() + diff);
                                             stack.setAmount(chsAmount - diff);
                                         }
