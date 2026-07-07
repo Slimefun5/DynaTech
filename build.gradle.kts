@@ -47,7 +47,7 @@ repositories {
 
 dependencies {
     githubImplementation("Slimefun5:SlimefunMetrics:v1.0.0")
-    githubCompileOnly("Slimefun5:Slimefun5:gh-v5.2.4.5")
+    githubCompileOnly("Slimefun5:Slimefun5:gh-v5.2.4.6")
     githubCompileOnly("Slimefun5:ExoticGarden:v1.7.2")
     githubCompileOnly("Slimefun5:InfinityExpansion:v1.1.2")
     compileOnly("org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT")
