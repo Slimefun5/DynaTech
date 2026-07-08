@@ -21,8 +21,6 @@ public class CoalCokeListener implements Listener {
 
         if (sfItem != null && sfItem.getId().equals(Items.COAL_COKE.stack().getItemId())) {
             int burnTime = event.getBurnTime();
-            DynaTech.getInstance().getLogger().info("Found Coal Coke, burnTime Original: " + String.valueOf(burnTime)
-                    + " burnTime * 8 " + String.valueOf(burnTime * 8));
             event.setBurnTime(burnTime * 8);
         }
     }

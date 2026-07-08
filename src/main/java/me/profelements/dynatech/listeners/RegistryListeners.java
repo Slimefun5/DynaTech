@@ -37,8 +37,6 @@ public class RegistryListeners implements Listener {
 
             }
         }
-
-        DynaTech.getInstance().getLogger().info(event.getRegistryKey().key().toString() + " is getting frozen");
     }
 }
 

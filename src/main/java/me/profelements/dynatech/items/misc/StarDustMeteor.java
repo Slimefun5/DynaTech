@@ -17,12 +17,8 @@ import javax.annotation.Nonnull;
 public class StarDustMeteor extends UnplaceableBlock implements GEOResource {
 
     public static final SlimefunItemStack STARDUST_METEOR = new SlimefunItemStack(
-        "STARDUST_METEOR",
-        HeadUtils.fromHashCode("c482d1ba4bdac990f6ea987703587fd79fe55555363251984679d4f279cc0c2a"),
-        "&6Stardust Meteor",
-        "",
-        "&fGeomined from Mountain or Badlands Biomes"
-    );
+            "STARDUST_METEOR",
+            HeadUtils.fromHashCode("c482d1ba4bdac990f6ea987703587fd79fe55555363251984679d4f279cc0c2a"));
     
     private final NamespacedKey key = new NamespacedKey(DynaTech.getInstance(), "stardust_meteor");
   
