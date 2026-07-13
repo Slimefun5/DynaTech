@@ -143,8 +143,12 @@ public class Tesseract extends SlimefunItem implements EnergyNetProvider {
             }
 
             updateKnowledgePane(toMenu, getCharge(b.getLocation()));
-            EnergyUtils.moveInventoryFromTo(new BlockPosition(tesseractPair), new BlockPosition(b), getInputSlots(),
-                    getOutputSlots());
+            // Moves items from the paired tesseract's menu (foreign, remote) into this one off the async
+            // ticker thread; run it on the main thread while either menu is watched so it can't race a
+            // viewer's clicks (dupe), inline otherwise (async fast path).
+            BlockStorage.mutateInventorySafely(
+                () -> EnergyUtils.moveInventoryFromTo(new BlockPosition(tesseractPair), new BlockPosition(b), getInputSlots(), getOutputSlots()),
+                tesseractPair, b.getLocation());
         }
 
     }

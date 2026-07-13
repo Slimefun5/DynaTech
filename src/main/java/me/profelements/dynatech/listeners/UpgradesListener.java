@@ -1,9 +1,7 @@
 package me.profelements.dynatech.listeners;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.block.BlockFace;
 import org.bukkit.block.BlockState;
 import org.bukkit.block.Chest;
@@ -13,7 +11,6 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.thebusybiscuit.slimefun5.libraries.dough.inventory.InvUtils;
 import io.github.thebusybiscuit.slimefun5.api.events.AsyncMachineOperationFinishEvent;
 import io.github.thebusybiscuit.slimefun5.implementation.operations.CraftingOperation;
 import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
@@ -66,34 +63,61 @@ public class UpgradesListener implements Listener {
                     && e.getOperation() instanceof CraftingOperation && ((CraftingOperation) e.getOperation()).isFinished()) {
                 AContainer cont = (AContainer) e.getProcessor().getOwner();
                 CraftingOperation op = (CraftingOperation) e.getOperation();
-                BlockMenu menu = BlockStorage.getInventory(l);
                 int[] outputSlots = cont.getOutputSlots();
                 ItemStack[] outputItems = op.getResults();
-                List<Boolean> outed = new ArrayList<>(outputItems.length);
-                // Clear `outputItems` from `outputSlots`
-                if (l.getBlock().getRelative(face).getType().equals(MaterialCompat.safe(XMaterial.CHEST))) {
-                    for (int i = 0; i < outputSlots.length; i++) {
-                        ItemStack item = menu.getItemInSlot(outputSlots[i]);
-                        for (ItemStack outputItem : outputItems) {
-                            if (SlimefunUtils.isItemSimilar(item, outputItem, true) && outed.size() < (i + 1)) {
-                                int amount = item.getAmount();
-                                int outAmount = outputItem.getAmount();
-                                if (amount >= outAmount) {
-                                    menu.consumeItem(outputSlots[i], outAmount);
-                                    outed.add(true);
-                                }
-                            }
-                        }
-                    }
 
+                if (l.getBlock().getRelative(face).getType().equals(MaterialCompat.safe(XMaterial.CHEST))) {
+                    // This event fires on the async machine ticker thread, and the old flow consumed the
+                    // output slots here but deposited into the chest a tick later - so a player pulling
+                    // the output in between got the item twice, and a full chest ate it entirely. Move
+                    // everything in ONE main-thread task: add a CLONE to the chest first (never the shared
+                    // recipe stacks - addItem mutates them), then consume exactly what the chest accepted.
                     DynaTech.runSync(() -> {
                         BlockState state = l.getBlock().getRelative(face).getState();
-                        if (state instanceof Chest
-                                && InvUtils.fitAll(((Chest) state).getBlockInventory(), outputItems)) {
-                            Chest chest = (Chest) state;
-                            Inventory inv = chest.getBlockInventory();
+                        if (!(state instanceof Chest)) {
+                            return;
+                        }
 
-                            inv.addItem(outputItems);
+                        BlockMenu menu = BlockStorage.getInventory(l);
+                        if (menu == null) {
+                            return;
+                        }
+
+                        Chest chest = (Chest) state;
+                        Inventory inv = chest.getBlockInventory();
+                        boolean moved = false;
+
+                        for (int slot : outputSlots) {
+                            ItemStack item = menu.getItemInSlot(slot);
+                            if (item == null || item.getType() == Material.AIR) {
+                                continue;
+                            }
+
+                            boolean matchesResult = false;
+                            for (ItemStack outputItem : outputItems) {
+                                if (SlimefunUtils.isItemSimilar(item, outputItem, true)) {
+                                    matchesResult = true;
+                                    break;
+                                }
+                            }
+                            if (!matchesResult) {
+                                continue;
+                            }
+
+                            int available = item.getAmount();
+                            int leftover = 0;
+                            for (ItemStack rest : inv.addItem(item.clone()).values()) {
+                                leftover += rest.getAmount();
+                            }
+
+                            int accepted = available - leftover;
+                            if (accepted > 0) {
+                                menu.consumeItem(slot, accepted);
+                                moved = true;
+                            }
+                        }
+
+                        if (moved) {
                             chest.update(true, false);
                         }
                     });
