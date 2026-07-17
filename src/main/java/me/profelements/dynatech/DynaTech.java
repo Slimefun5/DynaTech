@@ -80,7 +80,14 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
         DynaTechItemsSetup.setup(this);
         new PicnicBasketListener(this, (PicnicBasket) Items.PICNIC_BASKET.stack().getItem());
         new ElectricalStimulatorListener(this, (ElectricalStimulator) Items.ELECTRICAL_STIMULATOR.stack().getItem());
-        new InventoryFilterListener(this);
+        // InventoryFilterListener's only handler takes EntityPickupItemEvent (MC 1.12+). Guard its
+        // construction so the class - and its unloadable event reference - is never touched on 1.8-1.11.
+        try {
+            Class.forName("org.bukkit.event.entity.EntityPickupItemEvent");
+            new InventoryFilterListener(this);
+        } catch (ClassNotFoundException ignored) {
+            // 1.8-1.11: no EntityPickupItemEvent, inventory-filter pickup blocking is unavailable.
+        }
         new UpgradesListener(this);
         new CoalCokeListener(this);
         new BlockBreakBlockListener(this);

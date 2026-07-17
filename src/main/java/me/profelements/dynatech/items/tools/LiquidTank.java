@@ -25,7 +25,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerBucketFillEvent;
-import org.bukkit.event.block.CauldronLevelChangeEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
@@ -48,6 +47,15 @@ public class LiquidTank extends SlimefunItem implements NotPlaceable, Listener {
         this.maxLiquidAmount = maxLiquidAmount;
 
         Bukkit.getPluginManager().registerEvents(this, DynaTech.getInstance());
+        // CauldronLevelChangeEvent (MC 1.13+) lives in its own guarded listener so this tank still
+        // registers its PlayerBucketFillEvent handler on 1.8-1.12.
+        try {
+            Class.forName("org.bukkit.event.block.CauldronLevelChangeEvent");
+            Bukkit.getPluginManager().registerEvents(
+                    new me.profelements.dynatech.listeners.LiquidTankCauldronListener(this), DynaTech.getInstance());
+        } catch (ClassNotFoundException ignored) {
+            // 1.8-1.12: no CauldronLevelChangeEvent.
+        }
         addItemHandler(onEntityClick());
         addItemHandler(onRightClick());
     }
@@ -93,17 +101,6 @@ public class LiquidTank extends SlimefunItem implements NotPlaceable, Listener {
                 meta.setLore(lore);
                 item.setItemMeta(meta);
                 DynaTech.runSync(() -> block.setType(MaterialCompat.safe(XMaterial.AIR)));
-            }
-        }
-    }
-
-    @EventHandler
-    private void onCauldronFill(CauldronLevelChangeEvent e) {
-        if (e.getEntity() instanceof Player) {
-            Player player = (Player) e.getEntity();
-            ItemStack item = player.getInventory().getItemInHand();
-            if (this.isItem(item) && this.canUse(player, true) && SlimefunItem.getByItem(item) instanceof LiquidTank) {
-                e.setCancelled(true);
             }
         }
     }
