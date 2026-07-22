@@ -100,39 +100,40 @@ public class DynaTechItemsSetup {
         // General
         // Resources
         new SlimefunItem(ItemGroups.RESOURCES, Items.ANCIENT_MACHINE_CORE.stack(),
-                Recipes.ANCIENT_MACHINE_CORE.getRecipeType(), Recipes.ANCIENT_MACHINE_CORE.getInput()).register(plugin);
+                Recipes.ANCIENT_MACHINE_CORE.getRecipeType(), Recipes.ANCIENT_MACHINE_CORE.getInput())
+                .setGuideType("resources").register(plugin);
 
         new SlimefunItem(ItemGroups.RESOURCES, Items.MACHINE_SCRAP.stack(), Recipes.MACHINE_SCRAP.getRecipeType(),
                 Recipes.MACHINE_SCRAP.getInput(), Recipes.MACHINE_SCRAP.getOutput()[0])
-                .register(plugin);
+                .setGuideType("resources").register(plugin);
 
         new SlimefunItem(ItemGroups.RESOURCES, Items.ADVANCED_MACHINE_SCRAP.stack(),
                 Recipes.ADVANCED_MACHINE_SCRAP.getRecipeType(), Recipes.ADVANCED_MACHINE_SCRAP.getInput(),
-                Recipes.ADVANCED_MACHINE_SCRAP.getOutput()[0]).register(plugin);
+                Recipes.ADVANCED_MACHINE_SCRAP.getOutput()[0]).setGuideType("resources").register(plugin);
 
         new VexGem(ItemGroups.RESOURCES, Items.VEX_GEM.stack(), Recipes.VEX_GEM.getRecipeType(),
-                Recipes.VEX_GEM.getInput()).register(plugin);
+                Recipes.VEX_GEM.getInput()).setGuideType("resources").register(plugin);
 
         new SlimefunItem(ItemGroups.RESOURCES, Items.STAR_DUST.stack(), Recipes.STAR_DUST.getRecipeType(),
-                Recipes.STAR_DUST.getInput()).register(plugin);
+                Recipes.STAR_DUST.getInput()).setGuideType("resources").register(plugin);
 
-        new StarDustMeteor(ItemGroups.RESOURCES).register(plugin);
+        new StarDustMeteor(ItemGroups.RESOURCES).setGuideType("resources").register(plugin);
 
         new MobDropItem(ItemGroups.RESOURCES, Items.GHOSTLY_ESSENCE.stack(), Recipes.GHOSTLY_ESSENCE.getRecipeType(),
-                Recipes.GHOSTLY_ESSENCE.getInput(), 80).register(plugin);
+                Recipes.GHOSTLY_ESSENCE.getInput(), 80).setGuideType("resources").register(plugin);
 
         new SlimefunItem(ItemGroups.RESOURCES, Items.TESSERACTING_OBJ.stack(), Recipes.TESSERACTING_OBJ.getRecipeType(),
-                Recipes.TESSERACTING_OBJ.getInput()).register(plugin);
+                Recipes.TESSERACTING_OBJ.getInput()).setGuideType("resources").register(plugin);
 
         new Bee(ItemGroups.RESOURCES, Items.BEE.stack(), Recipes.BEE.getRecipeType(), Recipes.BEE.getInput(), 2)
-                .register(plugin);
+                .setGuideType("resources").register(plugin);
 
         new Bee(ItemGroups.RESOURCES, Items.ROBOTIC_BEE.stack(), Recipes.ROBOTIC_BEE.getRecipeType(),
-                Recipes.ROBOTIC_BEE.getInput(), 7).register(plugin);
+                Recipes.ROBOTIC_BEE.getInput(), 7).setGuideType("resources").register(plugin);
 
         new Bee(ItemGroups.RESOURCES, Items.ADVANCED_ROBOTIC_BEE.stack(),
                 Recipes.ADVANCED_ROBOTIC_BEE.getRecipeType(), Recipes.ADVANCED_ROBOTIC_BEE.getInput(), 11)
-                .register(plugin);
+                .setGuideType("resources").register(plugin);
 
         // Machines
         // Generators
@@ -141,34 +142,34 @@ public class DynaTechItemsSetup {
 
         // Tools
         new PicnicBasket(27, ItemGroups.TOOLS, Items.PICNIC_BASKET.stack(), Recipes.PICNIC_BASKET.getRecipeType(),
-                Recipes.PICNIC_BASKET.getInput()).register(plugin);
+                Recipes.PICNIC_BASKET.getInput()).setGuideType("logistics").register(plugin);
 
         new SoulboundPicnicBacket(27, ItemGroups.TOOLS, Items.SOUL_BOUND_PICNIC_BASKET.stack(),
                 Recipes.SOUL_BOUND_PICNIC_BASKET.getRecipeType(), Recipes.SOUL_BOUND_PICNIC_BASKET.getInput())
-                .register(plugin);
+                .setGuideType("logistics").register(plugin);
 
         new ElectricalStimulator(ItemGroups.TOOLS, Items.ELECTRICAL_STIMULATOR.stack(),
                 Recipes.ELECTRICAL_STIMULATOR.getRecipeType(),
-                Recipes.ELECTRICAL_STIMULATOR.getInput()).register(plugin);
+                Recipes.ELECTRICAL_STIMULATOR.getInput()).setGuideType("tools").register(plugin);
 
         new AngelGem(ItemGroups.TOOLS, Items.ANGEL_GEM.stack(), Recipes.ANGEL_GEM.getRecipeType(),
-                Recipes.ANGEL_GEM.getInput()).register(plugin);
+                Recipes.ANGEL_GEM.getInput()).setGuideType("tools").register(plugin);
 
         new Scoop(ItemGroups.TOOLS, Items.SCOOP.stack(), Recipes.SCOOP.getRecipeType(), Recipes.SCOOP.getInput())
                 .register(plugin);
 
         new DimensionalHome(ItemGroups.TOOLS, Items.DIMENSIONAL_HOME.stack(), Recipes.DIMENSIONAL_HOME.getRecipeType(),
-                Recipes.DIMENSIONAL_HOME.getInput()).register(plugin);
+                Recipes.DIMENSIONAL_HOME.getInput()).setGuideType("tools").register(plugin);
 
         new ItemBand(ItemGroups.TOOLS, Items.ITEM_BAND_HEALTH.stack(), Recipes.ITEM_BAND_HEALTH.getRecipeType(),
                 Recipes.ITEM_BAND_HEALTH.getInput(),
                 new PotionEffect[] { new PotionEffect(PotionEffectType.HEALTH_BOOST, 20 * 15, 1, true) })
-                .register(plugin);
+                .setGuideType("tools").register(plugin);
 
         new ItemBand(ItemGroups.TOOLS, Items.ITEM_BAND_HASTE.stack(), Recipes.ITEM_BAND_HASTE.getRecipeType(),
                 Recipes.ITEM_BAND_HASTE.getInput(),
                 new PotionEffect[] { new PotionEffect(PotionEffectType.FAST_DIGGING, 20 * 15, 1, true) })
-                .register(plugin);
+                .setGuideType("tools").register(plugin);
 
         new TesseractBinder(ItemGroups.TOOLS, Items.TESSERACT_BINDER.stack(), Recipes.TESSERACT_BINDER.getRecipeType(),
                 Recipes.TESSERACT_BINDER.getInput()).register(plugin);
@@ -200,7 +201,7 @@ public class DynaTechItemsSetup {
                     .register(plugin);
         }
 
-        new WitherGolem(ItemGroups.TOOLS, Items.WITHER_SKELETON_GOLEM.stack()).register(plugin);
+        new WitherGolem(ItemGroups.TOOLS, Items.WITHER_SKELETON_GOLEM.stack()).setGuideType("machines").register(plugin);
 
         // START Machines
         if (DynaTech.isExoticGardenInstalled()) {
@@ -410,7 +411,7 @@ public class DynaTechItemsSetup {
 
         // START EXPERIMENTAL SHENANIGANS
         new PetalApothecary(ItemGroups.EXPERIMENTAL,
-                Items.PETAL_APOTHECARY.stack()).register(plugin);
+                Items.PETAL_APOTHECARY.stack()).setGuideType("machines").register(plugin);
         // END EXPERIMENTAL SHENANIGANS
         // END Machines
         new LiquidTank(ItemGroups.TOOLS, Items.LIQUID_TANK.stack(), 16000, RecipeType.ENHANCED_CRAFTING_TABLE,
@@ -420,7 +421,7 @@ public class DynaTechItemsSetup {
                         new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)),
                         Items.STAINLESS_STEEL_INGOT.stack().item(), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)),
                         Items.STAINLESS_STEEL_INGOT.stack().item(),
-                }).register(plugin);
+                }).setGuideType("logistics").register(plugin);
 
         // START Generators
         new ChippingGenerator(ItemGroups.GENERATORS, Items.DURABILITY_GENERATOR.stack(),
@@ -467,66 +468,75 @@ public class DynaTechItemsSetup {
         // START Mechanical Components
 
         // final Recipe woodMachineCoreRecipe = Recipes.WOOD_MACHINE_CORE;
-        new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.WOOD_MACHINE_CORE.stack()).register(plugin);
+        new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.WOOD_MACHINE_CORE.stack())
+                .setGuideType("resources").register(plugin);
         // new UnplaceableBlock(ItemGroups.EXPERIMENTAL,
         // Items.WOOD_MACHINE_CORE.stack().item()).register(plugin);
 
         final Recipe stoneMachineCoreRecipe = Recipes.STONE_MACHINE_CORE;
         new UnplaceableBlock(ItemGroups.EXPERIMENTAL, Items.STONE_MACHINE_CORE.stack(),
-                stoneMachineCoreRecipe.getRecipeType(), stoneMachineCoreRecipe.getInput()).register(plugin);
+                stoneMachineCoreRecipe.getRecipeType(), stoneMachineCoreRecipe.getInput())
+                .setGuideType("resources").register(plugin);
 
         final Recipe ironMachineCoreRecipe = Recipes.IRON_MACHINE_CORE;
         new UnplaceableBlock(ItemGroups.EXPERIMENTAL, Items.IRON_MACHINE_CORE.stack(),
-                ironMachineCoreRecipe.getRecipeType(), ironMachineCoreRecipe.getInput()).register(plugin);
+                ironMachineCoreRecipe.getRecipeType(), ironMachineCoreRecipe.getInput())
+                .setGuideType("resources").register(plugin);
 
         final Recipe diamondMachineCoreRecipe = Recipes.DIAMOND_MACHINE_CORE;
         new UnplaceableBlock(ItemGroups.EXPERIMENTAL, Items.DIAMOND_MACHINE_CORE.stack(),
-                diamondMachineCoreRecipe.getRecipeType(), diamondMachineCoreRecipe.getInput()).register(plugin);
+                diamondMachineCoreRecipe.getRecipeType(), diamondMachineCoreRecipe.getInput())
+                .setGuideType("resources").register(plugin);
 
         final Recipe enchantedMachineCoreRecipe = Recipes.ENCHANTED_MACHINE_CORE;
         new UnplaceableBlock(ItemGroups.EXPERIMENTAL, Items.ENCHANTED_MACHINE_CORE.stack(),
-                enchantedMachineCoreRecipe.getRecipeType(), enchantedMachineCoreRecipe.getInput()).register(plugin);
+                enchantedMachineCoreRecipe.getRecipeType(), enchantedMachineCoreRecipe.getInput())
+                .setGuideType("resources").register(plugin);
 
         final Recipe energyStorageRecipe = Recipes.ENERGY_STORAGE_COMPONENT;
         new UnplaceableBlock(ItemGroups.EXPERIMENTAL, Items.ENERGY_STORAGE_COMPONENT.stack(),
-                energyStorageRecipe.getRecipeType(), energyStorageRecipe.getInput()).register(plugin);
+                energyStorageRecipe.getRecipeType(), energyStorageRecipe.getInput())
+                .setGuideType("energy_tech").register(plugin);
 
         final Recipe energyInputRecipe = Recipes.ENERGY_INPUT_COMPONENT;
         new UnplaceableBlock(ItemGroups.EXPERIMENTAL, Items.ENERGY_INPUT_COMPONENT.stack(),
-                energyInputRecipe.getRecipeType(), energyInputRecipe.getInput()).register(plugin);
+                energyInputRecipe.getRecipeType(), energyInputRecipe.getInput())
+                .setGuideType("energy_tech").register(plugin);
 
         final Recipe energyOutputRecipe = Recipes.ENERGY_OUTPUT_COMPONENT;
         new UnplaceableBlock(ItemGroups.EXPERIMENTAL, Items.ENERGY_OUTPUT_COMPONENT.stack(),
-                energyOutputRecipe.getRecipeType(), energyOutputRecipe.getInput()).register(plugin);
+                energyOutputRecipe.getRecipeType(), energyOutputRecipe.getInput())
+                .setGuideType("energy_tech").register(plugin);
 
         final Recipe degradedWaterMillRecipe = Recipes.DEGRADED_WATER_MILL;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.DEGRADED_WATER_MILL.stack(),
-                degradedWaterMillRecipe.getRecipeType(), degradedWaterMillRecipe.getInput()).register(plugin);
+                degradedWaterMillRecipe.getRecipeType(), degradedWaterMillRecipe.getInput())
+                .setGuideType("resources").register(plugin);
 
         final Recipe degradedWaterMill2Recipe = Recipes.DEGRADED_WATER_MILL_2;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.DEGRADED_WATER_MILL_2.stack(),
                 degradedWaterMill2Recipe.getRecipeType(),
-                degradedWaterMill2Recipe.getInput()).register(plugin);
+                degradedWaterMill2Recipe.getInput()).setGuideType("resources").register(plugin);
 
         final Recipe degradedWindMillRecipe = Recipes.DEGRADED_WIND_MILL;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.DEGRADED_WIND_MILL.stack(),
                 degradedWindMillRecipe.getRecipeType(),
-                degradedWindMillRecipe.getInput()).register(plugin);
+                degradedWindMillRecipe.getInput()).setGuideType("resources").register(plugin);
 
         final Recipe degradedWindMill2Recipe = Recipes.DEGRADED_WIND_MILL_2;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.DEGRADED_WIND_MILL_2.stack(),
                 degradedWindMill2Recipe.getRecipeType(),
-                degradedWindMill2Recipe.getInput()).register(plugin);
+                degradedWindMill2Recipe.getInput()).setGuideType("resources").register(plugin);
 
         final Recipe degradedEggMillRecipe = Recipes.DEGRADED_EGG_MILL;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.DEGRADED_EGG_MILL.stack(),
                 degradedEggMillRecipe.getRecipeType(),
-                degradedEggMillRecipe.getInput()).register(plugin);
+                degradedEggMillRecipe.getInput()).setGuideType("resources").register(plugin);
 
         final Recipe degradedEggMill2Recipe = Recipes.DEGRADED_EGG_MILL_2;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.DEGRADED_EGG_MILL_2.stack(),
                 degradedEggMill2Recipe.getRecipeType(),
-                degradedEggMill2Recipe.getInput()).register(plugin);
+                degradedEggMill2Recipe.getInput()).setGuideType("resources").register(plugin);
 
         // END Mechanical Components
 
@@ -562,63 +572,67 @@ public class DynaTechItemsSetup {
 
         final Recipe stainlessSteelIngotRecipe = Recipes.STAINLESS_STEEL_INGOT;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.STAINLESS_STEEL_INGOT.stack(),
-                stainlessSteelIngotRecipe.getRecipeType(), stainlessSteelIngotRecipe.getInput()).register(plugin);
+                stainlessSteelIngotRecipe.getRecipeType(), stainlessSteelIngotRecipe.getInput())
+                .setGuideType("resources").register(plugin);
 
         final Recipe stainlessSteelRotorRecipe = Recipes.STAINLESS_STEEL_ROTOR;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.STAINLESS_STEEL_ROTOR.stack(),
-                stainlessSteelRotorRecipe.getRecipeType(), stainlessSteelRotorRecipe.getInput()).register(plugin);
+                stainlessSteelRotorRecipe.getRecipeType(), stainlessSteelRotorRecipe.getInput())
+                .setGuideType("resources").register(plugin);
 
         final Recipe coalCokeRecipe = Recipes.COAL_TO_COAL_COKE;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.COAL_COKE.stack(), coalCokeRecipe.getRecipeType(),
-                coalCokeRecipe.getInput()).register(plugin);
+                coalCokeRecipe.getInput()).setGuideType("resources").register(plugin);
 
         final Recipe livingRockRecipe = Recipes.CALCITE_TO_LIVINGROCK;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.LIVINGROCK.stack(), livingRockRecipe.getRecipeType(),
-                livingRockRecipe.getInput()).register(plugin);
+                livingRockRecipe.getInput()).setGuideType("resources").register(plugin);
 
         final Recipe livingWoodRecipe = Recipes.DARK_OAK_TO_LIVINGWOOD;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.LIVINGWOOD.stack(), livingRockRecipe.getRecipeType(),
-                livingRockRecipe.getInput()).register(plugin);
+                livingRockRecipe.getInput()).setGuideType("resources").register(plugin);
 
         // END Materials
 
         // START Liquids
         new LiquidContainerItem(ItemGroups.EXPERIMENTAL, Items.LAVA_BOTTLE.stack(), RecipeType.NULL,
                 new ItemStack[] {}, LiquidRegistry.getInstance().getByKey(NamespacedKey.minecraft("lava")), 250)
-                .register(plugin);
+                .setGuideType("logistics").register(plugin);
 
         new LiquidContainerItem(ItemGroups.EXPERIMENTAL, Items.HONEY_BUCKET.stack(), RecipeType.NULL,
                 new ItemStack[] {}, LiquidRegistry.getInstance().getByKey(NamespacedKey.minecraft("honey")), 1000)
-                .register(plugin);
+                .setGuideType("logistics").register(plugin);
 
         new LiquidContainerItem(ItemGroups.EXPERIMENTAL, Items.POTION_BUCKET.stack(), RecipeType.NULL,
                 new ItemStack[] {}, LiquidRegistry.getInstance().getByKey(NamespacedKey.minecraft("potion")), 1000)
-                .register(plugin);
+                .setGuideType("logistics").register(plugin);
 
         new LiquidContainerItem(ItemGroups.EXPERIMENTAL, Items.MILK_BOTTLE.stack(), RecipeType.NULL,
                 new ItemStack[] {}, LiquidRegistry.getInstance().getByKey(NamespacedKey.minecraft("milk")), 1000)
-                .register(plugin);
+                .setGuideType("logistics").register(plugin);
         // END Liquids
 
         // START Tools
         final Recipe inventoryFilterRecipe = Recipes.INVENTORY_FILTER;
         new InventoryFilter(ItemGroups.EXPERIMENTAL, Items.INVENTORY_FILTER.stack(),
-                inventoryFilterRecipe.getRecipeType(), inventoryFilterRecipe.getInput()).register(plugin);
+                inventoryFilterRecipe.getRecipeType(), inventoryFilterRecipe.getInput())
+                .setGuideType("logistics").register(plugin);
 
-        new RecipeBook(ItemGroups.EXPERIMENTAL, Items.RECIPE_BOOK.stack(), Recipes.RECIPE_BOOK).register(plugin);
+        new RecipeBook(ItemGroups.EXPERIMENTAL, Items.RECIPE_BOOK.stack(), Recipes.RECIPE_BOOK)
+                .setGuideType("tools").register(plugin);
 
         new AutoOutputUpgrade(ItemGroups.EXPERIMENTAL, Items.AUTO_OUTPUT_UPGRADE.stack(),
-                Recipes.AUTO_OUTPUT_UGPRADE).register(plugin);
+                Recipes.AUTO_OUTPUT_UGPRADE).setGuideType("logistics").register(plugin);
 
         new AutoInputUpgrade(ItemGroups.EXPERIMENTAL, Items.AUTO_INPUT_UPGRADE.stack(),
                 Recipes.AUTO_INPUT_UPGRADE)
-                .register(plugin);
+                .setGuideType("logistics").register(plugin);
 
-        new FluidTank(ItemGroups.EXPERIMENTAL, Items.FLUID_TANK.stack()).register(plugin);
+        new FluidTank(ItemGroups.EXPERIMENTAL, Items.FLUID_TANK.stack()).setGuideType("logistics").register(plugin);
         // END Tools
 
         // START Machines
-        new CokeOvenController(Items.COAL_COKE_OVEN.stack()).register(plugin);
+        new CokeOvenController(Items.COAL_COKE_OVEN.stack()).setGuideType("machines").register(plugin);
     }
 
     private static void registerMineralizedApiaries(MaterialHive hive, SlimefunAddon plugin) {
