@@ -202,7 +202,6 @@ public class Tesseract extends SlimefunItem implements EnergyNetProvider {
         menu.replaceExistingItem(4, coloredPane);
     }
 
-    // Boilerplate for machines.
     public void constructMenu(BlockMenuPreset preset) {
         preset.drawBackground(ChestMenuUtils.getBackground(), getBorder());
         preset.drawBackground(ChestMenuUtils.getInputSlotTexture(), getInputBorder());

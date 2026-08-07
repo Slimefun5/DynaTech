@@ -97,8 +97,6 @@ public class DynaTechItemsSetup {
 
     public static void setup(@Nonnull DynaTech plugin) {
 
-        // General
-        // Resources
         new SlimefunItem(ItemGroups.RESOURCES, Items.ANCIENT_MACHINE_CORE.stack(),
                 Recipes.ANCIENT_MACHINE_CORE.getRecipeType(), Recipes.ANCIENT_MACHINE_CORE.getInput())
                 .setGuideType("resources").register(plugin);
@@ -135,12 +133,8 @@ public class DynaTechItemsSetup {
                 Recipes.ADVANCED_ROBOTIC_BEE.getRecipeType(), Recipes.ADVANCED_ROBOTIC_BEE.getInput(), 11)
                 .setGuideType("resources").register(plugin);
 
-        // Machines
-        // Generators
 
-        // Materials
 
-        // Tools
         new PicnicBasket(27, ItemGroups.TOOLS, Items.PICNIC_BASKET.stack(), Recipes.PICNIC_BASKET.getRecipeType(),
                 Recipes.PICNIC_BASKET.getInput()).setGuideType("logistics").register(plugin);
 
@@ -203,7 +197,6 @@ public class DynaTechItemsSetup {
 
         new WitherGolem(ItemGroups.TOOLS, Items.WITHER_SKELETON_GOLEM.stack()).setGuideType("machines").register(plugin);
 
-        // START Machines
         if (DynaTech.isExoticGardenInstalled()) {
             new KitchenAutoCrafter(ItemGroups.MACHINES, Items.KITCHEN_AUTO_CRAFTER.stack(),
                     Recipes.KITCHEN_AUTO_CRAFTER.getRecipeType(), Recipes.KITCHEN_AUTO_CRAFTER.getInput())
@@ -409,11 +402,8 @@ public class DynaTechItemsSetup {
                 .setProcessingSpeed(1)
                 .register(plugin);
 
-        // START EXPERIMENTAL SHENANIGANS
         new PetalApothecary(ItemGroups.EXPERIMENTAL,
                 Items.PETAL_APOTHECARY.stack()).setGuideType("machines").register(plugin);
-        // END EXPERIMENTAL SHENANIGANS
-        // END Machines
         new LiquidTank(ItemGroups.TOOLS, Items.LIQUID_TANK.stack(), 16000, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         Items.STAINLESS_STEEL_INGOT.stack().item(), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)),
@@ -423,7 +413,6 @@ public class DynaTechItemsSetup {
                         Items.STAINLESS_STEEL_INGOT.stack().item(),
                 }).setGuideType("logistics").register(plugin);
 
-        // START Generators
         new ChippingGenerator(ItemGroups.GENERATORS, Items.DURABILITY_GENERATOR.stack(),
                 RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
@@ -464,8 +453,6 @@ public class DynaTechItemsSetup {
                 .setEnergyCapacity(32676)
                 .setEnergyProduction(1024)
                 .register(plugin);
-        // END Generators
-        // START Mechanical Components
 
         // final Recipe woodMachineCoreRecipe = Recipes.WOOD_MACHINE_CORE;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.WOOD_MACHINE_CORE.stack())
@@ -538,9 +525,7 @@ public class DynaTechItemsSetup {
                 degradedEggMill2Recipe.getRecipeType(),
                 degradedEggMill2Recipe.getInput()).setGuideType("resources").register(plugin);
 
-        // END Mechanical Components
 
-        // START Energy Generators
 
         final Recipe waterMillRecipe = Recipes.WATER_MILL;
         new WaterMill(ItemGroups.EXPERIMENTAL, Items.WATER_MILL.stack(), waterMillRecipe, 64, 16, 2500)
@@ -566,9 +551,7 @@ public class DynaTechItemsSetup {
         new EggMill(ItemGroups.EXPERIMENTAL, Items.EGG_MILL_2.stack(), eggMill2Recipe, 5000, 64, 256)
                 .register(plugin);
 
-        // END Energy Generators
 
-        // START Materials
 
         final Recipe stainlessSteelIngotRecipe = Recipes.STAINLESS_STEEL_INGOT;
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.STAINLESS_STEEL_INGOT.stack(),
@@ -592,9 +575,7 @@ public class DynaTechItemsSetup {
         new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.LIVINGWOOD.stack(), livingRockRecipe.getRecipeType(),
                 livingRockRecipe.getInput()).setGuideType("resources").register(plugin);
 
-        // END Materials
 
-        // START Liquids
         new LiquidContainerItem(ItemGroups.EXPERIMENTAL, Items.LAVA_BOTTLE.stack(), RecipeType.NULL,
                 new ItemStack[] {}, LiquidRegistry.getInstance().getByKey(NamespacedKey.minecraft("lava")), 250)
                 .setGuideType("logistics").register(plugin);
@@ -610,9 +591,7 @@ public class DynaTechItemsSetup {
         new LiquidContainerItem(ItemGroups.EXPERIMENTAL, Items.MILK_BOTTLE.stack(), RecipeType.NULL,
                 new ItemStack[] {}, LiquidRegistry.getInstance().getByKey(NamespacedKey.minecraft("milk")), 1000)
                 .setGuideType("logistics").register(plugin);
-        // END Liquids
 
-        // START Tools
         final Recipe inventoryFilterRecipe = Recipes.INVENTORY_FILTER;
         new InventoryFilter(ItemGroups.EXPERIMENTAL, Items.INVENTORY_FILTER.stack(),
                 inventoryFilterRecipe.getRecipeType(), inventoryFilterRecipe.getInput())
@@ -629,9 +608,7 @@ public class DynaTechItemsSetup {
                 .setGuideType("logistics").register(plugin);
 
         new FluidTank(ItemGroups.EXPERIMENTAL, Items.FLUID_TANK.stack()).setGuideType("logistics").register(plugin);
-        // END Tools
 
-        // START Machines
         new CokeOvenController(Items.COAL_COKE_OVEN.stack()).setGuideType("machines").register(plugin);
     }
 

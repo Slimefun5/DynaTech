@@ -51,13 +51,11 @@ public class CulinaryGenerator extends AbstractGenerator {
     }
     
     public void registerDefaultFuelTypes() {
-        //1 Food Levels
         fuels.add(new MachineFuel(2, new ItemStack(MaterialCompat.safe(XMaterial.BEETROOT))));
         fuels.add(new MachineFuel(2, new ItemStack(MaterialCompat.safe(XMaterial.DRIED_KELP))));
         fuels.add(new MachineFuel(2, new ItemStack(MaterialCompat.safe(XMaterial.POTATO))));
         fuels.add(new MachineFuel(2, new ItemStack(MaterialCompat.safe(XMaterial.TROPICAL_FISH))));
 
-        //2 Food Levels
         fuels.add(new MachineFuel(4, new ItemStack(MaterialCompat.safe(XMaterial.COOKIE))));
         fuels.add(new MachineFuel(4, new ItemStack(MaterialCompat.safe(XMaterial.MELON_SLICE))));
         fuels.add(new MachineFuel(4, new ItemStack(MaterialCompat.safe(XMaterial.CHICKEN))));
@@ -66,31 +64,26 @@ public class CulinaryGenerator extends AbstractGenerator {
         fuels.add(new MachineFuel(4, new ItemStack(MaterialCompat.safe(XMaterial.SWEET_BERRIES))));
         fuels.add(new MachineFuel(4, new ItemStack(MaterialCompat.safe(XMaterial.SALMON))));
 
-        //3 Food Levels
         fuels.add(new MachineFuel(6, new ItemStack(MaterialCompat.safe(XMaterial.CARROT))));
         fuels.add(new MachineFuel(6, new ItemStack(MaterialCompat.safe(XMaterial.BEEF))));
         fuels.add(new MachineFuel(6, new ItemStack(MaterialCompat.safe(XMaterial.PORKCHOP))));
         fuels.add(new MachineFuel(6, new ItemStack(MaterialCompat.safe(XMaterial.RABBIT))));
 
-        //4 Food Levels
         fuels.add(new MachineFuel(10, new ItemStack(MaterialCompat.safe(XMaterial.APPLE))));
         fuels.add(new MachineFuel(10, new ItemStack(MaterialCompat.safe(XMaterial.GOLDEN_APPLE))));
         fuels.add(new MachineFuel(10, new ItemStack(MaterialCompat.safe(XMaterial.ENCHANTED_GOLDEN_APPLE))));
         fuels.add(new MachineFuel(10, new ItemStack(MaterialCompat.safe(XMaterial.CHORUS_FRUIT))));
 
-        //5 Food Levels
         fuels.add(new MachineFuel(18, new ItemStack(MaterialCompat.safe(XMaterial.BAKED_POTATO))));
         fuels.add(new MachineFuel(18, new ItemStack(MaterialCompat.safe(XMaterial.COOKED_RABBIT))));
         fuels.add(new MachineFuel(18, new ItemStack(MaterialCompat.safe(XMaterial.COOKED_COD))));
         fuels.add(new MachineFuel(18, new ItemStack(MaterialCompat.safe(XMaterial.BREAD))));
 
-        //6 Food Levels
         fuels.add(new MachineFuel(24, new ItemStack(MaterialCompat.safe(XMaterial.COOKED_MUTTON))));
         fuels.add(new MachineFuel(24, new ItemStack(MaterialCompat.safe(XMaterial.COOKED_CHICKEN))));
         fuels.add(new MachineFuel(24, new ItemStack(MaterialCompat.safe(XMaterial.COOKED_SALMON))));
         fuels.add(new MachineFuel(24, new ItemStack(MaterialCompat.safe(XMaterial.GOLDEN_CARROT))));
 
-        //8 Food Levels
         fuels.add(new MachineFuel(36, new ItemStack(MaterialCompat.safe(XMaterial.COOKED_PORKCHOP))));
         fuels.add(new MachineFuel(36, new ItemStack(MaterialCompat.safe(XMaterial.COOKED_BEEF))));
         fuels.add(new MachineFuel(36, new ItemStack(MaterialCompat.safe(XMaterial.PUMPKIN_PIE))));

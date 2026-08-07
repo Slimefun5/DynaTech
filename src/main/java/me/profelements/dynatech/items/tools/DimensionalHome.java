@@ -58,7 +58,6 @@ public class DimensionalHome extends SlimefunItem {
                             }
                         }
                     } else {
-                        // Setup ChunkKey
                         updateLore(item);
                     }
                 }

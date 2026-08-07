@@ -21,7 +21,6 @@ public class RegistryListeners implements Listener {
     public <T> void confirmFreeze(RegistryFreezeEvent<T> event) {
 
         if (event.getRegistryKey().equals(Registries.Keys.ITEMS)) {
-            // GRAB STAINLESS STEEL
             Registry<ItemWrapper> items = (Registry<ItemWrapper>) Registry.getByKey(event.getRegistryKey());
             if (items.getKeys().contains(Items.Keys.STAINLESS_STEEL_INGOT)) {
                 ItemWrapper wrapped = items.entry(Items.Keys.STAINLESS_STEEL_INGOT);

@@ -232,7 +232,6 @@ public class WirelessItemOutput extends SlimefunItem implements EnergyNetCompone
         knowledgePane.setItemMeta(im);
     }
 
-    // Boilerplate for machines.
     public void constructMenu(BlockMenuPreset preset) {
         preset.drawBackground(ChestMenuUtils.getOutputSlotTexture(), getBorder());
         preset.addItem(

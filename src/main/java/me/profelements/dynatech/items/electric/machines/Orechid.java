@@ -25,7 +25,6 @@ import javax.annotation.Nonnull;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.profelements.dynatech.utils.MaterialCompat;
 
-//I feel like this can somehow be much better :O (review)
 
 public class Orechid extends AbstractElectricTicker implements RecipeDisplayItem {
 

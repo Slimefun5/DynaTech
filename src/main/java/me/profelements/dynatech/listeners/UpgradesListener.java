@@ -58,7 +58,6 @@ public class UpgradesListener implements Listener {
             int index2 = upgradeString.indexOf("}");
             BlockFace face = AutoOutputUpgrade.stringToBlockFace(upgradeString.substring(index, index2));
             // DynaTech.getInstance().getLogger().info(face.toString());
-            // Grab menu and then grab output slots
             if (e.getProcessor().getOwner() instanceof AContainer
                     && e.getOperation() instanceof CraftingOperation && ((CraftingOperation) e.getOperation()).isFinished()) {
                 AContainer cont = (AContainer) e.getProcessor().getOwner();
@@ -158,7 +157,6 @@ public class UpgradesListener implements Listener {
         String upgradeString = upgrades.substring(upgradeIdx, upgradeIdx2 + 1);
 
         if (upgradeString.contains("id:auto_input")) {
-            // Grab face
             int index = upgradeString.indexOf("face:");
             int index2 = upgradeString.indexOf("}");
             BlockFace face = AutoOutputUpgrade.stringToBlockFace(upgradeString.substring(index, index2));

@@ -77,7 +77,6 @@ public class LiquidTank extends SlimefunItem implements NotPlaceable, Listener {
                 && SlimefunItem.getByItem(item) instanceof LiquidTank) {
             LiquidTank tank = (LiquidTank) SlimefunItem.getByItem(item);
             e.setCancelled(true);
-            // Check if block == LAVA or WATER
             String fluidName = Pdc.getString(item.getItemMeta(), FLUID_NAME, "NO_LIQUID");
             int fluidAmount = Pdc.getInt(item.getItemMeta(), FLUID_AMOUNT, 0);
             Block block = e.getBlock();

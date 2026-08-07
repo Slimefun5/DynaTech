@@ -156,7 +156,6 @@ public class MaterialHive extends AbstractElectricMachine implements Radioactive
     private static List<String> getDefaultAllowedSlimefunItems() {
         List<String> sfItemsAllowed = new ArrayList<>();
 
-        // Ingots
         sfItemsAllowed.add("COPPER_INGOT");
         sfItemsAllowed.add("TIN_INGOT");
         sfItemsAllowed.add("SILVER_INGOT");
@@ -165,7 +164,6 @@ public class MaterialHive extends AbstractElectricMachine implements Radioactive
         sfItemsAllowed.add("ZINC_INGOT");
         sfItemsAllowed.add("MAGNESIUM_INGOT");
 
-        // Alloys
         sfItemsAllowed.add("STEEL_INGOT");
         sfItemsAllowed.add("DURALUMIN_INGOT");
         sfItemsAllowed.add("BILLON_INGOT");
@@ -182,7 +180,6 @@ public class MaterialHive extends AbstractElectricMachine implements Radioactive
         sfItemsAllowed.add("NICKEL_INGOT");
         sfItemsAllowed.add("COBALT_INGOT");
         sfItemsAllowed.add("REDSTONE_ALLOY");
-        // Gems
         sfItemsAllowed.add("SYNTHETIC_DIAMOND");
         sfItemsAllowed.add("SYNTHETIC_EMERALD");
         sfItemsAllowed.add("SYNTHETIC_SAPPHIRE");

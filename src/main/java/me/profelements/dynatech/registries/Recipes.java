@@ -72,9 +72,7 @@ public class Recipes {
 
     }
 
-    // START Mechanical Components
 
-    // Wood Machine Core
     public static final Recipe WOOD_MACHINE_CORE = Recipe.init()
             .setKey(Keys.WOOD_MACHINE_CORE.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -83,7 +81,6 @@ public class Recipes {
             .setOutput(Items.WOOD_MACHINE_CORE.stack().item())
             .register();
 
-    // Stone Machine Core
     public static final Recipe STONE_MACHINE_CORE = Recipe.init()
             .setKey(Keys.STONE_MACHINE_CORE.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -92,7 +89,6 @@ public class Recipes {
             .setOutput(Items.STONE_MACHINE_CORE.stack().item())
             .register();
 
-    // Iron Machine Core
     public static final Recipe IRON_MACHINE_CORE = Recipe.init()
             .setKey(Keys.IRON_MACHINE_CORE.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -101,7 +97,6 @@ public class Recipes {
             .setOutput(Items.IRON_MACHINE_CORE.stack().item())
             .register();
 
-    // Diamond Machine Core
     public static final Recipe DIAMOND_MACHINE_CORE = Recipe.init()
             .setKey(Keys.DIAMOND_MACHINE_CORE.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -110,7 +105,6 @@ public class Recipes {
             .setOutput(Items.DIAMOND_MACHINE_CORE.stack().item())
             .register();
 
-    // Enchanted Machine Core
     public static final Recipe ENCHANTED_MACHINE_CORE = Recipe.init()
             .setKey(Keys.ENCHANTED_MACHINE_CORE.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
@@ -120,7 +114,6 @@ public class Recipes {
             .setOutput(Items.ENCHANTED_MACHINE_CORE.stack().item())
             .register();
 
-    // Ancient Machine Core
 
     public static final Recipe ANCIENT_MACHINE_CORE = Recipe.init()
             .setKey(Keys.ANCIENT_MACHINE_CORE.key())
@@ -133,7 +126,6 @@ public class Recipes {
             .setOutput(Items.ANCIENT_MACHINE_CORE.stack().item())
             .register();
 
-    // Energy Storage Component
     public static final Recipe ENERGY_STORAGE_COMPONENT = Recipe.init()
             .setKey(Keys.ENERGY_STORAGE_COMPONENT.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -144,7 +136,6 @@ public class Recipes {
             .setOutput(Items.ENERGY_STORAGE_COMPONENT.stack().item())
             .register();
 
-    // Energy Input Component
     public static final Recipe ENERGY_INPUT_COMPONENT = Recipe.init()
             .setKey(Keys.ENERGY_INPUT_COMPONENT.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE).setInput(new ItemStack[] {
@@ -154,7 +145,6 @@ public class Recipes {
             }).setOutput(Items.ENERGY_INPUT_COMPONENT.stack().item())
             .register();
 
-    // Energy Output Component
     public static final Recipe ENERGY_OUTPUT_COMPONENT = Recipe.init()
             .setKey(Keys.ENERGY_OUTPUT_COMPONENT.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -166,7 +156,6 @@ public class Recipes {
             .setOutput(Items.ENERGY_OUTPUT_COMPONENT.stack().item())
             .register();
 
-    // Degraded Wind Mill
     public static final Recipe DEGRADED_WIND_MILL = Recipe.init()
             .setKey(Keys.DEGRADED_WIND_MILL.key())
             .setRecipeType(RecipeTypes.BLOCK_DROP)
@@ -174,7 +163,6 @@ public class Recipes {
             .setOutput(Items.DEGRADED_WIND_MILL.stack().item())
             .register();
 
-    // Degraded Wind Mill 2
     public static final Recipe DEGRADED_WIND_MILL_2 = Recipe.init()
             .setKey(Keys.DEGRADED_WIND_MILL_2.key())
             .setRecipeType(RecipeTypes.BLOCK_DROP)
@@ -182,7 +170,6 @@ public class Recipes {
             .setOutput(Items.DEGRADED_WIND_MILL_2.stack().item())
             .register();
 
-    // Degraded Hydro Mill
     public static final Recipe DEGRADED_WATER_MILL = Recipe.init()
             .setKey(Keys.DEGRADED_WATER_MILL.key())
             .setRecipeType(RecipeTypes.BLOCK_DROP)
@@ -190,14 +177,12 @@ public class Recipes {
             .setOutput(Items.DEGRADED_WATER_MILL.stack().item())
             .register();
 
-    // Degraded Hydro Mill 2
     public static final Recipe DEGRADED_WATER_MILL_2 = Recipe.init()
             .setKey(Keys.DEGRADED_WATER_MILL_2.key())
             .setRecipeType(RecipeTypes.BLOCK_DROP)
             .setInput(new ItemStack[] { Items.WATER_MILL_2.stack().item() })
             .setOutput(Items.DEGRADED_WATER_MILL_2.stack().item())
             .register();
-    // Degraded Egg Mill
     public static final Recipe DEGRADED_EGG_MILL = Recipe.init()
             .setKey(Keys.DEGRADED_EGG_MILL.key())
             .setRecipeType(RecipeTypes.BLOCK_DROP)
@@ -205,7 +190,6 @@ public class Recipes {
             .setOutput(Items.DEGRADED_EGG_MILL.stack().item())
             .register();
 
-    // Degraded Egg Mill 2
     public static final Recipe DEGRADED_EGG_MILL_2 = Recipe.init()
             .setKey(Keys.DEGRADED_EGG_MILL_2.key())
             .setRecipeType(RecipeTypes.BLOCK_DROP)
@@ -213,11 +197,8 @@ public class Recipes {
             .setOutput(Items.DEGRADED_EGG_MILL_2.stack().item())
             .register();
 
-    // END Mechanical Components
 
-    // Start Generators
 
-    // Water Mill Level 1 (Hydro Generator)
     public static final Recipe WATER_MILL = Recipe.init()
             .setKey(Keys.WATER_MILL.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -232,7 +213,6 @@ public class Recipes {
             .setOutput(Items.WATER_MILL.stack().item())
             .register();
 
-    // Water Mill Repair
     public static final Recipe WATER_MILL_REPAIR = Recipe.init()
             .setKey(Keys.WATER_MILL_REPAIR.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -245,7 +225,6 @@ public class Recipes {
             .setOutput(Items.WATER_MILL.stack().item())
             .register();
 
-    // Water Mill Level 2 (Hydro Turbine)
     public static final Recipe WATER_MILL_2 = Recipe.init()
             .setKey(Keys.WATER_MILL_2.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -260,7 +239,6 @@ public class Recipes {
             .setOutput(Items.WATER_MILL_2.stack().item())
             .register();
 
-    // Water Mill Level 2 Repair
     public static final Recipe WATER_MILL_2_REPAIR = Recipe.init()
             .setKey(Keys.WATER_MILL_2_REPAIR.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -273,7 +251,6 @@ public class Recipes {
             .setOutput(Items.WATER_MILL_2.stack().item())
             .register();
 
-    // Wind Mill Level 1
     public static final Recipe WIND_MILL = Recipe.init()
             .setKey(Keys.WIND_MILL.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -287,7 +264,6 @@ public class Recipes {
             .setOutput(Items.WIND_MILL.stack().item())
             .register();
 
-    // Wind Mill Level 1 Repair
     public static final Recipe WIND_MILL_REPAIR = Recipe.init()
             .setKey(Keys.WIND_MILL_REPAIR.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -299,7 +275,6 @@ public class Recipes {
             .setOutput(Items.WIND_MILL.stack().item())
             .register();
 
-    // Wind Mill Level 2
     public static final Recipe WIND_MILL_2 = Recipe.init()
             .setKey(Keys.WIND_MILL_2.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -313,7 +288,6 @@ public class Recipes {
             .setOutput(Items.WIND_MILL_2.stack().item())
             .register();
 
-    // Wind Mill Level 2 Repair
     public static final Recipe WIND_MILL_2_REPAIR = Recipe.init()
             .setKey(Keys.WIND_MILL_2_REPAIR.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -325,7 +299,6 @@ public class Recipes {
             .setOutput(Items.WIND_MILL_2.stack().item())
             .register();
 
-    // Egg Mill Level 1
     public static final Recipe EGG_MILL = Recipe.init()
             .setKey(Keys.EGG_MILL.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
@@ -337,7 +310,6 @@ public class Recipes {
             .setOutput(Items.EGG_MILL.stack().item())
             .register();
 
-    // Egg Mill Level 1 Repair
     public static final Recipe EGG_MILL_REPAIR = Recipe.init()
             .setKey(Keys.EGG_MILL_REPAIR.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
@@ -349,7 +321,6 @@ public class Recipes {
             .setOutput(Items.EGG_MILL.stack().item())
             .register();
 
-    // Egg Mill Level 2
     public static final Recipe EGG_MILL_2 = Recipe.init()
             .setKey(Keys.EGG_MILL_2.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
@@ -361,7 +332,6 @@ public class Recipes {
             .setOutput(Items.EGG_MILL_2.stack().item())
             .register();
 
-    // Egg Mill Level 2 Repair
     public static final Recipe EGG_MILL_2_REPAIR = Recipe.init()
             .setKey(Keys.EGG_MILL_2_REPAIR.key())
             .setRecipeType(RecipeType.MAGIC_WORKBENCH)
@@ -373,11 +343,8 @@ public class Recipes {
             .setOutput(Items.EGG_MILL_2.stack().item())
             .register();
 
-    // END Energy Generators
 
-    // START Materials
 
-    // Stainless Steel Ingot
     public static final Recipe STAINLESS_STEEL_INGOT = Recipe.init()
             .setKey(Keys.STAINLESS_STEEL_INGOT.key())
             .setRecipeType(RecipeType.SMELTERY)
@@ -388,7 +355,6 @@ public class Recipes {
             .setOutput(Items.STAINLESS_STEEL_INGOT.stack().item())
             .register();
 
-    // Stainless Steel Rotor
     public static final Recipe STAINLESS_STEEL_ROTOR = Recipe.init()
             .setKey(Keys.STAINLESS_STEEL_ROTOR.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -515,8 +481,6 @@ public class Recipes {
             .setInput(StarDustMeteor.STARDUST_METEOR.item())
             .setOutput(Items.STAR_DUST.stack().item())
             .register();
-    // END Materials
-    // START Tools
     public static final Recipe INVENTORY_FILTER = Recipe.init()
             .setKey(Keys.INVENTORY_FILTER.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -670,7 +634,6 @@ public class Recipes {
             .setOutput(Items.TESSERACT_BINDER.stack().item())
             .register();
 
-    // END Tools
     public static final Recipe KITCHEN_AUTO_CRAFTER = Recipe.init()
             .setKey(Keys.KITCHEN_AUTO_CRAFTER.key())
             .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
@@ -910,7 +873,6 @@ public class Recipes {
                     SMOOTH_STONE_SLAB, SMOOTH_STONE_SLAB, SMOOTH_STONE_SLAB,
             });
 
-    // START EXPERIMENTAL SHENANIGANS
     public static final Recipe TEST_PETAL_APOTH_RECIPE = Recipe.init()
             .setKey(new NamespacedKey("dynatech", "test_apoth"))
             .setRecipeType(RecipeTypes.PETAL_APOTHECARY)
@@ -918,11 +880,8 @@ public class Recipes {
             .setOutput(new ItemStack(MaterialCompat.safe(XMaterial.WHEAT)))
             .register();
 
-    // END EXPERIMETNAL SHENANIGANS
 
-    // END MACHINES
 
-    // START Orechid Recipes
     public static final Recipe STONE_TO_COAL_ORE = Recipe.init()
             .setKey(Recipes.Keys.STONE_TO_COAL_ORE.key())
             .setRecipeType(RecipeTypes.ORECHID)
@@ -1023,11 +982,9 @@ public class Recipes {
             .setOutput(Items.LIVINGWOOD.stack().item())
             .register();
 
-    // END Orechid Recipes
 
     public static final class Keys {
 
-        // START Mechanical Components
         public static final TypedKey<Recipe> WOOD_MACHINE_CORE = TypedKey.create("dynatech", "wood_machine_core");
 
         public static final TypedKey<Recipe> STONE_MACHINE_CORE = TypedKey.create("dynatech", "stone_machine_core");
@@ -1069,8 +1026,6 @@ public class Recipes {
         public static final TypedKey<Recipe> DEGRADED_EGG_MILL_2 = TypedKey.create("dynatech",
                 "degraded_egg_mill_2");
 
-        // END Mechanical Components
-        // START Energy Generators
         public static final TypedKey<Recipe> WATER_MILL = TypedKey.create("dynatech",
                 "water_mill");
 
@@ -1114,9 +1069,7 @@ public class Recipes {
 
         public static final TypedKey<Recipe> STARDUST_GENERATOR = TypedKey.create("dynatech",
                 "stardust_generator");
-        // END Energy Generators
 
-        // START Materials
         public static final TypedKey<Recipe> STAINLESS_STEEL_INGOT = TypedKey.create("dynatech",
                 "stainless_steel_ingot");
 
@@ -1142,9 +1095,7 @@ public class Recipes {
         public static final TypedKey<Recipe> TESSERACTING_OBJ = TypedKey.create("dynatech", "tesseracting_object");
 
         public static final TypedKey<Recipe> STAR_DUST = TypedKey.create("dynatech", "star_dust");
-        // END Materials
 
-        // START Tools
         public static final TypedKey<Recipe> ELECTRICAL_STIMULATOR = TypedKey.create("dynatech",
                 "electrical_stimulator");
 
@@ -1170,8 +1121,6 @@ public class Recipes {
         public static final TypedKey<Recipe> ITEM_BAND_HEALTH = TypedKey.create("dynatech", "health_item_band");
 
         public static final TypedKey<Recipe> TESSERACT_BINDER = TypedKey.create("dynatech", "tesseract_binder");
-        // END Tools
-        // START Machines
         public static final TypedKey<Recipe> KITCHEN_AUTO_CRAFTER = TypedKey.create("dynatech", "kitchen_auto_crafter");
 
         public static final TypedKey<Recipe> GROWTH_CHAMBER = TypedKey.create("dynatech", "growth_chamber");
@@ -1206,7 +1155,6 @@ public class Recipes {
 
         public static final TypedKey<Recipe> PETAL_APOTHECARY = TypedKey.create(Items.Keys.PETAL_APOTHECARY.key());
 
-        // Orechid Recipes
         public static final TypedKey<Recipe> STONE_TO_COAL_ORE = TypedKey.create("dynatech", "stone_to_coal_ore");
 
         public static final TypedKey<Recipe> STONE_TO_IRON_ORE = TypedKey.create("dynatech", "stone_to_iron_ore");

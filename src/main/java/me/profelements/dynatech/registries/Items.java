@@ -23,7 +23,6 @@ public class Items {
     private static final String RIGHT_CLICK_LORE = "&eRight Click &7to open.";
     private static final String THREE_X_PROD_LORE = "&c3x production.";
 
-    // START Mechanical Components
     public static final ItemWrapper WOOD_MACHINE_CORE = ItemWrapper.create(Keys.WOOD_MACHINE_CORE,
             new SlimefunItemStack(
                     Items.Keys.WOOD_MACHINE_CORE.asSlimefunId(),
@@ -98,9 +97,7 @@ public class Items {
             new SlimefunItemStack(
                     Items.Keys.DEGRADED_EGG_MILL_2.asSlimefunId(),
                     MaterialCompat.safe(XMaterial.RESPAWN_ANCHOR)));
-    // END Mechanical Components
 
-    // START Energy Generators
     public static final ItemWrapper WATER_MILL = ItemWrapper.create(Keys.WATER_MILL,
             new SlimefunItemStack(
                     Items.Keys.WATER_MILL.asSlimefunId(),
@@ -146,9 +143,7 @@ public class Items {
                     Items.Keys.STARDUST_GENERATOR.asSlimefunId(),
                     MaterialCompat.safe(XMaterial.IRON_BLOCK)));
 
-    // END Energy Generators
 
-    // START Materials
     public static final ItemWrapper STAINLESS_STEEL_INGOT = ItemWrapper.create(Keys.STAINLESS_STEEL_INGOT,
             new SlimefunItemStack(
                     Keys.STAINLESS_STEEL_INGOT.asSlimefunId(),
@@ -215,8 +210,6 @@ public class Items {
                     Keys.LIVINGWOOD.asSlimefunId(),
                     MaterialCompat.safe(XMaterial.OAK_WOOD)));
 
-    // END Materials
-    // START Tools
     public static final ItemWrapper ELECTRICAL_STIMULATOR = ItemWrapper.create(Keys.ELECTRICAL_STIMULATOR,
             new SlimefunItemStack(
                     Keys.ELECTRICAL_STIMULATOR.asSlimefunId(),
@@ -294,8 +287,6 @@ public class Items {
                     Keys.WITHER_SKELETON_GOLEM.asSlimefunId(),
                     MaterialCompat.safe(XMaterial.WITHER_SKELETON_SKULL)));
 
-    // END Tools
-    // START Machines
     public static final ItemWrapper COAL_COKE_OVEN = ItemWrapper.create(Keys.COAL_COKE_OVEN,
             new SlimefunItemStack(
                     Keys.COAL_COKE_OVEN.asSlimefunId(),
@@ -422,15 +413,12 @@ public class Items {
             new SlimefunItemStack(
                     Keys.GROWTH_CHAMBER_MK2_END.asSlimefunId(),
                     MaterialCompat.safe(XMaterial.PURPLE_STAINED_GLASS)));
-    // END Growth Chambers
 
     public static final ItemWrapper PETAL_APOTHECARY = ItemWrapper.create(Keys.PETAL_APOTHECARY,
             new SlimefunItemStack(
                     Keys.PETAL_APOTHECARY.asSlimefunId(),
                     MaterialCompat.safe(XMaterial.CAULDRON)));
 
-    // END Machines
-    // START Fluid Containers
     public static final ItemWrapper LAVA_BOTTLE = ItemWrapper.create(Keys.LAVA_BOTTLE, new SlimefunItemStack(
             Keys.LAVA_BOTTLE.asSlimefunId(),
             Color.ORANGE,
@@ -452,7 +440,6 @@ public class Items {
                     MaterialCompat.safe(XMaterial.WATER_BUCKET)));
 
     public static final class Keys {
-        // START Mechanical Components
         public static final TypedKey<ItemWrapper> WOOD_MACHINE_CORE = TypedKey.create("dynatech", "wood_machine_core");
 
         public static final TypedKey<ItemWrapper> STONE_MACHINE_CORE = TypedKey.create("dynatech",
@@ -496,8 +483,6 @@ public class Items {
         public static final TypedKey<ItemWrapper> DEGRADED_EGG_MILL_2 = TypedKey.create("dynatech",
                 "degraded_egg_mill_2");
 
-        // END Mechanical Components
-        // START Energy Generators
         public static final TypedKey<ItemWrapper> WATER_MILL = TypedKey.create("dynatech",
                 "water_mill");
 
@@ -523,8 +508,6 @@ public class Items {
 
         public static final TypedKey<ItemWrapper> STARDUST_GENERATOR = TypedKey.create("dynatech",
                 "stardust_generator");
-        // END Energy Generators
-        // START Materials
         public static final TypedKey<ItemWrapper> STAINLESS_STEEL_INGOT = TypedKey
                 .create("dynatech", "stainless_steel_ingot");
 
@@ -555,8 +538,6 @@ public class Items {
         public static final TypedKey<ItemWrapper> LIVINGROCK = TypedKey.create("dynatech", "livingrock");
 
         public static final TypedKey<ItemWrapper> LIVINGWOOD = TypedKey.create("dynatech", "livingwood");
-        // END Materials
-        // START Tools
         public static final TypedKey<ItemWrapper> ELECTRICAL_STIMULATOR = TypedKey.create("dynatech",
                 "electrical_stimulator");
 
@@ -596,8 +577,6 @@ public class Items {
         public static final TypedKey<ItemWrapper> WITHER_SKELETON_GOLEM = TypedKey.create("dynatech",
                 "wither_skeleton_golem");
 
-        // END Tools
-        // START Machines
         public static final TypedKey<ItemWrapper> COAL_COKE_OVEN = TypedKey.create("dynatech", "coal_coke_oven");
 
         public static final TypedKey<ItemWrapper> AUTO_KITCHEN = TypedKey.create("dynatech", "auto_kitchen");
@@ -638,7 +617,6 @@ public class Items {
                 "wireless_item_output");
 
         public static final TypedKey<ItemWrapper> EXTERNAL_HEATER = TypedKey.create("dynatech", "external_heater");
-        // START Growth Chambers
         public static final TypedKey<ItemWrapper> GROWTH_CHAMBER = TypedKey.create("dynatech", "growth_chamber");
         public static final TypedKey<ItemWrapper> GROWTH_CHAMBER_OCEAN = TypedKey.create("dynatech",
                 "ocean_growth_chamber");
@@ -655,17 +633,13 @@ public class Items {
                 "nether_growth_chamber_mark_2");
         public static final TypedKey<ItemWrapper> GROWTH_CHAMBER_MK2_END = TypedKey.create("dynatech",
                 "end_growth_chamber_mark_2");
-        // END Growth Chambers
 
         public static final TypedKey<ItemWrapper> PETAL_APOTHECARY = TypedKey.create("dynatech", "petal_apothecary");
 
-        // END Machines
-        // START Fluid Containers
         public static final TypedKey<ItemWrapper> LAVA_BOTTLE = TypedKey.create("dynatech", "lava_bottle");
         public static final TypedKey<ItemWrapper> MILK_BOTTLE = TypedKey.create("dynatech", "milk_bottle");
         public static final TypedKey<ItemWrapper> HONEY_BUCKET = TypedKey.create("dynatech", "honey_bucket");
         public static final TypedKey<ItemWrapper> POTION_BUCKET = TypedKey.create("dynatech", "potion_bucket");
-        // END Fluid Containers
     }
 }
 

@@ -98,7 +98,6 @@ public class CokeOvenController extends SlimefunItem {
 
     public void tickBlock(Block blk) {
 
-        // Check block storage for validity and add it to the Map if it is valid
         String boolStr = BlockStorage.getLocationInfo(blk.getLocation(), "dynatech:valid");
         String facingStr = BlockStorage.getLocationInfo(blk.getLocation(), "dynatech:facing");
 
