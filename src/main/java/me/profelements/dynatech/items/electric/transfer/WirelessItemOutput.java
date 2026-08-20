@@ -203,9 +203,7 @@ public class WirelessItemOutput extends SlimefunItem implements EnergyNetCompone
                         && InvUtils.fitAll(output.toInventory(), new ItemStack[] { itemStack }, getOutputSlots())) {
                     removeCharge(wirelessItemInput, getEnergyConsumption());
                     removeCharge(b.getLocation(), getEnergyConsumption());
-                    // This reads/zeroes a remote input menu and writes the output menu off the async
-                    // ticker thread - both are player-viewable. Run the move on the main thread while
-                    // either is watched so it can't race a viewer's clicks (dupe); inline otherwise.
+                    // Async ticker zeroes a remote input menu and writes the output menu, both player-viewable; run on main thread while watched so a viewer's click can't dupe.
                     BlockStorage.mutateInventorySafely(() -> {
                         output.pushItem(itemStack, getOutputSlots());
                         itemStack.setAmount(0);
@@ -232,7 +230,6 @@ public class WirelessItemOutput extends SlimefunItem implements EnergyNetCompone
         knowledgePane.setItemMeta(im);
     }
 
-    // Boilerplate for machines.
     public void constructMenu(BlockMenuPreset preset) {
         preset.drawBackground(ChestMenuUtils.getOutputSlotTexture(), getBorder());
         preset.addItem(

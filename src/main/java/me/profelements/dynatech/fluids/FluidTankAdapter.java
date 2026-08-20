@@ -61,9 +61,7 @@ public class FluidTankAdapter {
 
         Levelled lvl = (Levelled) block.getBlockData();
 
-        // Level 0 is special cased as a source block of water or lava.
-        // Cauldron level starts at 1;
-        // Max cauldron level = 3. so this is a Levelled source we can't use
+        // Cauldron levels are 1-3 (0 = a full water/lava source, handled below); higher isn't a usable fluid source.
         if (lvl.getLevel() > 3) {
             return null;
         }

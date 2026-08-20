@@ -97,7 +97,6 @@ public class ChestMenuUtils {
         menu.addItem(19, recipe.getRecipeType().toItem(), NO_CLICK);
         menu.addItem(25, recipe.getOutput()[0], NO_CLICK);
 
-        // air , air , air
         menu.addItem(36,
                 io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils.getPreviousButton(p, idx + 1, recipes.size()),
                 new MenuClickHandler() {

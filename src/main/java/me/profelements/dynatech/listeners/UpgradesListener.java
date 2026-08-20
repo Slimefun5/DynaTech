@@ -58,7 +58,6 @@ public class UpgradesListener implements Listener {
             int index2 = upgradeString.indexOf("}");
             BlockFace face = AutoOutputUpgrade.stringToBlockFace(upgradeString.substring(index, index2));
             // DynaTech.getInstance().getLogger().info(face.toString());
-            // Grab menu and then grab output slots
             if (e.getProcessor().getOwner() instanceof AContainer
                     && e.getOperation() instanceof CraftingOperation && ((CraftingOperation) e.getOperation()).isFinished()) {
                 AContainer cont = (AContainer) e.getProcessor().getOwner();
@@ -67,62 +66,66 @@ public class UpgradesListener implements Listener {
                 ItemStack[] outputItems = op.getResults();
 
                 if (l.getBlock().getRelative(face).getType().equals(MaterialCompat.safe(XMaterial.CHEST))) {
-                    // This event fires on the async machine ticker thread, and the old flow consumed the
-                    // output slots here but deposited into the chest a tick later - so a player pulling
-                    // the output in between got the item twice, and a full chest ate it entirely. Move
-                    // everything in ONE main-thread task: add a CLONE to the chest first (never the shared
-                    // recipe stacks - addItem mutates them), then consume exactly what the chest accepted.
-                    DynaTech.runSync(() -> {
-                        BlockState state = l.getBlock().getRelative(face).getState();
-                        if (!(state instanceof Chest)) {
-                            return;
-                        }
-
-                        BlockMenu menu = BlockStorage.getInventory(l);
-                        if (menu == null) {
-                            return;
-                        }
-
-                        Chest chest = (Chest) state;
-                        Inventory inv = chest.getBlockInventory();
-                        boolean moved = false;
-
-                        for (int slot : outputSlots) {
-                            ItemStack item = menu.getItemInSlot(slot);
-                            if (item == null || item.getType() == Material.AIR) {
-                                continue;
-                            }
-
-                            boolean matchesResult = false;
-                            for (ItemStack outputItem : outputItems) {
-                                if (SlimefunUtils.isItemSimilar(item, outputItem, true)) {
-                                    matchesResult = true;
-                                    break;
-                                }
-                            }
-                            if (!matchesResult) {
-                                continue;
-                            }
-
-                            int available = item.getAmount();
-                            int leftover = 0;
-                            for (ItemStack rest : inv.addItem(item.clone()).values()) {
-                                leftover += rest.getAmount();
-                            }
-
-                            int accepted = available - leftover;
-                            if (accepted > 0) {
-                                menu.consumeItem(slot, accepted);
-                                moved = true;
-                            }
-                        }
-
-                        if (moved) {
-                            chest.update(true, false);
-                        }
-                    });
+                    DynaTech.runSync(() -> depositOutputIntoChest(l, face, outputSlots, outputItems));
                 }
             }
+        }
+    }
+
+    /**
+     * @implNote Fires on the async machine ticker thread, so the whole move runs in ONE main-thread
+     *           task: a clone is added to the chest first ({@code addItem} mutates the shared recipe
+     *           stacks, so never pass those), then only the accepted amount is consumed. The old flow
+     *           consumed here and deposited a tick later, letting a player who pulled the output in
+     *           between get it twice while a full chest ate it entirely.
+     */
+    private static void depositOutputIntoChest(Location l, BlockFace face, int[] outputSlots, ItemStack[] outputItems) {
+        BlockState state = l.getBlock().getRelative(face).getState();
+        if (!(state instanceof Chest)) {
+            return;
+        }
+
+        BlockMenu menu = BlockStorage.getInventory(l);
+        if (menu == null) {
+            return;
+        }
+
+        Chest chest = (Chest) state;
+        Inventory inv = chest.getBlockInventory();
+        boolean moved = false;
+
+        for (int slot : outputSlots) {
+            ItemStack item = menu.getItemInSlot(slot);
+            if (item == null || item.getType() == Material.AIR) {
+                continue;
+            }
+
+            boolean matchesResult = false;
+            for (ItemStack outputItem : outputItems) {
+                if (SlimefunUtils.isItemSimilar(item, outputItem, true)) {
+                    matchesResult = true;
+                    break;
+                }
+            }
+            if (!matchesResult) {
+                continue;
+            }
+
+            int available = item.getAmount();
+            int leftover = 0;
+            for (ItemStack rest : inv.addItem(item.clone()).values()) {
+                leftover += rest.getAmount();
+            }
+
+            int accepted = available - leftover;
+            if (accepted > 0) {
+                menu.consumeItem(slot, accepted);
+                moved = true;
+            }
+        }
+
+        if (moved) {
+            chest.update(true, false);
         }
     }
 
@@ -158,7 +161,6 @@ public class UpgradesListener implements Listener {
         String upgradeString = upgrades.substring(upgradeIdx, upgradeIdx2 + 1);
 
         if (upgradeString.contains("id:auto_input")) {
-            // Grab face
             int index = upgradeString.indexOf("face:");
             int index2 = upgradeString.indexOf("}");
             BlockFace face = AutoOutputUpgrade.stringToBlockFace(upgradeString.substring(index, index2));

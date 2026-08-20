@@ -62,7 +62,6 @@ public class PicnicBasket extends SlimefunBackpack {
         defaultBlacklist.add(MaterialCompat.safe(XMaterial.GOLDEN_APPLE));
         defaultBlacklist.add(MaterialCompat.safe(XMaterial.ROTTEN_FLESH));
 
-        //Returns Stuff, maybe will figure this out later.
         defaultBlacklist.add(MaterialCompat.safe(XMaterial.SUSPICIOUS_STEW));
         defaultBlacklist.add(MaterialCompat.safe(XMaterial.MUSHROOM_STEW));
         defaultBlacklist.add(MaterialCompat.safe(XMaterial.RABBIT_STEW));

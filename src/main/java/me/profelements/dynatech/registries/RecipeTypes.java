@@ -52,7 +52,6 @@ public class RecipeTypes {
 
     public static final RecipeType ORECHID = new RecipeType(Keys.ORECHID.sfKey(), Items.ORECHID.stack().item(),
             (recipe, output) -> {
-                // Grab first item for input
                 Material inputMaterial = recipe[0].getType();
                 RandomizedSet<ItemStack> set = Orechid.oreMap.getOrDefault(inputMaterial, new RandomizedSet<>());
                 set.add(output, output.getAmount());

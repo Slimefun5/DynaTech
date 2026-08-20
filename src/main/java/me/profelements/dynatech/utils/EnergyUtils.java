@@ -71,7 +71,6 @@ public class EnergyUtils {
         List<Integer> emptySlots = new ArrayList<>(toSlots.length);
         for (int slot : toSlots) {
             ItemStack stack = toMenu.getItemInSlot(slot);
-            // Skips currently occupied slots (should probably do this better
             if (stack != null) {
                 continue;
             }

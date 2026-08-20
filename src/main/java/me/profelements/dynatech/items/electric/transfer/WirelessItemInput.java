@@ -131,7 +131,6 @@ public class WirelessItemInput extends SlimefunItem implements EnergyNetComponen
         knowledgePane.setItemMeta(im);
     }
 
-    // Boilerplate for machines.
     public void constructMenu(BlockMenuPreset preset) {
         preset.drawBackground(ChestMenuUtils.getInputSlotTexture(), getBorder());
         preset.addItem(4, CustomItemStack.create(MaterialCompat.safe(XMaterial.PURPLE_STAINED_GLASS_PANE), "&fKnowledge Pane"),

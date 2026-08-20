@@ -12,9 +12,7 @@ public class DynaTechLiquids {
 
     public static void registerLiquids(LiquidRegistry registry) {
 
-        // START Vanilla
 
-        // Water
         Liquid.init()
                 .setKey(new NamespacedKey(NamespacedKey.MINECRAFT, "water"))
                 .setName("Water")
@@ -23,7 +21,6 @@ public class DynaTechLiquids {
                 .setStorageMaterial(MaterialCompat.safe(XMaterial.LIGHT_BLUE_STAINED_GLASS_PANE))
                 .register(registry);
 
-        // Lava
         Liquid.init()
                 .setKey(new NamespacedKey(NamespacedKey.MINECRAFT, "lava"))
                 .setName("Lava")
@@ -32,7 +29,6 @@ public class DynaTechLiquids {
                 .setStorageMaterial(MaterialCompat.safe(XMaterial.ORANGE_STAINED_GLASS_PANE))
                 .register(registry);
 
-        // Honey
         Liquid.init()
                 .setKey(new NamespacedKey(NamespacedKey.MINECRAFT, "honey"))
                 .setName("Honey")
@@ -41,7 +37,6 @@ public class DynaTechLiquids {
                 .setStorageMaterial(MaterialCompat.safe(XMaterial.YELLOW_STAINED_GLASS_PANE))
                 .register(registry);
 
-        // Potion
         Liquid.init()
                 .setKey(new NamespacedKey(NamespacedKey.MINECRAFT, "potion"))
                 .setName("Potion")
@@ -50,7 +45,6 @@ public class DynaTechLiquids {
                 .setStorageMaterial(MaterialCompat.safe(XMaterial.WHITE_STAINED_GLASS_PANE))
                 .register(registry);
 
-        // Milk
         Liquid.init()
                 .setKey(new NamespacedKey(NamespacedKey.MINECRAFT, "milk"))
                 .setName("Milk")
@@ -58,6 +52,5 @@ public class DynaTechLiquids {
                 .setLiquidMaterial(MaterialCompat.safe(XMaterial.WATER))
                 .setStorageMaterial(MaterialCompat.safe(XMaterial.WHITE_STAINED_GLASS_PANE))
                 .register(registry);
-        // END Vanilla
     }
 }

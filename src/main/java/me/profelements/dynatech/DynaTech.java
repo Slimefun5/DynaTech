@@ -105,7 +105,6 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
         } catch (ClassNotFoundException ex) {
         }
 
-        // Tasks
         getServer().getScheduler().runTaskTimerAsynchronously(DynaTech.getInstance(), new ItemBandTask(), 0L, 5 * 20L);
         getServer().getScheduler().runTaskTimer(DynaTech.getInstance(), () -> this.tickInterval++, 0, TICK_TIME);
 
@@ -137,7 +136,6 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
                 }
                 byGroup.computeIfAbsent(group, g -> new ArrayList<>()).add(item.getId());
 
-                // Author this item's own wiki page if we have something to say about it.
                 List<String> text = itemText(item.getId());
                 if (text != null) {
                     wiki.set(item.getId(), text);
@@ -273,7 +271,6 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
 
     private static List<String> itemText(String id) {
         switch (id) {
-            // --- Resources ---
             case "DYNATECH_ANCIENT_MACHINE_CORE": return Arrays.asList(
                     "&7The heart of DynaTech's advanced machinery.",
                     "&7Condensed from Machine Scrap and used in almost",
@@ -319,7 +316,6 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
                     "&7The most efficient worker for material",
                     "&7production in the hives and apiaries.");
 
-            // --- Tools ---
             case "DYNATECH_PICNIC_BASKET": return Arrays.asList(
                     "&6Stores up to 27 stacks of food.",
                     "&7While in your inventory it automatically feeds",
@@ -365,7 +361,6 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
                     "&7Right-click to grab a fluid, crouch-click to",
                     "&7place it back down.");
 
-            // --- Machines ---
             case "DYNATECH_KITCHEN_AUTO_CRAFTER": case "DYNATECH_AUTO_KITCHEN": return Arrays.asList(
                     "&6Automatically crafts Kitchen recipes.",
                     "&7Supply the ingredients and power; it cooks",
@@ -442,7 +437,6 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
                     "&7Smokers using energy instead of fuel.",
                     "&7Powers nearby cookers for free smelting.");
 
-            // --- Generators ---
             case "DYNATECH_DURABILITY_GENERATOR": return Arrays.asList(
                     "&bExchanges tool durability for power.",
                     "&7Insert damaged tools and it drains their",
@@ -456,7 +450,6 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
                     "&7Burns &6Star Dust &7for a massive 1024 J/s output.",
                     "&7Built around a Nuclear Reactor and machine scrap.");
 
-            // --- Experimental: motion mills ---
             case "DYNATECH_WATER_MILL": case "DYNATECH_WATER_MILL_2": return Arrays.asList(
                     "&bGenerates energy from flowing water around it.",
                     "&7Surround it with water for output. The Hydro",
@@ -472,7 +465,6 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
                     "&7The Dragon Egg Turbine tier produces more.",
                     "&cDegrades over time and must be rebuilt.");
 
-            // --- Experimental: components & materials ---
             case "DYNATECH_STAINLESS_STEEL_INGOT": return Arrays.asList(
                     "&fA corrosion-resistant alloy.",
                     "&7A staple crafting material for DynaTech",
