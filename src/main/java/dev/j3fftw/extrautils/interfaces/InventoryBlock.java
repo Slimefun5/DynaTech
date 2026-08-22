@@ -49,6 +49,7 @@ public interface InventoryBlock {
 
             @Override
             public void init() {
+                optOutOfHeaderItem();
                 setup.accept(this);
             }
 

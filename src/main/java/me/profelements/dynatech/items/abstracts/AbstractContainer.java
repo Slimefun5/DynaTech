@@ -35,6 +35,7 @@ public abstract class AbstractContainer extends SlimefunItem implements NotHoppe
         new BlockMenuPreset(getId(), getItemName()) {
             @Override
             public void init() {
+                optOutOfHeaderItem();
                 setupMenu(this); 
             }
 

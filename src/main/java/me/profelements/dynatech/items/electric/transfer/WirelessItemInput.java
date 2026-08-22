@@ -49,6 +49,7 @@ public class WirelessItemInput extends SlimefunItem implements EnergyNetComponen
 
             @Override
             public void init() {
+                optOutOfHeaderItem();
                 constructMenu(this);
             }
 

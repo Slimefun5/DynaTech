@@ -54,6 +54,7 @@ public class PotionSprinkler extends AbstractElectricTicker {
         new BlockMenuPreset(getId(), getItemName()) {
             @Override
             public void init() {
+                optOutOfHeaderItem();
                 setupMenu(this); 
             }
 

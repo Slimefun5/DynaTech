@@ -40,6 +40,7 @@ public class WeatherController extends AbstractElectricTicker implements RecipeD
         new BlockMenuPreset(getId(), getItemName()) {
             @Override
             public void init() {
+                optOutOfHeaderItem();
                 setupMenu(this); 
             }
 

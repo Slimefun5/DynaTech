@@ -55,6 +55,7 @@ public class Tesseract extends SlimefunItem implements EnergyNetProvider {
 
             @Override
             public void init() {
+                optOutOfHeaderItem();
                 constructMenu(this);
             }
 
