@@ -52,5 +52,19 @@ public class ItemGroups {
         public static final TypedKey<ItemGroup> EXPERIMENTAL = TypedKey.create("dynatech", "experimental");
         public static final TypedKey<ItemGroup> APIARIES = TypedKey.create("dynatech", "apiaries");
     }
+
+    /**
+     * Places this addon's items in the shared guide categories. One call per group is enough:
+     * the guide reads a group's category for every item in it (see ItemTypeClassifier), so items
+     * no longer fall back to Misc.
+     */
+    static {
+        RESOURCES.setCategory("resources");
+        TOOLS.setCategory("tools");
+        MACHINES.setCategory("machines");
+        GENERATORS.setCategory("energy_tech");
+        EXPERIMENTAL.setCategory("misc");
+        HIVES.setCategory("food");
+    }
 }
 
