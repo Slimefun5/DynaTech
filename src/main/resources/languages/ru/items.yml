@@ -28,6 +28,8 @@ DYNATECH_ANGEL_GEM:
   - '&7&oГаджет'
 DYNATECH_ANTIGRAVITY_BUBBLE:
   name: '&6Антигравитационный пузырь'
+  stats:
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_AUTO_INPUT_UPGRADE:
@@ -36,6 +38,9 @@ DYNATECH_AUTO_INPUT_UPGRADE:
   - '&7&oГаджет'
 DYNATECH_AUTO_KITCHEN:
   name: '&6Автокухня'
+  stats:
+  - '&8⇨ &b⚡ &7Скорость: &b1x'
+  - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
@@ -44,10 +49,14 @@ DYNATECH_AUTO_OUTPUT_UPGRADE:
   - '&7&oГаджет'
 DYNATECH_BANDAID_MANAGER:
   name: '&6Управитель лент предметов'
+  stats:
+  - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_BARBED_WIRE:
   name: '&6Колючая проволока'
+  stats:
+  - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_BEE:
@@ -160,10 +169,16 @@ DYNATECH_ENCHANTED_MACHINE_CORE:
   - '&7&oКомпонент'
 DYNATECH_END_GROWTH_CHAMBER:
   name: '&dЭндерная камера роста'
+  stats:
+  - '&8⇨ &b⚡ &7Скорость: &b1x'
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
   name: '&dЭндерная камера роста MK2'
+  stats:
+  - '&8⇨ &b⚡ &7Скорость: &b3x'
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_ENERGY_INPUT_COMPONENT:
@@ -192,6 +207,9 @@ DYNATECH_FLUID_TANK:
   - '&7&oИнструмент'
 DYNATECH_FOOD_GENERATOR:
   name: '&bКулинарный генератор'
+  stats:
+  - '&8⇨ &e⚡ &7256 J Буфер'
+  - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oГенератор'
 DYNATECH_GHOSTLY_ESSENCE:
@@ -208,10 +226,16 @@ DYNATECH_GOLDMINERALIZED_APIARY:
   - '&7&oМашина'
 DYNATECH_GROWTH_CHAMBER:
   name: '&6Камера роста'
+  stats:
+  - '&8⇨ &b⚡ &7Скорость: &b1x'
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
   name: '&6Камера роста MK2'
+  stats:
+  - '&8⇨ &b⚡ &7Скорость: &b3x'
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
@@ -244,6 +268,9 @@ DYNATECH_IRON_MACHINE_CORE:
   - '&7&oКомпонент'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
   name: '&6Кухонный автокрафтер'
+  stats:
+  - '&8⇨ &b⚡ &7Скорость: &b1x'
+  - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
@@ -280,6 +307,9 @@ DYNATECH_MAGNESIUMMINERALIZED_APIARY:
   - '&7&oМашина'
 DYNATECH_MATERIAL_HIVE:
   name: '&6Материальный улей'
+  stats:
+  - '&a☢&7 Уровень радиации: &6ВЫСОКИЙ'
+  - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_MILK_BOTTLE:
@@ -292,10 +322,16 @@ DYNATECH_NETHERITEMINERALIZED_APIARY:
   - '&7&oМашина'
 DYNATECH_NETHER_GROWTH_CHAMBER:
   name: '&cНезеровая камера роста'
+  stats:
+  - '&8⇨ &b⚡ &7Скорость: &b1x'
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
   name: '&cНезеровая камера роста MK2'
+  stats:
+  - '&8⇨ &b⚡ &7Скорость: &b3x'
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_NICKELMINERALIZED_APIARY:
@@ -304,10 +340,16 @@ DYNATECH_NICKELMINERALIZED_APIARY:
   - '&7&oМашина'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
   name: '&bОкеаническая камера роста'
+  stats:
+  - '&8⇨ &b⚡ &7Скорость: &b1x'
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
   name: '&bОкеаническая камера роста MK2'
+  stats:
+  - '&8⇨ &b⚡ &7Скорость: &b3x'
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_ORECHID:
@@ -328,6 +370,8 @@ DYNATECH_POTION_BUCKET:
   - '&7&oРесурс'
 DYNATECH_POTION_SPRINKLER:
   name: '&6Зельевой разбрызгиватель'
+  stats:
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_QUARTZMINERALIZED_APIARY:
@@ -360,6 +404,8 @@ DYNATECH_SCOOP:
   - '&7&oИнструмент'
 DYNATECH_SEED_PLUCKER:
   name: '&6Сборщик семян'
+  stats:
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_SILVERMINERALIZED_APIARY:
@@ -384,6 +430,9 @@ DYNATECH_STAINLESS_STEEL_ROTOR:
   - '&7&oРесурс'
 DYNATECH_STARDUST_GENERATOR:
   name: '&bРеактор звёздной пыли'
+  stats:
+  - '&8⇨ &e⚡ &732768 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oГенератор'
 DYNATECH_STAR_DUST:
@@ -412,6 +461,9 @@ DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
   - '&7&oМашина'
 DYNATECH_TESSERACT:
   name: '&6Тессеракт'
+  stats:
+  - '&8⇨ &e⚡ &765535 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_TESSERACTING_OBJECT:
@@ -440,6 +492,8 @@ DYNATECH_WATER_MILL_2:
   - '&7&oГенератор'
 DYNATECH_WEATHER_CONTROLLER:
   name: '&6Управитель погоды'
+  stats:
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_WIND_MILL:
@@ -452,14 +506,22 @@ DYNATECH_WIND_MILL_2:
   - '&7&oГенератор'
 DYNATECH_WIRELESS_CHARGER:
   name: '&6Беспроводное зарядное устройство'
+  stats:
+  - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_WIRELESS_ENERGY_BANK:
   name: '&6Беспроводной энергобанк'
+  stats:
+  - '&8⇨ &e⚡ &710240 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_WIRELESS_ENERGY_POINT:
   name: '&6Беспроводная точка энергии'
+  stats:
+  - '&8⇨ &e⚡ &75120 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_WIRELESS_ITEM_INPUT:
@@ -483,6 +545,8 @@ DYNATECH_ZINCMINERALIZED_APIARY:
   type:
   - '&7&oМашина'
 PHANTOM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oКомпонент'
 STARDUST_METEOR:
@@ -490,5 +554,7 @@ STARDUST_METEOR:
   type:
   - '&7&oРесурс'
 VEX_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oКомпонент'

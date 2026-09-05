@@ -20,21 +20,30 @@ DYNATECH_ANGEL_GEM:
   type:
   - '&7&oГаджет'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  stats:
+  - '&8⇨ &e⚡ &7128 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_AUTO_INPUT_UPGRADE:
   type:
   - '&7&oГаджет'
 DYNATECH_AUTO_KITCHEN:
+  stats:
+  - '&8⇨ &b⚡ &7Швидкість: &b1x'
+  - '&8⇨ &e⚡ &716 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
   type:
   - '&7&oГаджет'
 DYNATECH_BANDAID_MANAGER:
+  stats:
+  - '&8⇨ &e⚡ &748 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_BARBED_WIRE:
+  stats:
+  - '&8⇨ &e⚡ &716 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_BEE:
@@ -119,9 +128,15 @@ DYNATECH_ENCHANTED_MACHINE_CORE:
   type:
   - '&7&oКомпонент'
 DYNATECH_END_GROWTH_CHAMBER:
+  stats:
+  - '&8⇨ &b⚡ &7Швидкість: &b1x'
+  - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  stats:
+  - '&8⇨ &b⚡ &7Швидкість: &b3x'
+  - '&8⇨ &e⚡ &7128 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_ENERGY_INPUT_COMPONENT:
@@ -143,6 +158,9 @@ DYNATECH_FLUID_TANK:
   type:
   - '&7&oІнструмент'
 DYNATECH_FOOD_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7Буфер: 256 Дж'
+  - '&8⇨ &e⚡ &78 Дж/с'
   type:
   - '&7&oГенератор'
 DYNATECH_GHOSTLY_ESSENCE:
@@ -155,9 +173,15 @@ DYNATECH_GOLDMINERALIZED_APIARY:
   type:
   - '&7&oМашина'
 DYNATECH_GROWTH_CHAMBER:
+  stats:
+  - '&8⇨ &b⚡ &7Швидкість: &b1x'
+  - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  stats:
+  - '&8⇨ &b⚡ &7Швидкість: &b3x'
+  - '&8⇨ &e⚡ &7128 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
@@ -182,6 +206,9 @@ DYNATECH_IRON_MACHINE_CORE:
   type:
   - '&7&oКомпонент'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  stats:
+  - '&8⇨ &b⚡ &7Швидкість: &b1x'
+  - '&8⇨ &e⚡ &716 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
@@ -209,6 +236,9 @@ DYNATECH_MAGNESIUMMINERALIZED_APIARY:
   type:
   - '&7&oМашина'
 DYNATECH_MATERIAL_HIVE:
+  stats:
+  - '&a☢&7 Рівень радіації: &6ВИСОКИЙ'
+  - '&8⇨ &e⚡ &71024 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_MILK_BOTTLE:
@@ -218,18 +248,30 @@ DYNATECH_NETHERITEMINERALIZED_APIARY:
   type:
   - '&7&oМашина'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  stats:
+  - '&8⇨ &b⚡ &7Швидкість: &b1x'
+  - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  stats:
+  - '&8⇨ &b⚡ &7Швидкість: &b3x'
+  - '&8⇨ &e⚡ &7128 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_NICKELMINERALIZED_APIARY:
   type:
   - '&7&oМашина'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  stats:
+  - '&8⇨ &b⚡ &7Швидкість: &b1x'
+  - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  stats:
+  - '&8⇨ &b⚡ &7Швидкість: &b3x'
+  - '&8⇨ &e⚡ &7128 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_ORECHID:
@@ -245,6 +287,8 @@ DYNATECH_POTION_BUCKET:
   type:
   - '&7&oРесурс'
 DYNATECH_POTION_SPRINKLER:
+  stats:
+  - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_QUARTZMINERALIZED_APIARY:
@@ -269,6 +313,8 @@ DYNATECH_SCOOP:
   type:
   - '&7&oІнструмент'
 DYNATECH_SEED_PLUCKER:
+  stats:
+  - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_SILVERMINERALIZED_APIARY:
@@ -287,6 +333,9 @@ DYNATECH_STAINLESS_STEEL_ROTOR:
   type:
   - '&7&oРесурс'
 DYNATECH_STARDUST_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7Буфер: 32768 Дж'
+  - '&8⇨ &e⚡ &71024 Дж/с'
   type:
   - '&7&oГенератор'
 DYNATECH_STAR_DUST:
@@ -308,6 +357,9 @@ DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
   type:
   - '&7&oМашина'
 DYNATECH_TESSERACT:
+  stats:
+  - '&8⇨ &e⚡ &7Буфер: 65535 Дж'
+  - '&8⇨ &e⚡ &71024 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_TESSERACTING_OBJECT:
@@ -329,6 +381,8 @@ DYNATECH_WATER_MILL_2:
   type:
   - '&7&oГенератор'
 DYNATECH_WEATHER_CONTROLLER:
+  stats:
+  - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_WIND_MILL:
@@ -338,12 +392,20 @@ DYNATECH_WIND_MILL_2:
   type:
   - '&7&oГенератор'
 DYNATECH_WIRELESS_CHARGER:
+  stats:
+  - '&8⇨ &e⚡ &716 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  stats:
+  - '&8⇨ &e⚡ &7Буфер: 10240 Дж'
+  - '&8⇨ &e⚡ &71024 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  stats:
+  - '&8⇨ &e⚡ &7Буфер: 5120 Дж'
+  - '&8⇨ &e⚡ &71024 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_WIRELESS_ITEM_INPUT:
@@ -362,11 +424,15 @@ DYNATECH_ZINCMINERALIZED_APIARY:
   type:
   - '&7&oМашина'
 PHANTOM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 Дж/с'
   type:
   - '&7&oКомпонент'
 STARDUST_METEOR:
   type:
   - '&7&oРесурс'
 VEX_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 Дж/с'
   type:
   - '&7&oКомпонент'

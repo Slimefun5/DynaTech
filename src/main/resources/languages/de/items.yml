@@ -28,6 +28,8 @@ DYNATECH_ANGEL_GEM:
   - '&7&oGadget'
 DYNATECH_ANTIGRAVITY_BUBBLE:
   name: '&6Antigravitationsblase'
+  stats:
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_AUTO_INPUT_UPGRADE:
@@ -36,6 +38,9 @@ DYNATECH_AUTO_INPUT_UPGRADE:
   - '&7&oGadget'
 DYNATECH_AUTO_KITCHEN:
   name: '&6Auto-Küche'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b1x'
+  - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
@@ -44,10 +49,14 @@ DYNATECH_AUTO_OUTPUT_UPGRADE:
   - '&7&oGadget'
 DYNATECH_BANDAID_MANAGER:
   name: '&6Gegenstandsband-Verwalter'
+  stats:
+  - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_BARBED_WIRE:
   name: '&6Stacheldraht'
+  stats:
+  - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_BEE:
@@ -160,10 +169,16 @@ DYNATECH_ENCHANTED_MACHINE_CORE:
   - '&7&oKomponente'
 DYNATECH_END_GROWTH_CHAMBER:
   name: '&dEnd-Wachstumskammer'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b1x'
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
   name: '&dEnd-Wachstumskammer MK2'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b3x'
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_ENERGY_INPUT_COMPONENT:
@@ -192,6 +207,9 @@ DYNATECH_FLUID_TANK:
   - '&7&oWerkzeug'
 DYNATECH_FOOD_GENERATOR:
   name: '&bKulinarischer Generator'
+  stats:
+  - '&8⇨ &e⚡ &7256 J Puffer'
+  - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oGenerator'
 DYNATECH_GHOSTLY_ESSENCE:
@@ -208,10 +226,16 @@ DYNATECH_GOLDMINERALIZED_APIARY:
   - '&7&oMaschine'
 DYNATECH_GROWTH_CHAMBER:
   name: '&6Wachstumskammer'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b1x'
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
   name: '&6Wachstumskammer MK2'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b3x'
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
@@ -244,6 +268,9 @@ DYNATECH_IRON_MACHINE_CORE:
   - '&7&oKomponente'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
   name: '&6Küchen-Auto-Crafter'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b1x'
+  - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
@@ -280,6 +307,9 @@ DYNATECH_MAGNESIUMMINERALIZED_APIARY:
   - '&7&oMaschine'
 DYNATECH_MATERIAL_HIVE:
   name: '&6Material-Bienenstock'
+  stats:
+  - '&a☢&7 Strahlungslevel: &6HOCH'
+  - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_MILK_BOTTLE:
@@ -292,10 +322,16 @@ DYNATECH_NETHERITEMINERALIZED_APIARY:
   - '&7&oMaschine'
 DYNATECH_NETHER_GROWTH_CHAMBER:
   name: '&cNether-Wachstumskammer'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b1x'
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
   name: '&cNether-Wachstumskammer MK2'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b3x'
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_NICKELMINERALIZED_APIARY:
@@ -304,10 +340,16 @@ DYNATECH_NICKELMINERALIZED_APIARY:
   - '&7&oMaschine'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
   name: '&bOzean-Wachstumskammer'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b1x'
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
   name: '&bOzean-Wachstumskammer MK2'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b3x'
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_ORECHID:
@@ -328,6 +370,8 @@ DYNATECH_POTION_BUCKET:
   - '&7&oRohstoff'
 DYNATECH_POTION_SPRINKLER:
   name: '&6Trank-Sprinkler'
+  stats:
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_QUARTZMINERALIZED_APIARY:
@@ -360,6 +404,8 @@ DYNATECH_SCOOP:
   - '&7&oWerkzeug'
 DYNATECH_SEED_PLUCKER:
   name: '&6Samenzupfer'
+  stats:
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_SILVERMINERALIZED_APIARY:
@@ -384,6 +430,9 @@ DYNATECH_STAINLESS_STEEL_ROTOR:
   - '&7&oRohstoff'
 DYNATECH_STARDUST_GENERATOR:
   name: '&bSternenstaub-Reaktor'
+  stats:
+  - '&8⇨ &e⚡ &732768 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGenerator'
 DYNATECH_STAR_DUST:
@@ -412,6 +461,9 @@ DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
   - '&7&oMaschine'
 DYNATECH_TESSERACT:
   name: '&6Tesserakt'
+  stats:
+  - '&8⇨ &e⚡ &765535 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_TESSERACTING_OBJECT:
@@ -440,6 +492,8 @@ DYNATECH_WATER_MILL_2:
   - '&7&oGenerator'
 DYNATECH_WEATHER_CONTROLLER:
   name: '&6Wetterkontroller'
+  stats:
+  - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_WIND_MILL:
@@ -452,14 +506,22 @@ DYNATECH_WIND_MILL_2:
   - '&7&oGenerator'
 DYNATECH_WIRELESS_CHARGER:
   name: '&6Drahtloses Ladegerät'
+  stats:
+  - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_WIRELESS_ENERGY_BANK:
   name: '&6Drahtlose Energiebank'
+  stats:
+  - '&8⇨ &e⚡ &710240 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_WIRELESS_ENERGY_POINT:
   name: '&6Drahtloser Energiepunkt'
+  stats:
+  - '&8⇨ &e⚡ &75120 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMaschine'
 DYNATECH_WIRELESS_ITEM_INPUT:
@@ -484,6 +546,8 @@ DYNATECH_ZINCMINERALIZED_APIARY:
   - '&7&oMaschine'
 PHANTOM_DATA_CARD:
   name: '&bPhantom-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponente'
 STARDUST_METEOR:
@@ -492,5 +556,7 @@ STARDUST_METEOR:
   - '&7&oRohstoff'
 VEX_DATA_CARD:
   name: '&bPlagegeist-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponente'
