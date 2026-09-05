@@ -1,333 +1,494 @@
-# Italian item translations for DynaTech. Keyed by Slimefun item id.
-# name = display name, '&' colour codes preserved. Missing items fall back to English.
-
-DYNATECH_WOOD_MACHINE_CORE:
-  name: "&fNucleo di macchina in legno"
-
-DYNATECH_STONE_MACHINE_CORE:
-  name: "&fNucleo di macchina in pietra"
-
-DYNATECH_IRON_MACHINE_CORE:
-  name: "&fNucleo di macchina in ferro"
-
-DYNATECH_DIAMOND_MACHINE_CORE:
-  name: "&fNucleo di macchina in diamante"
-
-DYNATECH_ENCHANTED_MACHINE_CORE:
-  name: "&bNucleo di macchina incantato"
-
-DYNATECH_ANCIENT_MACHINE_CORE:
-  name: "&fNucleo di macchina antico"
-
-DYNATECH_ENERGY_STORAGE_COMPONENT:
-  name: "&cComponente di accumulo energia"
-
-DYNATECH_ENERGY_INPUT_COMPONENT:
-  name: "&cComponente di ingresso energia"
-
-DYNATECH_ENERGY_OUTPUT_COMPONENT:
-  name: "&cComponente di uscita energia"
-
-DYNATECH_DEGRADED_WATER_MILL:
-  name: "&cMulino ad acqua degradato"
-
-DYNATECH_DEGRADED_WATER_MILL_2:
-  name: "&cTurbina idraulica degradata"
-
-DYNATECH_DEGRADED_WIND_MILL:
-  name: "&cMulino a vento degradato"
-
-DYNATECH_DEGRADED_WIND_MILL_2:
-  name: "&cTurbina eolica degradata"
-
-DYNATECH_DEGRADED_EGG_MILL:
-  name: "&cMulino dell'uovo del drago degradato"
-
-DYNATECH_DEGRADED_EGG_MILL_2:
-  name: "&cTurbina dell'uovo del drago degradata"
-
-DYNATECH_WATER_MILL:
-  name: "&bMulino ad acqua"
-
-DYNATECH_WATER_MILL_2:
-  name: "&bTurbina idraulica"
-
-DYNATECH_WIND_MILL:
-  name: "&bMulino a vento"
-
-DYNATECH_WIND_MILL_2:
-  name: "&bTurbina eolica"
-
-DYNATECH_EGG_MILL:
-  name: "&bMulino dell'uovo del drago"
-
-DYNATECH_EGG_MILL_2:
-  name: "&bTurbina dell'uovo del drago"
-
-DYNATECH_DURABILITY_GENERATOR:
-  name: "&bGeneratore di scheggiatura"
-
-DYNATECH_FOOD_GENERATOR:
-  name: "&bGeneratore culinario"
-
-DYNATECH_STARDUST_GENERATOR:
-  name: "&bReattore di polvere di stelle"
-
-DYNATECH_STAINLESS_STEEL_INGOT:
-  name: "&fLingotto di acciaio inox"
-
-DYNATECH_STAINLESS_STEEL_ROTOR:
-  name: "&fRotore in acciaio inox"
-
-DYNATECH_COAL_COKE:
-  name: "&fCoke di carbone"
-
-DYNATECH_BEE:
-  name: "&6Ape"
-
-DYNATECH_ROBOTIC_BEE:
-  name: "&6Ape robotica"
-
-DYNATECH_ADVANCED_ROBOTIC_BEE:
-  name: "&6Ape robotica avanzata"
-
-DYNATECH_VEX_GEM:
-  name: "&6Gemma di vex"
-
-DYNATECH_MACHINE_SCRAP:
-  name: "&6Rottame di macchina"
-
 DYNATECH_ADVANCED_MACHINE_SCRAP:
-  name: "&6Rottame di macchina avanzato"
-
-DYNATECH_STAR_DUST:
-  name: "&6Polvere di stelle"
-
-DYNATECH_GHOSTLY_ESSENCE:
-  name: "&6Essenza spettrale"
-
-DYNATECH_TESSERACTING_OBJECT:
-  name: "&6Oggetto tesseratto"
-
-DYNATECH_LIVINGROCK:
-  name: "&6Roccia vivente"
-
-DYNATECH_LIVINGWOOD:
-  name: "&6Legno vivente"
-
-DYNATECH_ELECTRICAL_STIMULATOR:
-  name: "&6Stimolatore elettrico"
-
-DYNATECH_INVENTORY_FILTER:
-  name: "&6Filtro inventario"
-
-DYNATECH_ANGEL_GEM:
-  name: "&6Gemma del volo"
-
-DYNATECH_RECIPE_BOOK:
-  name: "&6Libro delle ricette"
-
-DYNATECH_AUTO_INPUT_UPGRADE:
-  name: "&6Potenziamento ingresso automatico"
-
-DYNATECH_AUTO_OUTPUT_UPGRADE:
-  name: "&6Potenziamento uscita automatica"
-
-DYNATECH_FLUID_TANK:
-  name: "&fSerbatoio del fluido"
-
-DYNATECH_LIQUID_TANK:
-  name: "&6Serbatoio liquido portatile"
-
-DYNATECH_PICNIC_BASKET:
-  name: "&6Cestino da picnic"
-
-DYNATECH_SOUL_BOUND_PICNIC_BASKET:
-  name: "&6Cestino da picnic vincolato all'anima"
-
-DYNATECH_SCOOP:
-  name: "&6Paletta"
-
-DYNATECH_DIMENSIONAL_HOME:
-  name: "&6Casa dimensionale"
-
-DYNATECH_HASTE_ITEM_BAND:
-  name: "&6Fascia oggetto di rapidità"
-
-DYNATECH_HEALTH_ITEM_BAND:
-  name: "&6Fascia oggetto di salute"
-
-DYNATECH_TESSERACT_BINDER:
-  name: "&6Legante di tesseratto"
-
-DYNATECH_WITHER_SKELETON_GOLEM:
-  name: "&6MultiBlocco golem wither"
-
-DYNATECH_COAL_COKE_OVEN:
-  name: "&fControllore del forno da coke"
-
-DYNATECH_AUTO_KITCHEN:
-  name: "&6Cucina automatica"
-
-DYNATECH_KITCHEN_AUTO_CRAFTER:
-  name: "&6Creatore automatico da cucina"
-
-DYNATECH_ANTIGRAVITY_BUBBLE:
-  name: "&6Bolla antigravità"
-
-DYNATECH_WEATHER_CONTROLLER:
-  name: "&6Controllore del meteo"
-
-DYNATECH_POTION_SPRINKLER:
-  name: "&6Spruzzatore di pozioni"
-
-DYNATECH_BARBED_WIRE:
-  name: "&6Filo spinato"
-
-DYNATECH_MATERIAL_HIVE:
-  name: "&6Alveare di materiali"
-
-DYNATECH_WIRELESS_CHARGER:
-  name: "&6Caricatore wireless"
-
-DYNATECH_SEED_PLUCKER:
-  name: "&6Raccoglitore di semi"
-
-DYNATECH_BANDAID_MANAGER:
-  name: "&6Gestore fasce oggetto"
-
-DYNATECH_ORECHID:
-  name: "&6Orchidea minerale"
-
-DYNATECH_WIRELESS_ENERGY_POINT:
-  name: "&6Punto energetico wireless"
-
-DYNATECH_WIRELESS_ENERGY_BANK:
-  name: "&6Banca energetica wireless"
-
-DYNATECH_TESSERACT:
-  name: "&6Tesseratto"
-
-DYNATECH_WIRELESS_ITEM_INPUT:
-  name: "&6Ingresso oggetti wireless"
-
-DYNATECH_WIRELESS_ITEM_OUTPUT:
-  name: "&6Uscita oggetti wireless"
-
-DYNATECH_EXTERNAL_HEATER:
-  name: "&6Riscaldatore esterno"
-
-DYNATECH_GROWTH_CHAMBER:
-  name: "&6Camera di crescita"
-
-DYNATECH_OCEAN_GROWTH_CHAMBER:
-  name: "&bCamera di crescita oceanica"
-
-DYNATECH_NETHER_GROWTH_CHAMBER:
-  name: "&cCamera di crescita del Nether"
-
-DYNATECH_END_GROWTH_CHAMBER:
-  name: "&dCamera di crescita dell'End"
-
-DYNATECH_GROWTH_CHAMBER_MARK_2:
-  name: "&6Camera di crescita MK2"
-
-DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
-  name: "&bCamera di crescita oceanica MK2"
-
-DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
-  name: "&cCamera di crescita del Nether MK2"
-
-DYNATECH_END_GROWTH_CHAMBER_MARK_2:
-  name: "&dCamera di crescita dell'End MK2"
-
-DYNATECH_PETAL_APOTHECARY:
-  name: "&dApotecario di petali"
-
-DYNATECH_LAVA_BOTTLE:
-  name: "&fBottiglia di lava"
-
-DYNATECH_MILK_BOTTLE:
-  name: "&fBottiglia di latte"
-
-DYNATECH_HONEY_BUCKET:
-  name: "&fSecchio di miele"
-
-DYNATECH_POTION_BUCKET:
-  name: "&fSecchio di pozione"
-
-STARDUST_METEOR:
-  name: "&6Meteora di polvere di stelle"
-
-DYNATECH_IRONMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Ferro"
-DYNATECH_GOLDMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Oro"
-DYNATECH_NETHERITEMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Netherite"
-DYNATECH_DIAMONDMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Diamante"
-DYNATECH_EMERALDMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Smeraldo"
-DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Lapislazzuli"
-DYNATECH_QUARTZMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Quarzo"
-DYNATECH_REDSTONEMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Redstone"
-DYNATECH_COALMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Carbone"
-DYNATECH_COPPERMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Rame"
-DYNATECH_TINMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Stagno"
-DYNATECH_SILVERMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Argento"
+  name: '&6Rottame di macchina avanzato'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  name: '&6Ape robotica avanzata'
+  type:
+  - '&7&oRisorsa'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Alluminio"
-DYNATECH_LEADMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Piombo"
-DYNATECH_ZINCMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Zinco"
-DYNATECH_MAGNESIUMMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Magnesio"
-DYNATECH_STEELMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Acciaio"
-DYNATECH_DURALUMINMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Duralluminio"
-DYNATECH_BILLONMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Biglione"
-DYNATECH_BRASSMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Ottone"
+  name: '&fApiario Mineralizzato in Alluminio'
+  type:
+  - '&7&oMacchina'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Ottone d'Alluminio"
+  name: '&fApiario Mineralizzato in Ottone d''Alluminio'
+  type:
+  - '&7&oMacchina'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Bronzo d'Alluminio"
-DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Bronzo Corinzio"
-DYNATECH_SOLDERMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Lega per Saldatura"
-DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Acciaio di Damasco"
-DYNATECH_HARDENED_METALMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Metallo Temprato"
-DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Lega Rinforzata"
-DYNATECH_FERROSILICONMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Ferrosilicio"
-DYNATECH_GILDED_IRONMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Ferro Dorato"
-DYNATECH_NICKELMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Nichel"
-DYNATECH_COBALTMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Cobalto"
-DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Lega di Redstone"
-DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Diamante Sintetico"
-DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Smeraldo Sintetico"
-DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Zaffiro Sintetico"
+  name: '&fApiario Mineralizzato in Bronzo d''Alluminio'
+  type:
+  - '&7&oMacchina'
+DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fNucleo di macchina antico'
+  type:
+  - '&7&oComponente'
+DYNATECH_ANGEL_GEM:
+  name: '&6Gemma del volo'
+  type:
+  - '&7&oGadget'
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  name: '&6Bolla antigravità'
+  type:
+  - '&7&oMacchina'
+DYNATECH_AUTO_INPUT_UPGRADE:
+  name: '&6Potenziamento ingresso automatico'
+  type:
+  - '&7&oGadget'
+DYNATECH_AUTO_KITCHEN:
+  name: '&6Cucina automatica'
+  type:
+  - '&7&oMacchina'
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  name: '&6Potenziamento uscita automatica'
+  type:
+  - '&7&oGadget'
+DYNATECH_BANDAID_MANAGER:
+  name: '&6Gestore fasce oggetto'
+  type:
+  - '&7&oMacchina'
+DYNATECH_BARBED_WIRE:
+  name: '&6Filo spinato'
+  type:
+  - '&7&oMacchina'
+DYNATECH_BEE:
+  name: '&6Ape'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Biglione'
+  type:
+  - '&7&oMacchina'
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Ottone'
+  type:
+  - '&7&oMacchina'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
-  name: "&fApiario Mineralizzato in Carbonado"
+  name: '&fApiario Mineralizzato in Carbonado'
+  type:
+  - '&7&oMacchina'
+DYNATECH_COALMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Carbone'
+  type:
+  - '&7&oMacchina'
+DYNATECH_COAL_COKE:
+  name: '&fCoke di carbone'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_COAL_COKE_OVEN:
+  name: '&fControllore del forno da coke'
+  type:
+  - '&7&oMultiblocco'
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Cobalto'
+  type:
+  - '&7&oMacchina'
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Rame'
+  type:
+  - '&7&oMacchina'
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Bronzo Corinzio'
+  type:
+  - '&7&oMacchina'
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Acciaio di Damasco'
+  type:
+  - '&7&oMacchina'
+DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cMulino dell''uovo del drago degradato'
+  type:
+  - '&7&oComponente'
+DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cTurbina dell''uovo del drago degradata'
+  type:
+  - '&7&oComponente'
+DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cMulino ad acqua degradato'
+  type:
+  - '&7&oComponente'
+DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cTurbina idraulica degradata'
+  type:
+  - '&7&oComponente'
+DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cMulino a vento degradato'
+  type:
+  - '&7&oComponente'
+DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cTurbina eolica degradata'
+  type:
+  - '&7&oComponente'
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Diamante'
+  type:
+  - '&7&oMacchina'
+DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fNucleo di macchina in diamante'
+  type:
+  - '&7&oComponente'
+DYNATECH_DIMENSIONAL_HOME:
+  name: '&6Casa dimensionale'
+  type:
+  - '&7&oGadget'
+DYNATECH_DURABILITY_GENERATOR:
+  name: '&bGeneratore di scheggiatura'
+  type:
+  - '&7&oGeneratore'
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Duralluminio'
+  type:
+  - '&7&oMacchina'
+DYNATECH_EGG_MILL:
+  name: '&bMulino dell''uovo del drago'
+  type:
+  - '&7&oGeneratore'
+DYNATECH_EGG_MILL_2:
+  name: '&bTurbina dell''uovo del drago'
+  type:
+  - '&7&oGeneratore'
+DYNATECH_ELECTRICAL_STIMULATOR:
+  name: '&6Stimolatore elettrico'
+  type:
+  - '&7&oGadget'
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Smeraldo'
+  type:
+  - '&7&oMacchina'
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bNucleo di macchina incantato'
+  type:
+  - '&7&oComponente'
+DYNATECH_END_GROWTH_CHAMBER:
+  name: '&dCamera di crescita dell''End'
+  type:
+  - '&7&oMacchina'
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  name: '&dCamera di crescita dell''End MK2'
+  type:
+  - '&7&oMacchina'
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cComponente di ingresso energia'
+  type:
+  - '&7&oComponente'
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cComponente di uscita energia'
+  type:
+  - '&7&oComponente'
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cComponente di accumulo energia'
+  type:
+  - '&7&oComponente'
+DYNATECH_EXTERNAL_HEATER:
+  name: '&6Riscaldatore esterno'
+  type:
+  - '&7&oMacchina'
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Ferrosilicio'
+  type:
+  - '&7&oMacchina'
+DYNATECH_FLUID_TANK:
+  name: '&fSerbatoio del fluido'
+  type:
+  - '&7&oStrumento'
+DYNATECH_FOOD_GENERATOR:
+  name: '&bGeneratore culinario'
+  type:
+  - '&7&oGeneratore'
+DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Essenza spettrale'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Ferro Dorato'
+  type:
+  - '&7&oMacchina'
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Oro'
+  type:
+  - '&7&oMacchina'
+DYNATECH_GROWTH_CHAMBER:
+  name: '&6Camera di crescita'
+  type:
+  - '&7&oMacchina'
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  name: '&6Camera di crescita MK2'
+  type:
+  - '&7&oMacchina'
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Metallo Temprato'
+  type:
+  - '&7&oMacchina'
+DYNATECH_HASTE_ITEM_BAND:
+  name: '&6Fascia oggetto di rapidità'
+  type:
+  - '&7&oTalismano'
+DYNATECH_HEALTH_ITEM_BAND:
+  name: '&6Fascia oggetto di salute'
+  type:
+  - '&7&oTalismano'
+DYNATECH_HONEY_BUCKET:
+  name: '&fSecchio di miele'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_INVENTORY_FILTER:
+  name: '&6Filtro inventario'
+  type:
+  - '&7&oGadget'
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Ferro'
+  type:
+  - '&7&oMacchina'
+DYNATECH_IRON_MACHINE_CORE:
+  name: '&fNucleo di macchina in ferro'
+  type:
+  - '&7&oComponente'
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  name: '&6Creatore automatico da cucina'
+  type:
+  - '&7&oMacchina'
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Lapislazzuli'
+  type:
+  - '&7&oMacchina'
+DYNATECH_LAVA_BOTTLE:
+  name: '&fBottiglia di lava'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Piombo'
+  type:
+  - '&7&oMacchina'
+DYNATECH_LIQUID_TANK:
+  name: '&6Serbatoio liquido portatile'
+  type:
+  - '&7&oStrumento'
+DYNATECH_LIVINGROCK:
+  name: '&6Roccia vivente'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_LIVINGWOOD:
+  name: '&6Legno vivente'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_MACHINE_SCRAP:
+  name: '&6Rottame di macchina'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Magnesio'
+  type:
+  - '&7&oMacchina'
+DYNATECH_MATERIAL_HIVE:
+  name: '&6Alveare di materiali'
+  type:
+  - '&7&oMacchina'
+DYNATECH_MILK_BOTTLE:
+  name: '&fBottiglia di latte'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Netherite'
+  type:
+  - '&7&oMacchina'
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  name: '&cCamera di crescita del Nether'
+  type:
+  - '&7&oMacchina'
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  name: '&cCamera di crescita del Nether MK2'
+  type:
+  - '&7&oMacchina'
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Nichel'
+  type:
+  - '&7&oMacchina'
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  name: '&bCamera di crescita oceanica'
+  type:
+  - '&7&oMacchina'
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  name: '&bCamera di crescita oceanica MK2'
+  type:
+  - '&7&oMacchina'
+DYNATECH_ORECHID:
+  name: '&6Orchidea minerale'
+  type:
+  - '&7&oMacchina'
+DYNATECH_PETAL_APOTHECARY:
+  name: '&dApotecario di petali'
+  type:
+  - '&7&oMacchina'
+DYNATECH_PICNIC_BASKET:
+  name: '&6Cestino da picnic'
+  type:
+  - '&7&oZaino'
+DYNATECH_POTION_BUCKET:
+  name: '&fSecchio di pozione'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_POTION_SPRINKLER:
+  name: '&6Spruzzatore di pozioni'
+  type:
+  - '&7&oMacchina'
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Quarzo'
+  type:
+  - '&7&oMacchina'
+DYNATECH_RECIPE_BOOK:
+  name: '&6Libro delle ricette'
+  type:
+  - '&7&oGadget'
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Redstone'
+  type:
+  - '&7&oMacchina'
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Lega di Redstone'
+  type:
+  - '&7&oMacchina'
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Lega Rinforzata'
+  type:
+  - '&7&oMacchina'
+DYNATECH_ROBOTIC_BEE:
+  name: '&6Ape robotica'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_SCOOP:
+  name: '&6Paletta'
+  type:
+  - '&7&oStrumento'
+DYNATECH_SEED_PLUCKER:
+  name: '&6Raccoglitore di semi'
+  type:
+  - '&7&oMacchina'
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Argento'
+  type:
+  - '&7&oMacchina'
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Lega per Saldatura'
+  type:
+  - '&7&oMacchina'
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  name: '&6Cestino da picnic vincolato all''anima'
+  type:
+  - '&7&oZaino'
+DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fLingotto di acciaio inox'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fRotore in acciaio inox'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_STARDUST_GENERATOR:
+  name: '&bReattore di polvere di stelle'
+  type:
+  - '&7&oGeneratore'
+DYNATECH_STAR_DUST:
+  name: '&6Polvere di stelle'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Acciaio'
+  type:
+  - '&7&oMacchina'
+DYNATECH_STONE_MACHINE_CORE:
+  name: '&fNucleo di macchina in pietra'
+  type:
+  - '&7&oComponente'
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Diamante Sintetico'
+  type:
+  - '&7&oMacchina'
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Smeraldo Sintetico'
+  type:
+  - '&7&oMacchina'
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Zaffiro Sintetico'
+  type:
+  - '&7&oMacchina'
+DYNATECH_TESSERACT:
+  name: '&6Tesseratto'
+  type:
+  - '&7&oMacchina'
+DYNATECH_TESSERACTING_OBJECT:
+  name: '&6Oggetto tesseratto'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_TESSERACT_BINDER:
+  name: '&6Legante di tesseratto'
+  type:
+  - '&7&oStrumento'
+DYNATECH_TINMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Stagno'
+  type:
+  - '&7&oMacchina'
+DYNATECH_VEX_GEM:
+  name: '&6Gemma di vex'
+  type:
+  - '&7&oRisorsa'
+DYNATECH_WATER_MILL:
+  name: '&bMulino ad acqua'
+  type:
+  - '&7&oGeneratore'
+DYNATECH_WATER_MILL_2:
+  name: '&bTurbina idraulica'
+  type:
+  - '&7&oGeneratore'
+DYNATECH_WEATHER_CONTROLLER:
+  name: '&6Controllore del meteo'
+  type:
+  - '&7&oMacchina'
+DYNATECH_WIND_MILL:
+  name: '&bMulino a vento'
+  type:
+  - '&7&oGeneratore'
+DYNATECH_WIND_MILL_2:
+  name: '&bTurbina eolica'
+  type:
+  - '&7&oGeneratore'
+DYNATECH_WIRELESS_CHARGER:
+  name: '&6Caricatore wireless'
+  type:
+  - '&7&oMacchina'
+DYNATECH_WIRELESS_ENERGY_BANK:
+  name: '&6Banca energetica wireless'
+  type:
+  - '&7&oMacchina'
+DYNATECH_WIRELESS_ENERGY_POINT:
+  name: '&6Punto energetico wireless'
+  type:
+  - '&7&oMacchina'
+DYNATECH_WIRELESS_ITEM_INPUT:
+  name: '&6Ingresso oggetti wireless'
+  type:
+  - '&7&oMacchina'
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  name: '&6Uscita oggetti wireless'
+  type:
+  - '&7&oMacchina'
+DYNATECH_WITHER_SKELETON_GOLEM:
+  name: '&6MultiBlocco golem wither'
+  type:
+  - '&7&oMultiblocco'
+DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fNucleo di macchina in legno'
+  type:
+  - '&7&oComponente'
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: '&fApiario Mineralizzato in Zinco'
+  type:
+  - '&7&oMacchina'
+PHANTOM_DATA_CARD:
+  type:
+  - '&7&oComponente'
+STARDUST_METEOR:
+  name: '&6Meteora di polvere di stelle'
+  type:
+  - '&7&oRisorsa'
+VEX_DATA_CARD:
+  type:
+  - '&7&oComponente'

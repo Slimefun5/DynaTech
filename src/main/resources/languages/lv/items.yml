@@ -1,0 +1,372 @@
+DYNATECH_ADVANCED_MACHINE_SCRAP:
+  type:
+  - '&7&oResurss'
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  type:
+  - '&7&oResurss'
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_ANCIENT_MACHINE_CORE:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_ANGEL_GEM:
+  type:
+  - '&7&oIerīce'
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  type:
+  - '&7&oMašīna'
+DYNATECH_AUTO_INPUT_UPGRADE:
+  type:
+  - '&7&oIerīce'
+DYNATECH_AUTO_KITCHEN:
+  type:
+  - '&7&oMašīna'
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  type:
+  - '&7&oIerīce'
+DYNATECH_BANDAID_MANAGER:
+  type:
+  - '&7&oMašīna'
+DYNATECH_BARBED_WIRE:
+  type:
+  - '&7&oMašīna'
+DYNATECH_BEE:
+  type:
+  - '&7&oResurss'
+DYNATECH_BILLONMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_BRASSMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_COALMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_COAL_COKE:
+  type:
+  - '&7&oResurss'
+DYNATECH_COAL_COKE_OVEN:
+  type:
+  - '&7&oDaudzbloks'
+DYNATECH_COBALTMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_COPPERMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_DEGRADED_EGG_MILL:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_DEGRADED_EGG_MILL_2:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_DEGRADED_WATER_MILL:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_DEGRADED_WATER_MILL_2:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_DEGRADED_WIND_MILL:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_DEGRADED_WIND_MILL_2:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_DIAMOND_MACHINE_CORE:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_DIMENSIONAL_HOME:
+  type:
+  - '&7&oIerīce'
+DYNATECH_DURABILITY_GENERATOR:
+  type:
+  - '&7&oĢenerators'
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_EGG_MILL:
+  type:
+  - '&7&oĢenerators'
+DYNATECH_EGG_MILL_2:
+  type:
+  - '&7&oĢenerators'
+DYNATECH_ELECTRICAL_STIMULATOR:
+  type:
+  - '&7&oIerīce'
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_END_GROWTH_CHAMBER:
+  type:
+  - '&7&oMašīna'
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  type:
+  - '&7&oMašīna'
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_EXTERNAL_HEATER:
+  type:
+  - '&7&oMašīna'
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_FLUID_TANK:
+  type:
+  - '&7&oRīks'
+DYNATECH_FOOD_GENERATOR:
+  type:
+  - '&7&oĢenerators'
+DYNATECH_GHOSTLY_ESSENCE:
+  type:
+  - '&7&oResurss'
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_GOLDMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_GROWTH_CHAMBER:
+  type:
+  - '&7&oMašīna'
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  type:
+  - '&7&oMašīna'
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_HASTE_ITEM_BAND:
+  type:
+  - '&7&oTalismans'
+DYNATECH_HEALTH_ITEM_BAND:
+  type:
+  - '&7&oTalismans'
+DYNATECH_HONEY_BUCKET:
+  type:
+  - '&7&oResurss'
+DYNATECH_INVENTORY_FILTER:
+  type:
+  - '&7&oIerīce'
+DYNATECH_IRONMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_IRON_MACHINE_CORE:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  type:
+  - '&7&oMašīna'
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_LAVA_BOTTLE:
+  type:
+  - '&7&oResurss'
+DYNATECH_LEADMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_LIQUID_TANK:
+  type:
+  - '&7&oRīks'
+DYNATECH_LIVINGROCK:
+  type:
+  - '&7&oResurss'
+DYNATECH_LIVINGWOOD:
+  type:
+  - '&7&oResurss'
+DYNATECH_MACHINE_SCRAP:
+  type:
+  - '&7&oResurss'
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_MATERIAL_HIVE:
+  type:
+  - '&7&oMašīna'
+DYNATECH_MILK_BOTTLE:
+  type:
+  - '&7&oResurss'
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  type:
+  - '&7&oMašīna'
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  type:
+  - '&7&oMašīna'
+DYNATECH_NICKELMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  type:
+  - '&7&oMašīna'
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  type:
+  - '&7&oMašīna'
+DYNATECH_ORECHID:
+  type:
+  - '&7&oMašīna'
+DYNATECH_PETAL_APOTHECARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_PICNIC_BASKET:
+  type:
+  - '&7&oMugursoma'
+DYNATECH_POTION_BUCKET:
+  type:
+  - '&7&oResurss'
+DYNATECH_POTION_SPRINKLER:
+  type:
+  - '&7&oMašīna'
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_RECIPE_BOOK:
+  type:
+  - '&7&oIerīce'
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_ROBOTIC_BEE:
+  type:
+  - '&7&oResurss'
+DYNATECH_SCOOP:
+  type:
+  - '&7&oRīks'
+DYNATECH_SEED_PLUCKER:
+  type:
+  - '&7&oMašīna'
+DYNATECH_SILVERMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  type:
+  - '&7&oMugursoma'
+DYNATECH_STAINLESS_STEEL_INGOT:
+  type:
+  - '&7&oResurss'
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  type:
+  - '&7&oResurss'
+DYNATECH_STARDUST_GENERATOR:
+  type:
+  - '&7&oĢenerators'
+DYNATECH_STAR_DUST:
+  type:
+  - '&7&oResurss'
+DYNATECH_STEELMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_STONE_MACHINE_CORE:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_TESSERACT:
+  type:
+  - '&7&oMašīna'
+DYNATECH_TESSERACTING_OBJECT:
+  type:
+  - '&7&oResurss'
+DYNATECH_TESSERACT_BINDER:
+  type:
+  - '&7&oRīks'
+DYNATECH_TINMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+DYNATECH_VEX_GEM:
+  type:
+  - '&7&oResurss'
+DYNATECH_WATER_MILL:
+  type:
+  - '&7&oĢenerators'
+DYNATECH_WATER_MILL_2:
+  type:
+  - '&7&oĢenerators'
+DYNATECH_WEATHER_CONTROLLER:
+  type:
+  - '&7&oMašīna'
+DYNATECH_WIND_MILL:
+  type:
+  - '&7&oĢenerators'
+DYNATECH_WIND_MILL_2:
+  type:
+  - '&7&oĢenerators'
+DYNATECH_WIRELESS_CHARGER:
+  type:
+  - '&7&oMašīna'
+DYNATECH_WIRELESS_ENERGY_BANK:
+  type:
+  - '&7&oMašīna'
+DYNATECH_WIRELESS_ENERGY_POINT:
+  type:
+  - '&7&oMašīna'
+DYNATECH_WIRELESS_ITEM_INPUT:
+  type:
+  - '&7&oMašīna'
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  type:
+  - '&7&oMašīna'
+DYNATECH_WITHER_SKELETON_GOLEM:
+  type:
+  - '&7&oDaudzbloks'
+DYNATECH_WOOD_MACHINE_CORE:
+  type:
+  - '&7&oSastāvdaļa'
+DYNATECH_ZINCMINERALIZED_APIARY:
+  type:
+  - '&7&oMašīna'
+PHANTOM_DATA_CARD:
+  type:
+  - '&7&oSastāvdaļa'
+STARDUST_METEOR:
+  type:
+  - '&7&oResurss'
+VEX_DATA_CARD:
+  type:
+  - '&7&oSastāvdaļa'

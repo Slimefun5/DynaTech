@@ -1,0 +1,372 @@
+DYNATECH_ADVANCED_MACHINE_SCRAP:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_ANCIENT_MACHINE_CORE:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_ANGEL_GEM:
+  type:
+  - '&7&oඋපාංගය'
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_AUTO_INPUT_UPGRADE:
+  type:
+  - '&7&oඋපාංගය'
+DYNATECH_AUTO_KITCHEN:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  type:
+  - '&7&oඋපාංගය'
+DYNATECH_BANDAID_MANAGER:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_BARBED_WIRE:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_BEE:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_BILLONMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_BRASSMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_COALMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_COAL_COKE:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_COAL_COKE_OVEN:
+  type:
+  - '&7&oබහුකැටය'
+DYNATECH_COBALTMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_COPPERMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_DEGRADED_EGG_MILL:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_DEGRADED_EGG_MILL_2:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_DEGRADED_WATER_MILL:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_DEGRADED_WATER_MILL_2:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_DEGRADED_WIND_MILL:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_DEGRADED_WIND_MILL_2:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_DIAMOND_MACHINE_CORE:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_DIMENSIONAL_HOME:
+  type:
+  - '&7&oඋපාංගය'
+DYNATECH_DURABILITY_GENERATOR:
+  type:
+  - '&7&oජනකය'
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_EGG_MILL:
+  type:
+  - '&7&oජනකය'
+DYNATECH_EGG_MILL_2:
+  type:
+  - '&7&oජනකය'
+DYNATECH_ELECTRICAL_STIMULATOR:
+  type:
+  - '&7&oඋපාංගය'
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_END_GROWTH_CHAMBER:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_EXTERNAL_HEATER:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_FLUID_TANK:
+  type:
+  - '&7&oමෙවලම'
+DYNATECH_FOOD_GENERATOR:
+  type:
+  - '&7&oජනකය'
+DYNATECH_GHOSTLY_ESSENCE:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_GOLDMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_GROWTH_CHAMBER:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_HASTE_ITEM_BAND:
+  type:
+  - '&7&oතලිස්මානය'
+DYNATECH_HEALTH_ITEM_BAND:
+  type:
+  - '&7&oතලිස්මානය'
+DYNATECH_HONEY_BUCKET:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_INVENTORY_FILTER:
+  type:
+  - '&7&oඋපාංගය'
+DYNATECH_IRONMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_IRON_MACHINE_CORE:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_LAVA_BOTTLE:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_LEADMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_LIQUID_TANK:
+  type:
+  - '&7&oමෙවලම'
+DYNATECH_LIVINGROCK:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_LIVINGWOOD:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_MACHINE_SCRAP:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_MATERIAL_HIVE:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_MILK_BOTTLE:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_NICKELMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_ORECHID:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_PETAL_APOTHECARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_PICNIC_BASKET:
+  type:
+  - '&7&oපිටබෑගය'
+DYNATECH_POTION_BUCKET:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_POTION_SPRINKLER:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_RECIPE_BOOK:
+  type:
+  - '&7&oඋපාංගය'
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_ROBOTIC_BEE:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_SCOOP:
+  type:
+  - '&7&oමෙවලම'
+DYNATECH_SEED_PLUCKER:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_SILVERMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  type:
+  - '&7&oපිටබෑගය'
+DYNATECH_STAINLESS_STEEL_INGOT:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_STARDUST_GENERATOR:
+  type:
+  - '&7&oජනකය'
+DYNATECH_STAR_DUST:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_STEELMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_STONE_MACHINE_CORE:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_TESSERACT:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_TESSERACTING_OBJECT:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_TESSERACT_BINDER:
+  type:
+  - '&7&oමෙවලම'
+DYNATECH_TINMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_VEX_GEM:
+  type:
+  - '&7&oසම්පත'
+DYNATECH_WATER_MILL:
+  type:
+  - '&7&oජනකය'
+DYNATECH_WATER_MILL_2:
+  type:
+  - '&7&oජනකය'
+DYNATECH_WEATHER_CONTROLLER:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_WIND_MILL:
+  type:
+  - '&7&oජනකය'
+DYNATECH_WIND_MILL_2:
+  type:
+  - '&7&oජනකය'
+DYNATECH_WIRELESS_CHARGER:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_WIRELESS_ENERGY_BANK:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_WIRELESS_ENERGY_POINT:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_WIRELESS_ITEM_INPUT:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  type:
+  - '&7&oයන්ත්‍රය'
+DYNATECH_WITHER_SKELETON_GOLEM:
+  type:
+  - '&7&oබහුකැටය'
+DYNATECH_WOOD_MACHINE_CORE:
+  type:
+  - '&7&oසංරචකය'
+DYNATECH_ZINCMINERALIZED_APIARY:
+  type:
+  - '&7&oයන්ත්‍රය'
+PHANTOM_DATA_CARD:
+  type:
+  - '&7&oසංරචකය'
+STARDUST_METEOR:
+  type:
+  - '&7&oසම්පත'
+VEX_DATA_CARD:
+  type:
+  - '&7&oසංරචකය'

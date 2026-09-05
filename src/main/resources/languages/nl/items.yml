@@ -1,333 +1,494 @@
-# Dutch item translations for DynaTech. Keyed by Slimefun item id.
-# name = display name, '&' colour codes preserved. Missing items fall back to English.
-
-DYNATECH_WOOD_MACHINE_CORE:
-  name: "&fHouten machinekern"
-
-DYNATECH_STONE_MACHINE_CORE:
-  name: "&fStenen machinekern"
-
-DYNATECH_IRON_MACHINE_CORE:
-  name: "&fIJzeren machinekern"
-
-DYNATECH_DIAMOND_MACHINE_CORE:
-  name: "&fDiamanten machinekern"
-
-DYNATECH_ENCHANTED_MACHINE_CORE:
-  name: "&bBetoverde machinekern"
-
-DYNATECH_ANCIENT_MACHINE_CORE:
-  name: "&fOude machinekern"
-
-DYNATECH_ENERGY_STORAGE_COMPONENT:
-  name: "&cEnergieopslagcomponent"
-
-DYNATECH_ENERGY_INPUT_COMPONENT:
-  name: "&cEnergie-invoercomponent"
-
-DYNATECH_ENERGY_OUTPUT_COMPONENT:
-  name: "&cEnergie-uitvoercomponent"
-
-DYNATECH_DEGRADED_WATER_MILL:
-  name: "&cVersleten watermolen"
-
-DYNATECH_DEGRADED_WATER_MILL_2:
-  name: "&cVersleten hydroturbine"
-
-DYNATECH_DEGRADED_WIND_MILL:
-  name: "&cVersleten windmolen"
-
-DYNATECH_DEGRADED_WIND_MILL_2:
-  name: "&cVersleten windturbine"
-
-DYNATECH_DEGRADED_EGG_MILL:
-  name: "&cVersleten drakeneimolen"
-
-DYNATECH_DEGRADED_EGG_MILL_2:
-  name: "&cVersleten drakeneiturbine"
-
-DYNATECH_WATER_MILL:
-  name: "&bWatermolen"
-
-DYNATECH_WATER_MILL_2:
-  name: "&bHydroturbine"
-
-DYNATECH_WIND_MILL:
-  name: "&bWindmolen"
-
-DYNATECH_WIND_MILL_2:
-  name: "&bWindturbine"
-
-DYNATECH_EGG_MILL:
-  name: "&bDrakeneimolen"
-
-DYNATECH_EGG_MILL_2:
-  name: "&bDrakeneiturbine"
-
-DYNATECH_DURABILITY_GENERATOR:
-  name: "&bVersplinteringsgenerator"
-
-DYNATECH_FOOD_GENERATOR:
-  name: "&bCulinaire generator"
-
-DYNATECH_STARDUST_GENERATOR:
-  name: "&bSterrenstofreactor"
-
-DYNATECH_STAINLESS_STEEL_INGOT:
-  name: "&fRoestvrijstalen staaf"
-
-DYNATECH_STAINLESS_STEEL_ROTOR:
-  name: "&fRoestvrijstalen rotor"
-
-DYNATECH_COAL_COKE:
-  name: "&fSteenkoolcokes"
-
-DYNATECH_BEE:
-  name: "&6Bij"
-
-DYNATECH_ROBOTIC_BEE:
-  name: "&6Robotbij"
-
-DYNATECH_ADVANCED_ROBOTIC_BEE:
-  name: "&6Geavanceerde robotbij"
-
-DYNATECH_VEX_GEM:
-  name: "&6Vex-edelsteen"
-
-DYNATECH_MACHINE_SCRAP:
-  name: "&6Machineschroot"
-
 DYNATECH_ADVANCED_MACHINE_SCRAP:
-  name: "&6Geavanceerd machineschroot"
-
-DYNATECH_STAR_DUST:
-  name: "&6Sterrenstof"
-
-DYNATECH_GHOSTLY_ESSENCE:
-  name: "&6Spookachtige essentie"
-
-DYNATECH_TESSERACTING_OBJECT:
-  name: "&6Tesseractobject"
-
-DYNATECH_LIVINGROCK:
-  name: "&6Levend gesteente"
-
-DYNATECH_LIVINGWOOD:
-  name: "&6Levend hout"
-
-DYNATECH_ELECTRICAL_STIMULATOR:
-  name: "&6Elektrische stimulator"
-
-DYNATECH_INVENTORY_FILTER:
-  name: "&6Inventarisfilter"
-
-DYNATECH_ANGEL_GEM:
-  name: "&6Vlucht-edelsteen"
-
-DYNATECH_RECIPE_BOOK:
-  name: "&6Receptenboek"
-
-DYNATECH_AUTO_INPUT_UPGRADE:
-  name: "&6Auto-invoer-upgrade"
-
-DYNATECH_AUTO_OUTPUT_UPGRADE:
-  name: "&6Auto-uitvoer-upgrade"
-
-DYNATECH_FLUID_TANK:
-  name: "&fVloeistoftank"
-
-DYNATECH_LIQUID_TANK:
-  name: "&6Draagbare vloeistoftank"
-
-DYNATECH_PICNIC_BASKET:
-  name: "&6Picknickmand"
-
-DYNATECH_SOUL_BOUND_PICNIC_BASKET:
-  name: "&6Zielgebonden picknickmand"
-
-DYNATECH_SCOOP:
-  name: "&6Schepje"
-
-DYNATECH_DIMENSIONAL_HOME:
-  name: "&6Dimensionaal thuis"
-
-DYNATECH_HASTE_ITEM_BAND:
-  name: "&6Haast-voorwerpband"
-
-DYNATECH_HEALTH_ITEM_BAND:
-  name: "&6Gezondheids-voorwerpband"
-
-DYNATECH_TESSERACT_BINDER:
-  name: "&6Tesseractbinder"
-
-DYNATECH_WITHER_SKELETON_GOLEM:
-  name: "&6Wither-golem-multiblok"
-
-DYNATECH_COAL_COKE_OVEN:
-  name: "&fCokesoven-controller"
-
-DYNATECH_AUTO_KITCHEN:
-  name: "&6Auto-keuken"
-
-DYNATECH_KITCHEN_AUTO_CRAFTER:
-  name: "&6Keuken-autocrafter"
-
-DYNATECH_ANTIGRAVITY_BUBBLE:
-  name: "&6Antizwaartekrachtbel"
-
-DYNATECH_WEATHER_CONTROLLER:
-  name: "&6Weercontroller"
-
-DYNATECH_POTION_SPRINKLER:
-  name: "&6Drankjessproeier"
-
-DYNATECH_BARBED_WIRE:
-  name: "&6Prikkeldraad"
-
-DYNATECH_MATERIAL_HIVE:
-  name: "&6Materiaalkorf"
-
-DYNATECH_WIRELESS_CHARGER:
-  name: "&6Draadloze oplader"
-
-DYNATECH_SEED_PLUCKER:
-  name: "&6Zaadplukker"
-
-DYNATECH_BANDAID_MANAGER:
-  name: "&6Voorwerpbandbeheerder"
-
-DYNATECH_ORECHID:
-  name: "&6Ertsorchidee"
-
-DYNATECH_WIRELESS_ENERGY_POINT:
-  name: "&6Draadloos energiepunt"
-
-DYNATECH_WIRELESS_ENERGY_BANK:
-  name: "&6Draadloze energiebank"
-
-DYNATECH_TESSERACT:
-  name: "&6Tesseract"
-
-DYNATECH_WIRELESS_ITEM_INPUT:
-  name: "&6Draadloze voorwerpinvoer"
-
-DYNATECH_WIRELESS_ITEM_OUTPUT:
-  name: "&6Draadloze voorwerpuitvoer"
-
-DYNATECH_EXTERNAL_HEATER:
-  name: "&6Externe verwarmer"
-
-DYNATECH_GROWTH_CHAMBER:
-  name: "&6Groeikamer"
-
-DYNATECH_OCEAN_GROWTH_CHAMBER:
-  name: "&bOceaangroeikamer"
-
-DYNATECH_NETHER_GROWTH_CHAMBER:
-  name: "&cNethergroeikamer"
-
-DYNATECH_END_GROWTH_CHAMBER:
-  name: "&dEndgroeikamer"
-
-DYNATECH_GROWTH_CHAMBER_MARK_2:
-  name: "&6Groeikamer MK2"
-
-DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
-  name: "&bOceaangroeikamer MK2"
-
-DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
-  name: "&cNethergroeikamer MK2"
-
-DYNATECH_END_GROWTH_CHAMBER_MARK_2:
-  name: "&dEndgroeikamer MK2"
-
-DYNATECH_PETAL_APOTHECARY:
-  name: "&dBloembladapotheek"
-
-DYNATECH_LAVA_BOTTLE:
-  name: "&fLavafles"
-
-DYNATECH_MILK_BOTTLE:
-  name: "&fMelkfles"
-
-DYNATECH_HONEY_BUCKET:
-  name: "&fHoningemmer"
-
-DYNATECH_POTION_BUCKET:
-  name: "&fDrankjesemmer"
-
-STARDUST_METEOR:
-  name: "&6Sterrenstofmeteoor"
-
-DYNATECH_IRONMINERALIZED_APIARY:
-  name: "&fGemineraliseerde IJzeren Bijenkorf"
-DYNATECH_GOLDMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Gouden Bijenkorf"
-DYNATECH_NETHERITEMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Netherieten Bijenkorf"
-DYNATECH_DIAMONDMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Diamanten Bijenkorf"
-DYNATECH_EMERALDMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Smaragden Bijenkorf"
-DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Lapis Lazuli Bijenkorf"
-DYNATECH_QUARTZMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Kwartsen Bijenkorf"
-DYNATECH_REDSTONEMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Redstone Bijenkorf"
-DYNATECH_COALMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Kolen Bijenkorf"
-DYNATECH_COPPERMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Koperen Bijenkorf"
-DYNATECH_TINMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Tinnen Bijenkorf"
-DYNATECH_SILVERMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Zilveren Bijenkorf"
+  name: '&6Geavanceerd machineschroot'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  name: '&6Geavanceerde robotbij'
+  type:
+  - '&7&oGrondstof'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Aluminium Bijenkorf"
-DYNATECH_LEADMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Loden Bijenkorf"
-DYNATECH_ZINCMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Zinken Bijenkorf"
-DYNATECH_MAGNESIUMMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Magnesium Bijenkorf"
-DYNATECH_STEELMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Stalen Bijenkorf"
-DYNATECH_DURALUMINMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Duraluminium Bijenkorf"
-DYNATECH_BILLONMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Billon Bijenkorf"
-DYNATECH_BRASSMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Messing Bijenkorf"
+  name: '&fGemineraliseerde Aluminium Bijenkorf'
+  type:
+  - '&7&oMachine'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Aluminiummessing Bijenkorf"
+  name: '&fGemineraliseerde Aluminiummessing Bijenkorf'
+  type:
+  - '&7&oMachine'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Aluminiumbrons Bijenkorf"
-DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Korinthisch Brons Bijenkorf"
-DYNATECH_SOLDERMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Soldeer Bijenkorf"
-DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Damaststalen Bijenkorf"
-DYNATECH_HARDENED_METALMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Gehard Metalen Bijenkorf"
-DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Versterkte Legering Bijenkorf"
-DYNATECH_FERROSILICONMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Ferrosilicium Bijenkorf"
-DYNATECH_GILDED_IRONMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Verguld IJzeren Bijenkorf"
-DYNATECH_NICKELMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Nikkelen Bijenkorf"
-DYNATECH_COBALTMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Kobalten Bijenkorf"
-DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Redstone-legering Bijenkorf"
-DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Synthetisch Diamanten Bijenkorf"
-DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Synthetisch Smaragden Bijenkorf"
-DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Synthetisch Saffieren Bijenkorf"
+  name: '&fGemineraliseerde Aluminiumbrons Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fOude machinekern'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_ANGEL_GEM:
+  name: '&6Vlucht-edelsteen'
+  type:
+  - '&7&oGadget'
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  name: '&6Antizwaartekrachtbel'
+  type:
+  - '&7&oMachine'
+DYNATECH_AUTO_INPUT_UPGRADE:
+  name: '&6Auto-invoer-upgrade'
+  type:
+  - '&7&oGadget'
+DYNATECH_AUTO_KITCHEN:
+  name: '&6Auto-keuken'
+  type:
+  - '&7&oMachine'
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  name: '&6Auto-uitvoer-upgrade'
+  type:
+  - '&7&oGadget'
+DYNATECH_BANDAID_MANAGER:
+  name: '&6Voorwerpbandbeheerder'
+  type:
+  - '&7&oMachine'
+DYNATECH_BARBED_WIRE:
+  name: '&6Prikkeldraad'
+  type:
+  - '&7&oMachine'
+DYNATECH_BEE:
+  name: '&6Bij'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_BILLONMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Billon Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_BRASSMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Messing Bijenkorf'
+  type:
+  - '&7&oMachine'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
-  name: "&fGemineraliseerde Carbonado Bijenkorf"
+  name: '&fGemineraliseerde Carbonado Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_COALMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Kolen Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_COAL_COKE:
+  name: '&fSteenkoolcokes'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_COAL_COKE_OVEN:
+  name: '&fCokesoven-controller'
+  type:
+  - '&7&oMultiblok'
+DYNATECH_COBALTMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Kobalten Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_COPPERMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Koperen Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Korinthisch Brons Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Damaststalen Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cVersleten drakeneimolen'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cVersleten drakeneiturbine'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cVersleten watermolen'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cVersleten hydroturbine'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cVersleten windmolen'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cVersleten windturbine'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Diamanten Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fDiamanten machinekern'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_DIMENSIONAL_HOME:
+  name: '&6Dimensionaal thuis'
+  type:
+  - '&7&oGadget'
+DYNATECH_DURABILITY_GENERATOR:
+  name: '&bVersplinteringsgenerator'
+  type:
+  - '&7&oGenerator'
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Duraluminium Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_EGG_MILL:
+  name: '&bDrakeneimolen'
+  type:
+  - '&7&oGenerator'
+DYNATECH_EGG_MILL_2:
+  name: '&bDrakeneiturbine'
+  type:
+  - '&7&oGenerator'
+DYNATECH_ELECTRICAL_STIMULATOR:
+  name: '&6Elektrische stimulator'
+  type:
+  - '&7&oGadget'
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Smaragden Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bBetoverde machinekern'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_END_GROWTH_CHAMBER:
+  name: '&dEndgroeikamer'
+  type:
+  - '&7&oMachine'
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  name: '&dEndgroeikamer MK2'
+  type:
+  - '&7&oMachine'
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cEnergie-invoercomponent'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cEnergie-uitvoercomponent'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cEnergieopslagcomponent'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_EXTERNAL_HEATER:
+  name: '&6Externe verwarmer'
+  type:
+  - '&7&oMachine'
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Ferrosilicium Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_FLUID_TANK:
+  name: '&fVloeistoftank'
+  type:
+  - '&7&oGereedschap'
+DYNATECH_FOOD_GENERATOR:
+  name: '&bCulinaire generator'
+  type:
+  - '&7&oGenerator'
+DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Spookachtige essentie'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Verguld IJzeren Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_GOLDMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Gouden Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_GROWTH_CHAMBER:
+  name: '&6Groeikamer'
+  type:
+  - '&7&oMachine'
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  name: '&6Groeikamer MK2'
+  type:
+  - '&7&oMachine'
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Gehard Metalen Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_HASTE_ITEM_BAND:
+  name: '&6Haast-voorwerpband'
+  type:
+  - '&7&oTalisman'
+DYNATECH_HEALTH_ITEM_BAND:
+  name: '&6Gezondheids-voorwerpband'
+  type:
+  - '&7&oTalisman'
+DYNATECH_HONEY_BUCKET:
+  name: '&fHoningemmer'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_INVENTORY_FILTER:
+  name: '&6Inventarisfilter'
+  type:
+  - '&7&oGadget'
+DYNATECH_IRONMINERALIZED_APIARY:
+  name: '&fGemineraliseerde IJzeren Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_IRON_MACHINE_CORE:
+  name: '&fIJzeren machinekern'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  name: '&6Keuken-autocrafter'
+  type:
+  - '&7&oMachine'
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Lapis Lazuli Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_LAVA_BOTTLE:
+  name: '&fLavafles'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_LEADMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Loden Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_LIQUID_TANK:
+  name: '&6Draagbare vloeistoftank'
+  type:
+  - '&7&oGereedschap'
+DYNATECH_LIVINGROCK:
+  name: '&6Levend gesteente'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_LIVINGWOOD:
+  name: '&6Levend hout'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_MACHINE_SCRAP:
+  name: '&6Machineschroot'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Magnesium Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_MATERIAL_HIVE:
+  name: '&6Materiaalkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_MILK_BOTTLE:
+  name: '&fMelkfles'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Netherieten Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  name: '&cNethergroeikamer'
+  type:
+  - '&7&oMachine'
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  name: '&cNethergroeikamer MK2'
+  type:
+  - '&7&oMachine'
+DYNATECH_NICKELMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Nikkelen Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  name: '&bOceaangroeikamer'
+  type:
+  - '&7&oMachine'
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  name: '&bOceaangroeikamer MK2'
+  type:
+  - '&7&oMachine'
+DYNATECH_ORECHID:
+  name: '&6Ertsorchidee'
+  type:
+  - '&7&oMachine'
+DYNATECH_PETAL_APOTHECARY:
+  name: '&dBloembladapotheek'
+  type:
+  - '&7&oMachine'
+DYNATECH_PICNIC_BASKET:
+  name: '&6Picknickmand'
+  type:
+  - '&7&oRugzak'
+DYNATECH_POTION_BUCKET:
+  name: '&fDrankjesemmer'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_POTION_SPRINKLER:
+  name: '&6Drankjessproeier'
+  type:
+  - '&7&oMachine'
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Kwartsen Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_RECIPE_BOOK:
+  name: '&6Receptenboek'
+  type:
+  - '&7&oGadget'
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Redstone Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Redstone-legering Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Versterkte Legering Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_ROBOTIC_BEE:
+  name: '&6Robotbij'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_SCOOP:
+  name: '&6Schepje'
+  type:
+  - '&7&oGereedschap'
+DYNATECH_SEED_PLUCKER:
+  name: '&6Zaadplukker'
+  type:
+  - '&7&oMachine'
+DYNATECH_SILVERMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Zilveren Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Soldeer Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  name: '&6Zielgebonden picknickmand'
+  type:
+  - '&7&oRugzak'
+DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fRoestvrijstalen staaf'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fRoestvrijstalen rotor'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_STARDUST_GENERATOR:
+  name: '&bSterrenstofreactor'
+  type:
+  - '&7&oGenerator'
+DYNATECH_STAR_DUST:
+  name: '&6Sterrenstof'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_STEELMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Stalen Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_STONE_MACHINE_CORE:
+  name: '&fStenen machinekern'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Synthetisch Diamanten Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Synthetisch Smaragden Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Synthetisch Saffieren Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_TESSERACT:
+  name: '&6Tesseract'
+  type:
+  - '&7&oMachine'
+DYNATECH_TESSERACTING_OBJECT:
+  name: '&6Tesseractobject'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_TESSERACT_BINDER:
+  name: '&6Tesseractbinder'
+  type:
+  - '&7&oGereedschap'
+DYNATECH_TINMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Tinnen Bijenkorf'
+  type:
+  - '&7&oMachine'
+DYNATECH_VEX_GEM:
+  name: '&6Vex-edelsteen'
+  type:
+  - '&7&oGrondstof'
+DYNATECH_WATER_MILL:
+  name: '&bWatermolen'
+  type:
+  - '&7&oGenerator'
+DYNATECH_WATER_MILL_2:
+  name: '&bHydroturbine'
+  type:
+  - '&7&oGenerator'
+DYNATECH_WEATHER_CONTROLLER:
+  name: '&6Weercontroller'
+  type:
+  - '&7&oMachine'
+DYNATECH_WIND_MILL:
+  name: '&bWindmolen'
+  type:
+  - '&7&oGenerator'
+DYNATECH_WIND_MILL_2:
+  name: '&bWindturbine'
+  type:
+  - '&7&oGenerator'
+DYNATECH_WIRELESS_CHARGER:
+  name: '&6Draadloze oplader'
+  type:
+  - '&7&oMachine'
+DYNATECH_WIRELESS_ENERGY_BANK:
+  name: '&6Draadloze energiebank'
+  type:
+  - '&7&oMachine'
+DYNATECH_WIRELESS_ENERGY_POINT:
+  name: '&6Draadloos energiepunt'
+  type:
+  - '&7&oMachine'
+DYNATECH_WIRELESS_ITEM_INPUT:
+  name: '&6Draadloze voorwerpinvoer'
+  type:
+  - '&7&oMachine'
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  name: '&6Draadloze voorwerpuitvoer'
+  type:
+  - '&7&oMachine'
+DYNATECH_WITHER_SKELETON_GOLEM:
+  name: '&6Wither-golem-multiblok'
+  type:
+  - '&7&oMultiblok'
+DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fHouten machinekern'
+  type:
+  - '&7&oOnderdeel'
+DYNATECH_ZINCMINERALIZED_APIARY:
+  name: '&fGemineraliseerde Zinken Bijenkorf'
+  type:
+  - '&7&oMachine'
+PHANTOM_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+STARDUST_METEOR:
+  name: '&6Sterrenstofmeteoor'
+  type:
+  - '&7&oGrondstof'
+VEX_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'

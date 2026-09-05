@@ -1,0 +1,372 @@
+DYNATECH_ADVANCED_MACHINE_SCRAP:
+  type:
+  - '&7&oRessource'
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  type:
+  - '&7&oRessource'
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_ANCIENT_MACHINE_CORE:
+  type:
+  - '&7&oKomponent'
+DYNATECH_ANGEL_GEM:
+  type:
+  - '&7&oGadget'
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  type:
+  - '&7&oMaskine'
+DYNATECH_AUTO_INPUT_UPGRADE:
+  type:
+  - '&7&oGadget'
+DYNATECH_AUTO_KITCHEN:
+  type:
+  - '&7&oMaskine'
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  type:
+  - '&7&oGadget'
+DYNATECH_BANDAID_MANAGER:
+  type:
+  - '&7&oMaskine'
+DYNATECH_BARBED_WIRE:
+  type:
+  - '&7&oMaskine'
+DYNATECH_BEE:
+  type:
+  - '&7&oRessource'
+DYNATECH_BILLONMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_BRASSMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_COALMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_COAL_COKE:
+  type:
+  - '&7&oRessource'
+DYNATECH_COAL_COKE_OVEN:
+  type:
+  - '&7&oMultiblok'
+DYNATECH_COBALTMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_COPPERMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_DEGRADED_EGG_MILL:
+  type:
+  - '&7&oKomponent'
+DYNATECH_DEGRADED_EGG_MILL_2:
+  type:
+  - '&7&oKomponent'
+DYNATECH_DEGRADED_WATER_MILL:
+  type:
+  - '&7&oKomponent'
+DYNATECH_DEGRADED_WATER_MILL_2:
+  type:
+  - '&7&oKomponent'
+DYNATECH_DEGRADED_WIND_MILL:
+  type:
+  - '&7&oKomponent'
+DYNATECH_DEGRADED_WIND_MILL_2:
+  type:
+  - '&7&oKomponent'
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_DIAMOND_MACHINE_CORE:
+  type:
+  - '&7&oKomponent'
+DYNATECH_DIMENSIONAL_HOME:
+  type:
+  - '&7&oGadget'
+DYNATECH_DURABILITY_GENERATOR:
+  type:
+  - '&7&oGenerator'
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_EGG_MILL:
+  type:
+  - '&7&oGenerator'
+DYNATECH_EGG_MILL_2:
+  type:
+  - '&7&oGenerator'
+DYNATECH_ELECTRICAL_STIMULATOR:
+  type:
+  - '&7&oGadget'
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  type:
+  - '&7&oKomponent'
+DYNATECH_END_GROWTH_CHAMBER:
+  type:
+  - '&7&oMaskine'
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  type:
+  - '&7&oMaskine'
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  type:
+  - '&7&oKomponent'
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  type:
+  - '&7&oKomponent'
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  type:
+  - '&7&oKomponent'
+DYNATECH_EXTERNAL_HEATER:
+  type:
+  - '&7&oMaskine'
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_FLUID_TANK:
+  type:
+  - '&7&oVærktøj'
+DYNATECH_FOOD_GENERATOR:
+  type:
+  - '&7&oGenerator'
+DYNATECH_GHOSTLY_ESSENCE:
+  type:
+  - '&7&oRessource'
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_GOLDMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_GROWTH_CHAMBER:
+  type:
+  - '&7&oMaskine'
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  type:
+  - '&7&oMaskine'
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_HASTE_ITEM_BAND:
+  type:
+  - '&7&oTalisman'
+DYNATECH_HEALTH_ITEM_BAND:
+  type:
+  - '&7&oTalisman'
+DYNATECH_HONEY_BUCKET:
+  type:
+  - '&7&oRessource'
+DYNATECH_INVENTORY_FILTER:
+  type:
+  - '&7&oGadget'
+DYNATECH_IRONMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_IRON_MACHINE_CORE:
+  type:
+  - '&7&oKomponent'
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  type:
+  - '&7&oMaskine'
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_LAVA_BOTTLE:
+  type:
+  - '&7&oRessource'
+DYNATECH_LEADMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_LIQUID_TANK:
+  type:
+  - '&7&oVærktøj'
+DYNATECH_LIVINGROCK:
+  type:
+  - '&7&oRessource'
+DYNATECH_LIVINGWOOD:
+  type:
+  - '&7&oRessource'
+DYNATECH_MACHINE_SCRAP:
+  type:
+  - '&7&oRessource'
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_MATERIAL_HIVE:
+  type:
+  - '&7&oMaskine'
+DYNATECH_MILK_BOTTLE:
+  type:
+  - '&7&oRessource'
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  type:
+  - '&7&oMaskine'
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  type:
+  - '&7&oMaskine'
+DYNATECH_NICKELMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  type:
+  - '&7&oMaskine'
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  type:
+  - '&7&oMaskine'
+DYNATECH_ORECHID:
+  type:
+  - '&7&oMaskine'
+DYNATECH_PETAL_APOTHECARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_PICNIC_BASKET:
+  type:
+  - '&7&oRygsæk'
+DYNATECH_POTION_BUCKET:
+  type:
+  - '&7&oRessource'
+DYNATECH_POTION_SPRINKLER:
+  type:
+  - '&7&oMaskine'
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_RECIPE_BOOK:
+  type:
+  - '&7&oGadget'
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_ROBOTIC_BEE:
+  type:
+  - '&7&oRessource'
+DYNATECH_SCOOP:
+  type:
+  - '&7&oVærktøj'
+DYNATECH_SEED_PLUCKER:
+  type:
+  - '&7&oMaskine'
+DYNATECH_SILVERMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  type:
+  - '&7&oRygsæk'
+DYNATECH_STAINLESS_STEEL_INGOT:
+  type:
+  - '&7&oRessource'
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  type:
+  - '&7&oRessource'
+DYNATECH_STARDUST_GENERATOR:
+  type:
+  - '&7&oGenerator'
+DYNATECH_STAR_DUST:
+  type:
+  - '&7&oRessource'
+DYNATECH_STEELMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_STONE_MACHINE_CORE:
+  type:
+  - '&7&oKomponent'
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_TESSERACT:
+  type:
+  - '&7&oMaskine'
+DYNATECH_TESSERACTING_OBJECT:
+  type:
+  - '&7&oRessource'
+DYNATECH_TESSERACT_BINDER:
+  type:
+  - '&7&oVærktøj'
+DYNATECH_TINMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+DYNATECH_VEX_GEM:
+  type:
+  - '&7&oRessource'
+DYNATECH_WATER_MILL:
+  type:
+  - '&7&oGenerator'
+DYNATECH_WATER_MILL_2:
+  type:
+  - '&7&oGenerator'
+DYNATECH_WEATHER_CONTROLLER:
+  type:
+  - '&7&oMaskine'
+DYNATECH_WIND_MILL:
+  type:
+  - '&7&oGenerator'
+DYNATECH_WIND_MILL_2:
+  type:
+  - '&7&oGenerator'
+DYNATECH_WIRELESS_CHARGER:
+  type:
+  - '&7&oMaskine'
+DYNATECH_WIRELESS_ENERGY_BANK:
+  type:
+  - '&7&oMaskine'
+DYNATECH_WIRELESS_ENERGY_POINT:
+  type:
+  - '&7&oMaskine'
+DYNATECH_WIRELESS_ITEM_INPUT:
+  type:
+  - '&7&oMaskine'
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  type:
+  - '&7&oMaskine'
+DYNATECH_WITHER_SKELETON_GOLEM:
+  type:
+  - '&7&oMultiblok'
+DYNATECH_WOOD_MACHINE_CORE:
+  type:
+  - '&7&oKomponent'
+DYNATECH_ZINCMINERALIZED_APIARY:
+  type:
+  - '&7&oMaskine'
+PHANTOM_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+STARDUST_METEOR:
+  type:
+  - '&7&oRessource'
+VEX_DATA_CARD:
+  type:
+  - '&7&oKomponent'

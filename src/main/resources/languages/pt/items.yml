@@ -1,492 +1,370 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
-  name: '&6Chatarra de máquina avanzada'
   type:
   - '&7&oRecurso'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
-  name: '&6Abeja robótica avanzada'
   type:
   - '&7&oRecurso'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Aluminio'
   type:
   - '&7&oMáquina'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Latón de Aluminio'
   type:
   - '&7&oMáquina'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Bronce de Aluminio'
   type:
   - '&7&oMáquina'
 DYNATECH_ANCIENT_MACHINE_CORE:
-  name: '&fNúcleo de máquina antiguo'
   type:
   - '&7&oComponente'
 DYNATECH_ANGEL_GEM:
-  name: '&6Gema de vuelo'
   type:
-  - '&7&oAparato'
+  - '&7&oAcessório'
 DYNATECH_ANTIGRAVITY_BUBBLE:
-  name: '&6Burbuja antigravedad'
   type:
   - '&7&oMáquina'
 DYNATECH_AUTO_INPUT_UPGRADE:
-  name: '&6Mejora de entrada automática'
   type:
-  - '&7&oAparato'
+  - '&7&oAcessório'
 DYNATECH_AUTO_KITCHEN:
-  name: '&6Cocina automática'
   type:
   - '&7&oMáquina'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
-  name: '&6Mejora de salida automática'
   type:
-  - '&7&oAparato'
+  - '&7&oAcessório'
 DYNATECH_BANDAID_MANAGER:
-  name: '&6Gestor de bandas de objeto'
   type:
   - '&7&oMáquina'
 DYNATECH_BARBED_WIRE:
-  name: '&6Alambre de púas'
   type:
   - '&7&oMáquina'
 DYNATECH_BEE:
-  name: '&6Abeja'
   type:
   - '&7&oRecurso'
 DYNATECH_BILLONMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Vellón'
   type:
   - '&7&oMáquina'
 DYNATECH_BRASSMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Latón'
   type:
   - '&7&oMáquina'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Carbonado'
   type:
   - '&7&oMáquina'
 DYNATECH_COALMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Carbón'
   type:
   - '&7&oMáquina'
 DYNATECH_COAL_COKE:
-  name: '&fCoque de carbón'
   type:
   - '&7&oRecurso'
 DYNATECH_COAL_COKE_OVEN:
-  name: '&fControlador de horno de coque'
   type:
-  - '&7&oMultibloque'
+  - '&7&oMultibloco'
 DYNATECH_COBALTMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Cobalto'
   type:
   - '&7&oMáquina'
 DYNATECH_COPPERMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Cobre'
   type:
   - '&7&oMáquina'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Bronce Corintio'
   type:
   - '&7&oMáquina'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Acero de Damasco'
   type:
   - '&7&oMáquina'
 DYNATECH_DEGRADED_EGG_MILL:
-  name: '&cMolino de huevo de dragón degradado'
   type:
   - '&7&oComponente'
 DYNATECH_DEGRADED_EGG_MILL_2:
-  name: '&cTurbina de huevo de dragón degradada'
   type:
   - '&7&oComponente'
 DYNATECH_DEGRADED_WATER_MILL:
-  name: '&cMolino de agua degradado'
   type:
   - '&7&oComponente'
 DYNATECH_DEGRADED_WATER_MILL_2:
-  name: '&cTurbina hidráulica degradada'
   type:
   - '&7&oComponente'
 DYNATECH_DEGRADED_WIND_MILL:
-  name: '&cMolino de viento degradado'
   type:
   - '&7&oComponente'
 DYNATECH_DEGRADED_WIND_MILL_2:
-  name: '&cTurbina eólica degradada'
   type:
   - '&7&oComponente'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Diamante'
   type:
   - '&7&oMáquina'
 DYNATECH_DIAMOND_MACHINE_CORE:
-  name: '&fNúcleo de máquina de diamante'
   type:
   - '&7&oComponente'
 DYNATECH_DIMENSIONAL_HOME:
-  name: '&6Hogar dimensional'
   type:
-  - '&7&oAparato'
+  - '&7&oAcessório'
 DYNATECH_DURABILITY_GENERATOR:
-  name: '&bGenerador de astillado'
   type:
-  - '&7&oGenerador'
+  - '&7&oGerador'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Duraluminio'
   type:
   - '&7&oMáquina'
 DYNATECH_EGG_MILL:
-  name: '&bMolino de huevo de dragón'
   type:
-  - '&7&oGenerador'
+  - '&7&oGerador'
 DYNATECH_EGG_MILL_2:
-  name: '&bTurbina de huevo de dragón'
   type:
-  - '&7&oGenerador'
+  - '&7&oGerador'
 DYNATECH_ELECTRICAL_STIMULATOR:
-  name: '&6Estimulador eléctrico'
   type:
-  - '&7&oAparato'
+  - '&7&oAcessório'
 DYNATECH_EMERALDMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Esmeralda'
   type:
   - '&7&oMáquina'
 DYNATECH_ENCHANTED_MACHINE_CORE:
-  name: '&bNúcleo de máquina encantado'
   type:
   - '&7&oComponente'
 DYNATECH_END_GROWTH_CHAMBER:
-  name: '&dCámara de crecimiento del End'
   type:
   - '&7&oMáquina'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
-  name: '&dCámara de crecimiento del End MK2'
   type:
   - '&7&oMáquina'
 DYNATECH_ENERGY_INPUT_COMPONENT:
-  name: '&cComponente de entrada de energía'
   type:
   - '&7&oComponente'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
-  name: '&cComponente de salida de energía'
   type:
   - '&7&oComponente'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
-  name: '&cComponente de almacenamiento de energía'
   type:
   - '&7&oComponente'
 DYNATECH_EXTERNAL_HEATER:
-  name: '&6Calentador externo'
   type:
   - '&7&oMáquina'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Ferrosilicio'
   type:
   - '&7&oMáquina'
 DYNATECH_FLUID_TANK:
-  name: '&fTanque de fluido'
   type:
-  - '&7&oHerramienta'
+  - '&7&oFerramenta'
 DYNATECH_FOOD_GENERATOR:
-  name: '&bGenerador culinario'
   type:
-  - '&7&oGenerador'
+  - '&7&oGerador'
 DYNATECH_GHOSTLY_ESSENCE:
-  name: '&6Esencia fantasmal'
   type:
   - '&7&oRecurso'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Hierro Dorado'
   type:
   - '&7&oMáquina'
 DYNATECH_GOLDMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Oro'
   type:
   - '&7&oMáquina'
 DYNATECH_GROWTH_CHAMBER:
-  name: '&6Cámara de crecimiento'
   type:
   - '&7&oMáquina'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
-  name: '&6Cámara de crecimiento MK2'
   type:
   - '&7&oMáquina'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Metal Endurecido'
   type:
   - '&7&oMáquina'
 DYNATECH_HASTE_ITEM_BAND:
-  name: '&6Banda de objeto de prisa'
   type:
-  - '&7&oTalismán'
+  - '&7&oTalismã'
 DYNATECH_HEALTH_ITEM_BAND:
-  name: '&6Banda de objeto de salud'
   type:
-  - '&7&oTalismán'
+  - '&7&oTalismã'
 DYNATECH_HONEY_BUCKET:
-  name: '&fCubo de miel'
   type:
   - '&7&oRecurso'
 DYNATECH_INVENTORY_FILTER:
-  name: '&6Filtro de inventario'
   type:
-  - '&7&oAparato'
+  - '&7&oAcessório'
 DYNATECH_IRONMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Hierro'
   type:
   - '&7&oMáquina'
 DYNATECH_IRON_MACHINE_CORE:
-  name: '&fNúcleo de máquina de hierro'
   type:
   - '&7&oComponente'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
-  name: '&6Fabricante automático de cocina'
   type:
   - '&7&oMáquina'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Lapislázuli'
   type:
   - '&7&oMáquina'
 DYNATECH_LAVA_BOTTLE:
-  name: '&fBotella de lava'
   type:
   - '&7&oRecurso'
 DYNATECH_LEADMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Plomo'
   type:
   - '&7&oMáquina'
 DYNATECH_LIQUID_TANK:
-  name: '&6Tanque de líquido portátil'
   type:
-  - '&7&oHerramienta'
+  - '&7&oFerramenta'
 DYNATECH_LIVINGROCK:
-  name: '&6Roca viviente'
   type:
   - '&7&oRecurso'
 DYNATECH_LIVINGWOOD:
-  name: '&6Madera viviente'
   type:
   - '&7&oRecurso'
 DYNATECH_MACHINE_SCRAP:
-  name: '&6Chatarra de máquina'
   type:
   - '&7&oRecurso'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Magnesio'
   type:
   - '&7&oMáquina'
 DYNATECH_MATERIAL_HIVE:
-  name: '&6Colmena de materiales'
   type:
   - '&7&oMáquina'
 DYNATECH_MILK_BOTTLE:
-  name: '&fBotella de leche'
   type:
   - '&7&oRecurso'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Netherita'
   type:
   - '&7&oMáquina'
 DYNATECH_NETHER_GROWTH_CHAMBER:
-  name: '&cCámara de crecimiento del Nether'
   type:
   - '&7&oMáquina'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
-  name: '&cCámara de crecimiento del Nether MK2'
   type:
   - '&7&oMáquina'
 DYNATECH_NICKELMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Níquel'
   type:
   - '&7&oMáquina'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
-  name: '&bCámara de crecimiento oceánica'
   type:
   - '&7&oMáquina'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
-  name: '&bCámara de crecimiento oceánica MK2'
   type:
   - '&7&oMáquina'
 DYNATECH_ORECHID:
-  name: '&6Orquídea de minerales'
   type:
   - '&7&oMáquina'
 DYNATECH_PETAL_APOTHECARY:
-  name: '&dBoticario de pétalos'
   type:
   - '&7&oMáquina'
 DYNATECH_PICNIC_BASKET:
-  name: '&6Cesta de picnic'
   type:
   - '&7&oMochila'
 DYNATECH_POTION_BUCKET:
-  name: '&fCubo de poción'
   type:
   - '&7&oRecurso'
 DYNATECH_POTION_SPRINKLER:
-  name: '&6Aspersor de pociones'
   type:
   - '&7&oMáquina'
 DYNATECH_QUARTZMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Cuarzo'
   type:
   - '&7&oMáquina'
 DYNATECH_RECIPE_BOOK:
-  name: '&6Libro de recetas'
   type:
-  - '&7&oAparato'
+  - '&7&oAcessório'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Redstone'
   type:
   - '&7&oMáquina'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Aleación de Redstone'
   type:
   - '&7&oMáquina'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Aleación Reforzada'
   type:
   - '&7&oMáquina'
 DYNATECH_ROBOTIC_BEE:
-  name: '&6Abeja robótica'
   type:
   - '&7&oRecurso'
 DYNATECH_SCOOP:
-  name: '&6Cazo'
   type:
-  - '&7&oHerramienta'
+  - '&7&oFerramenta'
 DYNATECH_SEED_PLUCKER:
-  name: '&6Recolector de semillas'
   type:
   - '&7&oMáquina'
 DYNATECH_SILVERMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Plata'
   type:
   - '&7&oMáquina'
 DYNATECH_SOLDERMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Soldadura'
   type:
   - '&7&oMáquina'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
-  name: '&6Cesta de picnic vinculada al alma'
   type:
   - '&7&oMochila'
 DYNATECH_STAINLESS_STEEL_INGOT:
-  name: '&fLingote de acero inoxidable'
   type:
   - '&7&oRecurso'
 DYNATECH_STAINLESS_STEEL_ROTOR:
-  name: '&fRotor de acero inoxidable'
   type:
   - '&7&oRecurso'
 DYNATECH_STARDUST_GENERATOR:
-  name: '&bReactor de polvo estelar'
   type:
-  - '&7&oGenerador'
+  - '&7&oGerador'
 DYNATECH_STAR_DUST:
-  name: '&6Polvo estelar'
   type:
   - '&7&oRecurso'
 DYNATECH_STEELMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Acero'
   type:
   - '&7&oMáquina'
 DYNATECH_STONE_MACHINE_CORE:
-  name: '&fNúcleo de máquina de piedra'
   type:
   - '&7&oComponente'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Diamante Sintético'
   type:
   - '&7&oMáquina'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Esmeralda Sintética'
   type:
   - '&7&oMáquina'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Zafiro Sintético'
   type:
   - '&7&oMáquina'
 DYNATECH_TESSERACT:
-  name: '&6Teseracto'
   type:
   - '&7&oMáquina'
 DYNATECH_TESSERACTING_OBJECT:
-  name: '&6Objeto teseráctico'
   type:
   - '&7&oRecurso'
 DYNATECH_TESSERACT_BINDER:
-  name: '&6Vinculador de teseracto'
   type:
-  - '&7&oHerramienta'
+  - '&7&oFerramenta'
 DYNATECH_TINMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Estaño'
   type:
   - '&7&oMáquina'
 DYNATECH_VEX_GEM:
-  name: '&6Gema de vex'
   type:
   - '&7&oRecurso'
 DYNATECH_WATER_MILL:
-  name: '&bMolino de agua'
   type:
-  - '&7&oGenerador'
+  - '&7&oGerador'
 DYNATECH_WATER_MILL_2:
-  name: '&bTurbina hidráulica'
   type:
-  - '&7&oGenerador'
+  - '&7&oGerador'
 DYNATECH_WEATHER_CONTROLLER:
-  name: '&6Controlador del clima'
   type:
   - '&7&oMáquina'
 DYNATECH_WIND_MILL:
-  name: '&bMolino de viento'
   type:
-  - '&7&oGenerador'
+  - '&7&oGerador'
 DYNATECH_WIND_MILL_2:
-  name: '&bTurbina eólica'
   type:
-  - '&7&oGenerador'
+  - '&7&oGerador'
 DYNATECH_WIRELESS_CHARGER:
-  name: '&6Cargador inalámbrico'
   type:
   - '&7&oMáquina'
 DYNATECH_WIRELESS_ENERGY_BANK:
-  name: '&6Banco de energía inalámbrico'
   type:
   - '&7&oMáquina'
 DYNATECH_WIRELESS_ENERGY_POINT:
-  name: '&6Punto de energía inalámbrico'
   type:
   - '&7&oMáquina'
 DYNATECH_WIRELESS_ITEM_INPUT:
-  name: '&6Entrada de objetos inalámbrica'
   type:
   - '&7&oMáquina'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
-  name: '&6Salida de objetos inalámbrica'
   type:
   - '&7&oMáquina'
 DYNATECH_WITHER_SKELETON_GOLEM:
-  name: '&6Multibloque de gólem wither'
   type:
-  - '&7&oMultibloque'
+  - '&7&oMultibloco'
 DYNATECH_WOOD_MACHINE_CORE:
-  name: '&fNúcleo de máquina de madera'
   type:
   - '&7&oComponente'
 DYNATECH_ZINCMINERALIZED_APIARY:
-  name: '&fColmena Mineralizada de Zinc'
   type:
   - '&7&oMáquina'
 PHANTOM_DATA_CARD:
   type:
   - '&7&oComponente'
 STARDUST_METEOR:
-  name: '&6Meteoro de polvo estelar'
   type:
   - '&7&oRecurso'
 VEX_DATA_CARD:
