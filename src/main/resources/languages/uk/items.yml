@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Просунутий машинний брухт'
   type:
   - '&7&oРесурс'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Розміщується всередині Матеріального вулика, щоб прискорити його виробництво.'
+  name: '&6Просунута роботизована бджола'
   type:
   - '&7&oРесурс'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка алюмінію'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка алюмінієвої латуні'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка алюмінієвої бронзи'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fСтародавнє ядро машини'
   type:
   - '&7&oКомпонент'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fПостійний політ у творчому режимі.'
+  - '&fМає деякі налаштування регулювання швидкості.'
+  - '&f&oЛітайте, як пташка~'
+  name: '&6Самоцвіт польоту'
   type:
   - '&7&oГаджет'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Політ у творчому режимі в межах зони 45 блоків'
+  name: '&6Антигравітаційна бульбашка'
   stats:
   - '&8⇨ &e⚡ &7128 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Правий клік по грані машини, щоб автоматично затягувати предмети в'
+  - '&7неї із суміжного інвентаря. Витрачається при використанні.'
+  name: '&6Покращення автоматичного введення'
   type:
   - '&7&oГаджет'
+  usage:
+  - '&eПравий клік&7 по грані машини, щоб застосувати.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fАвтоматично готує рецепти кухні'
+  - '&f&oПахне печивом'
+  name: '&6Автокухня'
   stats:
   - '&8⇨ &b⚡ &7Швидкість: &b1x'
   - '&8⇨ &e⚡ &716 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Правий клік по грані машини, щоб автоматично виштовхувати її вихід'
+  - '&7предмети в суміжний інвентар. Витрачається при використанні.'
+  name: '&6Покращення автоматичного виведення'
   type:
   - '&7&oГаджет'
+  usage:
+  - '&eПравий клік&7 по грані машини, щоб застосувати.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fКерує стрічками предметів'
+  name: '&6Менеджер стрічок предметів'
   stats:
   - '&8⇨ &e⚡ &748 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fВідштовхує мобів у певному радіусі.'
+  name: '&6Колючий дріт'
   stats:
   - '&8⇨ &e⚡ &716 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_BEE:
+  description:
+  - '&7Розміщується всередині Матеріального вулика, щоб прискорити його виробництво.'
+  name: '&6Бджола'
   type:
   - '&7&oРесурс'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка біллону'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка латуні'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка карбонадо'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка вугілля'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_COAL_COKE:
+  name: '&fКокс'
   type:
   - '&7&oРесурс'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Контролює цегляну мультиблокову коксувальну піч 3x3x3.'
+  - '&7Перетворює предмети, розміщені у вхідній бочці, на'
+  - '&7продукти, приготовлені в печі, з часом.'
+  name: '&fКонтролер коксувальної печі'
   type:
   - '&7&oСпоруда'
+  usage:
+  - '&eПравий клік&7, щоб перевірити структуру мультиблока.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка кобальту'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка міді'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка коринфської бронзи'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка дамаської сталі'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cЗношений млин драконячих яєць'
   type:
   - '&7&oКомпонент'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cЗношена турбіна драконячих яєць'
   type:
   - '&7&oКомпонент'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cЗношений водяний млин'
   type:
   - '&7&oКомпонент'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cЗношена гідротурбіна'
   type:
   - '&7&oКомпонент'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cЗношений вітряний млин'
   type:
   - '&7&oКомпонент'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cЗношена вітрова турбіна'
   type:
   - '&7&oКомпонент'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка алмазу'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fАлмазне ядро машини'
   type:
   - '&7&oКомпонент'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fТелепортує вас у'
+  - '&fокремий міжвимірний дім і назад'
+  - '&f&oРідна домівка'
+  name: '&6Міжвимірний дім'
   type:
   - '&7&oГаджет'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Обмінює довговічність предметів на енергію.'
+  name: '&bГенератор зношування'
+  stats:
+  - '&8⇨ &e⚡ &7256 J Буфер'
+  - '&8⇨ &e⚡ &78 J за одиницю довговічності'
   type:
   - '&7&oГенератор'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка дюралюмінію'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Зношується з часом.'
+  name: '&bМлин драконячих яєць'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Буфер'
   type:
   - '&7&oГенератор'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Зношується з часом.'
+  name: '&bТурбіна драконячих яєць'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Буфер'
   type:
   - '&7&oГенератор'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fАвтоматично годує вас за енергію'
+  - '&f&oСтимулює ваші відчуття.'
+  name: '&6Електричний стимулятор'
   type:
   - '&7&oГаджет'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка смарагду'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bЗачароване ядро машини'
   type:
   - '&7&oКомпонент'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fАвтоматично вирощує &dхорусові квіти.'
+  name: '&dЕндерська камера росту'
   stats:
   - '&8⇨ &b⚡ &7Швидкість: &b1x'
   - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fАвтоматично вирощує &dхорусові квіти.'
+  - '&c3x виробництва.'
+  name: '&dЕндерська камера росту MK2'
   stats:
   - '&8⇨ &b⚡ &7Швидкість: &b3x'
   - '&8⇨ &e⚡ &7128 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cКомпонент введення енергії'
   type:
   - '&7&oКомпонент'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cКомпонент виведення енергії'
   type:
   - '&7&oКомпонент'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cКомпонент накопичення енергії'
   type:
   - '&7&oКомпонент'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fЗовнішньо нагріває печі, доменні печі,'
+  - '&fта коптильні.'
+  name: '&6Зовнішній нагрівач'
+  stats:
+  - '&8⇨ &e⚡ &72048 J Буфер'
+  - '&8⇨ &e⚡ &7128 J за нагрітий блок'
   type:
   - '&7&oМашина'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка феросиліцію'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Особливе відро, яке накопичує рідину, коли ви наповнюєте або спорожнюєте'
+  - '&7звичайні відра поблизу, накопичуючи до 16,000 mB.'
+  name: '&fРезервуар для рідини'
+  stats:
+  - '&7Місткість: &e16000mb'
   type:
   - '&7&oІнструмент'
+  usage:
+  - '&eПрисідання&7 + &eПравий клік&7, щоб перетворити його на відповідне звичайне відро.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Обмінює голод на енергію'
+  name: '&bКулінарний генератор'
   stats:
   - '&8⇨ &e⚡ &7Буфер: 256 Дж'
   - '&8⇨ &e⚡ &78 Дж/с'
   type:
   - '&7&oГенератор'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Примарна есенція'
   type:
   - '&7&oРесурс'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка позолоченого заліза'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка золота'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fАвтоматично вирощує &eрослини&f.'
+  - '&f&oЦе як маленька теплиця!'
+  name: '&6Камера росту'
   stats:
   - '&8⇨ &b⚡ &7Швидкість: &b1x'
   - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fАвтоматично вирощує &eрослини&f.'
+  - '&f&oЦе як маленька теплиця!'
+  - '&c3x виробництва.'
+  name: '&6Камера росту MK2'
   stats:
   - '&8⇨ &b⚡ &7Швидкість: &b3x'
   - '&8⇨ &e⚡ &7128 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка загартованого металу'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fПри застосуванні до броні або інструментів'
+  - '&fдає вам 2 рівні поспіху'
+  - '&f&oПідсилення!'
+  name: '&6Стрічка поспіху'
   type:
   - '&7&oТалісман'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fПри застосуванні до броні або інструментів'
+  - '&fдає вам 2 рівні посилення здоров''я'
+  - '&f&oПідсилення!'
+  name: '&6Стрічка здоров''я'
   type:
   - '&7&oТалісман'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Відро рідкого меду, яке використовується в рецептах і машинах.'
+  name: '&fВідро меду'
+  stats:
+  - '&7Місткість: &e1000mb'
   type:
   - '&7&oРесурс'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fВідфільтровує з підлоги предмети, які є в його інвентарі'
+  name: '&6Фільтр інвентаря'
   type:
   - '&7&oГаджет'
+  usage:
+  - '&eПравий клік &7щоб відкрити.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка заліза'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fЗалізне ядро машини'
   type:
   - '&7&oКомпонент'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fАвтоматично готує рецепти кухні'
+  - '&f&oПахне печивом'
+  name: '&6Автокрафтер кухні'
   stats:
   - '&8⇨ &b⚡ &7Швидкість: &b1x'
   - '&8⇨ &e⚡ &716 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка лазуриту'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Рідина в пляшці, яка використовується як джерело лави в рецептах і машинах.'
+  name: '&fПляшка лави'
+  stats:
+  - '&7Місткість: &e250mb'
   type:
   - '&7&oРесурс'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка свинцю'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fПростий викрадач рідини.'
+  name: '&6Портативний резервуар для рідини'
+  stats:
+  - '&7Місткість: &e16000mb'
   type:
   - '&7&oІнструмент'
+  usage:
+  - Правий клік, щоб захопити рідину
+  - Shift-клік, щоб помістити рідину
 DYNATECH_LIVINGROCK:
+  name: '&6Живий камінь'
   type:
   - '&7&oРесурс'
 DYNATECH_LIVINGWOOD:
+  name: '&6Живе дерево'
   type:
   - '&7&oРесурс'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Машинний брухт'
   type:
   - '&7&oРесурс'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка магнію'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fВикористовуючи енергію та бджіл, повільно генерує матеріали.'
+  name: '&6Матеріальний вулик'
   stats:
   - '&a☢&7 Рівень радіації: &6ВИСОКИЙ'
   - '&8⇨ &e⚡ &71024 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Рідина в пляшці, яка використовується як джерело молока в рецептах і машинах.'
+  name: '&fПляшка молока'
+  stats:
+  - '&7Місткість: &e1000mb'
   type:
   - '&7&oРесурс'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка незериту'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fАвтоматично вирощує &cнезерські &fрослини.'
+  name: '&cНезерська камера росту'
   stats:
   - '&8⇨ &b⚡ &7Швидкість: &b1x'
   - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fАвтоматично вирощує &cнезерські &fрослини.'
+  - '&c3x виробництва.'
+  name: '&cНезерська камера росту MK2'
   stats:
   - '&8⇨ &b⚡ &7Швидкість: &b3x'
   - '&8⇨ &e⚡ &7128 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка нікелю'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fАвтоматично вирощує &9водні &fрослини.'
+  - Може оживити мертвий корал!
+  name: '&bОкеанічна камера росту'
   stats:
   - '&8⇨ &b⚡ &7Швидкість: &b1x'
   - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fАвтоматично вирощує &9водні &fрослини.'
+  - Може оживити мертвий корал!
+  - '&c3x виробництва.'
+  name: '&bОкеанічна камера росту MK2'
   stats:
   - '&8⇨ &b⚡ &7Швидкість: &b3x'
   - '&8⇨ &e⚡ &7128 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_ORECHID:
+  description:
+  - '&fВикористовуючи камінь або незерак і енергію, вона виробляє відповідні руди.'
+  name: '&6Орехідея'
+  stats:
+  - '&8⇨ &e⚡ &71024 J за перетворений блок.'
   type:
   - '&7&oМашина'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fДодайте іскри природи, щоб створити потужні квіти'
+  name: '&dАптека пелюсток'
   type:
   - '&7&oМашина'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fДозволяє зберігати їжу'
+  - '&fАвтоматично споживає їх, коли ви голодні'
+  - '&fМає бути у вашому інвентарі'
+  name: '&6Кошик для пікніка'
+  stats:
+  - '&fРозмір: &e27'
   type:
   - '&7&oРюкзак'
+  usage:
+  - '&eПравий клік &7щоб відкрити.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Відро рідкого зілля, яке використовується в рецептах і машинах.'
+  name: '&fВідро зілля'
+  stats:
+  - '&7Місткість: &e1000mb'
   type:
   - '&7&oРесурс'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fДалекобійний засіб накладання ефекту зілля на кількох людей.'
+  name: '&6Розприскувач зілля'
   stats:
   - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка кварцу'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Показує книгу з можливістю пошуку всіх рецептів, доданих DynaTech.'
+  name: '&6Книга рецептів'
   type:
   - '&7&oГаджет'
+  usage:
+  - '&eПравий клік &7щоб відкрити.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка редстоуну'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка редстоунового сплаву'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка армованого сплаву'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Розміщується всередині Матеріального вулика, щоб прискорити його виробництво.'
+  name: '&6Роботизована бджола'
   type:
   - '&7&oРесурс'
 DYNATECH_SCOOP:
+  description:
+  - '&fВикористовується для лову бджіл.'
+  - '&f&oСлідкуйте, щоб вас не вжалили'
+  name: '&6Сачок'
   type:
   - '&7&oІнструмент'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fВитягує насіння з предметів на рослинній основі.'
+  name: '&6Збирач насіння'
   stats:
   - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка срібла'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка припою'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fДозволяє зберігати їжу'
+  - '&fАвтоматично споживає їх, коли ви голодні'
+  - '&fМає бути у вашому інвентарі'
+  - '&dПрив''язаний до душі'
+  name: '&6Прив''язаний до душі кошик для пікніка'
+  stats:
+  - '&fРозмір: &e27'
   type:
   - '&7&oРюкзак'
+  usage:
+  - '&eПравий клік &7щоб відкрити.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fЗливок нержавіючої сталі'
   type:
   - '&7&oРесурс'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fРотор з нержавіючої сталі'
   type:
   - '&7&oРесурс'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Обмінює зоряний пил на велику кількість енергії.'
+  name: '&bРеактор зоряного пилу'
   stats:
   - '&8⇨ &e⚡ &7Буфер: 32768 Дж'
   - '&8⇨ &e⚡ &71024 Дж/с'
   type:
   - '&7&oГенератор'
 DYNATECH_STAR_DUST:
+  name: '&6Зоряний пил'
   type:
   - '&7&oРесурс'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка сталі'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fКам''яне ядро машини'
   type:
   - '&7&oКомпонент'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка синтетичного алмазу'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка синтетичного смарагду'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка синтетичного сапфіра'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_TESSERACT:
+  description:
+  - '&fПередає предмети та енергію бездротово'
+  - '&fВони навіть 2-сторонні!'
+  name: '&6Тесеракт'
   stats:
   - '&8⇨ &e⚡ &7Буфер: 65535 Дж'
   - '&8⇨ &e⚡ &71024 Дж/с'
   type:
   - '&7&oМашина'
+  usage:
+  - Правий клік по іншому тесеракту, щоб під'єднатися!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oВін мерехтить і змінюється у ваших руках'
+  name: '&6Тесерактовий об''єкт'
   type:
   - '&7&oРесурс'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Використовується для з''єднання 2 тесерактів разом.'
+  name: '&6Зв''язувач тесерактів'
   type:
   - '&7&oІнструмент'
+  usage:
+  - '&fПравий клік, щоб отримати місцезнаходження тесеракта'
+  - '&fПрисідання + Правий клік, щоб прив''язати місцезнаходження до тесеракта'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка олова'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_VEX_GEM:
+  name: '&6Самоцвіт векса'
   type:
   - '&7&oРесурс'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Зношується з часом.'
+  name: '&bВодяний млин'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Буфер'
   type:
   - '&7&oГенератор'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Зношується з часом.'
+  name: '&bГідротурбіна'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Буфер'
   type:
   - '&7&oГенератор'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fКонтролює погоду, коли отримує ключовий предмет.'
+  name: '&6Контролер погоди'
   stats:
   - '&8⇨ &e⚡ &732 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Зношується з часом.'
+  name: '&bВітряний млин'
+  stats:
+  - '&fМінімальний темп генерації енергії: &b16j/тік'
+  - '&fМаксимальний темп генерації енергії: &b64j/тік'
+  - '&8⇨ &e⚡ &7256 J Буфер'
   type:
   - '&7&oГенератор'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Зношується з часом.'
+  name: '&bВітрова турбіна'
+  stats:
+  - '&fМінімальний темп генерації енергії: &b64j/тік'
+  - '&fМаксимальний темп генерації енергії: &b256j/тік'
+  - '&8⇨ &e⚡ &71024 J Буфер'
   type:
   - '&7&oГенератор'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fБездротово заряджає предмети у вашому інвентарі'
+  name: '&6Бездротовий зарядний пристрій'
   stats:
   - '&8⇨ &e⚡ &716 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fЗберігає енергію для'
+  - '&fТочки бездротової енергії, щоб використати.'
+  name: '&6Бездротовий енергетичний банк'
   stats:
   - '&8⇨ &e⚡ &7Буфер: 10240 Дж'
   - '&8⇨ &e⚡ &71024 Дж/с'
   type:
   - '&7&oМашина'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fПередає енергію бездротово'
+  - '&fвід Бездротового енергетичного банку'
+  name: '&6Бездротова точка енергії'
   stats:
   - '&8⇨ &e⚡ &7Буфер: 5120 Дж'
   - '&8⇨ &e⚡ &71024 Дж/с'
   type:
   - '&7&oМашина'
+  usage:
+  - Правий клік по Бездротовому енергетичному банку, щоб під'єднатися!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fПередає предмети бездротово'
+  - '&f до Бездротового виведення предметів'
+  name: '&6Бездротове введення предметів'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Буфер'
+  - '&8⇨ &e⚡ &78 J за стак предметів'
   type:
   - '&7&oМашина'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fПередає предмети бездротово'
+  - '&fвід Бездротового введення предметів'
+  name: '&6Бездротове виведення предметів'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Буфер'
+  - '&8⇨ &e⚡ &78 J за стак предметів'
   type:
   - '&7&oМашина'
+  usage:
+  - Правий клік по Бездротовому введенню предметів, щоб під'єднатися!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Створює Візер-скелета
+  name: '&6Мультиблок Візер-голема'
   type:
   - '&7&oСпоруда'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fДерев''яне ядро машини'
   type:
   - '&7&oКомпонент'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fВиробляє матеріал'
+  - '&fза допомогою бджіл'
+  name: '&fМінералізована пасіка цинку'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Буфер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Помістіть у камеру симуляції мобів, щоб активувати'
+  name: '&bКарта даних фантома'
   stats:
   - '&8⇨ &e⚡ &7300 Дж/с'
   type:
   - '&7&oКомпонент'
 STARDUST_METEOR:
+  description:
+  - '&fВидобувається в гірських біомах або біомах бедлендс'
+  name: '&6Метеорит зоряного пилу'
   type:
   - '&7&oРесурс'
 VEX_DATA_CARD:
+  description:
+  - '&7Помістіть у камеру симуляції мобів, щоб активувати'
+  name: '&bКарта даних векса'
   stats:
   - '&8⇨ &e⚡ &7300 Дж/с'
   type:
