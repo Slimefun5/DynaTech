@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Напреден машински отпад'
   type:
   - '&7&oРесурс'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Се поставува во кошница за материјали за да го забрза производството.'
+  name: '&6Напредна роботска пчела'
   type:
   - '&7&oРесурс'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fАлуминиумски минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fАлуминиумско-месингов минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fАлуминиумско-бронзен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fДревно јадро на машина'
   type:
   - '&7&oКомпонента'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fТрајно креативно летање.'
+  - '&fИма поставки за прилагодување на брзината.'
+  - '&f&oЛетај исто како птица~'
+  name: '&6Скапоцен камен за летање'
   type:
   - '&7&oНаправа'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Креативно летање во рамки на област од 45 блока'
+  name: '&6Антигравитациско меурче'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Десен клик на страната на машина за автоматски да влече предмети во'
+  - '&7неа од соседен инвентар. Се троши при употреба.'
+  name: '&6Надградба за автоматски влез'
   type:
   - '&7&oНаправа'
+  usage:
+  - '&eДесен клик&7 на страната на машина за примена.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fАвтоматски прави рецепти од кујната'
+  - '&f&oМириса на колачиња'
+  name: '&6Авто кујна'
   stats:
   - '&8⇨ &b⚡ &7Брзина: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Десен клик на страната на машина за автоматски да ги турка излезните'
+  - '&7предмети во соседен инвентар. Се троши при употреба.'
+  name: '&6Надградба за автоматски излез'
   type:
   - '&7&oНаправа'
+  usage:
+  - '&eДесен клик&7 на страната на машина за примена.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fУправува со лентите за предмети'
+  name: '&6Управувач со ленти за предмети'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fГи оттурнува ѕверовите во радиус.'
+  name: '&6Бодликава жица'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_BEE:
+  description:
+  - '&7Се поставува во кошница за материјали за да го забрза производството.'
+  name: '&6Пчела'
   type:
   - '&7&oРесурс'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fБилонски минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fМесингов минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fКарбонадо минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fЈагленов минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_COAL_COKE:
+  name: '&fКокс од јаглен'
   type:
   - '&7&oРесурс'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Контролира мултиблок коксна печка од тули 3x3x3.'
+  - '&7Ги претвора предметите ставени во влезното буре во'
+  - '&7печени производи со текот на времето.'
+  name: '&fКонтролер на коксна печка'
   type:
   - '&7&oМултиблок'
+  usage:
+  - '&eДесен клик&7 за проверка на мултиблок структурата.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fКобалтен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fБакарен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fКоринтско-бронзен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fДамаскински челичен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cОштетена мелница со змејско јајце'
   type:
   - '&7&oКомпонента'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cОштетена турбина со змејско јајце'
   type:
   - '&7&oКомпонента'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cОштетена водена мелница'
   type:
   - '&7&oКомпонента'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cОштетена хидротурбина'
   type:
   - '&7&oКомпонента'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cОштетена ветерна мелница'
   type:
   - '&7&oКомпонента'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cОштетена ветерна турбина'
   type:
   - '&7&oКомпонента'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fДијамантски минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fДијамантско јадро на машина'
   type:
   - '&7&oКомпонента'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fТе телепортира во'
+  - '&fодвоен димензионален дом и назад'
+  - '&f&oДом, слатки дом'
+  name: '&6Димензионален дом'
   type:
   - '&7&oНаправа'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Разменува трајност за моќ.'
+  name: '&bГенератор на абење'
+  stats:
+  - '&8⇨ &e⚡ &7256 J бафер'
+  - '&8⇨ &e⚡ &78 J по поен трајност'
   type:
   - '&7&oГенератор'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fДуралуминиумски минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Се оштетува со текот на времето.'
+  name: '&bМелница со змејско јајце'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J бафер'
   type:
   - '&7&oГенератор'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Се оштетува со текот на времето.'
+  name: '&bТурбина со змејско јајце'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J бафер'
   type:
   - '&7&oГенератор'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fАвтоматски те храни со помош на енергија'
+  - '&f&oПоттикни ги своите сетила.'
+  name: '&6Електричен стимулатор'
   type:
   - '&7&oНаправа'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fСмарагден минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bМаѓепсано јадро на машина'
   type:
   - '&7&oКомпонента'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fАвтоматски ги одгледува &dхорус цвеќињата.'
+  name: '&dКомора за раст на Крајот'
   stats:
   - '&8⇨ &b⚡ &7Брзина: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fАвтоматски ги одгледува &dхорус цвеќињата.'
+  - '&c3x производство.'
+  name: '&dКомора за раст на Крајот МК2'
   stats:
   - '&8⇨ &b⚡ &7Брзина: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cКомпонента за влез на енергија'
   type:
   - '&7&oКомпонента'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cКомпонента за излез на енергија'
   type:
   - '&7&oКомпонента'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cКомпонента за складирање енергија'
   type:
   - '&7&oКомпонента'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fНадворешно загрева печки, високи печки'
+  - '&fи пушници.'
+  name: '&6Надворешен грејач'
+  stats:
+  - '&8⇨ &e⚡ &72048 J бафер'
+  - '&8⇨ &e⚡ &7128 J по загреан блок'
   type:
   - '&7&oМашина'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fФеросилициумски минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Посебна кофа што собира течност додека полниш или празниш'
+  - '&7ванила кофи во близина, складирајќи до 16,000 mB.'
+  name: '&fРезервоар за течност'
+  stats:
+  - '&7Капацитет: &e16000mb'
   type:
   - '&7&oАлатка'
+  usage:
+  - '&eКлекни&7 + &eДесен клик&7 за претворање во соодветната ванила кофа.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Разменува глад за моќ'
+  name: '&bКулинарски генератор'
   stats:
   - '&8⇨ &e⚡ &7256 J бафер'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oГенератор'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Духовна есенција'
   type:
   - '&7&oРесурс'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fМинерализиран пчеларник од позлатено железо'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fЗлатен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fАвтоматски одгледува &eрастенија&f.'
+  - '&f&oКако мала стаклена градина!'
+  name: '&6Комора за раст'
   stats:
   - '&8⇨ &b⚡ &7Брзина: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fАвтоматски одгледува &eрастенија&f.'
+  - '&f&oКако мала стаклена градина!'
+  - '&c3x производство.'
+  name: '&6Комора за раст МК2'
   stats:
   - '&8⇨ &b⚡ &7Брзина: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fМинерализиран пчеларник од зацврстен метал'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fКога се применува на оклоп или алати'
+  - '&fти дава 2 нивоа на Брзање'
+  - '&f&oЗасилување!'
+  name: '&6Брза лента за предмети'
   type:
   - '&7&oТалисман'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fКога се применува на оклоп или алати'
+  - '&fти дава 2 нивоа на Зголемено здравје'
+  - '&f&oЗасилување!'
+  name: '&6Здрава лента за предмети'
   type:
   - '&7&oТалисман'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Кофа со течен мед што се користи во рецепти и машини.'
+  name: '&fКофа со мед'
+  stats:
+  - '&7Капацитет: &e1000mb'
   type:
   - '&7&oРесурс'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fГи филтрира предметите на подот што се во неговиот инвентар'
+  name: '&6Филтер за инвентар'
   type:
   - '&7&oНаправа'
+  usage:
+  - '&eДесен клик &7за отворање.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fЖелезен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fЖелезно јадро на машина'
   type:
   - '&7&oКомпонента'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fАвтоматски прави рецепти од кујната'
+  - '&f&oМириса на колачиња'
+  name: '&6Автоматски изработувач за кујна'
   stats:
   - '&8⇨ &b⚡ &7Брзина: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fМинерализиран пчеларник од лапис лазули'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Течност во шише што служи како извор на лава во рецепти и машини.'
+  name: '&fШише со лава'
+  stats:
+  - '&7Капацитет: &e250mb'
   type:
   - '&7&oРесурс'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fОловен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fЕдноставен грабнувач на течности.'
+  name: '&6Преносен резервоар за течност'
+  stats:
+  - '&7Капацитет: &e16000mb'
   type:
   - '&7&oАлатка'
+  usage:
+  - Десен клик за грабнување течност
+  - Шифт клик за поставување течност
 DYNATECH_LIVINGROCK:
+  name: '&6Живокамен'
   type:
   - '&7&oРесурс'
 DYNATECH_LIVINGWOOD:
+  name: '&6Живодрво'
   type:
   - '&7&oРесурс'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Машински отпад'
   type:
   - '&7&oРесурс'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fМагнезиумски минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fКористејќи моќ и пчели, полека генерира материјали.'
+  name: '&6Кошница за материјали'
   stats:
   - '&a☢&7 Ниво на радијација: &6ВИСОКО'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Течност во шише што служи како извор на млеко во рецепти и машини.'
+  name: '&fШише со млеко'
+  stats:
+  - '&7Капацитет: &e1000mb'
   type:
   - '&7&oРесурс'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fНедеритен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fАвтоматски одгледува &cнедерски &fрастенија.'
+  name: '&cНедерска комора за раст'
   stats:
   - '&8⇨ &b⚡ &7Брзина: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fАвтоматски одгледува &cнедерски &fрастенија.'
+  - '&c3x производство.'
+  name: '&cНедерска комора за раст МК2'
   stats:
   - '&8⇨ &b⚡ &7Брзина: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fНиклен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fАвтоматски одгледува &9водни &fрастенија.'
+  - Може да оживее мртов корал!
+  name: '&bОкеанска комора за раст'
   stats:
   - '&8⇨ &b⚡ &7Брзина: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fАвтоматски одгледува &9водни &fрастенија.'
+  - Може да оживее мртов корал!
+  - '&c3x производство.'
+  name: '&bОкеанска комора за раст МК2'
   stats:
   - '&8⇨ &b⚡ &7Брзина: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_ORECHID:
+  description:
+  - '&fКористејќи камен или недерак и моќ, ги прави соодветните руди.'
+  name: '&6Орекид'
+  stats:
+  - '&8⇨ &e⚡ &71024 J по претворен блок.'
   type:
   - '&7&oМашина'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fДодади искри од природата за да создадеш моќни цвеќиња'
+  name: '&dАптека за ливчиња'
   type:
   - '&7&oМашина'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fТи овозможува да складираш храна'
+  - '&fАвтоматски ја троши кога си гладен'
+  - '&fМора да биде во твојот инвентар'
+  name: '&6Кошница за пикник'
+  stats:
+  - '&fГолемина: &e27'
   type:
   - '&7&oРанец'
+  usage:
+  - '&eДесен клик &7за отворање.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Кофа со течна напивка што се користи во рецепти и машини.'
+  name: '&fКофа со напивка'
+  stats:
+  - '&7Капацитет: &e1000mb'
   type:
   - '&7&oРесурс'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fНанесува ефекти од напивки на повеќе луѓе од далечина.'
+  name: '&6Прскалка за напивки'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fКварцен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Прикажува пребарлива книга со секој рецепт додаден од DynaTech.'
+  name: '&6Книга со рецепти'
   type:
   - '&7&oНаправа'
+  usage:
+  - '&eДесен клик &7за отворање.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fРедстоун минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fМинерализиран пчеларник од редстоун легура'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fМинерализиран пчеларник од зајакната легура'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Се поставува во кошница за материјали за да го забрза производството.'
+  name: '&6Роботска пчела'
   type:
   - '&7&oРесурс'
 DYNATECH_SCOOP:
+  description:
+  - '&fСе користи за фаќање пчели.'
+  - '&f&oВнимавај да не те каснат'
+  name: '&6Лопатка'
   type:
   - '&7&oАлатка'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fВади семиња од предмети направени од растенија.'
+  name: '&6Вадач на семиња'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fСребрен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fЛемен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fТи овозможува да складираш храна'
+  - '&fАвтоматски ја троши кога си гладен'
+  - '&fМора да биде во твојот инвентар'
+  - '&dДушевно врзан'
+  name: '&6Душевно врзана кошница за пикник'
+  stats:
+  - '&fГолемина: &e27'
   type:
   - '&7&oРанец'
+  usage:
+  - '&eДесен клик &7за отворање.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fИнгот од нерѓосувачки челик'
   type:
   - '&7&oРесурс'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fРотор од нерѓосувачки челик'
   type:
   - '&7&oРесурс'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Разменува ѕвезден прав за голема количина моќ.'
+  name: '&bРеактор на ѕвезден прав'
   stats:
   - '&8⇨ &e⚡ &732768 J бафер'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oГенератор'
 DYNATECH_STAR_DUST:
+  name: '&6Ѕвезден прав'
   type:
   - '&7&oРесурс'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fЧеличен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fКамено јадро на машина'
   type:
   - '&7&oКомпонента'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fСинтетички дијамантски минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fСинтетички смарагден минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fСинтетички сафирен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_TESSERACT:
+  description:
+  - '&fПренесува предмети и енергија безжично'
+  - '&fОвие се дури и 2-насочни!'
+  name: '&6Тесеракт'
   stats:
   - '&8⇨ &e⚡ &765535 J бафер'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oМашина'
+  usage:
+  - Десен клик на друг тесеракт за поврзување!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oТрепка и се менува во твоите раце'
+  name: '&6Тесерактен предмет'
   type:
   - '&7&oРесурс'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Се користи за поврзување на 2 тесеракти.'
+  name: '&6Поврзувач на тесеракти'
   type:
   - '&7&oАлатка'
+  usage:
+  - '&fДесен клик за добивање на локацијата на тесерактот'
+  - '&fКлекни десен клик за врзување на локацијата со тесерактот'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fКалаен минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 DYNATECH_VEX_GEM:
+  name: '&6Скапоцен камен од векс'
   type:
   - '&7&oРесурс'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Се оштетува со текот на времето.'
+  name: '&bВодена мелница'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J бафер'
   type:
   - '&7&oГенератор'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Се оштетува со текот на времето.'
+  name: '&bХидротурбина'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J бафер'
   type:
   - '&7&oГенератор'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fГо контролира времето кога ќе добие клучен предмет.'
+  name: '&6Контролер на времето'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Се оштетува со текот на времето.'
+  name: '&bВетерна мелница'
+  stats:
+  - '&fМинимална стапка на генерирање енергија: &b16j/тик'
+  - '&fМаксимална стапка на генерирање енергија: &b64j/тик'
+  - '&8⇨ &e⚡ &7256 J бафер'
   type:
   - '&7&oГенератор'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Се оштетува со текот на времето.'
+  name: '&bВетерна турбина'
+  stats:
+  - '&fМинимална стапка на генерирање енергија: &b64j/тик'
+  - '&fМаксимална стапка на генерирање енергија: &b256j/тик'
+  - '&8⇨ &e⚡ &71024 J бафер'
   type:
   - '&7&oГенератор'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fБезжично полни предмети во твојот инвентар'
+  name: '&6Безжичен полнач'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fСкладира моќ за'
+  - '&fбезжична точка за енергија.'
+  name: '&6Безжична банка за енергија'
   stats:
   - '&8⇨ &e⚡ &710240 J бафер'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oМашина'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fПренесува енергија безжично'
+  - '&fод безжична банка за енергија'
+  name: '&6Безжична точка за енергија'
   stats:
   - '&8⇨ &e⚡ &75120 J бафер'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oМашина'
+  usage:
+  - Десен клик на безжичната банка за енергија за поврзување!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fПренесува предмети безжично'
+  - '&f до безжичниот излез за предмети'
+  name: '&6Безжичен влез за предмети'
+  stats:
+  - '&8⇨ &e⚡ &71024 J бафер'
+  - '&8⇨ &e⚡ &78 J по стек предмети'
   type:
   - '&7&oМашина'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fПренос на предмети безжично'
+  - '&fод безжичниот влез за предмети'
+  name: '&6Безжичен излез за предмети'
+  stats:
+  - '&8⇨ &e⚡ &71024 J бафер'
+  - '&8⇨ &e⚡ &78 J по стек предмети'
   type:
   - '&7&oМашина'
+  usage:
+  - Десен клик на безжичниот влез за предмети за поврзување!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Создава витер скелет
+  name: '&6Мултиблок за витер голем'
   type:
   - '&7&oМултиблок'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fДрвено јадро на машина'
   type:
   - '&7&oКомпонента'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fПроизведува материјал'
+  - '&fсо помош на пчели'
+  name: '&fЦинков минерализиран пчеларник'
+  stats:
+  - '&8⇨ &e⚡ &716384 J бафер'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oМашина'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Постави во комора за симулација на ѕверови за да се активира'
+  name: '&bКартичка со податоци за фантом'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oКомпонента'
 STARDUST_METEOR:
+  description:
+  - '&fИскопано од планински или пустелски биоми'
+  name: '&6Метеор од ѕвездена прашина'
   type:
   - '&7&oРесурс'
 VEX_DATA_CARD:
+  description:
+  - '&7Постави во комора за симулација на ѕверови за да се активира'
+  name: '&bКартичка со податоци за векс'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
