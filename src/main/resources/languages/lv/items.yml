@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Progresīvi mašīnu lūžņi'
   type:
   - '&7&oResurss'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Ievietota Materiālu stropā, lai paātrinātu tā ražošanu.'
+  name: '&6Progresīva robotbite'
   type:
   - '&7&oResurss'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fAlumīnija mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fAlumīnija misiņa mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fAlumīnija bronzas mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fSenais mašīnas kodols'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fPastāvīga radošā režīma lidošana.'
+  - '&fIr daži ātruma regulēšanas iestatījumi.'
+  - '&f&oLido tāpat kā putns~'
+  name: '&6Lidošanas dārgakmens'
   type:
   - '&7&oIerīce'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Radošā režīma lidošana 45 bloku apgabalā'
+  name: '&6Antigravitācijas burbulis'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Labais klikšķis uz mašīnas priekšpuses, lai tajā automātiski ievilktu'
+  - '&7priekšmetus no blakus esoša inventāra. Lietojot tiek patērēts.'
+  name: '&6Automātiskās ievades uzlabojums'
   type:
   - '&7&oIerīce'
+  usage:
+  - '&eLabais klikšķis&7 uz mašīnas priekšpuses, lai to pielietotu.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fAutomātiski pagatavo Virtuves receptes'
+  - '&f&oSmaržo pēc cepumiem'
+  name: '&6Automātiskā virtuve'
   stats:
   - '&8⇨ &b⚡ &7Ātrums: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Labais klikšķis uz mašīnas priekšpuses, lai automātiski izstumtu tās'
+  - '&7izvades priekšmetus blakus esošā inventārā. Lietojot tiek patērēts.'
+  name: '&6Automātiskās izvades uzlabojums'
   type:
   - '&7&oIerīce'
+  usage:
+  - '&eLabais klikšķis&7 uz mašīnas priekšpuses, lai to pielietotu.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fPārvalda priekšmetu aproces'
+  name: '&6Priekšmetu aproču pārvaldnieks'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fAtgrūž mobus noteiktā rādiusā.'
+  name: '&6Dzeloņstieple'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_BEE:
+  description:
+  - '&7Ievietota Materiālu stropā, lai paātrinātu tā ražošanu.'
+  name: '&6Bite'
   type:
   - '&7&oResurss'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fBillona mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fMisiņa mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fKarbonado mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fOgļu mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_COAL_COKE:
+  name: '&fOgļu kokss'
   type:
   - '&7&oResurss'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Kontrolē 3x3x3 ķieģeļu multibloka koksa krāsni.'
+  - '&7Laika gaitā pārvērš ievades mucā ieliktos'
+  - '&7priekšmetus krāsnī ceptos izvades priekšmetos.'
+  name: '&fKoksa krāsns kontrolieris'
   type:
   - '&7&oDaudzbloks'
+  usage:
+  - '&eLabais klikšķis&7 pārbauda multibloka struktūru.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fKobalta mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fVara mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fKorintas bronzas mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fDamaskas tērauda mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cNolietotas pūķa olas dzirnavas'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cNolietota pūķa olas turbīna'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cNolietotas ūdens dzirnavas'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cNolietota hidroturbīna'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cNolietotas vēja dzirnavas'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cNolietota vēja turbīna'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fDimanta mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fDimanta mašīnas kodols'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fPārvieto tevi uz'
+  - '&fatsevišķām dimensiju mājām un atpakaļ'
+  - '&f&oMājas, saldās mājas'
+  name: '&6Dimensiju mājas'
   type:
   - '&7&oIerīce'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Maina izturību pret enerģiju.'
+  name: '&bNodiluma ģenerators'
+  stats:
+  - '&8⇨ &e⚡ &7256 J buferis'
+  - '&8⇨ &e⚡ &78 J par izturības punktu'
   type:
   - '&7&oĢenerators'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fDuralumīnija mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Laika gaitā nolietojas.'
+  name: '&bPūķa olas dzirnavas'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J buferis'
   type:
   - '&7&oĢenerators'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Laika gaitā nolietojas.'
+  name: '&bPūķa olas turbīna'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J buferis'
   type:
   - '&7&oĢenerators'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fAutomātiski pabaro tevi par enerģiju'
+  - '&f&oStimulē savas maņas.'
+  name: '&6Elektriskais stimulators'
   type:
   - '&7&oIerīce'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fSmaragda mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bApburts mašīnas kodols'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fAutomātiski audzē &dkora ziedus.'
+  name: '&dEnd augšanas kamera'
   stats:
   - '&8⇨ &b⚡ &7Ātrums: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomātiski audzē &dkora ziedus.'
+  - '&c3x ražošana.'
+  name: '&dEnd augšanas kamera MK2'
   stats:
   - '&8⇨ &b⚡ &7Ātrums: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cEnerģijas ievades komponents'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cEnerģijas izvades komponents'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cEnerģijas krātuves komponents'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fNo ārpuses sasilda krāsnis, domnas'
+  - '&fun kūpinātavas.'
+  name: '&6Ārējais sildītājs'
+  stats:
+  - '&8⇨ &e⚡ &72048 J buferis'
+  - '&8⇨ &e⚡ &7128 J par sasildītu bloku'
   type:
   - '&7&oMašīna'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fFerosilīcija mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Īpašs spainis, kas uzkrāj šķidrumu, kad tuvumā piepildi vai iztukšo'
+  - '&7parastos spaiņus, uzglabājot līdz 16,000 mB.'
+  name: '&fŠķidruma tvertne'
+  stats:
+  - '&7Ietilpība: &e16000mb'
   type:
   - '&7&oRīks'
+  usage:
+  - '&ePietupies&7 + &eLabais klikšķis&7, lai pārvērstu to atbilstošajā parastajā spainī.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Maina badu pret enerģiju'
+  name: '&bKulinārijas ģenerators'
   stats:
   - '&8⇨ &e⚡ &7256 J buferis'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oĢenerators'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Spocīga esence'
   type:
   - '&7&oResurss'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fZeltītas dzelzs mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fZelta mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fAutomātiski audzē &eaugus&f.'
+  - '&f&oTā ir kā maza siltumnīca!'
+  name: '&6Augšanas kamera'
   stats:
   - '&8⇨ &b⚡ &7Ātrums: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomātiski audzē &eaugus&f.'
+  - '&f&oTā ir kā maza siltumnīca!'
+  - '&c3x ražošana.'
+  name: '&6Augšanas kamera MK2'
   stats:
   - '&8⇨ &b⚡ &7Ātrums: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fRūdīta metāla mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fKad pielietota bruņām vai rīkiem'
+  - '&fdod tev 2 Steigas līmeņus'
+  - '&f&oSpēka uzlādējums!'
+  name: '&6Steigas priekšmetu aproce'
   type:
   - '&7&oTalismans'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fKad pielietota bruņām vai rīkiem'
+  - '&fdod tev 2 Veselības pastiprinājuma līmeņus'
+  - '&f&oSpēka uzlādējums!'
+  name: '&6Veselības priekšmetu aproce'
   type:
   - '&7&oTalismans'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Spainis ar medus šķidrumu, ko izmanto receptēs un mašīnās.'
+  name: '&fMedus spainis'
+  stats:
+  - '&7Ietilpība: &e1000mb'
   type:
   - '&7&oResurss'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fAtfiltrē uz zemes nomestos priekšmetus, kas ir tā inventārā'
+  name: '&6Inventāra filtrs'
   type:
   - '&7&oIerīce'
+  usage:
+  - '&eLabais klikšķis &7atver to.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fDzelzs mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fDzelzs mašīnas kodols'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fAutomātiski pagatavo Virtuves receptes'
+  - '&f&oSmaržo pēc cepumiem'
+  name: '&6Virtuves automātiskais izgatavotājs'
   stats:
   - '&8⇨ &b⚡ &7Ātrums: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fLazurīta mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Pudelē pildīts šķidrums, ko receptēs un mašīnās izmanto kā lavas avotu.'
+  name: '&fLavas pudele'
+  stats:
+  - '&7Ietilpība: &e250mb'
   type:
   - '&7&oResurss'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fSvina mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fVienkāršs šķidruma ķērājs.'
+  name: '&6Pārnēsājama šķidruma tvertne'
+  stats:
+  - '&7Ietilpība: &e16000mb'
   type:
   - '&7&oRīks'
+  usage:
+  - Labais klikšķis, lai paņemtu šķidrumu
+  - Shift klikšķis, lai izlietu šķidrumu
 DYNATECH_LIVINGROCK:
+  name: '&6Dzīvakmens'
   type:
   - '&7&oResurss'
 DYNATECH_LIVINGWOOD:
+  name: '&6Dzīvkoks'
   type:
   - '&7&oResurss'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Mašīnu lūžņi'
   type:
   - '&7&oResurss'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fMagnija mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fIzmantojot enerģiju un bites, lēni ģenerē materiālus.'
+  name: '&6Materiālu strops'
   stats:
   - '&a☢&7 Radiācijas līmenis: &6AUGSTS'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Pudelē pildīts šķidrums, ko receptēs un mašīnās izmanto kā piena avotu.'
+  name: '&fPiena pudele'
+  stats:
+  - '&7Ietilpība: &e1000mb'
   type:
   - '&7&oResurss'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fNetherīta mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fAutomātiski audzē &cnether &faugus.'
+  name: '&cNether augšanas kamera'
   stats:
   - '&8⇨ &b⚡ &7Ātrums: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomātiski audzē &cnether &faugus.'
+  - '&c3x ražošana.'
+  name: '&cNether augšanas kamera MK2'
   stats:
   - '&8⇨ &b⚡ &7Ātrums: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fNiķeļa mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fAutomātiski audzē &9ūdens &faugus.'
+  - Var atdzīvināt mirušus koraļļus!
+  name: '&bOkeāna augšanas kamera'
   stats:
   - '&8⇨ &b⚡ &7Ātrums: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomātiski audzē &9ūdens &faugus.'
+  - Var atdzīvināt mirušus koraļļus!
+  - '&c3x ražošana.'
+  name: '&bOkeāna augšanas kamera MK2'
   stats:
   - '&8⇨ &b⚡ &7Ātrums: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_ORECHID:
+  description:
+  - '&fIzmantojot akmeni vai Nether iezi un enerģiju, tas rada attiecīgās rūdas.'
+  name: '&6Orechid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J par pārvērstu bloku.'
   type:
   - '&7&oMašīna'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fPievieno dabas dzirksteles, lai radītu varenus ziedus'
+  name: '&dZiedlapu aptieka'
   type:
   - '&7&oMašīna'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fĻauj uzglabāt ēdienu'
+  - '&fAutomātiski to apēd, kad esi izsalcis'
+  - '&fJābūt tavā inventārā'
+  name: '&6Pikniku grozs'
+  stats:
+  - '&fIzmērs: &e27'
   type:
   - '&7&oMugursoma'
+  usage:
+  - '&eLabais klikšķis &7atver to.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Spainis ar eliksīra šķidrumu, ko izmanto receptēs un mašīnās.'
+  name: '&fEliksīra spainis'
+  stats:
+  - '&7Ietilpība: &e1000mb'
   type:
   - '&7&oResurss'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fPiešķir eliksīru efektus vairākiem spēlētājiem no attāluma.'
+  name: '&6Eliksīru smidzinātājs'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fKvarca mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Rāda meklējamu grāmatu ar katru DynaTech pievienoto recepti.'
+  name: '&6Recepšu grāmata'
   type:
   - '&7&oIerīce'
+  usage:
+  - '&eLabais klikšķis &7atver to.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fSarkanakmens mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fSarkanakmens sakausējuma mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fPastiprināta sakausējuma mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Ievietota Materiālu stropā, lai paātrinātu tā ražošanu.'
+  name: '&6Robotbite'
   type:
   - '&7&oResurss'
 DYNATECH_SCOOP:
+  description:
+  - '&fIzmanto bišu noķeršanai.'
+  - '&f&oRaugies, lai netiktu sadzelts'
+  name: '&6Smeļamkauss'
   type:
   - '&7&oRīks'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fIzvelk sēklas no augu izcelsmes priekšmetiem.'
+  name: '&6Sēklu atdalītājs'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fSudraba mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fLodalvas mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fĻauj uzglabāt ēdienu'
+  - '&fAutomātiski to apēd, kad esi izsalcis'
+  - '&fJābūt tavā inventārā'
+  - '&dDvēselei piesaistīts'
+  name: '&6Dvēselei piesaistīts pikniku grozs'
+  stats:
+  - '&fIzmērs: &e27'
   type:
   - '&7&oMugursoma'
+  usage:
+  - '&eLabais klikšķis &7atver to.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fNerūsējošā tērauda lietnis'
   type:
   - '&7&oResurss'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fNerūsējošā tērauda rotors'
   type:
   - '&7&oResurss'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Maina zvaigžņu putekļus pret lielu enerģijas daudzumu.'
+  name: '&bZvaigžņu putekļu reaktors'
   stats:
   - '&8⇨ &e⚡ &732768 J buferis'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oĢenerators'
 DYNATECH_STAR_DUST:
+  name: '&6Zvaigžņu putekļi'
   type:
   - '&7&oResurss'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fTērauda mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fAkmens mašīnas kodols'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fSintētiska dimanta mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fSintētiska smaragda mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fSintētiska safīra mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_TESSERACT:
+  description:
+  - '&fPārraida priekšmetus un enerģiju bezvadu veidā'
+  - '&fŠie ir pat 2-virzienu!'
+  name: '&6Teserakts'
   stats:
   - '&8⇨ &e⚡ &765535 J buferis'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMašīna'
+  usage:
+  - Labais klikšķis uz cita teserakta, lai izveidotu savienojumu!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oTas mirgo un mainās tavās rokās'
+  name: '&6Teserakta objekts'
   type:
   - '&7&oResurss'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Izmanto, lai sasaistītu 2 teseraktus.'
+  name: '&6Teseraktu saistītājs'
   type:
   - '&7&oRīks'
+  usage:
+  - '&fLabais klikšķis, lai uzzinātu teserakta atrašanās vietu'
+  - '&fPietupies un labais klikšķis, lai piesaistītu vietu teseraktam'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fAlvas mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 DYNATECH_VEX_GEM:
+  name: '&6Vex dārgakmens'
   type:
   - '&7&oResurss'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Laika gaitā nolietojas.'
+  name: '&bŪdens dzirnavas'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J buferis'
   type:
   - '&7&oĢenerators'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Laika gaitā nolietojas.'
+  name: '&bHidroturbīna'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J buferis'
   type:
   - '&7&oĢenerators'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fKontrolē laikapstākļus, kad tam iedod atslēgas priekšmetu.'
+  name: '&6Laikapstākļu kontrolieris'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Laika gaitā nolietojas.'
+  name: '&bVēja dzirnavas'
+  stats:
+  - '&fMinimālais enerģijas ģenerēšanas ātrums: &b16j/tiks'
+  - '&fMaksimālais enerģijas ģenerēšanas ātrums: &b64j/tiks'
+  - '&8⇨ &e⚡ &7256 J buferis'
   type:
   - '&7&oĢenerators'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Laika gaitā nolietojas.'
+  name: '&bVēja turbīna'
+  stats:
+  - '&fMinimālais enerģijas ģenerēšanas ātrums: &b64j/tiks'
+  - '&fMaksimālais enerģijas ģenerēšanas ātrums: &b256j/tiks'
+  - '&8⇨ &e⚡ &71024 J buferis'
   type:
   - '&7&oĢenerators'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fBezvadu veidā uzlādē priekšmetus tavā inventārā'
+  name: '&6Bezvadu lādētājs'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fUzglabā enerģiju, ko izmantot'
+  - '&fBezvadu enerģijas punktam.'
+  name: '&6Bezvadu enerģijas banka'
   stats:
   - '&8⇨ &e⚡ &710240 J buferis'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMašīna'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fPārraida enerģiju bezvadu veidā'
+  - '&fno Bezvadu enerģijas bankas'
+  name: '&6Bezvadu enerģijas punkts'
   stats:
   - '&8⇨ &e⚡ &75120 J buferis'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMašīna'
+  usage:
+  - Labais klikšķis uz Bezvadu enerģijas bankas, lai izveidotu savienojumu!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fPārraida priekšmetus bezvadu veidā'
+  - '&f uz Bezvadu priekšmetu izvadi'
+  name: '&6Bezvadu priekšmetu ievade'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par priekšmetu steku'
   type:
   - '&7&oMašīna'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fPārraida priekšmetus bezvadu veidā'
+  - '&fno Bezvadu priekšmetu ievades'
+  name: '&6Bezvadu priekšmetu izvade'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par priekšmetu steku'
   type:
   - '&7&oMašīna'
+  usage:
+  - Labais klikšķis uz Bezvadu priekšmetu ievades, lai izveidotu savienojumu!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Izsauc Wither skeletu
+  name: '&6Wither golema multibloks'
   type:
   - '&7&oDaudzbloks'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fKoka mašīnas kodols'
   type:
   - '&7&oSastāvdaļa'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fRažo materiālu'
+  - '&far bišu palīdzību'
+  name: '&fCinka mineralizētā drava'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašīna'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+  name: '&bFantoma datu karte'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oSastāvdaļa'
 STARDUST_METEOR:
+  description:
+  - '&fIegūts kalnu vai postažu biomos'
+  name: '&6Zvaigžņu putekļu meteorīts'
   type:
   - '&7&oResurss'
 VEX_DATA_CARD:
+  description:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+  name: '&bVex datu karte'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
