@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Pažangus mašinų laužas'
   type:
   - '&7&oIšteklius'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Įdėta į medžiagų avilį pagreitina jo gamybą.'
+  name: '&6Pažangi robotinė bitė'
   type:
   - '&7&oIšteklius'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fAliuminio mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fAliuminio žalvario mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fAliuminio bronzos mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fSenovinė mašinos šerdis'
   type:
   - '&7&oKomponentas'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fNuolatinis kūrybinis skrydis.'
+  - '&fTuri keletą greičio reguliavimo nustatymų.'
+  - '&f&oSkrisk tarsi paukštis~'
+  name: '&6Skrydžio brangakmenis'
   type:
   - '&7&oĮtaisas'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Kūrybinis skrydis 45 blokų zonoje'
+  name: '&6Antigravitacijos burbulas'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Spustelėkite dešiniu mašinos priekį, kad daiktai būtų automatiškai'
+  - '&7traukiami į ją iš gretimo inventoriaus. Sunaudojamas panaudojus.'
+  name: '&6Automatinės įvesties patobulinimas'
   type:
   - '&7&oĮtaisas'
+  usage:
+  - '&eDešinysis spustelėjimas&7 ant mašinos priekio jį pritaiko.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fAutomatiškai gamina virtuvės receptus'
+  - '&f&oKvepia sausainiais'
+  name: '&6Automatinė virtuvė'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Spustelėkite dešiniu mašinos priekį, kad jos išvesties daiktai'
+  - '&7būtų automatiškai stumiami į gretimą inventorių. Sunaudojamas panaudojus.'
+  name: '&6Automatinės išvesties patobulinimas'
   type:
   - '&7&oĮtaisas'
+  usage:
+  - '&eDešinysis spustelėjimas&7 ant mašinos priekio jį pritaiko.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fTvarko daiktų juostas'
+  name: '&6Daiktų juostų tvarkyklė'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fAtstumia mobus tam tikru spinduliu.'
+  name: '&6Spygliuota viela'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_BEE:
+  description:
+  - '&7Įdėta į medžiagų avilį pagreitina jo gamybą.'
+  name: '&6Bitė'
   type:
   - '&7&oIšteklius'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fBilono mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fŽalvario mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fKarbonado mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fAnglies mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_COAL_COKE:
+  name: '&fAnglies koksas'
   type:
   - '&7&oIšteklius'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Valdo 3x3x3 plytinę daugiablokę kokso krosnį.'
+  - '&7Laikui bėgant paverčia į įvesties statinę įdėtus daiktus'
+  - '&7krosnyje keptais rezultatais.'
+  name: '&fKokso krosnies valdiklis'
   type:
   - '&7&oDaugiablokis'
+  usage:
+  - '&eDešinysis spustelėjimas&7 patikrina daugiablokę struktūrą.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fKobalto mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fVario mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fKorinto bronzos mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fDamasko plieno mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cSusidėvėjęs drakono kiaušinio malūnas'
   type:
   - '&7&oKomponentas'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cSusidėvėjusi drakono kiaušinio turbina'
   type:
   - '&7&oKomponentas'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cSusidėvėjęs vandens malūnas'
   type:
   - '&7&oKomponentas'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cSusidėvėjusi hidroturbina'
   type:
   - '&7&oKomponentas'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cSusidėvėjęs vėjo malūnas'
   type:
   - '&7&oKomponentas'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cSusidėvėjusi vėjo turbina'
   type:
   - '&7&oKomponentas'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fDeimanto mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fDeimantinė mašinos šerdis'
   type:
   - '&7&oKomponentas'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fTeleportuoja tave į'
+  - '&fatskirus dimensinius namus ir atgal'
+  - '&f&oNamai, mieli namai'
+  name: '&6Dimensiniai namai'
   type:
   - '&7&oĮtaisas'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Keičia patvarumą į galią.'
+  name: '&bNusidėvėjimo generatorius'
+  stats:
+  - '&8⇨ &e⚡ &7256 J buferis'
+  - '&8⇨ &e⚡ &78 J už patvarumo tašką'
   type:
   - '&7&oGeneratorius'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fDiuraliuminio mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Laikui bėgant susidėvi.'
+  name: '&bDrakono kiaušinio malūnas'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J buferis'
   type:
   - '&7&oGeneratorius'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Laikui bėgant susidėvi.'
+  name: '&bDrakono kiaušinio turbina'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J buferis'
   type:
   - '&7&oGeneratorius'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fAutomatiškai pamaitina tave naudodamas energiją'
+  - '&f&oSužadink savo pojūčius.'
+  name: '&6Elektrinis stimuliatorius'
   type:
   - '&7&oĮtaisas'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fSmaragdo mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bUžkerėta mašinos šerdis'
   type:
   - '&7&oKomponentas'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fAutomatiškai augina &dchorus gėles.'
+  name: '&dEnd augimo kamera'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomatiškai augina &dchorus gėles.'
+  - '&c3x gamyba.'
+  name: '&dEnd augimo kamera MK2'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cEnergijos įvesties komponentas'
   type:
   - '&7&oKomponentas'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cEnergijos išvesties komponentas'
   type:
   - '&7&oKomponentas'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cEnergijos saugojimo komponentas'
   type:
   - '&7&oKomponentas'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fIš išorės kaitina krosnis, lydymo krosnis'
+  - '&fir rūkyklas.'
+  name: '&6Išorinis šildytuvas'
+  stats:
+  - '&8⇨ &e⚡ &72048 J buferis'
+  - '&8⇨ &e⚡ &7128 J už pakaitintą bloką'
   type:
   - '&7&oMašina'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fFerosilicio mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Ypatingas kibiras, kaupiantis skystį, kai netoliese pildote ar'
+  - '&7tuštinate vanilinius kibirus; talpina iki 16,000 mB.'
+  name: '&fSkysčio bakas'
+  stats:
+  - '&7Talpa: &e16000mb'
   type:
   - '&7&oĮrankis'
+  usage:
+  - '&ePritūpęs&7 + &eDešinysis spustelėjimas&7 paverčia jį atitinkamu vaniliniu kibiru.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Keičia alkį į galią'
+  name: '&bKulinarinis generatorius'
   stats:
   - '&8⇨ &e⚡ &7256 J buferis'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oGeneratorius'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Vaiduokliška esencija'
   type:
   - '&7&oIšteklius'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fPaauksuotos geležies mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fAukso mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fAutomatiškai augina &eaugalus&f.'
+  - '&f&oTai tarsi mažas šiltnamis!'
+  name: '&6Augimo kamera'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomatiškai augina &eaugalus&f.'
+  - '&f&oTai tarsi mažas šiltnamis!'
+  - '&c3x gamyba.'
+  name: '&6Augimo kamera MK2'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fGrūdinto metalo mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fUždėta ant šarvų ar įrankių'
+  - '&fsuteikia 2 Skubos lygius'
+  - '&f&oSustiprinimas!'
+  name: '&6Skubos daiktų juosta'
   type:
   - '&7&oTalismanas'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fUždėta ant šarvų ar įrankių'
+  - '&fsuteikia 2 Sveikatos padidinimo lygius'
+  - '&f&oSustiprinimas!'
+  name: '&6Sveikatos daiktų juosta'
   type:
   - '&7&oTalismanas'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Kibiras medaus skysčio, naudojamo receptuose ir mašinose.'
+  name: '&fMedaus kibiras'
+  stats:
+  - '&7Talpa: &e1000mb'
   type:
   - '&7&oIšteklius'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fIšfiltruoja ant žemės gulinčius daiktus, kurie yra jo inventoriuje'
+  name: '&6Inventoriaus filtras'
   type:
   - '&7&oĮtaisas'
+  usage:
+  - '&eDešinysis spustelėjimas &7atidaro.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fGeležies mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fGeležinė mašinos šerdis'
   type:
   - '&7&oKomponentas'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fAutomatiškai gamina virtuvės receptus'
+  - '&f&oKvepia sausainiais'
+  name: '&6Virtuvės automatinis gamintojas'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fLazurito mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Į butelį supiltas skystis, receptuose ir mašinose naudojamas kaip lavos šaltinis.'
+  name: '&fLavos butelis'
+  stats:
+  - '&7Talpa: &e250mb'
   type:
   - '&7&oIšteklius'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fŠvino mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fPaprastas skysčių gaudiklis.'
+  name: '&6Nešiojamas skysčių bakas'
+  stats:
+  - '&7Talpa: &e16000mb'
   type:
   - '&7&oĮrankis'
+  usage:
+  - Spustelėkite dešiniu, kad paimtumėte skystį
+  - Spustelėkite su Shift, kad padėtumėte skystį
 DYNATECH_LIVINGROCK:
+  name: '&6Gyvasis akmuo'
   type:
   - '&7&oIšteklius'
 DYNATECH_LIVINGWOOD:
+  name: '&6Gyvoji mediena'
   type:
   - '&7&oIšteklius'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Mašinų laužas'
   type:
   - '&7&oIšteklius'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fMagnio mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fNaudodamas galią ir bites lėtai generuoja medžiagas.'
+  name: '&6Medžiagų avilys'
   stats:
   - '&a☢&7 Radiacijos lygis: &6AUKŠTAS'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Į butelį supiltas skystis, receptuose ir mašinose naudojamas kaip pieno šaltinis.'
+  name: '&fPieno butelis'
+  stats:
+  - '&7Talpa: &e1000mb'
   type:
   - '&7&oIšteklius'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fNetherito mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fAutomatiškai augina &cnether &faugalus.'
+  name: '&cNether augimo kamera'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomatiškai augina &cnether &faugalus.'
+  - '&c3x gamyba.'
+  name: '&cNether augimo kamera MK2'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fNikelio mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fAutomatiškai augina &9vandens &faugalus.'
+  - Gali atgaivinti negyvus koralus!
+  name: '&bVandenyno augimo kamera'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomatiškai augina &9vandens &faugalus.'
+  - Gali atgaivinti negyvus koralus!
+  - '&c3x gamyba.'
+  name: '&bVandenyno augimo kamera MK2'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_ORECHID:
+  description:
+  - '&fNaudodama akmenį ar netherako akmenį ir galią, gamina atitinkamas jų rūdas.'
+  name: '&6Rūdorchidėja'
+  stats:
+  - '&8⇨ &e⚡ &71024 J už paverstą bloką.'
   type:
   - '&7&oMašina'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fPridėk gamtos kibirkščių, kad pagamintum galingas gėles'
+  name: '&dŽiedlapių vaistinė'
   type:
   - '&7&oMašina'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fLeidžia tau saugoti maistą'
+  - '&fAutomatiškai jį suvalgo, kai esi alkanas'
+  - '&fPrivalo būti tavo inventoriuje'
+  name: '&6Iškylos krepšys'
+  stats:
+  - '&fDydis: &e27'
   type:
   - '&7&oKuprinė'
+  usage:
+  - '&eDešinysis spustelėjimas &7atidaro.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Kibiras eliksyro skysčio, naudojamo receptuose ir mašinose.'
+  name: '&fEliksyro kibiras'
+  stats:
+  - '&7Talpa: &e1000mb'
   type:
   - '&7&oIšteklius'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fNuotolinis kelių žmonių eliksyro efekto suteikėjas.'
+  name: '&6Eliksyrų purkštuvas'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fKvarco mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Rodo knygą su paieška, kurioje yra visi DynaTech pridėti receptai.'
+  name: '&6Receptų knyga'
   type:
   - '&7&oĮtaisas'
+  usage:
+  - '&eDešinysis spustelėjimas &7atidaro.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fRaudonakmenio mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fRaudonakmenio lydinio mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fSustiprinto lydinio mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Įdėta į medžiagų avilį pagreitina jo gamybą.'
+  name: '&6Robotinė bitė'
   type:
   - '&7&oIšteklius'
 DYNATECH_SCOOP:
+  description:
+  - '&fNaudojamas bitėms sugauti.'
+  - '&f&oŽiūrėk, kad tavęs neįgeltų'
+  name: '&6Semtuvėlis'
   type:
   - '&7&oĮrankis'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fIštraukia sėklas iš augalinių daiktų.'
+  name: '&6Sėklų skintuvas'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fSidabro mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fLydmetalio mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fLeidžia tau saugoti maistą'
+  - '&fAutomatiškai jį suvalgo, kai esi alkanas'
+  - '&fPrivalo būti tavo inventoriuje'
+  - '&dSielos surištas'
+  name: '&6Sielos surištas iškylos krepšys'
+  stats:
+  - '&fDydis: &e27'
   type:
   - '&7&oKuprinė'
+  usage:
+  - '&eDešinysis spustelėjimas &7atidaro.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fNerūdijančio plieno luitas'
   type:
   - '&7&oIšteklius'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fNerūdijančio plieno rotorius'
   type:
   - '&7&oIšteklius'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Keičia žvaigždžių dulkes į didelį kiekį galios.'
+  name: '&bŽvaigždžių dulkių reaktorius'
   stats:
   - '&8⇨ &e⚡ &732768 J buferis'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGeneratorius'
 DYNATECH_STAR_DUST:
+  name: '&6Žvaigždžių dulkės'
   type:
   - '&7&oIšteklius'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fPlieno mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fAkmeninė mašinos šerdis'
   type:
   - '&7&oKomponentas'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fSintetinio deimanto mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fSintetinio smaragdo mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fSintetinio safyro mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_TESSERACT:
+  description:
+  - '&fPerduoda daiktus ir energiją belaidžiu būdu'
+  - '&fJie yra net 2-krypčiai!'
+  name: '&6Teseraktas'
   stats:
   - '&8⇨ &e⚡ &765535 J buferis'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMašina'
+  usage:
+  - Spustelėkite dešiniu ant kito teserakto, kad prisijungtumėte!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oJis mirga ir keičiasi tavo rankose'
+  name: '&6Teseraktinis objektas'
   type:
   - '&7&oIšteklius'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Naudojamas 2 teseraktams surišti.'
+  name: '&6Teserakto rišiklis'
   type:
   - '&7&oĮrankis'
+  usage:
+  - '&fSpustelėkite dešiniu, kad sužinotumėte teserakto vietą'
+  - '&fPritūpęs spustelėkite dešiniu, kad susietumėte vietą su teseraktu'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fAlavo mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 DYNATECH_VEX_GEM:
+  name: '&6Vex brangakmenis'
   type:
   - '&7&oIšteklius'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Laikui bėgant susidėvi.'
+  name: '&bVandens malūnas'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J buferis'
   type:
   - '&7&oGeneratorius'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Laikui bėgant susidėvi.'
+  name: '&bHidroturbina'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J buferis'
   type:
   - '&7&oGeneratorius'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fValdo orą, kai jam duodamas raktinis daiktas.'
+  name: '&6Oro valdiklis'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Laikui bėgant susidėvi.'
+  name: '&bVėjo malūnas'
+  stats:
+  - '&fMinimali energijos generavimo sparta: &b16j/tiktelėjimas'
+  - '&fMaksimali energijos generavimo sparta: &b64j/tiktelėjimas'
+  - '&8⇨ &e⚡ &7256 J buferis'
   type:
   - '&7&oGeneratorius'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Laikui bėgant susidėvi.'
+  name: '&bVėjo turbina'
+  stats:
+  - '&fMinimali energijos generavimo sparta: &b64j/tiktelėjimas'
+  - '&fMaksimali energijos generavimo sparta: &b256j/tiktelėjimas'
+  - '&8⇨ &e⚡ &71024 J buferis'
   type:
   - '&7&oGeneratorius'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fBelaidžiu būdu įkrauna daiktus tavo inventoriuje'
+  name: '&6Belaidis įkroviklis'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fSaugo galią, kad ja'
+  - '&fnaudotųsi belaidis energijos taškas.'
+  name: '&6Belaidis energijos bankas'
   stats:
   - '&8⇨ &e⚡ &710240 J buferis'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMašina'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fPerduoda energiją belaidžiu būdu'
+  - '&fiš belaidžio energijos banko'
+  name: '&6Belaidis energijos taškas'
   stats:
   - '&8⇨ &e⚡ &75120 J buferis'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMašina'
+  usage:
+  - Spustelėkite dešiniu ant belaidžio energijos banko, kad prisijungtumėte!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fPerduoda daiktus belaidžiu būdu'
+  - '&f į belaidę daiktų išvestį'
+  name: '&6Belaidė daiktų įvestis'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už daiktų krūvą'
   type:
   - '&7&oMašina'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fPerduoda daiktus belaidžiu būdu'
+  - '&fiš belaidės daiktų įvesties'
+  name: '&6Belaidė daiktų išvestis'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už daiktų krūvą'
   type:
   - '&7&oMašina'
+  usage:
+  - Spustelėkite dešiniu ant belaidės daiktų įvesties, kad prisijungtumėte!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Sukuria Wither skeletą
+  name: '&6Wither golemo daugiablokis'
   type:
   - '&7&oDaugiablokis'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fMedinė mašinos šerdis'
   type:
   - '&7&oKomponentas'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fGamina medžiagą'
+  - '&fbičių padedamas'
+  name: '&fCinko mineralizuotas bitynas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buferis'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMašina'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
+  name: '&bPhantom duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponentas'
 STARDUST_METEOR:
+  description:
+  - '&fIškasamas kalnų arba badlandų biomuose'
+  name: '&6Žvaigždžių dulkių meteoras'
   type:
   - '&7&oIšteklius'
 VEX_DATA_CARD:
+  description:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
+  name: '&bVex duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
