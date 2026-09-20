@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Pokročilý šrot zo strojov'
   type:
   - '&7&oSurovina'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Vlož ju do materiálového úľa, aby zrýchlila jeho produkciu.'
+  name: '&6Pokročilá robotická včela'
   type:
   - '&7&oSurovina'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fHliníkový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fHliníkovo-mosadzný mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fHliníkovo-bronzový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fStaroveké jadro stroja'
   type:
   - '&7&oKomponent'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fTrvalé kreatívne lietanie.'
+  - '&fMá aj nastavenia rýchlosti.'
+  - '&f&oLietaj ako vták~'
+  name: '&6Drahokam letu'
   type:
   - '&7&oGadget'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Kreatívne lietanie v oblasti 45 blokov'
+  name: '&6Antigravitačná bublina'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Pravým klikom na čelo stroja ho prinútiš automaticky ťahať'
+  - '&7predmety zo susedného inventára. Použitím sa spotrebuje.'
+  name: '&6Vylepšenie automatického vstupu'
   type:
   - '&7&oGadget'
+  usage:
+  - '&ePravý klik&7 na čelo stroja ho použije.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fAutomaticky vyrába kuchynské recepty'
+  - '&f&oVonia to tu ako sušienky'
+  name: '&6Automatická kuchyňa'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Pravým klikom na čelo stroja ho prinútiš automaticky tlačiť'
+  - '&7výstupné predmety do susedného inventára. Použitím sa spotrebuje.'
+  name: '&6Vylepšenie automatického výstupu'
   type:
   - '&7&oGadget'
+  usage:
+  - '&ePravý klik&7 na čelo stroja ho použije.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fSpravuje predmetové pásky'
+  name: '&6Správca predmetových pások'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fOdtláča príšery v okolitom polomere.'
+  name: '&6Ostnatý drôt'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_BEE:
+  description:
+  - '&7Vlož ju do materiálového úľa, aby zrýchlila jeho produkciu.'
+  name: '&6Včela'
   type:
   - '&7&oSurovina'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fBillonový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fMosadzný mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fKarbonádový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fUhoľný mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_COAL_COKE:
+  name: '&fUhoľný koks'
   type:
   - '&7&oSurovina'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Ovláda 3x3x3 tehlovú multiblokovú koksovaciu pec.'
+  - '&7Premieňa predmety vložené do vstupného suda na'
+  - '&7výstupy postupne upečené v peci.'
+  name: '&fOvládač koksovacej pece'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&ePravý klik&7 overí multiblokovú štruktúru.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fKobaltový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fMedený mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fKorintsky bronzový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fDamaškový oceľový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cOpotrebovaný mlyn s dračím vajcom'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cOpotrebovaná turbína s dračím vajcom'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cOpotrebovaný vodný mlyn'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cOpotrebovaná vodná turbína'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cOpotrebovaný veterný mlyn'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cOpotrebovaná veterná turbína'
   type:
   - '&7&oKomponent'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fDiamantový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fDiamantové jadro stroja'
   type:
   - '&7&oKomponent'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fTeleportuje ťa do'
+  - '&fsamostatného dimenzionálneho domova a späť'
+  - '&f&oDomov sladký domov'
+  name: '&6Dimenzionálny domov'
   type:
   - '&7&oGadget'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Vymieňa odolnosť nástrojov za energiu.'
+  name: '&bOpotrebovací generátor'
+  stats:
+  - '&8⇨ &e⚡ &7256 J zásobník'
+  - '&8⇨ &e⚡ &78 J za bod odolnosti'
   type:
   - '&7&oGenerátor'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fDuralový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Časom sa opotrebuje.'
+  name: '&bMlyn s dračím vajcom'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J zásobník'
   type:
   - '&7&oGenerátor'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Časom sa opotrebuje.'
+  name: '&bTurbína s dračím vajcom'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J zásobník'
   type:
   - '&7&oGenerátor'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fAutomaticky ti dopĺňa hlad výmenou za energiu'
+  - '&f&oPodráždi tvoje zmysly.'
+  name: '&6Elektrický stimulátor'
   type:
   - '&7&oGadget'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fSmaragdový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bOčarované jadro stroja'
   type:
   - '&7&oKomponent'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fAutomaticky pestuje &dchorusové kvety.'
+  name: '&dEndová rastová komora'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomaticky pestuje &dchorusové kvety.'
+  - '&c3x produkcia.'
+  name: '&dEndová rastová komora MK2'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cKomponent vstupu energie'
   type:
   - '&7&oKomponent'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cKomponent výstupu energie'
   type:
   - '&7&oKomponent'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cKomponent na ukladanie energie'
   type:
   - '&7&oKomponent'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fZvonku ohrieva pece, taviace pece'
+  - '&fa udiarne.'
+  name: '&6Vonkajší ohrievač'
+  stats:
+  - '&8⇨ &e⚡ &72048 J zásobník'
+  - '&8⇨ &e⚡ &7128 J za ohriaty blok'
   type:
   - '&7&oStroj'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fFerosilíciový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Špeciálne vedro, ktoré zbiera kvapalinu, keď v okolí plníš'
+  - '&7alebo vyprázdňuješ vanilla vedrá, a pojme až 16,000 mB.'
+  name: '&fNádrž na kvapalinu'
+  stats:
+  - '&7Kapacita: &e16000mb'
   type:
   - '&7&oNástroj'
+  usage:
+  - '&ePrikrčenie&7 + &ePravý klik&7 ju premení na zodpovedajúce vanilla vedro.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Vymieňa hlad za energiu'
+  name: '&bKulinársky generátor'
   stats:
   - '&8⇨ &e⚡ &7256 J zásobník'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oGenerátor'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Duchovná esencia'
   type:
   - '&7&oSurovina'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fPozlátený železný mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fZlatý mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fAutomaticky pestuje &erastliny&f.'
+  - '&f&oJe to ako malý skleník!'
+  name: '&6Rastová komora'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomaticky pestuje &erastliny&f.'
+  - '&f&oJe to ako malý skleník!'
+  - '&c3x produkcia.'
+  name: '&6Rastová komora MK2'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fKalený kovový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fPo nasadení na brnenie alebo nástroje'
+  - '&fti dáva 2 úrovne Náhlenia'
+  - '&f&oPosila!'
+  name: '&6Urýchľujúca predmetová páska'
   type:
   - '&7&oTalizman'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fPo nasadení na brnenie alebo nástroje'
+  - '&fti dáva 2 úrovne Posilnenia zdravia'
+  - '&f&oPosila!'
+  name: '&6Ozdravujúca predmetová páska'
   type:
   - '&7&oTalizman'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Vedro medovej kvapaliny na použitie v receptoch a strojoch.'
+  name: '&fVedro medu'
+  stats:
+  - '&7Kapacita: &e1000mb'
   type:
   - '&7&oSurovina'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fOdfiltruje predmety na zemi, ktoré má vo svojom inventári'
+  name: '&6Filter inventára'
   type:
   - '&7&oGadget'
+  usage:
+  - '&ePravý klik &7na otvorenie.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fŽelezný mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fŽelezné jadro stroja'
   type:
   - '&7&oKomponent'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fAutomaticky vyrába kuchynské recepty'
+  - '&f&oVonia to tu ako sušienky'
+  name: '&6Kuchynský automatický výrobník'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fLazuritový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Kvapalina vo fľaši, ktorá slúži ako zdroj lávy v receptoch a strojoch.'
+  name: '&fFľaša lávy'
+  stats:
+  - '&7Kapacita: &e250mb'
   type:
   - '&7&oSurovina'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fOlovený mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fJednoduchý zberač kvapalín.'
+  name: '&6Prenosná nádrž na kvapalinu'
+  stats:
+  - '&7Kapacita: &e16000mb'
   type:
   - '&7&oNástroj'
+  usage:
+  - Pravým klikom nasaješ kvapalinu
+  - Shift + klik vyleje kvapalinu
 DYNATECH_LIVINGROCK:
+  name: '&6Livingrock'
   type:
   - '&7&oSurovina'
 DYNATECH_LIVINGWOOD:
+  name: '&6Livingwood'
   type:
   - '&7&oSurovina'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Šrot zo strojov'
   type:
   - '&7&oSurovina'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fHorčíkový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fPomocou energie a včiel pomaly vyrába materiály.'
+  name: '&6Materiálový úľ'
   stats:
   - '&a☢&7 Úroveň radiácie: &6VYSOKÁ'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Kvapalina vo fľaši, ktorá slúži ako zdroj mlieka v receptoch a strojoch.'
+  name: '&fFľaša mlieka'
+  stats:
+  - '&7Kapacita: &e1000mb'
   type:
   - '&7&oSurovina'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fNetheritový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fAutomaticky pestuje &cnetherské &frastliny.'
+  name: '&cNetherská rastová komora'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomaticky pestuje &cnetherské &frastliny.'
+  - '&c3x produkcia.'
+  name: '&cNetherská rastová komora MK2'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fNiklový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fAutomaticky pestuje &9vodné &frastliny.'
+  - Môže oživiť mŕtve koraly!
+  name: '&bOceánska rastová komora'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomaticky pestuje &9vodné &frastliny.'
+  - Môže oživiť mŕtve koraly!
+  - '&c3x produkcia.'
+  name: '&bOceánska rastová komora MK2'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_ORECHID:
+  description:
+  - '&fPomocou kameňa alebo netherraku a energie vyrába príslušné rudy.'
+  name: '&6Orechid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J za premenený blok.'
   type:
   - '&7&oStroj'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fPridaj iskry prírody a vytvor mocné kvety'
+  name: '&dLekáreň lupienkov'
   type:
   - '&7&oStroj'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fUmožňuje ti ukladať jedlo'
+  - '&fAutomaticky ťa nakŕmi, keď si hladný'
+  - '&fMusí byť v tvojom inventári'
+  name: '&6Piknikový kôš'
+  stats:
+  - '&fVeľkosť: &e27'
   type:
   - '&7&oBatoh'
+  usage:
+  - '&ePravý klik &7na otvorenie.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Vedro elixírovej kvapaliny na použitie v receptoch a strojoch.'
+  name: '&fVedro elixíru'
+  stats:
+  - '&7Kapacita: &e1000mb'
   type:
   - '&7&oSurovina'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fNa diaľku udeľuje efekty elixírov viacerým hráčom.'
+  name: '&6Rozprašovač elixírov'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fKremeňový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Zobrazí prehľadávateľnú knihu všetkých receptov, ktoré pridáva DynaTech.'
+  name: '&6Kniha receptov'
   type:
   - '&7&oGadget'
+  usage:
+  - '&ePravý klik &7na otvorenie.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fRedstonový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fRedstonový zliatinový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fVystužený zliatinový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Vlož ju do materiálového úľa, aby zrýchlila jeho produkciu.'
+  name: '&6Robotická včela'
   type:
   - '&7&oSurovina'
 DYNATECH_SCOOP:
+  description:
+  - '&fPoužíva sa na chytanie včiel.'
+  - '&f&oDaj pozor, aby ťa nepopichali'
+  name: '&6Naberačka'
   type:
   - '&7&oNástroj'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fVyťahuje semená z rastlinných predmetov.'
+  name: '&6Vyberač semien'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fStrieborný mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fSpájkový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fUmožňuje ti ukladať jedlo'
+  - '&fAutomaticky ťa nakŕmi, keď si hladný'
+  - '&fMusí byť v tvojom inventári'
+  - '&dViazaný dušou'
+  name: '&6Piknikový kôš viazaný dušou'
+  stats:
+  - '&fVeľkosť: &e27'
   type:
   - '&7&oBatoh'
+  usage:
+  - '&ePravý klik &7na otvorenie.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fIngot z nehrdzavejúcej ocele'
   type:
   - '&7&oSurovina'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fRotor z nehrdzavejúcej ocele'
   type:
   - '&7&oSurovina'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Vymieňa hviezdny prach za veľké množstvo energie.'
+  name: '&bReaktor na hviezdny prach'
   stats:
   - '&8⇨ &e⚡ &732768 J zásobník'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGenerátor'
 DYNATECH_STAR_DUST:
+  name: '&6Hviezdny prach'
   type:
   - '&7&oSurovina'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fOceľový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fKamenné jadro stroja'
   type:
   - '&7&oKomponent'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fSyntetický diamantový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fSyntetický smaragdový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fSyntetický zafírový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_TESSERACT:
+  description:
+  - '&fPrenáša predmety a energiu bezdrôtovo'
+  - '&fFungujú dokonca 2-smerne!'
+  name: '&6Teserakt'
   stats:
   - '&8⇨ &e⚡ &765535 J zásobník'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oStroj'
+  usage:
+  - Pravým klikom na iný teserakt ich prepojíš!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oTrbliece sa a mení ti v rukách'
+  name: '&6Teseraktujúci objekt'
   type:
   - '&7&oSurovina'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Slúži na spojenie 2 teseraktov.'
+  name: '&6Spájač teseraktov'
   type:
   - '&7&oNástroj'
+  usage:
+  - '&fPravým klikom zistíš polohu teseraktu'
+  - '&fPrikrčenie + pravý klik priradí polohu k teseraktu'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fCínový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 DYNATECH_VEX_GEM:
+  name: '&6Vexov drahokam'
   type:
   - '&7&oSurovina'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Časom sa opotrebuje.'
+  name: '&bVodný mlyn'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J zásobník'
   type:
   - '&7&oGenerátor'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Časom sa opotrebuje.'
+  name: '&bVodná turbína'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J zásobník'
   type:
   - '&7&oGenerátor'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fOvláda počasie, keď dostane kľúčový predmet.'
+  name: '&6Ovládač počasia'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Časom sa opotrebuje.'
+  name: '&bVeterný mlyn'
+  stats:
+  - '&fMinimálna miera výroby energie: &b16j/tick'
+  - '&fMaximálna miera výroby energie: &b64j/tick'
+  - '&8⇨ &e⚡ &7256 J zásobník'
   type:
   - '&7&oGenerátor'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Časom sa opotrebuje.'
+  name: '&bVeterná turbína'
+  stats:
+  - '&fMinimálna miera výroby energie: &b64j/tick'
+  - '&fMaximálna miera výroby energie: &b256j/tick'
+  - '&8⇨ &e⚡ &71024 J zásobník'
   type:
   - '&7&oGenerátor'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fBezdrôtovo nabíja predmety v tvojom inventári'
+  name: '&6Bezdrôtová nabíjačka'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fUkladá energiu pre'
+  - '&fbezdrôtový energetický bod.'
+  name: '&6Bezdrôtová energetická banka'
   stats:
   - '&8⇨ &e⚡ &710240 J zásobník'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oStroj'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fPrenáša energiu bezdrôtovo'
+  - '&fz bezdrôtovej energetickej banky'
+  name: '&6Bezdrôtový energetický bod'
   stats:
   - '&8⇨ &e⚡ &75120 J zásobník'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oStroj'
+  usage:
+  - Pravým klikom na bezdrôtovú energetickú banku ich prepojíš!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fPrenáša predmety bezdrôtovo'
+  - '&f do bezdrôtového výstupu predmetov'
+  name: '&6Bezdrôtový vstup predmetov'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J za hŕbu predmetov'
   type:
   - '&7&oStroj'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fPrenáša predmety bezdrôtovo'
+  - '&fz bezdrôtového vstupu predmetov'
+  name: '&6Bezdrôtový výstup predmetov'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J za hŕbu predmetov'
   type:
   - '&7&oStroj'
+  usage:
+  - Pravým klikom na bezdrôtový vstup predmetov ich prepojíš!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Vyvoláva witherovu kostru
+  name: '&6Multiblokový Witherov golem'
   type:
   - '&7&oMultiblok'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fDrevené jadro stroja'
   type:
   - '&7&oKomponent'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fProdukuje materiál'
+  - '&fs pomocou včiel'
+  name: '&fZinkový mineralizovaný úľ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J zásobník'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oStroj'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
+  name: '&bFantómová dátová karta'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
 STARDUST_METEOR:
+  description:
+  - '&fVyťažený z horských biómov alebo z biómov badlands'
+  name: '&6Meteor hviezdneho prachu'
   type:
   - '&7&oSurovina'
 VEX_DATA_CARD:
+  description:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
+  name: '&bVexová dátová karta'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
