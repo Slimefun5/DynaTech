@@ -360,14 +360,14 @@ DYNATECH_FERROSILICONMINERALIZED_APIARY:
 DYNATECH_FLUID_TANK:
   description:
   - '&7Ypatingas kibiras, kaupiantis skystį, kai netoliese pildote ar'
-  - '&7tuštinate vanilinius kibirus; talpina iki 16,000 mB.'
+  - '&7tuštinate standartinius kibirus; talpina iki 16,000 mB.'
   name: '&fSkysčio bakas'
   stats:
   - '&7Talpa: &e16000mb'
   type:
   - '&7&oĮrankis'
   usage:
-  - '&ePritūpęs&7 + &eDešinysis spustelėjimas&7 paverčia jį atitinkamu vaniliniu kibiru.'
+  - '&ePritūpęs&7 + &eDešinysis spustelėjimas&7 paverčia jį atitinkamu standartiniu kibiru.'
 DYNATECH_FOOD_GENERATOR:
   description:
   - '&7Keičia alkį į galią'
