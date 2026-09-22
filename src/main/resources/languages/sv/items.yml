@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Avancerat maskinskrot'
   type:
   - '&7&oRåmaterial'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Placeras i en materialkupa för att snabba upp dess produktion.'
+  name: '&6Avancerat robotbi'
   type:
   - '&7&oRåmaterial'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fAluminiummineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fAluminiummässingsmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fAluminiumbronsmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fUråldrig maskinkärna'
   type:
   - '&7&oKomponent'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fPermanent kreativt flygande.'
+  - '&fHar några inställningar för hastigheten.'
+  - '&f&oFlyg precis som en fågel~'
+  name: '&6Flygädelsten'
   type:
   - '&7&oPryl'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Kreativt flygande inom ett område på 45 block'
+  name: '&6Antigravitationsbubbla'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Högerklicka på en maskins framsida för att automatiskt dra in föremål i'
+  - '&7den från ett intilliggande inventarie. Förbrukas vid användning.'
+  name: '&6Autoingångsuppgradering'
   type:
   - '&7&oPryl'
+  usage:
+  - '&eHögerklicka&7 på en maskins framsida för att tillämpa.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fTillverkar köksrecept automatiskt'
+  - '&f&oDoftar som kakor'
+  name: '&6Autokök'
   stats:
   - '&8⇨ &b⚡ &7Hastighet: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Högerklicka på en maskins framsida för att automatiskt skjuta ut dess'
+  - '&7utgångsföremål till ett intilliggande inventarie. Förbrukas vid användning.'
+  name: '&6Autoutgångsuppgradering'
   type:
   - '&7&oPryl'
+  usage:
+  - '&eHögerklicka&7 på en maskins framsida för att tillämpa.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fHanterar föremålsband'
+  name: '&6Hanterare för föremålsband'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fPuttar bort mobs inom en radie.'
+  name: '&6Taggtråd'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_BEE:
+  description:
+  - '&7Placeras i en materialkupa för att snabba upp dess produktion.'
+  name: '&6Bi'
   type:
   - '&7&oRåmaterial'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fBillonmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fMässingsmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fCarbonadomineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fKolmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_COAL_COKE:
+  name: '&fKoks'
   type:
   - '&7&oRåmaterial'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Styr en 3x3x3 koksugn av tegel i multiblock.'
+  - '&7Omvandlar föremål som läggs i ingångstunnan till'
+  - '&7ugnstillagade produkter över tid.'
+  name: '&fStyrenhet för koksugn'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eHögerklicka&7 för att validera multiblockstrukturen.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fKoboltmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fKopparmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fKorintisk bronsmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fDamaskusstålsmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cSliten drakäggskvarn'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cSliten drakäggsturbin'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cSliten vattenkvarn'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cSliten vattenturbin'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cSliten väderkvarn'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cSliten vindturbin'
   type:
   - '&7&oKomponent'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fDiamantmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fDiamantmaskinkärna'
   type:
   - '&7&oKomponent'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fTeleporterar dig till ett'
+  - '&fseparat dimensionellt hem och tillbaka'
+  - '&f&oHemma bäst'
+  name: '&6Dimensionellt hem'
   type:
   - '&7&oPryl'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Byter hållbarhet mot kraft.'
+  name: '&bNötningsgenerator'
+  stats:
+  - '&8⇨ &e⚡ &7256 J buffert'
+  - '&8⇨ &e⚡ &78 J per hållbarhetspoäng'
   type:
   - '&7&oGenerator'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fDuraluminmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Slits med tiden.'
+  name: '&bDrakäggskvarn'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J buffert'
   type:
   - '&7&oGenerator'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Slits med tiden.'
+  name: '&bDrakäggsturbin'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J buffert'
   type:
   - '&7&oGenerator'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fMatar dig automatiskt med hjälp av energi'
+  - '&f&oStimulera dina sinnen.'
+  name: '&6Elektrisk stimulator'
   type:
   - '&7&oPryl'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fSmaragdmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bFörtrollad maskinkärna'
   type:
   - '&7&oKomponent'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fOdlar automatiskt &dkorusblommor.'
+  name: '&dEnd-tillväxtkammare'
   stats:
   - '&8⇨ &b⚡ &7Hastighet: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fOdlar automatiskt &dkorusblommor.'
+  - '&c3x produktion.'
+  name: '&dEnd-tillväxtkammare MK2'
   stats:
   - '&8⇨ &b⚡ &7Hastighet: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cEnergiingångskomponent'
   type:
   - '&7&oKomponent'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cEnergiutgångskomponent'
   type:
   - '&7&oKomponent'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cEnergilagringskomponent'
   type:
   - '&7&oKomponent'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fVärmer ugnar, masugnar'
+  - '&foch rökugnar utifrån.'
+  name: '&6Extern värmare'
+  stats:
+  - '&8⇨ &e⚡ &72048 J buffert'
+  - '&8⇨ &e⚡ &7128 J per uppvärmt block'
   type:
   - '&7&oMaskin'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fFerrokiselmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7En särskild hink som samlar vätska när du fyller eller tömmer'
+  - '&7vanilla-hinkar i närheten, och lagrar upp till 16,000 mB.'
+  name: '&fVätsketank'
+  stats:
+  - '&7Kapacitet: &e16000mb'
   type:
   - '&7&oVerktyg'
+  usage:
+  - '&eSmyg&7 + &eHögerklicka&7 för att omvandla den till matchande vanilla-hink.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Byter hunger mot kraft'
+  name: '&bKulinarisk generator'
   stats:
   - '&8⇨ &e⚡ &7256 J Buffert'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oGenerator'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Spöklik essens'
   type:
   - '&7&oRåmaterial'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fFörgyllt järnmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fGuldmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fOdlar automatiskt &eväxter&f.'
+  - '&f&oDet är som ett litet växthus!'
+  name: '&6Tillväxtkammare'
   stats:
   - '&8⇨ &b⚡ &7Hastighet: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fOdlar automatiskt &eväxter&f.'
+  - '&f&oDet är som ett litet växthus!'
+  - '&c3x produktion.'
+  name: '&6Tillväxtkammare MK2'
   stats:
   - '&8⇨ &b⚡ &7Hastighet: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fHärdad metallmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fNär det används på rustning eller verktyg'
+  - '&fger det dig 2 nivåer av Hast'
+  - '&f&oKraftboost!'
+  name: '&6Föremålsband för hast'
   type:
   - '&7&oTalisman'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fNär det används på rustning eller verktyg'
+  - '&fger det dig 2 nivåer av Hälsoboost'
+  - '&f&oKraftboost!'
+  name: '&6Föremålsband för hälsa'
   type:
   - '&7&oTalisman'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7En hink med honungsvätska som används i recept och maskiner.'
+  name: '&fHonungshink'
+  stats:
+  - '&7Kapacitet: &e1000mb'
   type:
   - '&7&oRåmaterial'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fFiltrerar bort föremål på marken som finns i dess inventarie'
+  name: '&6Inventariefilter'
   type:
   - '&7&oPryl'
+  usage:
+  - '&eHögerklicka &7för att öppna.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fJärnmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fJärnmaskinkärna'
   type:
   - '&7&oKomponent'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fTillverkar köksrecept automatiskt'
+  - '&f&oDoftar som kakor'
+  name: '&6Automatisk kökstillverkare'
   stats:
   - '&8⇨ &b⚡ &7Hastighet: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fLapis lazuli-mineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7En flaskad vätska som används som lavakälla i recept och maskiner.'
+  name: '&fLavaflaska'
+  stats:
+  - '&7Kapacitet: &e250mb'
   type:
   - '&7&oRåmaterial'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fBlymineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fEnkel vätskefångare.'
+  name: '&6Bärbar vätsketank'
+  stats:
+  - '&7Kapacitet: &e16000mb'
   type:
   - '&7&oVerktyg'
+  usage:
+  - Högerklicka för att fånga en vätska
+  - Shift-klicka för att placera en vätska
 DYNATECH_LIVINGROCK:
+  name: '&6Levande sten'
   type:
   - '&7&oRåmaterial'
 DYNATECH_LIVINGWOOD:
+  name: '&6Levande trä'
   type:
   - '&7&oRåmaterial'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Maskinskrot'
   type:
   - '&7&oRåmaterial'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fMagnesiummineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fGenererar långsamt material med hjälp av kraft och bin.'
+  name: '&6Materialkupa'
   stats:
   - '&a☢&7 Strålningsnivå: &6HÖG'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7En flaskad vätska som används som mjölkkälla i recept och maskiner.'
+  name: '&fMjölkflaska'
+  stats:
+  - '&7Kapacitet: &e1000mb'
   type:
   - '&7&oRåmaterial'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fNetheritmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fOdlar automatiskt &cnether&fväxter.'
+  name: '&cNether-tillväxtkammare'
   stats:
   - '&8⇨ &b⚡ &7Hastighet: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fOdlar automatiskt &cnether&fväxter.'
+  - '&c3x produktion.'
+  name: '&cNether-tillväxtkammare MK2'
   stats:
   - '&8⇨ &b⚡ &7Hastighet: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fNickelmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fOdlar automatiskt &9vatten&fväxter.'
+  - Kan återuppliva död korall!
+  name: '&bHavstillväxtkammare'
   stats:
   - '&8⇨ &b⚡ &7Hastighet: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fOdlar automatiskt &9vatten&fväxter.'
+  - Kan återuppliva död korall!
+  - '&c3x produktion.'
+  name: '&bHavstillväxtkammare MK2'
   stats:
   - '&8⇨ &b⚡ &7Hastighet: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_ORECHID:
+  description:
+  - '&fGör respektive malmer av sten eller netherack med hjälp av kraft.'
+  name: '&6Malmorkidé'
+  stats:
+  - '&8⇨ &e⚡ &71024 J per omvandlat block.'
   type:
   - '&7&oMaskin'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fTillsätt naturens gnistor för att skapa kraftfulla blommor'
+  name: '&dKronbladsapotek'
   type:
   - '&7&oMaskin'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fLåter dig lagra mat'
+  - '&fÄter dem automatiskt när du är hungrig'
+  - '&fMåste finnas i ditt inventarie'
+  name: '&6Picknickkorg'
+  stats:
+  - '&fStorlek: &e27'
   type:
   - '&7&oRyggsäck'
+  usage:
+  - '&eHögerklicka &7för att öppna.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7En hink med brygdvätska som används i recept och maskiner.'
+  name: '&fBrygdhink'
+  stats:
+  - '&7Kapacitet: &e1000mb'
   type:
   - '&7&oRåmaterial'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fPåför brygdeffekter på flera personer på avstånd.'
+  name: '&6Brygdspridare'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fKvartsmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Visar en sökbar bok med alla recept som DynaTech lägger till.'
+  name: '&6Receptbok'
   type:
   - '&7&oPryl'
+  usage:
+  - '&eHögerklicka &7för att öppna.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fRödstensmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fRödstenslegeringsmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fFörstärkt legeringsmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Placeras i en materialkupa för att snabba upp dess produktion.'
+  name: '&6Robotbi'
   type:
   - '&7&oRåmaterial'
 DYNATECH_SCOOP:
+  description:
+  - '&fAnvänds för att fånga bin.'
+  - '&f&oSe till att inte bli stucken'
+  name: '&6Skopa'
   type:
   - '&7&oVerktyg'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fDrar ut frön ur växtbaserade föremål.'
+  name: '&6Fröplockare'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fSilvermineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fLodmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fLåter dig lagra mat'
+  - '&fÄter dem automatiskt när du är hungrig'
+  - '&fMåste finnas i ditt inventarie'
+  - '&dSjälsbunden'
+  name: '&6Själsbunden picknickkorg'
+  stats:
+  - '&fStorlek: &e27'
   type:
   - '&7&oRyggsäck'
+  usage:
+  - '&eHögerklicka &7för att öppna.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fRostfri ståltacka'
   type:
   - '&7&oRåmaterial'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fRostfri stålrotor'
   type:
   - '&7&oRåmaterial'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Byter stjärndamm mot en stor mängd kraft.'
+  name: '&bStjärndammsreaktor'
   stats:
   - '&8⇨ &e⚡ &732768 J Buffert'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGenerator'
 DYNATECH_STAR_DUST:
+  name: '&6Stjärndamm'
   type:
   - '&7&oRåmaterial'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fStålmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fStenmaskinkärna'
   type:
   - '&7&oKomponent'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fSyntetisk diamantmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fSyntetisk smaragdmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fSyntetisk safirmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_TESSERACT:
+  description:
+  - '&fÖverför föremål och energi trådlöst'
+  - '&fDe är till och med 2-vägs!'
+  name: '&6Tesserakt'
   stats:
   - '&8⇨ &e⚡ &765535 J Buffert'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMaskin'
+  usage:
+  - Högerklicka på en annan tesserakt för att ansluta!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oDet skimrar och skiftar i dina händer'
+  name: '&6Tesserakterande föremål'
   type:
   - '&7&oRåmaterial'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Används för att binda ihop 2 tesserakter.'
+  name: '&6Tesseraktbindare'
   type:
   - '&7&oVerktyg'
+  usage:
+  - '&fHögerklicka för att få tesseraktens position'
+  - '&fSmyg + högerklicka för att binda positionen till tesserakten'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fTennmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 DYNATECH_VEX_GEM:
+  name: '&6Vex-ädelsten'
   type:
   - '&7&oRåmaterial'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Slits med tiden.'
+  name: '&bVattenkvarn'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J buffert'
   type:
   - '&7&oGenerator'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Slits med tiden.'
+  name: '&bVattenturbin'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J buffert'
   type:
   - '&7&oGenerator'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fStyr vädret när den får ett nyckelföremål.'
+  name: '&6Väderstyrenhet'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Slits med tiden.'
+  name: '&bVäderkvarn'
+  stats:
+  - '&fMinsta energigenereringstakt: &b16j/tick'
+  - '&fHögsta energigenereringstakt: &b64j/tick'
+  - '&8⇨ &e⚡ &7256 J buffert'
   type:
   - '&7&oGenerator'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Slits med tiden.'
+  name: '&bVindturbin'
+  stats:
+  - '&fMinsta energigenereringstakt: &b64j/tick'
+  - '&fHögsta energigenereringstakt: &b256j/tick'
+  - '&8⇨ &e⚡ &71024 J buffert'
   type:
   - '&7&oGenerator'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fLaddar föremål i ditt inventarie trådlöst'
+  name: '&6Trådlös laddare'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fLagrar kraft åt en'
+  - '&ftrådlös energipunkt att använda.'
+  name: '&6Trådlös energibank'
   stats:
   - '&8⇨ &e⚡ &710240 J Buffert'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMaskin'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fÖverför energi trådlöst'
+  - '&ffrån en trådlös energibank'
+  name: '&6Trådlös energipunkt'
   stats:
   - '&8⇨ &e⚡ &75120 J Buffert'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMaskin'
+  usage:
+  - Högerklicka på den trådlösa energibanken för att ansluta!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fÖverför föremål trådlöst'
+  - '&f till trådlös föremålsutgång'
+  name: '&6Trådlös föremålsingång'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per stack med föremål'
   type:
   - '&7&oMaskin'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fÖverför föremål trådlöst'
+  - '&ffrån trådlös föremålsingång'
+  name: '&6Trådlös föremålsutgång'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per stack med föremål'
   type:
   - '&7&oMaskin'
+  usage:
+  - Högerklicka på den trådlösa föremålsingången för att ansluta!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Skapar ett witherskelett
+  name: '&6Withergolem-multiblock'
   type:
   - '&7&oMultiblock'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fTrämaskinkärna'
   type:
   - '&7&oKomponent'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fProducerar ett material'
+  - '&fmed hjälp av bin'
+  name: '&fZinkmineraliserad bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffert'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskin'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+  name: '&bFantomdatakort'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
 STARDUST_METEOR:
+  description:
+  - '&fGeobruten ur bergs- eller badlandsbiom'
+  name: '&6Stjärndammsmeteor'
   type:
   - '&7&oRåmaterial'
 VEX_DATA_CARD:
+  description:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+  name: '&bVex-datakort'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
