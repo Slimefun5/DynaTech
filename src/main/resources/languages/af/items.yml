@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Gevorderde Masjienskroot'
   type:
   - '&7&oHulpbron'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Word binne-in ''n Materiaalkorf geplaas om sy produksie te versnel.'
+  name: '&6Gevorderde Robotby'
   type:
   - '&7&oHulpbron'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fAluminium-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fAluminiumgeelkoper-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fAluminiumbrons-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fAntieke Masjienkern'
   type:
   - '&7&oKomponent'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fPermanente Kreatiewe Vlug.'
+  - '&fHet ''n paar spoedverstellings.'
+  - '&f&oVlieg net soos ''n voël~'
+  name: '&6Vlugedelsteen'
   type:
   - '&7&oToestel'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Kreatiewe Vlug binne ''n gebied van 45 blokke'
+  name: '&6Antigravitasieborrel'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Regsklik ''n masjien se voorkant om items outomaties daarin te'
+  - '&7trek vanuit ''n aangrensende inventaris. Word met gebruik verbruik.'
+  name: '&6Outo-insetopgradering'
   type:
   - '&7&oToestel'
+  usage:
+  - '&eRegsklik&7 ''n masjien se voorkant om toe te pas.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fMaak outomaties Kombuisresepte'
+  - '&f&oRuik na koekies'
+  name: '&6Outo-kombuis'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Regsklik ''n masjien se voorkant om sy uitsetitems outomaties'
+  - '&7in ''n aangrensende inventaris te stoot. Word met gebruik verbruik.'
+  name: '&6Outo-uitsetopgradering'
   type:
   - '&7&oToestel'
+  usage:
+  - '&eRegsklik&7 ''n masjien se voorkant om toe te pas.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fBestuur Itembande'
+  name: '&6Itembandbestuurder'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fStoot mobs binne ''n radius weg.'
+  name: '&6Doringdraad'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_BEE:
+  description:
+  - '&7Word binne-in ''n Materiaalkorf geplaas om sy produksie te versnel.'
+  name: '&6By'
   type:
   - '&7&oHulpbron'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fBillon-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fGeelkoper-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fKarbonado-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fSteenkool-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_COAL_COKE:
+  name: '&fSteenkoolkooks'
   type:
   - '&7&oHulpbron'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Beheer ''n 3x3x3 steen-multiblokkooksoond.'
+  - '&7Omskep items wat in die insetvat geplaas is met'
+  - '&7verloop van tyd in oondgebakte uitsette.'
+  name: '&fKooksoondbeheerder'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&eRegsklik&7 om die multiblokstruktuur te bekragtig.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fKobalt-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fKoper-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fKorintiese Brons-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fDamaskusstaal-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cVerweerde Draakeiermeul'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cVerweerde Draakeierturbine'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cVerweerde Watermeul'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cVerweerde Hidroturbine'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cVerweerde Windmeul'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cVerweerde Windturbine'
   type:
   - '&7&oKomponent'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fDiamant-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fDiamantmasjienkern'
   type:
   - '&7&oKomponent'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fTeleporteer jou na ''n'
+  - '&faparte dimensionele tuiste en terug'
+  - '&f&oOos wes, tuis bes'
+  name: '&6Dimensionele Tuiste'
   type:
   - '&7&oToestel'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Ruil duursaamheid vir krag.'
+  name: '&bAfslytgenerator'
+  stats:
+  - '&8⇨ &e⚡ &7256 J Buffer'
+  - '&8⇨ &e⚡ &78 J per duursaamheidspunt'
   type:
   - '&7&oKragopwekker'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fDuraluminium-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Verweer mettertyd.'
+  name: '&bDraakeiermeul'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Buffer'
   type:
   - '&7&oKragopwekker'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Verweer mettertyd.'
+  name: '&bDraakeierturbine'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Buffer'
   type:
   - '&7&oKragopwekker'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fVoer jou outomaties met energie'
+  - '&f&oStimuleer jou sintuie.'
+  name: '&6Elektriese Stimuleerder'
   type:
   - '&7&oToestel'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fSmarag-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bBetowerde Masjienkern'
   type:
   - '&7&oKomponent'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fGroei outomaties &dchorusblomme.'
+  name: '&dEinde-groeikamer'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fGroei outomaties &dchorusblomme.'
+  - '&c3x produksie.'
+  name: '&dEinde-groeikamer MK2'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cEnergie-insetkomponent'
   type:
   - '&7&oKomponent'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cEnergie-uitsetkomponent'
   type:
   - '&7&oKomponent'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cEnergiebergingskomponent'
   type:
   - '&7&oKomponent'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fVerhit Oonde, Hoogoonde'
+  - '&fen Rokers van buite af.'
+  name: '&6Eksterne Verhitter'
+  stats:
+  - '&8⇨ &e⚡ &72048 J Buffer'
+  - '&8⇨ &e⚡ &7128 J per verhitte blok'
   type:
   - '&7&oMasjien'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fFerrosilikon-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7''n Spesiale emmer wat vloeistof ophoop soos jy standaard-emmers'
+  - '&7naby vul of leegmaak, en stoor tot 16,000 mB.'
+  name: '&fVloeistoftenk'
+  stats:
+  - '&7Kapasiteit: &e16000mb'
   type:
   - '&7&oGereedskap'
+  usage:
+  - '&eSluip&7 + &eRegsklik&7 om dit in die passende standaard-emmer te omskep.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Ruil honger vir krag'
+  name: '&bKulinêre Generator'
   stats:
   - '&8⇨ &e⚡ &7256 J Buffer'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oKragopwekker'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Spookagtige Essens'
   type:
   - '&7&oHulpbron'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fVergulde Yster-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fGoud-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fGroei outomaties &eplante&f.'
+  - '&f&oDis soos ''n klein kweekhuis!'
+  name: '&6Groeikamer'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fGroei outomaties &eplante&f.'
+  - '&f&oDis soos ''n klein kweekhuis!'
+  - '&c3x produksie.'
+  name: '&6Groeikamer MK2'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fGeharde Metaal-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fWanneer dit op wapenrusting of werktuie toegepas word'
+  - '&fgee dit jou 2 vlakke van Haas'
+  - '&f&oOpkikker!'
+  name: '&6Haastige Itemband'
   type:
   - '&7&oTalisman'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fWanneer dit op wapenrusting of werktuie toegepas word'
+  - '&fgee dit jou 2 vlakke van Gesondheidshupstoot'
+  - '&f&oOpkikker!'
+  name: '&6Gesonde Itemband'
   type:
   - '&7&oTalisman'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7''n Emmer Heuningvloeistof wat in resepte en masjiene gebruik word.'
+  name: '&fHeuningemmer'
+  stats:
+  - '&7Kapasiteit: &e1000mb'
   type:
   - '&7&oHulpbron'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fFilter items op die vloer uit wat in sy inventaris is'
+  name: '&6Inventarisfilter'
   type:
   - '&7&oToestel'
+  usage:
+  - '&eRegsklik &7om oop te maak.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fYster-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fYstermasjienkern'
   type:
   - '&7&oKomponent'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fMaak outomaties Kombuisresepte'
+  - '&f&oRuik na koekies'
+  name: '&6Kombuis-outovervaardiger'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fLapis Lazuli-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7''n Gebottelde vloeistof wat as Lawabron in resepte en masjiene gebruik word.'
+  name: '&fLawabottel'
+  stats:
+  - '&7Kapasiteit: &e250mb'
   type:
   - '&7&oHulpbron'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fLood-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fEenvoudige Vloeistofgryper.'
+  name: '&6Draagbare Vloeistoftenk'
+  stats:
+  - '&7Kapasiteit: &e16000mb'
   type:
   - '&7&oGereedskap'
+  usage:
+  - Regsklik om 'n vloeistof te gryp
+  - Shift-klik om 'n vloeistof te plaas
 DYNATECH_LIVINGROCK:
+  name: '&6Lewendeklip'
   type:
   - '&7&oHulpbron'
 DYNATECH_LIVINGWOOD:
+  name: '&6Lewendehout'
   type:
   - '&7&oHulpbron'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Masjienskroot'
   type:
   - '&7&oHulpbron'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fMagnesium-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fGenereer stadig materiale met behulp van krag en bye.'
+  name: '&6Materiaalkorf'
   stats:
   - '&a☢&7 Stralingsvlak: &6HOOG'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7''n Gebottelde vloeistof wat as Melkbron in resepte en masjiene gebruik word.'
+  name: '&fMelkbottel'
+  stats:
+  - '&7Kapasiteit: &e1000mb'
   type:
   - '&7&oHulpbron'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fNetheriet-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fGroei outomaties &cnether&fplante.'
+  name: '&cNethergroeikamer'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fGroei outomaties &cnether&fplante.'
+  - '&c3x produksie.'
+  name: '&cNethergroeikamer MK2'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fNikkel-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fGroei outomaties &9water&fplante.'
+  - Kan dooie koraal herleef!
+  name: '&bOseaangroeikamer'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fGroei outomaties &9water&fplante.'
+  - Kan dooie koraal herleef!
+  - '&c3x produksie.'
+  name: '&bOseaangroeikamer MK2'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_ORECHID:
+  description:
+  - '&fMet Klip of Netherack en krag maak dit hul onderskeie ertse.'
+  name: '&6Orechid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J per blok omgeskakel.'
   type:
   - '&7&oMasjien'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fVoeg vonke van die natuur by om kragtige blomme te maak'
+  name: '&dBlomblaarapteek'
   type:
   - '&7&oMasjien'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fLaat jou toe om kos te stoor'
+  - '&fVerbruik dit outomaties wanneer jy honger is'
+  - '&fMoet in jou inventaris wees'
+  name: '&6Piekniekmandjie'
+  stats:
+  - '&fGrootte: &e27'
   type:
   - '&7&oRugsak'
+  usage:
+  - '&eRegsklik &7om oop te maak.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7''n Emmer Toordrankvloeistof wat in resepte en masjiene gebruik word.'
+  name: '&fToordrankemmer'
+  stats:
+  - '&7Kapasiteit: &e1000mb'
   type:
   - '&7&oHulpbron'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fLangafstandtoediener van toordrankeffekte op meer as een persoon.'
+  name: '&6Toordranksprinkelaar'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fKwarts-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Wys ''n deursoekbare boek van elke resep wat deur DynaTech bygevoeg is.'
+  name: '&6Resepteboek'
   type:
   - '&7&oToestel'
+  usage:
+  - '&eRegsklik &7om oop te maak.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fRooiklip-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fRooikliplegering-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fVersterkte Legering-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Word binne-in ''n Materiaalkorf geplaas om sy produksie te versnel.'
+  name: '&6Robotby'
   type:
   - '&7&oHulpbron'
 DYNATECH_SCOOP:
+  description:
+  - '&fGebruik om bye te vang.'
+  - '&f&oSorg dat jy nie gesteek word nie'
+  name: '&6Skepnet'
   type:
   - '&7&oGereedskap'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fTrek sade uit plantgebaseerde items.'
+  name: '&6Saadplukker'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fSilwer-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fSoldeersel-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fLaat jou toe om kos te stoor'
+  - '&fVerbruik dit outomaties wanneer jy honger is'
+  - '&fMoet in jou inventaris wees'
+  - '&dSielgebonde'
+  name: '&6Sielgebonde Piekniekmandjie'
+  stats:
+  - '&fGrootte: &e27'
   type:
   - '&7&oRugsak'
+  usage:
+  - '&eRegsklik &7om oop te maak.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fVlekvrye Staalstaaf'
   type:
   - '&7&oHulpbron'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fVlekvrye Staalrotor'
   type:
   - '&7&oHulpbron'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Ruil Sterstof vir ''n groot hoeveelheid krag.'
+  name: '&bSterstofreaktor'
   stats:
   - '&8⇨ &e⚡ &732768 J Buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oKragopwekker'
 DYNATECH_STAR_DUST:
+  name: '&6Sterstof'
   type:
   - '&7&oHulpbron'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fStaal-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fKlipmasjienkern'
   type:
   - '&7&oKomponent'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fSintetiese Diamant-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fSintetiese Smarag-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fSintetiese Saffier-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_TESSERACT:
+  description:
+  - '&fDra Items en Energie Draadloos oor'
+  - '&fHierdie is selfs 2-rigting!'
+  name: '&6Tesserak'
   stats:
   - '&8⇨ &e⚡ &765535 J Buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMasjien'
+  usage:
+  - Regsklik op 'n ander Tesserak om te koppel!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oDit glinster en verskuif in jou hande'
+  name: '&6Tesserakterende Voorwerp'
   type:
   - '&7&oHulpbron'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Gebruik om 2 Tesserakte saam te bind.'
+  name: '&6Tesserakbinder'
   type:
   - '&7&oGereedskap'
+  usage:
+  - '&fRegsklik om die Ligging van die Tesserak te kry'
+  - '&fHurk Regsklik om die ligging aan die Tesserak te bind'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fTin-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 DYNATECH_VEX_GEM:
+  name: '&6Vex-edelsteen'
   type:
   - '&7&oHulpbron'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Verweer mettertyd.'
+  name: '&bWatermeul'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Buffer'
   type:
   - '&7&oKragopwekker'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Verweer mettertyd.'
+  name: '&bHidroturbine'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Buffer'
   type:
   - '&7&oKragopwekker'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fBeheer die weer wanneer dit ''n sleutelitem ontvang.'
+  name: '&6Weerbeheerder'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Verweer mettertyd.'
+  name: '&bWindmeul'
+  stats:
+  - '&fMinimum Energie-opwekkingstempo: &b16j/tik'
+  - '&fMaksimum Energie-opwekkingstempo: &b64j/tik'
+  - '&8⇨ &e⚡ &7256 J Buffer'
   type:
   - '&7&oKragopwekker'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Verweer mettertyd.'
+  name: '&bWindturbine'
+  stats:
+  - '&fMinimum Energie-opwekkingstempo: &b64j/tik'
+  - '&fMaksimum Energie-opwekkingstempo: &b256j/tik'
+  - '&8⇨ &e⚡ &71024 J Buffer'
   type:
   - '&7&oKragopwekker'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fLaai items in jou inventaris draadloos'
+  name: '&6Draadlose Laaier'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fStoor krag vir ''n'
+  - '&fDraadlose Energiepunt om te gebruik.'
+  name: '&6Draadlose Energiebank'
   stats:
   - '&8⇨ &e⚡ &710240 J Buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMasjien'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fDra Energie Draadloos oor'
+  - '&fvanaf ''n Draadlose Energiebank'
+  name: '&6Draadlose Energiepunt'
   stats:
   - '&8⇨ &e⚡ &75120 J Buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMasjien'
+  usage:
+  - Regsklik op die Draadlose Energiebank om te koppel!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fDra Items Draadloos oor'
+  - '&f na Draadlose Item-uitset'
+  name: '&6Draadlose Item-inset'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per stapel items'
   type:
   - '&7&oMasjien'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fDra Items Draadloos oor'
+  - '&fvanaf Draadlose Item-inset'
+  name: '&6Draadlose Item-uitset'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per stapel items'
   type:
   - '&7&oMasjien'
+  usage:
+  - Regsklik op die Draadlose Item-inset om te koppel!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Skep 'n Wither-skelet
+  name: '&6Wither-golem-multiblok'
   type:
   - '&7&oMultiblok'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fHoutmasjienkern'
   type:
   - '&7&oKomponent'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fProduseer ''n materiaal'
+  - '&fmet behulp van bye'
+  name: '&fSink-gemineraliseerde Byestal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMasjien'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
+  name: '&bPhantom-datakaart'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
 STARDUST_METEOR:
+  description:
+  - '&fGeomyn uit Berg- of Badlands-biome'
+  name: '&6Sterstofmeteoor'
   type:
   - '&7&oHulpbron'
 VEX_DATA_CARD:
+  description:
+  - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
+  name: '&bVex-datakaart'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
