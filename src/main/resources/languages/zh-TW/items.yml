@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6進階機器廢料'
   type:
   - '&7&o資源'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7放入材料蜂巢內可加快其生產速度。'
+  name: '&6進階機械蜜蜂'
   type:
   - '&7&o資源'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f鋁礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f鋁黃銅礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f鋁青銅礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&f遠古機器核心'
   type:
   - '&7&o元件'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&f永久的創造模式飛行。'
+  - '&f具備一些速度調整設定。'
+  - '&f&o像鳥一樣自在飛翔~'
+  name: '&6飛行寶石'
   type:
   - '&7&o裝置'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f 在 45 方塊範圍內可創造模式飛行'
+  name: '&6反重力氣泡'
   stats:
   - '&8⇨ &e⚡ &7128 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7右鍵點擊機器面板, 即可自動從相鄰的'
+  - '&7物品欄把物品拉進去。使用後消耗。'
+  name: '&6自動輸入升級'
   type:
   - '&7&o裝置'
+  usage:
+  - '&e右鍵點擊&7機器面板即可套用。'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&f自動製作廚房配方'
+  - '&f&o聞起來像餅乾'
+  name: '&6自動廚房'
   stats:
   - '&8⇨ &b⚡ &7速度：&b1x'
   - '&8⇨ &e⚡ &716 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7右鍵點擊機器面板, 即可自動把產出物品'
+  - '&7推入相鄰的物品欄。使用後消耗。'
+  name: '&6自動輸出升級'
   type:
   - '&7&o裝置'
+  usage:
+  - '&e右鍵點擊&7機器面板即可套用。'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&f管理物品環'
+  name: '&6物品環管理器'
   stats:
   - '&8⇨ &e⚡ &748 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&f將半徑範圍內的生物推開。'
+  name: '&6刺鐵絲網'
   stats:
   - '&8⇨ &e⚡ &716 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_BEE:
+  description:
+  - '&7放入材料蜂巢內可加快其生產速度。'
+  name: '&6蜜蜂'
   type:
   - '&7&o資源'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f銀銅合金礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f黃銅礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f黑鑽石礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f煤炭礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_COAL_COKE:
+  name: '&f焦炭'
   type:
   - '&7&o資源'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7控制一座 3x3x3 磚造多方塊結構焦炭爐。'
+  - '&7將放入輸入木桶的物品隨時間轉換成'
+  - '&7爐烤後的產物。'
+  name: '&f焦炭爐控制器'
   type:
   - '&7&o多重方塊'
+  usage:
+  - '&e右鍵點擊&7以驗證多方塊結構。'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f鈷礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f銅礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f科林斯青銅礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f大馬士革鋼礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&c耗損的龍蛋磨機'
   type:
   - '&7&o元件'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&c耗損的龍蛋渦輪機'
   type:
   - '&7&o元件'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&c耗損的水力磨機'
   type:
   - '&7&o元件'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&c耗損的水力渦輪機'
   type:
   - '&7&o元件'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&c耗損的風力磨機'
   type:
   - '&7&o元件'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&c耗損的風力渦輪機'
   type:
   - '&7&o元件'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f鑽石礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&f鑽石機器核心'
   type:
   - '&7&o元件'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&f將你傳送到一個'
+  - '&f獨立的次元居所, 並可傳送回來'
+  - '&f&o甜蜜的家'
+  name: '&6次元居所'
   type:
   - '&7&o裝置'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7以耐久度換取電力。'
+  name: '&b損耗發電機'
+  stats:
+  - '&8⇨ &e⚡ &7256 J 緩衝'
+  - '&8⇨ &e⚡ &78 J 每點耐久度'
   type:
   - '&7&o發電機'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f杜拉鋁礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7會隨時間耗損。'
+  name: '&b龍蛋磨機'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J 緩衝'
   type:
   - '&7&o發電機'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7會隨時間耗損。'
+  name: '&b龍蛋渦輪機'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J 緩衝'
   type:
   - '&7&o發電機'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&f消耗能量自動為你進食'
+  - '&f&o刺激你的感官。'
+  name: '&6電流刺激器'
   type:
   - '&7&o裝置'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f綠寶石礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&b附魔機器核心'
   type:
   - '&7&o元件'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&f自動生長&d歌萊花。'
+  name: '&d終界生長室'
   stats:
   - '&8⇨ &b⚡ &7速度：&b1x'
   - '&8⇨ &e⚡ &732 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&f自動生長&d歌萊花。'
+  - '&c3x 產量。'
+  name: '&d終界生長室 MK2'
   stats:
   - '&8⇨ &b⚡ &7速度：&b3x'
   - '&8⇨ &e⚡ &7128 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&c能量輸入元件'
   type:
   - '&7&o元件'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&c能量輸出元件'
   type:
   - '&7&o元件'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&c能量儲存元件'
   type:
   - '&7&o元件'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&f從外部加熱熔爐、高爐'
+  - '&f與煙燻爐。'
+  name: '&6外部加熱器'
+  stats:
+  - '&8⇨ &e⚡ &72048 J 緩衝'
+  - '&8⇨ &e⚡ &7128 J 每個加熱的方塊'
   type:
   - '&7&o機器'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f矽鐵礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7一種特殊的桶, 當你在附近裝填或清空原版'
+  - '&7桶時會累積流體, 最多可儲存 16,000 mB。'
+  name: '&f流體槽'
+  stats:
+  - '&7容量: &e16000mb'
   type:
   - '&7&o工具'
+  usage:
+  - '&e潛行&7 + &e右鍵點擊&7即可將它轉換成對應的原版桶。'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7以飢餓值換取電力'
+  name: '&b烹飪發電機'
   stats:
   - '&8⇨ &e⚡ &7256 J 緩衝'
   - '&8⇨ &e⚡ &78 J/秒'
   type:
   - '&7&o發電機'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6幽魂精華'
   type:
   - '&7&o資源'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f鍍金鐵礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f金礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&f自動生長&e植物&f。'
+  - '&f&o它就像一座小溫室!'
+  name: '&6生長室'
   stats:
   - '&8⇨ &b⚡ &7速度：&b1x'
   - '&8⇨ &e⚡ &732 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&f自動生長&e植物&f。'
+  - '&f&o它就像一座小溫室!'
+  - '&c3x 產量。'
+  name: '&6生長室 MK2'
   stats:
   - '&8⇨ &b⚡ &7速度：&b3x'
   - '&8⇨ &e⚡ &7128 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f硬化金屬礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&f當套用於盔甲或工具時'
+  - '&f給予你 2 級的挖掘加速'
+  - '&f&o能力提升!'
+  name: '&6急速物品環'
   type:
   - '&7&o護符'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&f當套用於盔甲或工具時'
+  - '&f給予你 2 級的生命值提升'
+  - '&f&o能力提升!'
+  name: '&6健康物品環'
   type:
   - '&7&o護符'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7一桶蜂蜜流體, 用於配方與機器。'
+  name: '&f蜂蜜桶'
+  stats:
+  - '&7容量: &e1000mb'
   type:
   - '&7&o資源'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&f濾除地上與其物品欄內相符的物品'
+  name: '&6物品欄過濾器'
   type:
   - '&7&o裝置'
+  usage:
+  - '&e右鍵點擊 &7以開啟。'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f鐵礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&f鐵製機器核心'
   type:
   - '&7&o元件'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&f自動製作廚房配方'
+  - '&f&o聞起來像餅乾'
+  name: '&6廚房自動合成器'
   stats:
   - '&8⇨ &b⚡ &7速度：&b1x'
   - '&8⇨ &e⚡ &716 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f青金石礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7瓶裝流體, 在配方與機器中作為熔岩來源。'
+  name: '&f熔岩瓶'
+  stats:
+  - '&7容量: &e250mb'
   type:
   - '&7&o資源'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f鉛礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&f簡易的液體擷取器。'
+  name: '&6攜帶式液體槽'
+  stats:
+  - '&7容量: &e16000mb'
   type:
   - '&7&o工具'
+  usage:
+  - 右鍵點擊以抓取流體
+  - Shift 點擊以放置流體
 DYNATECH_LIVINGROCK:
+  name: '&6活石'
   type:
   - '&7&o資源'
 DYNATECH_LIVINGWOOD:
+  name: '&6活木'
   type:
   - '&7&o資源'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6機器廢料'
   type:
   - '&7&o資源'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f鎂礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&f利用電力與蜜蜂緩慢產生材料。'
+  name: '&6材料蜂巢'
   stats:
   - '&a☢&7 輻射等級：&6高'
   - '&8⇨ &e⚡ &71024 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7瓶裝流體, 在配方與機器中作為牛奶來源。'
+  name: '&f牛奶瓶'
+  stats:
+  - '&7容量: &e1000mb'
   type:
   - '&7&o資源'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f獄髓礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&f自動生長&c地獄&f植物。'
+  name: '&c地獄生長室'
   stats:
   - '&8⇨ &b⚡ &7速度：&b1x'
   - '&8⇨ &e⚡ &732 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&f自動生長&c地獄&f植物。'
+  - '&c3x 產量。'
+  name: '&c地獄生長室 MK2'
   stats:
   - '&8⇨ &b⚡ &7速度：&b3x'
   - '&8⇨ &e⚡ &7128 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f鎳礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&f自動生長&9水生&f植物。'
+  - 可以復活死亡的珊瑚!
+  name: '&b海洋生長室'
   stats:
   - '&8⇨ &b⚡ &7速度：&b1x'
   - '&8⇨ &e⚡ &732 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&f自動生長&9水生&f植物。'
+  - 可以復活死亡的珊瑚!
+  - '&c3x 產量。'
+  name: '&b海洋生長室 MK2'
   stats:
   - '&8⇨ &b⚡ &7速度：&b3x'
   - '&8⇨ &e⚡ &7128 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_ORECHID:
+  description:
+  - '&f利用石頭或地獄岩與電力製造出對應的礦石。'
+  name: '&6礦石蘭'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 每轉換一個方塊。'
   type:
   - '&7&o機器'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&f加入自然之火花即可製作出強大的花朵'
+  name: '&d花瓣藥劑台'
   type:
   - '&7&o機器'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&f讓你儲存食物'
+  - '&f當你飢餓時自動食用它們'
+  - '&f必須放在你的物品欄中'
+  name: '&6野餐籃'
+  stats:
+  - '&f大小: &e27'
   type:
   - '&7&o背包'
+  usage:
+  - '&e右鍵點擊 &7以開啟。'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7一桶藥水流體, 用於配方與機器。'
+  name: '&f藥水桶'
+  stats:
+  - '&7容量: &e1000mb'
   type:
   - '&7&o資源'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&f可遠距為多人施加藥水效果的裝置。'
+  name: '&6藥水灑佈器'
   stats:
   - '&8⇨ &e⚡ &732 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f石英礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7顯示一本可搜尋的書, 收錄 DynaTech 新增的每個配方。'
+  name: '&6配方書'
   type:
   - '&7&o裝置'
+  usage:
+  - '&e右鍵點擊 &7以開啟。'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f紅石礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f紅石合金礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f強化合金礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7放入材料蜂巢內可加快其生產速度。'
+  name: '&6機械蜜蜂'
   type:
   - '&7&o資源'
 DYNATECH_SCOOP:
+  description:
+  - '&f用於捕捉蜜蜂。'
+  - '&f&o小心別被螫到'
+  name: '&6撈網'
   type:
   - '&7&o工具'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&f從植物類物品中取出種子。'
+  name: '&6種子摘取器'
   stats:
   - '&8⇨ &e⚡ &732 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f銀礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f焊錫礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&f讓你儲存食物'
+  - '&f當你飢餓時自動食用它們'
+  - '&f必須放在你的物品欄中'
+  - '&d靈魂綁定'
+  name: '&6靈魂綁定野餐籃'
+  stats:
+  - '&f大小: &e27'
   type:
   - '&7&o背包'
+  usage:
+  - '&e右鍵點擊 &7以開啟。'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&f不鏽鋼錠'
   type:
   - '&7&o資源'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&f不鏽鋼轉子'
   type:
   - '&7&o資源'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7以星塵換取大量電力。'
+  name: '&b星塵反應爐'
   stats:
   - '&8⇨ &e⚡ &732768 J 緩衝'
   - '&8⇨ &e⚡ &71024 J/秒'
   type:
   - '&7&o發電機'
 DYNATECH_STAR_DUST:
+  name: '&6星塵'
   type:
   - '&7&o資源'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f鋼礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&f石製機器核心'
   type:
   - '&7&o元件'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f合成鑽石礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f合成綠寶石礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f合成藍寶石礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_TESSERACT:
+  description:
+  - '&f無線傳輸物品與能量'
+  - '&f它們甚至是 2-向傳輸的!'
+  name: '&6超立方體'
   stats:
   - '&8⇨ &e⚡ &765535 J 緩衝'
   - '&8⇨ &e⚡ &71024 J/秒'
   type:
   - '&7&o機器'
+  usage:
+  - 右鍵點擊另一個超立方體即可連結!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&o它在你手中閃爍變幻'
+  name: '&6超立方化物件'
   type:
   - '&7&o資源'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f 用於將 2 個超立方體綁定在一起。'
+  name: '&6超立方體綁定器'
   type:
   - '&7&o工具'
+  usage:
+  - '&f右鍵點擊以取得超立方體的位置'
+  - '&f潛行右鍵點擊以將位置綁定到超立方體'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f錫礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 DYNATECH_VEX_GEM:
+  name: '&6惱鬼寶石'
   type:
   - '&7&o資源'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7會隨時間耗損。'
+  name: '&b水力磨機'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J 緩衝'
   type:
   - '&7&o發電機'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7會隨時間耗損。'
+  name: '&b水力渦輪機'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J 緩衝'
   type:
   - '&7&o發電機'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&f給予關鍵物品後即可控制天氣。'
+  name: '&6天氣控制器'
   stats:
   - '&8⇨ &e⚡ &732 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7會隨時間耗損。'
+  name: '&b風力磨機'
+  stats:
+  - '&f最低能量發電速率: &b16j/刻'
+  - '&f最高能量發電速率: &b64j/刻'
+  - '&8⇨ &e⚡ &7256 J 緩衝'
   type:
   - '&7&o發電機'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7會隨時間耗損。'
+  name: '&b風力渦輪機'
+  stats:
+  - '&f最低能量發電速率: &b64j/刻'
+  - '&f最高能量發電速率: &b256j/刻'
+  - '&8⇨ &e⚡ &71024 J 緩衝'
   type:
   - '&7&o發電機'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&f無線為你物品欄中的物品充電'
+  name: '&6無線充電器'
   stats:
   - '&8⇨ &e⚡ &716 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&f儲存電力, 供'
+  - '&f無線能量節點使用。'
+  name: '&6無線能量庫'
   stats:
   - '&8⇨ &e⚡ &710240 J 緩衝'
   - '&8⇨ &e⚡ &71024 J/秒'
   type:
   - '&7&o機器'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&f無線傳輸能量'
+  - '&f來源為無線能量庫'
+  name: '&6無線能量節點'
   stats:
   - '&8⇨ &e⚡ &75120 J 緩衝'
   - '&8⇨ &e⚡ &71024 J/秒'
   type:
   - '&7&o機器'
+  usage:
+  - 右鍵點擊無線能量庫即可連結!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&f無線傳輸物品'
+  - '&f 至無線物品輸出端'
+  name: '&6無線物品輸入端'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 緩衝'
+  - '&8⇨ &e⚡ &78 J 每組物品'
   type:
   - '&7&o機器'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&f無線傳輸物品'
+  - '&f來源為無線物品輸入端'
+  name: '&6無線物品輸出端'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 緩衝'
+  - '&8⇨ &e⚡ &78 J 每組物品'
   type:
   - '&7&o機器'
+  usage:
+  - 右鍵點擊無線物品輸入端即可連結!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - 生成一隻凋零骷髏
+  name: '&6凋零魔像多方塊結構'
   type:
   - '&7&o多重方塊'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&f木製機器核心'
   type:
   - '&7&o元件'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&f產出一種材料'
+  - '&f藉助蜜蜂的力量'
+  name: '&f鋅礦化蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 緩衝'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o機器'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7放入生物模擬室即可啟動'
+  name: '&b夜魅資料卡'
   stats:
   - '&8⇨ &e⚡ &7300 J/秒'
   type:
   - '&7&o元件'
 STARDUST_METEOR:
+  description:
+  - '&f從山地或惡地生態域中開採而得'
+  name: '&6星塵隕石'
   type:
   - '&7&o資源'
 VEX_DATA_CARD:
+  description:
+  - '&7放入生物模擬室即可啟動'
+  name: '&b惱鬼資料卡'
   stats:
   - '&8⇨ &e⚡ &7300 J/秒'
   type:
