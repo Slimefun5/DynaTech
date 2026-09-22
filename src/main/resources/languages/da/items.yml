@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Avanceret maskinskrot'
   type:
   - '&7&oRessource'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Placeres i et materialebistade for at sætte farten op på dets produktion.'
+  name: '&6Avanceret robotbi'
   type:
   - '&7&oRessource'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fAluminiummineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fAluminiummessing-mineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fAluminiumbronze-mineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fÆldgammel maskinkerne'
   type:
   - '&7&oKomponent'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fPermanent kreativ flyvning.'
+  - '&fHar indstillinger til justering af hastigheden.'
+  - '&f&oFlyv ligesom en fugl~'
+  name: '&6Flyveædelsten'
   type:
   - '&7&oGadget'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Kreativ flyvning inden for et område på 45 blokke'
+  name: '&6Antigravitationsboble'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Højreklik på en maskines forside for automatisk at trække genstande'
+  - '&7ind i den fra et tilstødende inventar. Forbruges ved brug.'
+  name: '&6Auto-indgangsopgradering'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eHøjreklik&7 på en maskines forside for at anvende den.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fLaver automatisk køkkenopskrifter'
+  - '&f&oDer dufter af småkager'
+  name: '&6Autokøkken'
   stats:
   - '&8⇨ &b⚡ &7Hastighed: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Højreklik på en maskines forside for automatisk at skubbe dens'
+  - '&7udgangsgenstande ind i et tilstødende inventar. Forbruges ved brug.'
+  name: '&6Auto-udgangsopgradering'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eHøjreklik&7 på en maskines forside for at anvende den.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fStyrer genstandsbånd'
+  name: '&6Genstandsbåndsstyring'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fSkubber mobs væk inden for en radius.'
+  name: '&6Pigtråd'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_BEE:
+  description:
+  - '&7Placeres i et materialebistade for at sætte farten op på dets produktion.'
+  name: '&6Bi'
   type:
   - '&7&oRessource'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fBillonmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fMessingmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fCarbonadomineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fKulmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_COAL_COKE:
+  name: '&fKulkoks'
   type:
   - '&7&oRessource'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Styrer en 3x3x3 koksovn af mursten som multiblok.'
+  - '&7Omdanner genstande lagt i indgangstønden til'
+  - '&7ovnbagte resultater over tid.'
+  name: '&fKoksovnsstyreenhed'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&eHøjreklik&7 for at validere multiblokstrukturen.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fKoboltmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fKobbermineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fKorinthisk bronze-mineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fDamaskusstål-mineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cNedslidt drageægsmølle'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cNedslidt drageægsturbine'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cNedslidt vandmølle'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cNedslidt vandturbine'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cNedslidt vindmølle'
   type:
   - '&7&oKomponent'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cNedslidt vindturbine'
   type:
   - '&7&oKomponent'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fDiamantmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fDiamantmaskinkerne'
   type:
   - '&7&oKomponent'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fTeleporterer dig til et'
+  - '&fsærskilt dimensionshjem og tilbage'
+  - '&f&oHjem, kære hjem'
+  name: '&6Dimensionshjem'
   type:
   - '&7&oGadget'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Bytter holdbarhed for strøm.'
+  name: '&bSlidgenerator'
+  stats:
+  - '&8⇨ &e⚡ &7256 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. holdbarhedspoint'
   type:
   - '&7&oGenerator'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fDuraluminmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Nedslides med tiden.'
+  name: '&bDrageægsmølle'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J buffer'
   type:
   - '&7&oGenerator'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Nedslides med tiden.'
+  name: '&bDrageægsturbine'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J buffer'
   type:
   - '&7&oGenerator'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fFodrer dig automatisk mod energi'
+  - '&f&oStimuler dine sanser.'
+  name: '&6Elektrisk stimulator'
   type:
   - '&7&oGadget'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fSmaragdmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bFortryllet maskinkerne'
   type:
   - '&7&oKomponent'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fDyrker automatisk &dchorusblomster.'
+  name: '&dEnd-vækstkammer'
   stats:
   - '&8⇨ &b⚡ &7Hastighed: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fDyrker automatisk &dchorusblomster.'
+  - '&c3x produktion.'
+  name: '&dEnd-vækstkammer MK2'
   stats:
   - '&8⇨ &b⚡ &7Hastighed: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cEnergiindgangskomponent'
   type:
   - '&7&oKomponent'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cEnergiudgangskomponent'
   type:
   - '&7&oKomponent'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cEnergiopbevaringskomponent'
   type:
   - '&7&oKomponent'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fOpvarmer udefra ovne, smelteovne'
+  - '&fog rygeovne.'
+  name: '&6Ekstern varmer'
+  stats:
+  - '&8⇨ &e⚡ &72048 J buffer'
+  - '&8⇨ &e⚡ &7128 J pr. opvarmet blok'
   type:
   - '&7&oMaskine'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fFerrosiliciummineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7En særlig spand, der opsamler væske, når du fylder eller tømmer'
+  - '&7vanilla-spande i nærheden, og rummer op til 16,000 mB.'
+  name: '&fVæsketank'
+  stats:
+  - '&7Kapacitet: &e16000mb'
   type:
   - '&7&oVærktøj'
+  usage:
+  - '&eSnig&7 + &eHøjreklik&7 for at omdanne den til den tilsvarende vanilla-spand.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Bytter sult for strøm'
+  name: '&bKulinarisk generator'
   stats:
   - '&8⇨ &e⚡ &7256 J buffer'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oGenerator'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Spøgelsesagtig essens'
   type:
   - '&7&oRessource'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fForgyldt jern-mineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fGuldmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fDyrker automatisk &eplanter&f.'
+  - '&f&oDet er som et lille drivhus!'
+  name: '&6Vækstkammer'
   stats:
   - '&8⇨ &b⚡ &7Hastighed: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fDyrker automatisk &eplanter&f.'
+  - '&f&oDet er som et lille drivhus!'
+  - '&c3x produktion.'
+  name: '&6Vækstkammer MK2'
   stats:
   - '&8⇨ &b⚡ &7Hastighed: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fHærdet metal-mineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fNår det sættes på rustning eller værktøj'
+  - '&fgiver det dig 2 niveauer af Hast'
+  - '&f&oStyrkeboost!'
+  name: '&6Hastigt genstandsbånd'
   type:
   - '&7&oTalisman'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fNår det sættes på rustning eller værktøj'
+  - '&fgiver det dig 2 niveauer af Helbredsforøgelse'
+  - '&f&oStyrkeboost!'
+  name: '&6Sundt genstandsbånd'
   type:
   - '&7&oTalisman'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7En spand med honningvæske, der bruges i opskrifter og maskiner.'
+  name: '&fHonningspand'
+  stats:
+  - '&7Kapacitet: &e1000mb'
   type:
   - '&7&oRessource'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fFrasorterer genstande på jorden, som findes i dens inventar'
+  name: '&6Inventarfilter'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eHøjreklik &7for at åbne.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fJernmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fJernmaskinkerne'
   type:
   - '&7&oKomponent'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fLaver automatisk køkkenopskrifter'
+  - '&f&oDer dufter af småkager'
+  name: '&6Køkkenautofremstiller'
   stats:
   - '&8⇨ &b⚡ &7Hastighed: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fLapis lazuli-mineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7En væske på flaske, der bruges som lavakilde i opskrifter og maskiner.'
+  name: '&fLavaflaske'
+  stats:
+  - '&7Kapacitet: &e250mb'
   type:
   - '&7&oRessource'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fBlymineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fSimpel væskesnupper.'
+  name: '&6Bærbar væsketank'
+  stats:
+  - '&7Kapacitet: &e16000mb'
   type:
   - '&7&oVærktøj'
+  usage:
+  - Højreklik for at opsamle en væske
+  - Shift-klik for at placere en væske
 DYNATECH_LIVINGROCK:
+  name: '&6Levende sten'
   type:
   - '&7&oRessource'
 DYNATECH_LIVINGWOOD:
+  name: '&6Levende træ'
   type:
   - '&7&oRessource'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Maskinskrot'
   type:
   - '&7&oRessource'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fMagnesiummineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fGenererer langsomt materialer ved hjælp af strøm og bier.'
+  name: '&6Materialebistade'
   stats:
   - '&a☢&7 Strålingsniveau: &6HØJT'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7En væske på flaske, der bruges som mælkekilde i opskrifter og maskiner.'
+  name: '&fMælkeflaske'
+  stats:
+  - '&7Kapacitet: &e1000mb'
   type:
   - '&7&oRessource'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fNetheritmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fDyrker automatisk &cnether&fplanter.'
+  name: '&cNether-vækstkammer'
   stats:
   - '&8⇨ &b⚡ &7Hastighed: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fDyrker automatisk &cnether&fplanter.'
+  - '&c3x produktion.'
+  name: '&cNether-vækstkammer MK2'
   stats:
   - '&8⇨ &b⚡ &7Hastighed: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fNikkelmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fDyrker automatisk &9vand&fplanter.'
+  - Kan genoplive dødt koral!
+  name: '&bHavvækstkammer'
   stats:
   - '&8⇨ &b⚡ &7Hastighed: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fDyrker automatisk &9vand&fplanter.'
+  - Kan genoplive dødt koral!
+  - '&c3x produktion.'
+  name: '&bHavvækstkammer MK2'
   stats:
   - '&8⇨ &b⚡ &7Hastighed: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_ORECHID:
+  description:
+  - '&fLaver de tilsvarende malme ud af sten eller netherrack ved hjælp af strøm.'
+  name: '&6Malmorkidé'
+  stats:
+  - '&8⇨ &e⚡ &71024 J pr. omdannet blok.'
   type:
   - '&7&oMaskine'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fTilsæt naturens gnister for at skabe kraftfulde blomster'
+  name: '&dKronbladsapotek'
   type:
   - '&7&oMaskine'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fGiver dig mulighed for at opbevare mad'
+  - '&fSpiser dem automatisk, når du er sulten'
+  - '&fSkal være i dit inventar'
+  name: '&6Picnickurv'
+  stats:
+  - '&fStørrelse: &e27'
   type:
   - '&7&oRygsæk'
+  usage:
+  - '&eHøjreklik &7for at åbne.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7En spand med eliksirvæske, der bruges i opskrifter og maskiner.'
+  name: '&fEliksirspand'
+  stats:
+  - '&7Kapacitet: &e1000mb'
   type:
   - '&7&oRessource'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fGiver eliksireffekter til flere personer på afstand.'
+  name: '&6Eliksirspreder'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fKvartsmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Viser en søgbar bog over alle opskrifter, som DynaTech tilføjer.'
+  name: '&6Opskriftsbog'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eHøjreklik &7for at åbne.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fRedstonemineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fRedstonelegering-mineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fForstærket legering-mineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Placeres i et materialebistade for at sætte farten op på dets produktion.'
+  name: '&6Robotbi'
   type:
   - '&7&oRessource'
 DYNATECH_SCOOP:
+  description:
+  - '&fBruges til at fange bier.'
+  - '&f&oPas på ikke at blive stukket'
+  name: '&6Fangstnet'
   type:
   - '&7&oVærktøj'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fTrækker frø ud af plantebaserede genstande.'
+  name: '&6Frøplukker'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fSølvmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fLoddemetalmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fGiver dig mulighed for at opbevare mad'
+  - '&fSpiser dem automatisk, når du er sulten'
+  - '&fSkal være i dit inventar'
+  - '&dSjælebundet'
+  name: '&6Sjælebundet picnickurv'
+  stats:
+  - '&fStørrelse: &e27'
   type:
   - '&7&oRygsæk'
+  usage:
+  - '&eHøjreklik &7for at åbne.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fRustfri stålbarre'
   type:
   - '&7&oRessource'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fRustfri stålrotor'
   type:
   - '&7&oRessource'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Bytter stjernestøv for en stor mængde strøm.'
+  name: '&bStjernestøvsreaktor'
   stats:
   - '&8⇨ &e⚡ &732768 J buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGenerator'
 DYNATECH_STAR_DUST:
+  name: '&6Stjernestøv'
   type:
   - '&7&oRessource'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fStålmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fStenmaskinkerne'
   type:
   - '&7&oKomponent'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fSyntetisk diamant-mineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fSyntetisk smaragd-mineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fSyntetisk safir-mineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_TESSERACT:
+  description:
+  - '&fOverfører genstande og energi trådløst'
+  - '&fDe er endda 2-vejs!'
+  name: '&6Tesserakt'
   stats:
   - '&8⇨ &e⚡ &765535 J buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMaskine'
+  usage:
+  - Højreklik på en anden tesserakt for at forbinde!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oDen glimter og skifter form i dine hænder'
+  name: '&6Tesserakterende genstand'
   type:
   - '&7&oRessource'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Bruges til at binde 2 tesserakter sammen.'
+  name: '&6Tesseraktbinder'
   type:
   - '&7&oVærktøj'
+  usage:
+  - '&fHøjreklik for at få en tesserakts placering'
+  - '&fSnig + højreklik for at binde placeringen til tesserakten'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fTinmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 DYNATECH_VEX_GEM:
+  name: '&6Vex-ædelsten'
   type:
   - '&7&oRessource'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Nedslides med tiden.'
+  name: '&bVandmølle'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J buffer'
   type:
   - '&7&oGenerator'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Nedslides med tiden.'
+  name: '&bVandturbine'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J buffer'
   type:
   - '&7&oGenerator'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fStyrer vejret, når den får en nøglegenstand.'
+  name: '&6Vejrstyreenhed'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Nedslides med tiden.'
+  name: '&bVindmølle'
+  stats:
+  - '&fMindste energiproduktionsrate: &b16j/tick'
+  - '&fStørste energiproduktionsrate: &b64j/tick'
+  - '&8⇨ &e⚡ &7256 J buffer'
   type:
   - '&7&oGenerator'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Nedslides med tiden.'
+  name: '&bVindturbine'
+  stats:
+  - '&fMindste energiproduktionsrate: &b64j/tick'
+  - '&fStørste energiproduktionsrate: &b256j/tick'
+  - '&8⇨ &e⚡ &71024 J buffer'
   type:
   - '&7&oGenerator'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fOplader genstande i dit inventar trådløst'
+  name: '&6Trådløs oplader'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fOpbevarer strøm, som et'
+  - '&ftrådløst energipunkt kan bruge.'
+  name: '&6Trådløs energibank'
   stats:
   - '&8⇨ &e⚡ &710240 J buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMaskine'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fOverfører energi trådløst'
+  - '&ffra en trådløs energibank'
+  name: '&6Trådløst energipunkt'
   stats:
   - '&8⇨ &e⚡ &75120 J buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMaskine'
+  usage:
+  - Højreklik på den trådløse energibank for at forbinde!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fOverfører genstande trådløst'
+  - '&f til trådløs genstandsudgang'
+  name: '&6Trådløs genstandsindgang'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. stak genstande'
   type:
   - '&7&oMaskine'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fOverfør genstande trådløst'
+  - '&ffra trådløs genstandsindgang'
+  name: '&6Trådløs genstandsudgang'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. stak genstande'
   type:
   - '&7&oMaskine'
+  usage:
+  - Højreklik på den trådløse genstandsindgang for at forbinde!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Fremkalder et witherskelet
+  name: '&6Withergolem-multiblok'
   type:
   - '&7&oMultiblok'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fTræmaskinkerne'
   type:
   - '&7&oKomponent'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fProducerer et materiale'
+  - '&fved hjælp af bier'
+  name: '&fZinkmineraliseret bigård'
+  stats:
+  - '&8⇨ &e⚡ &716384 J buffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMaskine'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Placer i et mobsimulationskammer for at aktivere'
+  name: '&bPhantom-datakort'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
 STARDUST_METEOR:
+  description:
+  - '&fUdvindes fra bjerg- eller badlands-biomer'
+  name: '&6Stjernestøvsmeteor'
   type:
   - '&7&oRessource'
 VEX_DATA_CARD:
+  description:
+  - '&7Placer i et mobsimulationskammer for at aktivere'
+  name: '&bVex-datakort'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
