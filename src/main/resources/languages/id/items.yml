@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Rongsokan Mesin Canggih'
   type:
   - '&7&oSumber Daya'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Ditempatkan di dalam Sarang Bahan untuk mempercepat produksinya.'
+  name: '&6Lebah Robotik Canggih'
   type:
   - '&7&oSumber Daya'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Aluminium'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Kuningan Aluminium'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Perunggu Aluminium'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fInti Mesin Kuno'
   type:
   - '&7&oKomponen'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fTerbang Kreatif permanen.'
+  - '&fMemiliki beberapa pengaturan penyesuaian kecepatan.'
+  - '&f&oTerbang seperti burung~'
+  name: '&6Permata Terbang'
   type:
   - '&7&oGadget'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Terbang Kreatif dalam area 45 blok'
+  name: '&6Gelembung Antigravitasi'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Klik kanan sisi mesin untuk otomatis menarik item ke'
+  - '&7dalamnya dari inventaris berdekatan. Habis saat digunakan.'
+  name: '&6Peningkatan Masukan Otomatis'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eKlik Kanan&7 sisi mesin untuk menerapkannya.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fOtomatis membuat resep Dapur'
+  - '&f&oBaunya seperti kue kering'
+  name: '&6Dapur Otomatis'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Klik kanan sisi mesin untuk otomatis mendorong item'
+  - '&7keluarannya ke inventaris berdekatan. Habis saat digunakan.'
+  name: '&6Peningkatan Keluaran Otomatis'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eKlik Kanan&7 sisi mesin untuk menerapkannya.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fMengelola Gelang Item'
+  name: '&6Pengelola Gelang Item'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fMendorong mob menjauh dalam radius.'
+  name: '&6Kawat Berduri'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_BEE:
+  description:
+  - '&7Ditempatkan di dalam Sarang Bahan untuk mempercepat produksinya.'
+  name: '&6Lebah'
   type:
   - '&7&oSumber Daya'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Billon'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Kuningan'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Karbonado'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Batu Bara'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_COAL_COKE:
+  name: '&fKokas Batu Bara'
   type:
   - '&7&oSumber Daya'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Mengendalikan tungku kokas multiblok bata 3x3x3.'
+  - '&7Mengubah item yang ditaruh di tong masukan menjadi'
+  - '&7keluaran matang tungku seiring waktu.'
+  name: '&fPengendali Tungku Kokas'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eKlik Kanan&7 untuk memvalidasi struktur multiblok.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Kobalt'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Tembaga'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Perunggu Korintus'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Baja Damaskus'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cKincir Telur Naga Usang'
   type:
   - '&7&oKomponen'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cTurbin Telur Naga Usang'
   type:
   - '&7&oKomponen'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cKincir Air Usang'
   type:
   - '&7&oKomponen'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cTurbin Hidro Usang'
   type:
   - '&7&oKomponen'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cKincir Angin Usang'
   type:
   - '&7&oKomponen'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cTurbin Angin Usang'
   type:
   - '&7&oKomponen'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Berlian'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fInti Mesin Berlian'
   type:
   - '&7&oKomponen'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fMemindahkanmu ke'
+  - '&frumah dimensi terpisah dan kembali'
+  - '&f&oRumahku Istanaku'
+  name: '&6Rumah Dimensi'
   type:
   - '&7&oGadget'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Menukar daya tahan item menjadi daya.'
+  name: '&bGenerator Pengikis'
+  stats:
+  - '&8⇨ &e⚡ &7256 J Penyangga'
+  - '&8⇨ &e⚡ &78 J per titik daya tahan'
   type:
   - '&7&oGenerator'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Duralumin'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Menurun seiring waktu.'
+  name: '&bKincir Telur Naga'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Penyangga'
   type:
   - '&7&oGenerator'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Menurun seiring waktu.'
+  name: '&bTurbin Telur Naga'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Penyangga'
   type:
   - '&7&oGenerator'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fOtomatis memberimu makan dengan energi'
+  - '&f&oRangsang inderamu.'
+  name: '&6Stimulator Listrik'
   type:
   - '&7&oGadget'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Zamrud'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bInti Mesin Termantrai'
   type:
   - '&7&oKomponen'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fOtomatis menumbuhkan &dbunga chorus.'
+  name: '&dRuang Pertumbuhan End'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fOtomatis menumbuhkan &dbunga chorus.'
+  - '&cProduksi 3x.'
+  name: '&dRuang Pertumbuhan End MK2'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cKomponen Masukan Energi'
   type:
   - '&7&oKomponen'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cKomponen Keluaran Energi'
   type:
   - '&7&oKomponen'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cKomponen Penyimpanan Energi'
   type:
   - '&7&oKomponen'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fMemanaskan Tungku, Tungku Peleburan,'
+  - '&fdan Pengasap dari luar.'
+  name: '&6Pemanas Eksternal'
+  stats:
+  - '&8⇨ &e⚡ &72048 J Penyangga'
+  - '&8⇨ &e⚡ &7128 J per blok yang dipanaskan'
   type:
   - '&7&oMesin'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Ferosilikon'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Ember khusus yang mengumpulkan cairan saat kamu mengisi atau mengosongkan'
+  - '&7ember vanilla terdekat, menyimpan hingga 16,000 mB.'
+  name: '&fTangki Cairan'
+  stats:
+  - '&7Kapasitas: &e16000mb'
   type:
   - '&7&oAlat'
+  usage:
+  - '&eMenunduk&7 + &eKlik Kanan&7 untuk mengubahnya menjadi ember vanilla yang cocok.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Menukar Kelaparan menjadi daya'
+  name: '&bGenerator Kuliner'
   stats:
   - '&8⇨ &e⚡ &7256 J Buffer'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oGenerator'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Esensi Hantu'
   type:
   - '&7&oSumber Daya'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Besi Bersepuh Emas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Emas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fOtomatis menumbuhkan &etanaman&f.'
+  - '&f&oSeperti rumah kaca kecil!'
+  name: '&6Ruang Pertumbuhan'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fOtomatis menumbuhkan &etanaman&f.'
+  - '&f&oSeperti rumah kaca kecil!'
+  - '&cProduksi 3x.'
+  name: '&6Ruang Pertumbuhan MK2'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Logam Keras'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fSaat diterapkan pada zirah atau alat'
+  - '&fmemberimu 2 level Ketergesaan'
+  - '&f&oPenambah kekuatan!'
+  name: '&6Gelang Item Gesit'
   type:
   - '&7&oJimat'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fSaat diterapkan pada zirah atau alat'
+  - '&fmemberimu 2 level Peningkatan Nyawa'
+  - '&f&oPenambah kekuatan!'
+  name: '&6Gelang Item Sehat'
   type:
   - '&7&oJimat'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Seember cairan Madu yang dipakai di resep dan mesin.'
+  name: '&fEmber Madu'
+  stats:
+  - '&7Kapasitas: &e1000mb'
   type:
   - '&7&oSumber Daya'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fMenyaring item di lantai yang ada di inventarisnya'
+  name: '&6Penyaring Inventaris'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eKlik Kanan &7untuk membuka.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Besi'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fInti Mesin Besi'
   type:
   - '&7&oKomponen'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fOtomatis membuat resep Dapur'
+  - '&f&oBaunya seperti kue kering'
+  name: '&6Perakit Otomatis Dapur'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Lapis Lazuli'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Cairan dalam botol yang dipakai sebagai sumber Lava di resep dan mesin.'
+  name: '&fBotol Lava'
+  stats:
+  - '&7Kapasitas: &e250mb'
   type:
   - '&7&oSumber Daya'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Timbal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fPenyedot cairan sederhana.'
+  name: '&6Tangki Cairan Portabel'
+  stats:
+  - '&7Kapasitas: &e16000mb'
   type:
   - '&7&oAlat'
+  usage:
+  - Klik kanan untuk mengambil cairan
+  - Shift klik untuk meletakkan cairan
 DYNATECH_LIVINGROCK:
+  name: '&6Batu Hidup'
   type:
   - '&7&oSumber Daya'
 DYNATECH_LIVINGWOOD:
+  name: '&6Kayu Hidup'
   type:
   - '&7&oSumber Daya'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Rongsokan Mesin'
   type:
   - '&7&oSumber Daya'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Magnesium'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fMenggunakan daya dan lebah, perlahan menghasilkan bahan.'
+  name: '&6Sarang Bahan'
   stats:
   - '&a☢&7 Tingkat radiasi: &6TINGGI'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Cairan dalam botol yang dipakai sebagai sumber Susu di resep dan mesin.'
+  name: '&fBotol Susu'
+  stats:
+  - '&7Kapasitas: &e1000mb'
   type:
   - '&7&oSumber Daya'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Netherite'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fOtomatis menumbuhkan tanaman &cnether&f.'
+  name: '&cRuang Pertumbuhan Nether'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fOtomatis menumbuhkan tanaman &cnether&f.'
+  - '&cProduksi 3x.'
+  name: '&cRuang Pertumbuhan Nether MK2'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Nikel'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fOtomatis menumbuhkan tanaman &9air&f.'
+  - Dapat menghidupkan kembali koral mati!
+  name: '&bRuang Pertumbuhan Laut'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fOtomatis menumbuhkan tanaman &9air&f.'
+  - Dapat menghidupkan kembali koral mati!
+  - '&cProduksi 3x.'
+  name: '&bRuang Pertumbuhan Laut MK2'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_ORECHID:
+  description:
+  - '&fMenggunakan Batu atau Netherrack dan daya, menghasilkan bijih masing-masing.'
+  name: '&6Orechid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J per blok yang diubah.'
   type:
   - '&7&oMesin'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fTambahkan percikan alam untuk membuat bunga yang kuat'
+  name: '&dApotek Kelopak'
   type:
   - '&7&oMesin'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fMemungkinkanmu menyimpan makanan'
+  - '&fOtomatis memakannya saat kamu lapar'
+  - '&fHarus ada di inventarismu'
+  name: '&6Keranjang Piknik'
+  stats:
+  - '&fUkuran: &e27'
   type:
   - '&7&oTas'
+  usage:
+  - '&eKlik Kanan &7untuk membuka.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Seember cairan Ramuan yang dipakai di resep dan mesin.'
+  name: '&fEmber Ramuan'
+  stats:
+  - '&7Kapasitas: &e1000mb'
   type:
   - '&7&oSumber Daya'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fPenerap efek ramuan jarak jauh untuk banyak orang.'
+  name: '&6Penyemprot Ramuan'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Kuarsa'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Menampilkan buku yang dapat dicari berisi setiap resep dari DynaTech.'
+  name: '&6Buku Resep'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eKlik Kanan &7untuk membuka.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Redstone'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Paduan Redstone'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Paduan Diperkuat'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Ditempatkan di dalam Sarang Bahan untuk mempercepat produksinya.'
+  name: '&6Lebah Robotik'
   type:
   - '&7&oSumber Daya'
 DYNATECH_SCOOP:
+  description:
+  - '&fDigunakan untuk menangkap lebah.'
+  - '&f&oJangan sampai tersengat'
+  name: '&6Serok'
   type:
   - '&7&oAlat'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fMenarik benih dari item berbahan tanaman.'
+  name: '&6Pemetik Benih'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Perak'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Patri'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fMemungkinkanmu menyimpan makanan'
+  - '&fOtomatis memakannya saat kamu lapar'
+  - '&fHarus ada di inventarismu'
+  - '&dTerikat Jiwa'
+  name: '&6Keranjang Piknik Terikat Jiwa'
+  stats:
+  - '&fUkuran: &e27'
   type:
   - '&7&oTas'
+  usage:
+  - '&eKlik Kanan &7untuk membuka.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fBatangan Baja Nirkarat'
   type:
   - '&7&oSumber Daya'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fRotor Baja Nirkarat'
   type:
   - '&7&oSumber Daya'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Menukar Serbuk Bintang menjadi daya dalam jumlah besar.'
+  name: '&bReaktor Serbuk Bintang'
   stats:
   - '&8⇨ &e⚡ &732768 J Buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGenerator'
 DYNATECH_STAR_DUST:
+  name: '&6Serbuk Bintang'
   type:
   - '&7&oSumber Daya'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Baja'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fInti Mesin Batu'
   type:
   - '&7&oKomponen'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Berlian Sintetis'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Zamrud Sintetis'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Safir Sintetis'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_TESSERACT:
+  description:
+  - '&fMemindahkan Item dan Energi secara nirkabel'
+  - '&fIni bahkan 2-arah!'
+  name: '&6Tesseract'
   stats:
   - '&8⇨ &e⚡ &765535 J Buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMesin'
+  usage:
+  - Klik Kanan pada Tesseract lain untuk menyambung!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oBenda ini berkilau dan bergeser di tanganmu'
+  name: '&6Objek Tesseract'
   type:
   - '&7&oSumber Daya'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Digunakan untuk mengikat 2 Tesseract bersama.'
+  name: '&6Pengikat Tesseract'
   type:
   - '&7&oAlat'
+  usage:
+  - '&fKlik kanan untuk mendapatkan Lokasi Tesseract'
+  - '&fJongkok Klik Kanan untuk mengikat lokasi ke Tesseract'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Timah'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 DYNATECH_VEX_GEM:
+  name: '&6Permata Vex'
   type:
   - '&7&oSumber Daya'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Menurun seiring waktu.'
+  name: '&bKincir Air'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Penyangga'
   type:
   - '&7&oGenerator'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Menurun seiring waktu.'
+  name: '&bTurbin Hidro'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Penyangga'
   type:
   - '&7&oGenerator'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fMengendalikan cuaca saat diberi item kunci.'
+  name: '&6Pengendali Cuaca'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Menurun seiring waktu.'
+  name: '&bKincir Angin'
+  stats:
+  - '&fLaju Pembangkitan Energi Minimum: &b16j/tik'
+  - '&fLaju Pembangkitan Energi Maksimum: &b64j/tik'
+  - '&8⇨ &e⚡ &7256 J Penyangga'
   type:
   - '&7&oGenerator'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Menurun seiring waktu.'
+  name: '&bTurbin Angin'
+  stats:
+  - '&fLaju Pembangkitan Energi Minimum: &b64j/tik'
+  - '&fLaju Pembangkitan Energi Maksimum: &b256j/tik'
+  - '&8⇨ &e⚡ &71024 J Penyangga'
   type:
   - '&7&oGenerator'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fIsi daya item di inventarismu secara nirkabel'
+  name: '&6Pengisi Daya Nirkabel'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fMenyimpan daya untuk'
+  - '&fdigunakan Titik Energi Nirkabel.'
+  name: '&6Bank Energi Nirkabel'
   stats:
   - '&8⇨ &e⚡ &710240 J Buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMesin'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fMemindahkan Energi secara nirkabel'
+  - '&fdari Bank Energi Nirkabel'
+  name: '&6Titik Energi Nirkabel'
   stats:
   - '&8⇨ &e⚡ &75120 J Buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMesin'
+  usage:
+  - Klik Kanan pada Bank Energi Nirkabel untuk menyambung!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fMemindahkan Item secara nirkabel'
+  - '&f ke Keluaran Item Nirkabel'
+  name: '&6Masukan Item Nirkabel'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penyangga'
+  - '&8⇨ &e⚡ &78 J per tumpukan item'
   type:
   - '&7&oMesin'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fMemindahkan Item secara nirkabel'
+  - '&fdari Masukan Item Nirkabel'
+  name: '&6Keluaran Item Nirkabel'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penyangga'
+  - '&8⇨ &e⚡ &78 J per tumpukan item'
   type:
   - '&7&oMesin'
+  usage:
+  - Klik Kanan pada Masukan Item Nirkabel untuk menyambung!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Memunculkan Kerangka Wither
+  name: '&6Multiblok Golem Wither'
   type:
   - '&7&oMultiblock'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fInti Mesin Kayu'
   type:
   - '&7&oKomponen'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fMenghasilkan bahan'
+  - '&fdengan bantuan lebah'
+  name: '&fApiari Termineralisasi Seng'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Penyangga'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMesin'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
+  name: '&bKartu Data Phantom'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponen'
 STARDUST_METEOR:
+  description:
+  - '&fDitambang secara geologis dari Bioma Pegunungan atau Badlands'
+  name: '&6Meteor Serbuk Bintang'
   type:
   - '&7&oSumber Daya'
 VEX_DATA_CARD:
+  description:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
+  name: '&bKartu Data Vex'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
