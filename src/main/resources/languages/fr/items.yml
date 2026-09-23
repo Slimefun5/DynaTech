@@ -3,19 +3,39 @@ DYNATECH_ADVANCED_MACHINE_SCRAP:
   type:
   - '&7&oRessource'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Placé à l''intérieur d''une Ruche à matériaux pour accélérer sa production.'
   name: '&6Abeille robotique avancée'
   type:
   - '&7&oRessource'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en aluminium'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en laiton d''aluminium'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en bronze d''aluminium'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_ANCIENT_MACHINE_CORE:
@@ -23,20 +43,34 @@ DYNATECH_ANCIENT_MACHINE_CORE:
   type:
   - '&7&oComposant'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fVol créatif permanent.'
+  - '&fPossède quelques réglages de vitesse.'
+  - '&f&oVolez comme un oiseau~'
   name: '&6Gemme de vol'
   type:
   - '&7&oGadget'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Vol créatif dans une zone de 45 blocs'
   name: '&6Bulle antigravité'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMachine'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Clic droit sur la face d''une machine pour y aspirer automatiquement les objets'
+  - '&7depuis un inventaire adjacent. Consommé à l''usage.'
   name: '&6Amélioration d''entrée automatique'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eClic droit&7 sur la face d''une machine pour l''appliquer.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fRéalise automatiquement les recettes de Cuisine'
+  - '&f&oÇa sent le biscuit'
   name: '&6Cuisine automatique'
   stats:
   - '&8⇨ &b⚡ &7Vitesse : &b1x'
@@ -44,39 +78,74 @@ DYNATECH_AUTO_KITCHEN:
   type:
   - '&7&oMachine'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Clic droit sur la face d''une machine pour pousser automatiquement ses objets'
+  - '&7de sortie dans un inventaire adjacent. Consommé à l''usage.'
   name: '&6Amélioration de sortie automatique'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eClic droit&7 sur la face d''une machine pour l''appliquer.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fGère les Bandes d''objet'
   name: '&6Gestionnaire de bandeaux d''objet'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oMachine'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fRepousse les créatures dans un rayon.'
   name: '&6Fil barbelé'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMachine'
 DYNATECH_BEE:
+  description:
+  - '&7Placé à l''intérieur d''une Ruche à matériaux pour accélérer sa production.'
   name: '&6Abeille'
   type:
   - '&7&oRessource'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en billon'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en laiton'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en carbonado'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en charbon'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_COAL_COKE:
@@ -84,23 +153,53 @@ DYNATECH_COAL_COKE:
   type:
   - '&7&oRessource'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Contrôle un four à coke multibloc 3x3x3 en briques.'
+  - '&7Convertit les objets placés dans le tonneau d''entrée en'
+  - '&7produits cuits au four, avec le temps.'
   name: '&fContrôleur de four à coke'
   type:
   - '&7&oMultibloc'
+  usage:
+  - '&eClic droit&7 pour valider la structure multibloc.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en cobalt'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en cuivre'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en bronze corinthien'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en acier de Damas'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_DEGRADED_EGG_MILL:
@@ -128,7 +227,13 @@ DYNATECH_DEGRADED_WIND_MILL_2:
   type:
   - '&7&oComposant'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en diamant'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_DIAMOND_MACHINE_CORE:
@@ -136,31 +241,65 @@ DYNATECH_DIAMOND_MACHINE_CORE:
   type:
   - '&7&oComposant'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fVous téléporte vers une'
+  - '&fdemeure dimensionnelle séparée, puis vous ramène'
+  - '&f&oDouce demeure'
   name: '&6Maison dimensionnelle'
   type:
   - '&7&oGadget'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Échange la durabilité contre de l''énergie.'
   name: '&bGénérateur d''usure'
+  stats:
+  - '&8⇨ &e⚡ &7256 J de tampon'
+  - '&8⇨ &e⚡ &78 J par point de durabilité'
   type:
   - '&7&oGénérateur'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en duralumin'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Se dégrade avec le temps.'
   name: '&bMoulin à œuf de dragon'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J de tampon'
   type:
   - '&7&oGénérateur'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Se dégrade avec le temps.'
   name: '&bTurbine à œuf de dragon'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J de tampon'
   type:
   - '&7&oGénérateur'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fVous nourrit automatiquement grâce à l''énergie'
+  - '&f&oStimulez vos sens.'
   name: '&6Stimulateur électrique'
   type:
   - '&7&oGadget'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en émeraude'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_ENCHANTED_MACHINE_CORE:
@@ -168,6 +307,8 @@ DYNATECH_ENCHANTED_MACHINE_CORE:
   type:
   - '&7&oComposant'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fFait pousser automatiquement les &dfleurs de chorus.'
   name: '&dChambre de croissance de l''End'
   stats:
   - '&8⇨ &b⚡ &7Vitesse : &b1x'
@@ -175,6 +316,9 @@ DYNATECH_END_GROWTH_CHAMBER:
   type:
   - '&7&oMachine'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fFait pousser automatiquement les &dfleurs de chorus.'
+  - '&cProduction 3x.'
   name: '&dChambre de croissance de l''End MK2'
   stats:
   - '&8⇨ &b⚡ &7Vitesse : &b3x'
@@ -194,18 +338,39 @@ DYNATECH_ENERGY_STORAGE_COMPONENT:
   type:
   - '&7&oComposant'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fChauffe de l''extérieur les fours, les hauts fourneaux'
+  - '&fet les fumoirs.'
   name: '&6Chauffage externe'
+  stats:
+  - '&8⇨ &e⚡ &72048 J de tampon'
+  - '&8⇨ &e⚡ &7128 J par bloc chauffé'
   type:
   - '&7&oMachine'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en ferrosilicium'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Un seau spécial qui accumule le fluide quand vous remplissez ou videz'
+  - '&7des seaux vanilla à proximité, stockant jusqu''à 16,000 mB.'
   name: '&fRéservoir de fluide'
+  stats:
+  - '&7Capacité : &e16000mb'
   type:
   - '&7&oOutil'
+  usage:
+  - '&eAccroupi&7 + &eClic droit&7 pour le convertir en seau vanilla correspondant.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Échange la faim contre de l''énergie'
   name: '&bGénérateur culinaire'
   stats:
   - '&8⇨ &e⚡ &7256 J Tampon'
@@ -217,14 +382,29 @@ DYNATECH_GHOSTLY_ESSENCE:
   type:
   - '&7&oRessource'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en fer doré'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en or'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fFait pousser automatiquement les &eplantes&f.'
+  - '&f&oC''est comme une petite serre !'
   name: '&6Chambre de croissance'
   stats:
   - '&8⇨ &b⚡ &7Vitesse : &b1x'
@@ -232,6 +412,10 @@ DYNATECH_GROWTH_CHAMBER:
   type:
   - '&7&oMachine'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fFait pousser automatiquement les &eplantes&f.'
+  - '&f&oC''est comme une petite serre !'
+  - '&cProduction 3x.'
   name: '&6Chambre de croissance MK2'
   stats:
   - '&8⇨ &b⚡ &7Vitesse : &b3x'
@@ -239,27 +423,55 @@ DYNATECH_GROWTH_CHAMBER_MARK_2:
   type:
   - '&7&oMachine'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en métal durci'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fAppliqué à une armure ou à des outils'
+  - '&fvous donne 2 niveaux de Célérité'
+  - '&f&oAmélioration !'
   name: '&6Bandeau d''objet de hâte'
   type:
   - '&7&oTalisman'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fAppliqué à une armure ou à des outils'
+  - '&fvous donne 2 niveaux de Gain de vie'
+  - '&f&oAmélioration !'
   name: '&6Bandeau d''objet de santé'
   type:
   - '&7&oTalisman'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Un seau de Miel liquide utilisé dans les recettes et les machines.'
   name: '&fSeau de miel'
+  stats:
+  - '&7Capacité : &e1000mb'
   type:
   - '&7&oRessource'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fFiltre les objets au sol qui se trouvent dans son inventaire'
   name: '&6Filtre d''inventaire'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eClic droit &7pour ouvrir.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en fer'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_IRON_MACHINE_CORE:
@@ -267,6 +479,9 @@ DYNATECH_IRON_MACHINE_CORE:
   type:
   - '&7&oComposant'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fRéalise automatiquement les recettes de Cuisine'
+  - '&f&oÇa sent le biscuit'
   name: '&6Fabricateur automatique de cuisine'
   stats:
   - '&8⇨ &b⚡ &7Vitesse : &b1x'
@@ -274,21 +489,44 @@ DYNATECH_KITCHEN_AUTO_CRAFTER:
   type:
   - '&7&oMachine'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en lapis-lazuli'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Un fluide en bouteille utilisé comme source de Lave dans les recettes et les machines.'
   name: '&fBouteille de lave'
+  stats:
+  - '&7Capacité : &e250mb'
   type:
   - '&7&oRessource'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en plomb'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fSimple attrapeur de liquide.'
   name: '&6Réservoir de liquide portable'
+  stats:
+  - '&7Capacité : &e16000mb'
   type:
   - '&7&oOutil'
+  usage:
+  - Clic droit pour attraper un fluide
+  - Shift + clic pour placer un fluide
 DYNATECH_LIVINGROCK:
   name: '&6Roche vivante'
   type:
@@ -302,10 +540,18 @@ DYNATECH_MACHINE_SCRAP:
   type:
   - '&7&oRessource'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en magnésium'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fEn utilisant l''énergie et les abeilles, génère lentement des matériaux.'
   name: '&6Ruche de matériaux'
   stats:
   - '&a☢&7 Niveau de radiation : &6ÉLEVÉ'
@@ -313,14 +559,26 @@ DYNATECH_MATERIAL_HIVE:
   type:
   - '&7&oMachine'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Un fluide en bouteille utilisé comme source de Lait dans les recettes et les machines.'
   name: '&fBouteille de lait'
+  stats:
+  - '&7Capacité : &e1000mb'
   type:
   - '&7&oRessource'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en netherite'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fFait pousser automatiquement les plantes du &cNether&f.'
   name: '&cChambre de croissance du Nether'
   stats:
   - '&8⇨ &b⚡ &7Vitesse : &b1x'
@@ -328,6 +586,9 @@ DYNATECH_NETHER_GROWTH_CHAMBER:
   type:
   - '&7&oMachine'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fFait pousser automatiquement les plantes du &cNether&f.'
+  - '&cProduction 3x.'
   name: '&cChambre de croissance du Nether MK2'
   stats:
   - '&8⇨ &b⚡ &7Vitesse : &b3x'
@@ -335,10 +596,19 @@ DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
   type:
   - '&7&oMachine'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en nickel'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fFait pousser automatiquement les plantes &9aquatiques&f.'
+  - Peut faire revivre le corail mort !
   name: '&bChambre de croissance océanique'
   stats:
   - '&8⇨ &b⚡ &7Vitesse : &b1x'
@@ -346,6 +616,10 @@ DYNATECH_OCEAN_GROWTH_CHAMBER:
   type:
   - '&7&oMachine'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fFait pousser automatiquement les plantes &9aquatiques&f.'
+  - Peut faire revivre le corail mort !
+  - '&cProduction 3x.'
   name: '&bChambre de croissance océanique MK2'
   stats:
   - '&8⇨ &b⚡ &7Vitesse : &b3x'
@@ -353,73 +627,149 @@ DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
   type:
   - '&7&oMachine'
 DYNATECH_ORECHID:
+  description:
+  - '&fEn utilisant de la Pierre ou du Netherrack et de l''énergie, il crée leurs minerais respectifs.'
   name: '&6Orchidée à minerai'
+  stats:
+  - '&8⇨ &e⚡ &71024 J par bloc converti.'
   type:
   - '&7&oMachine'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fAjoutez des étincelles de nature pour créer des fleurs puissantes'
   name: '&dApothicaire à pétales'
   type:
   - '&7&oMachine'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fVous permet de stocker de la nourriture'
+  - '&fLes consomme automatiquement quand vous avez faim'
+  - '&fDoit être dans votre inventaire'
   name: '&6Panier de pique-nique'
+  stats:
+  - '&fTaille : &e27'
   type:
   - '&7&oSac à dos'
+  usage:
+  - '&eClic droit &7pour ouvrir.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Un seau de Potion liquide utilisé dans les recettes et les machines.'
   name: '&fSeau de potion'
+  stats:
+  - '&7Capacité : &e1000mb'
   type:
   - '&7&oRessource'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fApplicateur d''effet de potion à distance sur plusieurs personnes.'
   name: '&6Arroseur de potion'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMachine'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en quartz'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Affiche un livre consultable de chaque recette ajoutée par DynaTech.'
   name: '&6Livre de recettes'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eClic droit &7pour ouvrir.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en redstone'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en alliage de redstone'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en alliage renforcé'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Placé à l''intérieur d''une Ruche à matériaux pour accélérer sa production.'
   name: '&6Abeille robotique'
   type:
   - '&7&oRessource'
 DYNATECH_SCOOP:
+  description:
+  - '&fUtilisé pour capturer les abeilles.'
+  - '&f&oFaites attention à ne pas vous faire piquer'
   name: '&6Pelle'
   type:
   - '&7&oOutil'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fExtrait les graines des objets à base de plantes.'
   name: '&6Cueilleur de graines'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMachine'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en argent'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en soudure'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fVous permet de stocker de la nourriture'
+  - '&fLes consomme automatiquement quand vous avez faim'
+  - '&fDoit être dans votre inventaire'
+  - '&dLié à l''âme'
   name: '&6Panier de pique-nique lié à l''âme'
+  stats:
+  - '&fTaille : &e27'
   type:
   - '&7&oSac à dos'
+  usage:
+  - '&eClic droit &7pour ouvrir.'
 DYNATECH_STAINLESS_STEEL_INGOT:
   name: '&fLingot d''acier inoxydable'
   type:
@@ -429,6 +779,8 @@ DYNATECH_STAINLESS_STEEL_ROTOR:
   type:
   - '&7&oRessource'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Échange la Poudre d''étoile contre une grande quantité d''énergie.'
   name: '&bRéacteur à poussière d''étoile'
   stats:
   - '&8⇨ &e⚡ &732768 J Tampon'
@@ -440,7 +792,13 @@ DYNATECH_STAR_DUST:
   type:
   - '&7&oRessource'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en acier'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_STONE_MACHINE_CORE:
@@ -448,34 +806,70 @@ DYNATECH_STONE_MACHINE_CORE:
   type:
   - '&7&oComposant'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en diamant synthétique'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en émeraude synthétique'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en saphir synthétique'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_TESSERACT:
+  description:
+  - '&fTransfère les objets et l''énergie sans fil'
+  - '&fIls sont même 2-directionnels !'
   name: '&6Tesseract'
   stats:
   - '&8⇨ &e⚡ &765535 J Tampon'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMachine'
+  usage:
+  - Clic droit sur un autre Tesseract pour vous connecter !
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oIl scintille et change de forme dans vos mains'
   name: '&6Objet tesseractant'
   type:
   - '&7&oRessource'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Utilisé pour lier 2 Tesseracts ensemble.'
   name: '&6Lieur de tesseract'
   type:
   - '&7&oOutil'
+  usage:
+  - '&fClic droit pour obtenir l''emplacement du Tesseract'
+  - '&fAccroupi + Clic droit pour lier l''emplacement au Tesseract'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en étain'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 DYNATECH_VEX_GEM:
@@ -483,34 +877,63 @@ DYNATECH_VEX_GEM:
   type:
   - '&7&oRessource'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Se dégrade avec le temps.'
   name: '&bMoulin à eau'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J de tampon'
   type:
   - '&7&oGénérateur'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Se dégrade avec le temps.'
   name: '&bTurbine hydraulique'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J de tampon'
   type:
   - '&7&oGénérateur'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fContrôle la météo lorsqu''on lui donne un objet clé.'
   name: '&6Contrôleur météo'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMachine'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Se dégrade avec le temps.'
   name: '&bMoulin à vent'
+  stats:
+  - '&fTaux de génération d''énergie minimum : &b16j/tick'
+  - '&fTaux de génération d''énergie maximum : &b64j/tick'
+  - '&8⇨ &e⚡ &7256 J de tampon'
   type:
   - '&7&oGénérateur'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Se dégrade avec le temps.'
   name: '&bÉolienne'
+  stats:
+  - '&fTaux de génération d''énergie minimum : &b64j/tick'
+  - '&fTaux de génération d''énergie maximum : &b256j/tick'
+  - '&8⇨ &e⚡ &71024 J de tampon'
   type:
   - '&7&oGénérateur'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fCharge sans fil les objets de votre inventaire'
   name: '&6Chargeur sans fil'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMachine'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fStocke l''énergie pour un'
+  - '&fPoint d''énergie sans fil à utiliser.'
   name: '&6Banque d''énergie sans fil'
   stats:
   - '&8⇨ &e⚡ &710240 J Tampon'
@@ -518,21 +941,42 @@ DYNATECH_WIRELESS_ENERGY_BANK:
   type:
   - '&7&oMachine'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fTransfère l''énergie sans fil'
+  - '&fdepuis une Banque d''énergie sans fil'
   name: '&6Point d''énergie sans fil'
   stats:
   - '&8⇨ &e⚡ &75120 J Tampon'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMachine'
+  usage:
+  - Clic droit sur la Banque d'énergie sans fil pour vous connecter !
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fTransfère les objets sans fil'
+  - '&f vers la Sortie d''objets sans fil'
   name: '&6Entrée d''objet sans fil'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par pile d''objets'
   type:
   - '&7&oMachine'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fTransfère les objets sans fil'
+  - '&fdepuis l''Entrée d''objets sans fil'
   name: '&6Sortie d''objet sans fil'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par pile d''objets'
   type:
   - '&7&oMachine'
+  usage:
+  - Clic droit sur l'Entrée d'objets sans fil pour vous connecter !
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Fait apparaître un Squelette Wither
   name: '&6MultiBloc de golem wither'
   type:
   - '&7&oMultibloc'
@@ -541,19 +985,33 @@ DYNATECH_WOOD_MACHINE_CORE:
   type:
   - '&7&oComposant'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fProduit un matériau'
+  - '&favec l''aide des abeilles'
   name: '&fRucher minéralisé en zinc'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMachine'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Placer dans une chambre de simulation de créature pour activer'
+  name: '&bCarte de données de Phantom'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oComposant'
 STARDUST_METEOR:
+  description:
+  - '&fGéo-extrait des biomes de Montagne ou de Badlands'
   name: '&6Météore de poussière d''étoile'
   type:
   - '&7&oRessource'
 VEX_DATA_CARD:
+  description:
+  - '&7Placer dans une chambre de simulation de créature pour activer'
+  name: '&bCarte de données de Vex'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
