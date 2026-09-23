@@ -3,19 +3,39 @@ DYNATECH_ADVANCED_MACHINE_SCRAP:
   type:
   - '&7&oRecurso'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Colocado dentro de una Colmena de Material para acelerar su producción.'
   name: '&6Abeja robótica avanzada'
   type:
   - '&7&oRecurso'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Aluminio'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Latón de Aluminio'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Bronce de Aluminio'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_ANCIENT_MACHINE_CORE:
@@ -23,20 +43,34 @@ DYNATECH_ANCIENT_MACHINE_CORE:
   type:
   - '&7&oComponente'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fVuelo creativo permanente.'
+  - '&fTiene ajustes de velocidad.'
+  - '&f&oVuela como un pájaro~'
   name: '&6Gema de vuelo'
   type:
   - '&7&oAparato'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Vuelo creativo dentro de un área de 45 bloques'
   name: '&6Burbuja antigravedad'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMáquina'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Clic derecho en la cara de una máquina para introducir objetos'
+  - '&7automáticamente desde un inventario adyacente. Se consume al usarse.'
   name: '&6Mejora de entrada automática'
   type:
   - '&7&oAparato'
+  usage:
+  - '&eClic derecho&7 en la cara de una máquina para aplicarla.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fPrepara automáticamente recetas de Cocina'
+  - '&f&oHuele a galletas'
   name: '&6Cocina automática'
   stats:
   - '&8⇨ &b⚡ &7Velocidad: &b1x'
@@ -44,39 +78,74 @@ DYNATECH_AUTO_KITCHEN:
   type:
   - '&7&oMáquina'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Clic derecho en la cara de una máquina para expulsar sus objetos'
+  - '&7de salida a un inventario adyacente. Se consume al usarse.'
   name: '&6Mejora de salida automática'
   type:
   - '&7&oAparato'
+  usage:
+  - '&eClic derecho&7 en la cara de una máquina para aplicarla.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fGestiona las Bandas de Objetos'
   name: '&6Gestor de bandas de objeto'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oMáquina'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fAparta a los mobs en un radio.'
   name: '&6Alambre de púas'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMáquina'
 DYNATECH_BEE:
+  description:
+  - '&7Colocado dentro de una Colmena de Material para acelerar su producción.'
   name: '&6Abeja'
   type:
   - '&7&oRecurso'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Vellón'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Latón'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Carbonado'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Carbón'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_COAL_COKE:
@@ -84,23 +153,53 @@ DYNATECH_COAL_COKE:
   type:
   - '&7&oRecurso'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Controla un horno de coque multibloque de ladrillo de 3x3x3.'
+  - '&7Convierte los objetos colocados en el barril de entrada en'
+  - '&7productos cocidos al horno con el tiempo.'
   name: '&fControlador de horno de coque'
   type:
   - '&7&oMultibloque'
+  usage:
+  - '&eClic derecho&7 para validar la estructura multibloque.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Cobalto'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Cobre'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Bronce Corintio'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Acero de Damasco'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_DEGRADED_EGG_MILL:
@@ -128,7 +227,13 @@ DYNATECH_DEGRADED_WIND_MILL_2:
   type:
   - '&7&oComponente'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Diamante'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_DIAMOND_MACHINE_CORE:
@@ -136,31 +241,65 @@ DYNATECH_DIAMOND_MACHINE_CORE:
   type:
   - '&7&oComponente'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fTe teletransporta a un'
+  - '&fhogar dimensional aparte y de vuelta'
+  - '&f&oHogar, dulce hogar'
   name: '&6Hogar dimensional'
   type:
   - '&7&oAparato'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Intercambia durabilidad por energía.'
   name: '&bGenerador de astillado'
+  stats:
+  - '&8⇨ &e⚡ &7256 J de Búfer'
+  - '&8⇨ &e⚡ &78 J por punto de durabilidad'
   type:
   - '&7&oGenerador'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Duraluminio'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Se degrada con el tiempo.'
   name: '&bMolino de huevo de dragón'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J de Búfer'
   type:
   - '&7&oGenerador'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Se degrada con el tiempo.'
   name: '&bTurbina de huevo de dragón'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J de Búfer'
   type:
   - '&7&oGenerador'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fTe alimenta automáticamente a cambio de energía'
+  - '&f&oEstimula tus sentidos.'
   name: '&6Estimulador eléctrico'
   type:
   - '&7&oAparato'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Esmeralda'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_ENCHANTED_MACHINE_CORE:
@@ -168,6 +307,8 @@ DYNATECH_ENCHANTED_MACHINE_CORE:
   type:
   - '&7&oComponente'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fCultiva automáticamente &dflores de coro.'
   name: '&dCámara de crecimiento del End'
   stats:
   - '&8⇨ &b⚡ &7Velocidad: &b1x'
@@ -175,6 +316,9 @@ DYNATECH_END_GROWTH_CHAMBER:
   type:
   - '&7&oMáquina'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fCultiva automáticamente &dflores de coro.'
+  - '&cProducción 3x.'
   name: '&dCámara de crecimiento del End MK2'
   stats:
   - '&8⇨ &b⚡ &7Velocidad: &b3x'
@@ -194,18 +338,39 @@ DYNATECH_ENERGY_STORAGE_COMPONENT:
   type:
   - '&7&oComponente'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fCalienta externamente Hornos, Altos Hornos'
+  - '&fy Ahumadores.'
   name: '&6Calentador externo'
+  stats:
+  - '&8⇨ &e⚡ &72048 J de Búfer'
+  - '&8⇨ &e⚡ &7128 J por bloque calentado'
   type:
   - '&7&oMáquina'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Ferrosilicio'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Un cubo especial que acumula fluido al llenar o vaciar'
+  - '&7cubos vanilla cercanos, almacenando hasta 16,000 mB.'
   name: '&fTanque de fluido'
+  stats:
+  - '&7Capacidad: &e16000mb'
   type:
   - '&7&oHerramienta'
+  usage:
+  - '&eAgacharse&7 + &eClic derecho&7 para convertirlo en el cubo vanilla correspondiente.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Intercambia hambre por energía'
   name: '&bGenerador culinario'
   stats:
   - '&8⇨ &e⚡ &7256 J de Búfer'
@@ -217,14 +382,29 @@ DYNATECH_GHOSTLY_ESSENCE:
   type:
   - '&7&oRecurso'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Hierro Dorado'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Oro'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fCultiva automáticamente &eplantas&f.'
+  - '&f&o¡Es como un pequeño invernadero!'
   name: '&6Cámara de crecimiento'
   stats:
   - '&8⇨ &b⚡ &7Velocidad: &b1x'
@@ -232,6 +412,10 @@ DYNATECH_GROWTH_CHAMBER:
   type:
   - '&7&oMáquina'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fCultiva automáticamente &eplantas&f.'
+  - '&f&o¡Es como un pequeño invernadero!'
+  - '&cProducción 3x.'
   name: '&6Cámara de crecimiento MK2'
   stats:
   - '&8⇨ &b⚡ &7Velocidad: &b3x'
@@ -239,27 +423,55 @@ DYNATECH_GROWTH_CHAMBER_MARK_2:
   type:
   - '&7&oMáquina'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Metal Endurecido'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fAl aplicarse a armaduras o herramientas'
+  - '&fte otorga 2 niveles de Prisa'
+  - '&f&o¡Potenciador!'
   name: '&6Banda de objeto de prisa'
   type:
   - '&7&oTalismán'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fAl aplicarse a armaduras o herramientas'
+  - '&fte otorga 2 niveles de Aumento de Vida'
+  - '&f&o¡Potenciador!'
   name: '&6Banda de objeto de salud'
   type:
   - '&7&oTalismán'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Un cubo de Miel líquida usado en recetas y máquinas.'
   name: '&fCubo de miel'
+  stats:
+  - '&7Capacidad: &e1000mb'
   type:
   - '&7&oRecurso'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fFiltra los objetos del suelo que están en su inventario'
   name: '&6Filtro de inventario'
   type:
   - '&7&oAparato'
+  usage:
+  - '&eClic derecho &7para abrir.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Hierro'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_IRON_MACHINE_CORE:
@@ -267,6 +479,9 @@ DYNATECH_IRON_MACHINE_CORE:
   type:
   - '&7&oComponente'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fPrepara automáticamente recetas de Cocina'
+  - '&f&oHuele a galletas'
   name: '&6Fabricante automático de cocina'
   stats:
   - '&8⇨ &b⚡ &7Velocidad: &b1x'
@@ -274,21 +489,44 @@ DYNATECH_KITCHEN_AUTO_CRAFTER:
   type:
   - '&7&oMáquina'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Lapislázuli'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Un fluido embotellado usado como fuente de Lava en recetas y máquinas.'
   name: '&fBotella de lava'
+  stats:
+  - '&7Capacidad: &e250mb'
   type:
   - '&7&oRecurso'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Plomo'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fRecolector de líquidos simple.'
   name: '&6Tanque de líquido portátil'
+  stats:
+  - '&7Capacidad: &e16000mb'
   type:
   - '&7&oHerramienta'
+  usage:
+  - Clic derecho para recoger un fluido
+  - Shift + clic para colocar un fluido
 DYNATECH_LIVINGROCK:
   name: '&6Roca viviente'
   type:
@@ -302,10 +540,18 @@ DYNATECH_MACHINE_SCRAP:
   type:
   - '&7&oRecurso'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Magnesio'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fUsando energía y abejas, genera materiales lentamente.'
   name: '&6Colmena de materiales'
   stats:
   - '&a☢&7 Nivel de radiación: &6ALTO'
@@ -313,14 +559,26 @@ DYNATECH_MATERIAL_HIVE:
   type:
   - '&7&oMáquina'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Un fluido embotellado usado como fuente de Leche en recetas y máquinas.'
   name: '&fBotella de leche'
+  stats:
+  - '&7Capacidad: &e1000mb'
   type:
   - '&7&oRecurso'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Netherita'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fCultiva automáticamente plantas del &cNether&f.'
   name: '&cCámara de crecimiento del Nether'
   stats:
   - '&8⇨ &b⚡ &7Velocidad: &b1x'
@@ -328,6 +586,9 @@ DYNATECH_NETHER_GROWTH_CHAMBER:
   type:
   - '&7&oMáquina'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fCultiva automáticamente plantas del &cNether&f.'
+  - '&cProducción 3x.'
   name: '&cCámara de crecimiento del Nether MK2'
   stats:
   - '&8⇨ &b⚡ &7Velocidad: &b3x'
@@ -335,10 +596,19 @@ DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
   type:
   - '&7&oMáquina'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Níquel'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fCultiva automáticamente plantas &9acuáticas&f.'
+  - ¡Puede revivir corales muertos!
   name: '&bCámara de crecimiento oceánica'
   stats:
   - '&8⇨ &b⚡ &7Velocidad: &b1x'
@@ -346,6 +616,10 @@ DYNATECH_OCEAN_GROWTH_CHAMBER:
   type:
   - '&7&oMáquina'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fCultiva automáticamente plantas &9acuáticas&f.'
+  - ¡Puede revivir corales muertos!
+  - '&cProducción 3x.'
   name: '&bCámara de crecimiento oceánica MK2'
   stats:
   - '&8⇨ &b⚡ &7Velocidad: &b3x'
@@ -353,73 +627,149 @@ DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
   type:
   - '&7&oMáquina'
 DYNATECH_ORECHID:
+  description:
+  - '&fUsando Piedra o Netherrack y energía, crea sus minerales respectivos.'
   name: '&6Orquídea de minerales'
+  stats:
+  - '&8⇨ &e⚡ &71024 J por bloque convertido.'
   type:
   - '&7&oMáquina'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fAñade chispas de naturaleza para crear flores poderosas'
   name: '&dBoticario de pétalos'
   type:
   - '&7&oMáquina'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fTe permite almacenar comida'
+  - '&fLos consume automáticamente cuando tienes hambre'
+  - '&fDebe estar en tu inventario'
   name: '&6Cesta de picnic'
+  stats:
+  - '&fTamaño: &e27'
   type:
   - '&7&oMochila'
+  usage:
+  - '&eClic derecho &7para abrir.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Un cubo de Poción líquida usado en recetas y máquinas.'
   name: '&fCubo de poción'
+  stats:
+  - '&7Capacidad: &e1000mb'
   type:
   - '&7&oRecurso'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fAplicador de efectos de poción a distancia para varias personas.'
   name: '&6Aspersor de pociones'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMáquina'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Cuarzo'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Muestra un libro consultable con cada receta añadida por DynaTech.'
   name: '&6Libro de recetas'
   type:
   - '&7&oAparato'
+  usage:
+  - '&eClic derecho &7para abrir.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Redstone'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Aleación de Redstone'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Aleación Reforzada'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Colocado dentro de una Colmena de Material para acelerar su producción.'
   name: '&6Abeja robótica'
   type:
   - '&7&oRecurso'
 DYNATECH_SCOOP:
+  description:
+  - '&fSe usa para capturar abejas.'
+  - '&f&oProcura que no te piquen'
   name: '&6Cazo'
   type:
   - '&7&oHerramienta'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fExtrae semillas de objetos de origen vegetal.'
   name: '&6Recolector de semillas'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMáquina'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Plata'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Soldadura'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fTe permite almacenar comida'
+  - '&fLos consume automáticamente cuando tienes hambre'
+  - '&fDebe estar en tu inventario'
+  - '&dVinculado al Alma'
   name: '&6Cesta de picnic vinculada al alma'
+  stats:
+  - '&fTamaño: &e27'
   type:
   - '&7&oMochila'
+  usage:
+  - '&eClic derecho &7para abrir.'
 DYNATECH_STAINLESS_STEEL_INGOT:
   name: '&fLingote de acero inoxidable'
   type:
@@ -429,6 +779,8 @@ DYNATECH_STAINLESS_STEEL_ROTOR:
   type:
   - '&7&oRecurso'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Intercambia Polvo Estelar por una gran cantidad de energía.'
   name: '&bReactor de polvo estelar'
   stats:
   - '&8⇨ &e⚡ &732768 J de Búfer'
@@ -440,7 +792,13 @@ DYNATECH_STAR_DUST:
   type:
   - '&7&oRecurso'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Acero'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_STONE_MACHINE_CORE:
@@ -448,34 +806,70 @@ DYNATECH_STONE_MACHINE_CORE:
   type:
   - '&7&oComponente'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Diamante Sintético'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Esmeralda Sintética'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Zafiro Sintético'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_TESSERACT:
+  description:
+  - '&fTransfiere objetos y energía inalámbricamente'
+  - '&f¡Además son 2-direccionales!'
   name: '&6Teseracto'
   stats:
   - '&8⇨ &e⚡ &765535 J de Búfer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMáquina'
+  usage:
+  - ¡Clic derecho en otro Teseracto para conectar!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oBrilla y cambia de forma en tus manos'
   name: '&6Objeto teseráctico'
   type:
   - '&7&oRecurso'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Se usa para vincular 2 Teseractos entre sí.'
   name: '&6Vinculador de teseracto'
   type:
   - '&7&oHerramienta'
+  usage:
+  - '&fClic derecho para obtener la ubicación del Teseracto'
+  - '&fAgacharse + Clic derecho para vincular la ubicación al Teseracto'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Estaño'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 DYNATECH_VEX_GEM:
@@ -483,34 +877,63 @@ DYNATECH_VEX_GEM:
   type:
   - '&7&oRecurso'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Se degrada con el tiempo.'
   name: '&bMolino de agua'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J de Búfer'
   type:
   - '&7&oGenerador'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Se degrada con el tiempo.'
   name: '&bTurbina hidráulica'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J de Búfer'
   type:
   - '&7&oGenerador'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fControla el clima cuando se le da un objeto clave.'
   name: '&6Controlador del clima'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMáquina'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Se degrada con el tiempo.'
   name: '&bMolino de viento'
+  stats:
+  - '&fTasa mínima de generación de energía: &b16j/tick'
+  - '&fTasa máxima de generación de energía: &b64j/tick'
+  - '&8⇨ &e⚡ &7256 J de Búfer'
   type:
   - '&7&oGenerador'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Se degrada con el tiempo.'
   name: '&bTurbina eólica'
+  stats:
+  - '&fTasa mínima de generación de energía: &b64j/tick'
+  - '&fTasa máxima de generación de energía: &b256j/tick'
+  - '&8⇨ &e⚡ &71024 J de Búfer'
   type:
   - '&7&oGenerador'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fCarga objetos de tu inventario de forma inalámbrica'
   name: '&6Cargador inalámbrico'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMáquina'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fAlmacena energía para un'
+  - '&fPunto de Energía Inalámbrico.'
   name: '&6Banco de energía inalámbrico'
   stats:
   - '&8⇨ &e⚡ &710240 J de Búfer'
@@ -518,21 +941,42 @@ DYNATECH_WIRELESS_ENERGY_BANK:
   type:
   - '&7&oMáquina'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fTransfiere energía inalámbricamente'
+  - '&fdesde un Banco de Energía Inalámbrico'
   name: '&6Punto de energía inalámbrico'
   stats:
   - '&8⇨ &e⚡ &75120 J de Búfer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMáquina'
+  usage:
+  - ¡Clic derecho en el Banco de Energía Inalámbrico para conectar!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fTransfiere objetos inalámbricamente'
+  - '&f a una Salida de Objetos Inalámbrica'
   name: '&6Entrada de objetos inalámbrica'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Búfer'
+  - '&8⇨ &e⚡ &78 J por pila de objetos'
   type:
   - '&7&oMáquina'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fTransfiere objetos inalámbricamente'
+  - '&fdesde una Entrada de Objetos Inalámbrica'
   name: '&6Salida de objetos inalámbrica'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Búfer'
+  - '&8⇨ &e⚡ &78 J por pila de objetos'
   type:
   - '&7&oMáquina'
+  usage:
+  - ¡Clic derecho en la Entrada de Objetos Inalámbrica para conectar!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Invoca un Esqueleto Wither
   name: '&6Multibloque de gólem wither'
   type:
   - '&7&oMultibloque'
@@ -541,19 +985,33 @@ DYNATECH_WOOD_MACHINE_CORE:
   type:
   - '&7&oComponente'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcon la ayuda de abejas'
   name: '&fColmena Mineralizada de Zinc'
+  stats:
+  - '&8⇨ &e⚡ &716384 J de Búfer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMáquina'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Colócala en una cámara de simulación de mobs para activarla'
+  name: '&bTarjeta de Datos de Fantasma'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oComponente'
 STARDUST_METEOR:
+  description:
+  - '&fGeoextraído de biomas de Montaña o Tierras Baldías'
   name: '&6Meteoro de polvo estelar'
   type:
   - '&7&oRecurso'
 VEX_DATA_CARD:
+  description:
+  - '&7Colócala en una cámara de simulación de mobs para activarla'
+  name: '&bTarjeta de Datos de Vex'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
