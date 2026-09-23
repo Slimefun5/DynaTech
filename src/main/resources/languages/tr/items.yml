@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Gelişmiş Makine Hurdası'
   type:
   - '&7&oKaynak'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Üretimini hızlandırmak için bir Malzeme Kovanına yerleştirilir.'
+  name: '&6Gelişmiş Robotik Arı'
   type:
   - '&7&oKaynak'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fAlüminyum Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fAlüminyum Pirinç Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fAlüminyum Bronz Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fKadim Makine Çekirdeği'
   type:
   - '&7&oBileşen'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fKalıcı Yaratıcı Mod Uçuşu.'
+  - '&fBazı hız ayarı seçenekleri vardır.'
+  - '&f&oTıpkı bir kuş gibi uç~'
+  name: '&6Uçuş Mücevheri'
   type:
   - '&7&oCihaz'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f 45 bloklu bir alan içinde Yaratıcı Mod Uçuşu'
+  name: '&6Yerçekimsiz Baloncuk'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Bir makinenin yüzüne sağ tıkla ki eşyaları otomatik olarak'
+  - '&7bitişik bir envanterden içine çeksin. Kullanınca tükenir.'
+  name: '&6Otomatik Giriş Yükseltmesi'
   type:
   - '&7&oCihaz'
+  usage:
+  - '&eSağ Tık&7 ile bir makinenin yüzüne uygula.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fMutfak tariflerini otomatik olarak yapar'
+  - '&f&oKurabiye kokuyor'
+  name: '&6Otomatik Mutfak'
   stats:
   - '&8⇨ &b⚡ &7Hız: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Bir makinenin yüzüne sağ tıkla ki çıkış eşyalarını otomatik'
+  - '&7olarak bitişik bir envantere göndersin. Kullanınca tükenir.'
+  name: '&6Otomatik Çıkış Yükseltmesi'
   type:
   - '&7&oCihaz'
+  usage:
+  - '&eSağ Tık&7 ile bir makinenin yüzüne uygula.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fEşya Bantlarını yönetir'
+  name: '&6Eşya Bandı Yöneticisi'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fBir yarıçap içindeki yaratıkları iter.'
+  name: '&6Dikenli Tel'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_BEE:
+  description:
+  - '&7Üretimini hızlandırmak için bir Malzeme Kovanına yerleştirilir.'
+  name: '&6Arı'
   type:
   - '&7&oKaynak'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fBillon Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fPirinç Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fKarbonado Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fKömür Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_COAL_COKE:
+  name: '&fKömür Koku'
   type:
   - '&7&oKaynak'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Bir 3x3x3 tuğla çok bloklu kok fırınını kontrol eder.'
+  - '&7Giriş fıçısına konan eşyaları zamanla fırında'
+  - '&7pişmiş çıkışlara dönüştürür.'
+  name: '&fKok Fırını Kontrolcüsü'
   type:
   - '&7&oYapı'
+  usage:
+  - '&eSağ Tık&7 ile çok bloklu yapıyı doğrula.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fKobalt Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fBakır Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fKorint Bronzu Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fŞam Çeliği Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cYıpranmış Ejderha Yumurtası Değirmeni'
   type:
   - '&7&oBileşen'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cYıpranmış Ejderha Yumurtası Türbini'
   type:
   - '&7&oBileşen'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cYıpranmış Su Değirmeni'
   type:
   - '&7&oBileşen'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cYıpranmış Su Türbini'
   type:
   - '&7&oBileşen'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cYıpranmış Yel Değirmeni'
   type:
   - '&7&oBileşen'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cYıpranmış Rüzgar Türbini'
   type:
   - '&7&oBileşen'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fElmas Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fElmas Makine Çekirdeği'
   type:
   - '&7&oBileşen'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fSeni ayrı bir boyutsal eve'
+  - '&fve geri ışınlar'
+  - '&f&oEv, güzel ev'
+  name: '&6Boyutsal Ev'
   type:
   - '&7&oCihaz'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Dayanıklılığı güce çevirir.'
+  name: '&bAşındırma Jeneratörü'
+  stats:
+  - '&8⇨ &e⚡ &7256 J Tampon'
+  - '&8⇨ &e⚡ &78 J dayanıklılık puanı başına'
   type:
   - '&7&oJeneratör'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fDuralümin Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Zamanla yıpranır.'
+  name: '&bEjderha Yumurtası Değirmeni'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Tampon'
   type:
   - '&7&oJeneratör'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Zamanla yıpranır.'
+  name: '&bEjderha Yumurtası Türbini'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Tampon'
   type:
   - '&7&oJeneratör'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fEnerji karşılığında seni otomatik olarak besler'
+  - '&f&oDuyularını uyar.'
+  name: '&6Elektriksel Uyarıcı'
   type:
   - '&7&oCihaz'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fZümrüt Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bBüyülenmiş Makine Çekirdeği'
   type:
   - '&7&oBileşen'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fOtomatik olarak &dchorus çiçeklerini büyütür.'
+  name: '&dEnd Büyüme Odası'
   stats:
   - '&8⇨ &b⚡ &7Hız: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fOtomatik olarak &dchorus çiçeklerini büyütür.'
+  - '&c3x üretim.'
+  name: '&dEnd Büyüme Odası MK2'
   stats:
   - '&8⇨ &b⚡ &7Hız: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cEnerji Giriş Bileşeni'
   type:
   - '&7&oBileşen'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cEnerji Çıkış Bileşeni'
   type:
   - '&7&oBileşen'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cEnerji Depolama Bileşeni'
   type:
   - '&7&oBileşen'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fFırınları, Eritme Ocaklarını ve Tütsüleyicileri'
+  - '&fdışarıdan ısıtır.'
+  name: '&6Harici Isıtıcı'
+  stats:
+  - '&8⇨ &e⚡ &72048 J Tampon'
+  - '&8⇨ &e⚡ &7128 J ısıtılan blok başına'
   type:
   - '&7&oMakine'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fFerrosilisyum Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Yakındaki vanilla kovaları doldurup boşaltırken sıvı'
+  - '&7biriktiren özel bir kova; en fazla 16,000 mB depolar.'
+  name: '&fSıvı Tankı'
+  stats:
+  - '&7Kapasite: &e16000mb'
   type:
   - '&7&oAlet'
+  usage:
+  - '&eEğil&7 + &eSağ Tık&7 ile eşleşen vanilla kovasına dönüştür.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Açlığı güce çevirir'
+  name: '&bMutfak Jeneratörü'
   stats:
   - '&8⇨ &e⚡ &7256 J Tampon'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oJeneratör'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Hayaletsi Öz'
   type:
   - '&7&oKaynak'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fYaldızlı Demir Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fAltın Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fOtomatik olarak &ebitkileri&f büyütür.'
+  - '&f&oKüçük bir sera gibi!'
+  name: '&6Büyüme Odası'
   stats:
   - '&8⇨ &b⚡ &7Hız: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fOtomatik olarak &ebitkileri&f büyütür.'
+  - '&f&oKüçük bir sera gibi!'
+  - '&c3x üretim.'
+  name: '&6Büyüme Odası MK2'
   stats:
   - '&8⇨ &b⚡ &7Hız: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fSertleştirilmiş Metal Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fZırha veya aletlere uygulandığında'
+  - '&fsana 2 seviye Acele verir'
+  - '&f&oGüçlen!'
+  name: '&6Aceleci Eşya Bandı'
   type:
   - '&7&oTılsım'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fZırha veya aletlere uygulandığında'
+  - '&fsana 2 seviye Can Takviyesi verir'
+  - '&f&oGüçlen!'
+  name: '&6Sağlıklı Eşya Bandı'
   type:
   - '&7&oTılsım'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Tariflerde ve makinelerde kullanılan bir kova Bal sıvısı.'
+  name: '&fBal Kovası'
+  stats:
+  - '&7Kapasite: &e1000mb'
   type:
   - '&7&oKaynak'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fYerdeki eşyalardan kendi envanterinde olanları filtreler'
+  name: '&6Envanter Filtresi'
   type:
   - '&7&oCihaz'
+  usage:
+  - '&eSağ Tık &7ile aç.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fDemir Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fDemir Makine Çekirdeği'
   type:
   - '&7&oBileşen'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fMutfak tariflerini otomatik olarak yapar'
+  - '&f&oKurabiye kokuyor'
+  name: '&6Mutfak Otomatik Üreticisi'
   stats:
   - '&8⇨ &b⚡ &7Hız: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fLapis Lazuli Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Tariflerde ve makinelerde Lav kaynağı olarak kullanılan şişelenmiş sıvı.'
+  name: '&fLav Şişesi'
+  stats:
+  - '&7Kapasite: &e250mb'
   type:
   - '&7&oKaynak'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fKurşun Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fBasit Sıvı Kapıcı.'
+  name: '&6Taşınabilir Sıvı Tankı'
+  stats:
+  - '&7Kapasite: &e16000mb'
   type:
   - '&7&oAlet'
+  usage:
+  - Sıvı kapmak için sağ tıkla
+  - Sıvı yerleştirmek için Shift tıkla
 DYNATECH_LIVINGROCK:
+  name: '&6Canlı Taş'
   type:
   - '&7&oKaynak'
 DYNATECH_LIVINGWOOD:
+  name: '&6Canlı Ahşap'
   type:
   - '&7&oKaynak'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Makine Hurdası'
   type:
   - '&7&oKaynak'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fMagnezyum Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fGüç ve arılar kullanarak yavaşça malzeme üretir.'
+  name: '&6Malzeme Kovanı'
   stats:
   - '&a☢&7 Radyasyon seviyesi: &6YÜKSEK'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Tariflerde ve makinelerde Süt kaynağı olarak kullanılan şişelenmiş sıvı.'
+  name: '&fSüt Şişesi'
+  stats:
+  - '&7Kapasite: &e1000mb'
   type:
   - '&7&oKaynak'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fNetherit Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fOtomatik olarak &cnether &fbitkilerini büyütür.'
+  name: '&cNether Büyüme Odası'
   stats:
   - '&8⇨ &b⚡ &7Hız: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fOtomatik olarak &cnether &fbitkilerini büyütür.'
+  - '&c3x üretim.'
+  name: '&cNether Büyüme Odası MK2'
   stats:
   - '&8⇨ &b⚡ &7Hız: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fNikel Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fOtomatik olarak &9su &fbitkilerini büyütür.'
+  - Ölü mercanları canlandırabilir!
+  name: '&bOkyanus Büyüme Odası'
   stats:
   - '&8⇨ &b⚡ &7Hız: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fOtomatik olarak &9su &fbitkilerini büyütür.'
+  - Ölü mercanları canlandırabilir!
+  - '&c3x üretim.'
+  name: '&bOkyanus Büyüme Odası MK2'
   stats:
   - '&8⇨ &b⚡ &7Hız: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_ORECHID:
+  description:
+  - '&fTaş ya da Netherrack ve güç kullanarak ilgili cevherleri üretir.'
+  name: '&6Orechid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J dönüştürülen blok başına.'
   type:
   - '&7&oMakine'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fGüçlü çiçekler yapmak için doğa kıvılcımları ekle'
+  name: '&dTaçyaprağı Eczanesi'
   type:
   - '&7&oMakine'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fYiyecek depolamanı sağlar'
+  - '&fAcıktığında onları otomatik olarak tüketir'
+  - '&fEnvanterinde olmalı'
+  name: '&6Piknik Sepeti'
+  stats:
+  - '&fBoyut: &e27'
   type:
   - '&7&oSırt Çantası'
+  usage:
+  - '&eSağ Tık &7ile aç.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Tariflerde ve makinelerde kullanılan bir kova İksir sıvısı.'
+  name: '&fİksir Kovası'
+  stats:
+  - '&7Kapasite: &e1000mb'
   type:
   - '&7&oKaynak'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fMenzilli, birden çok kişiye iksir etkisi uygulayıcı.'
+  name: '&6İksir Fıskiyesi'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fKuvars Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7DynaTech tarafından eklenen her tarifin aranabilir kitabını gösterir.'
+  name: '&6Tarif Kitabı'
   type:
   - '&7&oCihaz'
+  usage:
+  - '&eSağ Tık &7ile aç.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fKızıltaş Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fKızıltaş Alaşımı Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fTakviyeli Alaşım Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Üretimini hızlandırmak için bir Malzeme Kovanına yerleştirilir.'
+  name: '&6Robotik Arı'
   type:
   - '&7&oKaynak'
 DYNATECH_SCOOP:
+  description:
+  - '&fArıları yakalamak için kullanılır.'
+  - '&f&oSokulmamaya dikkat et'
+  name: '&6Kepçe'
   type:
   - '&7&oAlet'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fBitki tabanlı eşyalardan tohum çıkarır.'
+  name: '&6Tohum Ayıklayıcı'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fGümüş Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fLehim Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fYiyecek depolamanı sağlar'
+  - '&fAcıktığında onları otomatik olarak tüketir'
+  - '&fEnvanterinde olmalı'
+  - '&dRuh Bağlı'
+  name: '&6Ruh Bağlı Piknik Sepeti'
+  stats:
+  - '&fBoyut: &e27'
   type:
   - '&7&oSırt Çantası'
+  usage:
+  - '&eSağ Tık &7ile aç.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fPaslanmaz Çelik Külçe'
   type:
   - '&7&oKaynak'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fPaslanmaz Çelik Rotor'
   type:
   - '&7&oKaynak'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Yıldız Tozunu büyük miktarda güce çevirir.'
+  name: '&bYıldız Tozu Reaktörü'
   stats:
   - '&8⇨ &e⚡ &732768 J Tampon'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oJeneratör'
 DYNATECH_STAR_DUST:
+  name: '&6Yıldız Tozu'
   type:
   - '&7&oKaynak'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fÇelik Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fTaş Makine Çekirdeği'
   type:
   - '&7&oBileşen'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fSentetik Elmas Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fSentetik Zümrüt Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fSentetik Safir Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_TESSERACT:
+  description:
+  - '&fEşyaları ve Enerjiyi Kablosuz Aktarır'
+  - '&fBunlar üstelik 2-yönlü!'
+  name: '&6Tesseract'
   stats:
   - '&8⇨ &e⚡ &765535 J Tampon'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMakine'
+  usage:
+  - Bağlanmak için başka bir Tesseracta Sağ Tıkla!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oEllerinde parıldıyor ve şekil değiştiriyor'
+  name: '&6Tesseract Nesnesi'
   type:
   - '&7&oKaynak'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f 2 Tesseract''ı birbirine bağlamak için kullanılır.'
+  name: '&6Tesseract Bağlayıcı'
   type:
   - '&7&oAlet'
+  usage:
+  - '&fTesseract''ın Konumunu almak için sağ tıkla'
+  - '&fKonumu Tesseract''a bağlamak için Eğil Sağ Tık'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fKalay Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 DYNATECH_VEX_GEM:
+  name: '&6Vex Mücevheri'
   type:
   - '&7&oKaynak'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Zamanla yıpranır.'
+  name: '&bSu Değirmeni'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Tampon'
   type:
   - '&7&oJeneratör'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Zamanla yıpranır.'
+  name: '&bSu Türbini'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Tampon'
   type:
   - '&7&oJeneratör'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fAnahtar bir eşya verildiğinde havayı kontrol eder.'
+  name: '&6Hava Durumu Kontrolcüsü'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Zamanla yıpranır.'
+  name: '&bYel Değirmeni'
+  stats:
+  - '&fAsgari Enerji Üretim Hızı: &b16j/tik'
+  - '&fAzami Enerji Üretim Hızı: &b64j/tik'
+  - '&8⇨ &e⚡ &7256 J Tampon'
   type:
   - '&7&oJeneratör'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Zamanla yıpranır.'
+  name: '&bRüzgar Türbini'
+  stats:
+  - '&fAsgari Enerji Üretim Hızı: &b64j/tik'
+  - '&fAzami Enerji Üretim Hızı: &b256j/tik'
+  - '&8⇨ &e⚡ &71024 J Tampon'
   type:
   - '&7&oJeneratör'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fEnvanterindeki eşyaları kablosuz şarj eder'
+  name: '&6Kablosuz Şarj Cihazı'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fBir Kablosuz Enerji Noktasının'
+  - '&fkullanması için güç depolar.'
+  name: '&6Kablosuz Enerji Bankası'
   stats:
   - '&8⇨ &e⚡ &710240 J Tampon'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMakine'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fEnerjiyi Kablosuz Aktarır'
+  - '&fbir Kablosuz Enerji Bankasından'
+  name: '&6Kablosuz Enerji Noktası'
   stats:
   - '&8⇨ &e⚡ &75120 J Tampon'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMakine'
+  usage:
+  - Bağlanmak için Kablosuz Enerji Bankasına Sağ Tıkla!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fEşyaları Kablosuz Aktarır'
+  - '&f Kablosuz Eşya Çıkışına'
+  name: '&6Kablosuz Eşya Girişi'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J eşya yığını başına'
   type:
   - '&7&oMakine'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fEşyaları Kablosuz Aktar'
+  - '&fKablosuz Eşya Girişinden'
+  name: '&6Kablosuz Eşya Çıkışı'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J eşya yığını başına'
   type:
   - '&7&oMakine'
+  usage:
+  - Bağlanmak için Kablosuz Eşya Girişine Sağ Tıkla!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Bir Wither İskeleti doğurur
+  name: '&6Wither Golemi Çok Bloklu'
   type:
   - '&7&oYapı'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fAhşap Makine Çekirdeği'
   type:
   - '&7&oBileşen'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fBir malzeme üretir'
+  - '&farıların yardımıyla'
+  name: '&fÇinko Mineralli Arılık'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakine'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Etkinleştirmek için bir yaratık simülasyon odasına yerleştir'
+  name: '&bPhantom Veri Kartı'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oBileşen'
 STARDUST_METEOR:
+  description:
+  - '&fDağ veya Çorak Arazi Biyomlarından çıkarılır'
+  name: '&6Yıldız Tozu Göktaşı'
   type:
   - '&7&oKaynak'
 VEX_DATA_CARD:
+  description:
+  - '&7Etkinleştirmek için bir yaratık simülasyon odasına yerleştir'
+  name: '&bVex Veri Kartı'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
