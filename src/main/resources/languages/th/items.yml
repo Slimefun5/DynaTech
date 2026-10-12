@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6เศษเครื่องจักรขั้นสูง'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7วางในรังวัสดุเพื่อเร่งการผลิตให้เร็วขึ้น'
+  name: '&6ผึ้งหุ่นยนต์ขั้นสูง'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่อะลูมิเนียม'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ทองเหลืองอะลูมิเนียม'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ทองสัมฤทธิ์อะลูมิเนียม'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fแกนเครื่องจักรโบราณ'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fบินได้ถาวรแบบโหมดสร้างสรรค์'
+  - '&fมีการตั้งค่าปรับความเร็วอยู่บ้าง'
+  - '&f&oบินได้เหมือนนกเลย~'
+  name: '&6อัญมณีการบิน'
   type:
   - '&7&oอุปกรณ์'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f บินแบบโหมดสร้างสรรค์ภายในพื้นที่ 45 บล็อก'
+  name: '&6ฟองต้านแรงโน้มถ่วง'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7คลิกขวาที่หน้าเครื่องจักรเพื่อให้ดึงไอเทมเข้าสู่'
+  - '&7มันจากช่องเก็บของที่อยู่ติดกันอัตโนมัติ ใช้แล้วหมดไป'
+  name: '&6อัปเกรดรับเข้าอัตโนมัติ'
   type:
   - '&7&oอุปกรณ์'
+  usage:
+  - '&eคลิกขวา&7 ที่หน้าเครื่องจักรเพื่อติดตั้ง'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fทำสูตรของครัวอัตโนมัติ'
+  - '&f&oกลิ่นเหมือนคุกกี้'
+  name: '&6ครัวอัตโนมัติ'
   stats:
   - '&8⇨ &b⚡ &7ความเร็ว: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7คลิกขวาที่หน้าเครื่องจักรเพื่อให้ผลักไอเทมขาออก'
+  - '&7ของมันเข้าช่องเก็บของที่อยู่ติดกันอัตโนมัติ ใช้แล้วหมดไป'
+  name: '&6อัปเกรดจ่ายออกอัตโนมัติ'
   type:
   - '&7&oอุปกรณ์'
+  usage:
+  - '&eคลิกขวา&7 ที่หน้าเครื่องจักรเพื่อติดตั้ง'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fจัดการสายรัดไอเทม'
+  name: '&6ตัวจัดการสายรัดไอเทม'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fผลักม็อบออกไปในรัศมี'
+  name: '&6ลวดหนาม'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_BEE:
+  description:
+  - '&7วางในรังวัสดุเพื่อเร่งการผลิตให้เร็วขึ้น'
+  name: '&6ผึ้ง'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่บิลลอน'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ทองเหลือง'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่คาร์โบนาโด'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ถ่านหิน'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_COAL_COKE:
+  name: '&fถ่านโคก'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7ควบคุมเตาอบถ่านโคกมัลติบล็อกอิฐขนาด 3x3x3'
+  - '&7แปลงไอเทมที่วางในถังไม้ขาเข้าให้เป็น'
+  - '&7ผลผลิตที่อบในเตาเมื่อเวลาผ่านไป'
+  name: '&fตัวควบคุมเตาอบถ่านโคก'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eคลิกขวา&7 เพื่อตรวจสอบโครงสร้างมัลติบล็อก'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่โคบอลต์'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ทองแดง'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ทองสัมฤทธิ์โครินธ์'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่เหล็กกล้าดามัสกัส'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cกังหันไข่มังกรเสื่อมสภาพ'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cกังหันพลังไข่มังกรเสื่อมสภาพ'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cกังหันน้ำเสื่อมสภาพ'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cกังหันพลังน้ำเสื่อมสภาพ'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cกังหันลมเสื่อมสภาพ'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cกังหันพลังลมเสื่อมสภาพ'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่เพชร'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fแกนเครื่องจักรเพชร'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fเทเลพอร์ตคุณไปยัง'
+  - '&fบ้านในมิติแยกและกลับมา'
+  - '&f&oบ้านแสนรัก'
+  name: '&6บ้านต่างมิติ'
   type:
   - '&7&oอุปกรณ์'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7แลกความทนทานเป็นพลังงาน'
+  name: '&bเครื่องกำเนิดจากความสึกหรอ'
+  stats:
+  - '&8⇨ &e⚡ &7256 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &78 J ต่อหน่วยความทนทาน'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ดูราลูมิน'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7เสื่อมสภาพไปตามเวลา'
+  name: '&bกังหันไข่มังกร'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J บัฟเฟอร์'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7เสื่อมสภาพไปตามเวลา'
+  name: '&bกังหันพลังไข่มังกร'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J บัฟเฟอร์'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fป้อนอาหารให้คุณอัตโนมัติโดยใช้พลังงาน'
+  - '&f&oกระตุ้นประสาทสัมผัสของคุณ'
+  name: '&6เครื่องกระตุ้นไฟฟ้า'
   type:
   - '&7&oอุปกรณ์'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่มรกต'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bแกนเครื่องจักรร่ายมนตร์'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fปลูก&dดอกคอรัสอัตโนมัติ'
+  name: '&dห้องเจริญเติบโตดินแดนเอนด์'
   stats:
   - '&8⇨ &b⚡ &7ความเร็ว: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fปลูก&dดอกคอรัสอัตโนมัติ'
+  - '&cการผลิต 3x'
+  name: '&dห้องเจริญเติบโตดินแดนเอนด์รุ่น 2'
   stats:
   - '&8⇨ &b⚡ &7ความเร็ว: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cชิ้นส่วนรับพลังงาน'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cชิ้นส่วนจ่ายพลังงาน'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cชิ้นส่วนเก็บพลังงาน'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fให้ความร้อนจากภายนอกแก่เตาเผา เตาหลอมถลุง'
+  - '&fและเตารมควัน'
+  name: '&6เครื่องทำความร้อนภายนอก'
+  stats:
+  - '&8⇨ &e⚡ &72048 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &7128 J ต่อบล็อกที่ให้ความร้อน'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่เฟร์โรซิลิคอน'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7ถังพิเศษที่สะสมของเหลวเมื่อคุณเติมหรือเท'
+  - '&7ถังดั้งเดิมที่อยู่ใกล้เคียง เก็บได้ถึง 16,000 mB'
+  name: '&fถังของเหลว'
+  stats:
+  - '&7ความจุ: &e16000mb'
   type:
   - '&7&oเครื่องมือ'
+  usage:
+  - '&eย่อตัว&7 + &eคลิกขวา&7 เพื่อแปลงเป็นถังดั้งเดิมที่เข้าคู่กัน'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7แลกความหิวเป็นพลังงาน'
+  name: '&bเครื่องกำเนิดจากอาหาร'
   stats:
   - '&8⇨ &e⚡ &7บัฟเฟอร์ 256 J'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6แก่นสารวิญญาณ'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่เหล็กชุบทอง'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ทอง'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fปลูก&eพืช&fอัตโนมัติ'
+  - '&f&oเหมือนเรือนกระจกเล็กๆ เลย!'
+  name: '&6ห้องเจริญเติบโต'
   stats:
   - '&8⇨ &b⚡ &7ความเร็ว: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fปลูก&eพืช&fอัตโนมัติ'
+  - '&f&oเหมือนเรือนกระจกเล็กๆ เลย!'
+  - '&cการผลิต 3x'
+  name: '&6ห้องเจริญเติบโตรุ่น 2'
   stats:
   - '&8⇨ &b⚡ &7ความเร็ว: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่โลหะชุบแข็ง'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fเมื่อติดตั้งบนเกราะหรือเครื่องมือ'
+  - '&fให้คุณ 2 ระดับของความเร่งเร็ว'
+  - '&f&oเพิ่มพลัง!'
+  name: '&6สายรัดไอเทมเร่งเร็ว'
   type:
   - '&7&oเครื่องราง'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fเมื่อติดตั้งบนเกราะหรือเครื่องมือ'
+  - '&fให้คุณ 2 ระดับของการเพิ่มพลังชีวิต'
+  - '&f&oเพิ่มพลัง!'
+  name: '&6สายรัดไอเทมพลังชีวิต'
   type:
   - '&7&oเครื่องราง'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7ถังของเหลวน้ำผึ้งที่ใช้ในสูตรและเครื่องจักร'
+  name: '&fถังน้ำผึ้ง'
+  stats:
+  - '&7ความจุ: &e1000mb'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fกรองไอเทมบนพื้นที่อยู่ในช่องเก็บของของมันออก'
+  name: '&6ตัวกรองช่องเก็บของ'
   type:
   - '&7&oอุปกรณ์'
+  usage:
+  - '&eคลิกขวา &7เพื่อเปิด'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่เหล็ก'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fแกนเครื่องจักรเหล็ก'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fทำสูตรของครัวอัตโนมัติ'
+  - '&f&oกลิ่นเหมือนคุกกี้'
+  name: '&6เครื่องคราฟต์ครัวอัตโนมัติ'
   stats:
   - '&8⇨ &b⚡ &7ความเร็ว: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ลาพิสลาซูลี'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7ของเหลวบรรจุขวดที่ใช้เป็นแหล่งลาวาในสูตรและเครื่องจักร'
+  name: '&fขวดลาวา'
+  stats:
+  - '&7ความจุ: &e250mb'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ตะกั่ว'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fเครื่องคว้าของเหลวแบบเรียบง่าย'
+  name: '&6ถังของเหลวพกพา'
+  stats:
+  - '&7ความจุ: &e16000mb'
   type:
   - '&7&oเครื่องมือ'
+  usage:
+  - คลิกขวาเพื่อคว้าของเหลว
+  - ชิฟต์คลิกเพื่อวางของเหลว
 DYNATECH_LIVINGROCK:
+  name: '&6หินมีชีวิต'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_LIVINGWOOD:
+  name: '&6ไม้มีชีวิต'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6เศษเครื่องจักร'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่แมกนีเซียม'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fใช้พลังงานและผึ้ง สร้างวัสดุอย่างช้าๆ'
+  name: '&6รังวัสดุ'
   stats:
   - '&a☢&7 ระดับรังสี: &6สูง'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7ของเหลวบรรจุขวดที่ใช้เป็นแหล่งนมในสูตรและเครื่องจักร'
+  name: '&fขวดนม'
+  stats:
+  - '&7ความจุ: &e1000mb'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่เนเธอไรต์'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fปลูกพืช&cเนเธอร์&fอัตโนมัติ'
+  name: '&cห้องเจริญเติบโตเนเธอร์'
   stats:
   - '&8⇨ &b⚡ &7ความเร็ว: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fปลูกพืช&cเนเธอร์&fอัตโนมัติ'
+  - '&cการผลิต 3x'
+  name: '&cห้องเจริญเติบโตเนเธอร์รุ่น 2'
   stats:
   - '&8⇨ &b⚡ &7ความเร็ว: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่นิกเกิล'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fปลูกพืช&9น้ำ&fอัตโนมัติ'
+  - ชุบชีวิตปะการังที่ตายแล้วได้!
+  name: '&bห้องเจริญเติบโตมหาสมุทร'
   stats:
   - '&8⇨ &b⚡ &7ความเร็ว: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fปลูกพืช&9น้ำ&fอัตโนมัติ'
+  - ชุบชีวิตปะการังที่ตายแล้วได้!
+  - '&cการผลิต 3x'
+  name: '&bห้องเจริญเติบโตมหาสมุทรรุ่น 2'
   stats:
   - '&8⇨ &b⚡ &7ความเร็ว: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_ORECHID:
+  description:
+  - '&fใช้หินหรือเนเธอร์แร็กกับพลังงาน เพื่อสร้างแร่ที่สอดคล้องกัน'
+  name: '&6กล้วยไม้แร่'
+  stats:
+  - '&8⇨ &e⚡ &71024 J ต่อบล็อกที่แปลง'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fเติมประกายแห่งธรรมชาติเพื่อสร้างดอกไม้ทรงพลัง'
+  name: '&dอ่างปรุงกลีบดอก'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fทำให้คุณเก็บอาหารได้'
+  - '&fกินให้อัตโนมัติเมื่อคุณหิว'
+  - '&fต้องอยู่ในช่องเก็บของของคุณ'
+  name: '&6ตะกร้าปิกนิก'
+  stats:
+  - '&fขนาด: &e27'
   type:
   - '&7&oกระเป๋าเป้'
+  usage:
+  - '&eคลิกขวา &7เพื่อเปิด'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7ถังของเหลวยาที่ใช้ในสูตรและเครื่องจักร'
+  name: '&fถังยา'
+  stats:
+  - '&7ความจุ: &e1000mb'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fเครื่องมอบเอฟเฟกต์ยาให้หลายคนในระยะไกล'
+  name: '&6เครื่องพรมยา'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ควอตซ์'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7แสดงหนังสือที่ค้นหาได้ของทุกสูตรที่ DynaTech เพิ่มเข้ามา'
+  name: '&6หนังสือสูตร'
   type:
   - '&7&oอุปกรณ์'
+  usage:
+  - '&eคลิกขวา &7เพื่อเปิด'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่เรดสโตน'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่โลหะผสมเรดสโตน'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่โลหะผสมเสริมแรง'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7วางในรังวัสดุเพื่อเร่งการผลิตให้เร็วขึ้น'
+  name: '&6ผึ้งหุ่นยนต์'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_SCOOP:
+  description:
+  - '&fใช้จับผึ้ง'
+  - '&f&oระวังอย่าให้ถูกต่อยนะ'
+  name: '&6ที่ตัก'
   type:
   - '&7&oเครื่องมือ'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fดึงเมล็ดออกจากไอเทมที่ทำจากพืช'
+  name: '&6เครื่องแยกเมล็ด'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่เงิน'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ตะกั่วบัดกรี'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fทำให้คุณเก็บอาหารได้'
+  - '&fกินให้อัตโนมัติเมื่อคุณหิว'
+  - '&fต้องอยู่ในช่องเก็บของของคุณ'
+  - '&dผูกวิญญาณ'
+  name: '&6ตะกร้าปิกนิกผูกวิญญาณ'
+  stats:
+  - '&fขนาด: &e27'
   type:
   - '&7&oกระเป๋าเป้'
+  usage:
+  - '&eคลิกขวา &7เพื่อเปิด'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fแท่งเหล็กกล้าไร้สนิม'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fใบหมุนเหล็กกล้าไร้สนิม'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7แลกฝุ่นดาวเป็นพลังงานปริมาณมาก'
+  name: '&bเตาปฏิกรณ์ฝุ่นดาว'
   stats:
   - '&8⇨ &e⚡ &7บัฟเฟอร์ 32768 J'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 DYNATECH_STAR_DUST:
+  name: '&6ฝุ่นดาว'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่เหล็กกล้า'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fแกนเครื่องจักรหิน'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่เพชรสังเคราะห์'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่มรกตสังเคราะห์'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่แซฟไฟร์สังเคราะห์'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_TESSERACT:
+  description:
+  - '&fส่งไอเทมและพลังงานแบบไร้สาย'
+  - '&fพวกนี้ยัง 2-ทางด้วย!'
+  name: '&6เทสเซอแร็กต์'
   stats:
   - '&8⇨ &e⚡ &7บัฟเฟอร์ 65535 J'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oเครื่องจักร'
+  usage:
+  - คลิกขวาที่เทสเซอแร็กต์อีกตัวเพื่อเชื่อมต่อ!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oมันเปล่งประกายและแปรเปลี่ยนในมือคุณ'
+  name: '&6วัตถุเทสเซอแร็กต์'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f ใช้เชื่อมเทสเซอแร็กต์ 2 ตัวเข้าด้วยกัน'
+  name: '&6ตัวเชื่อมเทสเซอแร็กต์'
   type:
   - '&7&oเครื่องมือ'
+  usage:
+  - '&fคลิกขวาเพื่อรับตำแหน่งของเทสเซอแร็กต์'
+  - '&fย่อตัวคลิกขวาเพื่อผูกตำแหน่งกับเทสเซอแร็กต์'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่ดีบุก'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_VEX_GEM:
+  name: '&6อัญมณีเว็กซ์'
   type:
   - '&7&oทรัพยากร'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7เสื่อมสภาพไปตามเวลา'
+  name: '&bกังหันน้ำ'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J บัฟเฟอร์'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7เสื่อมสภาพไปตามเวลา'
+  name: '&bกังหันพลังน้ำ'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J บัฟเฟอร์'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fควบคุมสภาพอากาศเมื่อได้รับไอเทมกุญแจ'
+  name: '&6ตัวควบคุมสภาพอากาศ'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7เสื่อมสภาพไปตามเวลา'
+  name: '&bกังหันลม'
+  stats:
+  - '&fอัตราการผลิตพลังงานต่ำสุด: &b16j/ติ๊ก'
+  - '&fอัตราการผลิตพลังงานสูงสุด: &b64j/ติ๊ก'
+  - '&8⇨ &e⚡ &7256 J บัฟเฟอร์'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7เสื่อมสภาพไปตามเวลา'
+  name: '&bกังหันพลังลม'
+  stats:
+  - '&fอัตราการผลิตพลังงานต่ำสุด: &b64j/ติ๊ก'
+  - '&fอัตราการผลิตพลังงานสูงสุด: &b256j/ติ๊ก'
+  - '&8⇨ &e⚡ &71024 J บัฟเฟอร์'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fชาร์จไอเทมในช่องเก็บของของคุณแบบไร้สาย'
+  name: '&6เครื่องชาร์จไร้สาย'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fเก็บพลังงานไว้ให้'
+  - '&fจุดพลังงานไร้สายใช้งาน'
+  name: '&6คลังพลังงานไร้สาย'
   stats:
   - '&8⇨ &e⚡ &7บัฟเฟอร์ 10240 J'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fส่งพลังงานแบบไร้สาย'
+  - '&fจากคลังพลังงานไร้สาย'
+  name: '&6จุดพลังงานไร้สาย'
   stats:
   - '&8⇨ &e⚡ &7บัฟเฟอร์ 5120 J'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oเครื่องจักร'
+  usage:
+  - คลิกขวาที่คลังพลังงานไร้สายเพื่อเชื่อมต่อ!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fส่งไอเทมแบบไร้สาย'
+  - '&f ไปยังช่องจ่ายไอเทมไร้สาย'
+  name: '&6ช่องรับไอเทมไร้สาย'
+  stats:
+  - '&8⇨ &e⚡ &71024 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &78 J ต่อสแตกไอเทม'
   type:
   - '&7&oเครื่องจักร'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fส่งไอเทมแบบไร้สาย'
+  - '&fจากช่องรับไอเทมไร้สาย'
+  name: '&6ช่องจ่ายไอเทมไร้สาย'
+  stats:
+  - '&8⇨ &e⚡ &71024 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &78 J ต่อสแตกไอเทม'
   type:
   - '&7&oเครื่องจักร'
+  usage:
+  - คลิกขวาที่ช่องรับไอเทมไร้สายเพื่อเชื่อมต่อ!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - เกิดโครงกระดูกวิเธอร์
+  name: '&6มัลติบล็อกโกเลมวิเธอร์'
   type:
   - '&7&oMultiblock'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fแกนเครื่องจักรไม้'
   type:
   - '&7&oส่วนประกอบ'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fผลิตวัสดุ'
+  - '&fด้วยความช่วยเหลือของผึ้ง'
+  name: '&fรังผึ้งเสริมแร่สังกะสี'
+  stats:
+  - '&8⇨ &e⚡ &716384 J บัฟเฟอร์'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oเครื่องจักร'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7วางในห้องจำลองม็อบเพื่อเปิดใช้งาน'
+  name: '&bการ์ดข้อมูลแฟนทอม'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oส่วนประกอบ'
 STARDUST_METEOR:
+  description:
+  - '&fขุดได้จากไบโอมภูเขาหรือแบดแลนด์'
+  name: '&6อุกกาบาตฝุ่นดาว'
   type:
   - '&7&oทรัพยากร'
 VEX_DATA_CARD:
+  description:
+  - '&7วางในห้องจำลองม็อบเพื่อเปิดใช้งาน'
+  name: '&bการ์ดข้อมูลเว็กซ์'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
