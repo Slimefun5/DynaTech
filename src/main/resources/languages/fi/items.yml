@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Kehittynyt koneromu'
   type:
   - '&7&oResurssi'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Asetetaan materiaalipesään nopeuttamaan sen tuotantoa.'
+  name: '&6Kehittynyt robottimehiläinen'
   type:
   - '&7&oResurssi'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fAlumiinimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fAlumiinimessinkimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fAlumiinipronssimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fMuinainen koneen ydin'
   type:
   - '&7&oKomponentti'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fPysyvä luomistilan lento.'
+  - '&fSisältää nopeuden säätöasetuksia.'
+  - '&f&oLennä kuin lintu~'
+  name: '&6Lentojalokivi'
   type:
   - '&7&oGadgetti'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Luomistilan lento 45 palikan alueella'
+  name: '&6Antipainovoimakupla'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oKone'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Napsauta oikealla koneen pintaa, niin se vetää esineitä automaattisesti'
+  - '&7siihen viereisestä inventaariosta. Kuluu käytössä.'
+  name: '&6Automaattisen syötön päivitys'
   type:
   - '&7&oGadgetti'
+  usage:
+  - '&eNapsauta oikealla&7 koneen pintaa ottaaksesi sen käyttöön.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fValmistaa keittiöreseptejä automaattisesti'
+  - '&f&oTuoksuu kekseiltä'
+  name: '&6Automaattikeittiö'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oKone'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Napsauta oikealla koneen pintaa, niin se työntää automaattisesti ulostulonsa'
+  - '&7esineet viereiseen inventaarioon. Kuluu käytössä.'
+  name: '&6Automaattisen ulostulon päivitys'
   type:
   - '&7&oGadgetti'
+  usage:
+  - '&eNapsauta oikealla&7 koneen pintaa ottaaksesi sen käyttöön.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fHallinnoi esinenauhoja'
+  name: '&6Esinenauhojen hallinta'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oKone'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fTyöntää mobeja pois säteen sisällä.'
+  name: '&6Piikkilanka'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oKone'
 DYNATECH_BEE:
+  description:
+  - '&7Asetetaan materiaalipesään nopeuttamaan sen tuotantoa.'
+  name: '&6Mehiläinen'
   type:
   - '&7&oResurssi'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fBillonmineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fMessinkimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fKarbonadomineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fKivihiilimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_COAL_COKE:
+  name: '&fKivihiilikoksi'
   type:
   - '&7&oResurssi'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Ohjaa 3x3x3 tiilistä monipalikkakoksiuunia.'
+  - '&7Muuntaa syöttötynnyriin asetetut esineet'
+  - '&7uunissa kypsennetyiksi tuotteiksi ajan myötä.'
+  name: '&fKoksiuunin ohjain'
   type:
   - '&7&oMultiblokki'
+  usage:
+  - '&eNapsauta oikealla&7 vahvistaaksesi monipalikkarakenteen.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fKobolttimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fKuparimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fKorinttilaispronssimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fDamaskosteräsmineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cKulunut lohikäärmeenmunamylly'
   type:
   - '&7&oKomponentti'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cKulunut lohikäärmeenmunaturbiini'
   type:
   - '&7&oKomponentti'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cKulunut vesimylly'
   type:
   - '&7&oKomponentti'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cKulunut vesiturbiini'
   type:
   - '&7&oKomponentti'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cKulunut tuulimylly'
   type:
   - '&7&oKomponentti'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cKulunut tuuliturbiini'
   type:
   - '&7&oKomponentti'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fTimanttimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fTimanttinen koneen ydin'
   type:
   - '&7&oKomponentti'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fTeleporttaa sinut'
+  - '&ferilliseen ulottuvuuskotiin ja takaisin'
+  - '&f&oKoti, suloinen koti'
+  name: '&6Ulottuvuuskoti'
   type:
   - '&7&oGadgetti'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Vaihtaa kestävyyttä virraksi.'
+  name: '&bKulutusgeneraattori'
+  stats:
+  - '&8⇨ &e⚡ &7256 J puskuri'
+  - '&8⇨ &e⚡ &78 J kestävyyspistettä kohden'
   type:
   - '&7&oGeneraattori'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fDuralumiinimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Kuluu ajan myötä.'
+  name: '&bLohikäärmeenmunamylly'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J puskuri'
   type:
   - '&7&oGeneraattori'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Kuluu ajan myötä.'
+  name: '&bLohikäärmeenmunaturbiini'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J puskuri'
   type:
   - '&7&oGeneraattori'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fSyöttää sinua automaattisesti energiaa vastaan'
+  - '&f&oStimuloi aistejasi.'
+  name: '&6Sähköinen stimulaattori'
   type:
   - '&7&oGadgetti'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fSmaragdimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bLumottu koneen ydin'
   type:
   - '&7&oKomponentti'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fKasvattaa automaattisesti &dkoorikukkia.'
+  name: '&dEndin kasvukammio'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oKone'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fKasvattaa automaattisesti &dkoorikukkia.'
+  - '&c3x tuotanto.'
+  name: '&dEndin kasvukammio MK2'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oKone'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cEnergiasyöttökomponentti'
   type:
   - '&7&oKomponentti'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cEnergiaulostulokomponentti'
   type:
   - '&7&oKomponentti'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cEnergiavarastokomponentti'
   type:
   - '&7&oKomponentti'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fLämmittää ulkoisesti sulatusuuneja, masuuneja'
+  - '&fja savustimia.'
+  name: '&6Ulkoinen lämmitin'
+  stats:
+  - '&8⇨ &e⚡ &72048 J puskuri'
+  - '&8⇨ &e⚡ &7128 J lämmitettyä palikkaa kohden'
   type:
   - '&7&oKone'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fFerrosilisiummineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Erikoissanko, joka kerää nestettä kun täytät tai tyhjennät'
+  - '&7vanilla-sankoja lähellä, varastoiden jopa 16,000 mB.'
+  name: '&fNestesäiliö'
+  stats:
+  - '&7Kapasiteetti: &e16000mb'
   type:
   - '&7&oTyökalu'
+  usage:
+  - '&eKyyristy&7 + &eNapsauta oikealla&7 muuntaaksesi sen vastaavaksi vanilla-sangoksi.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Vaihtaa nälkää virraksi'
+  name: '&bKulinaarinen generaattori'
   stats:
   - '&8⇨ &e⚡ &7256 J puskuri'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oGeneraattori'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Aavemainen essenssi'
   type:
   - '&7&oResurssi'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fKullattu rauta -mineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fKultamineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fKasvattaa automaattisesti &ekasveja&f.'
+  - '&f&oSe on kuin pieni kasvihuone!'
+  name: '&6Kasvukammio'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oKone'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fKasvattaa automaattisesti &ekasveja&f.'
+  - '&f&oSe on kuin pieni kasvihuone!'
+  - '&c3x tuotanto.'
+  name: '&6Kasvukammio MK2'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oKone'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fKarkaistu metalli -mineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fKun sitä käytetään haarniskaan tai työkaluihin'
+  - '&fse antaa sinulle 2 tasoa Kiirettä'
+  - '&f&oTehostus!'
+  name: '&6Kiirehtivä esinenauha'
   type:
   - '&7&oTalismaani'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fKun sitä käytetään haarniskaan tai työkaluihin'
+  - '&fse antaa sinulle 2 tasoa Terveystehostusta'
+  - '&f&oTehostus!'
+  name: '&6Terveellinen esinenauha'
   type:
   - '&7&oTalismaani'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Sanko hunajanestettä, jota käytetään resepteissä ja koneissa.'
+  name: '&fHunajasanko'
+  stats:
+  - '&7Kapasiteetti: &e1000mb'
   type:
   - '&7&oResurssi'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fSuodattaa maassa olevat esineet, jotka ovat sen inventaariossa'
+  name: '&6Inventaariosuodatin'
   type:
   - '&7&oGadgetti'
+  usage:
+  - '&eNapsauta oikealla &7avataksesi.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fRautamineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fRautainen koneen ydin'
   type:
   - '&7&oKomponentti'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fValmistaa keittiöreseptejä automaattisesti'
+  - '&f&oTuoksuu kekseiltä'
+  name: '&6Keittiön automaattivalmistin'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oKone'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fLapis lazuli -mineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Pulloon suljettu neste, jota käytetään laavan lähteenä resepteissä ja koneissa.'
+  name: '&fLaavapullo'
+  stats:
+  - '&7Kapasiteetti: &e250mb'
   type:
   - '&7&oResurssi'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fLyijymineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fYksinkertainen nesteen nappaaja.'
+  name: '&6Kannettava nestesäiliö'
+  stats:
+  - '&7Kapasiteetti: &e16000mb'
   type:
   - '&7&oTyökalu'
+  usage:
+  - Napsauta oikealla napataksesi nesteen
+  - Shift-napsauta asettaaksesi nesteen
 DYNATECH_LIVINGROCK:
+  name: '&6Eläväkivi'
   type:
   - '&7&oResurssi'
 DYNATECH_LIVINGWOOD:
+  name: '&6Eläväpuu'
   type:
   - '&7&oResurssi'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Koneromu'
   type:
   - '&7&oResurssi'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fMagnesiummineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fTuottaa hitaasti materiaaleja virran ja mehiläisten avulla.'
+  name: '&6Materiaalipesä'
   stats:
   - '&a☢&7 Säteilytaso: &6KORKEA'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oKone'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Pulloon suljettu neste, jota käytetään maidon lähteenä resepteissä ja koneissa.'
+  name: '&fMaitopullo'
+  stats:
+  - '&7Kapasiteetti: &e1000mb'
   type:
   - '&7&oResurssi'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fNetheriittimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fKasvattaa automaattisesti &cnether&fkasveja.'
+  name: '&cNetherin kasvukammio'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oKone'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fKasvattaa automaattisesti &cnether&fkasveja.'
+  - '&c3x tuotanto.'
+  name: '&cNetherin kasvukammio MK2'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oKone'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fNikkelimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fKasvattaa automaattisesti &9vesi&fkasveja.'
+  - Voi elvyttää kuolleen korallin!
+  name: '&bMerikasvukammio'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oKone'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fKasvattaa automaattisesti &9vesi&fkasveja.'
+  - Voi elvyttää kuolleen korallin!
+  - '&c3x tuotanto.'
+  name: '&bMerikasvukammio MK2'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oKone'
 DYNATECH_ORECHID:
+  description:
+  - '&fKiven tai Netherrackin ja virran avulla se tekee niiden vastaavat malmit.'
+  name: '&6Malmiorkidea'
+  stats:
+  - '&8⇨ &e⚡ &71024 J muunnettua palikkaa kohden.'
   type:
   - '&7&oKone'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fLisää luonnon kipinöitä tehdäksesi voimakkaita kukkia'
+  name: '&dTerälehtiapteekki'
   type:
   - '&7&oKone'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fMahdollistaa ruoan varastoinnin'
+  - '&fKuluttaa sen automaattisesti, kun olet nälkäinen'
+  - '&fTäytyy olla inventaariossasi'
+  name: '&6Piknikkori'
+  stats:
+  - '&fKoko: &e27'
   type:
   - '&7&oReppu'
+  usage:
+  - '&eNapsauta oikealla &7avataksesi.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Sanko taikajuomanestettä, jota käytetään resepteissä ja koneissa.'
+  name: '&fTaikajuomasanko'
+  stats:
+  - '&7Kapasiteetti: &e1000mb'
   type:
   - '&7&oResurssi'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fEtäisyydelle vaikuttava usean henkilön taikajuomavaikutuksen levittäjä.'
+  name: '&6Taikajuomasuihkutin'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oKone'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fKvartsimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Näyttää haettavan kirjan jokaisesta DynaTechin lisäämästä reseptistä.'
+  name: '&6Reseptikirja'
   type:
   - '&7&oGadgetti'
+  usage:
+  - '&eNapsauta oikealla &7avataksesi.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fPunakivimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fPunakivimetalliseos -mineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fVahvistettu metalliseos -mineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Asetetaan materiaalipesään nopeuttamaan sen tuotantoa.'
+  name: '&6Robottimehiläinen'
   type:
   - '&7&oResurssi'
 DYNATECH_SCOOP:
+  description:
+  - '&fKäytetään mehiläisten pyydystämiseen.'
+  - '&f&oVaro, ettet tule pistetyksi'
+  name: '&6Kauha'
   type:
   - '&7&oTyökalu'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fVedä siemeniä kasvipohjaisista esineistä.'
+  name: '&6Siemennyppijä'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oKone'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fHopeamineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fJuotemineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fMahdollistaa ruoan varastoinnin'
+  - '&fKuluttaa sen automaattisesti, kun olet nälkäinen'
+  - '&fTäytyy olla inventaariossasi'
+  - '&dSielusidottu'
+  name: '&6Sielusidottu piknikkori'
+  stats:
+  - '&fKoko: &e27'
   type:
   - '&7&oReppu'
+  usage:
+  - '&eNapsauta oikealla &7avataksesi.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fRuostumaton teräsharkko'
   type:
   - '&7&oResurssi'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fRuostumaton teräsroottori'
   type:
   - '&7&oResurssi'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Vaihtaa tähtipölyä suureen määrään virtaa.'
+  name: '&bTähtipölyreaktori'
   stats:
   - '&8⇨ &e⚡ &732768 J puskuri'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGeneraattori'
 DYNATECH_STAR_DUST:
+  name: '&6Tähtipöly'
   type:
   - '&7&oResurssi'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fTeräsmineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fKivinen koneen ydin'
   type:
   - '&7&oKomponentti'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fSynteettinen timantti -mineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fSynteettinen smaragdi -mineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fSynteettinen safiiri -mineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_TESSERACT:
+  description:
+  - '&fSiirtää esineitä ja energiaa langattomasti'
+  - '&fNämä ovat jopa 2-suuntaisia!'
+  name: '&6Tesserakti'
   stats:
   - '&8⇨ &e⚡ &765535 J puskuri'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oKone'
+  usage:
+  - Napsauta oikealla toista Tesseraktia yhdistääksesi!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oSe kimaltaa ja muuttaa muotoaan käsissäsi'
+  name: '&6Tesseroiva esine'
   type:
   - '&7&oResurssi'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Käytetään 2 Tesseraktin sitomiseen yhteen.'
+  name: '&6Tesserakin sitoja'
   type:
   - '&7&oTyökalu'
+  usage:
+  - '&fNapsauta oikealla saadaksesi Tesserakin sijainnin'
+  - '&fKyyristy + napsauta oikealla sitoaksesi sijainnin Tesseraktiin'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fTinamineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 DYNATECH_VEX_GEM:
+  name: '&6Vexin jalokivi'
   type:
   - '&7&oResurssi'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Kuluu ajan myötä.'
+  name: '&bVesimylly'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J puskuri'
   type:
   - '&7&oGeneraattori'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Kuluu ajan myötä.'
+  name: '&bVesiturbiini'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J puskuri'
   type:
   - '&7&oGeneraattori'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fOhjaa säätä, kun sille annetaan avainesine.'
+  name: '&6Sääohjain'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oKone'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Kuluu ajan myötä.'
+  name: '&bTuulimylly'
+  stats:
+  - '&fEnergiantuotannon vähimmäisnopeus: &b16j/tikki'
+  - '&fEnergiantuotannon enimmäisnopeus: &b64j/tikki'
+  - '&8⇨ &e⚡ &7256 J puskuri'
   type:
   - '&7&oGeneraattori'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Kuluu ajan myötä.'
+  name: '&bTuuliturbiini'
+  stats:
+  - '&fEnergiantuotannon vähimmäisnopeus: &b64j/tikki'
+  - '&fEnergiantuotannon enimmäisnopeus: &b256j/tikki'
+  - '&8⇨ &e⚡ &71024 J puskuri'
   type:
   - '&7&oGeneraattori'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fLataa esineitä langattomasti inventaariossasi'
+  name: '&6Langaton laturi'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oKone'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fVarastoi virtaa'
+  - '&flangattoman energiapisteen käyttöön.'
+  name: '&6Langaton energiapankki'
   stats:
   - '&8⇨ &e⚡ &710240 J puskuri'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oKone'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fSiirtää energiaa langattomasti'
+  - '&flangattomasta energiapankista'
+  name: '&6Langaton energiapiste'
   stats:
   - '&8⇨ &e⚡ &75120 J puskuri'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oKone'
+  usage:
+  - Napsauta oikealla langatonta energiapankkia yhdistääksesi!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fSiirtää esineitä langattomasti'
+  - '&f langattomaan esineulostuloon'
+  name: '&6Langaton esinesyöttö'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J esinepinoa kohden'
   type:
   - '&7&oKone'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fSiirrä esineitä langattomasti'
+  - '&flangattomasta esinesyötöstä'
+  name: '&6Langaton esineulostulo'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J esinepinoa kohden'
   type:
   - '&7&oKone'
+  usage:
+  - Napsauta oikealla langatonta esinesyöttöä yhdistääksesi!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Kutsuu Wither-luurangon
+  name: '&6Wither-golemin monipalikka'
   type:
   - '&7&oMultiblokki'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fPuinen koneen ydin'
   type:
   - '&7&oKomponentti'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fTuottaa materiaalia'
+  - '&fmehiläisten avulla'
+  name: '&fSinkkimineralisoitu mehiläistarha'
+  stats:
+  - '&8⇨ &e⚡ &716384 J puskuri'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oKone'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
+  name: '&bPhantomin datakortti'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponentti'
 STARDUST_METEOR:
+  description:
+  - '&fGeolouhittu vuoristo- tai joutomaabiomeista'
+  name: '&6Tähtipölymeteori'
   type:
   - '&7&oResurssi'
 VEX_DATA_CARD:
+  description:
+  - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
+  name: '&bVexin datakortti'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
