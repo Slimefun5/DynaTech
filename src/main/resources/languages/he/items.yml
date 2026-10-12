@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6גרוטאות מכונה מתקדמות'
   type:
   - '&7&oמשאב'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7מוצבת בתוך כוורת חומרים כדי להאיץ את הייצור שלה.'
+  name: '&6דבורה רובוטית מתקדמת'
   type:
   - '&7&oמשאב'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של אלומיניום'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של פליז אלומיניום'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של ארד אלומיניום'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fליבת מכונה עתיקה'
   type:
   - '&7&oרכיב'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fתעופה יצירתית קבועה.'
+  - '&fיש בה הגדרות לכיוון המהירות.'
+  - '&f&oעוף בדיוק כמו ציפור~'
+  name: '&6אבן חן של תעופה'
   type:
   - '&7&oגאדג׳ט'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f תעופה יצירתית בתוך אזור של 45 בלוקים'
+  name: '&6בועת אנטי-כבידה'
   stats:
   - '&8⇨ &e⚡ &7128 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7לחיצה ימנית על פני מכונה כדי לשאוב אליה פריטים אוטומטית'
+  - '&7ממלאי צמוד. נצרך בשימוש.'
+  name: '&6שדרוג קלט אוטומטי'
   type:
   - '&7&oגאדג׳ט'
+  usage:
+  - '&eלחיצה ימנית&7 על פני מכונה כדי להחיל.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fמכין אוטומטית מתכוני מטבח'
+  - '&f&oמריח כמו עוגיות'
+  name: '&6מטבח אוטומטי'
   stats:
   - '&8⇨ &b⚡ &7מהירות: &b1x'
   - '&8⇨ &e⚡ &716 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7לחיצה ימנית על פני מכונה כדי לדחוף אוטומטית את פריטי'
+  - '&7הפלט שלה למלאי צמוד. נצרך בשימוש.'
+  name: '&6שדרוג פלט אוטומטי'
   type:
   - '&7&oגאדג׳ט'
+  usage:
+  - '&eלחיצה ימנית&7 על פני מכונה כדי להחיל.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fמנהל רצועות פריט'
+  name: '&6מנהל רצועות פריט'
   stats:
   - '&8⇨ &e⚡ &748 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fדוחף יצורים הרחק ברדיוס.'
+  name: '&6תיל דוקרני'
   stats:
   - '&8⇨ &e⚡ &716 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_BEE:
+  description:
+  - '&7מוצבת בתוך כוורת חומרים כדי להאיץ את הייצור שלה.'
+  name: '&6דבורה'
   type:
   - '&7&oמשאב'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של ביליון'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של פליז'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של קרבונדו'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של פחם'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_COAL_COKE:
+  name: '&fקוקס פחם'
   type:
   - '&7&oמשאב'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7שולט בכבשן קוקס רב-בלוק מלבנים בגודל 3x3x3.'
+  - '&7ממיר פריטים שהוצבו בחבית הקלט'
+  - '&7לתוצרים אפויים בכבשן עם הזמן.'
+  name: '&fבקר כבשן קוקס'
   type:
   - '&7&oרב בלוק'
+  usage:
+  - '&eלחיצה ימנית&7 כדי לאמת את מבנה הרב-בלוק.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של קובלט'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של נחושת'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של ארד קורינתי'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של פלדת דמשק'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cטחנת ביצת דרקון שחוקה'
   type:
   - '&7&oרכיב'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cטורבינת ביצת דרקון שחוקה'
   type:
   - '&7&oרכיב'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cטחנת מים שחוקה'
   type:
   - '&7&oרכיב'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cטורבינת מים שחוקה'
   type:
   - '&7&oרכיב'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cטחנת רוח שחוקה'
   type:
   - '&7&oרכיב'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cטורבינת רוח שחוקה'
   type:
   - '&7&oרכיב'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של יהלום'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fליבת מכונה מיהלום'
   type:
   - '&7&oרכיב'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fמשגר אותך אל'
+  - '&fבית ממדי נפרד ובחזרה'
+  - '&f&oאין כמו בבית'
+  name: '&6בית ממדי'
   type:
   - '&7&oגאדג׳ט'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7ממיר עמידות לכוח.'
+  name: '&bגנרטור שחיקה'
+  stats:
+  - '&8⇨ &e⚡ &7256 J מאגר'
+  - '&8⇨ &e⚡ &78 J לנקודת עמידות'
   type:
   - '&7&oגנרטור'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של דוראלומין'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7נשחקת עם הזמן.'
+  name: '&bטחנת ביצת דרקון'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J מאגר'
   type:
   - '&7&oגנרטור'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7נשחקת עם הזמן.'
+  name: '&bטורבינת ביצת דרקון'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J מאגר'
   type:
   - '&7&oגנרטור'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fמאכיל אותך אוטומטית בתמורה לאנרגיה'
+  - '&f&oמגרה את החושים שלך.'
+  name: '&6ממריץ חשמלי'
   type:
   - '&7&oגאדג׳ט'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של אזמרגד'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bליבת מכונה מכושפת'
   type:
   - '&7&oרכיב'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fמגדל אוטומטית &dפרחי כורוס.'
+  name: '&dחדר גדילה של האנד'
   stats:
   - '&8⇨ &b⚡ &7מהירות: &b1x'
   - '&8⇨ &e⚡ &732 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fמגדל אוטומטית &dפרחי כורוס.'
+  - '&cייצור 3x.'
+  name: '&dחדר גדילה של האנד דגם 2'
   stats:
   - '&8⇨ &b⚡ &7מהירות: &b3x'
   - '&8⇨ &e⚡ &7128 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cרכיב קלט אנרגיה'
   type:
   - '&7&oרכיב'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cרכיב פלט אנרגיה'
   type:
   - '&7&oרכיב'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cרכיב אחסון אנרגיה'
   type:
   - '&7&oרכיב'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fמחמם מבחוץ כבשנים, כבשני התכה,'
+  - '&fומעשנות.'
+  name: '&6מחמם חיצוני'
+  stats:
+  - '&8⇨ &e⚡ &72048 J מאגר'
+  - '&8⇨ &e⚡ &7128 J לכל בלוק מחומם'
   type:
   - '&7&oמכונה'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של פרוסיליקון'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7דלי מיוחד שאוגר נוזל כשאתה ממלא או מרוקן'
+  - '&7דליים מקוריים בסביבה, ומאחסן עד 16,000 mB.'
+  name: '&fמכל נוזלים'
+  stats:
+  - '&7קיבולת: &e16000mb'
   type:
   - '&7&oכלי'
+  usage:
+  - '&eכריעה&7 + &eלחיצה ימנית&7 כדי להמיר אותו לדלי המקורי המתאים.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7ממיר רעב לכוח'
+  name: '&bגנרטור קולינרי'
   stats:
   - '&8⇨ &e⚡ &7מאגר 256 J'
   - '&8⇨ &e⚡ &78 J/שנייה'
   type:
   - '&7&oגנרטור'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6תמצית רפאים'
   type:
   - '&7&oמשאב'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של ברזל מוזהב'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של זהב'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fמגדל אוטומטית &eצמחים&f.'
+  - '&f&oזה כמו חממה קטנה!'
+  name: '&6חדר גדילה'
   stats:
   - '&8⇨ &b⚡ &7מהירות: &b1x'
   - '&8⇨ &e⚡ &732 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fמגדל אוטומטית &eצמחים&f.'
+  - '&f&oזה כמו חממה קטנה!'
+  - '&cייצור 3x.'
+  name: '&6חדר גדילה דגם 2'
   stats:
   - '&8⇨ &b⚡ &7מהירות: &b3x'
   - '&8⇨ &e⚡ &7128 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של מתכת מוקשחת'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fכשהיא מוחלת על שריון או כלים'
+  - '&fהיא מעניקה לך 2 רמות של חיפזון'
+  - '&f&oחיזוק!'
+  name: '&6רצועת פריט זריזה'
   type:
   - '&7&oקמע'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fכשהיא מוחלת על שריון או כלים'
+  - '&fהיא מעניקה לך 2 רמות של תוספת בריאות'
+  - '&f&oחיזוק!'
+  name: '&6רצועת פריט בריאה'
   type:
   - '&7&oקמע'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7דלי של נוזל דבש המשמש במתכונים ובמכונות.'
+  name: '&fדלי דבש'
+  stats:
+  - '&7קיבולת: &e1000mb'
   type:
   - '&7&oמשאב'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fמסנן פריטים על הרצפה שנמצאים במלאי שלו'
+  name: '&6מסנן מלאי'
   type:
   - '&7&oגאדג׳ט'
+  usage:
+  - '&eלחיצה ימנית &7כדי לפתוח.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של ברזל'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fליבת מכונה מברזל'
   type:
   - '&7&oרכיב'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fמכין אוטומטית מתכוני מטבח'
+  - '&f&oמריח כמו עוגיות'
+  name: '&6יוצר מטבח אוטומטי'
   stats:
   - '&8⇨ &b⚡ &7מהירות: &b1x'
   - '&8⇨ &e⚡ &716 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של לפיס לזולי'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7נוזל בבקבוק המשמש כמקור לבה במתכונים ובמכונות.'
+  name: '&fבקבוק לבה'
+  stats:
+  - '&7קיבולת: &e250mb'
   type:
   - '&7&oמשאב'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של עופרת'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fחוטף נוזלים פשוט.'
+  name: '&6מכל נוזלים נייד'
+  stats:
+  - '&7קיבולת: &e16000mb'
   type:
   - '&7&oכלי'
+  usage:
+  - לחיצה ימנית כדי לתפוס נוזל
+  - לחיצת שיפט כדי להציב נוזל
 DYNATECH_LIVINGROCK:
+  name: '&6אבן חיה'
   type:
   - '&7&oמשאב'
 DYNATECH_LIVINGWOOD:
+  name: '&6עץ חי'
   type:
   - '&7&oמשאב'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6גרוטאות מכונה'
   type:
   - '&7&oמשאב'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של מגנזיום'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fבעזרת כוח ודבורים, מייצרת חומרים לאט.'
+  name: '&6כוורת חומרים'
   stats:
   - '&a☢&7 רמת קרינה: &6גבוהה'
   - '&8⇨ &e⚡ &71024 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7נוזל בבקבוק המשמש כמקור חלב במתכונים ובמכונות.'
+  name: '&fבקבוק חלב'
+  stats:
+  - '&7קיבולת: &e1000mb'
   type:
   - '&7&oמשאב'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של נתרייט'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fמגדל אוטומטית צמחי &cנתר&f.'
+  name: '&cחדר גדילה של הנתר'
   stats:
   - '&8⇨ &b⚡ &7מהירות: &b1x'
   - '&8⇨ &e⚡ &732 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fמגדל אוטומטית צמחי &cנתר&f.'
+  - '&cייצור 3x.'
+  name: '&cחדר גדילה של הנתר דגם 2'
   stats:
   - '&8⇨ &b⚡ &7מהירות: &b3x'
   - '&8⇨ &e⚡ &7128 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של ניקל'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fמגדל אוטומטית צמחי &9מים&f.'
+  - יכול להחיות אלמוגים מתים!
+  name: '&bחדר גדילה אוקייני'
   stats:
   - '&8⇨ &b⚡ &7מהירות: &b1x'
   - '&8⇨ &e⚡ &732 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fמגדל אוטומטית צמחי &9מים&f.'
+  - יכול להחיות אלמוגים מתים!
+  - '&cייצור 3x.'
+  name: '&bחדר גדילה אוקייני דגם 2'
   stats:
   - '&8⇨ &b⚡ &7מהירות: &b3x'
   - '&8⇨ &e⚡ &7128 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_ORECHID:
+  description:
+  - '&fבעזרת אבן או נתראק וכוח, הוא מייצר את העפרות המתאימות להן.'
+  name: '&6סחלב עפרות'
+  stats:
+  - '&8⇨ &e⚡ &71024 J לכל בלוק שהומר.'
   type:
   - '&7&oמכונה'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fהוסף ניצוצות טבע כדי ליצור פרחים עוצמתיים'
+  name: '&dרוקח עלי כותרת'
   type:
   - '&7&oמכונה'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fמאפשר לך לאחסן אוכל'
+  - '&fצורך אותו אוטומטית כשאתה רעב'
+  - '&fחייב להיות במלאי שלך'
+  name: '&6סל פיקניק'
+  stats:
+  - '&fגודל: &e27'
   type:
   - '&7&oתיק גב'
+  usage:
+  - '&eלחיצה ימנית &7כדי לפתוח.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7דלי של נוזל שיקוי המשמש במתכונים ובמכונות.'
+  name: '&fדלי שיקוי'
+  stats:
+  - '&7קיבולת: &e1000mb'
   type:
   - '&7&oמשאב'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fמחיל אפקטי שיקוי על כמה אנשים מטווח רחוק.'
+  name: '&6ממטרת שיקויים'
   stats:
   - '&8⇨ &e⚡ &732 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של קוורץ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7מציג ספר ניתן לחיפוש של כל מתכון שנוסף על ידי DynaTech.'
+  name: '&6ספר מתכונים'
   type:
   - '&7&oגאדג׳ט'
+  usage:
+  - '&eלחיצה ימנית &7כדי לפתוח.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של אבן אדומה'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של סגסוגת אבן אדומה'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של סגסוגת מחוזקת'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7מוצבת בתוך כוורת חומרים כדי להאיץ את הייצור שלה.'
+  name: '&6דבורה רובוטית'
   type:
   - '&7&oמשאב'
 DYNATECH_SCOOP:
+  description:
+  - '&fמשמש ללכידת דבורים.'
+  - '&f&oהיזהר שלא תיעקץ'
+  name: '&6כף איסוף'
   type:
   - '&7&oכלי'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fשולף זרעים מפריטים על בסיס צמחים.'
+  name: '&6תולש זרעים'
   stats:
   - '&8⇨ &e⚡ &732 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של כסף'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של בדיל הלחמה'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fמאפשר לך לאחסן אוכל'
+  - '&fצורך אותו אוטומטית כשאתה רעב'
+  - '&fחייב להיות במלאי שלך'
+  - '&dקשור-נשמה'
+  name: '&6סל פיקניק קשור-נשמה'
+  stats:
+  - '&fגודל: &e27'
   type:
   - '&7&oתיק גב'
+  usage:
+  - '&eלחיצה ימנית &7כדי לפתוח.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fמטיל פלדת אל-חלד'
   type:
   - '&7&oמשאב'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fרוטור פלדת אל-חלד'
   type:
   - '&7&oמשאב'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7ממיר אבק כוכבים לכמות גדולה של כוח.'
+  name: '&bכור אבק כוכבים'
   stats:
   - '&8⇨ &e⚡ &7מאגר 32768 J'
   - '&8⇨ &e⚡ &71024 J/שנייה'
   type:
   - '&7&oגנרטור'
 DYNATECH_STAR_DUST:
+  name: '&6אבק כוכבים'
   type:
   - '&7&oמשאב'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של פלדה'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fליבת מכונה מאבן'
   type:
   - '&7&oרכיב'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של יהלום סינתטי'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של אזמרגד סינתטי'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של ספיר סינתטי'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_TESSERACT:
+  description:
+  - '&fמעביר פריטים ואנרגיה אלחוטית'
+  - '&fאלה אפילו 2-כיווניים!'
+  name: '&6טסרקט'
   stats:
   - '&8⇨ &e⚡ &7מאגר 65535 J'
   - '&8⇨ &e⚡ &71024 J/שנייה'
   type:
   - '&7&oמכונה'
+  usage:
+  - לחיצה ימנית על טסרקט אחר כדי להתחבר!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oהוא נצנץ ומשתנה בידיך'
+  name: '&6חפץ טסרקטי'
   type:
   - '&7&oמשאב'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f משמש לקשור 2 טסרקטים יחד.'
+  name: '&6מקשר טסרקטים'
   type:
   - '&7&oכלי'
+  usage:
+  - '&fלחיצה ימנית כדי לקבל את מיקום הטסרקט'
+  - '&fכריעה ולחיצה ימנית כדי לקשר מיקום לטסרקט'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של בדיל'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 DYNATECH_VEX_GEM:
+  name: '&6אבן חן של וקס'
   type:
   - '&7&oמשאב'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7נשחקת עם הזמן.'
+  name: '&bטחנת מים'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J מאגר'
   type:
   - '&7&oגנרטור'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7נשחקת עם הזמן.'
+  name: '&bטורבינת מים'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J מאגר'
   type:
   - '&7&oגנרטור'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fשולט במזג האוויר כשמקבל פריט מפתח.'
+  name: '&6בקר מזג אוויר'
   stats:
   - '&8⇨ &e⚡ &732 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7נשחקת עם הזמן.'
+  name: '&bטחנת רוח'
+  stats:
+  - '&fקצב הפקת אנרגיה מינימלי: &b16j/טיק'
+  - '&fקצב הפקת אנרגיה מקסימלי: &b64j/טיק'
+  - '&8⇨ &e⚡ &7256 J מאגר'
   type:
   - '&7&oגנרטור'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7נשחקת עם הזמן.'
+  name: '&bטורבינת רוח'
+  stats:
+  - '&fקצב הפקת אנרגיה מינימלי: &b64j/טיק'
+  - '&fקצב הפקת אנרגיה מקסימלי: &b256j/טיק'
+  - '&8⇨ &e⚡ &71024 J מאגר'
   type:
   - '&7&oגנרטור'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fטוען אלחוטית פריטים במלאי שלך'
+  name: '&6מטען אלחוטי'
   stats:
   - '&8⇨ &e⚡ &716 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fמאחסן כוח עבור'
+  - '&fנקודת אנרגיה אלחוטית שתשתמש בו.'
+  name: '&6בנק אנרגיה אלחוטי'
   stats:
   - '&8⇨ &e⚡ &7מאגר 10240 J'
   - '&8⇨ &e⚡ &71024 J/שנייה'
   type:
   - '&7&oמכונה'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fמעבירה אנרגיה אלחוטית'
+  - '&fמבנק אנרגיה אלחוטי'
+  name: '&6נקודת אנרגיה אלחוטית'
   stats:
   - '&8⇨ &e⚡ &7מאגר 5120 J'
   - '&8⇨ &e⚡ &71024 J/שנייה'
   type:
   - '&7&oמכונה'
+  usage:
+  - לחיצה ימנית על בנק האנרגיה האלחוטי כדי להתחבר!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fמעביר פריטים אלחוטית'
+  - '&f לפלט פריטים אלחוטי'
+  name: '&6קלט פריטים אלחוטי'
+  stats:
+  - '&8⇨ &e⚡ &71024 J מאגר'
+  - '&8⇨ &e⚡ &78 J לכל ערימת פריטים'
   type:
   - '&7&oמכונה'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fמעביר פריטים אלחוטית'
+  - '&fמן קלט פריטים אלחוטי'
+  name: '&6פלט פריטים אלחוטי'
+  stats:
+  - '&8⇨ &e⚡ &71024 J מאגר'
+  - '&8⇨ &e⚡ &78 J לכל ערימת פריטים'
   type:
   - '&7&oמכונה'
+  usage:
+  - לחיצה ימנית על קלט הפריטים האלחוטי כדי להתחבר!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - מזמן שלד ווית'ר
+  name: '&6גולם ווית''ר רב-בלוק'
   type:
   - '&7&oרב בלוק'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fליבת מכונה מעץ'
   type:
   - '&7&oרכיב'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fמפיקה חומר'
+  - '&fבעזרת דבורים'
+  name: '&fכוורת מינרלית של אבץ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J מאגר'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oמכונה'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+  name: '&bכרטיס נתונים של פנטום'
   stats:
   - '&8⇨ &e⚡ &7300 J/שנייה'
   type:
   - '&7&oרכיב'
 STARDUST_METEOR:
+  description:
+  - '&fנכרה מביומים של הרים או עריצות'
+  name: '&6מטאור אבק כוכבים'
   type:
   - '&7&oמשאב'
 VEX_DATA_CARD:
+  description:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+  name: '&bכרטיס נתונים של וקס'
   stats:
   - '&8⇨ &e⚡ &7300 J/שנייה'
   type:
