@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6ضایعات ماشین پیشرفته'
   type:
   - '&7&oمنبع'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7داخل کندوی مواد قرار داده می‌شود تا تولیدش سریع‌تر شود.'
+  name: '&6زنبور رباتیک پیشرفته'
   type:
   - '&7&oمنبع'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ آلومینیوم'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ برنج آلومینیومی'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ برنز آلومینیومی'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fهسته ماشین باستانی'
   type:
   - '&7&oقطعه'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fپرواز دائمی حالت خلاقیت.'
+  - '&fچند تنظیم برای سرعت دارد.'
+  - '&f&oمثل یک پرنده پرواز کن~'
+  name: '&6گوهر پرواز'
   type:
   - '&7&oابزارک'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f پرواز حالت خلاقیت در ناحیه‌ای 45 بلوکی'
+  name: '&6حبابِ پادگرانش'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7روی وجه ماشین کلیک راست کنید تا آیتم‌ها به‌طور خودکار از'
+  - '&7موجودی مجاور به آن کشیده شوند. با استفاده مصرف می‌شود.'
+  name: '&6ارتقای ورودی خودکار'
   type:
   - '&7&oابزارک'
+  usage:
+  - '&eکلیک راست&7 روی وجه ماشین برای اعمال.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fبه‌طور خودکار دستورهای ساخت آشپزخانه را می‌سازد'
+  - '&f&oبوی کوکی می‌دهد'
+  name: '&6آشپزخانهٔ خودکار'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7روی وجه ماشین کلیک راست کنید تا آیتم‌های خروجی‌اش به‌طور خودکار'
+  - '&7به موجودی مجاور رانده شوند. با استفاده مصرف می‌شود.'
+  name: '&6ارتقای خروجی خودکار'
   type:
   - '&7&oابزارک'
+  usage:
+  - '&eکلیک راست&7 روی وجه ماشین برای اعمال.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fنوارهای آیتم را مدیریت می‌کند'
+  name: '&6مدیر نوار آیتم'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fماب‌ها را در یک شعاع دور می‌کند.'
+  name: '&6سیم خاردار'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_BEE:
+  description:
+  - '&7داخل کندوی مواد قرار داده می‌شود تا تولیدش سریع‌تر شود.'
+  name: '&6زنبور'
   type:
   - '&7&oمنبع'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ بیلون'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ برنج'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ کربنادو'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ زغال‌سنگ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_COAL_COKE:
+  name: '&fکک زغال‌سنگ'
   type:
   - '&7&oمنبع'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7یک کورهٔ کک چندبلوکی آجری 3x3x3 را کنترل می‌کند.'
+  - '&7آیتم‌های گذاشته‌شده در بشکهٔ ورودی را با گذر زمان به'
+  - '&7خروجی‌های پخته در کوره تبدیل می‌کند.'
+  name: '&fکنترلگر کورهٔ کک'
   type:
   - '&7&oچندبلوکی'
+  usage:
+  - '&eکلیک راست&7 برای اعتبارسنجی سازهٔ چندبلوکی.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ کبالت'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ مس'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ برنز کورنتی'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ فولاد دمشقی'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cآسیاب تخم اژدها فرسوده'
   type:
   - '&7&oقطعه'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cتوربین تخم اژدها فرسوده'
   type:
   - '&7&oقطعه'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cآسیاب آبی فرسوده'
   type:
   - '&7&oقطعه'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cتوربین آبی فرسوده'
   type:
   - '&7&oقطعه'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cآسیاب بادی فرسوده'
   type:
   - '&7&oقطعه'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cتوربین بادی فرسوده'
   type:
   - '&7&oقطعه'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ الماس'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fهسته ماشین الماسی'
   type:
   - '&7&oقطعه'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fتو را به خانهٔ بُعدیِ'
+  - '&fجداگانه می‌برد و بازمی‌گرداند'
+  - '&f&oخانه، خانهٔ شیرین'
+  name: '&6خانهٔ بُعدی'
   type:
   - '&7&oابزارک'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7دوام را با نیرو مبادله می‌کند.'
+  name: '&bمولد سایشی'
+  stats:
+  - '&8⇨ &e⚡ &7256 J بافر'
+  - '&8⇨ &e⚡ &78 J به ازای هر واحد دوام'
   type:
   - '&7&oژنراتور'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ دورآلومین'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7با گذر زمان فرسوده می‌شود.'
+  name: '&bآسیاب تخم اژدها'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J بافر'
   type:
   - '&7&oژنراتور'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7با گذر زمان فرسوده می‌شود.'
+  name: '&bتوربین تخم اژدها'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J بافر'
   type:
   - '&7&oژنراتور'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fبا مصرف انرژی به‌طور خودکار تو را سیر می‌کند'
+  - '&f&oحس‌هایت را تحریک کن.'
+  name: '&6محرک برقی'
   type:
   - '&7&oابزارک'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ زمرد'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bهسته ماشین افسون‌شده'
   type:
   - '&7&oقطعه'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fبه‌طور خودکار &dگل‌های کوروس را رشد می‌دهد.'
+  name: '&dمحفظه رشد اند'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fبه‌طور خودکار &dگل‌های کوروس را رشد می‌دهد.'
+  - '&c3 برابر تولید.'
+  name: '&dمحفظه رشد اند مدل 2'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cقطعه ورودی انرژی'
   type:
   - '&7&oقطعه'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cقطعه خروجی انرژی'
   type:
   - '&7&oقطعه'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cقطعه ذخیره‌سازی انرژی'
   type:
   - '&7&oقطعه'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fکوره‌ها، کوره‌های دمشی'
+  - '&fو دودی‌کن‌ها را از بیرون گرم می‌کند.'
+  name: '&6گرم‌کن بیرونی'
+  stats:
+  - '&8⇨ &e⚡ &72048 J بافر'
+  - '&8⇨ &e⚡ &7128 J به ازای هر بلوک گرم‌شده'
   type:
   - '&7&oماشین'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ فروسیلیسیم'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7سطلی ویژه که با پر یا خالی کردن'
+  - '&7سطل‌های اصلی نزدیک، مایع را تا 16,000 mB ذخیره می‌کند.'
+  name: '&fمخزن مایع'
+  stats:
+  - '&7ظرفیت: &e16000mb'
   type:
   - '&7&oابزار'
+  usage:
+  - '&eخم شدن&7 + &eکلیک راست&7 برای تبدیل آن به سطل اصلی متناظر.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7گرسنگی را با نیرو مبادله می‌کند'
+  name: '&bمولد آشپزی'
   stats:
   - '&8⇨ &e⚡ &7بافر 256 ژول'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oژنراتور'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6جوهر شبح‌وار'
   type:
   - '&7&oمنبع'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ آهن زراندود'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ طلا'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fبه‌طور خودکار &eگیاهان&f را رشد می‌دهد.'
+  - '&f&oمثل یک گلخانهٔ کوچک است!'
+  name: '&6محفظه رشد'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fبه‌طور خودکار &eگیاهان&f را رشد می‌دهد.'
+  - '&f&oمثل یک گلخانهٔ کوچک است!'
+  - '&c3 برابر تولید.'
+  name: '&6محفظه رشد مدل 2'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ فلز سخت‌شده'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fوقتی روی زره یا ابزار اعمال شود'
+  - '&f2 سطح شتاب به تو می‌دهد'
+  - '&f&oتقویت!'
+  name: '&6نوار آیتم شتاب'
   type:
   - '&7&oطلسم'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fوقتی روی زره یا ابزار اعمال شود'
+  - '&f2 سطح تقویت سلامتی به تو می‌دهد'
+  - '&f&oتقویت!'
+  name: '&6نوار آیتم سلامتی'
   type:
   - '&7&oطلسم'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7سطلی از مایع عسل برای دستورهای ساخت و ماشین‌ها.'
+  name: '&fسطل عسل'
+  stats:
+  - '&7ظرفیت: &e1000mb'
   type:
   - '&7&oمنبع'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fآیتم‌های روی زمین را که در موجودی‌اش هستند جدا می‌کند'
+  name: '&6صافی موجودی'
   type:
   - '&7&oابزارک'
+  usage:
+  - '&eکلیک راست &7برای باز کردن.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ آهن'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fهسته ماشین آهنی'
   type:
   - '&7&oقطعه'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fبه‌طور خودکار دستورهای ساخت آشپزخانه را می‌سازد'
+  - '&f&oبوی کوکی می‌دهد'
+  name: '&6سازندهٔ خودکار آشپزخانه'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ لاجورد'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7مایعی بطری‌شده که در دستورهای ساخت و ماشین‌ها منبع گدازه است.'
+  name: '&fبطری گدازه'
+  stats:
+  - '&7ظرفیت: &e250mb'
   type:
   - '&7&oمنبع'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ سرب'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fقاپندهٔ سادهٔ مایع.'
+  name: '&6مخزن مایع قابل‌حمل'
+  stats:
+  - '&7ظرفیت: &e16000mb'
   type:
   - '&7&oابزار'
+  usage:
+  - برای گرفتن مایع کلیک راست کنید
+  - برای قرار دادن مایع شیفت + کلیک کنید
 DYNATECH_LIVINGROCK:
+  name: '&6سنگ زنده'
   type:
   - '&7&oمنبع'
 DYNATECH_LIVINGWOOD:
+  name: '&6چوب زنده'
   type:
   - '&7&oمنبع'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6ضایعات ماشین'
   type:
   - '&7&oمنبع'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ منیزیم'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fبا نیرو و زنبورها، به‌آرامی مواد تولید می‌کند.'
+  name: '&6کندوی مواد'
   stats:
   - '&a☢&7 سطح تشعشع: &6بالا'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7مایعی بطری‌شده که در دستورهای ساخت و ماشین‌ها منبع شیر است.'
+  name: '&fبطری شیر'
+  stats:
+  - '&7ظرفیت: &e1000mb'
   type:
   - '&7&oمنبع'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ نترایت'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fبه‌طور خودکار گیاهان &cنتر &fرا رشد می‌دهد.'
+  name: '&cمحفظه رشد نتر'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fبه‌طور خودکار گیاهان &cنتر &fرا رشد می‌دهد.'
+  - '&c3 برابر تولید.'
+  name: '&cمحفظه رشد نتر مدل 2'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ نیکل'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fبه‌طور خودکار گیاهان &9آبی &fرا رشد می‌دهد.'
+  - می‌تواند مرجان مرده را زنده کند!
+  name: '&bمحفظه رشد اقیانوسی'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fبه‌طور خودکار گیاهان &9آبی &fرا رشد می‌دهد.'
+  - می‌تواند مرجان مرده را زنده کند!
+  - '&c3 برابر تولید.'
+  name: '&bمحفظه رشد اقیانوسی مدل 2'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_ORECHID:
+  description:
+  - '&fبا سنگ یا نترک و نیرو، سنگ‌های معدنی متناظرشان را می‌سازد.'
+  name: '&6ارکیدهٔ معدنی'
+  stats:
+  - '&8⇨ &e⚡ &71024 J به ازای هر بلوک تبدیل‌شده.'
   type:
   - '&7&oماشین'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fجرقه‌های طبیعت را بیفزا تا گل‌های نیرومند بسازی'
+  name: '&dعطاری گلبرگ'
   type:
   - '&7&oماشین'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fاجازه می‌دهد غذا ذخیره کنی'
+  - '&fوقتی گرسنه باشی به‌طور خودکار آن‌ها را مصرف می‌کند'
+  - '&fباید در موجودی‌ات باشد'
+  name: '&6سبد پیک‌نیک'
+  stats:
+  - '&fاندازه: &e27'
   type:
   - '&7&oکوله‌پشتی'
+  usage:
+  - '&eکلیک راست &7برای باز کردن.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7سطلی از مایع معجون برای دستورهای ساخت و ماشین‌ها.'
+  name: '&fسطل معجون'
+  stats:
+  - '&7ظرفیت: &e1000mb'
   type:
   - '&7&oمنبع'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fاعمال‌کنندهٔ اثر معجون از دور بر چند نفر.'
+  name: '&6پاشندهٔ معجون'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ کوارتز'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7کتابی جستجوپذیر از هر دستور ساختی که DynaTech افزوده نشان می‌دهد.'
+  name: '&6کتاب دستور ساخت'
   type:
   - '&7&oابزارک'
+  usage:
+  - '&eکلیک راست &7برای باز کردن.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ ردستون'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ آلیاژ ردستون'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ آلیاژ تقویت‌شده'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7داخل کندوی مواد قرار داده می‌شود تا تولیدش سریع‌تر شود.'
+  name: '&6زنبور رباتیک'
   type:
   - '&7&oمنبع'
 DYNATECH_SCOOP:
+  description:
+  - '&fبرای گرفتن زنبورها استفاده می‌شود.'
+  - '&f&oحواست باشد نیش نخوری'
+  name: '&6ملاقه'
   type:
   - '&7&oابزار'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fدانه‌ها را از آیتم‌های گیاهی بیرون می‌کشد.'
+  name: '&6دانه‌کَن'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ نقره'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ لحیم'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fاجازه می‌دهد غذا ذخیره کنی'
+  - '&fوقتی گرسنه باشی به‌طور خودکار آن‌ها را مصرف می‌کند'
+  - '&fباید در موجودی‌ات باشد'
+  - '&dروح‌پیوند'
+  name: '&6سبد پیک‌نیک روح‌پیوند'
+  stats:
+  - '&fاندازه: &e27'
   type:
   - '&7&oکوله‌پشتی'
+  usage:
+  - '&eکلیک راست &7برای باز کردن.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fشمش فولاد ضدزنگ'
   type:
   - '&7&oمنبع'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fروتور فولاد ضدزنگ'
   type:
   - '&7&oمنبع'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7گرد ستاره را با مقدار زیادی نیرو مبادله می‌کند.'
+  name: '&bواکنشگر گرد ستاره'
   stats:
   - '&8⇨ &e⚡ &7بافر 32768 ژول'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oژنراتور'
 DYNATECH_STAR_DUST:
+  name: '&6گرد ستاره'
   type:
   - '&7&oمنبع'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ فولاد'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fهسته ماشین سنگی'
   type:
   - '&7&oقطعه'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ الماس مصنوعی'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ زمرد مصنوعی'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ یاقوت کبود مصنوعی'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_TESSERACT:
+  description:
+  - '&fآیتم‌ها و انرژی را به‌صورت بی‌سیم منتقل می‌کند'
+  - '&fاین‌ها حتی 2-طرفه هستند!'
+  name: '&6تسراکت'
   stats:
   - '&8⇨ &e⚡ &7بافر 65535 ژول'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oماشین'
+  usage:
+  - برای اتصال روی تسراکت دیگری کلیک راست کنید!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oدر دستانت می‌درخشد و جابه‌جا می‌شود'
+  name: '&6شیء تسراکت‌ساز'
   type:
   - '&7&oمنبع'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f برای پیوند دادن 2 تسراکت به هم استفاده می‌شود.'
+  name: '&6پیونددهندهٔ تسراکت'
   type:
   - '&7&oابزار'
+  usage:
+  - '&fبرای گرفتن موقعیت تسراکت کلیک راست کنید'
+  - '&fبرای پیوند موقعیت به تسراکت خم شدن + کلیک راست کنید'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ قلع'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 DYNATECH_VEX_GEM:
+  name: '&6گوهر وکس'
   type:
   - '&7&oمنبع'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7با گذر زمان فرسوده می‌شود.'
+  name: '&bآسیاب آبی'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J بافر'
   type:
   - '&7&oژنراتور'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7با گذر زمان فرسوده می‌شود.'
+  name: '&bتوربین آبی'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J بافر'
   type:
   - '&7&oژنراتور'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fبا دادن آیتم کلیدی، آب‌وهوا را کنترل می‌کند.'
+  name: '&6کنترلگر آب‌وهوا'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7با گذر زمان فرسوده می‌شود.'
+  name: '&bآسیاب بادی'
+  stats:
+  - '&fکمینه نرخ تولید انرژی: &b16j/تیک'
+  - '&fبیشینه نرخ تولید انرژی: &b64j/تیک'
+  - '&8⇨ &e⚡ &7256 J بافر'
   type:
   - '&7&oژنراتور'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7با گذر زمان فرسوده می‌شود.'
+  name: '&bتوربین بادی'
+  stats:
+  - '&fکمینه نرخ تولید انرژی: &b64j/تیک'
+  - '&fبیشینه نرخ تولید انرژی: &b256j/تیک'
+  - '&8⇨ &e⚡ &71024 J بافر'
   type:
   - '&7&oژنراتور'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fآیتم‌های موجودی‌ات را به‌صورت بی‌سیم شارژ می‌کند'
+  name: '&6شارژر بی‌سیم'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fنیرو را ذخیره می‌کند تا'
+  - '&fنقطهٔ انرژی بی‌سیم از آن استفاده کند.'
+  name: '&6بانک انرژی بی‌سیم'
   stats:
   - '&8⇨ &e⚡ &7بافر 10240 ژول'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oماشین'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fانرژی را به‌صورت بی‌سیم منتقل می‌کند'
+  - '&fاز یک بانک انرژی بی‌سیم'
+  name: '&6نقطهٔ انرژی بی‌سیم'
   stats:
   - '&8⇨ &e⚡ &7بافر 5120 ژول'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oماشین'
+  usage:
+  - برای اتصال روی بانک انرژی بی‌سیم کلیک راست کنید!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fآیتم‌ها را به‌صورت بی‌سیم منتقل می‌کند'
+  - '&f به خروجی آیتم بی‌سیم'
+  name: '&6ورودی آیتم بی‌سیم'
+  stats:
+  - '&8⇨ &e⚡ &71024 J بافر'
+  - '&8⇨ &e⚡ &78 J به ازای هر استک آیتم'
   type:
   - '&7&oماشین'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fانتقال آیتم‌ها به‌صورت بی‌سیم'
+  - '&fاز ورودی آیتم بی‌سیم'
+  name: '&6خروجی آیتم بی‌سیم'
+  stats:
+  - '&8⇨ &e⚡ &71024 J بافر'
+  - '&8⇨ &e⚡ &78 J به ازای هر استک آیتم'
   type:
   - '&7&oماشین'
+  usage:
+  - برای اتصال روی ورودی آیتم بی‌سیم کلیک راست کنید!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - یک اسکلت ویتر احضار می‌کند
+  name: '&6گولم ویتر چندبلوکی'
   type:
   - '&7&oچندبلوکی'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fهسته ماشین چوبی'
   type:
   - '&7&oقطعه'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fیک ماده تولید می‌کند'
+  - '&fبا کمک زنبورها'
+  name: '&fزنبورستان کانی‌شدهٔ روی'
+  stats:
+  - '&8⇨ &e⚡ &716384 J بافر'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oماشین'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
+  name: '&bکارت داده فانتوم'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oقطعه'
 STARDUST_METEOR:
+  description:
+  - '&fاز زیست‌گاه‌های کوهستانی یا بدلندز زمین‌کاوی می‌شود'
+  name: '&6شهاب‌سنگ گرد ستاره'
   type:
   - '&7&oمنبع'
 VEX_DATA_CARD:
+  description:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
+  name: '&bکارت داده وکس'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
