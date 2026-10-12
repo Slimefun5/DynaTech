@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6고급 기계 부스러기'
   type:
   - '&7&o자원'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7재료 벌집 안에 넣으면 생산 속도가 빨라집니다.'
+  name: '&6고급 로봇 벌'
   type:
   - '&7&o자원'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f알루미늄 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f알루미늄 황동 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f알루미늄 청동 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&f고대 기계 코어'
   type:
   - '&7&o부품'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&f영구적인 창작 모드 비행.'
+  - '&f속도 조절 설정이 있습니다.'
+  - '&f&o새처럼 날아보세요~'
+  name: '&6비행 보석'
   type:
   - '&7&o장치'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f 45블록 영역 내에서 창작 모드 비행'
+  name: '&6반중력 방울'
   stats:
   - '&8⇨ &e⚡ &7128 J/초'
   type:
   - '&7&o기계'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7기계의 면을 우클릭하면 인접한 인벤토리에서'
+  - '&7아이템을 자동으로 끌어옵니다. 사용하면 소모됩니다.'
+  name: '&6자동 입력 업그레이드'
   type:
   - '&7&o장치'
+  usage:
+  - '&e우클릭&7으로 기계의 면에 적용합니다.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&f주방 조합법을 자동으로 만듭니다'
+  - '&f&o쿠키 냄새가 납니다'
+  name: '&6자동 주방'
   stats:
   - '&8⇨ &b⚡ &7속도: &b1배'
   - '&8⇨ &e⚡ &716 J/초'
   type:
   - '&7&o기계'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7기계의 면을 우클릭하면 출력 아이템을 인접한'
+  - '&7인벤토리로 자동으로 보냅니다. 사용하면 소모됩니다.'
+  name: '&6자동 출력 업그레이드'
   type:
   - '&7&o장치'
+  usage:
+  - '&e우클릭&7으로 기계의 면에 적용합니다.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&f아이템 띠를 관리합니다'
+  name: '&6아이템 띠 관리기'
   stats:
   - '&8⇨ &e⚡ &748 J/초'
   type:
   - '&7&o기계'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&f반경 안의 몹을 밀어냅니다.'
+  name: '&6철조망'
   stats:
   - '&8⇨ &e⚡ &716 J/초'
   type:
   - '&7&o기계'
 DYNATECH_BEE:
+  description:
+  - '&7재료 벌집 안에 넣으면 생산 속도가 빨라집니다.'
+  name: '&6벌'
   type:
   - '&7&o자원'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f빌론 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f황동 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f카보나도 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f석탄 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_COAL_COKE:
+  name: '&f코크스'
   type:
   - '&7&o자원'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&73x3x3 벽돌 멀티블록 코크스 가마를 제어합니다.'
+  - '&7입력 통에 넣은 아이템을 시간이 지나면서'
+  - '&7가마에서 구운 결과물로 변환합니다.'
+  name: '&f코크스 가마 제어기'
   type:
   - '&7&o멀티블록'
+  usage:
+  - '&e우클릭&7하여 멀티블록 구조를 확인합니다.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f코발트 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f구리 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f코린토스 청동 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f다마스쿠스강 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&c낡은 드래곤 알 방아'
   type:
   - '&7&o부품'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&c낡은 드래곤 알 터빈'
   type:
   - '&7&o부품'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&c낡은 물레방아'
   type:
   - '&7&o부품'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&c낡은 수력 터빈'
   type:
   - '&7&o부품'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&c낡은 풍차'
   type:
   - '&7&o부품'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&c낡은 풍력 터빈'
   type:
   - '&7&o부품'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f다이아몬드 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&f다이아몬드 기계 코어'
   type:
   - '&7&o부품'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&f별도의 차원 주거지로'
+  - '&f순간이동하고 다시 돌아옵니다'
+  - '&f&o즐거운 나의 집'
+  name: '&6차원 주거지'
   type:
   - '&7&o장치'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7내구도를 전력으로 바꿉니다.'
+  name: '&b마모 발전기'
+  stats:
+  - '&8⇨ &e⚡ &7256 J 버퍼'
+  - '&8⇨ &e⚡ &78 J 내구도당'
   type:
   - '&7&o발전기'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f두랄루민 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7시간이 지나면서 낡습니다.'
+  name: '&b드래곤 알 방아'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J 버퍼'
   type:
   - '&7&o발전기'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7시간이 지나면서 낡습니다.'
+  name: '&b드래곤 알 터빈'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J 버퍼'
   type:
   - '&7&o발전기'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&f에너지를 써서 자동으로 배를 채워줍니다'
+  - '&f&o감각을 자극하세요.'
+  name: '&6전기 자극기'
   type:
   - '&7&o장치'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f에메랄드 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&b마법이 부여된 기계 코어'
   type:
   - '&7&o부품'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&f자동으로 &d후렴화를 재배합니다.'
+  name: '&d엔드 성장 챔버'
   stats:
   - '&8⇨ &b⚡ &7속도: &b1배'
   - '&8⇨ &e⚡ &732 J/초'
   type:
   - '&7&o기계'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&f자동으로 &d후렴화를 재배합니다.'
+  - '&c생산량 3배.'
+  name: '&d엔드 성장 챔버 2형'
   stats:
   - '&8⇨ &b⚡ &7속도: &b3배'
   - '&8⇨ &e⚡ &7128 J/초'
   type:
   - '&7&o기계'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&c에너지 입력 부품'
   type:
   - '&7&o부품'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&c에너지 출력 부품'
   type:
   - '&7&o부품'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&c에너지 저장 부품'
   type:
   - '&7&o부품'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&f화로, 용광로,'
+  - '&f훈연기를 외부에서 가열합니다.'
+  name: '&6외부 가열기'
+  stats:
+  - '&8⇨ &e⚡ &72048 J 버퍼'
+  - '&8⇨ &e⚡ &7128 J, 가열된 블록당'
   type:
   - '&7&o기계'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f페로실리콘 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7근처에서 바닐라 양동이를 채우거나 비울 때 유체를'
+  - '&7모아 최대 16,000 mB까지 저장하는 특수 양동이입니다.'
+  name: '&f유체 탱크'
+  stats:
+  - '&7용량: &e16000mb'
   type:
   - '&7&o도구'
+  usage:
+  - '&e웅크리기&7 + &e우클릭&7으로 해당 바닐라 양동이로 바꿉니다.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7허기를 전력으로 바꿉니다'
+  name: '&b요리 발전기'
   stats:
   - '&8⇨ &e⚡ &7256 J 버퍼'
   - '&8⇨ &e⚡ &78 J/초'
   type:
   - '&7&o발전기'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6유령 정수'
   type:
   - '&7&o자원'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f도금된 철 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f금 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&f자동으로 &e식물&f을 재배합니다.'
+  - '&f&o작은 온실 같습니다!'
+  name: '&6성장 챔버'
   stats:
   - '&8⇨ &b⚡ &7속도: &b1배'
   - '&8⇨ &e⚡ &732 J/초'
   type:
   - '&7&o기계'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&f자동으로 &e식물&f을 재배합니다.'
+  - '&f&o작은 온실 같습니다!'
+  - '&c생산량 3배.'
+  name: '&6성장 챔버 2형'
   stats:
   - '&8⇨ &b⚡ &7속도: &b3배'
   - '&8⇨ &e⚡ &7128 J/초'
   type:
   - '&7&o기계'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f경화 금속 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&f방어구나 도구에 적용하면'
+  - '&f신속 2단계를 부여합니다'
+  - '&f&o강화!'
+  name: '&6신속의 아이템 띠'
   type:
   - '&7&o부적'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&f방어구나 도구에 적용하면'
+  - '&f체력 증가 2단계를 부여합니다'
+  - '&f&o강화!'
+  name: '&6건강의 아이템 띠'
   type:
   - '&7&o부적'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7조합법과 기계에서 쓰는 꿀 유체 한 양동이입니다.'
+  name: '&f꿀 양동이'
+  stats:
+  - '&7용량: &e1000mb'
   type:
   - '&7&o자원'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&f자기 인벤토리에 들어 있는 아이템을 바닥에서 걸러냅니다'
+  name: '&6인벤토리 여과기'
   type:
   - '&7&o장치'
+  usage:
+  - '&e우클릭 &7하여 엽니다.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f철 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&f철 기계 코어'
   type:
   - '&7&o부품'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&f주방 조합법을 자동으로 만듭니다'
+  - '&f&o쿠키 냄새가 납니다'
+  name: '&6주방 자동 제작기'
   stats:
   - '&8⇨ &b⚡ &7속도: &b1배'
   - '&8⇨ &e⚡ &716 J/초'
   type:
   - '&7&o기계'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f청금석 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7조합법과 기계에서 용암 공급원으로 쓰는, 병에 담긴 유체입니다.'
+  name: '&f용암 병'
+  stats:
+  - '&7용량: &e250mb'
   type:
   - '&7&o자원'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f납 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&f단순한 액체 포집기.'
+  name: '&6휴대용 액체 탱크'
+  stats:
+  - '&7용량: &e16000mb'
   type:
   - '&7&o도구'
+  usage:
+  - 우클릭하여 유체를 담습니다
+  - 시프트 클릭하여 유체를 내려놓습니다
 DYNATECH_LIVINGROCK:
+  name: '&6살아있는 암석'
   type:
   - '&7&o자원'
 DYNATECH_LIVINGWOOD:
+  name: '&6살아있는 목재'
   type:
   - '&7&o자원'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6기계 부스러기'
   type:
   - '&7&o자원'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f마그네슘 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&f전력과 벌을 사용해 천천히 재료를 생성합니다.'
+  name: '&6재료 벌집'
   stats:
   - '&a☢&7 방사능 수치: &6높음'
   - '&8⇨ &e⚡ &71024 J/초'
   type:
   - '&7&o기계'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7조합법과 기계에서 우유 공급원으로 쓰는, 병에 담긴 유체입니다.'
+  name: '&f우유 병'
+  stats:
+  - '&7용량: &e1000mb'
   type:
   - '&7&o자원'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f네더라이트 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&f자동으로 &c네더 &f식물을 재배합니다.'
+  name: '&c네더 성장 챔버'
   stats:
   - '&8⇨ &b⚡ &7속도: &b1배'
   - '&8⇨ &e⚡ &732 J/초'
   type:
   - '&7&o기계'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&f자동으로 &c네더 &f식물을 재배합니다.'
+  - '&c생산량 3배.'
+  name: '&c네더 성장 챔버 2형'
   stats:
   - '&8⇨ &b⚡ &7속도: &b3배'
   - '&8⇨ &e⚡ &7128 J/초'
   type:
   - '&7&o기계'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f니켈 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&f자동으로 &9수생 &f식물을 재배합니다.'
+  - 죽은 산호를 되살릴 수 있습니다!
+  name: '&b해양 성장 챔버'
   stats:
   - '&8⇨ &b⚡ &7속도: &b1배'
   - '&8⇨ &e⚡ &732 J/초'
   type:
   - '&7&o기계'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&f자동으로 &9수생 &f식물을 재배합니다.'
+  - 죽은 산호를 되살릴 수 있습니다!
+  - '&c생산량 3배.'
+  name: '&b해양 성장 챔버 2형'
   stats:
   - '&8⇨ &b⚡ &7속도: &b3배'
   - '&8⇨ &e⚡ &7128 J/초'
   type:
   - '&7&o기계'
 DYNATECH_ORECHID:
+  description:
+  - '&f돌이나 네더랙과 전력을 사용해 각각의 광석을 만듭니다.'
+  name: '&6광석란'
+  stats:
+  - '&8⇨ &e⚡ &71024 J, 변환된 블록당.'
   type:
   - '&7&o기계'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&f자연의 불꽃을 더해 강력한 꽃을 만듭니다'
+  name: '&d꽃잎 조제기'
   type:
   - '&7&o기계'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&f음식을 저장할 수 있습니다'
+  - '&f배가 고프면 자동으로 먹습니다'
+  - '&f반드시 인벤토리에 있어야 합니다'
+  name: '&6소풍 바구니'
+  stats:
+  - '&f크기: &e27'
   type:
   - '&7&o배낭'
+  usage:
+  - '&e우클릭 &7하여 엽니다.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7조합법과 기계에서 쓰는 물약 유체 한 양동이입니다.'
+  name: '&f물약 양동이'
+  stats:
+  - '&7용량: &e1000mb'
   type:
   - '&7&o자원'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&f여러 사람에게 원거리로 물약 효과를 부여하는 장치.'
+  name: '&6물약 살포기'
   stats:
   - '&8⇨ &e⚡ &732 J/초'
   type:
   - '&7&o기계'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f석영 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7DynaTech가 추가한 모든 조합법을 검색할 수 있는 책을 보여줍니다.'
+  name: '&6조합법 책'
   type:
   - '&7&o장치'
+  usage:
+  - '&e우클릭 &7하여 엽니다.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f레드스톤 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f레드스톤 합금 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f강화 합금 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7재료 벌집 안에 넣으면 생산 속도가 빨라집니다.'
+  name: '&6로봇 벌'
   type:
   - '&7&o자원'
 DYNATECH_SCOOP:
+  description:
+  - '&f벌을 잡는 데 사용합니다.'
+  - '&f&o쏘이지 않도록 주의하세요'
+  name: '&6포충망'
   type:
   - '&7&o도구'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&f식물 계열 아이템에서 씨앗을 뽑아냅니다.'
+  name: '&6씨앗 추출기'
   stats:
   - '&8⇨ &e⚡ &732 J/초'
   type:
   - '&7&o기계'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f은 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f땜납 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&f음식을 저장할 수 있습니다'
+  - '&f배가 고프면 자동으로 먹습니다'
+  - '&f반드시 인벤토리에 있어야 합니다'
+  - '&d영혼 결속'
+  name: '&6영혼 결속 소풍 바구니'
+  stats:
+  - '&f크기: &e27'
   type:
   - '&7&o배낭'
+  usage:
+  - '&e우클릭 &7하여 엽니다.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&f스테인리스강 주괴'
   type:
   - '&7&o자원'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&f스테인리스강 회전자'
   type:
   - '&7&o자원'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7별가루를 많은 양의 전력으로 바꿉니다.'
+  name: '&b별가루 반응로'
   stats:
   - '&8⇨ &e⚡ &732768 J 버퍼'
   - '&8⇨ &e⚡ &71024 J/초'
   type:
   - '&7&o발전기'
 DYNATECH_STAR_DUST:
+  name: '&6별가루'
   type:
   - '&7&o자원'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f강철 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&f돌 기계 코어'
   type:
   - '&7&o부품'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f합성 다이아몬드 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f합성 에메랄드 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f합성 사파이어 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_TESSERACT:
+  description:
+  - '&f아이템과 에너지를 무선으로 전송합니다'
+  - '&f게다가 2-방향입니다!'
+  name: '&6테서랙트'
   stats:
   - '&8⇨ &e⚡ &765535 J 버퍼'
   - '&8⇨ &e⚡ &71024 J/초'
   type:
   - '&7&o기계'
+  usage:
+  - 다른 테서랙트를 우클릭하여 연결하세요!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&o손 안에서 어른거리며 모습을 바꿉니다'
+  name: '&6테서랙트화 물체'
   type:
   - '&7&o자원'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f 테서랙트 2개를 서로 연결하는 데 사용합니다.'
+  name: '&6테서랙트 결속기'
   type:
   - '&7&o도구'
+  usage:
+  - '&f우클릭하여 테서랙트의 위치를 얻습니다'
+  - '&f웅크리고 우클릭하여 위치를 테서랙트에 연결합니다'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f주석 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 DYNATECH_VEX_GEM:
+  name: '&6벡스 보석'
   type:
   - '&7&o자원'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7시간이 지나면서 낡습니다.'
+  name: '&b물레방아'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J 버퍼'
   type:
   - '&7&o발전기'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7시간이 지나면서 낡습니다.'
+  name: '&b수력 터빈'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J 버퍼'
   type:
   - '&7&o발전기'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&f핵심 아이템을 넣으면 날씨를 제어합니다.'
+  name: '&6날씨 제어기'
   stats:
   - '&8⇨ &e⚡ &732 J/초'
   type:
   - '&7&o기계'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7시간이 지나면서 낡습니다.'
+  name: '&b풍차'
+  stats:
+  - '&f최소 에너지 생성 비율: &b16j/틱'
+  - '&f최대 에너지 생성 비율: &b64j/틱'
+  - '&8⇨ &e⚡ &7256 J 버퍼'
   type:
   - '&7&o발전기'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7시간이 지나면서 낡습니다.'
+  name: '&b풍력 터빈'
+  stats:
+  - '&f최소 에너지 생성 비율: &b64j/틱'
+  - '&f최대 에너지 생성 비율: &b256j/틱'
+  - '&8⇨ &e⚡ &71024 J 버퍼'
   type:
   - '&7&o발전기'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&f인벤토리의 아이템을 무선으로 충전합니다'
+  name: '&6무선 충전기'
   stats:
   - '&8⇨ &e⚡ &716 J/초'
   type:
   - '&7&o기계'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&f무선 에너지 지점이 쓸'
+  - '&f전력을 저장합니다.'
+  name: '&6무선 에너지 저장고'
   stats:
   - '&8⇨ &e⚡ &710240 J 버퍼'
   - '&8⇨ &e⚡ &71024 J/초'
   type:
   - '&7&o기계'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&f에너지를 무선으로 전송합니다'
+  - '&f무선 에너지 저장고에서'
+  name: '&6무선 에너지 지점'
   stats:
   - '&8⇨ &e⚡ &75120 J 버퍼'
   - '&8⇨ &e⚡ &71024 J/초'
   type:
   - '&7&o기계'
+  usage:
+  - 무선 에너지 저장고를 우클릭하여 연결하세요!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&f아이템을 무선으로 전송합니다'
+  - '&f 무선 아이템 출력기로'
+  name: '&6무선 아이템 입력기'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &78 J, 아이템 스택당'
   type:
   - '&7&o기계'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&f아이템을 무선으로 전송'
+  - '&f무선 아이템 입력기에서'
+  name: '&6무선 아이템 출력기'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &78 J, 아이템 스택당'
   type:
   - '&7&o기계'
+  usage:
+  - 무선 아이템 입력기를 우클릭하여 연결하세요!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - 위더 스켈레톤을 생성합니다
+  name: '&6위더 골렘 멀티블록'
   type:
   - '&7&o멀티블록'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&f나무 기계 코어'
   type:
   - '&7&o부품'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&f벌의 도움을 받아'
+  - '&f재료를 생산합니다'
+  name: '&f아연 광물화 양봉장'
+  stats:
+  - '&8⇨ &e⚡ &716384 J 버퍼'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&o기계'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
+  name: '&b팬텀 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7300 J/초'
   type:
   - '&7&o부품'
 STARDUST_METEOR:
+  description:
+  - '&f산악이나 악지 생물군계에서 채굴합니다'
+  name: '&6별가루 운석'
   type:
   - '&7&o자원'
 VEX_DATA_CARD:
+  description:
+  - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
+  name: '&b벡스 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7300 J/초'
   type:
