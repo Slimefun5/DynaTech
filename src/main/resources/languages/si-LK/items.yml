@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6උසස් යන්ත්‍ර අබලි'
   type:
   - '&7&oසම්පත'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7එහි නිෂ්පාදනය වේගවත් කිරීමට ද්‍රව්‍ය මීවදයක් ඇතුළත තබා ඇත.'
+  name: '&6උසස් රොබෝ මීමැස්සා'
   type:
   - '&7&oසම්පත'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fඇලුමිනියම් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fඇලුමිනියම් පිත්තල ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fඇලුමිනියම් ලෝකඩ ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fපෞරාණික යන්ත්‍ර හරය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fස්ථිර නිර්මාණාත්මක පියාසර.'
+  - '&fවේග සැකසුම් කිහිපයක් ඇත.'
+  - '&f&oකුරුල්ලෙකු සේ පියාසර කරන්න~'
+  name: '&6පියාසර මැණිකය'
   type:
   - '&7&oඋපාංගය'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f කුට්ටි 45 ක ප්‍රදේශයක් ඇතුළත නිර්මාණාත්මක පියාසර'
+  name: '&6ගුරුත්ව විරෝධී බුබුළ'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7යන්ත්‍රයක මුහුණත දකුණු-ක්ලික් කර යාබද ඉන්වෙන්ටරියකින්'
+  - '&7එයට අයිතම ස්වයංක්‍රීයව ඇද ගන්න. භාවිතයේදී වැය වේ.'
+  name: '&6ස්වයං ආදාන වැඩිදියුණුව'
   type:
   - '&7&oඋපාංගය'
+  usage:
+  - '&eදකුණු ක්ලික්&7 කර යන්ත්‍රයක මුහුණතට යොදන්න.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fස්වයංක්‍රීයව මුළුතැන්ගෙයි වට්ටෝරු සාදයි'
+  - '&f&oකුකී වගේ සුවඳයි'
+  name: '&6ස්වයං මුළුතැන්ගෙය'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7යන්ත්‍රයක මුහුණත දකුණු-ක්ලික් කර එහි ප්‍රතිදාන අයිතම'
+  - '&7යාබද ඉන්වෙන්ටරියකට ස්වයංක්‍රීයව තල්ලු කරන්න. භාවිතයේදී වැය වේ.'
+  name: '&6ස්වයං ප්‍රතිදාන වැඩිදියුණුව'
   type:
   - '&7&oඋපාංගය'
+  usage:
+  - '&eදකුණු ක්ලික්&7 කර යන්ත්‍රයක මුහුණතට යොදන්න.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fඅයිතම පටි කළමනාකරණය කරයි'
+  name: '&6අයිතම පටි කළමනාකරු'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fඅරයක් තුළ මොබ් ඉවතට තල්ලු කරයි.'
+  name: '&6කටු කම්බිය'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_BEE:
+  description:
+  - '&7එහි නිෂ්පාදනය වේගවත් කිරීමට ද්‍රව්‍ය මීවදයක් ඇතුළත තබා ඇත.'
+  name: '&6මීමැස්සා'
   type:
   - '&7&oසම්පත'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fබිලන් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fපිත්තල ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fකාබනාඩෝ ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fගල් අඟුරු ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_COAL_COKE:
+  name: '&fගල් අඟුරු කෝක්'
   type:
   - '&7&oසම්පත'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7ගඩොල් 3x3x3 බහු-කුට්ටි කෝක් උදුනක් පාලනය කරයි.'
+  - '&7ආදාන බැරලයේ තබන අයිතම කලක් යත්ම'
+  - '&7උදුනේ පිසූ ප්‍රතිදාන බවට පරිවර්තනය කරයි.'
+  name: '&fකෝක් උදුන් පාලකය'
   type:
   - '&7&oබහුකැටය'
+  usage:
+  - '&eදකුණු ක්ලික්&7 කර බහු-කුට්ටි ව්‍යූහය තහවුරු කරන්න.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fකොබෝල්ට් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fතඹ ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fකොරින්තියන් ලෝකඩ ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fදමස්කස් වානේ ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cක්ෂය වූ මකර බිත්තර මෝලය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cක්ෂය වූ මකර බිත්තර ටර්බයිනය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cක්ෂය වූ ජල මෝලය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cක්ෂය වූ ජල ටර්බයිනය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cක්ෂය වූ සුළං මෝලය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cක්ෂය වූ සුළං ටර්බයිනය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fදියමන්ති ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fදියමන්ති යන්ත්‍ර හරය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fඔබව වෙනම මාන නිවහනකට සහ'
+  - '&fඑතැනින් ආපසු ටෙලිපෝට් කරයි'
+  - '&f&oනිවහන, මිහිරි නිවහන'
+  name: '&6මාන නිවහන'
   type:
   - '&7&oඋපාංගය'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7කල්පැවැත්ම බලය සඳහා හුවමාරු කරයි.'
+  name: '&bඛාදන ජනකය'
+  stats:
+  - '&8⇨ &e⚡ &7256 J බෆරය'
+  - '&8⇨ &e⚡ &7කල්පැවැත්ම ලක්ෂ්‍යයකට 8 J'
   type:
   - '&7&oජනකය'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fඩුරලුමින් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7කලක් යත්ම ක්ෂය වේ.'
+  name: '&bමකර බිත්තර මෝලය'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J බෆරය'
   type:
   - '&7&oජනකය'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7කලක් යත්ම ක්ෂය වේ.'
+  name: '&bමකර බිත්තර ටර්බයිනය'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J බෆරය'
   type:
   - '&7&oජනකය'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fශක්තිය වෙනුවෙන් ඔබට ස්වයංක්‍රීයව ආහාර දෙයි'
+  - '&f&oඔබේ ඉඳුරන් උත්තේජනය කරන්න.'
+  name: '&6විද්‍යුත් උත්තේජකය'
   type:
   - '&7&oඋපාංගය'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fමරකත ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bමන්ත්‍ර ගැන්වූ යන්ත්‍ර හරය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fස්වයංක්‍රීයව &dකෝරස් මල් වවයි.'
+  name: '&dඑන්ඩ් වර්ධන කුටිය'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fස්වයංක්‍රීයව &dකෝරස් මල් වවයි.'
+  - '&c3x නිෂ්පාදනය.'
+  name: '&dඑන්ඩ් වර්ධන කුටිය එම්කේ2'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cශක්ති ආදාන අංගය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cශක්ති ප්‍රතිදාන අංගය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cශක්ති ගබඩා අංගය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fඋදුන්, පිපිරුම් උදුන්,'
+  - '&fසහ ධූමකාරක බාහිරව තාපනය කරයි.'
+  name: '&6බාහිර තාපකය'
+  stats:
+  - '&8⇨ &e⚡ &72048 J බෆරය'
+  - '&8⇨ &e⚡ &7තාපනය කළ කුට්ටියකට 128 J'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fෆෙරොසිලිකන් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7ඔබ ආසන්නයේ පුරවන හෝ හිස් කරන විට තරලය රැස් කරන විශේෂ බාල්දියකි,'
+  - '&7මුල් බාල්දි, 16,000 mB දක්වා ගබඩා කරමින්.'
+  name: '&fතරල ටැංකිය'
+  stats:
+  - '&7ධාරිතාව: &e16000mb'
   type:
   - '&7&oමෙවලම'
+  usage:
+  - '&eනැවී&7 + &eදකුණු ක්ලික්&7 කර එය ගැළපෙන මුල් බාල්දිය බවට පරිවර්තනය කරන්න.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7කුසගින්න බලය සඳහා හුවමාරු කරයි'
+  name: '&bආහාර ජනකය'
   stats:
   - '&8⇨ &e⚡ &7256 J ගබඩාව'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oජනකය'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6භූත සාරය'
   type:
   - '&7&oසම්පත'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fරන් ආලේපිත යකඩ ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fරන් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fස්වයංක්‍රීයව &eපැළ &fවවයි.'
+  - '&f&oඑය කුඩා හරිතාගාරයක් වගේ!'
+  name: '&6වර්ධන කුටිය'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fස්වයංක්‍රීයව &eපැළ &fවවයි.'
+  - '&f&oඑය කුඩා හරිතාගාරයක් වගේ!'
+  - '&c3x නිෂ්පාදනය.'
+  name: '&6වර්ධන කුටිය එම්කේ2'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fදැඩි කළ ලෝහ ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fසන්නාහයට හෝ මෙවලම්වලට යොදන විට'
+  - '&fඔබට ඉක්මන්කම මට්ටම් 2 ක් දෙයි'
+  - '&f&oබල වර්ධනය!'
+  name: '&6ඉක්මන් අයිතම පටිය'
   type:
   - '&7&oතලිස්මානය'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fසන්නාහයට හෝ මෙවලම්වලට යොදන විට'
+  - '&fඔබට සෞඛ්‍ය වර්ධක මට්ටම් 2 ක් දෙයි'
+  - '&f&oබල වර්ධනය!'
+  name: '&6සෞඛ්‍ය සම්පන්න අයිතම පටිය'
   type:
   - '&7&oතලිස්මානය'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7වට්ටෝරුවල හා යන්ත්‍රවල භාවිතා වන මී පැණි තරල බාල්දියකි.'
+  name: '&fමී පැණි බාල්දිය'
+  stats:
+  - '&7ධාරිතාව: &e1000mb'
   type:
   - '&7&oසම්පත'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fඑහි ඉන්වෙන්ටරියේ ඇති බිම වැටී තිබෙන අයිතම පෙරා ඉවත් කරයි'
+  name: '&6ඉන්වෙන්ටරි පෙරනය'
   type:
   - '&7&oඋපාංගය'
+  usage:
+  - '&eදකුණු ක්ලික් &7කර විවෘත කරන්න.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fයකඩ ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fයකඩ යන්ත්‍ර හරය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fස්වයංක්‍රීයව මුළුතැන්ගෙයි වට්ටෝරු සාදයි'
+  - '&f&oකුකී වගේ සුවඳයි'
+  name: '&6මුළුතැන්ගෙයි ස්වයං තනන්නා'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fලැපිස් ලසූලි ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7වට්ටෝරුවල හා යන්ත්‍රවල ලාවා මූලාශ්‍රයක් ලෙස භාවිතා වන බෝතල් කළ තරලයකි.'
+  name: '&fලාවා බෝතලය'
+  stats:
+  - '&7ධාරිතාව: &e250mb'
   type:
   - '&7&oසම්පත'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fඊයම් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fසරල ද්‍රව උදුරන්නා.'
+  name: '&6අතේ ගෙනයන ද්‍රව ටැංකිය'
+  stats:
+  - '&7ධාරිතාව: &e16000mb'
   type:
   - '&7&oමෙවලම'
+  usage:
+  - තරලයක් ගැනීමට දකුණු ක්ලික් කරන්න
+  - තරලයක් තැබීමට ෂිෆ්ට් ක්ලික් කරන්න
 DYNATECH_LIVINGROCK:
+  name: '&6ජීවමාන ගල'
   type:
   - '&7&oසම්පත'
 DYNATECH_LIVINGWOOD:
+  name: '&6ජීවමාන ලී'
   type:
   - '&7&oසම්පත'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6යන්ත්‍ර අබලි'
   type:
   - '&7&oසම්පත'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fමැග්නීසියම් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fබලය සහ මීමැස්සන් භාවිතයෙන්, සෙමින් ද්‍රව්‍ය ජනනය කරයි.'
+  name: '&6ද්‍රව්‍ය මීවදය'
   stats:
   - '&a☢&7 විකිරණ මට්ටම: &6ඉහළ'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7වට්ටෝරුවල හා යන්ත්‍රවල කිරි මූලාශ්‍රයක් ලෙස භාවිතා වන බෝතල් කළ තරලයකි.'
+  name: '&fකිරි බෝතලය'
+  stats:
+  - '&7ධාරිතාව: &e1000mb'
   type:
   - '&7&oසම්පත'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fනෙදරයිට් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fස්වයංක්‍රීයව &cනෙදර් &fපැළ වවයි.'
+  name: '&cනෙදර් වර්ධන කුටිය'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fස්වයංක්‍රීයව &cනෙදර් &fපැළ වවයි.'
+  - '&c3x නිෂ්පාදනය.'
+  name: '&cනෙදර් වර්ධන කුටිය එම්කේ2'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fනිකල් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fස්වයංක්‍රීයව &9ජල &fපැළ වවයි.'
+  - මළ කොරල් නැවත පණ ගැන්විය හැක!
+  name: '&bසාගර වර්ධන කුටිය'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fස්වයංක්‍රීයව &9ජල &fපැළ වවයි.'
+  - මළ කොරල් නැවත පණ ගැන්විය හැක!
+  - '&c3x නිෂ්පාදනය.'
+  name: '&bසාගර වර්ධන කුටිය එම්කේ2'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_ORECHID:
+  description:
+  - '&fගල් හෝ නෙදරැක් සහ බලය භාවිතයෙන්, ඒවාට අදාළ ලෝපස් සාදයි.'
+  name: '&6ලෝපස් ඕකිඩ'
+  stats:
+  - '&8⇨ &e⚡ &7පරිවර්තනය කරන කුට්ටියකට 1024 J.'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fබලගතු මල් සෑදීමට සොබාදහමේ ස්පුළිඟු එක් කරන්න'
+  name: '&dපෙති ඔසුහල'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fඔබට ආහාර ගබඩා කිරීමට ඉඩ දෙයි'
+  - '&fඔබ කුසගින්නේ විට ස්වයංක්‍රීයව ඒවා පරිභෝජනය කරයි'
+  - '&fඔබේ ඉන්වෙන්ටරියේ තිබිය යුතුය'
+  name: '&6විනෝද චාරික කූඩය'
+  stats:
+  - '&fප්‍රමාණය: &e27'
   type:
   - '&7&oපිටබෑගය'
+  usage:
+  - '&eදකුණු ක්ලික් &7කර විවෘත කරන්න.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7වට්ටෝරුවල හා යන්ත්‍රවල භාවිතා වන ඔසු පැන් තරල බාල්දියකි.'
+  name: '&fඔසු පැන් බාල්දිය'
+  stats:
+  - '&7ධාරිතාව: &e1000mb'
   type:
   - '&7&oසම්පත'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fදුරස්ථ බහු පුද්ගල ඔසු පැන් බලපෑම් යොදන්නා.'
+  name: '&6ඔසු පැන් ඉසින්නා'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fක්වාර්ට්ස් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7DynaTech විසින් එක් කළ සෑම වට්ටෝරුවක්ම සොයා බැලිය හැකි පොතක් පෙන්වයි.'
+  name: '&6වට්ටෝරු පොත'
   type:
   - '&7&oඋපාංගය'
+  usage:
+  - '&eදකුණු ක්ලික් &7කර විවෘත කරන්න.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fරෙඩ්ස්ටෝන් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fරෙඩ්ස්ටෝන් මිශ්‍ර ලෝහ ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fශක්තිමත් කළ මිශ්‍ර ලෝහ ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7එහි නිෂ්පාදනය වේගවත් කිරීමට ද්‍රව්‍ය මීවදයක් ඇතුළත තබා ඇත.'
+  name: '&6රොබෝ මීමැස්සා'
   type:
   - '&7&oසම්පත'
 DYNATECH_SCOOP:
+  description:
+  - '&fමීමැස්සන් අල්ලා ගැනීමට භාවිතා කරයි.'
+  - '&f&oඇන ගැනීමෙන් වැළකී සිටින්න'
+  name: '&6ඉස්කෝප්පුව'
   type:
   - '&7&oමෙවලම'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fපැළ පාදක අයිතමවලින් බීජ ඇද ගනී.'
+  name: '&6බීජ ගළවන්නා'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fරිදී ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fසෝල්ඩර් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fඔබට ආහාර ගබඩා කිරීමට ඉඩ දෙයි'
+  - '&fඔබ කුසගින්නේ විට ස්වයංක්‍රීයව ඒවා පරිභෝජනය කරයි'
+  - '&fඔබේ ඉන්වෙන්ටරියේ තිබිය යුතුය'
+  - '&dආත්ම බැඳි'
+  name: '&6ආත්ම බැඳි විනෝද චාරික කූඩය'
+  stats:
+  - '&fප්‍රමාණය: &e27'
   type:
   - '&7&oපිටබෑගය'
+  usage:
+  - '&eදකුණු ක්ලික් &7කර විවෘත කරන්න.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fමල නොබැඳෙන වානේ දණ්ඩ'
   type:
   - '&7&oසම්පත'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fමල නොබැඳෙන වානේ භ්‍රමණකය'
   type:
   - '&7&oසම්පත'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7තරු දූවිලි විශාල බල ප්‍රමාණයක් සඳහා හුවමාරු කරයි.'
+  name: '&bතරු දූවිලි ප්‍රතික්‍රියාකාරකය'
   stats:
   - '&8⇨ &e⚡ &732768 J ගබඩාව'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oජනකය'
 DYNATECH_STAR_DUST:
+  name: '&6තරු දූවිලි'
   type:
   - '&7&oසම්පත'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fවානේ ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fගල් යන්ත්‍ර හරය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fකෘත්‍රිම දියමන්ති ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fකෘත්‍රිම මරකත ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fකෘත්‍රිම නිල් මැණික් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_TESSERACT:
+  description:
+  - '&fඅයිතම සහ ශක්තිය නොරැහැන්ව සම්ප්‍රේෂණය කරයි'
+  - '&fමේවා 2-දිශාවට පවා ක්‍රියා කරයි!'
+  name: '&6ටෙසරැක්ට්'
   stats:
   - '&8⇨ &e⚡ &765535 J ගබඩාව'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oයන්ත්‍රය'
+  usage:
+  - සම්බන්ධ වීමට තවත් ටෙසරැක්ට් එකක් මත දකුණු ක්ලික් කරන්න!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oඑය ඔබේ අත්වල දිලිසෙමින් වෙනස් වේ'
+  name: '&6ටෙසරැක්ට් වන වස්තුව'
   type:
   - '&7&oසම්පත'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f ටෙසරැක්ට් 2 ක් එකට බැඳීමට භාවිතා කරයි.'
+  name: '&6ටෙසරැක්ට් බන්ධකය'
   type:
   - '&7&oමෙවලම'
+  usage:
+  - '&fටෙසරැක්ට් හි ස්ථානය ලබා ගැනීමට දකුණු ක්ලික් කරන්න'
+  - '&fටෙසරැක්ට් වෙත ස්ථානය බැඳීමට නැවී දකුණු ක්ලික් කරන්න'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fටින් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_VEX_GEM:
+  name: '&6වෙක්ස් මැණිකය'
   type:
   - '&7&oසම්පත'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7කලක් යත්ම ක්ෂය වේ.'
+  name: '&bජල මෝලය'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J බෆරය'
   type:
   - '&7&oජනකය'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7කලක් යත්ම ක්ෂය වේ.'
+  name: '&bජල ටර්බයිනය'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J බෆරය'
   type:
   - '&7&oජනකය'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fප්‍රධාන අයිතමයක් දුන් විට කාලගුණය පාලනය කරයි.'
+  name: '&6කාලගුණ පාලකය'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7කලක් යත්ම ක්ෂය වේ.'
+  name: '&bසුළං මෝලය'
+  stats:
+  - '&fඅවම ශක්ති ජනන අනුපාතය: &b16j/ටික්'
+  - '&fඋපරිම ශක්ති ජනන අනුපාතය: &b64j/ටික්'
+  - '&8⇨ &e⚡ &7256 J බෆරය'
   type:
   - '&7&oජනකය'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7කලක් යත්ම ක්ෂය වේ.'
+  name: '&bසුළං ටර්බයිනය'
+  stats:
+  - '&fඅවම ශක්ති ජනන අනුපාතය: &b64j/ටික්'
+  - '&fඋපරිම ශක්ති ජනන අනුපාතය: &b256j/ටික්'
+  - '&8⇨ &e⚡ &71024 J බෆරය'
   type:
   - '&7&oජනකය'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fඔබේ ඉන්වෙන්ටරියේ අයිතම නොරැහැන්ව ආරෝපණය කරයි'
+  name: '&6නොරැහැන් ආරෝපකය'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fනොරැහැන් ශක්ති ලක්ෂ්‍යයක් භාවිත කිරීම'
+  - '&fසඳහා බලය ගබඩා කරයි.'
+  name: '&6නොරැහැන් ශක්ති බැංකුව'
   stats:
   - '&8⇨ &e⚡ &710240 J ගබඩාව'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fශක්තිය නොරැහැන්ව සම්ප්‍රේෂණය කරයි'
+  - '&fනොරැහැන් ශක්ති බැංකුවකින්'
+  name: '&6නොරැහැන් ශක්ති ලක්ෂ්‍යය'
   stats:
   - '&8⇨ &e⚡ &75120 J ගබඩාව'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oයන්ත්‍රය'
+  usage:
+  - සම්බන්ධ වීමට නොරැහැන් ශක්ති බැංකුව මත දකුණු ක්ලික් කරන්න!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fඅයිතම නොරැහැන්ව සම්ප්‍රේෂණය කරයි'
+  - '&f නොරැහැන් අයිතම ප්‍රතිදානය වෙත'
+  name: '&6නොරැහැන් අයිතම ආදානය'
+  stats:
+  - '&8⇨ &e⚡ &71024 J බෆරය'
+  - '&8⇨ &e⚡ &7අයිතම තොගයකට 8 J'
   type:
   - '&7&oයන්ත්‍රය'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fඅයිතම නොරැහැන්ව සම්ප්‍රේෂණය කරන්න'
+  - '&fනොරැහැන් අයිතම ආදානයෙන්'
+  name: '&6නොරැහැන් අයිතම ප්‍රතිදානය'
+  stats:
+  - '&8⇨ &e⚡ &71024 J බෆරය'
+  - '&8⇨ &e⚡ &7අයිතම තොගයකට 8 J'
   type:
   - '&7&oයන්ත්‍රය'
+  usage:
+  - සම්බන්ධ වීමට නොරැහැන් අයිතම ආදානය මත දකුණු ක්ලික් කරන්න!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - විදර් සැකිල්ලක් බිහි කරයි
+  name: '&6විදර් ගෝලම් බහු-කුට්ටිය'
   type:
   - '&7&oබහුකැටය'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fලී යන්ත්‍ර හරය'
   type:
   - '&7&oසංරචකය'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fද්‍රව්‍යයක් නිපදවයි'
+  - '&fමීමැස්සන්ගේ සහයෙන්'
+  name: '&fසින්ක් ඛනිජකරණය කළ මීමැසි වත්ත'
+  stats:
+  - '&8⇨ &e⚡ &716384 J බෆරය'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oයන්ත්‍රය'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
+  name: '&bපැන්ටම් දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oසංරචකය'
 STARDUST_METEOR:
+  description:
+  - '&fකඳුකර හෝ බැඩ්ලෑන්ඩ්ස් ජෛවගෝලවලින් භූ-කැණීම් කර ලබා ගනී'
+  name: '&6තරු දූවිලි උල්කාව'
   type:
   - '&7&oසම්පත'
 VEX_DATA_CARD:
+  description:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
+  name: '&bවෙක්ස් දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
