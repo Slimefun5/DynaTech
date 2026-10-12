@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6خُردة آلات متقدّمة'
   type:
   - '&7&oمورد'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7يُوضع داخل خلية المواد لتسريع إنتاجها.'
+  name: '&6نحلة آلية متقدّمة'
   type:
   - '&7&oمورد'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالألومنيوم'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالنحاس الأصفر الألومنيومي'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالبرونز الألومنيومي'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fنواة آلة قديمة'
   type:
   - '&7&oمكون'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fطيران إبداعي دائم.'
+  - '&fيحتوي على إعدادات لضبط السرعة.'
+  - '&f&oطِر كالطائر~'
+  name: '&6جوهرة الطيران'
   type:
   - '&7&oجهاز'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f طيران إبداعي ضمن منطقة 45 كتلة'
+  name: '&6فقاعة مضادة للجاذبية'
   stats:
   - '&8⇨ &e⚡ &7128 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7انقر بالزر الأيمن على واجهة الآلة لسحب العناصر تلقائيًا إليها'
+  - '&7من مخزون مجاور. تُستهلك عند الاستخدام.'
+  name: '&6ترقية الإدخال التلقائي'
   type:
   - '&7&oجهاز'
+  usage:
+  - '&eانقر بالزر الأيمن&7 على واجهة الآلة للتطبيق.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fيصنع وصفات المطبخ تلقائيًا'
+  - '&f&oرائحته كالبسكويت'
+  name: '&6مطبخ تلقائي'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b1x'
   - '&8⇨ &e⚡ &716 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7انقر بالزر الأيمن على واجهة الآلة لدفع عناصر إخراجها تلقائيًا'
+  - '&7إلى مخزون مجاور. تُستهلك عند الاستخدام.'
+  name: '&6ترقية الإخراج التلقائي'
   type:
   - '&7&oجهاز'
+  usage:
+  - '&eانقر بالزر الأيمن&7 على واجهة الآلة للتطبيق.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fيدير أربطة العناصر'
+  name: '&6مدير أربطة العناصر'
   stats:
   - '&8⇨ &e⚡ &748 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fيدفع المخلوقات بعيدًا ضمن نطاق.'
+  name: '&6سلك شائك'
   stats:
   - '&8⇨ &e⚡ &716 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_BEE:
+  description:
+  - '&7يُوضع داخل خلية المواد لتسريع إنتاجها.'
+  name: '&6نحلة'
   type:
   - '&7&oمورد'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالبيّون'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالنحاس الأصفر'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالكربونادو'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالفحم'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_COAL_COKE:
+  name: '&fفحم كوك'
   type:
   - '&7&oمورد'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7يتحكّم بفرن كوك طوبي متعدد الكتل بحجم 3x3x3.'
+  - '&7يحوّل العناصر الموضوعة في برميل الإدخال إلى'
+  - '&7مخرجات مطبوخة في الفرن بمرور الوقت.'
+  name: '&fمتحكّم فرن الكوك'
   type:
   - '&7&oبنية مركبة'
+  usage:
+  - '&eانقر بالزر الأيمن&7 للتحقق من بنية الكتل المتعددة.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالكوبالت'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالنحاس'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالبرونز الكورنثي'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالفولاذ الدمشقي'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cطاحونة بيضة التنين المتدهورة'
   type:
   - '&7&oمكون'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cعنفة بيضة التنين المتدهورة'
   type:
   - '&7&oمكون'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cطاحونة ماء متدهورة'
   type:
   - '&7&oمكون'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cعنفة مائية متدهورة'
   type:
   - '&7&oمكون'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cطاحونة هواء متدهورة'
   type:
   - '&7&oمكون'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cعنفة هوائية متدهورة'
   type:
   - '&7&oمكون'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالألماس'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fنواة آلة ألماسية'
   type:
   - '&7&oمكون'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fينقلك إلى'
+  - '&fمنزل بُعدي منفصل ويعيدك'
+  - '&f&oلا مكان كالبيت'
+  name: '&6منزل بُعدي'
   type:
   - '&7&oجهاز'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7يبدّل المتانة بالطاقة.'
+  name: '&bمولّد التآكل'
+  stats:
+  - '&8⇨ &e⚡ &7256 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &78 J لكل نقطة متانة'
   type:
   - '&7&oمولد'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالدورالومين'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7تتدهور بمرور الوقت.'
+  name: '&bطاحونة بيضة التنين'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J مخزن مؤقت'
   type:
   - '&7&oمولد'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7تتدهور بمرور الوقت.'
+  name: '&bعنفة بيضة التنين'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J مخزن مؤقت'
   type:
   - '&7&oمولد'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fيُطعمك تلقائيًا مقابل الطاقة'
+  - '&f&oحفّز حواسك.'
+  name: '&6محفّز كهربائي'
   type:
   - '&7&oجهاز'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالزمرد'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bنواة آلة مسحورة'
   type:
   - '&7&oمكون'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fينمّي تلقائيًا &dزهور الكورس.'
+  name: '&dحجرة نمو الإند'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b1x'
   - '&8⇨ &e⚡ &732 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fينمّي تلقائيًا &dزهور الكورس.'
+  - '&cإنتاج 3x.'
+  name: '&dحجرة نمو الإند طراز 2'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b3x'
   - '&8⇨ &e⚡ &7128 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cمكوّن إدخال الطاقة'
   type:
   - '&7&oمكون'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cمكوّن إخراج الطاقة'
   type:
   - '&7&oمكون'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cمكوّن تخزين الطاقة'
   type:
   - '&7&oمكون'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fيُسخّن الأفران وأفران الصهر'
+  - '&fوالمدخّنات من الخارج.'
+  name: '&6مُسخّن خارجي'
+  stats:
+  - '&8⇨ &e⚡ &72048 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &7128 J لكل كتلة مُسخّنة'
   type:
   - '&7&oآلة'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالفيروسيليكون'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7دلو خاص يجمع السائل أثناء ملئك أو إفراغك'
+  - '&7للدلاء الأصلية القريبة، ويخزّن حتى 16,000 mB.'
+  name: '&fخزّان سائل'
+  stats:
+  - '&7السعة: &e16000mb'
   type:
   - '&7&oأداة'
+  usage:
+  - '&eانحنِ&7 + &eانقر بالزر الأيمن&7 لتحويله إلى الدلو الأصلي المطابق.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7يبدّل الجوع بالطاقة'
+  name: '&bمولّد الطهي'
   stats:
   - '&8⇨ &e⚡ &7مخزن 256 جول'
   - '&8⇨ &e⚡ &78 جول/ث'
   type:
   - '&7&oمولد'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6جوهر شبحي'
   type:
   - '&7&oمورد'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالحديد المذهّب'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالذهب'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fينمّي &eالنباتات&f تلقائيًا.'
+  - '&f&oإنها كبيت زجاجي صغير!'
+  name: '&6حجرة النمو'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b1x'
   - '&8⇨ &e⚡ &732 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fينمّي &eالنباتات&f تلقائيًا.'
+  - '&f&oإنها كبيت زجاجي صغير!'
+  - '&cإنتاج 3x.'
+  name: '&6حجرة النمو طراز 2'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b3x'
   - '&8⇨ &e⚡ &7128 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالمعدن المقوّى'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fعند تطبيقه على الدروع أو الأدوات'
+  - '&fيمنحك العجلة بمستوى 2'
+  - '&f&oتعزيز!'
+  name: '&6رباط عنصر للسرعة'
   type:
   - '&7&oتعويذة'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fعند تطبيقه على الدروع أو الأدوات'
+  - '&fيمنحك تعزيز الصحة بمستوى 2'
+  - '&f&oتعزيز!'
+  name: '&6رباط عنصر للصحة'
   type:
   - '&7&oتعويذة'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7دلو من سائل العسل يُستخدم في الوصفات والآلات.'
+  name: '&fدلو عسل'
+  stats:
+  - '&7السعة: &e1000mb'
   type:
   - '&7&oمورد'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fيُرشّح العناصر الملقاة على الأرض الموجودة في مخزونه'
+  name: '&6مُرشّح المخزون'
   type:
   - '&7&oجهاز'
+  usage:
+  - '&eانقر بالزر الأيمن &7للفتح.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالحديد'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fنواة آلة حديدية'
   type:
   - '&7&oمكون'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fيصنع وصفات المطبخ تلقائيًا'
+  - '&f&oرائحته كالبسكويت'
+  name: '&6صانع المطبخ التلقائي'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b1x'
   - '&8⇨ &e⚡ &716 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن باللازورد'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7سائل معبّأ يُستخدم كمصدر للحمم في الوصفات والآلات.'
+  name: '&fقارورة حمم'
+  stats:
+  - '&7السعة: &e250mb'
   type:
   - '&7&oمورد'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالرصاص'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fخاطف سوائل بسيط.'
+  name: '&6خزّان سوائل محمول'
+  stats:
+  - '&7السعة: &e16000mb'
   type:
   - '&7&oأداة'
+  usage:
+  - انقر بالزر الأيمن لالتقاط سائل
+  - شِفت + نقر لوضع سائل
 DYNATECH_LIVINGROCK:
+  name: '&6صخر حيّ'
   type:
   - '&7&oمورد'
 DYNATECH_LIVINGWOOD:
+  name: '&6خشب حيّ'
   type:
   - '&7&oمورد'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6خُردة آلات'
   type:
   - '&7&oمورد'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالمغنيسيوم'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fباستخدام الطاقة والنحل، يولّد المواد ببطء.'
+  name: '&6خلية المواد'
   stats:
   - '&a☢&7 مستوى الإشعاع: &6مرتفع'
   - '&8⇨ &e⚡ &71024 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7سائل معبّأ يُستخدم كمصدر للحليب في الوصفات والآلات.'
+  name: '&fقارورة حليب'
+  stats:
+  - '&7السعة: &e1000mb'
   type:
   - '&7&oمورد'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالنيثرايت'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fينمّي نباتات &cالنيثر &fتلقائيًا.'
+  name: '&cحجرة نمو النيثر'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b1x'
   - '&8⇨ &e⚡ &732 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fينمّي نباتات &cالنيثر &fتلقائيًا.'
+  - '&cإنتاج 3x.'
+  name: '&cحجرة نمو النيثر طراز 2'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b3x'
   - '&8⇨ &e⚡ &7128 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالنيكل'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fينمّي نباتات &9الماء &fتلقائيًا.'
+  - تستطيع إحياء المرجان الميت!
+  name: '&bحجرة نمو المحيط'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b1x'
   - '&8⇨ &e⚡ &732 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fينمّي نباتات &9الماء &fتلقائيًا.'
+  - تستطيع إحياء المرجان الميت!
+  - '&cإنتاج 3x.'
+  name: '&bحجرة نمو المحيط طراز 2'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b3x'
   - '&8⇨ &e⚡ &7128 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_ORECHID:
+  description:
+  - '&fباستخدام الحجر أو حجر النيثر والطاقة، تُنتج خاماتها المقابلة.'
+  name: '&6زهرة الخامات'
+  stats:
+  - '&8⇨ &e⚡ &71024 J لكل كتلة محوّلة.'
   type:
   - '&7&oآلة'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fأضف شرارات الطبيعة لصناعة زهور قوية'
+  name: '&dصيدلية البتلات'
   type:
   - '&7&oآلة'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fتسمح لك بتخزين الطعام'
+  - '&fتستهلكه تلقائيًا عندما تجوع'
+  - '&fيجب أن تكون في مخزونك'
+  name: '&6سلة نزهة'
+  stats:
+  - '&fالحجم: &e27'
   type:
   - '&7&oحقيبة ظهر'
+  usage:
+  - '&eانقر بالزر الأيمن &7للفتح.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7دلو من سائل الجرعة يُستخدم في الوصفات والآلات.'
+  name: '&fدلو جرعة'
+  stats:
+  - '&7السعة: &e1000mb'
   type:
   - '&7&oمورد'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fيطبّق تأثير الجرعة على عدة أشخاص من بعيد.'
+  name: '&6ناثر الجرعات'
   stats:
   - '&8⇨ &e⚡ &732 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالكوارتز'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7يعرض كتابًا قابلًا للبحث يضم كل وصفة أضافها DynaTech.'
+  name: '&6كتاب الوصفات'
   type:
   - '&7&oجهاز'
+  usage:
+  - '&eانقر بالزر الأيمن &7للفتح.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالحجر الأحمر'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بخليط الحجر الأحمر'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالخليط المعزّز'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7يُوضع داخل خلية المواد لتسريع إنتاجها.'
+  name: '&6نحلة آلية'
   type:
   - '&7&oمورد'
 DYNATECH_SCOOP:
+  description:
+  - '&fتُستخدم لالتقاط النحل.'
+  - '&f&oاحرص على ألّا تُلسع'
+  name: '&6مغرفة'
   type:
   - '&7&oأداة'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fينزع البذور من العناصر النباتية.'
+  name: '&6نازع البذور'
   stats:
   - '&8⇨ &e⚡ &732 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالفضة'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بسبيكة اللحام'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fتسمح لك بتخزين الطعام'
+  - '&fتستهلكه تلقائيًا عندما تجوع'
+  - '&fيجب أن تكون في مخزونك'
+  - '&dمرتبط بالروح'
+  name: '&6سلة نزهة مرتبطة بالروح'
+  stats:
+  - '&fالحجم: &e27'
   type:
   - '&7&oحقيبة ظهر'
+  usage:
+  - '&eانقر بالزر الأيمن &7للفتح.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fسبيكة فولاذ مقاوم للصدأ'
   type:
   - '&7&oمورد'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fدوّار فولاذ مقاوم للصدأ'
   type:
   - '&7&oمورد'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7يبدّل غبار النجوم بكمية كبيرة من الطاقة.'
+  name: '&bمفاعل غبار النجوم'
   stats:
   - '&8⇨ &e⚡ &7مخزن 32768 جول'
   - '&8⇨ &e⚡ &71024 جول/ث'
   type:
   - '&7&oمولد'
 DYNATECH_STAR_DUST:
+  name: '&6غبار النجوم'
   type:
   - '&7&oمورد'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالفولاذ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fنواة آلة حجرية'
   type:
   - '&7&oمكون'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالألماس الصناعي'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالزمرد الصناعي'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالياقوت الأزرق الصناعي'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_TESSERACT:
+  description:
+  - '&fينقل العناصر والطاقة لاسلكيًا'
+  - '&fوهي 2-اتجاهية أيضًا!'
+  name: '&6تيسراكت'
   stats:
   - '&8⇨ &e⚡ &7مخزن 65535 جول'
   - '&8⇨ &e⚡ &71024 جول/ث'
   type:
   - '&7&oآلة'
+  usage:
+  - انقر بالزر الأيمن على تيسراكت آخر للاتصال!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oيتلألأ ويتبدّل بين يديك'
+  name: '&6جسم تيسراكتي'
   type:
   - '&7&oمورد'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f يُستخدم لربط 2 تيسراكت معًا.'
+  name: '&6رابط التيسراكت'
   type:
   - '&7&oأداة'
+  usage:
+  - '&fانقر بالزر الأيمن لمعرفة موضع التيسراكت'
+  - '&fانحنِ + الأيمن لربط الموضع بالتيسراكت'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالقصدير'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 DYNATECH_VEX_GEM:
+  name: '&6جوهرة الفيكس'
   type:
   - '&7&oمورد'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7تتدهور بمرور الوقت.'
+  name: '&bطاحونة ماء'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J مخزن مؤقت'
   type:
   - '&7&oمولد'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7تتدهور بمرور الوقت.'
+  name: '&bعنفة مائية'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J مخزن مؤقت'
   type:
   - '&7&oمولد'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fيتحكّم بالطقس عند إعطائه عنصر المفتاح.'
+  name: '&6متحكّم الطقس'
   stats:
   - '&8⇨ &e⚡ &732 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7تتدهور بمرور الوقت.'
+  name: '&bطاحونة هواء'
+  stats:
+  - '&fأدنى معدّل توليد للطاقة: &b16j/تكّة'
+  - '&fأقصى معدّل توليد للطاقة: &b64j/تكّة'
+  - '&8⇨ &e⚡ &7256 J مخزن مؤقت'
   type:
   - '&7&oمولد'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7تتدهور بمرور الوقت.'
+  name: '&bعنفة هوائية'
+  stats:
+  - '&fأدنى معدّل توليد للطاقة: &b64j/تكّة'
+  - '&fأقصى معدّل توليد للطاقة: &b256j/تكّة'
+  - '&8⇨ &e⚡ &71024 J مخزن مؤقت'
   type:
   - '&7&oمولد'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fيشحن العناصر في مخزونك لاسلكيًا'
+  name: '&6شاحن لاسلكي'
   stats:
   - '&8⇨ &e⚡ &716 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fيخزّن الطاقة لتستخدمها'
+  - '&fنقطة طاقة لاسلكية.'
+  name: '&6مصرف طاقة لاسلكي'
   stats:
   - '&8⇨ &e⚡ &7مخزن 10240 جول'
   - '&8⇨ &e⚡ &71024 جول/ث'
   type:
   - '&7&oآلة'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fتنقل الطاقة لاسلكيًا'
+  - '&fمن مصرف طاقة لاسلكي'
+  name: '&6نقطة طاقة لاسلكية'
   stats:
   - '&8⇨ &e⚡ &7مخزن 5120 جول'
   - '&8⇨ &e⚡ &71024 جول/ث'
   type:
   - '&7&oآلة'
+  usage:
+  - انقر بالزر الأيمن على مصرف الطاقة اللاسلكي للاتصال!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fينقل العناصر لاسلكيًا'
+  - '&f إلى مُخرج العناصر اللاسلكي'
+  name: '&6مُدخل عناصر لاسلكي'
+  stats:
+  - '&8⇨ &e⚡ &71024 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &78 J لكل حزمة عناصر'
   type:
   - '&7&oآلة'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fينقل العناصر لاسلكيًا'
+  - '&fمن مُدخل العناصر اللاسلكي'
+  name: '&6مُخرج عناصر لاسلكي'
+  stats:
+  - '&8⇨ &e⚡ &71024 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &78 J لكل حزمة عناصر'
   type:
   - '&7&oآلة'
+  usage:
+  - انقر بالزر الأيمن على مُدخل العناصر اللاسلكي للاتصال!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - يستدعي هيكل ويثر
+  name: '&6عملاق الويثر متعدد الكتل'
   type:
   - '&7&oبنية مركبة'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fنواة آلة خشبية'
   type:
   - '&7&oمكون'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fيُنتج مادة'
+  - '&fبمساعدة النحل'
+  name: '&fمنحل مُمَعدَن بالزنك'
+  stats:
+  - '&8⇨ &e⚡ &716384 J مخزن مؤقت'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oآلة'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
+  name: '&bبطاقة بيانات الفانتوم'
   stats:
   - '&8⇨ &e⚡ &7300 جول/ث'
   type:
   - '&7&oمكون'
 STARDUST_METEOR:
+  description:
+  - '&fمستخرج جيولوجيًا من أحياء الجبال أو الأراضي الوعرة'
+  name: '&6نيزك غبار النجوم'
   type:
   - '&7&oمورد'
 VEX_DATA_CARD:
+  description:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
+  name: '&bبطاقة بيانات الفيكس'
   stats:
   - '&8⇨ &e⚡ &7300 جول/ث'
   type:
