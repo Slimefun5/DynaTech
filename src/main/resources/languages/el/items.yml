@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Προηγμένα Παλιοσίδερα Μηχανής'
   type:
   - '&7&oΠόρος'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Τοποθετείται μέσα σε Κυψέλη Υλικών για να επιταχύνει την παραγωγή της.'
+  name: '&6Προηγμένη Ρομποτική Μέλισσα'
   type:
   - '&7&oΠόρος'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Αλουμινίου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Ορείχαλκου Αλουμινίου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Μπρούντζου Αλουμινίου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fΑρχαίος Πυρήνας Μηχανής'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fΜόνιμη Δημιουργική Πτήση.'
+  - '&fΈχει κάποιες ρυθμίσεις ταχύτητας.'
+  - '&f&oΠέτα σαν πουλί~'
+  name: '&6Πετράδι Πτήσης'
   type:
   - '&7&oΣυσκευή'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Δημιουργική Πτήση σε περιοχή 45 μπλοκ'
+  name: '&6Φούσκα Αντιβαρύτητας'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Δεξί κλικ στην πρόσοψη μιας μηχανής για αυτόματη τροφοδοσία της'
+  - '&7από γειτονική αποθήκη. Καταναλώνεται με τη χρήση.'
+  name: '&6Αναβάθμιση Αυτόματης Εισόδου'
   type:
   - '&7&oΣυσκευή'
+  usage:
+  - '&eΔεξί κλικ&7 στην πρόσοψη μιας μηχανής για εφαρμογή.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fΦτιάχνει αυτόματα συνταγές Κουζίνας'
+  - '&f&oΜυρίζει μπισκότα'
+  name: '&6Αυτόματη Κουζίνα'
   stats:
   - '&8⇨ &b⚡ &7Ταχύτητα: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Δεξί κλικ στην πρόσοψη μιας μηχανής για αυτόματη προώθηση των'
+  - '&7προϊόντων της σε γειτονική αποθήκη. Καταναλώνεται με τη χρήση.'
+  name: '&6Αναβάθμιση Αυτόματης Εξόδου'
   type:
   - '&7&oΣυσκευή'
+  usage:
+  - '&eΔεξί κλικ&7 στην πρόσοψη μιας μηχανής για εφαρμογή.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fΔιαχειρίζεται Λουράκια Αντικειμένων'
+  name: '&6Διαχειριστής Λουρακιών'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fΑπωθεί πλάσματα σε μια ακτίνα.'
+  name: '&6Αγκαθωτό Σύρμα'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_BEE:
+  description:
+  - '&7Τοποθετείται μέσα σε Κυψέλη Υλικών για να επιταχύνει την παραγωγή της.'
+  name: '&6Μέλισσα'
   type:
   - '&7&oΠόρος'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Μπιγιόν'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Ορείχαλκου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Καρμπονάντο'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Κάρβουνου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_COAL_COKE:
+  name: '&fΟπτάνθρακας'
   type:
   - '&7&oΠόρος'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Ελέγχει ένα πολυμπλόκ φούρνο οπτάνθρακα 3x3x3 από τούβλα.'
+  - '&7Μετατρέπει τα αντικείμενα του βαρελιού εισόδου σε'
+  - '&7προϊόντα ψημένα στον φούρνο με τον χρόνο.'
+  name: '&fΕλεγκτής Φούρνου Οπτάνθρακα'
   type:
   - '&7&oΠολυμπλόκ'
+  usage:
+  - '&eΔεξί κλικ&7 για επικύρωση της δομής πολυμπλόκ.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Κοβαλτίου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Χαλκού'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Κορινθιακού Μπρούντζου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Δαμασκηνού Χάλυβα'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cΦθαρμένος Μύλος Αυγού Δράκου'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cΦθαρμένος Στρόβιλος Αυγού Δράκου'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cΦθαρμένος Νερόμυλος'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cΦθαρμένος Υδροστρόβιλος'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cΦθαρμένος Ανεμόμυλος'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cΦθαρμένη Ανεμογεννήτρια'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΔιαμαντένια Μεταλλοποιημένη Κυψέλη'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fΔιαμαντένιος Πυρήνας Μηχανής'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fΣε τηλεμεταφέρει σε ένα'
+  - '&fξεχωριστό διαστατικό σπίτι και πίσω'
+  - '&f&oΣπίτι μου, σπιτάκι μου'
+  name: '&6Διαστατικό Σπίτι'
   type:
   - '&7&oΣυσκευή'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Ανταλλάσσει ανθεκτικότητα για ισχύ.'
+  name: '&bΓεννήτρια Φθοράς'
+  stats:
+  - '&8⇨ &e⚡ &7256 J Απόθεμα'
+  - '&8⇨ &e⚡ &78 J ανά μονάδα ανθεκτικότητας'
   type:
   - '&7&oΓεννήτρια'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Ντουραλουμινίου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Φθείρεται με τον χρόνο.'
+  name: '&bΜύλος Αυγού Δράκου'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Απόθεμα'
   type:
   - '&7&oΓεννήτρια'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Φθείρεται με τον χρόνο.'
+  name: '&bΣτρόβιλος Αυγού Δράκου'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Απόθεμα'
   type:
   - '&7&oΓεννήτρια'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fΣε ταΐζει αυτόματα με κόστος ενέργειας'
+  - '&f&oΔιέγειρε τις αισθήσεις σου.'
+  name: '&6Ηλεκτρικός Διεγέρτης'
   type:
   - '&7&oΣυσκευή'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΣμαραγδένια Μεταλλοποιημένη Κυψέλη'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bΜαγεμένος Πυρήνας Μηχανής'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fΜεγαλώνει αυτόματα &dάνθη χορωδίας.'
+  name: '&dΘάλαμος Ανάπτυξης Έντ'
   stats:
   - '&8⇨ &b⚡ &7Ταχύτητα: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fΜεγαλώνει αυτόματα &dάνθη χορωδίας.'
+  - '&c3x παραγωγή.'
+  name: '&dΘάλαμος Ανάπτυξης Έντ ΜΚ2'
   stats:
   - '&8⇨ &b⚡ &7Ταχύτητα: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cΕξάρτημα Εισόδου Ενέργειας'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cΕξάρτημα Εξόδου Ενέργειας'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cΕξάρτημα Αποθήκευσης Ενέργειας'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fΘερμαίνει εξωτερικά Φούρνους, Υψικαμίνους,'
+  - '&fκαι Καπνιστήρια.'
+  name: '&6Εξωτερικός Θερμαντήρας'
+  stats:
+  - '&8⇨ &e⚡ &72048 J Απόθεμα'
+  - '&8⇨ &e⚡ &7128 J ανά θερμαινόμενο μπλοκ'
   type:
   - '&7&oΜηχανή'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Σιδηροπυριτίου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Ένας ειδικός κουβάς που συγκεντρώνει υγρό όταν γεμίζεις ή αδειάζεις'
+  - '&7κλασικούς κουβάδες κοντά, αποθηκεύοντας έως 16,000 mB.'
+  name: '&fΔεξαμενή Υγρών'
+  stats:
+  - '&7Χωρητικότητα: &e16000mb'
   type:
   - '&7&oΕργαλείο'
+  usage:
+  - '&eΣκύψε&7 + &eΔεξί κλικ&7 για μετατροπή στον αντίστοιχο κλασικό κουβά.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Ανταλλάσσει πείνα για ισχύ'
+  name: '&bΜαγειρική Γεννήτρια'
   stats:
   - '&8⇨ &e⚡ &7256 J Απόθεμα'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oΓεννήτρια'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Φαντασματική Ουσία'
   type:
   - '&7&oΠόρος'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Επίχρυσου Σιδήρου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΧρυσή Μεταλλοποιημένη Κυψέλη'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fΜεγαλώνει αυτόματα &eφυτά&f.'
+  - '&f&oΕίναι σαν ένα μικρό θερμοκήπιο!'
+  name: '&6Θάλαμος Ανάπτυξης'
   stats:
   - '&8⇨ &b⚡ &7Ταχύτητα: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fΜεγαλώνει αυτόματα &eφυτά&f.'
+  - '&f&oΕίναι σαν ένα μικρό θερμοκήπιο!'
+  - '&c3x παραγωγή.'
+  name: '&6Θάλαμος Ανάπτυξης ΜΚ2'
   stats:
   - '&8⇨ &b⚡ &7Ταχύτητα: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Σκληρυμένου Μετάλλου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fΌταν εφαρμοστεί σε πανοπλία ή εργαλεία'
+  - '&fσου δίνει 2 επίπεδα Σπουδής'
+  - '&f&oΕνίσχυση!'
+  name: '&6Λουράκι Σπουδής'
   type:
   - '&7&oΦυλαχτό'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fΌταν εφαρμοστεί σε πανοπλία ή εργαλεία'
+  - '&fσου δίνει 2 επίπεδα Ενίσχυσης Υγείας'
+  - '&f&oΕνίσχυση!'
+  name: '&6Λουράκι Υγείας'
   type:
   - '&7&oΦυλαχτό'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Ένας κουβάς με υγρό Μέλι για συνταγές και μηχανές.'
+  name: '&fΚουβάς Μελιού'
+  stats:
+  - '&7Χωρητικότητα: &e1000mb'
   type:
   - '&7&oΠόρος'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fΦιλτράρει τα αντικείμενα στο έδαφος που βρίσκονται στην αποθήκη του'
+  name: '&6Φίλτρο Αποθήκης'
   type:
   - '&7&oΣυσκευή'
+  usage:
+  - '&eΔεξί κλικ &7για άνοιγμα.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΣιδερένια Μεταλλοποιημένη Κυψέλη'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fΣιδερένιος Πυρήνας Μηχανής'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fΦτιάχνει αυτόματα συνταγές Κουζίνας'
+  - '&f&oΜυρίζει μπισκότα'
+  name: '&6Αυτόματος Κατασκευαστής Κουζίνας'
   stats:
   - '&8⇨ &b⚡ &7Ταχύτητα: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Λάπις Λάζουλι'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Εμφιαλωμένο υγρό που χρησιμεύει ως πηγή Λάβας σε συνταγές και μηχανές.'
+  name: '&fΜπουκάλι Λάβας'
+  stats:
+  - '&7Χωρητικότητα: &e250mb'
   type:
   - '&7&oΠόρος'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Μολύβδου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fΑπλός Αρπακτής Υγρών.'
+  name: '&6Φορητή Δεξαμενή Υγρών'
+  stats:
+  - '&7Χωρητικότητα: &e16000mb'
   type:
   - '&7&oΕργαλείο'
+  usage:
+  - Δεξί κλικ για να πάρεις ένα υγρό
+  - Σιφτ κλικ για να τοποθετήσεις ένα υγρό
 DYNATECH_LIVINGROCK:
+  name: '&6Ζωντανόπετρα'
   type:
   - '&7&oΠόρος'
 DYNATECH_LIVINGWOOD:
+  name: '&6Ζωντανόξυλο'
   type:
   - '&7&oΠόρος'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Παλιοσίδερα Μηχανής'
   type:
   - '&7&oΠόρος'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Μαγνησίου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fΜε ισχύ και μέλισσες, παράγει αργά υλικά.'
+  name: '&6Κυψέλη Υλικών'
   stats:
   - '&a☢&7 Επίπεδο ραδιενέργειας: &6ΥΨΗΛΟ'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Εμφιαλωμένο υγρό που χρησιμεύει ως πηγή Γάλακτος σε συνταγές και μηχανές.'
+  name: '&fΜπουκάλι Γάλακτος'
+  stats:
+  - '&7Χωρητικότητα: &e1000mb'
   type:
   - '&7&oΠόρος'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Νέθεραϊτ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fΜεγαλώνει αυτόματα φυτά του &cΝέθερ&f.'
+  name: '&cΘάλαμος Ανάπτυξης Νέθερ'
   stats:
   - '&8⇨ &b⚡ &7Ταχύτητα: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fΜεγαλώνει αυτόματα φυτά του &cΝέθερ&f.'
+  - '&c3x παραγωγή.'
+  name: '&cΘάλαμος Ανάπτυξης Νέθερ ΜΚ2'
   stats:
   - '&8⇨ &b⚡ &7Ταχύτητα: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Νικελίου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fΜεγαλώνει αυτόματα &9υδρόβια &fφυτά.'
+  - Μπορεί να αναζωογονήσει νεκρά κοράλλια!
+  name: '&bΘάλαμος Ανάπτυξης Ωκεανού'
   stats:
   - '&8⇨ &b⚡ &7Ταχύτητα: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fΜεγαλώνει αυτόματα &9υδρόβια &fφυτά.'
+  - Μπορεί να αναζωογονήσει νεκρά κοράλλια!
+  - '&c3x παραγωγή.'
+  name: '&bΘάλαμος Ανάπτυξης Ωκεανού ΜΚ2'
   stats:
   - '&8⇨ &b⚡ &7Ταχύτητα: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_ORECHID:
+  description:
+  - '&fΜε Πέτρα ή Νέθερακ και ισχύ, φτιάχνει τα αντίστοιχα μεταλλεύματά τους.'
+  name: '&6Ορεχίντ'
+  stats:
+  - '&8⇨ &e⚡ &71024 J ανά μπλοκ που μετατρέπεται.'
   type:
   - '&7&oΜηχανή'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fΠρόσθεσε σπίθες της φύσης για να φτιάξεις δυνατά άνθη'
+  name: '&dΦαρμακείο Πετάλων'
   type:
   - '&7&oΜηχανή'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fΣου επιτρέπει να αποθηκεύεις φαγητό'
+  - '&fΤα καταναλώνει αυτόματα όταν πεινάς'
+  - '&fΠρέπει να είναι στην αποθήκη σου'
+  name: '&6Καλάθι Πικνίκ'
+  stats:
+  - '&fΜέγεθος: &e27'
   type:
   - '&7&oΣακίδιο'
+  usage:
+  - '&eΔεξί κλικ &7για άνοιγμα.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Ένας κουβάς με υγρό Φίλτρο για συνταγές και μηχανές.'
+  name: '&fΚουβάς Φίλτρου'
+  stats:
+  - '&7Χωρητικότητα: &e1000mb'
   type:
   - '&7&oΠόρος'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fΕφαρμόζει επιδράσεις φίλτρων σε πολλά άτομα από απόσταση.'
+  name: '&6Ψεκαστήρας Φίλτρων'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Κουάρτζ'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Εμφανίζει ένα βιβλίο με αναζήτηση για κάθε συνταγή που προσθέτει το DynaTech.'
+  name: '&6Βιβλίο Συνταγών'
   type:
   - '&7&oΣυσκευή'
+  usage:
+  - '&eΔεξί κλικ &7για άνοιγμα.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Ρεντστόουν'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Κράματος Ρεντστόουν'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Ενισχυμένου Κράματος'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Τοποθετείται μέσα σε Κυψέλη Υλικών για να επιταχύνει την παραγωγή της.'
+  name: '&6Ρομποτική Μέλισσα'
   type:
   - '&7&oΠόρος'
 DYNATECH_SCOOP:
+  description:
+  - '&fΧρησιμοποιείται για τη σύλληψη μελισσών.'
+  - '&f&oΠρόσεχε μη σε τσιμπήσουν'
+  name: '&6Απόχη'
   type:
   - '&7&oΕργαλείο'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fΒγάζει σπόρους από φυτικά αντικείμενα.'
+  name: '&6Αποσπαστής Σπόρων'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Ασημιού'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Καλάι'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fΣου επιτρέπει να αποθηκεύεις φαγητό'
+  - '&fΤα καταναλώνει αυτόματα όταν πεινάς'
+  - '&fΠρέπει να είναι στην αποθήκη σου'
+  - '&dΨυχόδετο'
+  name: '&6Ψυχόδετο Καλάθι Πικνίκ'
+  stats:
+  - '&fΜέγεθος: &e27'
   type:
   - '&7&oΣακίδιο'
+  usage:
+  - '&eΔεξί κλικ &7για άνοιγμα.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fΠλίνθωμα Ανοξείδωτου Χάλυβα'
   type:
   - '&7&oΠόρος'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fΡότορας Ανοξείδωτου Χάλυβα'
   type:
   - '&7&oΠόρος'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Ανταλλάσσει Αστρόσκονη για μεγάλη ποσότητα ισχύος.'
+  name: '&bΑντιδραστήρας Αστρόσκονης'
   stats:
   - '&8⇨ &e⚡ &732768 J Απόθεμα'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oΓεννήτρια'
 DYNATECH_STAR_DUST:
+  name: '&6Αστρόσκονη'
   type:
   - '&7&oΠόρος'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Χάλυβα'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fΠέτρινος Πυρήνας Μηχανής'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Συνθετικού Διαμαντιού'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Συνθετικού Σμαραγδιού'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Συνθετικού Ζαφειριού'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_TESSERACT:
+  description:
+  - '&fΜεταφέρει Αντικείμενα και Ενέργεια Ασύρματα'
+  - '&fΑυτά είναι και 2-κατευθύνσεων!'
+  name: '&6Τεσεράκτ'
   stats:
   - '&8⇨ &e⚡ &765535 J Απόθεμα'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oΜηχανή'
+  usage:
+  - Δεξί κλικ σε άλλο Τεσεράκτ για σύνδεση!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oΛαμπυρίζει και αλλάζει στα χέρια σου'
+  name: '&6Αντικείμενο Τεσεράκτ'
   type:
   - '&7&oΠόρος'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Χρησιμοποιείται για να συνδέσει 2 Τεσεράκτ μεταξύ τους.'
+  name: '&6Συνδετήρας Τεσεράκτ'
   type:
   - '&7&oΕργαλείο'
+  usage:
+  - '&fΔεξί κλικ για να πάρεις τη θέση του Τεσεράκτ'
+  - '&fΣκύψε + Δεξί κλικ για να δέσεις τη θέση στο Τεσεράκτ'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Κασσιτέρου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 DYNATECH_VEX_GEM:
+  name: '&6Πετράδι Βεξ'
   type:
   - '&7&oΠόρος'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Φθείρεται με τον χρόνο.'
+  name: '&bΝερόμυλος'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Απόθεμα'
   type:
   - '&7&oΓεννήτρια'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Φθείρεται με τον χρόνο.'
+  name: '&bΥδροστρόβιλος'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Απόθεμα'
   type:
   - '&7&oΓεννήτρια'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fΕλέγχει τον καιρό όταν του δοθεί αντικείμενο-κλειδί.'
+  name: '&6Ελεγκτής Καιρού'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Φθείρεται με τον χρόνο.'
+  name: '&bΑνεμόμυλος'
+  stats:
+  - '&fΕλάχιστος Ρυθμός Παραγωγής Ενέργειας: &b16j/τικ'
+  - '&fΜέγιστος Ρυθμός Παραγωγής Ενέργειας: &b64j/τικ'
+  - '&8⇨ &e⚡ &7256 J Απόθεμα'
   type:
   - '&7&oΓεννήτρια'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Φθείρεται με τον χρόνο.'
+  name: '&bΑνεμογεννήτρια'
+  stats:
+  - '&fΕλάχιστος Ρυθμός Παραγωγής Ενέργειας: &b64j/τικ'
+  - '&fΜέγιστος Ρυθμός Παραγωγής Ενέργειας: &b256j/τικ'
+  - '&8⇨ &e⚡ &71024 J Απόθεμα'
   type:
   - '&7&oΓεννήτρια'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fΦορτίζει ασύρματα αντικείμενα στην αποθήκη σου'
+  name: '&6Ασύρματος Φορτιστής'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fΑποθηκεύει ισχύ για ένα'
+  - '&fΑσύρματο Σημείο Ενέργειας.'
+  name: '&6Ασύρματη Τράπεζα Ενέργειας'
   stats:
   - '&8⇨ &e⚡ &710240 J Απόθεμα'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oΜηχανή'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fΜεταφέρει Ενέργεια Ασύρματα'
+  - '&fαπό μια Ασύρματη Τράπεζα Ενέργειας'
+  name: '&6Ασύρματο Σημείο Ενέργειας'
   stats:
   - '&8⇨ &e⚡ &75120 J Απόθεμα'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oΜηχανή'
+  usage:
+  - Δεξί κλικ στην Ασύρματη Τράπεζα Ενέργειας για σύνδεση!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fΜεταφέρει Αντικείμενα Ασύρματα'
+  - '&f στην Ασύρματη Έξοδο Αντικειμένων'
+  name: '&6Ασύρματη Είσοδος Αντικειμένων'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Απόθεμα'
+  - '&8⇨ &e⚡ &78 J ανά στοίβα αντικειμένων'
   type:
   - '&7&oΜηχανή'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fΜεταφορά Αντικειμένων Ασύρματα'
+  - '&fαπό την Ασύρματη Είσοδο Αντικειμένων'
+  name: '&6Ασύρματη Έξοδος Αντικειμένων'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Απόθεμα'
+  - '&8⇨ &e⚡ &78 J ανά στοίβα αντικειμένων'
   type:
   - '&7&oΜηχανή'
+  usage:
+  - Δεξί κλικ στην Ασύρματη Είσοδο Αντικειμένων για σύνδεση!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Γεννά έναν Σκελετό Γουίδερ
+  name: '&6Πολυμπλόκ Γκόλεμ Γουίδερ'
   type:
   - '&7&oΠολυμπλόκ'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fΞύλινος Πυρήνας Μηχανής'
   type:
   - '&7&oΕξάρτημα'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fΠαράγει ένα υλικό'
+  - '&fμε τη βοήθεια μελισσών'
+  name: '&fΜεταλλοποιημένη Κυψέλη Ψευδαργύρου'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Απόθεμα'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oΜηχανή'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Τοποθέτησε σε θάλαμο προσομοίωσης πλασμάτων για ενεργοποίηση'
+  name: '&bΚάρτα Δεδομένων Φαντάσματος'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oΕξάρτημα'
 STARDUST_METEOR:
+  description:
+  - '&fΕξορύσσεται από Βιότοπους Βουνού ή Ερημότοπων'
+  name: '&6Μετεωρίτης Αστρόσκονης'
   type:
   - '&7&oΠόρος'
 VEX_DATA_CARD:
+  description:
+  - '&7Τοποθέτησε σε θάλαμο προσομοίωσης πλασμάτων για ενεργοποίηση'
+  name: '&bΚάρτα Δεδομένων Βεξ'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
