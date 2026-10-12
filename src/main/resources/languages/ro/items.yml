@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Deșeuri de Mașină Avansată'
   type:
   - '&7&oResursă'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Plasată într-un Stup de Material pentru a-i grăbi producția.'
+  name: '&6Albină Robotică Avansată'
   type:
   - '&7&oResursă'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Aluminiu'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Alamă cu Aluminiu'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Bronz cu Aluminiu'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fNucleu de Mașină Antic'
   type:
   - '&7&oComponentă'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fZbor Creativ permanent.'
+  - '&fAre câteva setări de reglare a vitezei.'
+  - '&f&oZboară ca o pasăre~'
+  name: '&6Gemă de Zbor'
   type:
   - '&7&oGadget'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Zbor Creativ într-o zonă de 45 blocuri'
+  name: '&6Bulă Antigravitațională'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Clic-dreapta pe fața unei mașini pentru a trage automat obiecte în'
+  - '&7ea dintr-un inventar adiacent. Se consumă la utilizare.'
+  name: '&6Îmbunătățire de Intrare Automată'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eClic dreapta&7 pe fața unei mașini pentru a aplica.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fPrepară automat rețete de Bucătărie'
+  - '&f&oMiroase a fursecuri'
+  name: '&6Bucătărie Automată'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Clic-dreapta pe fața unei mașini pentru a împinge automat obiectele'
+  - '&7de ieșire într-un inventar adiacent. Se consumă la utilizare.'
+  name: '&6Îmbunătățire de Ieșire Automată'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eClic dreapta&7 pe fața unei mașini pentru a aplica.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fAdministrează Benzile de Obiect'
+  name: '&6Administrator de Benzi de Obiect'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fÎmpinge mobii la distanță într-o rază.'
+  name: '&6Sârmă Ghimpată'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_BEE:
+  description:
+  - '&7Plasată într-un Stup de Material pentru a-i grăbi producția.'
+  name: '&6Albină'
   type:
   - '&7&oResursă'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Billon'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Alamă'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Carbonado'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Cărbune'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_COAL_COKE:
+  name: '&fCocs de Cărbune'
   type:
   - '&7&oResursă'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Controlează un cuptor de cocs multibloc din cărămidă 3x3x3.'
+  - '&7Convertește obiectele puse în butoiul de intrare în'
+  - '&7produse coapte la cuptor, cu timpul.'
+  name: '&fControler de Cuptor de Cocs'
   type:
   - '&7&oMultibloc'
+  usage:
+  - '&eClic dreapta&7 pentru a valida structura multibloc.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Cobalt'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Cupru'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Bronz Corintic'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Oțel Damasc'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cMoară cu Ou de Dragon Degradată'
   type:
   - '&7&oComponentă'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cTurbină cu Ou de Dragon Degradată'
   type:
   - '&7&oComponentă'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cMoară de Apă Degradată'
   type:
   - '&7&oComponentă'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cTurbină Hidro Degradată'
   type:
   - '&7&oComponentă'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cMoară de Vânt Degradată'
   type:
   - '&7&oComponentă'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cTurbină de Vânt Degradată'
   type:
   - '&7&oComponentă'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Diamant'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fNucleu de Mașină din Diamant'
   type:
   - '&7&oComponentă'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fTe teleportează într-o'
+  - '&fcasă dimensională separată și înapoi'
+  - '&f&oCasă Dulce Casă'
+  name: '&6Casă Dimensională'
   type:
   - '&7&oGadget'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Schimbă durabilitatea pe energie.'
+  name: '&bGenerator de Uzură'
+  stats:
+  - '&8⇨ &e⚡ &7256 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe punct de durabilitate'
   type:
   - '&7&oGenerator'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Duraluminiu'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Se degradează cu timpul.'
+  name: '&bMoară cu Ou de Dragon'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Tampon'
   type:
   - '&7&oGenerator'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Se degradează cu timpul.'
+  name: '&bTurbină cu Ou de Dragon'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Tampon'
   type:
   - '&7&oGenerator'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fTe hrănește automat consumând energie'
+  - '&f&oÎți stimulează simțurile.'
+  name: '&6Stimulator Electric'
   type:
   - '&7&oGadget'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Smarald'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bNucleu de Mașină Vrăjit'
   type:
   - '&7&oComponentă'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fCrește automat &dflori de chorus.'
+  name: '&dCameră de Creștere End'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fCrește automat &dflori de chorus.'
+  - '&c3x producție.'
+  name: '&dCameră de Creștere End MK2'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cComponentă de Intrare a Energiei'
   type:
   - '&7&oComponentă'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cComponentă de Ieșire a Energiei'
   type:
   - '&7&oComponentă'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cComponentă de Stocare a Energiei'
   type:
   - '&7&oComponentă'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fÎncălzește din exterior Furnale, Furnale de Topire,'
+  - '&fși Afumători.'
+  name: '&6Încălzitor Extern'
+  stats:
+  - '&8⇨ &e⚡ &72048 J Tampon'
+  - '&8⇨ &e⚡ &7128 J pe bloc încălzit'
   type:
   - '&7&oMașină'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Ferosiliciu'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7O găleată specială ce acumulează fluid când umpli sau golești'
+  - '&7găleți vanilla din apropiere, stocând până la 16,000 mB.'
+  name: '&fRezervor de Fluid'
+  stats:
+  - '&7Capacitate: &e16000mb'
   type:
   - '&7&oUnealtă'
+  usage:
+  - '&eGhemuit&7 + &eClic dreapta&7 pentru a o transforma în găleata vanilla corespunzătoare.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Schimbă foamea pe energie'
+  name: '&bGenerator Culinar'
   stats:
   - '&8⇨ &e⚡ &7256 J Tampon'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oGenerator'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Esență Fantomatică'
   type:
   - '&7&oResursă'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Fier Aurit'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Aur'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fCrește automat &eplante&f.'
+  - '&f&oE ca o seră mică!'
+  name: '&6Cameră de Creștere'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fCrește automat &eplante&f.'
+  - '&f&oE ca o seră mică!'
+  - '&c3x producție.'
+  name: '&6Cameră de Creștere MK2'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Metal Călit'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fCând este aplicată pe armură sau unelte'
+  - '&fîți dă 2 niveluri de Grabă'
+  - '&f&oÎntărire!'
+  name: '&6Bandă de Obiect Grăbită'
   type:
   - '&7&oTalisman'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fCând este aplicată pe armură sau unelte'
+  - '&fîți dă 2 niveluri de Spor de Viață'
+  - '&f&oÎntărire!'
+  name: '&6Bandă de Obiect Sănătoasă'
   type:
   - '&7&oTalisman'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7O găleată cu fluid de Miere folosit în rețete și mașini.'
+  name: '&fGăleată cu Miere'
+  stats:
+  - '&7Capacitate: &e1000mb'
   type:
   - '&7&oResursă'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fFiltrează obiectele de pe sol care se află în inventarul său'
+  name: '&6Filtru de Inventar'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eClic dreapta &7pentru a deschide.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Fier'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fNucleu de Mașină din Fier'
   type:
   - '&7&oComponentă'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fPrepară automat rețete de Bucătărie'
+  - '&f&oMiroase a fursecuri'
+  name: '&6Fabricator Automat de Bucătărie'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Lapis Lazuli'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Un fluid în sticlă folosit ca sursă de Lavă în rețete și mașini.'
+  name: '&fSticlă cu Lavă'
+  stats:
+  - '&7Capacitate: &e250mb'
   type:
   - '&7&oResursă'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Plumb'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fColector simplu de lichide.'
+  name: '&6Rezervor de Lichid Portabil'
+  stats:
+  - '&7Capacitate: &e16000mb'
   type:
   - '&7&oUnealtă'
+  usage:
+  - Clic dreapta pentru a prinde un fluid
+  - Shift clic pentru a plasa un fluid
 DYNATECH_LIVINGROCK:
+  name: '&6Piatră Vie'
   type:
   - '&7&oResursă'
 DYNATECH_LIVINGWOOD:
+  name: '&6Lemn Viu'
   type:
   - '&7&oResursă'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Deșeuri de Mașină'
   type:
   - '&7&oResursă'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Magneziu'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fFolosind energie și albine, generează lent materiale.'
+  name: '&6Stup de Material'
   stats:
   - '&a☢&7 Nivel de radiație: &6RIDICAT'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Un fluid în sticlă folosit ca sursă de Lapte în rețete și mașini.'
+  name: '&fSticlă cu Lapte'
+  stats:
+  - '&7Capacitate: &e1000mb'
   type:
   - '&7&oResursă'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Netherite'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fCrește automat plante din &cnether&f.'
+  name: '&cCameră de Creștere Nether'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fCrește automat plante din &cnether&f.'
+  - '&c3x producție.'
+  name: '&cCameră de Creștere Nether MK2'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Nichel'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fCrește automat plante de &9apă&f.'
+  - Poate reînvia coralul mort!
+  name: '&bCameră de Creștere Oceanică'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fCrește automat plante de &9apă&f.'
+  - Poate reînvia coralul mort!
+  - '&c3x producție.'
+  name: '&bCameră de Creștere Oceanică MK2'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_ORECHID:
+  description:
+  - '&fFolosind Piatră sau Netherack și energie, face minereurile corespunzătoare.'
+  name: '&6Orechid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J pe bloc convertit.'
   type:
   - '&7&oMașină'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fAdaugă scântei ale naturii pentru a crea flori puternice'
+  name: '&dSpițerie de Petale'
   type:
   - '&7&oMașină'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fÎți permite să stochezi mâncare'
+  - '&fO consumă automat când ți-e foame'
+  - '&fTrebuie să fie în inventarul tău'
+  name: '&6Coș de Picnic'
+  stats:
+  - '&fMărime: &e27'
   type:
   - '&7&oRucsac'
+  usage:
+  - '&eClic dreapta &7pentru a deschide.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7O găleată cu fluid de Poțiune folosit în rețete și mașini.'
+  name: '&fGăleată cu Poțiune'
+  stats:
+  - '&7Capacitate: &e1000mb'
   type:
   - '&7&oResursă'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fAplicator la distanță de efecte de poțiune pentru mai multe persoane.'
+  name: '&6Pulverizator de Poțiuni'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Cuarț'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Afișează o carte căutabilă cu fiecare rețetă adăugată de DynaTech.'
+  name: '&6Carte de Rețete'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eClic dreapta &7pentru a deschide.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Redstone'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Aliaj de Redstone'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Aliaj Întărit'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Plasată într-un Stup de Material pentru a-i grăbi producția.'
+  name: '&6Albină Robotică'
   type:
   - '&7&oResursă'
 DYNATECH_SCOOP:
+  description:
+  - '&fFolosită pentru a captura albine.'
+  - '&f&oAi grijă să nu fii înțepat'
+  name: '&6Cupă'
   type:
   - '&7&oUnealtă'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fScoate semințe din obiecte pe bază de plante.'
+  name: '&6Extractor de Semințe'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Argint'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Aliaj de Lipit'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fÎți permite să stochezi mâncare'
+  - '&fO consumă automat când ți-e foame'
+  - '&fTrebuie să fie în inventarul tău'
+  - '&dLegat de suflet'
+  name: '&6Coș de Picnic Legat de Suflet'
+  stats:
+  - '&fMărime: &e27'
   type:
   - '&7&oRucsac'
+  usage:
+  - '&eClic dreapta &7pentru a deschide.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fLingou de Oțel Inoxidabil'
   type:
   - '&7&oResursă'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fRotor de Oțel Inoxidabil'
   type:
   - '&7&oResursă'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Schimbă Praful de Stele pe o cantitate mare de energie.'
+  name: '&bReactor cu Praf de Stele'
   stats:
   - '&8⇨ &e⚡ &732768 J Tampon'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGenerator'
 DYNATECH_STAR_DUST:
+  name: '&6Praf de Stele'
   type:
   - '&7&oResursă'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Oțel'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fNucleu de Mașină din Piatră'
   type:
   - '&7&oComponentă'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Diamant Sintetic'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Smarald Sintetic'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Safir Sintetic'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_TESSERACT:
+  description:
+  - '&fTransferă obiecte și energie fără fir'
+  - '&fAcestea sunt chiar 2-direcționale!'
+  name: '&6Teseract'
   stats:
   - '&8⇨ &e⚡ &765535 J Tampon'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMașină'
+  usage:
+  - Clic dreapta pe un alt Teseract pentru a conecta!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oLicărește și se schimbă în mâinile tale'
+  name: '&6Obiect Teseractant'
   type:
   - '&7&oResursă'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Folosit pentru a lega 2 Teseracte între ele.'
+  name: '&6Legător de Teseract'
   type:
   - '&7&oUnealtă'
+  usage:
+  - '&fClic dreapta pentru a afla locația Teseractului'
+  - '&fGhemuit Clic dreapta pentru a lega locația la Teseract'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Staniu'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 DYNATECH_VEX_GEM:
+  name: '&6Gemă de Vex'
   type:
   - '&7&oResursă'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Se degradează cu timpul.'
+  name: '&bMoară de Apă'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Tampon'
   type:
   - '&7&oGenerator'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Se degradează cu timpul.'
+  name: '&bTurbină Hidro'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Tampon'
   type:
   - '&7&oGenerator'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fControlează vremea când i se dă un obiect-cheie.'
+  name: '&6Controler de Vreme'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Se degradează cu timpul.'
+  name: '&bMoară de Vânt'
+  stats:
+  - '&fRată minimă de generare a energiei: &b16j/tick'
+  - '&fRată maximă de generare a energiei: &b64j/tick'
+  - '&8⇨ &e⚡ &7256 J Tampon'
   type:
   - '&7&oGenerator'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Se degradează cu timpul.'
+  name: '&bTurbină de Vânt'
+  stats:
+  - '&fRată minimă de generare a energiei: &b64j/tick'
+  - '&fRată maximă de generare a energiei: &b256j/tick'
+  - '&8⇨ &e⚡ &71024 J Tampon'
   type:
   - '&7&oGenerator'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fÎncarcă fără fir obiectele din inventarul tău'
+  name: '&6Încărcător Fără Fir'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fStochează energie pentru un'
+  - '&fPunct de Energie Fără Fir.'
+  name: '&6Bancă de Energie Fără Fir'
   stats:
   - '&8⇨ &e⚡ &710240 J Tampon'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMașină'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fTransferă energia fără fir'
+  - '&fde la o Bancă de Energie Fără Fir'
+  name: '&6Punct de Energie Fără Fir'
   stats:
   - '&8⇨ &e⚡ &75120 J Tampon'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMașină'
+  usage:
+  - Clic dreapta pe Banca de Energie Fără Fir pentru a conecta!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fTransferă obiecte fără fir'
+  - '&f către Ieșirea de Obiecte Fără Fir'
+  name: '&6Intrare de Obiecte Fără Fir'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe stivă de obiecte'
   type:
   - '&7&oMașină'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fTransferă obiectele fără fir'
+  - '&fde la Intrarea de Obiecte Fără Fir'
+  name: '&6Ieșire de Obiecte Fără Fir'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe stivă de obiecte'
   type:
   - '&7&oMașină'
+  usage:
+  - Clic dreapta pe Intrarea de Obiecte Fără Fir pentru a conecta!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Generează un Schelet Wither
+  name: '&6Multibloc Golem Wither'
   type:
   - '&7&oMultibloc'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fNucleu de Mașină din Lemn'
   type:
   - '&7&oComponentă'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fProduce un material'
+  - '&fcu ajutorul albinelor'
+  name: '&fStupină Mineralizată de Zinc'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Tampon'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMașină'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
+  name: '&bCard de Date Phantom'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oComponentă'
 STARDUST_METEOR:
+  description:
+  - '&fGeoextras din biomuri de Munte sau Badlands'
+  name: '&6Meteor de Praf de Stele'
   type:
   - '&7&oResursă'
 VEX_DATA_CARD:
+  description:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
+  name: '&bCard de Date Vex'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
