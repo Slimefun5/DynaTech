@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Abanseng Latak ng Makina'
   type:
   - '&7&oRekurso'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Nakalagay sa loob ng Pukyutan ng Materyal para pabilisin ang produksyon nito.'
+  name: '&6Abanseng Robotikong Bubuyog'
   type:
   - '&7&oRekurso'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Aluminyo'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Aluminyong Tumbaga'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Aluminyong Bronse'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fSinaunang Ubod ng Makina'
   type:
   - '&7&oBahagi'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fPermanenteng Malikhaing Paglipad.'
+  - '&fMay ilang pagpipilian sa pagsasaayos ng bilis.'
+  - '&f&oLumipad na parang ibon~'
+  name: '&6Hiyas ng Paglipad'
   type:
   - '&7&oGadyet'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Malikhaing Paglipad sa loob ng 45 bloke na lugar'
+  name: '&6Bulang Kontra-grabidad'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Kanang-pindot ang harap ng makina para awtomatikong hilahin'
+  - '&7ang mga bagay dito mula sa katabing imbentaryo. Nauubos kapag ginamit.'
+  name: '&6Pampahusay ng Awtomatikong Pagpasok'
   type:
   - '&7&oGadyet'
+  usage:
+  - '&eKanang Pindot&7 ang harap ng makina para ipatupad.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fAwtomatikong gumagawa ng mga resipi ng Kusina'
+  - '&f&oAmoy kukis'
+  name: '&6Awtomatikong Kusina'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Kanang-pindot ang harap ng makina para awtomatikong itulak ang'
+  - '&7mga bagay na lumalabas dito sa katabing imbentaryo. Nauubos kapag ginamit.'
+  name: '&6Pampahusay ng Awtomatikong Paglabas'
   type:
   - '&7&oGadyet'
+  usage:
+  - '&eKanang Pindot&7 ang harap ng makina para ipatupad.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fPinamamahalaan ang mga Banda ng Bagay'
+  name: '&6Tagapamahala ng Banda ng Bagay'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fItinutulak ang mga nilalang palayo sa isang radyus.'
+  name: '&6Alambreng Tinik'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_BEE:
+  description:
+  - '&7Nakalagay sa loob ng Pukyutan ng Materyal para pabilisin ang produksyon nito.'
+  name: '&6Bubuyog'
   type:
   - '&7&oRekurso'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Billon'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Tumbaga'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Carbonado'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Uling'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_COAL_COKE:
+  name: '&fKoke ng Uling'
   type:
   - '&7&oRekurso'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Kinokontrol ang 3x3x3 na pugon ng koke na gawa sa laryo.'
+  - '&7Ginagawang mga lutong-pugon na produkto ang mga bagay na'
+  - '&7nailagay sa bariles ng pagpasok sa paglipas ng oras.'
+  name: '&fKontrolador ng Pugon ng Koke'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eKanang Pindot&7 para suriin ang estruktura ng multibloke.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Kobalto'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Tanso'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Bronseng Korinto'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Aserong Damasko'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cPudpod na Molino ng Itlog ng Dragon'
   type:
   - '&7&oBahagi'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cPudpod na Turbina ng Itlog ng Dragon'
   type:
   - '&7&oBahagi'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cPudpod na Molino ng Tubig'
   type:
   - '&7&oBahagi'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cPudpod na Turbinang Haydro'
   type:
   - '&7&oBahagi'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cPudpod na Molino ng Hangin'
   type:
   - '&7&oBahagi'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cPudpod na Turbina ng Hangin'
   type:
   - '&7&oBahagi'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Diyamante'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fDiyamanteng Ubod ng Makina'
   type:
   - '&7&oBahagi'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fInililipat ka sa'
+  - '&fhiwalay na tahanang pandimensyon at pabalik'
+  - '&f&oTahanan, Matamis na Tahanan'
+  name: '&6Tahanang Pandimensyon'
   type:
   - '&7&oGadyet'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Ipinapalit ang tibay para sa lakas.'
+  name: '&bGenerador na Pampudpod'
+  stats:
+  - '&8⇨ &e⚡ &7256 J Imbak'
+  - '&8⇨ &e⚡ &78 J bawat puntos ng tibay'
   type:
   - '&7&oGenerator'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Duralumin'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Humihina sa paglipas ng oras.'
+  name: '&bMolino ng Itlog ng Dragon'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Imbak'
   type:
   - '&7&oGenerator'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Humihina sa paglipas ng oras.'
+  name: '&bTurbina ng Itlog ng Dragon'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Imbak'
   type:
   - '&7&oGenerator'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fAwtomatikong pinapakain ka gamit ang enerhiya'
+  - '&f&oPasiglahin ang iyong mga pandama.'
+  name: '&6Elektrikong Pampasigla'
   type:
   - '&7&oGadyet'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Esmeralda'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bEnkantadong Ubod ng Makina'
   type:
   - '&7&oBahagi'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fAwtomatikong pinatutubo ang &dmga bulaklak ng chorus.'
+  name: '&dSilid ng Pagtubo sa End'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAwtomatikong pinatutubo ang &dmga bulaklak ng chorus.'
+  - '&c3x na produksyon.'
+  name: '&dSilid ng Pagtubo sa End MK2'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cSangkap ng Pagpasok ng Enerhiya'
   type:
   - '&7&oBahagi'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cSangkap ng Paglabas ng Enerhiya'
   type:
   - '&7&oBahagi'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cSangkap ng Imbakan ng Enerhiya'
   type:
   - '&7&oBahagi'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fPinapainit mula sa labas ang mga Pugon, Altos na Pugon,'
+  - '&fat mga Pausukan.'
+  name: '&6Panlabas na Pampainit'
+  stats:
+  - '&8⇨ &e⚡ &72048 J Imbak'
+  - '&8⇨ &e⚡ &7128 J bawat pinainit na bloke'
   type:
   - '&7&oMakina'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Ferrosilicon'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Espesyal na timba na nag-iipon ng likido habang pinupuno o'
+  - '&7inaalisan mo ang mga orihinal na timba sa malapit, umiimbak hanggang 16,000 mB.'
+  name: '&fTangke ng Likido'
+  stats:
+  - '&7Kapasidad: &e16000mb'
   type:
   - '&7&oKasangkapan'
+  usage:
+  - '&eYumuko&7 + &eKanang Pindot&7 para gawing katugmang orihinal na timba.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Ipinapalit ang gutom para sa lakas'
+  name: '&bGenerador na Pangkusina'
   stats:
   - '&8⇨ &e⚡ &7256 J na Buffer'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oGenerator'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Mala-multong Esensya'
   type:
   - '&7&oRekurso'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Ginintuang Bakal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Ginto'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fAwtomatikong pinatutubo ang &emga halaman&f.'
+  - '&f&oParang maliit na bahay-halaman!'
+  name: '&6Silid ng Pagtubo'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAwtomatikong pinatutubo ang &emga halaman&f.'
+  - '&f&oParang maliit na bahay-halaman!'
+  - '&c3x na produksyon.'
+  name: '&6Silid ng Pagtubo MK2'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Pinatigas na Metal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fKapag inilapat sa baluti o mga kasangkapan'
+  - '&fbibigyan ka ng 2 antas ng Bilis ng Paghukay'
+  - '&f&oPampalakas!'
+  name: '&6Mabilis na Banda ng Bagay'
   type:
   - '&7&oAnting-anting'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fKapag inilapat sa baluti o mga kasangkapan'
+  - '&fbibigyan ka ng 2 antas ng Pampalakas ng Kalusugan'
+  - '&f&oPampalakas!'
+  name: '&6Malusog na Banda ng Bagay'
   type:
   - '&7&oAnting-anting'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Timba ng likidong Pulot na ginagamit sa mga resipi at makina.'
+  name: '&fTimba ng Pulot'
+  stats:
+  - '&7Kapasidad: &e1000mb'
   type:
   - '&7&oRekurso'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fSinasala ang mga bagay sa sahig na nasa imbentaryo nito'
+  name: '&6Salaan ng Imbentaryo'
   type:
   - '&7&oGadyet'
+  usage:
+  - '&eKanang Pindot &7para buksan.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Bakal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fBakal na Ubod ng Makina'
   type:
   - '&7&oBahagi'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fAwtomatikong gumagawa ng mga resipi ng Kusina'
+  - '&f&oAmoy kukis'
+  name: '&6Awtomatikong Tagalikha ng Kusina'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Lapis Lazuli'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Nakaboteng likido na ginagamit na pinagkukunan ng Lava sa mga resipi at makina.'
+  name: '&fBote ng Lava'
+  stats:
+  - '&7Kapasidad: &e250mb'
   type:
   - '&7&oRekurso'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Tingga'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fPayak na Pang-agaw ng Likido.'
+  name: '&6Portableng Tangke ng Likido'
+  stats:
+  - '&7Kapasidad: &e16000mb'
   type:
   - '&7&oKasangkapan'
+  usage:
+  - Kanang pindot para kumuha ng likido
+  - Shift pindot para maglagay ng likido
 DYNATECH_LIVINGROCK:
+  name: '&6Batong Buhay'
   type:
   - '&7&oRekurso'
 DYNATECH_LIVINGWOOD:
+  name: '&6Kahoy na Buhay'
   type:
   - '&7&oRekurso'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Latak ng Makina'
   type:
   - '&7&oRekurso'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Magnesyo'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fGamit ang lakas at mga bubuyog, dahan-dahang nagbubuo ng mga materyal.'
+  name: '&6Pukyutan ng Materyal'
   stats:
   - '&a☢&7 Antas ng radyasyon: &6MATAAS'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Nakaboteng likido na ginagamit na pinagkukunan ng Gatas sa mga resipi at makina.'
+  name: '&fBote ng Gatas'
+  stats:
+  - '&7Kapasidad: &e1000mb'
   type:
   - '&7&oRekurso'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Netherite'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fAwtomatikong pinatutubo ang mga halamang &cnether&f.'
+  name: '&cSilid ng Pagtubo sa Nether'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAwtomatikong pinatutubo ang mga halamang &cnether&f.'
+  - '&c3x na produksyon.'
+  name: '&cSilid ng Pagtubo sa Nether MK2'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Nikel'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fAwtomatikong pinatutubo ang mga halamang &9tubig&f.'
+  - Kayang buhayin ang patay na korales!
+  name: '&bSilid ng Pagtubo sa Karagatan'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAwtomatikong pinatutubo ang mga halamang &9tubig&f.'
+  - Kayang buhayin ang patay na korales!
+  - '&c3x na produksyon.'
+  name: '&bSilid ng Pagtubo sa Karagatan MK2'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_ORECHID:
+  description:
+  - '&fGamit ang Bato o Netherack at lakas, gumagawa ito ng kaukulang mga mineral.'
+  name: '&6Orkidyang Mineral'
+  stats:
+  - '&8⇨ &e⚡ &71024 J bawat blokeng nabago.'
   type:
   - '&7&oMakina'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fMagdagdag ng mga kislap ng kalikasan para gumawa ng makapangyarihang bulaklak'
+  name: '&dBotika ng Talulot'
   type:
   - '&7&oMakina'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fNagbibigay-daan sa iyo na mag-imbak ng pagkain'
+  - '&fAwtomatikong kinakain ito kapag nagugutom ka'
+  - '&fDapat nasa imbentaryo mo'
+  name: '&6Buslo ng Piknik'
+  stats:
+  - '&fSukat: &e27'
   type:
   - '&7&oBackpack'
+  usage:
+  - '&eKanang Pindot &7para buksan.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Timba ng likidong Pakulo na ginagamit sa mga resipi at makina.'
+  name: '&fTimba ng Pakulo'
+  stats:
+  - '&7Kapasidad: &e1000mb'
   type:
   - '&7&oRekurso'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fPanlapat ng epekto ng pakulo sa maraming tao mula sa malayo.'
+  name: '&6Pandilig ng Pakulo'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Kuwarts'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Nagpapakita ng mahahanap na libro ng bawat resiping idinagdag ng DynaTech.'
+  name: '&6Libro ng mga Resipi'
   type:
   - '&7&oGadyet'
+  usage:
+  - '&eKanang Pindot &7para buksan.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Redstone'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Haluang Metal na Redstone'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Pinatibay na Haluang Metal'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Nakalagay sa loob ng Pukyutan ng Materyal para pabilisin ang produksyon nito.'
+  name: '&6Robotikong Bubuyog'
   type:
   - '&7&oRekurso'
 DYNATECH_SCOOP:
+  description:
+  - '&fGinagamit sa paghuli ng mga bubuyog.'
+  - '&f&oTiyaking hindi ka matusukan'
+  name: '&6Pansalok'
   type:
   - '&7&oKasangkapan'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fHilahin ang mga binhi mula sa mga bagay na mula sa halaman.'
+  name: '&6Tagahimay ng Binhi'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Pilak'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Panghinang'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fNagbibigay-daan sa iyo na mag-imbak ng pagkain'
+  - '&fAwtomatikong kinakain ito kapag nagugutom ka'
+  - '&fDapat nasa imbentaryo mo'
+  - '&dNakatali sa Kaluluwa'
+  name: '&6Buslo ng Piknik na Nakatali sa Kaluluwa'
+  stats:
+  - '&fSukat: &e27'
   type:
   - '&7&oBackpack'
+  usage:
+  - '&eKanang Pindot &7para buksan.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fBareta ng Di-kinakalawang na Asero'
   type:
   - '&7&oRekurso'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fRotor ng Di-kinakalawang na Asero'
   type:
   - '&7&oRekurso'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Ipinapalit ang Alikabok ng Bituin para sa malaking dami ng lakas.'
+  name: '&bReaktor ng Alikabok ng Bituin'
   stats:
   - '&8⇨ &e⚡ &732768 J na Buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGenerator'
 DYNATECH_STAR_DUST:
+  name: '&6Alikabok ng Bituin'
   type:
   - '&7&oRekurso'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Asero'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fBatong Ubod ng Makina'
   type:
   - '&7&oBahagi'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Sintetikong Diyamante'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Sintetikong Esmeralda'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Sintetikong Sapiro'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_TESSERACT:
+  description:
+  - '&fNaglilipat ng mga Bagay at Enerhiya nang Walang Kable'
+  - '&fAng mga ito ay 2-direksyon pa!'
+  name: '&6Teserakto'
   stats:
   - '&8⇨ &e⚡ &765535 J na Buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMakina'
+  usage:
+  - Kanang Pindot sa ibang Teserakto para kumonekta!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oKumikinang at nagbabago ito sa iyong mga kamay'
+  name: '&6Bagay na Nagteteserakto'
   type:
   - '&7&oRekurso'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f Ginagamit sa pag-ugnay ng 2 Teserakto.'
+  name: '&6Tagapag-ugnay ng Teserakto'
   type:
   - '&7&oKasangkapan'
+  usage:
+  - '&fKanang pindot para makuha ang Lokasyon ng Teserakto'
+  - '&fYumuko Kanang Pindot para iugnay ang lokasyon sa Teserakto'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Estanyo'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 DYNATECH_VEX_GEM:
+  name: '&6Hiyas ng Vex'
   type:
   - '&7&oRekurso'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Humihina sa paglipas ng oras.'
+  name: '&bMolino ng Tubig'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Imbak'
   type:
   - '&7&oGenerator'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Humihina sa paglipas ng oras.'
+  name: '&bTurbinang Haydro'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Imbak'
   type:
   - '&7&oGenerator'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fKinokontrol ang panahon kapag binigyan ng susing bagay.'
+  name: '&6Kontrolador ng Panahon'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Humihina sa paglipas ng oras.'
+  name: '&bMolino ng Hangin'
+  stats:
+  - '&fPinakamababang Antas ng Pagbuo ng Enerhiya: &b16j/tick'
+  - '&fPinakamataas na Antas ng Pagbuo ng Enerhiya: &b64j/tick'
+  - '&8⇨ &e⚡ &7256 J Imbak'
   type:
   - '&7&oGenerator'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Humihina sa paglipas ng oras.'
+  name: '&bTurbina ng Hangin'
+  stats:
+  - '&fPinakamababang Antas ng Pagbuo ng Enerhiya: &b64j/tick'
+  - '&fPinakamataas na Antas ng Pagbuo ng Enerhiya: &b256j/tick'
+  - '&8⇨ &e⚡ &71024 J Imbak'
   type:
   - '&7&oGenerator'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fKargahin nang walang kable ang mga bagay sa imbentaryo mo'
+  name: '&6Tsarger na Walang Kable'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fNag-iimbak ng lakas para sa'
+  - '&fPuntong Enerhiya na Walang Kable na gagamitin.'
+  name: '&6Bangko ng Enerhiya na Walang Kable'
   stats:
   - '&8⇨ &e⚡ &710240 J na Buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMakina'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fNaglilipat ng Enerhiya nang Walang Kable'
+  - '&fmula sa Bangko ng Enerhiya na Walang Kable'
+  name: '&6Puntong Enerhiya na Walang Kable'
   stats:
   - '&8⇨ &e⚡ &75120 J na Buffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oMakina'
+  usage:
+  - Kanang Pindot sa Bangko ng Enerhiya na Walang Kable para kumonekta!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fNaglilipat ng mga Bagay nang Walang Kable'
+  - '&f sa Paglabas ng Bagay na Walang Kable'
+  name: '&6Pagpasok ng Bagay na Walang Kable'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Imbak'
+  - '&8⇨ &e⚡ &78 J bawat salansan ng mga bagay'
   type:
   - '&7&oMakina'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fIlipat ang mga Bagay nang Walang Kable'
+  - '&fmula sa Pagpasok ng Bagay na Walang Kable'
+  name: '&6Paglabas ng Bagay na Walang Kable'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Imbak'
+  - '&8⇨ &e⚡ &78 J bawat salansan ng mga bagay'
   type:
   - '&7&oMakina'
+  usage:
+  - Kanang Pindot sa Pagpasok ng Bagay na Walang Kable para kumonekta!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Naglalabas ng Kalansay ng Wither
+  name: '&6Multiblokeng Golem ng Wither'
   type:
   - '&7&oMultiblock'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fKahoy na Ubod ng Makina'
   type:
   - '&7&oBahagi'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fGumagawa ng materyal'
+  - '&fsa tulong ng mga bubuyog'
+  name: '&fMineralisadong Bubuyugan ng Sink'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Imbak'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oMakina'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
+  name: '&bTarheta ng Datos ng Phantom'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oBahagi'
 STARDUST_METEOR:
+  description:
+  - '&fHinuhukay mula sa mga biyomang Bundok o Badlands'
+  name: '&6Meteoro ng Alikabok ng Bituin'
   type:
   - '&7&oRekurso'
 VEX_DATA_CARD:
+  description:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
+  name: '&bTarheta ng Datos ng Vex'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
