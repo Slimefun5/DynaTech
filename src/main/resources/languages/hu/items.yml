@@ -1,437 +1,1017 @@
 DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6Fejlett Géphulladék'
   type:
   - '&7&oNyersanyag'
 DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7Anyagkaptárba helyezve gyorsítja annak termelését.'
+  name: '&6Fejlett Robotméh'
   type:
   - '&7&oNyersanyag'
 DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fAlumínium Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fAlumínium Sárgaréz Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fAlumínium Bronz Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&fŐsi Gépmag'
   type:
   - '&7&oAlkatrész'
 DYNATECH_ANGEL_GEM:
+  description:
+  - '&fÁllandó kreatív repülés.'
+  - '&fVan néhány sebességbeállítása.'
+  - '&f&oSzállj, mint egy madár~'
+  name: '&6Repülés Drágakő'
   type:
   - '&7&oKütyü'
 DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f Kreatív repülés egy 45 blokkos területen belül'
+  name: '&6Antigravitációs Burok'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oGép'
 DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7Jobb klikk egy gép oldalára, hogy automatikusan behúzza a tárgyakat'
+  - '&7egy szomszédos leltárból. Használatkor elfogy.'
+  name: '&6Automatikus Bemeneti Fejlesztés'
   type:
   - '&7&oKütyü'
+  usage:
+  - '&eJobb Klikk&7 egy gép oldalára az alkalmazáshoz.'
 DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fAutomatikusan elkészíti a Konyha receptjeit'
+  - '&f&oSütiszaga van'
+  name: '&6Automatikus Konyha'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oGép'
 DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7Jobb klikk egy gép oldalára, hogy automatikusan kitolja a kimeneti'
+  - '&7tárgyait egy szomszédos leltárba. Használatkor elfogy.'
+  name: '&6Automatikus Kimeneti Fejlesztés'
   type:
   - '&7&oKütyü'
+  usage:
+  - '&eJobb Klikk&7 egy gép oldalára az alkalmazáshoz.'
 DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fTárgyszalagokat kezel'
+  name: '&6Tárgyszalag Kezelő'
   stats:
   - '&8⇨ &e⚡ &748 J/s'
   type:
   - '&7&oGép'
 DYNATECH_BARBED_WIRE:
+  description:
+  - '&fEgy sugáron belül ellöki a mobokat.'
+  name: '&6Szögesdrót'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oGép'
 DYNATECH_BEE:
+  description:
+  - '&7Anyagkaptárba helyezve gyorsítja annak termelését.'
+  name: '&6Méh'
   type:
   - '&7&oNyersanyag'
 DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fBillon Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fSárgaréz Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fKarbonádó Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fSzén Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_COAL_COKE:
+  name: '&fSzénkoksz'
   type:
   - '&7&oNyersanyag'
 DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&7Egy 3x3x3 téglából álló multiblokk kokszkemencét vezérel.'
+  - '&7A bemeneti hordóba helyezett tárgyakat idővel'
+  - '&7kemencében főzött kimenetekké alakítja.'
+  name: '&fKokszkemence Vezérlő'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&eJobb Klikk&7 a multiblokk szerkezet ellenőrzéséhez.'
 DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fKobalt Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fRéz Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fKorinthoszi Bronz Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fDamaszkuszi Acél Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_DEGRADED_EGG_MILL:
+  name: '&cLeromlott Sárkánytojás Malom'
   type:
   - '&7&oAlkatrész'
 DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&cLeromlott Sárkánytojás Turbina'
   type:
   - '&7&oAlkatrész'
 DYNATECH_DEGRADED_WATER_MILL:
+  name: '&cLeromlott Vízimalom'
   type:
   - '&7&oAlkatrész'
 DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&cLeromlott Vízturbina'
   type:
   - '&7&oAlkatrész'
 DYNATECH_DEGRADED_WIND_MILL:
+  name: '&cLeromlott Szélmalom'
   type:
   - '&7&oAlkatrész'
 DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&cLeromlott Szélturbina'
   type:
   - '&7&oAlkatrész'
 DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fGyémánt Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fGyémánt Gépmag'
   type:
   - '&7&oAlkatrész'
 DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fElteleportál egy'
+  - '&fkülön dimenziós otthonba és vissza'
+  - '&f&oÉdes Otthon'
+  name: '&6Dimenziós Otthon'
   type:
   - '&7&oKütyü'
 DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7Tartósságot cserél áramra.'
+  name: '&bKopási Generátor'
+  stats:
+  - '&8⇨ &e⚡ &7256 J Puffer'
+  - '&8⇨ &e⚡ &78 J tartósságpontonként'
   type:
   - '&7&oGenerátor'
 DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fDuralumínium Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_EGG_MILL:
+  description:
+  - '&7Idővel leromlik.'
+  name: '&bSárkánytojás Malom'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Puffer'
   type:
   - '&7&oGenerátor'
 DYNATECH_EGG_MILL_2:
+  description:
+  - '&7Idővel leromlik.'
+  name: '&bSárkánytojás Turbina'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Puffer'
   type:
   - '&7&oGenerátor'
 DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fAutomatikusan táplál energiáért'
+  - '&f&oÉlénkítsd az érzékeidet.'
+  name: '&6Elektromos Stimulátor'
   type:
   - '&7&oKütyü'
 DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fSmaragd Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&bElvarázsolt Gépmag'
   type:
   - '&7&oAlkatrész'
 DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&fAutomatikusan növeszt &dkórusvirágokat.'
+  name: '&dEnd Növekedési Kamra'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oGép'
 DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomatikusan növeszt &dkórusvirágokat.'
+  - '&c3x termelés.'
+  name: '&dEnd Növekedési Kamra MK2'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oGép'
 DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cEnergiabemeneti Alkatrész'
   type:
   - '&7&oAlkatrész'
 DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cEnergiakimeneti Alkatrész'
   type:
   - '&7&oAlkatrész'
 DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cEnergiatároló Alkatrész'
   type:
   - '&7&oAlkatrész'
 DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fKülsőleg fűti a Kemencéket, Olvasztókemencéket'
+  - '&fés Füstölőket.'
+  name: '&6Külső Fűtő'
+  stats:
+  - '&8⇨ &e⚡ &72048 J Puffer'
+  - '&8⇨ &e⚡ &7128 J fűtött blokkonként'
   type:
   - '&7&oGép'
 DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fFerroszilícium Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_FLUID_TANK:
+  description:
+  - '&7Különleges vödör, amely folyadékot gyűjt, ahogy megtöltöd vagy kiürítesz'
+  - '&7közeli vanilla vödröket, és akár 16,000 mB-t tárol.'
+  name: '&fFolyadéktartály'
+  stats:
+  - '&7Kapacitás: &e16000mb'
   type:
   - '&7&oEszköz'
+  usage:
+  - '&eGuggolás&7 + &eJobb Klikk&7 a megfelelő vanilla vödörré alakításhoz.'
 DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7Éhséget cserél áramra'
+  name: '&bKulináris Generátor'
   stats:
   - '&8⇨ &e⚡ &7256 J Puffer'
   - '&8⇨ &e⚡ &78 J/s'
   type:
   - '&7&oGenerátor'
 DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6Kísérteties Eszencia'
   type:
   - '&7&oNyersanyag'
 DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fAranyozott Vas Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fArany Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&fAutomatikusan növeszt &enövényeket&f.'
+  - '&f&oOlyan, mint egy kicsi üvegház!'
+  name: '&6Növekedési Kamra'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oGép'
 DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomatikusan növeszt &enövényeket&f.'
+  - '&f&oOlyan, mint egy kicsi üvegház!'
+  - '&c3x termelés.'
+  name: '&6Növekedési Kamra MK2'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oGép'
 DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fKeményített Fém Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&fPáncélra vagy szerszámra alkalmazva'
+  - '&f2 fokozat Sietséget ad'
+  - '&f&oErősítés!'
+  name: '&6Sietős Tárgyszalag'
   type:
   - '&7&oTalizmán'
 DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&fPáncélra vagy szerszámra alkalmazva'
+  - '&f2 fokozat Életerő-növelést ad'
+  - '&f&oErősítés!'
+  name: '&6Egészséges Tárgyszalag'
   type:
   - '&7&oTalizmán'
 DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7Egy vödör Méz folyadék receptekhez és gépekhez.'
+  name: '&fMézes Vödör'
+  stats:
+  - '&7Kapacitás: &e1000mb'
   type:
   - '&7&oNyersanyag'
 DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&fKiszűri a földön lévő tárgyakat, amelyek a leltárában vannak'
+  name: '&6Leltárszűrő'
   type:
   - '&7&oKütyü'
+  usage:
+  - '&eJobb Klikk &7a megnyitáshoz.'
 DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fVas Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_IRON_MACHINE_CORE:
+  name: '&fVas Gépmag'
   type:
   - '&7&oAlkatrész'
 DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fAutomatikusan elkészíti a Konyha receptjeit'
+  - '&f&oSütiszaga van'
+  name: '&6Konyhai Automata Barkácsoló'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oGép'
 DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fLazurit Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7Palackozott folyadék, Láva forrásként receptekben és gépekben.'
+  name: '&fLávapalack'
+  stats:
+  - '&7Kapacitás: &e250mb'
   type:
   - '&7&oNyersanyag'
 DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fÓlom Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_LIQUID_TANK:
+  description:
+  - '&fEgyszerű folyadékmegragadó.'
+  name: '&6Hordozható Folyadéktartály'
+  stats:
+  - '&7Kapacitás: &e16000mb'
   type:
   - '&7&oEszköz'
+  usage:
+  - Jobb klikk a folyadék megragadásához
+  - Shift klikk a folyadék lehelyezéséhez
 DYNATECH_LIVINGROCK:
+  name: '&6Élőkő'
   type:
   - '&7&oNyersanyag'
 DYNATECH_LIVINGWOOD:
+  name: '&6Élőfa'
   type:
   - '&7&oNyersanyag'
 DYNATECH_MACHINE_SCRAP:
+  name: '&6Géphulladék'
   type:
   - '&7&oNyersanyag'
 DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fMagnézium Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fÁram és méhek használatával lassan anyagokat generál.'
+  name: '&6Anyagkaptár'
   stats:
   - '&a☢&7 Sugárzási szint: &6MAGAS'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGép'
 DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7Palackozott folyadék, Tej forrásként receptekben és gépekben.'
+  name: '&fTejpalack'
+  stats:
+  - '&7Kapacitás: &e1000mb'
   type:
   - '&7&oNyersanyag'
 DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fNetherit Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&fAutomatikusan növeszt &cnether &fnövényeket.'
+  name: '&cNether Növekedési Kamra'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oGép'
 DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomatikusan növeszt &cnether &fnövényeket.'
+  - '&c3x termelés.'
+  name: '&cNether Növekedési Kamra MK2'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oGép'
 DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fNikkel Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&fAutomatikusan növeszt &9vízi &fnövényeket.'
+  - Életre kelti az elhalt korallt!
+  name: '&bÓceáni Növekedési Kamra'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oGép'
 DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&fAutomatikusan növeszt &9vízi &fnövényeket.'
+  - Életre kelti az elhalt korallt!
+  - '&c3x termelés.'
+  name: '&bÓceáni Növekedési Kamra MK2'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b3x'
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oGép'
 DYNATECH_ORECHID:
+  description:
+  - '&fKő vagy Netherrack és áram használatával elkészíti a hozzájuk tartozó érceket.'
+  name: '&6Ércorchidea'
+  stats:
+  - '&8⇨ &e⚡ &71024 J átalakított blokkonként.'
   type:
   - '&7&oGép'
 DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&fAdj hozzá természetszikrákat, hogy erős virágokat készíts'
+  name: '&dSzirom Patika'
   type:
   - '&7&oGép'
 DYNATECH_PICNIC_BASKET:
+  description:
+  - '&fLehetővé teszi az étel tárolását'
+  - '&fAutomatikusan elfogyasztja őket, ha éhes vagy'
+  - '&fA leltáradban kell lennie'
+  name: '&6Piknikkosár'
+  stats:
+  - '&fMéret: &e27'
   type:
   - '&7&oHátizsák'
+  usage:
+  - '&eJobb Klikk &7a megnyitáshoz.'
 DYNATECH_POTION_BUCKET:
+  description:
+  - '&7Egy vödör Főzet folyadék receptekhez és gépekhez.'
+  name: '&fFőzetes Vödör'
+  stats:
+  - '&7Kapacitás: &e1000mb'
   type:
   - '&7&oNyersanyag'
 DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&fTávolsági, több személyre főzethatást alkalmazó eszköz.'
+  name: '&6Főzet Permetező'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oGép'
 DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fKvarc Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7Kereshető könyvet jelenít meg a DynaTech minden receptjéről.'
+  name: '&6Receptkönyv'
   type:
   - '&7&oKütyü'
+  usage:
+  - '&eJobb Klikk &7a megnyitáshoz.'
 DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fRedstone Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fRedstone Ötvözet Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fMegerősített Ötvözet Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7Anyagkaptárba helyezve gyorsítja annak termelését.'
+  name: '&6Robotméh'
   type:
   - '&7&oNyersanyag'
 DYNATECH_SCOOP:
+  description:
+  - '&fMéhek befogásához használatos.'
+  - '&f&oVigyázz, hogy meg ne csípjenek'
+  name: '&6Merítő'
   type:
   - '&7&oEszköz'
 DYNATECH_SEED_PLUCKER:
+  description:
+  - '&fVetőmagot nyer ki növényi alapú tárgyakból.'
+  name: '&6Vetőmag Kinyerő'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oGép'
 DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fEzüst Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fForraszanyag Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&fLehetővé teszi az étel tárolását'
+  - '&fAutomatikusan elfogyasztja őket, ha éhes vagy'
+  - '&fA leltáradban kell lennie'
+  - '&dLélekhez kötött'
+  name: '&6Lélekhez kötött Piknikkosár'
+  stats:
+  - '&fMéret: &e27'
   type:
   - '&7&oHátizsák'
+  usage:
+  - '&eJobb Klikk &7a megnyitáshoz.'
 DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fRozsdamentes Acél Rúd'
   type:
   - '&7&oNyersanyag'
 DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fRozsdamentes Acél Rotor'
   type:
   - '&7&oNyersanyag'
 DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7Csillagport cserél nagy mennyiségű áramra.'
+  name: '&bCsillagpor Reaktor'
   stats:
   - '&8⇨ &e⚡ &732768 J Puffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGenerátor'
 DYNATECH_STAR_DUST:
+  name: '&6Csillagpor'
   type:
   - '&7&oNyersanyag'
 DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fAcél Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_STONE_MACHINE_CORE:
+  name: '&fKő Gépmag'
   type:
   - '&7&oAlkatrész'
 DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fSzintetikus Gyémánt Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fSzintetikus Smaragd Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fSzintetikus Zafír Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_TESSERACT:
+  description:
+  - '&fVezeték nélkül továbbít Tárgyakat és Energiát'
+  - '&fEzek még 2-irányúak is!'
+  name: '&6Teszerakt'
   stats:
   - '&8⇨ &e⚡ &765535 J Puffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGép'
+  usage:
+  - Jobb Klikk egy másik Teszeraktra a csatlakozáshoz!
 DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&oCsillámlik és változik a kezedben'
+  name: '&6Teszeraktáló Tárgy'
   type:
   - '&7&oNyersanyag'
 DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f 2 Teszerakt összekötésére használatos.'
+  name: '&6Teszerakt Kötő'
   type:
   - '&7&oEszköz'
+  usage:
+  - '&fJobb klikk a Teszerakt helyének megszerzéséhez'
+  - '&fGuggolás Jobb Klikk a hely Teszerakthoz kötéséhez'
 DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fÓn Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 DYNATECH_VEX_GEM:
+  name: '&6Vex Drágakő'
   type:
   - '&7&oNyersanyag'
 DYNATECH_WATER_MILL:
+  description:
+  - '&7Idővel leromlik.'
+  name: '&bVízimalom'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J Puffer'
   type:
   - '&7&oGenerátor'
 DYNATECH_WATER_MILL_2:
+  description:
+  - '&7Idővel leromlik.'
+  name: '&bVízturbina'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J Puffer'
   type:
   - '&7&oGenerátor'
 DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fIrányítja az időjárást, ha kulcstárgyat kap.'
+  name: '&6Időjárás Vezérlő'
   stats:
   - '&8⇨ &e⚡ &732 J/s'
   type:
   - '&7&oGép'
 DYNATECH_WIND_MILL:
+  description:
+  - '&7Idővel leromlik.'
+  name: '&bSzélmalom'
+  stats:
+  - '&fMinimális Energiagenerálási Arány: &b16j/tick'
+  - '&fMaximális Energiagenerálási Arány: &b64j/tick'
+  - '&8⇨ &e⚡ &7256 J Puffer'
   type:
   - '&7&oGenerátor'
 DYNATECH_WIND_MILL_2:
+  description:
+  - '&7Idővel leromlik.'
+  name: '&bSzélturbina'
+  stats:
+  - '&fMinimális Energiagenerálási Arány: &b64j/tick'
+  - '&fMaximális Energiagenerálási Arány: &b256j/tick'
+  - '&8⇨ &e⚡ &71024 J Puffer'
   type:
   - '&7&oGenerátor'
 DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fVezeték nélkül tölti a leltáradban lévő tárgyakat'
+  name: '&6Vezeték nélküli Töltő'
   stats:
   - '&8⇨ &e⚡ &716 J/s'
   type:
   - '&7&oGép'
 DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fÁramot tárol egy'
+  - '&fVezeték nélküli Energiapont számára.'
+  name: '&6Vezeték nélküli Energiabank'
   stats:
   - '&8⇨ &e⚡ &710240 J Puffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGép'
 DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fVezeték nélkül továbbítja az Energiát'
+  - '&fegy Vezeték nélküli Energiabankból'
+  name: '&6Vezeték nélküli Energiapont'
   stats:
   - '&8⇨ &e⚡ &75120 J Puffer'
   - '&8⇨ &e⚡ &71024 J/s'
   type:
   - '&7&oGép'
+  usage:
+  - Jobb Klikk a Vezeték nélküli Energiabankra a csatlakozáshoz!
 DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fVezeték nélkül továbbítja a Tárgyakat'
+  - '&f a Vezeték nélküli Tárgykimenetre'
+  name: '&6Vezeték nélküli Tárgybemenet'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J tárgyhalmonként'
   type:
   - '&7&oGép'
 DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fTárgyak továbbítása vezeték nélkül'
+  - '&fa Vezeték nélküli Tárgybemenetről'
+  name: '&6Vezeték nélküli Tárgykimenet'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J tárgyhalmonként'
   type:
   - '&7&oGép'
+  usage:
+  - Jobb Klikk a Vezeték nélküli Tárgybemenetre a csatlakozáshoz!
 DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - Wither Csontvázat idéz meg
+  name: '&6Wither Gólem Multiblokk'
   type:
   - '&7&oMultiblock'
 DYNATECH_WOOD_MACHINE_CORE:
+  name: '&fFa Gépmag'
   type:
   - '&7&oAlkatrész'
 DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&fAnyagot termel'
+  - '&fméhek segítségével'
+  name: '&fCink Mineralizált Méhészet'
+  stats:
+  - '&8⇨ &e⚡ &716384 J Puffer'
+  - '&8⇨ &e⚡ &71024 J/t'
   type:
   - '&7&oGép'
 PHANTOM_DATA_CARD:
+  description:
+  - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
+  name: '&bPhantom Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oAlkatrész'
 STARDUST_METEOR:
+  description:
+  - '&fHegyi vagy Badlands biomokból geobányászva'
+  name: '&6Csillagpor Meteor'
   type:
   - '&7&oNyersanyag'
 VEX_DATA_CARD:
+  description:
+  - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
+  name: '&bVex Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
