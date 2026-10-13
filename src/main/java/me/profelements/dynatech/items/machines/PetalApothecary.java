@@ -22,6 +22,7 @@ import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 import me.profelements.dynatech.registries.RecipeTypes;
 import me.profelements.dynatech.registries.Registries;
+import me.profelements.dynatech.utils.Messages;
 import me.profelements.dynatech.utils.Recipe;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.profelements.dynatech.utils.MaterialCompat;
@@ -56,12 +57,14 @@ public class PetalApothecary extends SlimefunItem {
 
                 Integer cauldronLevel = cauldronLevel(event.getClickedBlock().get());
                 if (cauldronLevel != null) {
-                    event.getPlayer().sendMessage("Level of cauldron = " + cauldronLevel);
+                    Messages.send(event.getPlayer(), "petal-apothecary.cauldron-level", "Cauldron level: %level%",
+                            line -> line.replace("%level%", String.valueOf(cauldronLevel)));
 
                     List<ItemStack> items = RECIPE_ITEMS
                             .getOrDefault(new BlockPosition(event.getClickedBlock().get()), new ArrayList<>());
 
-                    event.getPlayer().sendMessage("entries size: " + RECIPE_ITEMS.size());
+                    Messages.send(event.getPlayer(), "petal-apothecary.recipe-entries", "Recipe entries: %count%",
+                            line -> line.replace("%count%", String.valueOf(RECIPE_ITEMS.size())));
 
                     for (ItemStack item : items) {
                         event.getPlayer().sendMessage(item.hasItemMeta() ? item.getItemMeta().getDisplayName() : item.getType().name());

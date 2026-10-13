@@ -36,6 +36,7 @@ import me.profelements.dynatech.registries.ItemGroups;
 import me.profelements.dynatech.registries.Items;
 import me.profelements.dynatech.registries.RecipeTypes;
 import me.profelements.dynatech.registries.Registries;
+import me.profelements.dynatech.utils.Messages;
 import me.profelements.dynatech.utils.Recipe;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.profelements.dynatech.utils.MaterialCompat;
@@ -82,11 +83,11 @@ public class CokeOvenController extends SlimefunItem {
                     BlockStorage.addBlockInfo(event.getClickedBlock().get(), "dynatech:facing",
                             event.getPlayer().getFacing().toString());
 
-                    event.getPlayer().sendMessage("Coke Oven multiblock is valid.");
+                    Messages.send(event.getPlayer(), "coke-oven.multiblock-valid", "Coke Oven multiblock is valid.");
                 } else {
 
                     BlockStorage.addBlockInfo(event.getClickedBlock().get(), "dynatech:valid", String.valueOf(false));
-                    event.getPlayer().sendMessage("Coke Oven multiblock is not valid.");
+                    Messages.send(event.getPlayer(), "coke-oven.multiblock-invalid", "Coke Oven multiblock is not valid.");
                 }
 
                 DynaTech.runSync(() -> {

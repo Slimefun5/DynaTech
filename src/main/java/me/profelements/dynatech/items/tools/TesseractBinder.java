@@ -11,12 +11,16 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.profelements.dynatech.items.electric.transfer.Tesseract;
 import me.profelements.dynatech.registries.Items;
+import me.profelements.dynatech.utils.Messages;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
 
+import javax.annotation.Nonnull;
+
 import org.bukkit.Location;
 import org.bukkit.block.Block;
+import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
@@ -49,7 +53,9 @@ public class TesseractBinder extends SlimefunItem {
                             && item.hasItemMeta() && locString != null) {
                         BlockStorage.addBlockInfo(blockLocation, "tesseract-pair-location", locString);
                         e.getPlayer().spigot().sendMessage(ChatMessageType.ACTION_BAR,
-                                new TextComponent(ChatColor.WHITE + "Tesseract Connected!"));
+                                new TextComponent(ChatColor.WHITE + Messages.get(e.getPlayer(),
+                                        "tesseract.connected", "%item% connected!",
+                                        line -> line.replace("%item%", tesseractName(e.getPlayer())))));
                     }
                 } else if (Boolean.TRUE.equals(hasPermision)
                         && sfItem.getId().equals(Items.TESSERACT.stack().getItemId()) && blockLocation != null) {
@@ -64,5 +70,19 @@ public class TesseractBinder extends SlimefunItem {
             }
         };
     }
-}
 
+    /**
+     * The Tesseract's display name in the viewer's own language, so the action bar never names a
+     * translated block in English.
+     *
+     * @implNote The name keeps its own colour codes and the line's colour is restored after it,
+     *           because the highlight sits at the start of the sentence rather than the end.
+     */
+    @Nonnull
+    private static String tesseractName(@Nonnull Player player) {
+        SlimefunItem tesseract = SlimefunItem.getByItem(Items.TESSERACT.stack());
+        return (tesseract != null
+                ? Slimefun.getItemTranslationService().getName(player, tesseract)
+                : "Tesseract") + ChatColor.WHITE;
+    }
+}
