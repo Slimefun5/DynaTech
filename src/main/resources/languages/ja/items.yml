@@ -1,0 +1,1018 @@
+DYNATECH_ADVANCED_MACHINE_SCRAP:
+  name: '&6高度な機械のスクラップ'
+  type:
+  - '&7&o資源'
+DYNATECH_ADVANCED_ROBOTIC_BEE:
+  description:
+  - '&7マテリアルハイブの中に入れると生産速度が上がる。'
+  name: '&6高性能ロボット蜂'
+  type:
+  - '&7&o資源'
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fアルミニウム鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fアルミニウム黄銅鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fアルミニウム青銅鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_ANCIENT_MACHINE_CORE:
+  name: '&f古代の機械コア'
+  type:
+  - '&7&o部品'
+DYNATECH_ANGEL_GEM:
+  description:
+  - '&f永続的なクリエイティブ飛行。'
+  - '&f速度調整設定がある。'
+  - '&f&o鳥のように飛ぼう~'
+  name: '&6飛行の宝石'
+  type:
+  - '&7&oガジェット'
+DYNATECH_ANTIGRAVITY_BUBBLE:
+  description:
+  - '&f 半径45ブロック以内でクリエイティブ飛行'
+  name: '&6反重力バブル'
+  stats:
+  - '&8⇨ &e⚡ &7128 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_AUTO_INPUT_UPGRADE:
+  description:
+  - '&7機械の面を右クリックすると、隣接するインベントリから'
+  - '&7自動でアイテムを引き込む。使用すると消費される。'
+  name: '&6自動投入アップグレード'
+  type:
+  - '&7&oガジェット'
+  usage:
+  - '&e右クリック&7で機械の面に適用する。'
+DYNATECH_AUTO_KITCHEN:
+  description:
+  - '&fキッチンのレシピを自動で作る'
+  - '&f&oクッキーの香りがする'
+  name: '&6オートキッチン'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b1倍'
+  - '&8⇨ &e⚡ &716 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_AUTO_OUTPUT_UPGRADE:
+  description:
+  - '&7機械の面を右クリックすると、産出物を'
+  - '&7隣接するインベントリへ自動で送り出す。使用すると消費される。'
+  name: '&6自動排出アップグレード'
+  type:
+  - '&7&oガジェット'
+  usage:
+  - '&e右クリック&7で機械の面に適用する。'
+DYNATECH_BANDAID_MANAGER:
+  description:
+  - '&fアイテムバンドを管理する'
+  name: '&6アイテムバンドマネージャー'
+  stats:
+  - '&8⇨ &e⚡ &748 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_BARBED_WIRE:
+  description:
+  - '&f周囲のモンスターを押し返す。'
+  name: '&6有刺鉄線'
+  stats:
+  - '&8⇨ &e⚡ &716 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_BEE:
+  description:
+  - '&7マテリアルハイブの中に入れると生産速度が上がる。'
+  name: '&6蜂'
+  type:
+  - '&7&o資源'
+DYNATECH_BILLONMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fビロン鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_BRASSMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f黄銅鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fカルボナード鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_COALMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f石炭鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_COAL_COKE:
+  name: '&fコークス'
+  type:
+  - '&7&o資源'
+DYNATECH_COAL_COKE_OVEN:
+  description:
+  - '&73x3x3のレンガ製マルチブロックコークス炉を制御する。'
+  - '&7入力用の樽に置かれたアイテムを'
+  - '&7時間経過で炉焼きの産出物に変換する。'
+  name: '&fコークス炉コントローラー'
+  type:
+  - '&7&oマルチブロック'
+  usage:
+  - '&e右クリック&7でマルチブロック構造を検証する。'
+DYNATECH_COBALTMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fコバルト鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_COPPERMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f銅鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fコリント青銅鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fダマスカス鋼鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_DEGRADED_EGG_MILL:
+  name: '&c劣化したドラゴンエッグミル'
+  type:
+  - '&7&o部品'
+DYNATECH_DEGRADED_EGG_MILL_2:
+  name: '&c劣化したドラゴンエッグタービン'
+  type:
+  - '&7&o部品'
+DYNATECH_DEGRADED_WATER_MILL:
+  name: '&c劣化した水車'
+  type:
+  - '&7&o部品'
+DYNATECH_DEGRADED_WATER_MILL_2:
+  name: '&c劣化した水力タービン'
+  type:
+  - '&7&o部品'
+DYNATECH_DEGRADED_WIND_MILL:
+  name: '&c劣化した風車'
+  type:
+  - '&7&o部品'
+DYNATECH_DEGRADED_WIND_MILL_2:
+  name: '&c劣化した風力タービン'
+  type:
+  - '&7&o部品'
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fダイヤモンド鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_DIAMOND_MACHINE_CORE:
+  name: '&fダイヤモンド機械コア'
+  type:
+  - '&7&o部品'
+DYNATECH_DIMENSIONAL_HOME:
+  description:
+  - '&fあなたを'
+  - '&f別次元の家へ転送し、また戻す'
+  - '&f&oやっぱり我が家が一番'
+  name: '&6次元の我が家'
+  type:
+  - '&7&oガジェット'
+DYNATECH_DURABILITY_GENERATOR:
+  description:
+  - '&7耐久値をエネルギーに変換する。'
+  name: '&b摩耗発電機'
+  stats:
+  - '&8⇨ &e⚡ &7256 J バッファ'
+  - '&8⇨ &e⚡ &7耐久値1につき8 J'
+  type:
+  - '&7&o発電機'
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fジュラルミン鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_EGG_MILL:
+  description:
+  - '&7時間経過で劣化する。'
+  name: '&bドラゴンエッグミル'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J バッファ'
+  type:
+  - '&7&o発電機'
+DYNATECH_EGG_MILL_2:
+  description:
+  - '&7時間経過で劣化する。'
+  name: '&bドラゴンエッグタービン'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J バッファ'
+  type:
+  - '&7&o発電機'
+DYNATECH_ELECTRICAL_STIMULATOR:
+  description:
+  - '&fエネルギーを消費して自動で満腹度を回復する'
+  - '&f&o感覚を刺激せよ。'
+  name: '&6電気刺激装置'
+  type:
+  - '&7&oガジェット'
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fエメラルド鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_ENCHANTED_MACHINE_CORE:
+  name: '&b付呪された機械コア'
+  type:
+  - '&7&o部品'
+DYNATECH_END_GROWTH_CHAMBER:
+  description:
+  - '&f自動で&dコーラスフラワーを育てる。'
+  name: '&dエンド生育チャンバー'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b1倍'
+  - '&8⇨ &e⚡ &732 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_END_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&f自動で&dコーラスフラワーを育てる。'
+  - '&c生産量3倍。'
+  name: '&dエンド生育チャンバー MK2'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b3倍'
+  - '&8⇨ &e⚡ &7128 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_ENERGY_INPUT_COMPONENT:
+  name: '&cエネルギー入力部品'
+  type:
+  - '&7&o部品'
+DYNATECH_ENERGY_OUTPUT_COMPONENT:
+  name: '&cエネルギー出力部品'
+  type:
+  - '&7&o部品'
+DYNATECH_ENERGY_STORAGE_COMPONENT:
+  name: '&cエネルギー貯蔵部品'
+  type:
+  - '&7&o部品'
+DYNATECH_EXTERNAL_HEATER:
+  description:
+  - '&fかまど、溶鉱炉、'
+  - '&f燻製器を外部から加熱する。'
+  name: '&6外部加熱器'
+  stats:
+  - '&8⇨ &e⚡ &72048 J バッファ'
+  - '&8⇨ &e⚡ &7加熱ブロック1つにつき128 J'
+  type:
+  - '&7&o機械'
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fフェロシリコン鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_FLUID_TANK:
+  description:
+  - '&7バニラのバケツを使って満たしたり空にしたりすると'
+  - '&7流体をため込む特殊なバケツで、最大16,000 mBまで貯蔵できる。'
+  name: '&f流体タンク'
+  stats:
+  - '&7容量: &e16000mb'
+  type:
+  - '&7&o道具'
+  usage:
+  - '&eスニーク&7 + &e右クリック&7で対応するバニラのバケツに変換する。'
+DYNATECH_FOOD_GENERATOR:
+  description:
+  - '&7満腹度をエネルギーに変換する'
+  name: '&b料理発電機'
+  stats:
+  - '&8⇨ &e⚡ &7256 J バッファ'
+  - '&8⇨ &e⚡ &78 J/s'
+  type:
+  - '&7&o発電機'
+DYNATECH_GHOSTLY_ESSENCE:
+  name: '&6幽玄のエッセンス'
+  type:
+  - '&7&o資源'
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f金メッキ鉄鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_GOLDMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f金鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_GROWTH_CHAMBER:
+  description:
+  - '&f&e植物&fを自動で育てる。'
+  - '&f&o小さな温室のようなもの!'
+  name: '&6生育チャンバー'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b1倍'
+  - '&8⇨ &e⚡ &732 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&f&e植物&fを自動で育てる。'
+  - '&f&o小さな温室のようなもの!'
+  - '&c生産量3倍。'
+  name: '&6生育チャンバー MK2'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b3倍'
+  - '&8⇨ &e⚡ &7128 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f強化金属鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_HASTE_ITEM_BAND:
+  description:
+  - '&f防具や道具に適用すると'
+  - '&f採掘速度上昇レベル2を得る'
+  - '&f&oパワーアップ!'
+  name: '&6迅速のアイテムバンド'
+  type:
+  - '&7&oタリスマン'
+DYNATECH_HEALTH_ITEM_BAND:
+  description:
+  - '&f防具や道具に適用すると'
+  - '&f体力増加レベル2を得る'
+  - '&f&oパワーアップ!'
+  name: '&6頑健のアイテムバンド'
+  type:
+  - '&7&oタリスマン'
+DYNATECH_HONEY_BUCKET:
+  description:
+  - '&7レシピや機械で使うハチミツ流体入りのバケツ。'
+  name: '&fハチミツバケツ'
+  stats:
+  - '&7容量: &e1000mb'
+  type:
+  - '&7&o資源'
+DYNATECH_INVENTORY_FILTER:
+  description:
+  - '&f自身のインベントリにあるアイテムを地面から除外する'
+  name: '&6インベントリフィルター'
+  type:
+  - '&7&oガジェット'
+  usage:
+  - '&e右クリック &7で開く。'
+DYNATECH_IRONMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f鉄鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_IRON_MACHINE_CORE:
+  name: '&f鉄の機械コア'
+  type:
+  - '&7&o部品'
+DYNATECH_KITCHEN_AUTO_CRAFTER:
+  description:
+  - '&fキッチンのレシピを自動で作る'
+  - '&f&oクッキーの香りがする'
+  name: '&6キッチンオートクラフター'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b1倍'
+  - '&8⇨ &e⚡ &716 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fラピスラズリ鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_LAVA_BOTTLE:
+  description:
+  - '&7レシピや機械で溶岩源として使うボトル入り流体。'
+  name: '&f溶岩ボトル'
+  stats:
+  - '&7容量: &e250mb'
+  type:
+  - '&7&o資源'
+DYNATECH_LEADMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f鉛鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_LIQUID_TANK:
+  description:
+  - '&fシンプルな液体回収機。'
+  name: '&6携帯用液体タンク'
+  stats:
+  - '&7容量: &e16000mb'
+  type:
+  - '&7&o道具'
+  usage:
+  - 右クリックで流体を取得する
+  - シフトクリックで流体を設置する
+DYNATECH_LIVINGROCK:
+  name: '&6リビングロック'
+  type:
+  - '&7&o資源'
+DYNATECH_LIVINGWOOD:
+  name: '&6リビングウッド'
+  type:
+  - '&7&o資源'
+DYNATECH_MACHINE_SCRAP:
+  name: '&6機械のスクラップ'
+  type:
+  - '&7&o資源'
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fマグネシウム鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_MATERIAL_HIVE:
+  description:
+  - '&fエネルギーと蜂を使い、ゆっくりと素材を生産する。'
+  name: '&6マテリアルハイブ'
+  stats:
+  - '&a☢&7 放射線レベル: &6高'
+  - '&8⇨ &e⚡ &71024 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_MILK_BOTTLE:
+  description:
+  - '&7レシピや機械で牛乳源として使うボトル入り流体。'
+  name: '&f牛乳ボトル'
+  stats:
+  - '&7容量: &e1000mb'
+  type:
+  - '&7&o資源'
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fネザライト鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_NETHER_GROWTH_CHAMBER:
+  description:
+  - '&f&cネザー&fの植物を自動で育てる。'
+  name: '&cネザー生育チャンバー'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b1倍'
+  - '&8⇨ &e⚡ &732 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_NETHER_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&f&cネザー&fの植物を自動で育てる。'
+  - '&c生産量3倍。'
+  name: '&cネザー生育チャンバー MK2'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b3倍'
+  - '&8⇨ &e⚡ &7128 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_NICKELMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fニッケル鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_OCEAN_GROWTH_CHAMBER:
+  description:
+  - '&f&9水中&fの植物を自動で育てる。'
+  - 死んだサンゴを蘇生できる!
+  name: '&b海洋生育チャンバー'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b1倍'
+  - '&8⇨ &e⚡ &732 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_OCEAN_GROWTH_CHAMBER_MARK_2:
+  description:
+  - '&f&9水中&fの植物を自動で育てる。'
+  - 死んだサンゴを蘇生できる!
+  - '&c生産量3倍。'
+  name: '&b海洋生育チャンバー MK2'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b3倍'
+  - '&8⇨ &e⚡ &7128 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_ORECHID:
+  description:
+  - '&f石やネザーラックとエネルギーを使い、それぞれの鉱石を生成する。'
+  name: '&6オーキッド'
+  stats:
+  - '&8⇨ &e⚡ &7変換ブロック1つにつき1024 J。'
+  type:
+  - '&7&o機械'
+DYNATECH_PETAL_APOTHECARY:
+  description:
+  - '&f自然の輝きを加えて強力な花を作る'
+  name: '&d花弁の調合台'
+  type:
+  - '&7&o機械'
+DYNATECH_PICNIC_BASKET:
+  description:
+  - '&f食料を保管できる'
+  - '&f空腹時に自動で消費する'
+  - '&fインベントリに入れておく必要がある'
+  name: '&6ピクニックバスケット'
+  stats:
+  - '&fサイズ: &e27'
+  type:
+  - '&7&oバックパック'
+  usage:
+  - '&e右クリック &7で開く。'
+DYNATECH_POTION_BUCKET:
+  description:
+  - '&7レシピや機械で使うポーション流体入りのバケツ。'
+  name: '&fポーションバケツ'
+  stats:
+  - '&7容量: &e1000mb'
+  type:
+  - '&7&o資源'
+DYNATECH_POTION_SPRINKLER:
+  description:
+  - '&f範囲内の複数人にポーション効果を付与する。'
+  name: '&6ポーションスプリンクラー'
+  stats:
+  - '&8⇨ &e⚡ &732 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fクォーツ鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_RECIPE_BOOK:
+  description:
+  - '&7DynaTechが追加した全レシピを検索できる本を表示する。'
+  name: '&6レシピブック'
+  type:
+  - '&7&oガジェット'
+  usage:
+  - '&e右クリック &7で開く。'
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fレッドストーン鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fレッドストーン合金鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f強化合金鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_ROBOTIC_BEE:
+  description:
+  - '&7マテリアルハイブの中に入れると生産速度が上がる。'
+  name: '&6ロボット蜂'
+  type:
+  - '&7&o資源'
+DYNATECH_SCOOP:
+  description:
+  - '&f蜂を捕まえるために使う。'
+  - '&f&o刺されないように気をつけて'
+  name: '&6捕虫網'
+  type:
+  - '&7&o道具'
+DYNATECH_SEED_PLUCKER:
+  description:
+  - '&f植物由来のアイテムから種を取り出す。'
+  name: '&6種取り機'
+  stats:
+  - '&8⇨ &e⚡ &732 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_SILVERMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f銀鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fはんだ鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_SOUL_BOUND_PICNIC_BASKET:
+  description:
+  - '&f食料を保管できる'
+  - '&f空腹時に自動で消費する'
+  - '&fインベントリに入れておく必要がある'
+  - '&d魂縛り'
+  name: '&6魂縛りのピクニックバスケット'
+  stats:
+  - '&fサイズ: &e27'
+  type:
+  - '&7&oバックパック'
+  usage:
+  - '&e右クリック &7で開く。'
+DYNATECH_STAINLESS_STEEL_INGOT:
+  name: '&fステンレス鋼インゴット'
+  type:
+  - '&7&o資源'
+DYNATECH_STAINLESS_STEEL_ROTOR:
+  name: '&fステンレス鋼ローター'
+  type:
+  - '&7&o資源'
+DYNATECH_STARDUST_GENERATOR:
+  description:
+  - '&7スターダストを大量のエネルギーに変換する。'
+  name: '&bスターダストリアクター'
+  stats:
+  - '&8⇨ &e⚡ &732768 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/s'
+  type:
+  - '&7&o発電機'
+DYNATECH_STAR_DUST:
+  name: '&6スターダスト'
+  type:
+  - '&7&o資源'
+DYNATECH_STEELMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f鋼鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_STONE_MACHINE_CORE:
+  name: '&f石の機械コア'
+  type:
+  - '&7&o部品'
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f合成ダイヤモンド鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f合成エメラルド鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f合成サファイア鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_TESSERACT:
+  description:
+  - '&fアイテムとエネルギーを無線で転送する'
+  - '&f双方向にも対応!'
+  name: '&6テッセラクト'
+  stats:
+  - '&8⇨ &e⚡ &765535 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/s'
+  type:
+  - '&7&o機械'
+  usage:
+  - 別のテッセラクトを右クリックして接続する!
+DYNATECH_TESSERACTING_OBJECT:
+  description:
+  - '&f&o手の中で揺らめき、形を変える'
+  name: '&6テッセラクトの物体'
+  type:
+  - '&7&o資源'
+DYNATECH_TESSERACT_BINDER:
+  description:
+  - '&f 2つのテッセラクトを結びつけるために使う。'
+  name: '&6テッセラクトバインダー'
+  type:
+  - '&7&o道具'
+  usage:
+  - '&f右クリックでテッセラクトの座標を取得する'
+  - '&fスニーク右クリックで座標をテッセラクトに結びつける'
+DYNATECH_TINMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&fスズ鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+DYNATECH_VEX_GEM:
+  name: '&6ヴェクスの宝石'
+  type:
+  - '&7&o資源'
+DYNATECH_WATER_MILL:
+  description:
+  - '&7時間経過で劣化する。'
+  name: '&b水車'
+  stats:
+  - '&8⇨ &e⚡ &716 J/t'
+  - '&8⇨ &e⚡ &764 J バッファ'
+  type:
+  - '&7&o発電機'
+DYNATECH_WATER_MILL_2:
+  description:
+  - '&7時間経過で劣化する。'
+  name: '&b水力タービン'
+  stats:
+  - '&8⇨ &e⚡ &764 J/t'
+  - '&8⇨ &e⚡ &7256 J バッファ'
+  type:
+  - '&7&o発電機'
+DYNATECH_WEATHER_CONTROLLER:
+  description:
+  - '&fキーアイテムを渡すと天候を操作する。'
+  name: '&6天候コントローラー'
+  stats:
+  - '&8⇨ &e⚡ &732 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_WIND_MILL:
+  description:
+  - '&7時間経過で劣化する。'
+  name: '&b風車'
+  stats:
+  - '&f最小発電量: &b16j/tick'
+  - '&f最大発電量: &b64j/tick'
+  - '&8⇨ &e⚡ &7256 J バッファ'
+  type:
+  - '&7&o発電機'
+DYNATECH_WIND_MILL_2:
+  description:
+  - '&7時間経過で劣化する。'
+  name: '&b風力タービン'
+  stats:
+  - '&f最小発電量: &b64j/tick'
+  - '&f最大発電量: &b256j/tick'
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  type:
+  - '&7&o発電機'
+DYNATECH_WIRELESS_CHARGER:
+  description:
+  - '&fインベントリ内のアイテムを無線で充電する'
+  name: '&6ワイヤレスチャージャー'
+  stats:
+  - '&8⇨ &e⚡ &716 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_WIRELESS_ENERGY_BANK:
+  description:
+  - '&fワイヤレスエネルギーポイントが使う'
+  - '&fエネルギーを蓄える。'
+  name: '&6ワイヤレスエネルギーバンク'
+  stats:
+  - '&8⇨ &e⚡ &710240 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/s'
+  type:
+  - '&7&o機械'
+DYNATECH_WIRELESS_ENERGY_POINT:
+  description:
+  - '&fエネルギーを無線で転送する'
+  - '&fワイヤレスエネルギーバンクから'
+  name: '&6ワイヤレスエネルギーポイント'
+  stats:
+  - '&8⇨ &e⚡ &75120 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/s'
+  type:
+  - '&7&o機械'
+  usage:
+  - ワイヤレスエネルギーバンクを右クリックして接続する!
+DYNATECH_WIRELESS_ITEM_INPUT:
+  description:
+  - '&fアイテムを無線で転送する'
+  - '&f ワイヤレスアイテムアウトプットへ'
+  name: '&6ワイヤレスアイテムインプット'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &7アイテム1スタックにつき8 J'
+  type:
+  - '&7&o機械'
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  description:
+  - '&fアイテムを無線で転送する'
+  - '&fワイヤレスアイテムインプットから'
+  name: '&6ワイヤレスアイテムアウトプット'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &7アイテム1スタックにつき8 J'
+  type:
+  - '&7&o機械'
+  usage:
+  - ワイヤレスアイテムインプットを右クリックして接続する!
+DYNATECH_WITHER_SKELETON_GOLEM:
+  description:
+  - ウィザースケルトンを召喚する
+  name: '&6ウィザーゴーレムマルチブロック'
+  type:
+  - '&7&oマルチブロック'
+DYNATECH_WOOD_MACHINE_CORE:
+  name: '&f木の機械コア'
+  type:
+  - '&7&o部品'
+DYNATECH_ZINCMINERALIZED_APIARY:
+  description:
+  - '&f素材を'
+  - '&f蜂の力で生産する'
+  name: '&f亜鉛鉱化養蜂箱'
+  stats:
+  - '&8⇨ &e⚡ &716384 J バッファ'
+  - '&8⇨ &e⚡ &71024 J/t'
+  type:
+  - '&7&o機械'
+PHANTOM_DATA_CARD:
+  description:
+  - '&7モブシミュレーションチェンバーに入れて起動する'
+  name: '&bファントムデータカード'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&o部品'
+STARDUST_METEOR:
+  description:
+  - '&f山岳またはバッドランズバイオームで採掘される'
+  name: '&6スターダスト隕石'
+  type:
+  - '&7&o資源'
+VEX_DATA_CARD:
+  description:
+  - '&7モブシミュレーションチェンバーに入れて起動する'
+  name: '&bヴェクスデータカード'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&o部品'
