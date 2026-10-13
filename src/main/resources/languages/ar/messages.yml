@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "البنية المركبة لفرن الكوك صحيحة."
+  multiblock-invalid: "البنية المركبة لفرن الكوك غير صحيحة."
+
+petal-apothecary:
+  cauldron-level: "مستوى المرجل: %level%"
+  recipe-entries: "مدخلات الوصفات: %count%"
+
+tesseract:
+  connected: "تم وصل %item%!"

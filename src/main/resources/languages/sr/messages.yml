@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Мултиблок пећи за кокс је важећи."
+  multiblock-invalid: "Мултиблок пећи за кокс није важећи."
+
+petal-apothecary:
+  cauldron-level: "Ниво котла: %level%"
+  recipe-entries: "Записа рецепата: %count%"
+
+tesseract:
+  connected: "%item% је повезан!"

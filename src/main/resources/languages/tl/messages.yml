@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Wasto ang multiblock ng Pugon ng Koke."
+  multiblock-invalid: "Hindi wasto ang multiblock ng Pugon ng Koke."
+
+petal-apothecary:
+  cauldron-level: "Antas ng kaldero: %level%"
+  recipe-entries: "Mga tala ng resipe: %count%"
+
+tesseract:
+  connected: "Nakakonekta ang %item%!"

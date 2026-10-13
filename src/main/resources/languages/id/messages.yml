@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Multiblock Tungku Kokas valid."
+  multiblock-invalid: "Multiblock Tungku Kokas tidak valid."
+
+petal-apothecary:
+  cauldron-level: "Tingkat kuali: %level%"
+  recipe-entries: "Entri resep: %count%"
+
+tesseract:
+  connected: "%item% tersambung!"

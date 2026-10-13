@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Die Kooksoond-multiblok is geldig."
+  multiblock-invalid: "Die Kooksoond-multiblok is nie geldig nie."
+
+petal-apothecary:
+  cauldron-level: "Ketelvlak: %level%"
+  recipe-entries: "Resepinskrywings: %count%"
+
+tesseract:
+  connected: "%item% verbind!"

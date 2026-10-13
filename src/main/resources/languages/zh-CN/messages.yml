@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "焦炭炉多方块结构有效。"
+  multiblock-invalid: "焦炭炉多方块结构无效。"
+
+petal-apothecary:
+  cauldron-level: "炼药锅水位：%level%"
+  recipe-entries: "配方条目数：%count%"
+
+tesseract:
+  connected: "%item% 已连接！"

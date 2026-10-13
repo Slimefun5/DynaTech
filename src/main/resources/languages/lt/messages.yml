@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Kokso krosnies daugiablokis yra tinkamas."
+  multiblock-invalid: "Kokso krosnies daugiablokis yra netinkamas."
+
+petal-apothecary:
+  cauldron-level: "Katilo lygis: %level%"
+  recipe-entries: "Receptų įrašų: %count%"
+
+tesseract:
+  connected: "%item% prijungtas!"

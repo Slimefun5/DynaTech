@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Cấu trúc đa khối của Lò Than cốc hợp lệ."
+  multiblock-invalid: "Cấu trúc đa khối của Lò Than cốc không hợp lệ."
+
+petal-apothecary:
+  cauldron-level: "Mức nước trong vạc: %level%"
+  recipe-entries: "Số công thức: %count%"
+
+tesseract:
+  connected: "Đã kết nối %item%!"

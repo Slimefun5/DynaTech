@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Koksa krāsns daudzbloks ir derīgs."
+  multiblock-invalid: "Koksa krāsns daudzbloks nav derīgs."
+
+petal-apothecary:
+  cauldron-level: "Katla līmenis: %level%"
+  recipe-entries: "Recepšu ierakstu: %count%"
+
+tesseract:
+  connected: "%item% pievienots!"

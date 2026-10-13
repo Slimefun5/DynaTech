@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "โครงสร้างหลายบล็อกของเตาอบถ่านโคกถูกต้อง"
+  multiblock-invalid: "โครงสร้างหลายบล็อกของเตาอบถ่านโคกไม่ถูกต้อง"
+
+petal-apothecary:
+  cauldron-level: "ระดับน้ำในหม้อน้ำ: %level%"
+  recipe-entries: "จำนวนสูตร: %count%"
+
+tesseract:
+  connected: "เชื่อมต่อ %item% แล้ว!"

@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Koksiuunin multiblokki on kelvollinen."
+  multiblock-invalid: "Koksiuunin multiblokki ei ole kelvollinen."
+
+petal-apothecary:
+  cauldron-level: "Padan taso: %level%"
+  recipe-entries: "Reseptimerkintöjä: %count%"
+
+tesseract:
+  connected: "%item% yhdistetty!"

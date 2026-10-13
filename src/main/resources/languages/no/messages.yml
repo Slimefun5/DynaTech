@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Koksovnens multiblokk er gyldig."
+  multiblock-invalid: "Koksovnens multiblokk er ikke gyldig."
+
+petal-apothecary:
+  cauldron-level: "Kjelenivå: %level%"
+  recipe-entries: "Oppskriftsoppføringer: %count%"
+
+tesseract:
+  connected: "%item% tilkoblet!"

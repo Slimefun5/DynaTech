@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Το πολυμπλόκ του Φούρνου Οπτάνθρακα είναι έγκυρο."
+  multiblock-invalid: "Το πολυμπλόκ του Φούρνου Οπτάνθρακα δεν είναι έγκυρο."
+
+petal-apothecary:
+  cauldron-level: "Στάθμη καζανιού: %level%"
+  recipe-entries: "Καταχωρίσεις συνταγών: %count%"
+
+tesseract:
+  connected: "%item% συνδέθηκε!"

@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "코크스 가마 멀티블록이 올바릅니다."
+  multiblock-invalid: "코크스 가마 멀티블록이 올바르지 않습니다."
+
+petal-apothecary:
+  cauldron-level: "가마솥 수위: %level%"
+  recipe-entries: "제작법 항목 수: %count%"
+
+tesseract:
+  connected: "%item% 연결됨!"

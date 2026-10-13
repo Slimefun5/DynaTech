@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Kok Fırını yapısı geçerli."
+  multiblock-invalid: "Kok Fırını yapısı geçersiz."
+
+petal-apothecary:
+  cauldron-level: "Kazan seviyesi: %level%"
+  recipe-entries: "Tarif kaydı: %count%"
+
+tesseract:
+  connected: "%item% bağlandı!"

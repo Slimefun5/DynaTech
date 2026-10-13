@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "מבנה רב הבלוקים של כבשן הקוקס תקין."
+  multiblock-invalid: "מבנה רב הבלוקים של כבשן הקוקס אינו תקין."
+
+petal-apothecary:
+  cauldron-level: "מפלס הקלחת: %level%"
+  recipe-entries: "רשומות מתכונים: %count%"
+
+tesseract:
+  connected: "%item% חובר!"

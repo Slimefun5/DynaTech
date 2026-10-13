@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Multiblocul Cuptorului de Cocs este valid."
+  multiblock-invalid: "Multiblocul Cuptorului de Cocs nu este valid."
+
+petal-apothecary:
+  cauldron-level: "Nivelul ceaunului: %level%"
+  recipe-entries: "Intrări de rețete: %count%"
+
+tesseract:
+  connected: "%item% conectat!"

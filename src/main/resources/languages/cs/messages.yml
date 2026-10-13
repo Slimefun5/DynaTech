@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Multiblok koksovací pece je platný."
+  multiblock-invalid: "Multiblok koksovací pece není platný."
+
+petal-apothecary:
+  cauldron-level: "Hladina kotlíku: %level%"
+  recipe-entries: "Záznamů receptů: %count%"
+
+tesseract:
+  connected: "%item% připojen!"

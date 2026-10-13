@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "El multibloque del horno de coque es válido."
+  multiblock-invalid: "El multibloque del horno de coque no es válido."
+
+petal-apothecary:
+  cauldron-level: "Nivel del caldero: %level%"
+  recipe-entries: "Entradas de recetas: %count%"
+
+tesseract:
+  connected: "¡%item% conectado!"

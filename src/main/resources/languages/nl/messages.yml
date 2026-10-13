@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "De multiblok van de Cokesoven is geldig."
+  multiblock-invalid: "De multiblok van de Cokesoven is niet geldig."
+
+petal-apothecary:
+  cauldron-level: "Ketelniveau: %level%"
+  recipe-entries: "Receptvermeldingen: %count%"
+
+tesseract:
+  connected: "%item% verbonden!"

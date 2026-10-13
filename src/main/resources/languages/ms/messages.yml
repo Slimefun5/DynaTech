@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Multiblok Relau Kok adalah sah."
+  multiblock-invalid: "Multiblok Relau Kok tidak sah."
+
+petal-apothecary:
+  cauldron-level: "Aras kawah: %level%"
+  recipe-entries: "Entri resipi: %count%"
+
+tesseract:
+  connected: "%item% telah disambung!"

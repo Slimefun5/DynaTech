@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Споруда коксувальної печі правильна."
+  multiblock-invalid: "Споруда коксувальної печі неправильна."
+
+petal-apothecary:
+  cauldron-level: "Рівень котла: %level%"
+  recipe-entries: "Записів рецептів: %count%"
+
+tesseract:
+  connected: "%item% підключено!"

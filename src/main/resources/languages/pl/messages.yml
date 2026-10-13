@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Multiblok pieca koksowniczego jest prawidłowy."
+  multiblock-invalid: "Multiblok pieca koksowniczego jest nieprawidłowy."
+
+petal-apothecary:
+  cauldron-level: "Poziom kociołka: %level%"
+  recipe-entries: "Wpisów przepisów: %count%"
+
+tesseract:
+  connected: "%item% podłączony!"

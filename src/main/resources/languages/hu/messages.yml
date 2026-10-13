@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "A Kokszkemence multiblock szerkezete érvényes."
+  multiblock-invalid: "A Kokszkemence multiblock szerkezete nem érvényes."
+
+petal-apothecary:
+  cauldron-level: "Üst szintje: %level%"
+  recipe-entries: "Recepttételek: %count%"
+
+tesseract:
+  connected: "%item% csatlakoztatva!"

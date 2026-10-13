@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "කෝක් උදුනේ බහුකැටය වලංගුයි."
+  multiblock-invalid: "කෝක් උදුනේ බහුකැටය වලංගු නැත."
+
+petal-apothecary:
+  cauldron-level: "වලං මට්ටම: %level%"
+  recipe-entries: "වට්ටෝරු ඇතුළත් කිරීම්: %count%"
+
+tesseract:
+  connected: "%item% සම්බන්ධ විය!"

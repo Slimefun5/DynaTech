@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "ساختار چندبلوکی کورهٔ کک معتبر است."
+  multiblock-invalid: "ساختار چندبلوکی کورهٔ کک معتبر نیست."
+
+petal-apothecary:
+  cauldron-level: "سطح پاتیل: %level%"
+  recipe-entries: "تعداد دستورهای ساخت: %count%"
+
+tesseract:
+  connected: "%item% متصل شد!"

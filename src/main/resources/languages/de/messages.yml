@@ -1,0 +1,10 @@
+coke-oven:
+  multiblock-valid: "Der Koksofen-Multiblock ist gültig."
+  multiblock-invalid: "Der Koksofen-Multiblock ist nicht gültig."
+
+petal-apothecary:
+  cauldron-level: "Kesselfüllstand: %level%"
+  recipe-entries: "Rezepteinträge: %count%"
+
+tesseract:
+  connected: "%item% verbunden!"
