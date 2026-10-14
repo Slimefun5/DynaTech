@@ -115,6 +115,7 @@ public class DynaTech extends JavaPlugin implements SlimefunAddon {
         // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
         Slimefun.getItemTranslationService().registerTranslations(this);
         Slimefun.getLocalization().registerItemGroupTranslations(this);
+        Slimefun.getLocalization().registerRecipeTypeTranslations(this);
         Slimefun.getAddonMessageService().registerTranslations(this);
 
         // Register this addon's own in-game wiki page (core does not auto-generate addon wikis).
