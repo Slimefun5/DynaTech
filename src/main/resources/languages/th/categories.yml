@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'ทรัพยากร DynaTech'
+  tools: 'เครื่องมือ DynaTech'
+  machines: 'เครื่องจักร DynaTech'
+  apiaries: 'รังผึ้ง DynaTech'
+  experimental: 'DynaTech ทดลอง'
+  generators: 'เครื่องกำเนิดไฟฟ้า DynaTech'

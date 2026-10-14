@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Use a concha para obter este item.'
+  block_drop:
+    name: 'Derrubado por um bloco'
+  ovening:
+    name: 'Jogue no multibloco do forno de coque'

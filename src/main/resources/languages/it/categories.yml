@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'Risorse DynaTech'
+  tools: 'Strumenti DynaTech'
+  machines: 'Macchinari DynaTech'
+  apiaries: 'Apiari DynaTech'
+  experimental: 'DynaTech sperimentale'
+  generators: 'Generatori DynaTech'

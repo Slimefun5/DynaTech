@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'استخدم المغرفة للحصول على هذا العنصر.'
+  block_drop:
+    name: 'يسقط من كتلة'
+  ovening:
+    name: 'ارمه في هيكل فرن الكوك'

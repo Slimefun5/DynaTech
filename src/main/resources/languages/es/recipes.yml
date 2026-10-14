@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Usa el cazo para obtener este objeto.'
+  block_drop:
+    name: 'Se obtiene de un bloque'
+  ovening:
+    name: 'Lanzar al multibloque del horno de coque'

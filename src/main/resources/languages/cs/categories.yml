@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'Suroviny DynaTech'
+  tools: 'Nástroje DynaTech'
+  machines: 'Stroje DynaTech'
+  apiaries: 'Včelíny DynaTech'
+  experimental: 'Experimenty DynaTech'
+  generators: 'Generátory DynaTech'

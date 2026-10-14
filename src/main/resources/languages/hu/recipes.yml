@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Használd a merítőt a tárgy megszerzéséhez.'
+  block_drop:
+    name: 'Blokkból esik'
+  ovening:
+    name: 'Dobd a kokszkemence többblokkos szerkezetébe'

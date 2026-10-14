@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'DynaTech erőforrások'
+  tools: 'DynaTech eszközök'
+  machines: 'DynaTech gépek'
+  apiaries: 'DynaTech méhészetek'
+  experimental: 'DynaTech kísérleti'
+  generators: 'DynaTech generátorok'

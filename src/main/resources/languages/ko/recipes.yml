@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: '포충망을 사용해 이 아이템을 얻으세요.'
+  block_drop:
+    name: '블록에서 드롭'
+  ovening:
+    name: '코크스 가마 멀티블럭에 던져 넣기'

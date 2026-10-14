@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Bruk øsen for å få denne gjenstanden.'
+  block_drop:
+    name: 'Slippes fra en blokk'
+  ovening:
+    name: 'Kast i koksovn-multiblokken'

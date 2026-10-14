@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: '捕虫網を使って入手する。'
+  block_drop:
+    name: 'ブロックからドロップ'
+  ovening:
+    name: 'コークス炉マルチブロックに投げ入れる'

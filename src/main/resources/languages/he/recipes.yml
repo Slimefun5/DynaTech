@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'השתמשו בכף האיסוף כדי להשיג פריט זה.'
+  block_drop:
+    name: 'נופל מבלוק'
+  ovening:
+    name: 'זרקו לתוך מולטיבלוק כבשן הקוקס'

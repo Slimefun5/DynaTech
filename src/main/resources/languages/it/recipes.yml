@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Usa la paletta per ottenere questo oggetto.'
+  block_drop:
+    name: 'Rilasciato da un blocco'
+  ovening:
+    name: 'Getta nel multiblocco forno da coke'

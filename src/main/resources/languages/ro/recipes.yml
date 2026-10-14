@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Folosește Cupa pentru a obține acest obiect.'
+  block_drop:
+    name: 'Cade dintr-un bloc'
+  ovening:
+    name: 'Aruncă în multiblocul Cuptorului de Cocs'

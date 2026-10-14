@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'DynaTech-grondstoffen'
+  tools: 'DynaTech-gereedschap'
+  machines: 'DynaTech-machines'
+  apiaries: 'DynaTech-bijenstallen'
+  experimental: 'DynaTech experimenteel'
+  generators: 'DynaTech-generatoren'

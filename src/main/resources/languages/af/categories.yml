@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'DynaTech Grondstowwe'
+  tools: 'DynaTech Gereedskap'
+  machines: 'DynaTech Masjiene'
+  apiaries: 'DynaTech Byekorwe'
+  experimental: 'DynaTech Eksperimenteel'
+  generators: 'DynaTech Kragopwekkers'

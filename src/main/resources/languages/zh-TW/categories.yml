@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'DynaTech 資源'
+  tools: 'DynaTech 工具'
+  machines: 'DynaTech 機器'
+  apiaries: 'DynaTech 蜂箱'
+  experimental: 'DynaTech 實驗'
+  generators: 'DynaTech 發電機'

@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'DynaTech-resurssit'
+  tools: 'DynaTech-työkalut'
+  machines: 'DynaTech-koneet'
+  apiaries: 'DynaTech-mehiläistarhat'
+  experimental: 'DynaTech-kokeelliset'
+  generators: 'DynaTech-generaattorit'

@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Använd skopan för att få detta föremål.'
+  block_drop:
+    name: 'Faller från ett block'
+  ovening:
+    name: 'Kasta in i koksugnens multiblock'

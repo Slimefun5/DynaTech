@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Käytä kauhaa saadaksesi tämän esineen.'
+  block_drop:
+    name: 'Putoaa palikasta'
+  ovening:
+    name: 'Heitä koksiuuni-monipalikkaan'

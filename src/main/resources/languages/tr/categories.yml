@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'DynaTech Kaynakları'
+  tools: 'DynaTech Aletleri'
+  machines: 'DynaTech Makineleri'
+  apiaries: 'DynaTech Arılıkları'
+  experimental: 'DynaTech Deneysel'
+  generators: 'DynaTech Jeneratörleri'

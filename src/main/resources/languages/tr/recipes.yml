@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Bu eşyayı almak için Kepçe kullan.'
+  block_drop:
+    name: 'Bloktan düşer'
+  ovening:
+    name: 'Kok Fırını yapısına at'

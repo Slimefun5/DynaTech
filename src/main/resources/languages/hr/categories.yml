@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'DynaTech resursi'
+  tools: 'DynaTech alati'
+  machines: 'DynaTech strojevi'
+  apiaries: 'DynaTech pčelinjaci'
+  experimental: 'DynaTech eksperimentalno'
+  generators: 'DynaTech generatori'

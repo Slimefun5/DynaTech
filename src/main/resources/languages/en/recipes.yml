@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Use the Scoop to get this item.'
+  block_drop:
+    name: 'Drops from a block'
+  ovening:
+    name: 'Throw into the Coal Coke Oven multiblock'

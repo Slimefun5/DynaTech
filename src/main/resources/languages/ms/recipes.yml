@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Gunakan Penyauk untuk mendapatkan item ini.'
+  block_drop:
+    name: 'Jatuh dari blok'
+  ovening:
+    name: 'Campak ke dalam multiblok Relau Kok'

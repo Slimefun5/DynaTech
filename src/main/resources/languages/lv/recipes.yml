@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Izmanto smeļamkausu, lai iegūtu šo priekšmetu.'
+  block_drop:
+    name: 'Izkrīt no bloka'
+  ovening:
+    name: 'Iemet koksa krāsns daudzblokā'

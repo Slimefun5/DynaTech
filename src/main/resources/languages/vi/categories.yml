@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'Tài nguyên DynaTech'
+  tools: 'Dụng cụ DynaTech'
+  machines: 'Máy móc DynaTech'
+  apiaries: 'Trại ong DynaTech'
+  experimental: 'Thử nghiệm DynaTech'
+  generators: 'Máy phát điện DynaTech'

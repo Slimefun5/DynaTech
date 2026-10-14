@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'DynaTech ресурси'
+  tools: 'DynaTech алатки'
+  machines: 'DynaTech машини'
+  apiaries: 'DynaTech пчеларници'
+  experimental: 'DynaTech експериментално'
+  generators: 'DynaTech генератори'

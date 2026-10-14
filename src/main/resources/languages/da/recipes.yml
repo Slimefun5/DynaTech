@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Brug fangstnettet for at få denne genstand.'
+  block_drop:
+    name: 'Falder fra en blok'
+  ovening:
+    name: 'Kast i koksovn-multiblokken'

@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Gebruik het schepje om dit voorwerp te krijgen.'
+  block_drop:
+    name: 'Valt uit een blok'
+  ovening:
+    name: 'Gooi in de cokesoven-multiblok'

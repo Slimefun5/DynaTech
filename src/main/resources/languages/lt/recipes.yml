@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Naudok semtuvėlį, kad gautum šį daiktą.'
+  block_drop:
+    name: 'Iškrenta iš bloko'
+  ovening:
+    name: 'Įmesk į kokso krosnies daugiablokį'

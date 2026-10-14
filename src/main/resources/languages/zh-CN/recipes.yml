@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: '使用捕捉勺获取此物品。'
+  block_drop:
+    name: '方块掉落'
+  ovening:
+    name: '投入焦炭炉多方块结构'

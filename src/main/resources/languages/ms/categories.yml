@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'Sumber DynaTech'
+  tools: 'Alat DynaTech'
+  machines: 'Mesin DynaTech'
+  apiaries: 'Apiari DynaTech'
+  experimental: 'Eksperimen DynaTech'
+  generators: 'Penjana DynaTech'

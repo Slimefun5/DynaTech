@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Gunakan Serok untuk mendapatkan benda ini.'
+  block_drop:
+    name: 'Jatuh dari blok'
+  ovening:
+    name: 'Lempar ke multiblok Tungku Kokas'

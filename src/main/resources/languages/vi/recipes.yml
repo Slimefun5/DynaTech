@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Dùng Vợt để lấy vật phẩm này.'
+  block_drop:
+    name: 'Rơi ra từ khối'
+  ovening:
+    name: 'Ném vào cấu trúc đa khối Lò Than cốc'

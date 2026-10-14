@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Koristi hvatalicu za dobivanje ovog predmeta.'
+  block_drop:
+    name: 'Ispada iz bloka'
+  ovening:
+    name: 'Ubaci u višeblok koksne peći'

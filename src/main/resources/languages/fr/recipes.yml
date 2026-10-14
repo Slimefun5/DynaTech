@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Utilisez la pelle pour obtenir cet objet.'
+  block_drop:
+    name: 'Obtenu en cassant un bloc'
+  ovening:
+    name: 'Jeter dans le multibloc four à coke'

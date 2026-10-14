@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Użyj czerpaka, aby zdobyć ten przedmiot.'
+  block_drop:
+    name: 'Wypada z bloku'
+  ovening:
+    name: 'Wrzuć do multibloku pieca koksowniczego'

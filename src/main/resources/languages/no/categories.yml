@@ -1,0 +1,7 @@
+dynatech:
+  resources: 'DynaTech-ressurser'
+  tools: 'DynaTech-verktøy'
+  machines: 'DynaTech-maskiner'
+  apiaries: 'DynaTech-bigårder'
+  experimental: 'DynaTech eksperimentelt'
+  generators: 'DynaTech-generatorer'

@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: '使用撈網取得此物品。'
+  block_drop:
+    name: '方塊掉落'
+  ovening:
+    name: '丟入焦炭爐多重方塊'

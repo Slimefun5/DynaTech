@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Benutze den Kescher, um diesen Gegenstand zu erhalten.'
+  block_drop:
+    name: 'Fällt aus einem Block'
+  ovening:
+    name: 'In den Koksofen-Multiblock werfen'

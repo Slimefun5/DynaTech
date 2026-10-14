@@ -1,0 +1,7 @@
+dynatech:
+  scooping:
+    name: 'Použi naberačku na získanie tohto predmetu.'
+  block_drop:
+    name: 'Padá z bloku'
+  ovening:
+    name: 'Hoď do multibloku koksovacej pece'
