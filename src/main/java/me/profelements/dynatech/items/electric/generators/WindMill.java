@@ -60,8 +60,7 @@ public class WindMill extends SlimefunItem implements EnergyNetProvider {
             public void onPlayerBreak(BlockBreakEvent e, ItemStack item, List<ItemStack> drops) {
 
                 Location l = e.getBlock().getLocation();
-                int durability = Integer.parseInt(BlockStorage.getLocationInfo(l, dura));
-                if (durability <= 0) {
+                if (storedDurability(l) <= 0) {
 
                     e.setDropItems(false);
                     String id = BlockStorage.getLocationInfo(l, "id");
@@ -81,15 +80,16 @@ public class WindMill extends SlimefunItem implements EnergyNetProvider {
         return energyCap;
     }
 
+    private int storedDurability(Location l) {
+        String stored = BlockStorage.getLocationInfo(l, dura);
+        return stored != null ? Integer.parseInt(stored) : this.durability;
+    }
+
     @Override
     public int getGeneratedOutput(Location l, Config cfg) {
         int energy = 0;
 
-        int durability = this.durability;
-        String locDurability = BlockStorage.getLocationInfo(l, dura);
-        if (locDurability != null) {
-            durability = Integer.parseInt(BlockStorage.getLocationInfo(l, dura));
-        }
+        int durability = storedDurability(l);
 
         if (durability > 0) {
             final int y = Math.max(l.getBlockY(), 1);

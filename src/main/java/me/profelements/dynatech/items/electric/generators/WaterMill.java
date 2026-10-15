@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.data.BlockData;
 import org.bukkit.block.data.Waterlogged;
@@ -65,7 +66,7 @@ public class WaterMill extends SlimefunItem implements EnergyNetProvider {
 
                 final Location l = event.getBlock().getLocation();
                 final BlockPosition p = new BlockPosition(l);
-                int durability = durabilityMap.get(p);
+                int durability = currentDurability(l, p);
 
                 if (durability == 0) {
                     event.setDropItems(false);
@@ -89,18 +90,10 @@ public class WaterMill extends SlimefunItem implements EnergyNetProvider {
         final Block block = pos.getBlock();
         int energyAmount = 0;
 
-        int durabilityDef = this.durabilityDefault;
-        String durabilityStr = BlockStorage.getLocationInfo(l, durabilityString);
-
-        if (durabilityStr != null) {
-            durabilityDef = Integer.parseInt(durabilityStr);
-        }
-
-        int durability = durabilityMap.getOrDefault(pos, durabilityDef);
+        int durability = currentDurability(l, pos);
         boolean hasWater = hasWaterMap.getOrDefault(pos, false);
         if (DynaTech.getInstance().getTickInterval() % 600 == 0 || (durability == 2500 && hasWater == false)) {
-            if (durability > 0 && block.getType() == MaterialCompat.safe(XMaterial.COBBLESTONE_WALL)
-                    || block.getType() == MaterialCompat.safe(XMaterial.PRISMARINE_WALL)) {
+            if (durability > 0 && isMillWall(block)) {
                 final BlockData data = block.getState().getBlockData();
                 if (data instanceof Waterlogged && ((Waterlogged) data).isWaterlogged()) {
                     hasWaterMap.put(pos, true);
@@ -122,6 +115,24 @@ public class WaterMill extends SlimefunItem implements EnergyNetProvider {
         durabilityMap.put(pos, storageDurability);
 
         return energyAmount;
+    }
+
+    /**
+     * @implNote The map is in memory and only filled on tick, so after a restart, or for a mill that never
+     *           ticked, the stored value is the source of truth.
+     */
+    private int currentDurability(Location l, BlockPosition pos) {
+        Integer cached = durabilityMap.get(pos);
+        if (cached != null) {
+            return cached;
+        }
+        String stored = BlockStorage.getLocationInfo(l, durabilityString);
+        return stored != null ? Integer.parseInt(stored) : this.durabilityDefault;
+    }
+
+    private static boolean isMillWall(Block block) {
+        Material type = block.getType();
+        return type == MaterialCompat.safe(XMaterial.COBBLESTONE_WALL) || type == MaterialCompat.safe(XMaterial.PRISMARINE_WALL);
     }
 
     @Override
