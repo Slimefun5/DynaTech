@@ -8,3 +8,16 @@ petal-apothecary:
 
 tesseract:
   connected: "%item% csatlakoztatva!"
+
+angel-gem:
+  flight-on: "&7Repülés: &aBekapcsolva"
+  flight-off: "&7Repülés: &cKikapcsolva"
+  flight-speed: "&7Repülési sebesség: &f{0}"
+
+tank:
+  held-water: "&fFolyadék: &7Víz"
+  held-lava: "&fFolyadék: &7Láva"
+  held-milk: "&fFolyadék: &7Tej"
+  held-potion: "&fFolyadék: &7Bájital"
+  held-other: "&fFolyadék: &7{0}"
+  amount: "&fFolyadék mennyisége: &7{0} / {1} mb"

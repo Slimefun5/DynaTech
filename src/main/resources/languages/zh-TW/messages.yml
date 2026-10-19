@@ -8,3 +8,16 @@ petal-apothecary:
 
 tesseract:
   connected: "%item% 已連接！"
+
+angel-gem:
+  flight-on: "&7飛行: &a已啟用"
+  flight-off: "&7飛行: &c已停用"
+  flight-speed: "&7飛行速度: &f{0}"
+
+tank:
+  held-water: "&f所含流體: &7水"
+  held-lava: "&f所含流體: &7熔岩"
+  held-milk: "&f所含流體: &7牛奶"
+  held-potion: "&f所含流體: &7藥水"
+  held-other: "&f所含流體: &7{0}"
+  amount: "&f流體量: &7{0} / {1} mb"

@@ -8,3 +8,16 @@ petal-apothecary:
 
 tesseract:
   connected: "%item% חובר!"
+
+angel-gem:
+  flight-on: "&7טיסה: &aמופעלת"
+  flight-off: "&7טיסה: &cכבויה"
+  flight-speed: "&7מהירות טיסה: &f{0}"
+
+tank:
+  held-water: "&fנוזל: &7מים"
+  held-lava: "&fנוזל: &7לבה"
+  held-milk: "&fנוזל: &7חלב"
+  held-potion: "&fנוזל: &7שיקוי"
+  held-other: "&fנוזל: &7{0}"
+  amount: "&fכמות נוזל: &7{0} / {1} mb"

@@ -1,9 +1,7 @@
 package me.profelements.dynatech.fluids;
 
-import java.util.ArrayList;
 
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -25,6 +23,8 @@ import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.profelements.dynatech.utils.MaterialCompat;
 
 public class FluidTank extends SlimefunItem implements Listener {
+
+    private static final int CAPACITY = 16000;
 
     public FluidTank(ItemGroup itemGroup, SlimefunItemStack stack) {
         super(itemGroup, stack, RecipeType.NULL, new ItemStack[] {});
@@ -92,7 +92,7 @@ public class FluidTank extends SlimefunItem implements Listener {
 
         int amount = 0;
         if (handFluid == null ||
-                handFluid.fluid().equals(stack.fluid()) && handFluid.amount() < 16000) {
+                handFluid.fluid().equals(stack.fluid()) && handFluid.amount() < CAPACITY) {
 
             if (handFluid != null) {
                 amount = handFluid.amount();
@@ -106,14 +106,11 @@ public class FluidTank extends SlimefunItem implements Listener {
 
         }
 
-        if (handFluid.amount() == 16000) {
+        if (handFluid.amount() == CAPACITY) {
             event.setCancelled(true);
         }
 
-        ArrayList<String> lore = new ArrayList<>();
-        lore.add(ChatColor.WHITE + "Fluid Held: " + handFluid.fluid().toString());
-        lore.add(ChatColor.WHITE + "Fluid Amount: " + String.valueOf(handFluid.amount()));
-        handMeta.setLore(lore);
+        FluidLore.show(handMeta, handFluid.fluid().getKey(), handFluid.amount(), CAPACITY);
         handItem.setItemMeta(handMeta);
 
         event.setItemStack(handItem);
@@ -144,15 +141,9 @@ public class FluidTank extends SlimefunItem implements Listener {
             Pdc.setString(handMeta, FluidStack.FLUID_KEY, "");
             Pdc.setInt(handMeta, FluidStack.FLUID_AMOUNT_KEY, 0);
             handItem.setType(MaterialCompat.safe(XMaterial.BUCKET));
-
-            ArrayList<String> lore = new ArrayList<>();
-            handMeta.setLore(lore);
+            FluidLore.clear(handMeta);
         } else {
-
-            ArrayList<String> lore = new ArrayList<>();
-            lore.add(ChatColor.WHITE + "Fluid Held: " + handFluid.fluid().toString());
-            lore.add(ChatColor.WHITE + "Fluid Amount: " + String.valueOf(handFluid.amount()));
-            handMeta.setLore(lore);
+            FluidLore.show(handMeta, handFluid.fluid().getKey(), handFluid.amount(), CAPACITY);
         }
 
         handItem.setItemMeta(handMeta);

@@ -1,0 +1,12 @@
+angel-gem:
+  flight-on: "&7飛行: &a有効"
+  flight-off: "&7飛行: &c無効"
+  flight-speed: "&7飛行速度: &f{0}"
+
+tank:
+  held-water: "&f液体: &7水"
+  held-lava: "&f液体: &7溶岩"
+  held-milk: "&f液体: &7牛乳"
+  held-potion: "&f液体: &7ポーション"
+  held-other: "&f液体: &7{0}"
+  amount: "&f液体量: &7{0} / {1} mb"

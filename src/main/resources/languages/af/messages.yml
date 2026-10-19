@@ -8,3 +8,16 @@ petal-apothecary:
 
 tesseract:
   connected: "%item% verbind!"
+
+angel-gem:
+  flight-on: "&7Vlug: &aAangeskakel"
+  flight-off: "&7Vlug: &cAfgeskakel"
+  flight-speed: "&7Vlugspoed: &f{0}"
+
+tank:
+  held-water: "&fVloeistof: &7Water"
+  held-lava: "&fVloeistof: &7Lawa"
+  held-milk: "&fVloeistof: &7Melk"
+  held-potion: "&fVloeistof: &7Brousel"
+  held-other: "&fVloeistof: &7{0}"
+  amount: "&fHoeveelheid vloeistof: &7{0} / {1} mb"

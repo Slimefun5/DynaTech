@@ -8,3 +8,16 @@ petal-apothecary:
 
 tesseract:
   connected: "Nakakonekta ang %item%!"
+
+angel-gem:
+  flight-on: "&7Paglipad: &aNaka-on"
+  flight-off: "&7Paglipad: &cNaka-off"
+  flight-speed: "&7Bilis ng paglipad: &f{0}"
+
+tank:
+  held-water: "&fLikido: &7Tubig"
+  held-lava: "&fLikido: &7Lava"
+  held-milk: "&fLikido: &7Gatas"
+  held-potion: "&fLikido: &7Gayuma"
+  held-other: "&fLikido: &7{0}"
+  amount: "&fDami ng likido: &7{0} / {1} mb"

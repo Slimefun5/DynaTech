@@ -8,3 +8,16 @@ petal-apothecary:
 
 tesseract:
   connected: "%item% yhdistetty!"
+
+angel-gem:
+  flight-on: "&7Lento: &aPäällä"
+  flight-off: "&7Lento: &cPois"
+  flight-speed: "&7Lentonopeus: &f{0}"
+
+tank:
+  held-water: "&fNeste: &7Vesi"
+  held-lava: "&fNeste: &7Laava"
+  held-milk: "&fNeste: &7Maito"
+  held-potion: "&fNeste: &7Taikajuoma"
+  held-other: "&fNeste: &7{0}"
+  amount: "&fNesteen määrä: &7{0} / {1} mb"

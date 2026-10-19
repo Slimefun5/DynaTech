@@ -8,3 +8,16 @@ petal-apothecary:
 
 tesseract:
   connected: "%item% conectat!"
+
+angel-gem:
+  flight-on: "&7Zbor: &aActivat"
+  flight-off: "&7Zbor: &cDezactivat"
+  flight-speed: "&7Viteză de zbor: &f{0}"
+
+tank:
+  held-water: "&fLichid: &7Apă"
+  held-lava: "&fLichid: &7Lavă"
+  held-milk: "&fLichid: &7Lapte"
+  held-potion: "&fLichid: &7Poțiune"
+  held-other: "&fLichid: &7{0}"
+  amount: "&fCantitate de lichid: &7{0} / {1} mb"

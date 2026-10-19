@@ -8,3 +8,16 @@ petal-apothecary:
 
 tesseract:
   connected: "%item% tersambung!"
+
+angel-gem:
+  flight-on: "&7Terbang: &aAktif"
+  flight-off: "&7Terbang: &cNonaktif"
+  flight-speed: "&7Kecepatan terbang: &f{0}"
+
+tank:
+  held-water: "&fCairan: &7Air"
+  held-lava: "&fCairan: &7Lava"
+  held-milk: "&fCairan: &7Susu"
+  held-potion: "&fCairan: &7Ramuan"
+  held-other: "&fCairan: &7{0}"
+  amount: "&fJumlah cairan: &7{0} / {1} mb"

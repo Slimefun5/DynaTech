@@ -8,3 +8,16 @@ petal-apothecary:
 
 tesseract:
   connected: "%item% prijungtas!"
+
+angel-gem:
+  flight-on: "&7Skrydis: &aĮjungtas"
+  flight-off: "&7Skrydis: &cIšjungtas"
+  flight-speed: "&7Skrydžio greitis: &f{0}"
+
+tank:
+  held-water: "&fSkystis: &7Vanduo"
+  held-lava: "&fSkystis: &7Lava"
+  held-milk: "&fSkystis: &7Pienas"
+  held-potion: "&fSkystis: &7Eliksyras"
+  held-other: "&fSkystis: &7{0}"
+  amount: "&fSkysčio kiekis: &7{0} / {1} mb"
