@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.bukkit.block.Beehive;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockState;
 import org.bukkit.inventory.Inventory;
@@ -35,6 +34,8 @@ public class MineralizedApiary extends AbstractElectricMachine {
     private ItemStack material = new ItemStack(MaterialCompat.safe(XMaterial.AIR));
     
 
+    private static final int NO_HIVE = -1;
+
     private static final ItemStack PROGRESS_STACK = CustomItemStack.create(MaterialCompat.safe(XMaterial.BEACON), "&fINFO", "&fBee Count: {}", "&fCurrent Speed: {}");
 
 
@@ -52,13 +53,9 @@ public class MineralizedApiary extends AbstractElectricMachine {
     
     @Override
     public void tick(BlockMenu menu, Block b) {
-        BlockState state = menu.getBlock().getState(); 
-        if (state instanceof Beehive) {
-            Beehive hive = (Beehive) state;
-
-            int count = hive.getEntityCount();
-            
-            updateInfoStack(menu, count); 
+        int count = beeCount(menu.getBlock());
+        if (count != NO_HIVE) {
+            updateInfoStack(menu, count);
         }
         super.tick(menu, b);
     }
@@ -79,12 +76,8 @@ public class MineralizedApiary extends AbstractElectricMachine {
 
         MachineRecipe recipe = recipes.get(0);
     
-        BlockState state = menu.getBlock().getState(); 
-        if (state instanceof Beehive) {
-            Beehive hive = (Beehive) state;
-
-            int count = hive.getEntityCount();
-            
+        int count = beeCount(menu.getBlock());
+        if (count != NO_HIVE) {
             if (count == 1) {
                 //30 second recipe if 1 bee; 
                 return new MachineRecipe(30, new ItemStack[] { this.material }, new ItemStack[] { this.material }); 
@@ -98,6 +91,33 @@ public class MineralizedApiary extends AbstractElectricMachine {
 
     }
 
+
+    private static int beeCount(Block block) {
+        return Hives.AVAILABLE ? Hives.beeCount(block) : NO_HIVE;
+    }
+
+    /**
+     * @implNote Every {@code Beehive} reference lives here: the type exists only from 1.15, and an
+     *           {@code instanceof} against it throws {@code NoClassDefFoundError} on 1.8.
+     */
+    private static final class Hives {
+
+        static final boolean AVAILABLE = exists();
+
+        private static boolean exists() {
+            try {
+                Class.forName("org.bukkit.block.Beehive");
+                return true;
+            } catch (ClassNotFoundException absent) {
+                return false;
+            }
+        }
+
+        static int beeCount(Block block) {
+            BlockState state = block.getState();
+            return state instanceof org.bukkit.block.Beehive ? ((org.bukkit.block.Beehive) state).getEntityCount() : NO_HIVE;
+        }
+    }
 
 	@Override
 	public List<ItemStack> getDisplayRecipes() {
