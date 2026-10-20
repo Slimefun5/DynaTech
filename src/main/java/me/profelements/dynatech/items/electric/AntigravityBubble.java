@@ -28,6 +28,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.EntityCompat;
 
 public class AntigravityBubble extends AbstractElectricTicker implements Listener {
 
@@ -89,7 +90,7 @@ public class AntigravityBubble extends AbstractElectricTicker implements Listene
 
 	@Override
 	protected void tick(Block b, SlimefunItem item) {
-        Collection<Entity> bubbledEntities = b.getWorld().getNearbyEntities(b.getLocation(), 16, 16, 16, Player.class::isInstance);
+        Collection<Entity> bubbledEntities = EntityCompat.getNearbyEntities(b.getWorld(), b.getLocation(), 16, 16, 16, Player.class::isInstance);
         for (Entity entity : bubbledEntities) {
             Player p = (Player) entity; 
 

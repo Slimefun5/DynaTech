@@ -36,6 +36,7 @@ import java.util.UUID;
 import javax.annotation.Nonnull;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.profelements.dynatech.utils.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.EntityCompat;
 
 public class PotionSprinkler extends AbstractElectricTicker {
 
@@ -116,7 +117,7 @@ public class PotionSprinkler extends AbstractElectricTicker {
         if (item != null && item.getType() == MaterialCompat.safe(XMaterial.POTION) && item.hasItemMeta() && item.getItemMeta() instanceof PotionMeta) {
             PotionMeta potionMeta = (PotionMeta) item.getItemMeta();
             PotionType pt = potionMeta.getBasePotionData().getType();
-            for (Entity ent : b.getWorld().getNearbyEntities(b.getLocation(), 10, 10, 10, LivingEntity.class::isInstance)) {
+            for (Entity ent : EntityCompat.getNearbyEntities(b.getWorld(), b.getLocation(), 10, 10, 10, LivingEntity.class::isInstance)) {
                 LivingEntity p = (LivingEntity) ent;
                 if (!enabledEntities.get(b.getLocation()).contains(p.getUniqueId())) {
                     int amplifier = (!pt.isUpgradeable()) ? 1 : 0;
