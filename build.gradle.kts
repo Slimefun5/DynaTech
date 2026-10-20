@@ -18,6 +18,7 @@ dependencies {
 tasks {
     shadowJar {
         relocate("org.bstats", "dynatech.libs.bstats")
+        relocate("dev.walshy.sfmetrics", "dynatech.libs.sfmetrics")
         relocate("dev.j3fftw.extrautils", "me.profelements.dynatech.extrautils")
     }
 }
